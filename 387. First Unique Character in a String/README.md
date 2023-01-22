@@ -1,4 +1,4 @@
-https://leetcode.com/problems/first-unique-character-in-a-string/description/
+https://leetcode.com/problems/first-unique-character-in-a-string/description/ -- ПОПРОБОВАТЬ РЕШИТЬ ЧЕРЕЗ VECTOR<BOOL>
 
 Дополнительный материал:
 
