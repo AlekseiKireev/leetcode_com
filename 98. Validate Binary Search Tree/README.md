@@ -2,4 +2,4 @@
 
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png)
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png" width="500" height="500"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png" width="1500" height="500"/>
