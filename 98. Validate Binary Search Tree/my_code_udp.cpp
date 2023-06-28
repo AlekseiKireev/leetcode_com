@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // см. комментарии в my_code.cpp
 
 private:
 
