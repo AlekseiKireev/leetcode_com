@@ -14,9 +14,9 @@ private:
 
         if(root->val >= LocalMax || root->val <= LocalMin){return false;} // проверка на НЕПРАВИЛЬНЫЕ требования BST
         
-        bool f = CheckDefinition(root->left, root->val, LocalMin); // начало обхода левого поддерева
+        bool f = CheckDefinition(root->left, root->val, LocalMin); // начало обхода левого поддерева в [под]дереве
         if(!f){return f;}
-        bool s = CheckDefinition(root->right,LocalMax, root->val); // начало обхода правого поддерева
+        bool s = CheckDefinition(root->right,LocalMax, root->val); // начало обхода правого поддерева в [под]дереве
         return s; 
     }
 
