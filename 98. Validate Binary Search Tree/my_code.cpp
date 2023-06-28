@@ -7,7 +7,7 @@ private:
     TreeNode* root, 
     long long LocalMax = numeric_limits<long long>::max(), 
     long long LocalMin = numeric_limits<long long>::min()
-                        ){
+                        ){ // заметим, что для любого узла имеет место неравенство LocalMin < node < LocalMax
         
         if(root == nullptr){return true;} // если root == nullptr, значит, дошли до листа, при это ветвь дерева,
                                           //  по которой дошли до леста, удовлетворяет требованиям BST, поэтому возвращаем истину
