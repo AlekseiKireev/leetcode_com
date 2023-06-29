@@ -20,7 +20,7 @@ $x_4 = x_2 + dx$
 
 ```objectivec
 // можно ли из двумерной координаы получить уникальный id?
-bool CheckCoordinate(vector<vector<int>>& points, unordered_map<pair<int, int>, bool, pairHash> PointToExist, int cnt = x_min + x_max){
+bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, pairHash> PointToExist, const int cnt = x_min + x_max){
   for(auto point : points){
 
     if(!PointToExist[{cnt - point[0], point[1]}]){return false;}
