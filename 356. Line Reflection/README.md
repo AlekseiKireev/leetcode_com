@@ -19,6 +19,9 @@ $x_4 = x_2 + dx$
 Зная $const$, реализуем CheckCoordinate:
 
 ```objectivec
+
+int x_min = points.front().front();
+int x_max = points.back().front();
 // можно ли из двумерной координаы получить уникальный id?
 bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, pairHash> PointToExist, const int cnt = x_min + x_max){
   for(auto point : points){
