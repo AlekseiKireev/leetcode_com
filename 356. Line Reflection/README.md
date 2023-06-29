@@ -55,3 +55,49 @@ hash<int> h_i_1;
 hash<int> h_i_2;
 };
 ```
+
+Конечный код имеет вид: 
+```objectivec
+struct PairHash {
+	size_t operator()(const pair<int, int> p) const { // передавать pair<int, int> по ссылке или нет?
+
+		return (size_t)(h_i_1(p.first) * 37 * 37 + h_i_1(p.second) * 37 + 117);
+	}
+	hash<int> h_i_1;
+	hash<int> h_i_2;
+};
+
+// можно ли из двумерной координаы получить уникальный id?
+bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, PairHash>& PointToExist, const int cnt/* = x_min + x_max*/) {
+	for (auto point : points) {
+
+		if (!PointToExist[{cnt - point[0], point[1]}]) { return false; }
+	}
+	return true;
+}
+
+/*
+Если расположить PairHash ниже CheckCoordinate, то в MSVS будет ошибка: Error (active)	E0308	more than one instance of overloaded function "CheckCoordinate" matches the argument list:	
+*/
+
+bool isReflected(const vector<vector<int>>& points) {
+
+	if (points.empty()) { return true; } // проверка пустого points -- такой тест есть в тестирующей системе
+	int x_min = points.front().front();
+	int x_max = points.back().front();
+	unordered_map<pair<int, int>, bool, PairHash> PointToExist; // необходимо для реализации CheckCoordinate
+
+	for (const auto& point : points) {
+
+		const int x = point[0];
+		const int y = point[1];
+		x_min = min(x_min, x);
+		x_max = max(x_max, x);
+		if (!PointToExist[{x, y}]) { PointToExist[{x, y}] = 1; }
+
+	}
+	
+	return CheckCoordinate(points, PointToExist, x_min + x_max);
+}
+
+```
