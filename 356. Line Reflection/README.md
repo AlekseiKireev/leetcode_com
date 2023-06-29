@@ -18,6 +18,7 @@ $x_4 = x_2 + dx$
 
 Зная $const$, реализуем CheckCoordinate:
 
+// можно ли из двумерной координаы получить уникальный id
 bool CheckCoordinate(vector<vector<int>>& points, int cnt){
   for(auto point : points){
 
