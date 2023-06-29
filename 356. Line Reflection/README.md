@@ -19,11 +19,11 @@ $x_4 = x_2 + dx$
 Зная $const$, реализуем CheckCoordinate:
 
 ```objectivec
-// можно ли из двумерной координаы получить уникальный id
-bool CheckCoordinate(vector<vector<int>>& points, int cnt){
+// можно ли из двумерной координаы получить уникальный id?
+bool CheckCoordinate(vector<vector<int>>& points, unordered_map<pair<int, int>, bool, pairHash> PointToExist, int cnt){
   for(auto point : points){
 
-    if(){return false;}
+    if(!PointToExist[{cnt - point[0], point[1]}]){return false;}
   }
   return true;
 }
