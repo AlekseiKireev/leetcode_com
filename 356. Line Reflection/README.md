@@ -47,7 +47,7 @@ bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, 
 
 ```objectivec
 struct PairHash{
-size_t operator(const pair<int, int> p) const{ // передавать pair<int, int> по ссылке или нет?
+size_t operator()(const pair<int, int> p) const{ // передавать pair<int, int> по ссылке или нет?
   
   return (size_t)(h_i_1(p.first) * 37 * 37 + h_i_1(p.second) * 37 + 117);
 }
