@@ -19,7 +19,7 @@ $x_4 = x_2 + dx$
 ```objectivec
 int x_min = points.front().front();
 int x_max = points.back().front();
-unordered_map<pair<int, int>, bool, pairHash> PointToExist; // необходимо для реализации CheckCoordinate
+unordered_map<pair<int, int>, bool, PairHash> PointToExist; // необходимо для реализации CheckCoordinate
 
 for(const auto& point : points){
 
