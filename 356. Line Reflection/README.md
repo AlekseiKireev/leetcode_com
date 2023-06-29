@@ -19,13 +19,23 @@ $x_4 = x_2 + dx$
 ```objectivec
 int x_min = points.front().front();
 int x_max = points.back().front();
+unordered_map<pair<int, int>, bool, pairHash> PointToExist; // необходимо для реализации CheckCoordinate
+
+for(const auto& point : points){
+
+  const int x = point[0];
+  const int y = point[1];
+  x_min = min(x_min, x);
+  x_max = max(x_max, x);
+  if(!PointToExist[{x,y}]){++PointToExist[{x,y}];}
+}
 ```
 
 Зная $const$, реализуем CheckCoordinate:
 
 ```objectivec
 // можно ли из двумерной координаы получить уникальный id?
-bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, pairHash> PointToExist, const int cnt = x_min + x_max){
+bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, pairHash>& PointToExist, const int cnt = x_min + x_max){
   for(auto point : points){
 
     if(!PointToExist[{cnt - point[0], point[1]}]){return false;}
