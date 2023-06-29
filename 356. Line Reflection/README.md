@@ -16,12 +16,14 @@ $x_4 = x_2 + dx$
 Сложив уравнения системы, получаем уравнение: $x_3 + x_4 = x_1 + x_2 = const$ -- так как точки выбирались произвольно, то уравнение верно для любых точек, при условии, что выполняется условие задачи. 
 Чтобы найти $const$, найдем $(x_{min}, y')$, $(x_{max}, y')$ -- если такой пары не сущетсвуте, ответ на задачу false, иначе $x_{min} + x_{max}= const$
 
+```objectivec
+int x_min = points.front().front();
+int x_max = points.back().front();
+```
+
 Зная $const$, реализуем CheckCoordinate:
 
 ```objectivec
-
-int x_min = points.front().front();
-int x_max = points.back().front();
 // можно ли из двумерной координаы получить уникальный id?
 bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, pairHash> PointToExist, const int cnt = x_min + x_max){
   for(auto point : points){
