@@ -4,9 +4,9 @@
 , что они удовлетворяют как условию задачи, так и $x_1 < x_3$, $x_2 < x_4$. Тогда имеет место система: 
 
 
-$x_1 = x_3 - dx$
+$x_3 = x_1 - dx$
 
-$x_2 = x_4 + dx$
+$x_4 = x_2 + dx$
 
 
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/for_356_leetcode_1.png)
