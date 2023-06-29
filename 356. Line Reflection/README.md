@@ -35,7 +35,7 @@ for(const auto& point : points){
 
 ```objectivec
 // можно ли из двумерной координаы получить уникальный id?
-bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, PairHash>& PointToExist, const int cnt = x_min + x_max){
+bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, PairHash>& PointToExist, const int cnt/* = x_min + x_max*/){
   for(auto point : points){
 
     if(!PointToExist[{cnt - point[0], point[1]}]){return false;}
