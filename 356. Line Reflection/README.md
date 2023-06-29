@@ -9,3 +9,4 @@ $x_1 = x_3 - dx$
 $x_2 = x_4 + dx$
 
 
+![]([https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png](https://github.com/SkosMartren/useful-materials/blob/main/for_356_leetcode_1.png)https://github.com/SkosMartren/useful-materials/blob/main/for_356_leetcode_1.png)
