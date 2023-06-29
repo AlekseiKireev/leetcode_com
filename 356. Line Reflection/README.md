@@ -9,5 +9,5 @@ $x_3 = x_1 - dx$
 $x_4 = x_2 + dx$
 
 
-Геометрическая интерпретация системы
+Геометрическая интерпретация системы:
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/for_356_leetcode_1.png)
