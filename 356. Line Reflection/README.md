@@ -15,3 +15,13 @@ $x_4 = x_2 + dx$
 
 Сложив уравнения системы, получаем уравнение: $x_3 + x_4 = x_1 + x_2 = const$ -- так как точки выбирались произвольно, то уравнение верно для любых точек, при условии, что выполняется условие задачи. 
 Чтобы найти $const$, найдем $(x_{min}, y')$, $(x_{max}, y')$ -- если такой пары не сущетсвуте, ответ на задачу false, иначе $x_{min} + x_{max}= const$
+
+Зная $const$, реализуем CheckCoordinate:
+
+bool CheckCoordinate(vector<vector<int>>& points, int cnt){
+  for(auto point : points){
+
+    if(){return false;}
+  }
+  return true;
+}
