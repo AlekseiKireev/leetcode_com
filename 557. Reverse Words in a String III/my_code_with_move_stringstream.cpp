@@ -4,7 +4,7 @@ public:
         stringstream ss(move(s));
         
 
-        string ans;
+        string ans; ans.reserve(s.size());
         string buffer;
         while(ss >> buffer){
             reverse(buffer.begin(), buffer.end());
