@@ -5,3 +5,6 @@
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png)
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png" width="1500" height="500"/>
+
+
+у этой задачи есть ещё одно решение - обходим дерево inorder (можно рекурсивно, можно нерекурсивно) и проверяем, что ключи на пути обхода строго возрастают.
