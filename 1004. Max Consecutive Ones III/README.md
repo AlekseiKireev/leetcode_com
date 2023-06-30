@@ -1,7 +1,7 @@
 F L, [7/1/2023 1:00 AM]
 Друзья, почему если в коде
 
-'''objective
+'''objectivec
    int longestOnes(vector<int>& A, int K) {
 
         int i = 0; int j = 0;
