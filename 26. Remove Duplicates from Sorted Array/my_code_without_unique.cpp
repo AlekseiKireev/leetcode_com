@@ -1,0 +1,16 @@
+    int removeDuplicates(vector<int>& nums) {
+
+        long long CountDuplicates = 0;
+        for(int i = 1; i < nums.size();++i){
+
+            if(nums[i] != nums[i-1]){
+                // 1 2 3 3 3 4 5 6 6 7 --> 1 2 3 4 5 6 6 7 --> 1 2 3 4 5 6 7 
+                nums[i-CountDuplicates] = nums[i]; // 1 3 2 2 4 5 --> 1 3 2 4 5
+            }
+            else{ //nums[i] == nums[i-1]
+                ++CountDuplicates;
+            }
+        }
+
+        return nums.size() - CountDuplicates;
+    }
