@@ -6,8 +6,7 @@ private:
 
     int prev_node;
 
-    bool CheckDefinition(
-    TreeNode* root){
+    bool CheckDefinition(TreeNode* root){
         
         if(root == nullptr){return true;}
         
