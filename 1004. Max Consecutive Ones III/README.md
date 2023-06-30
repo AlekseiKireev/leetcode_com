@@ -1,7 +1,7 @@
 F L, [7/1/2023 1:00 AM]
 Друзья, почему если в коде
 
-'''objectivec
+```objectivec
    int longestOnes(vector<int>& A, int K) {
 
         int i = 0; int j = 0;
@@ -15,7 +15,8 @@ F L, [7/1/2023 1:00 AM]
         return j - i;
 
     }
-'''
+```
+
 заменить строку 
 if (K < 0 && A[i++] == 0) {K++;}
 на
