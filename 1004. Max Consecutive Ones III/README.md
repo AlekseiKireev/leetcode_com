@@ -36,6 +36,8 @@ Dmitriy, [7/1/2023 1:03 AM]
 ну это же не одно и тоже
 в первом ты всегда увеличиваешь i, если только K<0, во втором только если K<0 и A[i] == 0
 
+__________________________________________
+
 
 For everyone who is confused about how this method works like I used to be, here is my explanation of the solution:
 
