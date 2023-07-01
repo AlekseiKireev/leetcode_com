@@ -14,7 +14,7 @@ private:
         if(!f){return f;}
 
         if(flag && prev_node >= root->val){return false;}
-        else{prev_node = root->val;flag = 1;}
+        else{prev_node = root->val;flag = 1;} // инициализируем самым левым листком значение prev_node. Ожидается, что в таком случае prev_node = min({all val TreeNode})
 
         bool s = CheckDefinition(root->right);
         return s;
