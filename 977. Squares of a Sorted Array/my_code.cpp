@@ -1,8 +1,7 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        
-        
+               
         int i = nums.size() - 1;
         vector<int>  ans(nums.size());
 
@@ -11,15 +10,14 @@ public:
             if(abs(nums[LeftBorderWindow]) > abs(nums[RightBorderWindow])){ // локальный максимум в nums из диапозона индексов [LeftBorderWindow, RightBorderWindow] находится в крайнем левой стороне окна
 
                 ans[i] = nums[LeftBorderWindow] * nums[LeftBorderWindow];
-                --i;
                 ++LeftBorderWindow;
 
             }else{ // abs(nums[LeftBorderWindow ]) <= abs(nums[RightBorderWindow])
-                ans[i] = nums[RightBorderWindow ] * nums[RightBorderWindow];
-                --i;
-                --RightBorderWindow;
                 
+                ans[i] = nums[RightBorderWindow ] * nums[RightBorderWindow];
+                --RightBorderWindow;
             }
+            --i;
         }
 
         return ans;
