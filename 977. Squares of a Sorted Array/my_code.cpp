@@ -6,18 +6,18 @@ public:
         int i = nums.size() - 1;
         vector<int>  ans(nums.size());
 
-        for(int l = 0, r = nums.size() - 1; l <= r;){ // l != r -- error!
+        for(int LeftBorderWindow  = 0, RightBorderWindow  = nums.size() - 1; LeftBorderWindow <= RightBorderWindow ;){ // l != r -- error!
             
-            if(abs(nums[l]) > abs(nums[r])){
+            if(abs(nums[LeftBorderWindow]) > abs(nums[RightBorderWindow])){ // локальный максимум в nums из диапозона индексов [LeftBorderWindow, RightBorderWindow] находится в крайнем левой стороне окна
 
-                ans[i] = nums[l] * nums[l];
+                ans[i] = nums[LeftBorderWindow] * nums[LeftBorderWindow];
                 --i;
-                ++l;
+                ++LeftBorderWindow;
 
-            }else{ // abs(nums[l]) <= abs(nums[r])
-                ans[i] = nums[r] * nums[r];
+            }else{ // abs(nums[LeftBorderWindow ]) <= abs(nums[RightBorderWindow])
+                ans[i] = nums[RightBorderWindow ] * nums[RightBorderWindow];
                 --i;
-                --r;
+                --RightBorderWindow;
                 
             }
         }
