@@ -2,14 +2,14 @@ class Solution {
 public:
     int compress(vector<char>& chars) {
   
-        int ans = 0;
+        int NewLength = 0;
 
         for(int i = 0; i < chars.size() ; ++i){
             
             int count = 1; // 1, так как учитываем prev_char
             char prev_char = chars[i]; 
-            chars[ans] = prev_char;
-            ++ans; // инкрементируем, так как учитываем prev_char
+            chars[NewLength] = prev_char;
+            ++NewLength; // инкрементируем, так как учитываем prev_char
 
 
             while(i+1 < chars.size() && prev_char == chars[i+1]){
@@ -24,15 +24,15 @@ public:
 
                 for(const char ch : to_string(count)){
                     
-                    chars[ans] = ch;
-                    ++ans;
-                    // equiv: chars[ans++] = ch;
+                    chars[NewLength] = ch;
+                    ++NewLength;
+                    // equiv: chars[NewLength++] = ch;
                 }
 
             }
 
         }
 
-        return ans;
+        return NewLength;
     }
 };
