@@ -28,6 +28,10 @@ public:
         }
 
         cout << L_Idx_Longest_Subarray << ' ' << R_Idx_Longest_Subarray; // искомое окно, длину которого ищем, находится в диапозоне [L_Idx, R_Idx - CountUpdZero]
-        return Ans - CountUpdZero;
+        return Ans - CountUpdZero;/* 
+                                    так как использовалось решение из https://leetcode.com/problems/max-consecutive-ones-iii/description/ 
+                                    в котором вместо удаления заменяется элемент, то в предложенном решении этой задачи
+                                    как-бы заменили один ноль (k = 1) на единицу, а потом его (ноль, обращенный в единицу) удалили
+                                    */
     }
 };
