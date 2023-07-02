@@ -4,7 +4,6 @@ public:
         
         unordered_map<string, vector<string>> SortStrToAnagrams;
         
-
         for(string& str : strs){
             
             string CopyStr = str;
@@ -13,10 +12,7 @@ public:
         }
 
         vector<vector<string>> ans;ans.reserve(SortStrToAnagrams.size());
-        for(auto [Key, Anagrams] : SortStrToAnagrams){
-
-            ans.push_back(move(Anagrams));
-        }
+        for(auto [Key, Anagrams] : SortStrToAnagrams){ans.push_back(move(Anagrams));}
 
         return ans;
 
