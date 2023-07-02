@@ -10,7 +10,10 @@ public:
         if(root == nullptr){return;}
 
         Inorder(root->left, low, high);
+
         if(low<= root->val && root->val <= high){ans+= root->val;}
+        if(root->val > high){return;} // эта строка учитывает информацию о том, что дано BST -- при inorder обходе значения в узлах образуют возрастающую последовательность
+
         Inorder(root->right, low, high);
     }
 
