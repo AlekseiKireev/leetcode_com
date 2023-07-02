@@ -29,7 +29,7 @@ val = x + (y-1) * 7;
 то Pair будет заполнен { $1,2,3,4,5,6,7,8,9,10$ }
 
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/470_1.png" width="1000" height="500"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/470_1.png" width="800" height="500"/>
 
 ___________________
 
