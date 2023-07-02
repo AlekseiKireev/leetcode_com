@@ -20,15 +20,18 @@ public:
 			for(; l < r && !isalnum(s[r]); --r);
 
 			*/
-			
+
+			// "...converting all uppercase letters into lowercase letters..."
 			if (tolower(s[l]) != tolower(s[r])) { return false; }
-			++l; --r;
+			++l; --r; // очередной сдвиг окна
 
 			/* //equiv:
    
    			while(isalnum(s[l]) && isalnum(s[r])){
+      
+      			// "...converting all uppercase letters into lowercase letters..."
 			if (tolower(s[l]) != tolower(s[r])) { return false; }
-			++l; --r;
+			++l; --r; // очередной сдвиг окна
 			}
    			
       			*/
