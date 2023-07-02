@@ -20,8 +20,18 @@ public:
 			for(; l < r && !isalnum(s[r]); --r);
 
 			*/
+			
 			if (tolower(s[l]) != tolower(s[r])) { return false; }
 			++l; --r;
+
+			/* //equiv:
+   
+   			while(isalnum(s[l]) && isalnum(s[r])){
+			if (tolower(s[l]) != tolower(s[r])) { return false; }
+			++l; --r;
+			}
+   			
+      			*/
 
 		}
 
