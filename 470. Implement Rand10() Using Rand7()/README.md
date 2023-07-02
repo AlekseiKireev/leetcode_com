@@ -27,6 +27,10 @@ val = x + (y-1) * 7;
 
 Если пройдемся по таблице и от каждого val возьмем остаток от деления на 10, то Pair будет заполнен { $0,1,2,3,4,5,6,7,8,9$ }. Если прибавим 1 к каждому val 
 то Pair будет заполнен { $1,2,3,4,5,6,7,8,9,10$ }
+
+
+<img src="[https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png](https://github.com/SkosMartren/useful-materials/blob/main/470_1.png)" width="1500" height="500"/>
+
 ___________________
 
 Отметим, что данная задачу можно обобщить на произвольные randN() и randM()
