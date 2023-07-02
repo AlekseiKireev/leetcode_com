@@ -5,10 +5,11 @@ public:
         int NewLength = 0;
 
         for(int i = 0; i < chars.size() ; ++i){
-            
-            int count = 1; // 1, так как учитываем prev_char
+
             char prev_char = chars[i]; 
             chars[NewLength] = prev_char;
+            
+            int count = 1; // 1, так как учитываем prev_char
             ++NewLength; // инкрементируем, так как учитываем prev_char
 
 
