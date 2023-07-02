@@ -22,7 +22,7 @@ public:
                 
             }
 
-
+            // используем тот факт, что |substr| < |substr.size()|, где |*| -- функция, возвращающая длину строки *
             if(CountRepeat > 1){
 
                 for(const char ch : to_string(CountRepeat)){
