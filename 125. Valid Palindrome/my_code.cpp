@@ -1,29 +1,30 @@
 class Solution {
 public:
-bool isPalindrome(string s) {
+	bool isPalindrome(string s) {
 
-	int l = 0;
-	int r = s.size() - 1;
+		int l = 0;
+		int r = s.size() - 1;
 
-	while (l < r) {
+		while (l < r) {
 
-    // отрбрасываем 
-		while (l < r && !isalnum(s[l])) {++l;}
+			// отрбрасываем от левой границы окна символы, отличные от чисел / алфавитных символов нижнего и верхнего регистра. Например: ' ', ':', '%' и т.д.
+			while (l < r && !isalnum(s[l])) { ++l; }
 
-		while (l < r && !isalnum(s[r])) {--r;}
+			// отрбрасываем от правой границы окна символы, отличные от чисел / алфавитных символов нижнего и верхнего регистра. Например: ' ', ':', '%' и т.д.
+			while (l < r && !isalnum(s[r])) { --r; }
 
-    /* // equiv:
+			/* // equiv:
 
-    for(; l < r && !isalnum(s[l]); ++l);
+			for(; l < r && !isalnum(s[l]); ++l);
 
-		for(; l < r && !isalnum(s[r]); --r);
-    
-    */
-		if (tolower(s[l]) != tolower(s[r])) { return false; }
-		++l; --r;
+			for(; l < r && !isalnum(s[r]); --r);
 
+			*/
+			if (tolower(s[l]) != tolower(s[r])) { return false; }
+			++l; --r;
+
+		}
+
+		return true;
 	}
-
-	return true;
-}
 };
