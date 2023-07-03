@@ -2,13 +2,13 @@ class Solution {
 public:
     bool isSubsequence(string s, string t) {
         
-        int check_idx_s = 0;
-        for(int i = 0; i< t.size();++i){
+        int S_Idx = 0;
+        for(int T_Idx = 0; T_Idx < t.size(); ++T_Idx){
             
-            if(s[check_idx_s]  == t[i]){++check_idx_s;}
-            if(check_idx_s == s.size()){return true;}
+            if(s[S_Idx]  == t[T_Idx]){++S_Idx;}
+            if(S_Idx == s.size()){return true;}
         }
-        if(check_idx_s == s.size()){return true;}
+        if(S_Idx == s.size()){return true;}
         return false;
     }
 };
