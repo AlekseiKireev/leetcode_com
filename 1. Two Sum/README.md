@@ -23,6 +23,6 @@ nums = {5,7,8,7}
 
 Здесь 
 
-NumbToIdx.count(complement) -- проврека, что существует [не ограничивая общности] nums[j] ля nums[i] 
+NumbToIdx.count(complement) -- проврека, что существует [не ограничивая общности] nums[j] для nums[i] 
 
-$NumbToIdx[complement] != idx$ нужно не только для того, чтобы избежать  случай  target = 14 = nums[1] + nums[1]
+$NumbToIdx[complement] != idx$ нужно не только для того, чтобы избежать  случай  target = 14 = nums[1] + nums[1], но и использовать nums[j] такой, что он равен nums[i]
