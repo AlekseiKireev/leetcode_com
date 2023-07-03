@@ -7,6 +7,7 @@ public:
     }
 };
 
+// более оптимальный аналог
 /*
 class Solution {
 public:
