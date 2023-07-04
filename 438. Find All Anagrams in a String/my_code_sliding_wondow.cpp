@@ -20,7 +20,7 @@ public:
         vector<int> CharAngrToCount(26, 0); // анаграмма, которой должно соответ-ть window
 
         for(int i = 0; i < Angr_len; ++i){
-            // s and p consist of lowercase English letters.
+            // "s and p consist of lowercase English letters."
             ++CharSToCount[S[i] - 'a'];
             ++CharAngrToCount[Angr[i] - 'a'];
         }
