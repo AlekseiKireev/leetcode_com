@@ -17,9 +17,9 @@ public:
 
 
         vector<int> CharSToCount(26, 0); // == window. Контейнер содержит символы и их количество, лежащие в окне строки S длиной Angr_len
-        vector<int> CharAngrToCount(26, 0); // анаграмма, которой должно соответ-ть window
+        vector<int> CharAngrToCount(26, 0); // базовая анаграмма, которой должно соответ-ть window
 
-        for(int i = 0; i < Angr_len; ++i){
+        for(int i = 0; i < Angr_len; ++i){ // заполнение базовой анаграммы и стартового окна, т.е. window = {S[0], ..., S[Angr_len - 1]}
             // "s and p consist of lowercase English letters."
             ++CharSToCount[S[i] - 'a'];
             ++CharAngrToCount[Angr[i] - 'a'];
