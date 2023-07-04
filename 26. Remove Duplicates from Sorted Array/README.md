@@ -1,8 +1,7 @@
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
 Ме Бэ, [7/4/2023 1:46 AM]
-Друзья, а зачем в Possible implementation
- (https://en.cppreference.com/w/cpp/algorithm/unique)в
+Друзья, а зачем в Possible implementation (https://en.cppreference.com/w/cpp/algorithm/unique) в
 
 unique (1)
 ```objectives
