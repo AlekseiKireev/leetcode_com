@@ -21,7 +21,7 @@ public:
 
         for(int i = 0; i < Angr_len; ++i){ // заполнение базовой анаграммы и стартового окна, т.е. window = {S[0], ..., S[Angr_len - 1]}
             // "s and p consist of lowercase English letters."
-            ++CharSToCount[S[i] - 'a'];
+            ++CharSToCount[S[i] - 'a']; // S[i] - 'a' -- отображение "lowercase English letters" в число от 0 до 25
             ++CharAngrToCount[Angr[i] - 'a'];
         }
 
