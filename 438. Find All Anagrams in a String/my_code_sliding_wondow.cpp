@@ -15,7 +15,7 @@ public:
 
         if(S_len < Angr_len){return {};} // необходимо для 20 / 65 testcases passed
 
-        // вместо vector по хорошему бы использовать array
+        // вместо vector по хорошему бы использовать array в связке с fill
         vector<int> CharSToCount(26, 0); // == window. Контейнер содержит символы и их количество, лежащие в окне строки S длиной Angr_len
         vector<int> CharAngrToCount(26, 0); // базовая анаграмма, которой должно соответ-ть window
 
