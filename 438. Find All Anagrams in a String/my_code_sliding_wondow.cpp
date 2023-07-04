@@ -36,7 +36,8 @@ public:
                                                // Теперь самый левый индекс window имеет значение i - Angr_len + 1 -- аналог сдвига левокго указателя
             ++CharSToCount[S[i]-'a']; // добавляем элемет с индексом i в window. 
 
-            if(CharSToCount == CharAngrToCount){Idxs.push_back(i - Angr_len + 1);}
+            //window = {S[i - Angr_len + 1], ..., S[i]} --> |window| == i - (i - Angr_len + 1) + 1 == Angr_len -- так и должно быть
+            if(CharSToCount == CharAngrToCount){Idxs.push_back(i - Angr_len + 1);} // i - Angr_len + 1 -- левый указатель на window
         }
 
         return Idxs;
