@@ -16,7 +16,7 @@ public:
         if(S_len < Angr_len){return {};} // необходимо для 20 / 65 testcases passed
 
 
-        vector<int> CharSToCount(26, 0); // == window
+        vector<int> CharSToCount(26, 0); // == window. Контейнер содержит символы и их количество, лежащие в окне строки S длиной Angr_len
         vector<int> CharAngrToCount(26, 0); 
 
         for(int i = 0; i < Angr_len; ++i){
@@ -32,8 +32,8 @@ public:
         
         for(int i = Angr_len; i < S_len; ++i){
 
-            --CharSToCount[S[i-Angr_len]-'a'];
-            ++CharSToCount[S[i]-'a'];
+            --CharSToCount[S[i-Angr_len]-'a']; // удаляем элемет с индексом i-Angr_len. 
+            ++CharSToCount[S[i]-'a']; // 
 
             if(CharSToCount == CharAngrToCount){Idxs.push_back(i-Angr_len + 1);}
         }
