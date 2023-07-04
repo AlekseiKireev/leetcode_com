@@ -17,7 +17,7 @@ public:
 
 
         vector<int> CharSToCount(26, 0); // == window. Контейнер содержит символы и их количество, лежащие в окне строки S длиной Angr_len
-        vector<int> CharAngrToCount(26, 0); 
+        vector<int> CharAngrToCount(26, 0); // анаграмма, которой должно соответ-ть window
 
         for(int i = 0; i < Angr_len; ++i){
             // s and p consist of lowercase English letters.
@@ -32,10 +32,11 @@ public:
         
         for(int i = Angr_len; i < S_len; ++i){
 
-            --CharSToCount[S[i-Angr_len]-'a']; // удаляем элемет с индексом i-Angr_len. 
-            ++CharSToCount[S[i]-'a']; // 
+            --CharSToCount[S[i-Angr_len]-'a']; // удаляем элемет с индексом i-Angr_len в window. 
+                                               // Теперь самый левый индекс window имеет значение i - Angr_len + 1 -- аналог сдвига левокго указателя
+            ++CharSToCount[S[i]-'a']; // добавляем элемет с индексом i в window. 
 
-            if(CharSToCount == CharAngrToCount){Idxs.push_back(i-Angr_len + 1);}
+            if(CharSToCount == CharAngrToCount){Idxs.push_back(i - Angr_len + 1);}
         }
 
         return Idxs;
