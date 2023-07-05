@@ -1,6 +1,6 @@
 https://leetcode.com/problems/generate-parentheses/description/
 
-https://walkccc.me/LeetCode/problems/0022/
+https://walkccc.me/LeetCode/problems/0022/ -- аналог 22a.cpp
 
 
 
