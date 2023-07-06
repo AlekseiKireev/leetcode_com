@@ -2,6 +2,8 @@
 |:----:	|:-----:	|----	|----	|--------	|----	|-----	|
 | nums 	|   15  	| 16 	| 17 	| 18     	| 19 	| end 	|
 |      	| ^  csa    |    	|    	| ^ vsvs 	|    	|     	|
+
+ааыфа  йй
 _____________________
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
