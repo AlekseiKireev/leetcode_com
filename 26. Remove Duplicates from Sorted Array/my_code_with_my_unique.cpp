@@ -8,7 +8,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
     if (first == last) {return last;} // check for empty nums
  
     ForwardIt result = first; // result в конечном итоге должен указывать на такой итератор, что слева от result лежат все уникальные значения из {first, ..., prev(last)}
-    for (;first != last; ++first){ // first = prev(end(nums)) -- extreme values for first
+    for (;first != last; ++first){ 
        
         if ((*result != *first)) {
             ++result;
