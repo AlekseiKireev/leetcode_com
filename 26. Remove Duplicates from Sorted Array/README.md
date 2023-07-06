@@ -15,9 +15,23 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
-Ожидается для заданого nums, что в конечном итоге result = last. Достаточно естественно ожидать, что в UNIQUE необходим цикл с шагом 1 по {first, ..., last}. 
+Ожидается для заданого nums, что в конечном итоге result = last. Достаточно естественно ожидать, что в UNIQUE необходим цикл с шагом 1 по {first, ..., last}.  
+Напишем самый тривиальный: 
 
+```objectives
+ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
+    
+    if (first == last) {return last;} 
+ 
+    ForwardIt result = first;
+    for (;first != last; ++first){
+        
+    }
+    ...
+}
+```
 
+<p align="center"> Пример 1 состояние 2 </p>
 
 _____________________
 
