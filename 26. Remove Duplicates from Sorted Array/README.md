@@ -78,7 +78,9 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 |      	|  |    	|    	|    	|    	| ^ <br> last <br>	result <br> first 	|
 
 Достаточно естественно ожидать, что в UNIQUE необходим цикл с шагом 1 по {first, ..., last}.  
-Напишем самый тривиальный [надо же с чего-то начать]: 
+Напишем самый тривиальный [надо же с чего-то начать] цикл и заметим, что на основе пример 1 и таблицы уонечного состояния примера 2 можно утверждать, что возвращаемое значение будет иметь вид: return ++result;  
+
+Запишем код:
 
 ```objectives
 ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
