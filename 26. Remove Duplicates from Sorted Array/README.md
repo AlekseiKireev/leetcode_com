@@ -99,6 +99,13 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 
 <p align="center"> Пример 2 состояние 2 </p>
 
+Выполним одну итерацию цикла:
+
+|  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
+|:----:	|:-------:	|----	|----	|----	|----	|--------	|
+| nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
+|      	|  <br>	result |  ^ <br> first  	|    	|    	|    	| ^ <br> last 	|
+
 _____________________
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
