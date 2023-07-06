@@ -15,7 +15,7 @@ public:
 
                 while(r < s.size() && s[l] == s[r]){++r;}
 
-                LenSub = max(LenSub, r - l); // почему не r - l + 1? Потому что r указывает за "substring that contains only one unique character."
+                LenSub = max(LenSub, r - l); // почему не r - l + 1? Потому что r указывает за "substring that contains only one unique character.", то есть последовательность зажата в [l, r)
 
                 l = r - 1; // "- 1" так как после выхода их if значение l инкрементируется в цикле for, при этом в начале следующей итреации цикла l должен быть на том месте, где с прошлой итерации остался r указатель         
                 }
