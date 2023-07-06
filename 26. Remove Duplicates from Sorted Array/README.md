@@ -1,9 +1,18 @@
+```objectives
+ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
+    
+    if (first == last) {return last;} 
+ 
+    ForwardIt result = first;
+    ...
+}
+/*
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
-
----->
+*/
+```
 _____________________
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
