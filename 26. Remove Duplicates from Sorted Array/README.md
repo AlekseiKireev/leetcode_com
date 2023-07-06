@@ -13,7 +13,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
-<p style="text-align: center;"> Centered text </p>
+<p class="center">Пример текста с выравниваем по центру</p>
 
 _____________________
 
