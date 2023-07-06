@@ -7,15 +7,16 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
     ...
 }
 ```
+<p align="center"> Пример 1 состояние 1 </p>
 
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
-<div align="left">Конструктор сайтов "Нубекс"</div>
-<p align="center">Конструктор сайтов "Нубекс"</p>
-<p align="right">Конструктор сайтов "Нубекс"</p>
+
+
+
 
 _____________________
 
