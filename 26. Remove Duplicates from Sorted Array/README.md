@@ -13,9 +13,9 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
+<div align="left">Конструктор сайтов "Нубекс"</div>
 <p align="center">Конструктор сайтов "Нубекс"</p>
 <p align="right">Конструктор сайтов "Нубекс"</p>
-<div align="left">Конструктор сайтов "Нубекс"</div>
 
 _____________________
 
