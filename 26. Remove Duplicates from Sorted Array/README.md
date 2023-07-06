@@ -13,7 +13,8 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
-<p class="center">Пример текста с выравниваем по центру</p>
+<p align="right">Конструктор сайтов "Нубекс"</p>
+<div align="left">Конструктор сайтов "Нубекс"</div>
 
 _____________________
 
