@@ -1,4 +1,7 @@
-
+|  idx 	|   0   	| 1  	| 2  	| 3      	| 4  	| 5   	|
+|:----:	|:-----:	|----	|----	|--------	|----	|-----	|
+| nums 	|   15  	| 16 	| 17 	| 18     	| 19 	| end 	|
+|      	| ^ csa 	|    	|    	| ^ vsvs 	|    	|     	|
 _____________________
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
