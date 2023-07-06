@@ -1,4 +1,4 @@
-https://leetcode.com/problems/valid-anagram/description/
+https://leetcode.com/problems/valid-anagram/description/ -- написать самому решение из 438 и в 438 написать асимптотику!
 
 У Федора Меньшикова разбор отсут-т!
 
