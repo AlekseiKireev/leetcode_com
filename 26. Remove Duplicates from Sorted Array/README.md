@@ -1,3 +1,5 @@
+<p align="center"> Пример 1 состояние 1 </p>
+
 ```objectives
 ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
     
@@ -7,14 +9,13 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
     ...
 }
 ```
-<p align="center"> Пример 1 состояние 1 </p>
 
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
-
+Ожидается для заданого nums, что в конечном итоге result = last. Достаточно естественно ожидать, что в UNIQUE необходим цикл с шагом 1 по {first, ..., last}. 
 
 
 
