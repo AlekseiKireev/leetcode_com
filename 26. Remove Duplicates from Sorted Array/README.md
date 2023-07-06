@@ -68,14 +68,14 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
-|      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
+|   iterators   	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
 Ожидается для заданого nums, что в конечном итоге result = last, а конечное состояние будет иметь вид:  
 
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
-|      	|  |    	|    	|    	|    	| ^ <br> last <br>	result <br> first 	|
+|   iterators   	|  |    	|    	|    	|    	| ^ <br> last <br>	result <br> first 	|
 
 Достаточно естественно ожидать, что в UNIQUE необходим цикл с шагом 1 по {first, ..., last}.  
 Напишем самый тривиальный [надо же с чего-то начать] цикл и заметим, что на основе пример 1 и таблицы конечного  
@@ -104,7 +104,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
-|      	| ^ <br> result |  ^ <br> first  	|    	|    	|    	| ^ <br> last 	|
+|   iterators   	| ^ <br> result |  ^ <br> first  	|    	|    	|    	| ^ <br> last 	|
 
 _____________________
 
