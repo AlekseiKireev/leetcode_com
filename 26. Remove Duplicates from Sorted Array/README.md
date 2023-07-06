@@ -106,6 +106,35 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |   iterators   	| ^ <br> result |  ^ <br> first  	|    	|    	|    	| ^ <br> last 	|
 
+Так как знаем желаемый результат, ожидаемо, что к концу итерации состояиние должно иметь вид: 
+
+|  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
+|:----:	|:-------:	|----	|----	|----	|----	|--------	|
+| nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
+|   iterators   	|  |  ^ <br> first  <br> result 	|    	|    	|    	| ^ <br> last 	|
+
+при этом, если result == first, то result не двигается [см. пример 1], иначе же [как видно из Пример 2 состояние 2] сдвигается.  
+Запишем это условие в коде:
+
+```objectives
+ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
+    
+    if (first == last) {return last;} 
+ 
+    ForwardIt result = first;
+    for (;first != last; ++first){
+        if ((*result != *first)) {
+            ++result;
+            *result = move(*first);
+        }
+    }
+    
+    return ++result;
+}
+```
+
+При проверке кода выясняем, что он работает.
+
 _____________________
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
