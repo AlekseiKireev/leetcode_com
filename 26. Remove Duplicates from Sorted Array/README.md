@@ -77,7 +77,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
-|      	|  |    	|    	|    	|  ^ <br> first   	| ^ <br> last <br>	result	|
+|      	|  |    	|    	|    	|    	| ^ <br> last <br>	result <br> first 	|
 
 Достаточно естественно ожидать, что в UNIQUE необходим цикл с шагом 1 по {first, ..., last}.  
 Напишем самый тривиальный [надо же с чего-то начать]: 
