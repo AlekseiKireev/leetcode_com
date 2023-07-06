@@ -13,7 +13,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first <br>	result |    	|    	|    	|    	| ^ <br> last 	|
 
-<!-- center code math uml theme:white -->
+<!-- center мымы -->
 _____________________
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
