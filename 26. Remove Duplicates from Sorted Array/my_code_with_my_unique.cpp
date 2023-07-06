@@ -26,3 +26,21 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
         
     }
 };
+
+// clear:
+/*
+template<class ForwardIt>
+ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
+    
+    if (first == last) {return last;} 
+ 
+    ForwardIt result = first;
+    for (;first != last; ++first){
+        if ((*result != *first)) {*(++result) = move(*first);}
+    }
+ 
+    return ++result;
+}
+
+    int removeDuplicates(vector<int>& nums) {return UNIQUE(begin(nums), end(nums)) - begin(nums);}
+*/
