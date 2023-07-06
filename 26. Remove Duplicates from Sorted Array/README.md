@@ -23,7 +23,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 |      	|  |    	|    	|    	|  ^ <br> first   	| ^ <br> last <br>	result	|
 
 Достаточно естественно ожидать, что в UNIQUE необходим цикл с шагом 1 по {first, ..., last}.  
-Напишем самый тривиальный: 
+Напишем самый тривиальный [надо же с чего-то начать]: 
 
 ```objectives
 ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
