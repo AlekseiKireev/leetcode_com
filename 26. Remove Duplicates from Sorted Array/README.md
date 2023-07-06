@@ -89,9 +89,10 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
  
     ForwardIt result = first;
     for (;first != last; ++first){
-        
+    ...
     }
     ...
+    return ++result;
 }
 ```
 
