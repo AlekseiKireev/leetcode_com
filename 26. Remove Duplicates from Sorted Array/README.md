@@ -104,7 +104,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 |  idx 	|    0    	| 1  	| 2  	| 3  	| 4  	| 5      	|
 |:----:	|:-------:	|----	|----	|----	|----	|--------	|
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
-|      	|  <br>	result |  ^ <br> first  	|    	|    	|    	| ^ <br> last 	|
+|      	| ^ <br> result |  ^ <br> first  	|    	|    	|    	| ^ <br> last 	|
 
 _____________________
 
