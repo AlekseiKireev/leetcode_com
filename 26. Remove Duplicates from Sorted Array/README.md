@@ -1,3 +1,5 @@
+# Алгоритм для my_code_with_my_unique.cpp
+
 <p align="center"> Пример 1 </p>
 
 |  idx 	|             0             	| 1  	| 2  	| 3  	| 4  	| 5            	|
