@@ -9,7 +9,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
     ForwardIt result = first;
     for (;first != last; ++first){
        
-        if ((*result != *first) /*&& (++result != first)*/) {
+        if ((*result != *first)) {
             ++result;
             *result = move(*first);
         }
