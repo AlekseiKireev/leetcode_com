@@ -1,4 +1,4 @@
-# Алгоритм для my_code_with_my_unique.cpp
+#  <p align="center"> Алгоритм для my_code_with_my_unique.cpp </p>
 
 ## <p align="center"> Пример 1 </p>
 
@@ -54,7 +54,7 @@
 |      	|  	|    	|    	|   ^   <br> result  	|    	| ^  <br> last  <br> first 	|
 
 
-<p align="center"> Пример 2 состояние 1 </p>
+## <p align="center"> Пример 2 состояние 1 </p>
 
 
 ```objectives
@@ -99,7 +99,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 }
 ```
 
-<p align="center"> Пример 2 состояние 2 </p>
+## <p align="center"> Пример 2 состояние 2 </p>
 
 Выполним одну итерацию цикла:
 
