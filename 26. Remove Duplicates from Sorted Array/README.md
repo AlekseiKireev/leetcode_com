@@ -1,5 +1,12 @@
 <p align="center"> Пример 1 состояние 1 </p>
 
+|  idx 	|             0             	| 1  	| 2  	| 3  	| 4  	| 5            	|
+|:----:	|:-------------------------:	|----	|----	|----	|----	|--------------	|
+| nums 	|             23            	| 23 	| 23 	| 24 	| 24 	| end          	|
+|      	| ^  <br> first <br> result 	|    	|    	|    	|    	| ^  <br> last 	|
+
+<p align="center"> Пример 2 состояние 1 </p>
+
 ```objectives
 ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
     
@@ -38,7 +45,7 @@ ForwardIt UNIQUE(ForwardIt first, ForwardIt last) {
 }
 ```
 
-<p align="center"> Пример 1 состояние 2 </p>
+<p align="center"> Пример 2 состояние 2 </p>
 
 _____________________
 
