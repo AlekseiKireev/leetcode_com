@@ -3,7 +3,7 @@
 | nums 	|    15   	| 16 	| 17 	| 18 	| 19 	| end    	|
 |      	| ^ <br> first 	|    	|    	|    	|    	| ^ <br> last 	|
 
-
+---->
 _____________________
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
