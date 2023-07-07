@@ -8,12 +8,13 @@
 
 <p align="center"> 86 / 98 testcases  </p>
 
-|   	| 0 	| а[i]                        	|
-|:-:	|:-:	|-----------------------------	|
-| 0 	| 0 	| sum(а[0]..а[i])             	|
-| 0 	| 0 	| sum(а[0]..а[i]) % k, k == 1 	|
+|          	| 0        	|             а[i]            	|
+|----------	|----------	|:---------------------------:	|
+| 0        	| 0        	| sum(а[0]..а[i])             	|
+| 0        	| 0        	| sum(а[0]..а[i]) % k, k == 1 	|
+| ^ <br> l 	| ^ <br> r 	|                             	|
 
-Expected: false
+Expected: false <-- "length is at least two"
 
 <p align="center"> 90 / 98 testcases </p>
 
