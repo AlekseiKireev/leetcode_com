@@ -1,3 +1,5 @@
+sum[L,R] = sum[R] - sum[L-1]
+
 <p align="center"> Пример 0 </p>
 
 |   	|     1    	| 2 	| 3 	| 4        	| 5  	| а[i]                         	|
@@ -33,7 +35,7 @@ Expected: false <-- "length is at least two"
 | 0 	|     1    	| 1        	| sum(а[0]..а[i]) % k, k == 2 	|
 |   	| ^ <br> l 	| ^ <br> r 	|                             	|
 
-Expected: false <-- "length is at least two"
+Expected: false  
 
 _____________________
 
