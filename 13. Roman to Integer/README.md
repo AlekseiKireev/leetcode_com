@@ -30,3 +30,4 @@ C can be placed before D (500) and M (1000) to make 400 and 900.
 
 1. $... F \geqslant G \geqslant H \geqslant K ...$
 2. $... F \geqslant GH \geqslant K...$
+3. $... F  G \geqslant H  K ...$
