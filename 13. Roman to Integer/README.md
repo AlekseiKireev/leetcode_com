@@ -17,7 +17,7 @@ $L \geqslant V \geqslant I \geqslant I \geqslant I$ --> output: $L + V + I + I +
 Example 3
 
 s = "MCMXCIV"  
-$M \geqslant CM \geqslant XC \geqslant IV$
+$M \geqslant CM \geqslant XC \geqslant IV$ --> output: $M + (M - C) + (C - X) + (V - I) = M + C + (M - 2C) + X + (C - 2X) + I + (V - 2I) =  M + C + M+ X + C+ I + V - 2(C + X + I)$
 
 __________
 
