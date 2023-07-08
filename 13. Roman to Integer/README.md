@@ -19,6 +19,7 @@ Example 3
 s = "MCMXCIV"  
 $M \geqslant CM \geqslant XC \geqslant IV$
 
+__________
 
 Ввиду условия:
 
