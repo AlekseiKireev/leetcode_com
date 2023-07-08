@@ -4,6 +4,17 @@ https://leetcode.com/problems/roman-to-integer/description/
 
 ___________
 
+Example 1
+
+s = "III"  
+$I \geqslant I \geqslant I$
+
 Example 2
 
+s = "LVIII"   
 $L \geqslant V \geqslant I \geqslant I \geqslant I$
+
+Example 3
+
+s = "MCMXCIV"  
+$ M CMXCIV$
