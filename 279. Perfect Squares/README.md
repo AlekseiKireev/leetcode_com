@@ -1,6 +1,6 @@
 https://leetcode.com/problems/perfect-squares/
 
-https://walkccc.me/LeetCode/problems/0279/
+https://walkccc.me/LeetCode/problems/0279/ -- аналог 279b.cpp
 
 [Разбор задачи 279 leetcode.com Perfect Squares. Решение на C++](https://www.youtube.com/watch?v=yUqNob_zPIg)
 
