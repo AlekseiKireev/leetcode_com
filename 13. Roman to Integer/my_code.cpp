@@ -21,7 +21,7 @@ public:
             
             ans += val;
             
-            if(val > prev){ans -= 2 * prev;}
+            if(prev < val){ans -= 2 * prev;}
 
             prev = val;
         }
