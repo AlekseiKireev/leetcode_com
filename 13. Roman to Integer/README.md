@@ -17,4 +17,4 @@ $L \geqslant V \geqslant I \geqslant I \geqslant I$
 Example 3
 
 s = "MCMXCIV"  
-$ M CMXCIV$
+$M CMXCIV$
