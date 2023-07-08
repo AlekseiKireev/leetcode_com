@@ -30,5 +30,5 @@ C can be placed before D (500) and M (1000) to make 400 and 900.
 Можно утверждать, что для шаблонного римского числа "... FGHK ..." может быть такая расстановка:  
 
 1. $... F \geqslant G \geqslant H \geqslant K ...$ --> output: $... + F + G + H + K + ...$  
-2. $... F \geqslant GH \geqslant K...$ --> output: $... + F  + H - G + K + ... = ... + F + G + H + K - 2(G) ...$, где $G \leqslant H$  
-3. $... F  G \geqslant H  K ...$ --> output: $... G - F + K - H = ... + F + G + H + K - 2(F + H)...$
+2. $... F \geqslant GH \geqslant K...$ --> output: $... + F  + H - G + K + ... = ... + F + G + H + K - 2(G) ...$, где $G < H$  
+3. $... F  G \geqslant H  K ...$ --> output: $... G - F + K - H = ... + F + G + H + K - 2(F + H)...$, где $F < G$ и $H < K$
