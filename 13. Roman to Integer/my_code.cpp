@@ -15,8 +15,8 @@ public:
        int ans = 0;
        int prey = romanToValue[s[0]]; 
 
-       for (char c : s) {
-           int value = romanToValue[c];
+       for (const char c : s) {
+           const int value = romanToValue[c];
          
            if (value <= prey) { 
                ans += value;
