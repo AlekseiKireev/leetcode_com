@@ -1,5 +1,9 @@
 class Solution {
 public:
+    /*
+    string_view эффективнее const string&, например, в случае вызова: romanToInt("MCMXCIV") -- 
+    в этом случае при использовании string_view не будет выделятся динамическая память 
+    */
     int romanToInt(string_view s) { 
 
        unordered_map<char, int> romanToValue = {
