@@ -7,12 +7,12 @@ ___________
 Example 1
 
 s = "III"  
-$I \geqslant I \geqslant I$
+$I \geqslant I \geqslant I$ --> output: $I + I + I = 1 + 1 + 1 = 3$
 
 Example 2
 
 s = "LVIII"   
-$L \geqslant V \geqslant I \geqslant I \geqslant I$
+$L \geqslant V \geqslant I \geqslant I \geqslant I$ --> output: $L + V + I + I + I = 50 + 5 + 1 + 1 + 1 = 58$
 
 Example 3
 
