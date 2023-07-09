@@ -8,10 +8,9 @@ public:
 
 		for (int i = 1; i < N + 1; ++i) {
 
-			int cube = 1;
 			int step_cube = 1;
 
-			while (cube <= i) {
+			for (int cube = 1; cube <= i; ++step_cube) {
 
 				if (cube == i) { DP[i] = 1; break; }
 				if (DP[i] > DP[i - cube] + 1) { DP[i] = DP[i - cube] + 1; } // ищем наиболее оптимальные предшестчвующие кубические разложения для DP[i] 
@@ -20,13 +19,10 @@ public:
 				array<int, power_indicator> foo;
 				foo.fill(step_cube);
 				cube = accumulate(foo.begin(), foo.end(), 1, multiplies<int>());
-				++step_cube;
+
 			}
 		}
 
 		return DP.back();
 	}
 };
-/*
-Решение не самое оптимальное по времени, но обобщеное, в чем можно удостовериться, например, на этом решении: https://contest.yandex.ru/contest/45469/problems/21/
-*/
