@@ -16,7 +16,7 @@ public:
 				if (cube == i) { DP[i] = 1; break; }
 				if (DP[i] > DP[i - cube] + 1) { DP[i] = DP[i - cube] + 1; } // ищем наиболее оптимальные предшестчвующие кубические разложения для DP[i] 
 
-				const int power_indicator = 2; // 2 -- степенной показатель, при замене его на число k, получаем решение для k-ых степеней
+				const int power_indicator = 2; // 2 -- степенной показатель, обусловленный условием задачи. При замене его на число k, получаем решение для k-ых степеней
 				array<int, power_indicator> foo;
 				foo.fill(step_cube);
 				cube = accumulate(foo.begin(), foo.end(), 1, multiplies<int>());
