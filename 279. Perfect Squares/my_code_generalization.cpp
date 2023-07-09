@@ -26,3 +26,6 @@ public:
 		return DP.back();
 	}
 };
+/*
+https://contest.yandex.ru/contest/45469/problems/21/ -- аналогичная задача для const int power_indicator = 3;
+*/
