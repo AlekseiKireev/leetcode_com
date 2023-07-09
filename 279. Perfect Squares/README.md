@@ -6,6 +6,36 @@ https://walkccc.me/LeetCode/problems/0279/ -- аналог 279b.cpp
 
 Аналог: https://contest.yandex.ru/contest/45469/problems/21/
 
+```objectives
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main() {
+
+	int N;
+	cin >> N;
+
+	if (N < 8) { cout << N; return 0; }
+
+	vector<int> DP(N+1, 101); // DP[i] == наименьшее число слагаемых в кубическом разложении числа i : i \in |N --> искомое == DP.back()
+	DP[0] = 0;
+
+     for (int sum = 1; sum <= N; sum++) {
+       for (int first = 1; first * first * first <= sum; first++) { // first * first <= sum <-->  0 <= sum - first * first -- что используется далее в nSq[sum - first * first]
+         
+         // min -- по условию задачи
+         DP[sum] = min(DP[sum],  DP[sum - first * first * first] + 1 );   // "+ 1" обусловлен тем, что из "sum - first * first" можно получить "sum" 
+         // добавлением одного perfect square = first * first -- значит количество слагаемых увеличивается на 1
+         
+       } 
+    }
+
+
+	cout << DP.back();
+}
+```
 _______________________
 
 0. Наивное решение.
