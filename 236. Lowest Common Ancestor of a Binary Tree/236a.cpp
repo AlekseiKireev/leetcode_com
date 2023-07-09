@@ -1,0 +1,45 @@
+class Solution {
+
+  void visit(
+    TreeNode* node,
+    TreeNode* p,
+    TreeNode* q,
+    bool &pFound,
+    bool &qFound,
+    TreeNode*& lca
+  ) {
+    if (node == nullptr) {
+     return;
+    }
+    if (pFound && qFound) {
+     return;
+    }
+    bool foundBefore = pFound || qFound;
+    if (node == p) {
+     pFound = true;
+    }
+    if (node == q) {
+     qFound = true;
+    }
+    visit(node->left, p, q, pFound, qFound, lca);
+    visit(node->right, p, q, pFound, qFound, lca);
+    if (lca == nullptr && pFound && qFound && !foundBefore) { 
+     lca = node;
+    }
+  }
+
+public:
+
+
+  TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) { 
+    assert(p != nullptr);
+    assert(q != nullptr); 
+    assert(p != q);
+    bool pFound = false; 
+    bool qFound = false; 
+    TreeNode* lca = nullptr;
+    visit(root, p, q, pFound, qFound, lca);
+    assert(lca != nullptr); 
+    return lca;
+    }
+  };
