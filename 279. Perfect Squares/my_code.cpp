@@ -14,6 +14,7 @@ public:
 
 				if (square == i) { DP[i] = 1; break; } // i является точным квадратом = (step_square - 1)^2
 				
+				// Аналог:  DP[i] = min(DP[i],  DP[i - square] + 1 );
 				if (DP[i] > DP[i - square] + 1) { DP[i] = DP[i - square] + 1; } // ищем наиболее оптимальные предшестчвующие кубические разложения для DP[i] 
 
 				//обновляем square
