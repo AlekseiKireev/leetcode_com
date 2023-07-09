@@ -13,7 +13,7 @@ public:
          
          // min -- по условию задачи
          nSq[sum] = min(nSq[sum],  nSq[sum - first * first] + 1 );   // "+ 1" обусловлен тем, что из "sum - first * first" можно получить "sum" 
-         // добавлением одного perfect square = first * first -- значит количество слагаемых увеличивается на 1
+         // добавлением одного perfect square = first * first -- значит количество слагаемых увеличивается на 1 в сравнении с nSq[sum - first * first]
          
        } 
     }
