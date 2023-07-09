@@ -16,7 +16,8 @@ class Solution {
     
     int ans = 5;
     for (int first = 1; first * first <= n; first++) {
-      ans = min(ans, 1 + numSquares(n - first * first, rem - 1));
+      ans = min(ans, 1 + numSquares(n - first * first, rem - 1)); // проверяем, можно ли разложить число n - first * first в сумму rem - 1 слагаемых точных квадратов 
+      // "1 + " необходим, так как numSquares возвращает количество слагаемых, в которое разлагается n - first * first, то есть "first * first" -- то самое слагаемое
     }
 
     return ans;
