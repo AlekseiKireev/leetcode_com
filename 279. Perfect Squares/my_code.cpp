@@ -12,9 +12,11 @@ public:
 			
 			for (int step_square = 1; square <= i; ++step_square) {
 
-				if (square == i) { DP[i] = 1; break; }
+				if (square == i) { DP[i] = 1; break; } // i является точным квадратом = (step_square - 1)^2
+				
 				if (DP[i] > DP[i - square] + 1) { DP[i] = DP[i - square] + 1; } // ищем наиболее оптимальные предшестчвующие кубические разложения для DP[i] 
 
+				//обновляем square
 				const int power_indicator = 2; // 2 -- степенной показатель, обусловленный условием задачи. При замене его на число k, получаем решение для k-ых степеней
 				
          			 square = 1;
