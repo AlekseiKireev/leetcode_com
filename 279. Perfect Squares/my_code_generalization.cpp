@@ -7,10 +7,10 @@ public:
 		DP[0] = 0; // виртуальнео разложение, необходимо чтобы далее удобно работать в натуральных числах
 
 		for (int i = 1; i < N + 1; ++i) {
-
-			int step_cube = 1;
-
-			for (int cube = 1; cube <= i; ++step_cube) {
+			
+			int cube = 1
+			
+			for (int step_cube = 1; cube <= i; ++step_cube) {
 
 				if (cube == i) { DP[i] = 1; break; }
 				if (DP[i] > DP[i - cube] + 1) { DP[i] = DP[i - cube] + 1; } // ищем наиболее оптимальные предшестчвующие кубические разложения для DP[i] 
