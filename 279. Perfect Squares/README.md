@@ -1,3 +1,7 @@
+my_code.cppпо сути аналог 279b.cpp, просто более раписаный, обобщенный
+
+________
+
 https://leetcode.com/problems/perfect-squares/
 
 https://walkccc.me/LeetCode/problems/0279/ -- аналог 279b.cpp
