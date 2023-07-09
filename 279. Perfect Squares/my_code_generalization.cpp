@@ -17,11 +17,8 @@ public:
 
 				const int power_indicator = 2; // 2 -- степенной показатель, обусловленный условием задачи. При замене его на число k, получаем решение для k-ых степеней
 				
-				// for (int idx = 0; idx < power_indicator; ++idx) {cube *= step_cube;}// почему это ошибочно, если заменить эту строку вместо 3-х ниженаписанных
-				
-				array<int, power_indicator> foo;
-				foo.fill(step_cube);
-				cube = accumulate(foo.begin(), foo.end(), 1, multiplies<int>());
+         			 cube = 1;
+				 for (int idx = 0; idx < power_indicator; ++idx) {cube *= step_cube;}
 
 			}
 		}
