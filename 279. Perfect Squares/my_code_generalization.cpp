@@ -8,7 +8,7 @@ public:
 
 		for (int i = 1; i < N + 1; ++i) {
 			
-			int cube = 1
+			int cube = 1;
 			
 			for (int step_cube = 1; cube <= i; ++step_cube) {
 
