@@ -10,7 +10,11 @@ public:
 
      for (int sum = 1; sum <= n; sum++) {
        for (int first = 1; first * first <= sum; first++) { // first * first <= sum <-->  0 <= sum - first * first -- что используется далее в nSq[sum - first * first]
-         nSq[sum] = min(nSq[sum], 1 + nSq[sum - first * first]);  
+         
+         // min -- по условию задачи
+         nSq[sum] = min(nSq[sum],  nSq[sum - first * first] + 1 );   // "+ 1" обусловлен тем, что из "sum - first * first" можно получить "sum" 
+         // добавлением одного perfect square = first * first -- значит количество слагаемых увеличивается на 1
+         
        } 
     }
    return nSq[n];
