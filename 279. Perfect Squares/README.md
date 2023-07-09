@@ -4,6 +4,8 @@ https://walkccc.me/LeetCode/problems/0279/ -- аналог 279b.cpp
 
 [Разбор задачи 279 leetcode.com Perfect Squares. Решение на C++](https://www.youtube.com/watch?v=yUqNob_zPIg)
 
+Аналог: https://contest.yandex.ru/contest/45469/problems/21/
+
 _______________________
 
 0. Наивное решение.
