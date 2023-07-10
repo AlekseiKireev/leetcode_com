@@ -13,7 +13,7 @@ class Solution {
     
     if (pFound && qFound) {return;}
     
-    bool foundBefore = pFound || qFound;
+    bool foundBefore = pFound || qFound; // было ли хоть что-то найдено до этого
     
     if (node == p) {pFound = true;}
     if (node == q) {qFound = true;}
