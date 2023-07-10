@@ -11,7 +11,7 @@ public:
           ia++;
        } else if (b[ib] < a[ia]) {
           ib++;
-       } else {
+       } else { // a[ia] == b[ib]
           ans.push_back(a[ia]);
           ia++; 
           ib++;
