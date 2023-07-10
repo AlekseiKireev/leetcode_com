@@ -1,5 +1,6 @@
 class Solution {
 
+  // решение проходит по вершинам в порядке preorder
   void visit(
     TreeNode* node,
     TreeNode* p,
