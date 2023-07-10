@@ -8,6 +8,7 @@ https://en.cppreference.com/w/cpp/algorithm/set_intersection
 
 350a.cpp - unordered_map  
 350d.cpp - Two Pointers  
+350e.cpp - UserHashTable
 _______________
 
 1. unordered_тар или самописная хэш-таблица.
