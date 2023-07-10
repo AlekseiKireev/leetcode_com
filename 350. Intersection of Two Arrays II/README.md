@@ -41,7 +41,7 @@ O(min(size(nums1), size(nums2))) по памяти.
 
 Разбухание всего в 2 раза.
 
-Время: O((minSize + maxSize) * 1og(minSize))
+Время: O((minSize + maxSize) * log(minSize))
 
 Память: O(minSize)
 
