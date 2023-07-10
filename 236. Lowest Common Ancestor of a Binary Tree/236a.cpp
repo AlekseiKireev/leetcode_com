@@ -8,24 +8,20 @@ class Solution {
     bool &qFound,
     TreeNode*& lca
   ) {
-    if (node == nullptr) {
-     return;
-    }
-    if (pFound && qFound) {
-     return;
-    }
+    
+    if (node == nullptr) {return;}
+    
+    if (pFound && qFound) {return;}
+    
     bool foundBefore = pFound || qFound;
-    if (node == p) {
-     pFound = true;
-    }
-    if (node == q) {
-     qFound = true;
-    }
+    
+    if (node == p) {pFound = true;}
+    if (node == q) {qFound = true;}
+    
     visit(node->left, p, q, pFound, qFound, lca);
     visit(node->right, p, q, pFound, qFound, lca);
-    if (lca == nullptr && pFound && qFound && !foundBefore) { 
-     lca = node;
-    }
+    
+    if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;}
   }
 
 public:
