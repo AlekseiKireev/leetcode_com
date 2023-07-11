@@ -10,7 +10,7 @@ upper_bound.cpp - upper_bound
 
 704b.cpp
 
-704c.cpp
+704c.cpp - это читабельнее 704b.cpp и ближе к lower_bound по реализации  
 
 _______________
 
