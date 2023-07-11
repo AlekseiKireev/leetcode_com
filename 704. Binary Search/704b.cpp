@@ -13,7 +13,7 @@ int search(const vector<int>& a, int target) {
 
     int left = 0;
 
-    int right = (int)a.size() - 1;
+    int right = (int)a.size() - 1; // чтобы на пустом массиве нормально отбработал, кастуем к int: (int)a.size() - 1, иначе -- переполнение
 
     // answer maybe in [left; right]
 
