@@ -40,4 +40,7 @@ target = 7
 |      	|  	  |      ^    	| lower_bound 	|
 
 
-На основе примеров можно утвнрждать, что если существует auto ItCheck = prev(ranges::upper_bound(nums, target)), то надо проверить на истиность *ItCheck == target -- если истино, возвращаем индекс, иначе возвращаем -1
+На основе примеров можно утвнрждать, что если существует auto ItCheck = prev(ranges::upper_bound(nums, target)), то надо проверить на истиность *ItCheck == target -- если истино, возвращаем индекс, иначе возвращаем -1.  
+Потенциальная проблема -- ranges::upper_bound(nums, target) = nums.begin()  --> на ItCheck словим исключение out of range. Чтобы этого ибежать, перейдем к индексам сразу: 
+ const int idx = upper_bound(nums.begin(), nums.end(), target) - nums.begin() - 1; -- где "- 1" выполняет операцию, аналогичную prev
+
