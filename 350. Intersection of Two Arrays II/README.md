@@ -5,7 +5,7 @@ https://walkccc.me/LeetCode/problems/0350/
 [Разбор задачи 350 leetcode.com Intersection of Two Arrays II. Решение на C++](https://www.youtube.com/watch?v=QgsZ3BI1Xc8&ab_channel=3.5%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D0%B2%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8E)
 
 350a.cpp - unordered_map  
-350b.cpp - Binary Search / lower_bound - it != pairs.end() && it->num == v заменить на https://en.cppreference.com/w/cpp/algorithm/binary_search  
+350b.cpp - Binary Search / lower_bound  
 350c.cpp - Binary Search / lower_bound - UPD 350b.cpp  
 350d.cpp - Two Pointers == аналогичное решение в https://en.cppreference.com/w/cpp/algorithm/set_intersection - только на итераторах  
 350e.cpp - UserHashTable
