@@ -9,3 +9,29 @@ upper_bound.cpp - upper_bound
 704b.cpp
 
 704c.cpp
+
+_______________
+
+
+target = 3
+
+| void 	| 5 	| nums.end() 	|     nums    	|
+|------	|---	|------------	|:-----------:	|
+|      	|  ^	|           	| upper_bound 	|
+|      	|  ^ 	|            	| lower_bound 	|
+
+
+target = 5
+
+| void 	| 5 	| nums.end() 	|     nums    	|
+|------	|---	|------------	|:-----------:	|
+|      	|   	|      ^     	| upper_bound 	|
+|      	| ^ 	|            	| lower_bound 	|
+
+
+target = 7
+
+| void 	| 5 	| nums.end() 	|     nums    	|
+|------	|---	|------------	|:-----------:	|
+|      	|   	|      ^     	| upper_bound 	|
+|      	|  	  |      ^    	| lower_bound 	|
