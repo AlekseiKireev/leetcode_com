@@ -35,6 +35,9 @@ target = 7
 
 | void 	| nums.begin() 	| nums.end() 	|     nums_it 	|
 |------	|---	|------------	|:-----------:	|
-|   	  | 5 	|     	      |            	  |
+|   	  | 5 	|     	      |      nums   	|
 |      	|   	|      ^     	| upper_bound 	|
 |      	|  	  |      ^    	| lower_bound 	|
+
+
+На основе примеров можно утвнрждать, что если существует auto ItCheck = prev(ranges::upper_bound(nums, target)), то надо проверить на истиность *ItCheck == target -- если истино, возвращаем индекс, иначе возвращаем -1
