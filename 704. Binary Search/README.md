@@ -15,7 +15,8 @@ _______________
 
 target = 3
 
-| void 	| 5 	| nums.end() 	|     nums    	|
+| void 	| nums.begin() 	| nums.end() 	|     nums_it 	|
+|     	| 5 	|            	|     nums    	|
 |------	|---	|------------	|:-----------:	|
 |      	|  ^	|           	| upper_bound 	|
 |      	|  ^ 	|            	| lower_bound 	|
@@ -23,7 +24,8 @@ target = 3
 
 target = 5
 
-| void 	| 5 	| nums.end() 	|     nums    	|
+| void 	| nums.begin() 	| nums.end() 	|     nums_it 	|
+|     	| 5 	|   	        |     nums    	|
 |------	|---	|------------	|:-----------:	|
 |      	|   	|      ^     	| upper_bound 	|
 |      	| ^ 	|            	| lower_bound 	|
@@ -31,7 +33,8 @@ target = 5
 
 target = 7
 
-| void 	| 5 	| nums.end() 	|     nums    	|
+| void 	| nums.begin() 	| nums.end() 	|     nums_it 	|
+|   	| 5 	|     	|            	|
 |------	|---	|------------	|:-----------:	|
 |      	|   	|      ^     	| upper_bound 	|
 |      	|  	  |      ^    	| lower_bound 	|
