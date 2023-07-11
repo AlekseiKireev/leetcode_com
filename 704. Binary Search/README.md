@@ -4,6 +4,8 @@ https://leetcode.com/problems/binary-search/description/
 
 Аналог: https://contest.yandex.ru/contest/27844/problems/A/
 
+[АиСД S01E05. Двоичный поиск](https://www.youtube.com/watch?v=9Wjzf8KKvYQ&ab_channel=PavelMavrin) - примечательны первые 20 минут
+
 upper_bound.cpp - upper_bound
 
 704a.cpp - lower_bound
