@@ -1,5 +1,6 @@
 class Solution {
 
+// без этой лямбды ~36ms будет затрачено на чтение тестовых данных!
 const int ZERO = [](){
 
     ios_base::sync_with_stdio(false);
