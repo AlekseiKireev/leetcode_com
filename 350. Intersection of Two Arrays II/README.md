@@ -6,7 +6,7 @@ https://walkccc.me/LeetCode/problems/0350/
 
 350a.cpp - unordered_map  
 350b.cpp - Binary Search / lower_bound  
-350c.cpp - Binary Search / lower_bound  
+350c.cpp - Binary Search / lower_bound - UPD 350b.cpp  
 350d.cpp - Two Pointers == аналогичное решение в https://en.cppreference.com/w/cpp/algorithm/set_intersection - только на итераторах  
 350e.cpp - UserHashTable
 _______________
