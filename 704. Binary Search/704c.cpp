@@ -19,7 +19,7 @@ int search(const vector<int>& a, int target) {
   while (left + 1 < right) {
     int mid = (left + right) / 2;
 
-    if (a[mid] >= target) {
+    if (target <= a[mid]) {
       right = mid;
     } else {
       left = mid;
