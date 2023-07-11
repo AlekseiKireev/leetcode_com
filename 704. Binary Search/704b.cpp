@@ -31,7 +31,7 @@ int search(const vector<int>& a, int target) {
             right = mid - 1;
 
         }
-        else {
+        else { // target == a[mid]
 
             return mid;
 
