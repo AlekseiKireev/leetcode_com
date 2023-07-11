@@ -23,3 +23,29 @@ public:
    }
 
 };
+
+/*
+class Solution {
+public:
+    vector<int> intersect(vector<int>& ArrayMinSize, vector<int>& ArrayMaxSize) {
+        
+        if(ArrayMinSize.size() > ArrayMaxSize.size()){
+            return intersect(ArrayMaxSize, ArrayMinSize);
+        }
+
+        unordered_map<int, long long> NumToCount;
+
+        for(int num : ArrayMinSize){++NumToCount[num];}
+        
+        vector<int> ArrayIntersection;
+        for(int num : ArrayMaxSize){
+            
+            if(NumToCount[num]-- > 0){
+                ArrayIntersection.push_back(num); // "return the result in any order"
+            }
+        }
+
+        return ArrayIntersection;
+    }
+};
+*/
