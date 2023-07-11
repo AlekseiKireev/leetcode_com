@@ -15,8 +15,8 @@ int search(const vector<int>& a, int target) {
   // left и right -- противоположные инварианты: left < target, right >= target
   int left = -1;
   int right = (int)a.size();
-  // a[left] < target, a[right] >= target 
 
+  // примечательно также то, что данная реализация будет работать для пустого массива
   while (left + 1 < right) {
     int mid = (left + right) / 2;
 
