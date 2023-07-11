@@ -21,6 +21,7 @@ public:
 
      vector<int> ans;
      for (int v : b) {
+        
         auto it = lower_bound(
            pairs.begin(),
            pairs.end(),
@@ -34,6 +35,7 @@ public:
            ans.push_back(v);
             it->present = false;
         }
+        
      }
      return ans;
   }
