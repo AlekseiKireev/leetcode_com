@@ -2,6 +2,8 @@ https://leetcode.com/problems/binary-search/description/
 
 [Разбор задачи 704 leetcode.com Binary Search. Решение на C++](https://www.youtube.com/watch?v=VL30zBhwjMQ)
 
+Аналог: https://contest.yandex.ru/contest/27844/problems/A/
+
 upper_bound.cpp - upper_bound
 
 704a.cpp - lower_bound
