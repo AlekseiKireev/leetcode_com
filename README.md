@@ -31,16 +31,16 @@ https://wiki.algocode.ru/index.php?title=%D0%A3%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0
 
 Дядь Слав, а можно вопрос, а то сам ответ не нашел... почему при сдаче алго задач исплользуют связку 
 
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    ios_base::sync_with_stdio(false);  
+    cin.tie(nullptr);  
 
 но не используют cout.tie(nullptr);
 
 
-И в чем разница между
-    ios_base::sync_with_stdio(false);
-и 
-    ios::sync_with_stdio(false);
+И в чем разница между  
+    ios_base::sync_with_stdio(false);  
+и   
+    ios::sync_with_stdio(false);  
 
 в док-и (https://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio) исполь-я 2 варинат, а в алго-х задачах решатели часто используют 1
 
