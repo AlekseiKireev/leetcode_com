@@ -6,4 +6,4 @@ https://walkccc.me/LeetCode/problems/0404/
 
 ______
 
-Можно сделать аналогичную задачу: 404. Sum of Right Leaves
+Можно сделать аналогичную задачу: Sum of Right Leaves
