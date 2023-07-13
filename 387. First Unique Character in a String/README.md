@@ -1,4 +1,6 @@
-https://leetcode.com/problems/first-unique-character-in-a-string/description/ -- ПОПРОБОВАТЬ РЕШИТЬ ЧЕРЕЗ VECTOR<BOOL>
+https://leetcode.com/problems/first-unique-character-in-a-string/description/
+
+Алгоритм решения: два прохода, сортировка подсчетом
 
 Дополнительный материал:
 
