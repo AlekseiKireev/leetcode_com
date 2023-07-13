@@ -1,25 +1,25 @@
 class Solution {
 public:
-    string addStrings(string_view al, string_view a2) {
+    string addStrings(const string & a1, const string & a2) {//string addStrings(string_view a1, string_view a2) { // good!
 
         string res; 
-        res.reserve(max(al.size(), a2.size()) + 1); 
+        res.reserve(max(a1.size(), a2.size()) + 1); 
 
         int carry = 0; // перенос из младшего разряда в старший
 
-        int i1 = (int)al.size() - 1; 
+        int i1 = (int)a1.size() - 1; 
         int i2 = (int)a2.size() - 1; 
 
         while (i1 >= 0 || i2 >= 0 || carry > 0) { 
 
-        if (i1 >= 0) { 
-            carry += al[i1] - '0'; 
-            i1--;
-        }
-
-        if (i2 >= 0) { 
-            carry += a2[i2] - '0'; 
-            i2--;
+            if (i1 >= 0) { 
+                carry += a1[i1] - '0'; 
+                i1--;
+            }
+    
+            if (i2 >= 0) { 
+                carry += a2[i2] - '0'; 
+                i2--;
         } 
 
         res.push_back(char(carry % 10 + '0')); 
