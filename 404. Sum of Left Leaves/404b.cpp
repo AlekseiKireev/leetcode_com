@@ -51,3 +51,31 @@ int sumOfLeftLeaves(TreeNode* root, bool isleft = false) {
     return sumOfLeftLeaves(root->left, true) + sumOfLeftLeaves(root->right, false);
 }
 */
+
+/* // https://leetcode.com/problems/sum-of-left-leaves/solutions/1558748/c-simple-dfs-100-faster-test-run/
+
+class Solution {
+public:
+    
+    int total = 0;
+    
+    void DFS(bool left, TreeNode* current){
+        
+        if (current == NULL){return;}
+        
+        if (left && current->left == NULL && current->right == NULL){
+            total += current->val;
+            return;
+        }
+        
+        DFS(true, current->left);
+        DFS(false, current->right);
+        
+    }
+    
+    int sumOfLeftLeaves(TreeNode* root) {
+        DFS(false, root);
+        return total;
+    }
+};
+*/
