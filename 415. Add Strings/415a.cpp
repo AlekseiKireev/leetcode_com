@@ -23,7 +23,7 @@ public:
                 i2--;
         } 
 
-        res.push_back(char(carry % 10 + '0')); 
+        res.push_back(char(carry % 10 + '0'));  // "+ '0'"  необходим для того, чтобы получить из числа carry % 10 символ carry % 10 -- то есть carry % 10 отвечает за сдвиг от символа '0' в ASCII 
         carry /= 10; 
         }
 
