@@ -11,3 +11,12 @@ https://www.geeksforgeeks.org/converting-strings-numbers-c-cpp/
 Можно ли использовать string_view и велика ли будет разница?
 
 Аналог: [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
+________
+
+|   	| 9 	| 9 	| 9 	|
+|---	|---	|---	|:-:	|
+| + 	|   	|   	|   	|
+|   	|   	|   	| 2 	|
+| - 	| - 	| - 	| - 	|
+| 1 	| 0 	| 0 	| 1 	|
