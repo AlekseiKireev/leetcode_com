@@ -11,7 +11,7 @@
  */
 class Solution {
 
-    int total = 0;
+    int SumLeftLeaves = 0;
 
     void DFS(TreeNode* root, bool IsLeftChild){ //DFS == preoder
 
@@ -22,7 +22,7 @@ class Solution {
         root->left == nullptr && 
         root->right == nullptr
         ){ // 2 и 3 аргумент -- проверка на то, что node -- лист. 1 аргумент проверряет, что лист левый.
-            total += root->val;}
+            SumLeftLeaves += root->val;}
 
         DFS(root->left, true);
         DFS(root->right, false);
@@ -33,7 +33,7 @@ public:
     int sumOfLeftLeaves(TreeNode* root) {
         
         DFS(root, false); // "false" ввиду "Example 2"
-        return total;
+        return SumLeftLeaves;
     }
 };
 
