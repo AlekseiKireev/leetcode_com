@@ -36,3 +36,31 @@ public:
         return total;
     }
 };
+
+/*
+class Solution {
+
+    
+
+    int DFS(TreeNode* root, bool IsLeftChild){ //DFS == preoder
+
+        if(root == nullptr){return 0;} 
+
+        // check on left leave
+        if(IsLeftChild && 
+        root->left == nullptr && 
+        root->right == nullptr
+        ){ // 2 и 3 аргумент -- проверка на то, что node -- лист. 1 аргумент проверряет, что лист левый.
+            return root->val;}
+
+        return DFS(root->left, true) + DFS(root->right, false);
+    }
+
+public:
+
+    int sumOfLeftLeaves(TreeNode* root) {
+               
+        return DFS(root, false); // "false" ввиду "Example 2"
+    }
+};
+*/
