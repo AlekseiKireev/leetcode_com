@@ -28,7 +28,9 @@ public:
         root->left != nullptr && 
         root->left->left == nullptr && 
         root->left->right == nullptr
-        ) {sum = root->left->val;} 
+        ) {
+            sum = root->left->val;
+        } 
         else {sum = sumOfLeftLeaves(root->left);}
 
         return sum + sumOfLeftLeaves(root->right);
