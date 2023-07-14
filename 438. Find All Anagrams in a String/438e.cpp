@@ -14,9 +14,9 @@ class Solution {
 public:
 
     vector<int> findAnagrams(string_view s, string_view p) {
-        if (s.size() < p.size()) {
-            return {};
-        }
+        
+        if (s.size() < p.size()) {return {};}
+        
         vector<int> ans;
         unsigned* koef = getKoef();
         unsigned sum = 0; // char of p -, chars of s +, multiply by koef 
