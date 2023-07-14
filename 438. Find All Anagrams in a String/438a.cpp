@@ -7,7 +7,9 @@ public:
 
       for (int i = 0; i <= (int)s.size() - (int)DesiredAnagr.size(); i++) { 
 
-         int count[1 + 'z'] = {0}; // char of DesiredAnagr +, chars of s -
+         // https://en.cppreference.com/w/c/language/array_initialization -->
+         // int a[3] = {}; // valid C++ way to zero-out a block-scope array; valid in C since C23
+         int count[1 + 'z'] = {}; // char of DesiredAnagr +, chars of s -
 
          for (char c : DesiredAnagr) { 
             count[c]++;
