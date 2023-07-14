@@ -5,7 +5,7 @@ public:
      
       vector<int> ans;
 
-      for (int i = 0; i <= (int)s.size() - (int)DesiredAnagr.size(); i++) { 
+      for (int i = 0; i <= (int)s.size() - (int)DesiredAnagr.size(); i++) { // --> if((int)s.size() < (int)DesiredAnagr.size()){ return ans;}
 
          // https://en.cppreference.com/w/c/language/array_initialization -->
          // int a[3] = {}; // valid C++ way to zero-out a block-scope array; valid in C since C23
