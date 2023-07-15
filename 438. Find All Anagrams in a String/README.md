@@ -10,7 +10,7 @@ https://walkccc.me/LeetCode/problems/0438/
 
 -----------
 
-438b.cpp -- оптимизированный аналог my_code_sliding_window.cpp
+438b.cpp -- оптимизированный по памяти аналог my_code_sliding_window.cpp
 
 438с.cpp -- самый оптимальный
 
