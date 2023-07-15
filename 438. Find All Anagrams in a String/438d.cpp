@@ -1,5 +1,6 @@
 class Solution {
 
+    // вместо long long* можно использовать тип auto, если затруднительно указать тип
     long long* getKoef() {
         static long long koef[1 + 'z'] = {};
         if (koef[0] == 0) {
@@ -27,7 +28,7 @@ public:
         }
         
         for (int i = 0; i < (int)p.size(); i++) {
-            char c = s[i];
+            const char c = s[i];
             sum += koef[c];
         }
         
