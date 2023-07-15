@@ -19,17 +19,20 @@ public:
         
         vector<int> ans;
         unsigned* koef = getKoef();
+        
         unsigned sum = 0; // char of p -, chars of s +, multiply by koef 
+        
         for (char c : p) {
             sum -= koef[c];
         }
+        
         for (int i = 0; i < (int)p.size(); i++) {
             char c = s[i];
             sum += koef[c];
         }
-        if (sum == 0) {
-            ans.push_back(0);
-        }
+        
+        if (sum == 0) {ans.push_back(0);}
+        
         for (int i = (int)p.size(); i < (int)s.size(); i++) {
             char toRemove = s[i - (int)p.size()];
             char toAdd = s[i];
