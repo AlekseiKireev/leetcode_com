@@ -19,10 +19,16 @@ public:
         if (s.size() < p.size()) {return {};}
         
         vector<int> ans;
-        const long long* koef = getKoef();
-        
+        const long long* koef = getKoef(); // слагаемые полиноминиальной функции
+
+        // хэш-функция подстроки S длины |p|
         long long sum = 0; // char of p -, chars of s +, multiply by koef 
-        
+
+        /* // https://e-maxx.ru/algo/string_hashes
+        Само значение хэша желательно хранить в самом большом числовом типе - int64, он же long long. 
+        Очевидно, что при длине строки порядка 20 символов уже будет происходить переполнение значение. 
+        Ключевой момент - что мы не обращаем внимание на эти переполнения, как бы беря хэш по модулю 2^64.
+        */
         for (char c : p) {
             sum -= koef[c];
         }
