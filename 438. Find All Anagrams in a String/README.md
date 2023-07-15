@@ -12,7 +12,7 @@ https://walkccc.me/LeetCode/problems/0438/
 
 438b.cpp -- оптимизированный по памяти аналог my_code_sliding_window.cpp
 
-438с.cpp -- самый оптимальный -- аналог my_code_two_pointer_UPD.cpp?
+438с.cpp -- самый оптимальный == аналог my_code_two_pointer_UPD.cpp?
 
 438d.cpp <--> 438e.cpp с той разницей, что в 438d.cpp используется long long, а в 438e.cpp - unsigned 
 
