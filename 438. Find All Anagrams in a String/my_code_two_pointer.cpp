@@ -1,6 +1,6 @@
 class Solution {
  public:
-  vector<int> findAnagrams(string s, string p) {
+  vector<int> findAnagrams(string_view s, string_view p) {
     
     vector<int> count(128);
     for (const char c : p) {++count[c];}
