@@ -19,7 +19,7 @@ public:
         if (s.size() < p.size()) {return {};}
         
         vector<int> ans;
-        const long long* koef = getKoef(); // слагаемые полиноминиальной функции
+        const long long* koef = getKoef(); // слагаемые полиноминиального хэша
 
         // хэш-функция подстроки S длины |p|
         long long sum = 0; // char of p -, chars of s +, multiply by koef 
