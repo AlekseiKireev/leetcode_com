@@ -26,6 +26,7 @@ public:
             while(CountCharInWindowForBuildAngr == Angr.size()){
 
                 // этот условный оператор должен в начале цикла, действиткельно: S = cabrw, Angr = abc
+                // Если это истино, то DataWindowForBuildAngr должен состоять из одних нулей
                 if(r - l + 1 == Angr.size()){Idxs.push_back(l);} // <--> [ Angr[0], Angr[1], ..., Angr[Angr.size() - 1] ] == [ S[l], S[l + 1], ..., S[r] ]
 
                 // сдвигаем левый указатель. Если ++DataWindowForBuildAngr[S[l++] - 'a'] > 0 истино, то левый указатель указывал на символ, лежащий в Angr, т.е. S[l], 
