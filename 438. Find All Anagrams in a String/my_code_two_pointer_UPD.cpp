@@ -17,7 +17,7 @@ public:
         for(int l = 0, r = 0; r < S.size();++r){
 
             // ">=" так как декрементируем на месте. Именно благодаря декременту дли символов, не лежащих в Angr, имеет место неравенство: DataForBuildAngr[k] < 0
-            if(--DataForBuildAngr[S[r] - 'a'] >= 0){ // если это правда, то символ DataForBuildAngr[S[r] - 'a'] хотя-бы раз встречался в Angr
+            if(--DataForBuildAngr[S[r] - 'a'] >= 0){ // если это истино, то символ DataForBuildAngr[S[r] - 'a'] хотя-бы раз встречался в Angr
                 ++CountCharInWindowForBuildAngr;
             }
 
