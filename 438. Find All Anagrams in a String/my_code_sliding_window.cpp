@@ -4,8 +4,8 @@ public:
     //  p == Angr == Anagram
     vector<int> findAnagrams(string S, string Angr) {
         
-        int S_len = S.size();
-        int Angr_len = Angr.size();
+        const int S_len = S.size();
+        const int Angr_len = Angr.size();
 
         /*
         20 / 65 testcases passed
