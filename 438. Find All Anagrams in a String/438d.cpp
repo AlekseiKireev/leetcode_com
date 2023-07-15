@@ -6,6 +6,8 @@ class Solution {
         if (koef[0] == 0) {
             mt19937 gen(2202);
             for (char c = 'a'; c <= 'z'; c++) {
+                //koef[c] = uniform_int_distribution<unsigned>(0, 50)(gen); // при таком распределении можно удачно увидеть коллизию: 61 / 65 testcases passed
+                // -- sum будет равен нулю для двух строк, которые не являются анаграммами
                 koef[c] = uniform_int_distribution<long long>(1e14, 2e14)(gen);
             }
         }
@@ -31,11 +33,15 @@ public:
         */
         for (char c : p) {
             sum -= koef[c];
+            cout << koef[c] << ' ';
         }
+
+        cout << '\n';
         
         for (int i = 0; i < (int)p.size(); i++) {
             const char c = s[i];
             sum += koef[c];
+            cout << koef[c] << ' ';
         }
         
         if (sum == 0) {ans.push_back(0);}
