@@ -39,12 +39,12 @@ public:
     */
        
       for (char c : DesiredAnagr) { 
-         count[c]--;
+         --count[c];
       }
 
       for (int j = 0; j < DesiredAnagr.size(); j++) { 
          const char c = s[j];
-         count[c]++;
+         ++count[c];
       }
 
       if(zeroAlphsbet(count)){ans.push_back(0);}
@@ -64,3 +64,4 @@ public:
       return ans;
    }
 } ;
+// Замечание: операции --count / ++count инварианты, то есть если во всем коде заменить --count на ++count и заменить ++count на --count, то код будет работать
