@@ -2,7 +2,7 @@ class Solution {
 public:
 
     //  p == Angr == Anagram
-    vector<int> findAnagrams(string S, string Angr) {
+    vector<int> findAnagrams(string_view S, string_view Angr) {
         
         // DataForBuildAngr[k] --> необходимое положительное количество символов 'a' + k для построения анаграммы наподобие Angr в рамках windows == [ S[l], S[l + 1], ..., S[r] ]
         // 26 -- можщность алфавита, обусловленного улосвием задачи: "s and p consist of lowercase English letters."
