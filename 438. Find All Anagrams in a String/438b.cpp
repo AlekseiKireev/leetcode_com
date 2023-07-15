@@ -28,6 +28,16 @@ public:
 
       int count[1 + 'z'] = {}; // char of DesiredAnagr -, chars of s +
 
+    /*
+
+    Чтобы определиться с знаками в двух первых нижележащих циклах см. 
+    37 / 65 testcases passed
+    s = "baa"
+    DesiredAnagr = "aa"
+
+    Из него понятно, когда "count[c]++;", а когда "count[c]--;"
+    */
+       
       for (char c : DesiredAnagr) { 
          count[c]--;
       }
