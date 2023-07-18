@@ -1,15 +1,19 @@
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
-        if (grid.empty()) {
-            return 0;
-        }
+        
+        if (grid.empty()) {return 0;}
+        
         vector<int> q;
         q.reserve(grid.size() * grid[0].size() * 2);
+        
         int qBegin = 0;
         int ans = 0;
+        
         for (int i = 0; i < (int)grid.size(); i++) {
+            
             for (int j = 0; j < (int)grid[i].size(); j++) {
+                
                 if (grid[i][j] == '1') {
                     ans++;
                   
@@ -17,10 +21,12 @@ public:
                     q.push_back(j);
 
                     while (qBegin < (int)q.size()) {
+                        
                         int i = q[qBegin];
                         qBegin++;
                         int j = q[qBegin];
                         qBegin++;
+                        
                         for (int di = -1; di <= 1; di++) {
                             for (int dj = -1; dj <= 1; dj++) {
                                 if (di * di + dj * dj == 1) {
@@ -36,12 +42,16 @@ public:
                                         q.push_back(nj);
                                     }
                                 }
-                            }
-                        }
-                    }
+                            } // end dj
+                            
+                        } // end di
+                        
+                    } // end while
+                    
                 }
-            }
-        }
+            } // end j
+        } // end i
+        
         return ans;
     }
 };
