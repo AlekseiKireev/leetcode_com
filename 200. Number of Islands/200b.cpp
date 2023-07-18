@@ -1,5 +1,7 @@
 class Solution {
+
 public:
+
     int numIslands(vector<vector<char>>& grid) {
         
         if (grid.empty()) {return 0;}
@@ -54,4 +56,5 @@ public:
         
         return ans;
     }
+
 };
