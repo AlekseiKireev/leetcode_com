@@ -11,6 +11,8 @@
  */
 class Solution {
 public:
+
+    // preoder обход
     bool isSameTree(TreeNode* p, TreeNode* q) {
         
         if(p == nullptr && q == nullptr){ // дошли до листа и не было false
