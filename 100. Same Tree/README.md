@@ -1,3 +1,5 @@
+разобрать BFS тут и вроде в 200
+
 https://leetcode.com/problems/same-tree/
 
 Перенести рекурсивное решение в preoder-обход!
