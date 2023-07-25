@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/number-of-islands/solutions/925831/using-dsu/
 class dsu {
     public:
     vector<int> parent;
