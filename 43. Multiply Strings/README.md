@@ -1,3 +1,7 @@
+https://e-maxx.ru/algo/big_integer
+
+_____
+
 Заметим, что:
 
 $$num1 =\pm \sum_{k=0}^{{m-1}}a_{k}10^{k}$$
