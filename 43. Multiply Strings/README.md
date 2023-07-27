@@ -1,3 +1,3 @@
-$$x=\pm \sum_{{k=0}}^{{n-1}}a_{k}10^{k}$$
+$ num1 =\pm \sum_{{k=0}}^{{m-1}}a_{k}10^{k}$
 
-$$\mathbb{N} = \{ a \in \mathbb{Z} : a > 0 \}$$
+$ num2 =\pm \sum_{{k=0}}^{{n-1}}b_{k}10^{k}$
