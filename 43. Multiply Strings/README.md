@@ -13,4 +13,4 @@ _____
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_43_leetcode_1.png" width="300" height="300"/>
 
-можно понять CurrentPosition
+можно понять CurrentPosition и причину использования reverse
