@@ -10,22 +10,20 @@ using namespace std;
 class Solution{
 
 bool sumGreater(int a, int b, int c) { // a + b > c
-    if (b > 0 && a > INT_MAX - b) {
-        return true;
-    }
-    if (b < 0 && a < INT_MIN - b) {
-        return false;
-    }
+    
+    if (b > 0 && a > INT_MAX - b) {return true;}
+    
+    if (b < 0 && a < INT_MIN - b) {return false;}
+    
     return a + b > c;
 }
 
 bool sumEquals(int a, int b, int c) { // a + b == c
-    if (b > 0 && a > INT_MAX - b) {
-        return false;
-    }
-    if (b < 0 && a < INT_MIN - b) {
-        return false;
-    }
+    
+    if (b > 0 && a > INT_MAX - b) {return false;}
+    
+    if (b < 0 && a < INT_MIN - b) {return false;}
+    
     return a + b == c;
 }
 
