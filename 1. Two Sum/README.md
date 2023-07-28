@@ -35,5 +35,5 @@ $NumbToIdx[complement] != idx$ нужно не только для того, ч�
 ____
 
 Замечание:  
-1. Two Sum  - Input Array Is Unorted  
-167. Two Sum II - Input Array Is Sorted
+        1. Two Sum  - Input Array Is Unorted  
+        167. Two Sum II - Input Array Is Sorted
