@@ -27,5 +27,6 @@ public:
 
 int main() {
     Solution().twoSum({ 1,2,INT_MAX }, 3);
+    // Solution().twoSum({ INT_MIN, -1,-2}, -3); // wrong
     return 0;
 }
