@@ -66,5 +66,7 @@ O(1) по памяти - оптимально
 а = [INT_MIN, -2, -1], target = -3
 
 Что делать: безопасные сравнения.
-
+    
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_167_leetcode_1.png" width="1500" height="700"/>
+
+Демонстрация работы sumGreater для if (b < 0 && a < INT_MIN - b) {return false;}
