@@ -69,4 +69,4 @@ O(1) по памяти - оптимально
     
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_167_leetcode_1.png" width="1500" height="700"/>
 
-Демонстрация работы sumGreater для if (b < 0 && a < INT_MIN - b) {return false;}
+<p align="center"> Демонстрация работы sumGreater для if (b < 0 && a < INT_MIN - b) {return false;} </p>
