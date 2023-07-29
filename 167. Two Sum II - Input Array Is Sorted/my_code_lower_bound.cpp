@@ -10,7 +10,7 @@ public:
             /* "j !=  numbers.size()"  на случай numbers = [1,3,4,4] target = 8 -- т.е. lower_bound(numbers.begin(), numbers.end(), target - numbers[i]) указвает на  numbers.end()*/
             if(j !=  numbers.size()  && i != j && numbers[j] == target - numbers[i]){ 
 
-                return { min(i + 1, j + 1), max(i + 1, j + 1) }; 
+                return { min(i + 1, j + 1), max(i + 1, j + 1) }; //  "min / max" на случай numbers = [0,0,3,4] target = 0
                 
             }
 
