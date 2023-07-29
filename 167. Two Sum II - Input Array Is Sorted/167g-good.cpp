@@ -9,22 +9,32 @@ using namespace std;
 
 class Solution{
 
+/*
+a = 1, b = INT_MAX, c= 3
+    a + b < c
+    b > 0, 1 > INT_MAX - INT_MAX = 0 == true --> return true;
+
+a = INT_MIN, b = -2, c= -3
+    a + b > c
+    b < 0, INT_MIN < INT_MIN - (-2) = INT_MIN + 2  == true --> return false;
+*/
+
 bool sumGreater(int a, int b, int c) { // a + b > c
     
-    if (b > 0 && a > INT_MAX - b) {return true;}
+    if (b > 0 && a > INT_MAX - b) {return true;} // есть переполнение, надо уменьшить одно из слагаемых --> сдвинуть правый указатель
     
-    if (b < 0 && a < INT_MIN - b) {return false;}
+    if (b < 0 && a < INT_MIN - b) {return false;} //  есть переполнение, надо увеличить одно из слагаемых --> сдвинуть левый указатель
     
-    return a + b > c;
+    return a + b > c; // нет переполнения, см. "167e_ wrong overflow demonstration.cpp"
 }
 
 bool sumEquals(int a, int b, int c) { // a + b == c
     
-    if (b > 0 && a > INT_MAX - b) {return false;}
+    if (b > 0 && a > INT_MAX - b) {return false;} // есть переполнение, надо исследовать последовательность далее
     
-    if (b < 0 && a < INT_MIN - b) {return false;}
+    if (b < 0 && a < INT_MIN - b) {return false;} // есть переполнение, надо исследовать последовательность далее
     
-    return a + b == c;
+    return a + b == c; //  нет переполнения, см. "167e_ wrong overflow demonstration.cpp"
 }
 
 public:
@@ -38,9 +48,7 @@ public:
 
             assert(i < j);
 
-            if (sumEquals(a[i], a[j], target)) {
-                return { i + 1, j + 1 };
-            }
+            if (sumEquals(a[i], a[j], target)) { return { i + 1, j + 1 }; }
 
         }
 
