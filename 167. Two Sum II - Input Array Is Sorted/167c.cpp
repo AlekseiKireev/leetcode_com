@@ -7,7 +7,7 @@ public:
 
             // if (j != i && j >= 0 && a[j] == target - a[i]) {return { i + 1, j + 1 };} // equiv
             assert(j > i);
-            if (a[j] == target - a[i]) {return { i + 1, j + 1 };}      
+            if (a[j] == target - a[i]) {return { i + 1, j + 1 };}      // РАЗВЕ ТУТ НЕ НУЖНА ПРОВЕРКА НА ТО, ЧТО J != I ???????
 
         }
 
