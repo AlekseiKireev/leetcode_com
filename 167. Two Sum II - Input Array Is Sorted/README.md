@@ -67,4 +67,4 @@ O(1) по памяти - оптимально
 
 Что делать: безопасные сравнения.
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/for_167_leetcode_1.png" width="1200" height="700"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/for_167_leetcode_1.png" width="1500" height="700"/>
