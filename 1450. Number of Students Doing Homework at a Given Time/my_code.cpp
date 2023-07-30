@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int busyStudent(vector<int>& startTime, vector<int>& endTime, int queryTime) {
+    int busyStudent(const vector<int>& startTime, const vector<int>& endTime, int queryTime) {
         
         int ans = 0;
 
