@@ -6,7 +6,7 @@ https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/
 
 ____
 
-Какой ответ будет для  теста: 
+На основе тестов:
 
 [1,2,3]  
 [5,5,5]  
@@ -22,6 +22,9 @@ queryTime = 5
 [5,5,7]  
 queryTime = 5  
 3
+
+можно сделать вывод, что при подсчете "number of students doing their homework at time queryTime" в момент времени queryTime учитываются студенты, 
+пркратившие делать ДЗ в момент времени queryTime
 
 ____
 
