@@ -19,3 +19,7 @@ queryTime = 5
 [1,5,5]  
 [5,5,7]  
 queryTime = 5  
+
+____
+
+В my_code_three_type.cpp читабельность получше, в сравнении с my_code_two_type.cpp
