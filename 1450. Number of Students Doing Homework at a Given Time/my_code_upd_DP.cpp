@@ -21,6 +21,7 @@ public:
         for (int i = 0; i < MaxTime - 1; ++i) {
             
             CountOverlapIntervals[i + 1] += CountOverlapIntervals[i];
+            if(queryTime < i){break;}
         }
 
         return CountOverlapIntervals[queryTime];
