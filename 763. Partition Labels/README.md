@@ -8,7 +8,7 @@ ___
 
 <p align="center"> Example 1: </p>
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/for_763_leetcode_1.png" width="800" height="500"/>  
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/for_763_leetcode_1.png" width="1500" height="500"/>  
 
 <p align="center"> My Example 1: </p>
 
