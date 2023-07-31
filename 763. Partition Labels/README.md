@@ -2,6 +2,14 @@ https://leetcode.com/problems/partition-labels/
 
 https://walkccc.me/LeetCode/problems/0763/
 
+https://leetcode.com/problems/partition-labels/solutions/899214/2-solutions-explanation-picture/
+
+https://leetcode.com/problems/partition-labels/solutions/1868842/java-c-visually-explaineddddd/
+
+https://leetcode.com/problems/partition-labels/solutions/601546/c-solution-with-detailed-explanation-o-n-time-complexity/
+
+https://leetcode.com/problems/partition-labels/editorial/
+
 У Федора Меньшикова разбор отсут-т!
 
 ___
