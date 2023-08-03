@@ -18,12 +18,13 @@ public:
         // "i = 1" --> b < s && int MinPrice = prices.front();// == prices[b]
         for(int i = 1; i < prices.size(); ++i){ // prices[i] == prices[s] 
 
-            MinPrice = min(MinPrice, prices[i]);
+            //MinPrice = min(MinPrice, prices[i]);
 
             // Обрабатывается убывающая последовательность стоимостей: при падении стоимости продавать смысла нет, при этом есть смысл найти наиболее минимальную стоимость, чтобы купить акцию по самой дешевой цене
-            while(MinPrice > prices[i] && i < prices.size()){ // prices = [..., 7,6,5,4,...]
-                ++i;
+            while(MinPrice >= prices[i] && i < prices.size() - 1){ // prices = [..., 7,6,5,4,...]
+                
                 MinPrice = prices[i];
+                ++i;
             }
 
             MaximumProfit = max(MaximumProfit, prices[i] - MinPrice);
