@@ -2,6 +2,8 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 
 https://walkccc.me/LeetCode/problems/0121/
 
+<p align="center"> два указателя </p>
+
 <p align="center"> Example 1: </p>
 
 prices = [7,1,5,3,6,4]
@@ -14,3 +16,6 @@ prices = [7,1,5,3,6,4]
 | 3 	|     _3_     	|     _1_    	|       **4**       	|
 | 4 	|     _6_     	|     _1_    	|       **5**       	|
 | 5 	|     _4_     	|     _1_    	|       **5**       	|
+
+<p align="center"> Динамическое программирование </p>
+
