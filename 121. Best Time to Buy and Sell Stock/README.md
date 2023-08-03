@@ -33,3 +33,5 @@ prices = [7,1,5,3,6,4]
 | 5 	| _4_         	| _4_         	| **0**             	|
 
 MaximumProfit = max{maxPrices[i] - prices[i] : 0 <= i <= prices.size() - 1}
+
+maxPrices[i] - максимальная цена акции, по которой можно продать в i-ый день.
