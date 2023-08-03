@@ -1,3 +1,10 @@
+/*
+s == RightPtr 
+b == LeftPtr 
+
+Только работаем не с указателями, а сразу с значениями, на которые они указывают
+*/
+
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
