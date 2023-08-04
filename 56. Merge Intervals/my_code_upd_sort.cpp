@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         
-        sort(intervals.begin(), intervals.end());
+        sort(intervals.begin(), intervals.end()); // --> if i < j --> intervals[i][0] <=  intervals[j][0]
 
         vector<vector<int>> Covers;
         Covers.reserve(intervals.size());
