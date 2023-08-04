@@ -1,3 +1,9 @@
+Также см.  
+986. Interval List Intersections  
+763 Partition Labels
+
+____
+
 https://leetcode.com/problems/merge-intervals/description/
 
 [Разбор задачи 56 leetcode.com Merge Intervals. Решение на C++](https://www.youtube.com/watch?v=PIUaSD1c0AY)
