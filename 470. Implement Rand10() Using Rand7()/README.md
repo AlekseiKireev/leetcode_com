@@ -1,3 +1,5 @@
+https://leetcode.com/problems/implement-rand10-using-rand7/
+
 У Федора Меньшикова разбор отсут-т!
 
 ___________
