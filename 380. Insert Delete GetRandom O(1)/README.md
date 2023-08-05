@@ -1,3 +1,5 @@
+ПЕРЕСМОТРЕТЬ И РЕШИТЬ САМОМУ! НАЙТИ ТЕОРИЮ ПО "Вариант в)" 
+
 https://leetcode.com/problems/insert-delete-getrandom-o1/
 
 https://walkccc.me/LeetCode/problems/0380/
