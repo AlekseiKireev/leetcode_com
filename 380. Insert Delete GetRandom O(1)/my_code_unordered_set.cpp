@@ -22,7 +22,7 @@ public:
         
     }
     
-    int getRandom() const {
+    int getRandom() const { // "There will be at least one element in the data structure when getRandom is called."
 
         return *next(Values.cbegin(), rand() % Values.size() );
         
