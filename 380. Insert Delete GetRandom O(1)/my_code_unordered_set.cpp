@@ -8,7 +8,7 @@ public:
     
     bool insert(int val) {
 
-        if(Values.count(val)){return false;}
+        if(Values.count(val) == 1){return false;}
         Values.insert(val);
         return true;
 
