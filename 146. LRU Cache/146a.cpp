@@ -15,7 +15,7 @@ private:
 
     unordered_map<int, int> keyToValue;
 
-    unordered_map<int, list<int>::iterator> keyToIterator;
+    unordered_map<int, list<int>::iterator> keyToIterator; // необходим для удаления по итератору из листа в среднем за O(1)
 
     list<int> order; // хронит порядок ключей
 
@@ -34,7 +34,7 @@ public:
 
         assert(listIt != order.end());
 
-        if (listIt != order.begin()) {
+        if (listIt != order.begin()) { // перекладываем key в начало order
 
             order.erase(listIt);            
             order.push_front(key);
@@ -64,7 +64,7 @@ public:
 
         }
 
-            order.erase(listIt); // удаляем key, который НЕ находится в начале
+            order.erase(listIt); // удаляем key, который НЕ находится в начале, чтобы в последствии положить key в начало order
 
         }
         else { // it == keyToValue.end() <-->  ключ НЕ нашли
