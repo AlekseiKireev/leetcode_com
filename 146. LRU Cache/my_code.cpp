@@ -44,7 +44,7 @@ public:
             return;
         }
 
-        if (order.size() == capacity){
+        if (order.size() == capacity){ // " If the number of keys exceeds the capacity from this operation, evict the least recently used key."
 
             const auto delete_key = order.back().key;
             order.pop_back();
