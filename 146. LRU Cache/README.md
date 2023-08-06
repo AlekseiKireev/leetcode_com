@@ -42,4 +42,8 @@ ___
 
 ____
 
-ve
+int get(int key) -- при использовании этого метода пара "key-value" переносится в начало LRU Cache
+
+void put(int key, int value) --  при использовании этого метода пара "key-value" переносится / вставляется в начало LRU Cache
+
+
