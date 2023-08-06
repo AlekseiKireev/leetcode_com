@@ -37,8 +37,8 @@ public:
         if (listIt != order.begin()) {
 
             order.erase(listIt);
+            
             order.push_front(key);
-
             keyToIterator[key] = order.begin();
 
         }
