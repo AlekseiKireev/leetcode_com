@@ -17,7 +17,7 @@ private:
 
     unordered_map<int, list<int>::iterator> keyToIterator; // необходим для удаления по итератору из листа в среднем за O(1)
 
-    list<int> order; // хронит порядок ключей
+    list<int> order; // хранит порядок ключей
 
 public:
 
