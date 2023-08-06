@@ -51,27 +51,27 @@ public:
 
         auto it = keyToValue.find(key);
 
-        if (it != keyToValue.end()) {
+        if (it != keyToValue.end()) { // еслю ключ нашли, то надо его перекинуть в начало списка -- это происходит после if...else 
+                            
+        auto listIt = keyToIterator[key];
 
-            auto listIt = keyToIterator[key];
+        assert(listIt != order.end());
 
-            assert(listIt != order.end());
+        if (listIt == order.begin()) {
 
-            if (listIt == order.begin()) {
-
-                keyToValue[key] = value;
-                return;
-
-            }
-
-            order.erase(listIt);
+            keyToValue[key] = value;
+            return;
 
         }
-        else {
+
+            order.erase(listIt); // удаляем key, который НЕ находится в начале
+
+        }
+        else { // it == keyToValue.end() <-->  ключ НЕ нашли
 
             assert(it == keyToValue.end());
 
-            if ((int)order.size() == capacity) {
+            if ((int)order.size() == capacity) { // ключ НЕ нашли и LRU Cache заполнен максимально, надо освободить место для новой пары {key, value}
 
                 int lastKey = order.back();
 
@@ -88,7 +88,6 @@ public:
         order.push_front(key);
 
         keyToIterator[key] = order.begin();
-
         keyToValue[key] = value;
 
     }
