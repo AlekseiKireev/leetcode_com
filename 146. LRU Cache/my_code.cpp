@@ -14,7 +14,7 @@ class LRUCache{
 private:
 
     list<DataLRU> order; // хранит порядок ключ-значение по времени использования
-    unordered_map<int, list<DataLRU>::iterator> keyToIterator; 
+    unordered_map<int, list<DataLRU>::iterator> keyToIterator; // "The functions get and put must each run in O(1) average time complexity."
     int capacity;
 
 public:
