@@ -13,7 +13,7 @@ class LRUCache{
 
 private:
 
-    list<DataLRU> order; // хранит порядок ключ-значение
+    list<DataLRU> order; // хранит порядок ключ-значение по времени использования
     unordered_map<int, list<DataLRU>::iterator> keyToIterator; 
     int capacity;
 
