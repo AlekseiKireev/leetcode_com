@@ -17,7 +17,7 @@ private:
 
     unordered_map<int, list<int>::iterator> keyToIterator;
 
-    list<int> order;
+    list<int> order; // хронит порядок ключей
 
 public:
 
