@@ -16,6 +16,7 @@ public:
 
        valToPos[val] = (int)values.size();
        values.push_back(val);
+        
        return true;
 
     }
@@ -29,10 +30,13 @@ public:
 
        int pos = valToPos[val]; 
        int val2 = values.back(); 
+        
        valToPos[val2] = pos; 
        values[pos] = val2;
+        
        valToPos.erase(val);
        values.pop_back();
+        
        return true;
 
     }
