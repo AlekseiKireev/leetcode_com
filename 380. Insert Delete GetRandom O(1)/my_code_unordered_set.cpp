@@ -24,7 +24,7 @@ public:
     
     int getRandom() const {
 
-        return *next(Values.cbegin(), ( rand() % (Values.size()) ) );
+        return *next(Values.cbegin(), rand() % Values.size() );
         
     }
 };
