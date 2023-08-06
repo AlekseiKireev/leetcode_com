@@ -9,6 +9,8 @@ const int ZERO = []() {
 
 class LRUCache {
 
+private:
+
     int capacity;
 
     unordered_map<int, int> keyToValue;
@@ -18,7 +20,6 @@ class LRUCache {
     list<int> order;
 
 public:
-
 
     LRUCache(int capacity) : capacity(capacity) {}
 
@@ -40,9 +41,8 @@ public:
 
             keyToIterator[key] = order.begin();
 
-
-
         }
+        
         return it->second;
     }
 
@@ -60,7 +60,6 @@ public:
             if (listIt == order.begin()) {
 
                 keyToValue[key] = value;
-
                 return;
 
             }
@@ -77,11 +76,8 @@ public:
                 int lastKey = order.back();
 
                 order.pop_back();
-
                 keyToValue.erase(lastKey);
-
                 keyToIterator.erase(lastKey);
-
 
             }
 
@@ -98,7 +94,6 @@ public:
     }
 
 };
-
 
 /**
  * Your LRUCache object will be instantiated and called as such:
