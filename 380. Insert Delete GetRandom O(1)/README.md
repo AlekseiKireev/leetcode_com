@@ -4,6 +4,8 @@ https://leetcode.com/problems/insert-delete-getrandom-o1/
 
 https://walkccc.me/LeetCode/problems/0380/
 
+_____
+
 [Разбор задачи 380 leetcode.com Insert Delete GetRandom O(1). Решение на C++](https://www.youtube.com/watch?v=knlHlKV6Uag)
 
 Хотя бы что-то за 0(1) умеют:
