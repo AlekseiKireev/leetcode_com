@@ -16,7 +16,7 @@ public:
         return true;
     }
 
-    int getRandom() {
+    int getRandom() { // "There will be at least one element in the data structure when getRandom is called."
         auto it = values.begin();
         advance(it, rand() % values.size()); // https://en.cppreference.com/w/cpp/numeric/random/rand
         return (*it);
