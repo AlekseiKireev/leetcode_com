@@ -36,8 +36,9 @@ public:
 
         if (listIt != order.begin()) { // перекладываем key в начало order
 
-            order.erase(listIt);            
-            order.push_front(key);
+            order.splice(order.begin(), order, listIt);
+            // order.erase(listIt);            
+            // order.push_front(key);
             
             keyToIterator[key] = order.begin();
 
