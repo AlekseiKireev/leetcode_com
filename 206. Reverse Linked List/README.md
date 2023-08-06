@@ -6,6 +6,16 @@ https://walkccc.me/LeetCode/problems/0206/
 
 [Software interview question - Reverse a linked list recursively](https://www.youtube.com/watch?v=S92RuTtt9EE)
 
+
+____
+
+|      	|   	|      	|    	|   	|    	|   	|    	|      	|
+|------	|---	|------	|----	|---	|----	|---	|----	|------	|
+|      	|   	|      	|    	|   	|    	|   	|    	|      	|
+| NULL 	|   	| 1    	| -> 	| 2 	| -> 	| 3 	| -> 	| NULL 	|
+| ^ \| 	|   	| ^ \| 	|    	|   	|    	|   	|    	|      	|
+| Ans  	|   	| head 	|    	|   	|    	|   	|    	|      	|
+
 ____
 
 Vladislav 🇺🇸🚜, [8/7/2023 12:26 AM]
