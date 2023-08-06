@@ -4,9 +4,6 @@ https://walkccc.me/LeetCode/problems/0146/
 
 ____
 
-
-https://leetcode.com/problems/lru-cache/solutions/792449/simple-c-solution-with-detailed-explanation/  
-??==??  
 [Разбор задачи 146 leetcode.com LRU Cache. Решение на C++](https://www.youtube.com/watch?v=KptTnhWtBZY)
 
 get O(1) - хэш-таблица. unordered_map
