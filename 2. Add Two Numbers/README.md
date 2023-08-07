@@ -4,6 +4,8 @@
 
 https://leetcode.com/problems/add-two-numbers/
 
+- https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/
+        
 https://e-maxx.ru/algo/big_integer
 
 https://walkccc.me/LeetCode/problems/0002/
