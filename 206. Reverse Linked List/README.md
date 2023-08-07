@@ -11,6 +11,8 @@ ____
 
 <p align="center"> iteratively </p>
 
+https://www.geeksforgeeks.org/reverse-a-linked-list/
+
 <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif" width="800" height="500"/>
 
 По сути решение происходит через абстракцию 2-х стеков
@@ -99,3 +101,10 @@ Leonid, [8/7/2023 12:27 AM]
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+
+<p align="center"> recursively </p>
+
+https://www.geeksforgeeks.org/reverse-a-linked-list/
+
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/2009/07/Linked-List-Rverse.gif" width="800" height="500"/>
