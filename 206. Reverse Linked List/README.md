@@ -120,6 +120,9 @@ Leonid, [8/7/2023 12:27 AM]
 | 1 	| -> 	| 2 	| ->> 	| 3 	| -:> 	| nullptr 	|
 |---	|----	|---	|-----	|---	|-----	|---------	|
 
+->> == head->next  
+-:> == head->next->next
+
 <p align="center"> [1] </p>
 
 |   	|    	|      nullptr     	|     	|   	|
