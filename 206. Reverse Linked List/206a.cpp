@@ -8,6 +8,11 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+/*
+head / Ans стоит отождествить со стеком дляя простоты восприятия
+*/
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
