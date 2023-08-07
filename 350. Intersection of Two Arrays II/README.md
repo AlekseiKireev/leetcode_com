@@ -10,7 +10,7 @@ https://walkccc.me/LeetCode/problems/0350/
 350d.cpp - Two Pointers == аналогичное решение в https://en.cppreference.com/w/cpp/algorithm/set_intersection - только на итераторах  
 350e.cpp - UserHashTable
 
-Самое оптимальное решение через бинарный поиск  
+Самое оптимальное решение через бинарный поиск / два указателя  
 После него: через unordered_map  
 Все решения используют затраты по памяти по меньшей мере O(min(m,n))
 
