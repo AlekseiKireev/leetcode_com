@@ -24,8 +24,9 @@ class Solution {
 
     ListNode* Ans = reverseList(head->next); // Ans указывает на head->next
 
+    assert(head->next->next == nullptr);
     head->next->next = head;
-    head->next = nullptr; // зануляем связь?
+    head->next = nullptr; // загатовка для предыдущего шага рекурсии, чтобы в нем имело место утверждение: head->next->next == nullptr
     return Ans;
   }
 };
