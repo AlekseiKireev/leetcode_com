@@ -14,7 +14,10 @@ class Solution {
   ListNode* reverseList(ListNode* head) {
 
     // for "Example 3:"
-    if(head == nullptr){cout << "head == nullptr\n";return nullptr;}
+    if(head == nullptr){
+     cout << "head == nullptr\n"; 
+     return nullptr;
+    }
 
     // выход из рекурсии
     if (head->next == nullptr) {return head;}
