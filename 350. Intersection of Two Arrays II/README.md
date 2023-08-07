@@ -11,7 +11,7 @@ https://walkccc.me/LeetCode/problems/0350/
 350e.cpp - UserHashTable
 _______________
 
-1. unordered_map или самописная хэш-таблица.
+1. unordered_map или самописная хэш-таблица. [350a.cpp или 350e.cpp]
 
 unordered_map<int,int> - накладные расходы на одну пару ключ/значение ~ 24 байт - в 3 раза больше, сама пара.
 
