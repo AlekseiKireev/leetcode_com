@@ -1,3 +1,5 @@
+ПЕРЕСМОТРЕТЬ ВИДЕО РАЗБОР, ТАМ ДОКАЗАТЕЛЬСТВО ТОГО, ЧТО РЕШЕНИЕ ЧЕРЕЗ unordered_map МЕДЛЕННОЕ, ЕГО НЕ ПОНЯЛ!
+
 https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
 
 https://walkccc.me/LeetCode/problems/0350/
