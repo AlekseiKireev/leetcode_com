@@ -26,6 +26,8 @@ class Solution {
 
     assert(head->next->next == nullptr);
     head->next->next = head;
+
+   // nullptr -- буффер для зацепки следующий ноды, если head != head.begin()
     head->next = nullptr; // загатовка для предыдущего шага рекурсии, чтобы в нем имело место утверждение: head->next->next == nullptr
     return Ans;
   }
