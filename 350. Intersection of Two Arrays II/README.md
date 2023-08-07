@@ -9,6 +9,11 @@ https://walkccc.me/LeetCode/problems/0350/
 350c.cpp - Binary Search / lower_bound - UPD 350b.cpp | как догадаться до " return p.num < v || (p.num == v && !p.present);"???? Ответ: [Returns an iterator pointing to the first element in the range \[first, last) such that element < value (or comp(element, value)) is false, (i.e. that is greater than or equal to value), or last if no such element is found.](https://en.cppreference.com/w/cpp/algorithm/lower_bound)  
 350d.cpp - Two Pointers == аналогичное решение в https://en.cppreference.com/w/cpp/algorithm/set_intersection - только на итераторах  
 350e.cpp - UserHashTable
+
+Самое оптимальное решение через бинарный поиск  
+После него: через unordered_map  
+Все решения используют затраты по памяти по меньшей мере O(min(m,n))
+
 _______________
 
 1. unordered_map или самописная хэш-таблица. [350a.cpp или 350e.cpp]
