@@ -1,3 +1,5 @@
+САМОМУ НАПИСАТЬ ДОСТОЙНЫЙ КОД!
+
 https://leetcode.com/problems/lru-cache/
 
 https://walkccc.me/LeetCode/problems/0146/
