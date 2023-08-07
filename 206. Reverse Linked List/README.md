@@ -11,6 +11,8 @@ ____
 
 <p align="center"> iteratively </p>
 
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif" width="800" height="500"/>
+
 По сути решение происходит через абстракцию 2-х стеков
 
 <p align="center"> /*0*/ </p>
