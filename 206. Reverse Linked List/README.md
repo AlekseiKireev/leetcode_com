@@ -108,3 +108,11 @@ Leonid, [8/7/2023 12:27 AM]
 https://www.geeksforgeeks.org/reverse-a-linked-list/
 
 <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/2009/07/Linked-List-Rverse.gif" width="790" height="520"/>
+
+1->2->3->4->NULL 
+
+1<-2->3->4->NULL 
+
+1<-2<-3->4->NULL 
+
+1<-2<-3<-4->NULL 
