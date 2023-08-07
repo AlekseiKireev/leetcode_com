@@ -20,7 +20,6 @@ class Solution {
     if (head->next == nullptr) {return head;}
 
     ListNode* Ans = reverseList(head->next); // Ans указывает на head->next
-    cout << head->val << ' ';
 
     head->next->next = head;
     head->next = nullptr; // зануляем связь?
