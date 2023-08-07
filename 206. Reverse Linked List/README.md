@@ -107,13 +107,6 @@ Leonid, [8/7/2023 12:27 AM]
 
 [Software interview question - Reverse a linked list recursively](https://www.youtube.com/watch?v=S92RuTtt9EE)
 
-| **^ <br> .. <br> \|** 	|   	|
-|:-------------:	|---	|
-|               	|   	|
-
-| ^ <br> ^ <br> \| 	|   	|
-|:----------------:	|---	|
-|                  	|   	|
 
 <p align="center"> [0] </p>
 
@@ -123,7 +116,7 @@ Leonid, [8/7/2023 12:27 AM]
 ->> == head->next  
 -:> == head->next->next
 
-<p align="center"> [1] </p>
+<p align="center"> [1]: Состояние списка после выхода из последнего вызова рекурсии </p>
 
 |   	|    	|      nullptr     	|     	|   	|
 |:-:	|:--:	|:----------------:	|:---:	|:-:	|
@@ -133,7 +126,7 @@ Leonid, [8/7/2023 12:27 AM]
 
 Вместо nullptr на следующем шаге вставляем 1, ибо на следующем шаге head->next->next == nullptr
 
-<p align="center"> [2] </p>
+<p align="center"> [2]: Состояние списка после выхода из предпоследнего вызова рекурсии </p>
 
 |      nullptr     	|    	|   	|     	|   	|
 |:----------------:	|:--:	|:-:	|:---:	|:-:	|
