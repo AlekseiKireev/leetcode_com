@@ -22,7 +22,7 @@ class Solution {
     // выход из рекурсии
     if (head->next == nullptr) {return head;}
 
-    ListNode* Ans = reverseList(head->next); // Ans указывает на последний элемент исходного листа
+    ListNode* Ans = reverseList(head->next); // Ans указывает на последний [не nullptr] элемент исходного листа
 
     assert(head->next->next == nullptr);
     head->next->next = head;
