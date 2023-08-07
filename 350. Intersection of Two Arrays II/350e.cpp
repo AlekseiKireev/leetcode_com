@@ -62,19 +62,22 @@ public:
 
   class Solution {
   public:
-   vector<int> intersect(const vector<int>& aa, const vector<int>& bb) {     
+   vector<int> intersect(const vector<int>& aa, const vector<int>& bb) {   
+     
      const vector<int> &a = aa.size() < bb.size() ? aa : bb;
      const vector<int> &b = aa.size() < bb.size() ? bb : aa;
+     
      HashMap count(a.size());
-     for (int v : a) { 
-       count.inc(v); 
-     }
+     for (int v : a) { count.inc(v); }
+     
      vector<int> ans; 
+     
      for (int v : b) {
        if (count.dec(v)) {
          ans.push_back(v);
        }
      }
+     
      return ans;
   }
 };
