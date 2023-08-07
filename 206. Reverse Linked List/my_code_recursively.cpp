@@ -26,6 +26,8 @@ class Solution {
     ListNode* Ans = reverseList(head->next); // Ans указывает на последний [не nullptr] элемент исходного листа -- так и должно быть, head ревеснутого листа равен последнему элементу исходного листа
 
     assert(head->next->next == nullptr);
+
+   // порядок строк "head->next->next" и "head->next" важен, так как в ином порядке при попытке "head->next->next" == "nullptr->next" -- что ошибочно, так как nullptr ни куда не указывает по определению
     head->next->next = head;
 
    // nullptr -- буффер для зацепки следующий ноды, если head != head.begin()
