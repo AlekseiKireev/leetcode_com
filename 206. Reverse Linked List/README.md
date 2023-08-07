@@ -107,6 +107,6 @@ Leonid, [8/7/2023 12:27 AM]
 
 [Software interview question - Reverse a linked list recursively](https://www.youtube.com/watch?v=S92RuTtt9EE)
 
-| ^ <br> \| 	|   	|
-|-----------	|---	|
-|           	|   	|
+| **^ <br> \|** 	|   	|
+|:-------------:	|---	|
+|               	|   	|
