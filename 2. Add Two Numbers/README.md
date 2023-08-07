@@ -1,3 +1,7 @@
+
+
+Почему во всех решениях два контейнера / в конце beforeRes.next;??
+
 https://leetcode.com/problems/add-two-numbers/
 
 https://e-maxx.ru/algo/big_integer
