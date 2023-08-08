@@ -65,7 +65,7 @@ i = 6
 | s[idx] 	|   	|    	| d 	| e 	| f 	| e 	| g 	| d 	|                        e                       	| h 	| i 	| j 	|  h 	|  k 	|  l 	|  i 	|  j 	|
 |   ptr  	|   	|    	|   	|   	|   	|   	|   	|   	| ^^^ <br> IdxEndPart <br> i <br> PrevIdxEndPart 	|   	|   	|   	|    	|    	|    	|    	|    	|
 
-Прежде чем PrevIdxEndPart будет указывть на 6, 
+Прежде чем PrevIdxEndPart будет указывть на 6, в SizeParts заносится IdxEndPart - PrevIdxEndPart
 
 i = 7
 
