@@ -28,3 +28,6 @@ Input: s = "abcdefg"
 Output: 1 1 1 1 1 1 1  
 Explanation:  
 "We want to partition the string into as many parts as possible so that each letter appears in at most one part."  
+
+<p align="center">  Example 1: </p>
+
