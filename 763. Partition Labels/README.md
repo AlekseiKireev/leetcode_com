@@ -20,7 +20,7 @@ ___
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_763_leetcode_1.png" width="1500" height="400"/>  
 
-Тепер задача выглядит аналогично https://leetcode.com/problems/merge-intervals/
+Тепер задача выглядит аналогично https://leetcode.com/problems/merge-intervals/, но такое решение не выгодно!
 
 <p align="center"> My Example 1: </p>
 
