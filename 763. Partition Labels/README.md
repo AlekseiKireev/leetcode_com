@@ -89,3 +89,7 @@ i = 9
 | s[idx] |   |    | d | e | f | e | g | d |            e            | h | i |      j     |  h |  k |  l |  i |          j          |
 |   ptr  |   |    |   |   |   |   |   |   | ^^^ <br> PrevIdxEndPart |   |   | ^^^ <br> i |    |    |    |    | ^^^ <br> IdxEndPart |
 
+...
+
+i = 14
+
