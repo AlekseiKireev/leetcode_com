@@ -42,4 +42,6 @@ Explanation:
 | ptr 	|   	| ^^^ <br> PrevIdxEndPart 	| ^^^ <br> IdxEndPart 	|   	|   	|   	|   	|   	|   	|   	|   	|   	|    	|    	|    	|    	|    	|
 
 
+i = 0
+
 
