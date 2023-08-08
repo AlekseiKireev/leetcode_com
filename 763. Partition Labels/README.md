@@ -1,3 +1,5 @@
+НАЙТИ ПРУФ ТОГО, ЧТО U_M НЕ ВЫГОДЕН!
+
 https://leetcode.com/problems/partition-labels/
 
 https://walkccc.me/LeetCode/problems/0763/
