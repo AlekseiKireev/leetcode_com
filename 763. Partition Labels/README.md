@@ -29,5 +29,16 @@ Output: 1 1 1 1 1 1 1
 Explanation:  
 "We want to partition the string into as many parts as possible so that each letter appears in at most one part."  
 
-<p align="center">  Example 1: </p>
+<p align="center">  part Example 1: </p>
+
+| s            | a | b | c | d  | e  | f  | g  | h  | i  | j  | k  | l  |
+|--------------|---|---|---|----|----|----|----|----|----|----|----|----|
+| CharToEndIdx | 8 | 5 | 7 | 14 | 15 | 11 | 13 | 19 | 22 | 23 | 20 | 21 |
+
+| idx 	|   	| -1 	| 0 	| 1 	| 2 	| 3 	| 4 	| 5 	| 6 	| 7 	| 8 	| 9 	| 10 	| 11 	| 12 	| 13 	| 14 	|   	|
+|:---:	|:-:	|:--:	|:-:	|:-:	|:-:	|:-:	|---	|---	|---	|---	|---	|---	|----	|----	|----	|----	|----	|---	|
+|  s  	|   	|    	| d 	| e 	| f 	| e 	| g 	| d 	| e 	| h 	| i 	| j 	| h  	| k  	| l  	| i  	| j  	|   	|
+| ptr 	|   	|    	|   	|   	|   	|   	|   	|   	|   	|   	|   	|   	|    	|    	|    	|    	|    	|   	|
+
+
 
