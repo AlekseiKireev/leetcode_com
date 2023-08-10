@@ -4,6 +4,8 @@ https://walkccc.me/LeetCode/problems/0053/
 
 https://www.techiedelight.com/ru/maximum-subarray-problem-kadanes-algorithm/
 
+https://www.youtube.com/watch?v=MCriLqc_8sY&t=52s == два указателя?
+
 https://leetcode.com/problems/maximum-subarray/solutions/ -- см. топ 3
 
 ____
