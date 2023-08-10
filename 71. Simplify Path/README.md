@@ -34,3 +34,29 @@ https://leetcode.com/problems/simplify-path/solutions/1847357/c-easy-stack-simpl
 Теперь проверьте:  
 - Если buffer == ".", то проигнорируйте это.  
 - Если buffer == "..", то извлеките элемент из стека, если он существует.
+
+<p align="center">Демонстрация пустоты строк при считывании через getline</p>
+
+    #include <iostream>
+    #include <sstream>
+    
+    using namespace std;
+    
+    int main() {
+    
+    	string path = "////";
+    	stringstream PartPath(path);
+    
+    	int id = 0;
+    	for (string buffer; getline(PartPath, buffer, '/');) {
+    
+    		cout << id << " : " << "*" << buffer << "*" << '\n';
+    		++id;
+    	}
+    }
+    /*
+    0 : **
+    1 : **
+    2 : **
+    3 : **
+    */
