@@ -2,9 +2,11 @@ https://leetcode.com/problems/simplify-path/description/
 
 https://walkccc.me/LeetCode/problems/0071/
 
-https://leetcode.com/problems/simplify-path/solutions/1847526/best-explanation-ever-possible-not-a-clickbait/
+У Федора Меньшикова разбор отсут-т!
 
 <p align="center">Ex</p>
+
+https://leetcode.com/problems/simplify-path/solutions/1847526/best-explanation-ever-possible-not-a-clickbait/
 
 Input: path = "/a/./b/../../c/"  
 Output: "/c"
