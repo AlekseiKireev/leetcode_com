@@ -2,6 +2,8 @@ https://leetcode.com/problems/maximum-subarray/
 
 https://walkccc.me/LeetCode/problems/0053/
 
+https://www.techiedelight.com/ru/maximum-subarray-problem-kadanes-algorithm/
+
 https://leetcode.com/problems/maximum-subarray/solutions/ -- см. топ 3
 
 ____
