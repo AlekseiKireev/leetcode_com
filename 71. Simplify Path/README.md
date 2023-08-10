@@ -25,3 +25,12 @@ The next command is /c/ means get into the folder /c/
 
 And in the output we return what command we left with.
 
+<p align="center">Пояснение</p>
+
+https://leetcode.com/problems/simplify-path/solutions/1847357/c-easy-stack-simple-explained-algorithm/
+
+Если вы столкнетесь с символом "/", то игнорируйте его.  
+
+Теперь проверьте:  
+- Если buffer == ".", то проигнорируйте это.  
+- Если buffer == "..", то извлеките элемент из стека, если он существует.
