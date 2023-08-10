@@ -9,7 +9,7 @@ public:
     int ans = 0;
     for (int v : nums) {
       prefixSum += v;
-      ans += prefixSumToCount[prefixSum - k]; // из существ-я prefixSum - k --> существ-е префикса prefixSum_k, т.е. prefixSum - prefixSum_k = k
+      ans += prefixSumToCount[prefixSum - k]; // из существ-я prefixSum - k --> существ-е префикса prefixSum_k, т.е. prefixSum - prefixSum_k = k <--> prefixSum_k = prefixSum - k
       prefixSumToCount[prefixSum]++;
     }
 
