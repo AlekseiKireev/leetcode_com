@@ -1,0 +1,49 @@
+class Solution {
+public:
+    string simplifyPath(string path) {
+        
+        // RE on "6 / 258 testcases passed" without "path.empty() == false &&" on ex: "/"
+        while(path.empty() == false && path.back() == '/'){path.pop_back();}
+
+        stringstream PartPath(path);
+
+        string CanonicalPath; // further: CP
+
+        vector<string> PartsCP; PartsCP.reserve(1 + path.size()/2);
+
+        // Как getline отреагирует на PartPath = ...///...?
+        // Ответ: в buffer будет записыываться пустая строка, для этого и нужна проверка "buffer.empty()"
+        for(string buffer; getline(PartPath, buffer, '/');){
+
+
+            // Какая будет ошиба при закоменченном "buffer.empty()"???
+            // Ответ: в PartsCP будет класться пустая строка из buffer --> избыточное количетсво "/" в CanonicalPath
+            if(buffer.empty() || buffer == "."){continue;}
+
+            // Какая будет ошиба при закоменченном "PartsCP.empty() == false &&"???
+            // Ответ: RE
+            if(PartsCP.empty() == false && buffer == ".."){
+
+                PartsCP.pop_back();
+                continue;
+            }
+            
+            // Example 2:
+            if(buffer != ".."){ // в buffer может лежать либо directory, либо "..", при этом ".." там может нахоидтся по причине того, что PartsCP.empty() == true -- то есть нет директории, куда можно было бы вернутся и предыдущей условный оператор не отработал 
+                PartsCP.push_back(buffer);
+                }
+            
+        }
+
+        PartsCP.shrink_to_fit();
+
+        // Example 2:
+        if(PartsCP.empty()){return "/";}
+
+        for(const string& Part : PartsCP){
+            CanonicalPath += "/" + Part;
+        }
+
+        return CanonicalPath;
+    }
+};
