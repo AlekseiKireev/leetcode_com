@@ -4,7 +4,7 @@ public:
 
     unordered_map<int, int> prefixSumToCount;
     int prefixSum = 0;
-    prefixSumToCount[prefixSum] = 1;
+    prefixSumToCount[prefixSum] = 1; // для обработки случая prefixSum = k 
 
     int ans = 0;
     for (int v : nums) {
