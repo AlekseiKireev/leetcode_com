@@ -62,10 +62,16 @@ ____
 
 ____
 
-<p align="center"> My ex </p>
+<p align="center"> My ex 1 </p>
 
 nums = [0,1,-1,2], k = 2  
 3  
 0 + 1 + (-1) + 2 = 2  
 1 + (-1) + 2 = 2  
 2 = 2
+
+
+<p align="center"> My ex 2 </p>
+
+nums = [2], k = 2  
+1
