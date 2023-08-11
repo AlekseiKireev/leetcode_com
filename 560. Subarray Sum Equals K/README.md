@@ -62,7 +62,7 @@ ____
 
 ____
 
-My ex
+<p align="center"> My ex </p>
 
 nums = [0,1,-1,2], k = 2  
 3  
