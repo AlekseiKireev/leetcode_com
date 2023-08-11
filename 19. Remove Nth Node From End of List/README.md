@@ -6,6 +6,9 @@ ____
 
 [Разбор задачи 19 leetcode.com Remove Nth Node From End of List. Решение на C++](https://www.youtube.com/watch?v=-Fak6wi8I98)
 
+19a.cpp  
+19b.cpp == https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/1164542/js-python-java-c-easy-two-pointer-solution-w-explanation/ 
+
 1. Наивный способ. 
 
 Посчитать длину списка. Если длина == n - возвращаем head->next.
