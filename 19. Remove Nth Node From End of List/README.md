@@ -24,3 +24,11 @@ cur->next = cur->next->next
 
 Операций будет столько же. Два указателя, идущих по списку с расстоянием n / n+1.
 
+___
+
+<p align="center"> Ex for 1. </p>
+
+
+<p align="center"> Ex for 2. </p>
+
+
