@@ -11,7 +11,7 @@ prefixSum[h] - prefixSum[f] = k == Suffix[g] : 0 <= f < h <= nums.size()
 	* Если Suffix[g] будет сущестоввать на момент исследования prefixSum[h], то выражение prefixSum[h] - prefixSum[f] = k будет истино
 	* Теперь задача свелась к следующему утвержению: зафиксируем конец префикса h. Если существует префикс prefixSum[f] = prefixSum[h] - k, 
 	  такой, что f < h, то к ответ надо инкрементировать
-   	* Suffix[g] = sum(nums[i]) : f <= i <= h
+   	* k = Suffix[g] = sum(nums[i]) : f <= i <= h
 
 */
 
