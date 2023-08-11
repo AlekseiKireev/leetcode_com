@@ -7,7 +7,7 @@ prefixSum[h] - prefixSum[f] = k == prefixSum[g] : 0 <= f < g < h <= nums.size()
 
 
 Рассмотрим формулу: prefixSum[h] - k = prefixSum[f] и омтетим, что: 
-	* prefixSum[h] существует по определнию префиксной суммы, т.е. h -- это конец подмассива
+	* prefixSum[h] существует по определнию префиксной суммы, т.е. индекс h -- это конец подмассива в nums: prefixSum[h] = sum(nums[i]) : 0 <= i <= h
 	* k дано по условию
 	* Тогда, ЕСЛИ СУЩЕСТВУЕТ prefixSum[f], то можно ГАРАНТИРОВАТЬ существование prefixSum[g]
 	* Если prefixSum[g] будет сущестоввать на момент исследования prefixSum[h], то выражение prefixSum[h] - prefixSum[f] = k будет истино
