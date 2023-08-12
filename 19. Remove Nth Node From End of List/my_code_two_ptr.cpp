@@ -21,7 +21,7 @@ public:
             Right = Right->next;
         }
 
-        // дошли до конца списка --> head.size() == n
+        // дошли до конца списка --> head.size() == n  --> у удаляемого элеменат Garbage нет prev(Garbage), т.е. удаляем первый элемент листа
         if(Right == nullptr){ 
             ListNode* Garbage = head;
             head = head->next;
