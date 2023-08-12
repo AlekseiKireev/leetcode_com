@@ -26,6 +26,9 @@ cur->next = cur->next->next
 
 ___
 
+По условию 1 <= n <= sz --> на nullptr может не указывать --> по отношению к удаляемому элементу всегда можно применить метод next  
+Если n = sz, то удалять придется первый элемент head --> ответом будет head = head->next
+
 <p align="center"> Ex 1 </p>
 
 По условию n = 2, тогда: 
@@ -38,8 +41,9 @@ ___
 
 <p align="center"> Ex 1 for alg 1. </p>
 
-Заметим, что head.size() - n 
+Заметим, что элемент head под порядковым номером head.size() - n будет указывать на удаляемый элемент
 
 <p align="center"> Ex 1 for alg 2. </p>
 
 
+<p align="center"> My Ex 1 for alg 1. </p>
