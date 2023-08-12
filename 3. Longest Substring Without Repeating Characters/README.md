@@ -4,7 +4,9 @@ ____
 
 [Разбор задачи 3 leetcode.com Longest Substring Without Repeating Characters. Решение на C++](https://www.youtube.com/watch?v=2HqQ9DsrYQ0)
 
-3a.cpp == 4. alg
+3a.cpp == 4. alg  
+3b.cpp == 3. alg  
+3c.cpp == 5. alg
 
 1. O(n^4)
 
