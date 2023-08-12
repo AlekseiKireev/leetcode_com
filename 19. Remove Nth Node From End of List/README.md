@@ -26,9 +26,13 @@ cur->next = cur->next->next
 
 ___
 
-<p align="center"> Ex for 1. </p>
+| head 	|   	| 1 	| 2 	| 3 	|                          4                         	| 5 	| nullptr 	|
+|:----:	|:-:	|:-:	|:-:	|:-:	|:--------------------------------------------------:	|:-:	|:-------:	|
+|      	|   	|   	|   	|   	| ^^^ <br> 2 с конца элемент,  <br> его надо удалить 	|   	|         	|
+
+<p align="center"> Ex 1 for alg 1. </p>
 
 
-<p align="center"> Ex for 2. </p>
+<p align="center"> Ex 1 for alg 2. </p>
 
 
