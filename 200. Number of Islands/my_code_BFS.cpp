@@ -23,7 +23,11 @@ void BFS(vector<vector<char>>& grid, int i, int j) {
 
         for (const auto [dx, dy] : vector<pair<int, int>>{ {0, 1},{1, 0},{0, -1},{-1, 0} }) { // or: array<int, 5> Step = { 0,1,0,-1,0 };
 
-
+            /* проверка индексов на валидность: ввиду смещения они могут выйти за границу двумерного массива:
+              * слева или сверху, т.е. x + dx или y + dy будет меньше нуля соответственно
+              * справа, т.е. x + dx >= grid.size(), где grid.size() число строк
+              * снизу, т.е. y + dy >= grid.back().size(), где grid.back().size() число столбцов
+            */
             if (
                 0 <= x + dx && x + dx < grid.size()
                 &&
