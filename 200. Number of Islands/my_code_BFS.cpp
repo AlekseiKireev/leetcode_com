@@ -10,9 +10,9 @@ int y;
 void BFS(vector<vector<char>>& grid, int i, int j) {
 
     queue<Pair> BurningVertexes; // Queue -- содержит вершины из текущего кольца огня и, может быть, последующего 
-
+    
+    grid[i][j] = '0'; // обозначаем вершину посещенной 
     BurningVertexes.push({ i, j });
-    grid[i][j] = '0';
 
     while (BurningVertexes.empty() == false) {
 
@@ -33,7 +33,7 @@ void BFS(vector<vector<char>>& grid, int i, int j) {
                ) 
                 {
 
-                    grid[x + dx][y + dy] = '0';
+                    grid[x + dx][y + dy] = '0';  // обозначаем вершину посещенной 
                     BurningVertexes.push({ x + dx, y + dy });
 
                 }
