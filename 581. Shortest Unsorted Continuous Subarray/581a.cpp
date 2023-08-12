@@ -20,7 +20,7 @@ public:
 
     }
 
-    if (last == -1) {return 0;}
+    if (last == -1) {return 0;} // последовательность отсортирована 
 
     int min = a.back();
     int first = -1;
