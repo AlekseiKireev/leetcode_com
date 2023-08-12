@@ -20,9 +20,9 @@ void DFS(vector<vector<char>>& grid, int i, int j){
     for(auto [dx, dy] : vector<pair<int, int>>{{0,1}, {0,-1}, {1,0}, {-1,0} }){
 
         /* проверка индексов на валидность: ввиду смещения они могут выйти за границу двумерного массива
-          * слева, т.е. i + dx или j + dy будет меньше нуля
-          * справа, т.е. i + dx >= grid.size()
-          * сверху, т.е. 
+          * слева или сверху, т.е. i + dx или j + dy будет меньше нуля соответственно
+          * справа, т.е. i + dx >= grid.size(), где grid.size() число строк
+          * снизу, т.е. j + dy >= grid.back().size(), где grid.back().size() число столбцов
         */
         if((i + dx) * (j + dy) < 0 || (i + dx) >= grid.size() || (j + dy) >= grid.back().size()){continue;}
         if(grid[i + dx][j + dy] != '1'){continue;}
