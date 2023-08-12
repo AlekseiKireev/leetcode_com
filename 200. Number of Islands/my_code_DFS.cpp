@@ -14,7 +14,6 @@ class Solution {
                 
 void DFS(vector<vector<char>>& grid, int i, int j){
 
-    // if(grid[i][j] != '1'){return;} // можно написать такой условный оператор, вмесо "if(grid[i + dx][j + dy] != '1'){continue;}"
     grid[i][j] = '2'; // '2' == visited
 
     for(auto [dx, dy] : vector<pair<int, int>>{{0,1}, {0,-1}, {1,0}, {-1,0} }){
@@ -25,9 +24,9 @@ void DFS(vector<vector<char>>& grid, int i, int j){
           * снизу, т.е. j + dy >= grid.back().size(), где grid.back().size() число столбцов
         */
         if((i + dx) * (j + dy) < 0 || (i + dx) >= grid.size() || (j + dy) >= grid.back().size()){continue;}
-        if(grid[i + dx][j + dy] != '1'){continue;}
-
-        DFS(grid, i + dx, j + dy);
+        
+        // Вершина с координатами (i,j) не посещена, надо в нее зайти и обозначить как visited, также проверить ее соседей на grid[i + dx][j + dy] == '1'
+        if(grid[i + dx][j + dy] == '1'){DFS(grid, i + dx, j + dy);}
 
     }
 
