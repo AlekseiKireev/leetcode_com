@@ -1,3 +1,5 @@
+РЕШИТЬ ДЛЯ НАЧАЛА ЗА O(N) ПО ПАМЯТИ!
+
 https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/
 
 https://walkccc.me/LeetCode/problems/0581/
