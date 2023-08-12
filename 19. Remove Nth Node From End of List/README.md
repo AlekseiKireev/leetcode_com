@@ -68,3 +68,9 @@ ___
 случай head.size() == n надо отдельно обрабатывать.
 
 <p align="center"> My Ex 1 for alg 1. </p>
+Wrong Answer 190 / 208 testcases passed
+
+head = [1,2]  
+n = 2
+
+Expected [2]
