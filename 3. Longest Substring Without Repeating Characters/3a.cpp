@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(string_view s) {
 
         int ans = 0;
 
