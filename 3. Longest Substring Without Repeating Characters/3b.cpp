@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(string_view s) {
         int ans = 0;
         for (int len = 1; len < 128; len++) {
           
