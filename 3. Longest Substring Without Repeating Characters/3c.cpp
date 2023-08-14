@@ -12,6 +12,8 @@ public:
                 used[s[after]] = true;
                 after++;
             }
+
+            assert(first <= after); // инваринат, демонстрирующий, что работаем с двумя указателями
           
             ans = max(ans, after - first);
             used[s[first]] = false;
