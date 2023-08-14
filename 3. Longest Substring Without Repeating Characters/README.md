@@ -87,3 +87,9 @@ ____
 |               s               	|   	| p 	|       w       	|        w       	| k 	| e 	| w 	|
 | CharToExistingInSlidingWindow 	|   	| 0 	|       1       	|        1       	| 0 	| 0 	| 1 	|
 |              Ptr              	|   	|   	| ^^^ <br> Left 	| ^^^ <br> Right 	|   	|   	|   	|
+
+|              idx              	|   	| 0 	| 1 	|               2              	| 3 	| 4 	| 5 	|
+|:-----------------------------:	|:-:	|:-:	|:-:	|:----------------------------:	|:-:	|:-:	|:-:	|
+|               s               	|   	| p 	| w 	|               w              	| k 	| e 	| w 	|
+| CharToExistingInSlidingWindow 	|   	| 0 	| 0 	|               0              	| 0 	| 0 	| 0 	|
+|              Ptr              	|   	|   	|   	| ^^^  <br>  Left  <br>  Right 	|   	|   	|   	|
