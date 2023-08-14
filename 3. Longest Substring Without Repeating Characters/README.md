@@ -64,8 +64,8 @@ ____
 
 ____
 
-Правй указатель -- поднимает флаг в CharToExistingInSlidingWindow по индексу idx  
-Левый указатель -- опускает флаг в CharToExistingInSlidingWindow по индексу idx  
+Правй указатель -- поднимает флаг в CharToExistingInSlidingWindow по индексу s[idx]  
+Левый указатель -- опускает флаг в CharToExistingInSlidingWindow по индексу s[idx]  
 
 
 |              idx              	|   	|             0            	| 1 	| 2 	| 3 	| 4 	| 5 	|
