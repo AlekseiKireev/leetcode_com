@@ -1,55 +1,118 @@
-// https://leetcode.com/problems/number-of-islands/solutions/925831/using-dsu/
-class dsu {
-    public:
-    vector<int> parent;
-    vector<int> rank;
-    
-    dsu(int _n){
-        parent.resize(_n);
-        iota(parent.begin(), parent.end(), 0);
-        rank.resize(_n);
-    }
-    
-    int find(int x){
-        return (x == parent[x] ? x : parent[x] = find(parent[x]));
-    }
-    
-    void unite(int a, int b){
-        a = find(a); b = find(b);
-        
-        if(a != b){
-            if(rank[a] < rank[b]) swap(a, b);
-            parent[b] = a;
-            rank[a]++;
+#include <iostream>
+#include <vector>
+#include <climits>
+#include <algorithm>
+#include <set>
+#include <unordered_set>
+#include <cassert>
+
+using namespace std;
+
+class DSU {
+
+private:
+
+    vector<int> Rank;
+    vector<int> Parent; // "для каждого элемента мы храним номер его предка в дереве"
+    int StartingNumberLeaders;
+
+
+public:
+
+    DSU(const int StartingNumberLeaders) : StartingNumberLeaders(StartingNumberLeaders) {
+
+        Parent.resize(StartingNumberLeaders + 1);
+        Rank.resize(StartingNumberLeaders + 1, 0);
+
+        for (int i = 0; i <= StartingNumberLeaders; ++i) { 
+            Parent[i] = i; 
         }
+
     }
+
+
+    void Union(int U, int V) {
+
+        int LeaderU = Find(U);
+        int LeaderV = Find(V);
+        if (LeaderU == LeaderV) { return; }
+
+        if (Rank[LeaderU] < Rank[LeaderV]) { swap(LeaderU, LeaderV); }
+
+        assert(Rank[LeaderV] <= Rank[LeaderU]); // За бОльшее по высоте дерево подвешиваем мАлое
+
+        Parent[LeaderU] = LeaderV;
+
+        if (Rank[LeaderU] == Rank[LeaderV]) { ++Rank[LeaderU]; }
+
+    }
+
+
+
+    int Find(const int x) {
+
+        int Leader = x;
+
+        while (Parent[Leader] != Leader) {
+            Leader = Parent[Leader];
+        }
+
+        int i = x;
+        while (Parent[i] != i) {
+            int j = Parent[i];
+            Parent[i] = Leader;
+            i = j;
+        }
+
+        return Leader;
+
+    }
+
 };
 
+
 class Solution {
+
+private:
+
+    int NumberRows;
+    int NumberColumns;
+    
+    // Тут: https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7() можно заметить аналогичный подход.
+    // Оттуда же хорошо видно, что данная функция занимается биекцией двумерных координат, состоящих из натуральных чисел, в натрунатуральное число
+    int CoordToSeqNumb(int IdxRow, int IdxColumn) { return (IdxRow - 1) * NumberColumns + IdxColumn; } // coordinate to sequence number
+
 public:
+
     int numIslands(vector<vector<char>>& grid) {
-        int n = grid.size();
-        if(n == 0) return 0;
-        int m = grid[0].size();
-        
-        dsu d(n*m);
-        
-        
-        for(int i = 0; i < n; i++){\
-            for(int j = 0; j < m; j++){\
-				// connect  current cell with bottom cell if current cell and bottom cell are both '1'
-                if(i < n-1 && grid[i][j] == '1' && grid[i + 1][j] == '1') d.unite(i*m + j, (i + 1)*m + j); 
-				// connect  current cell with rightward cell if current cell and rightward cell are both '1'
-                if(j < m-1 && grid[i][j] == '1' && grid[i][j + 1] == '1') d.unite(i*m + j, i*m + j + 1);
+
+        NumberRows = grid.size();
+        NumberColumns = grid[0].size();
+
+        DSU dsu(NumberRows * NumberColumns);
+
+        for (int i = 0; i < NumberRows; ++i) { // y == строка
+            for (int j = 0; j < NumberColumns; ++j) { // x == столбец
+
+                if (grid[i][j] == '1') {
+
+                    if (j && grid[i][j] == grid[i][j - 1]) { dsu.Union(CoordToSeqNumb(i + 1, j + 1), CoordToSeqNumb(i + 1, j)); }
+                    if (i && grid[i][j] == grid[i - 1][j]) { dsu.Union(CoordToSeqNumb(i + 1, j + 1), CoordToSeqNumb(i, j + 1)); }
+
+                }
             }
         }
-        
-        int ans = 0;
-        for(int i = 0 ; i < (int)d.parent.size(); i++){\
-			// iterate over parent arey and look for index that has parent to itself and remove that cells that are '0' and have same parents
-            if(i == d.parent[i] && grid[i/m][i%m] != '0') ans++;
+
+        unordered_set<int> SetLeaders;
+
+        for (int i = 0; i < NumberRows; ++i) {
+            for (int j = 0; j < NumberColumns; ++j) {
+                if (grid[i][j] == '1') SetLeaders.insert(dsu.Find(CoordToSeqNumb(i + 1, j + 1)));
+            }
+
         }
-        
-        return ans;
+
+        return int(SetLeaders.size());
     }
+
 };
