@@ -81,7 +81,7 @@ private:
     // Тут: https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7() можно заметить аналогичный подход.
     // Оттуда же хорошо видно, что данная функция занимается биекцией двумерных координат, состоящих из натуральных чисел, в натрунатуральное число
     int CoordToSeqNumb(int IdxRow, int IdxColumn) { return (IdxRow - 1) * NumberColumns + IdxColumn; } // coordinate to sequence number
-    // int NonNegativeCoordToSeqNumb(int IdxRow, int IdxColumn) { return (IdxRow) * NumberColumns + IdxColumn; }
+    /* int NonNegativeCoordToSeqNumb(int IdxRow, int IdxColumn) { return (IdxRow) * NumberColumns + IdxColumn; }*/
 public:
 
     int numIslands(vector<vector<char>>& grid) {
