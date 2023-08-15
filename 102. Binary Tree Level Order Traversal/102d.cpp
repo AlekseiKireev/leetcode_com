@@ -28,7 +28,7 @@ public:
 
       int size = q.size();
       ans.push_back(vector<int>());
-      ans.back().reserve(size);
+      // ans.back().reserve(size);
       
       for (int i = 0; i < size; i++) { 
 
