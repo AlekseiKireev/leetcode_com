@@ -21,13 +21,12 @@ void Visited(TreeNode* node, int Height){
 
     // можно использовать условный оператор вместо цикла по той причине, что для каждого рекур-о вызова сразу же проверяем Height --> не возникнет ситуации
     // Height > ZigzagLevel.size() [что будет продемонстр-о в inorder / postorder], единственное, чтто может быть: Height == ZigzagLevel.size()
-    
+
+    cout <<  Height << " : " << node-> val <<'\n'; // см. вывод ниже для root = [3,9,20,18,21,4,15,7]
     if(Height == ZigzagLevel.size()){ZigzagLevel.push_back(vector<int>());} /* <--> */ // while(Height >= ZigzagLevel.size()){ZigzagLevel.push_back(vector<int>());} 
     assert(Height < ZigzagLevel.size());
     ZigzagLevel[Height].push_back(node->val);
 
-    cout <<  Height << " : " << node-> val <<'\n'; // см. вывод ниже для root = [3,9,20,18,21,4,15,7]
-    
     Visited(node->left, Height + 1);
     Visited(node->right, Height + 1);
 }
