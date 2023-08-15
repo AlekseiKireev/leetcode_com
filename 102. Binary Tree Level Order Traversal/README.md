@@ -6,6 +6,9 @@ ____
 
 [Разбор задачи 102 leetcode.com Binary Tree Level Order Traversal. Решение на C++](https://www.youtube.com/watch?v=062En8ycnF0)
 
+102a.cpp == preorder recur  
+102b.cpp == inorder
+
 Лучше, чем O(n), где n - число вершин в дереве, сделать нельзя - каждую вершину нужно обойти, размер ответа тоже n.
 
 Когда получим такие характеристики:
