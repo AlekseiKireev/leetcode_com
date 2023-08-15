@@ -4,7 +4,7 @@ https://walkccc.me/LeetCode/problems/0103/
 
 Related:  
 https://leetcode.com/problems/binary-tree-level-order-traversal/  
-https://github.com/SkosMartren/leetcode_com/tree/main/102.%20Binary%20Tree%20Level%20Order%20Traversal
+https://github.com/SkosMartren/leetcode_com/tree/main/102.%20Binary%20Tree%20Level%20Order%20Traversal -- отсюда можно взять структуру обхода для inorder / postorder
 
 ____
 
