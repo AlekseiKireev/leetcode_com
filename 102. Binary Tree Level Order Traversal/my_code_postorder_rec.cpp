@@ -23,7 +23,7 @@ void Visited(TreeNode* node, int Height){
     Visited(node->left, Height + 1);
     Visited(node->right, Height + 1);
 
-    cout <<  Height << " : " << node-> val <<'\n'; // см. вывод ниже для root = [3,9,20,18,21,4,15,7]
+    cout <<  Height << " : " << node-> val <<'\n'; // см. вывод ниже для root = [3,9,20,18,21,4,15,7] --> Height может быть равным 3, в то время как в ZigzagLevel не было положено еще ни одного элемента
     while(Height >= ZigzagLevel.size()){ZigzagLevel.push_back(vector<int>());}
     assert(Height < ZigzagLevel.size());
     ZigzagLevel[Height].push_back(node->val);
