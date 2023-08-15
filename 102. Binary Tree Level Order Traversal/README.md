@@ -8,7 +8,7 @@ ____
 
 102a.cpp == preorder rec  
 102b.cpp == inorder rec  
-102c.cpp == postorder rec
+102c.cpp == postorder rec  
 102d.cpp == not rec  
 
 Лучше, чем O(n), где n - число вершин в дереве, сделать нельзя - каждую вершину нужно обойти, размер ответа тоже n.
