@@ -38,4 +38,10 @@ ____
         // Результат не определен, если этот NestedInteger содержит одно целое число
         const vector<NestedInteger> &getList() const;
     };
- 
+
+
+ /**
+ * Ваш объект NestedIterator будет создан и вызван как таковой:
+ * NestedIterator i(nestedList);
+ * while (i.hasNext()) cout << i.next();
+ */
