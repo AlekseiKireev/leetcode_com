@@ -40,8 +40,8 @@ ____
     };
 
 
- /**
- * Ваш объект NestedIterator будет создан и вызван как таковой:
- * NestedIterator i(nestedList);
- * while (i.hasNext()) cout << i.next();
- */
+     /**
+     * Ваш объект NestedIterator будет создан и вызван как таковой:
+     * NestedIterator i(nestedList);
+     * while (i.hasNext()) cout << i.next();
+     */
