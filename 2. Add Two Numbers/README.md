@@ -20,3 +20,11 @@ https://walkccc.me/LeetCode/problems/0002/
 
         // /assert(nullptr == false);/ error!!
         assert(!nullptr);
+
+____
+
+Лакман Макдауэл - Карьера программиста (2020)
+
+условие: страница 87, задача 2.5.
+
+решение: страница 220
