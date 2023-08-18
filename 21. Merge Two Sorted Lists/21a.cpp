@@ -26,11 +26,11 @@ public:
       } else {
         if (a->val < b->val) {
           cur->next = a; 
-          cur = a;
+          cur = a; // <--> cur = cur->next;
           a = a->next; 
         } else {
           cur->next = b; 
-          cur = b;
+          cur = b; // <--> cur = cur->next;
           b = b->next;
         }
       }
