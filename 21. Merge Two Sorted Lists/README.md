@@ -11,6 +11,11 @@ https://walkccc.me/LeetCode/problems/0021/
 
 <p align="center"> my_code_1 </p>
 
+Указатели на node может находится в одном из состояний:   
+- оба не указывают на nullptr
+- -- тогда
+- хотя бы один указывание на nullptr
+
 <p align="center"> my_code_2 </p>
 
 <p align="center"> my_code_3 </p>
