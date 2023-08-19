@@ -13,8 +13,9 @@ https://walkccc.me/LeetCode/problems/0021/
 
 Указатели на node может находится в одном из состояний:   
 - оба не указывают на nullptr  
--- тогда
-- хотя бы один указывание на nullptr
+  тогда
+- хотя бы один указывание на nullptr  
+- оба указывают на nullptr  
 
 <p align="center"> my_code_2 </p>
 
