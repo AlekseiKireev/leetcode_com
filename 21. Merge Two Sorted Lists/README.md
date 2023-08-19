@@ -7,3 +7,10 @@ https://leetcode.com/problems/merge-two-sorted-lists/
 https://walkccc.me/LeetCode/problems/0021/
 
 Аналог: https://leetcode.com/problems/merge-sorted-array/description/
+
+
+<p align="center"> my_code_1 </p>
+
+<p align="center"> my_code_2 </p>
+
+<p align="center"> my_code_3 </p>
