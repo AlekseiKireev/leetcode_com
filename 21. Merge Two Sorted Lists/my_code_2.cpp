@@ -15,9 +15,9 @@ public:
 
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
 
-	  if(list1 == nullptr){return list2;}
+	if(list1 == nullptr){return list2;}
 
-		if(list2 == nullptr) {return list1;}
+	if(list2 == nullptr) {return list1;}
 
         ListNode* Ans;
 
