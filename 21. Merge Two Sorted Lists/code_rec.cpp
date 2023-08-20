@@ -9,7 +9,7 @@
  * };
  */
 
- class Solution {
+ class Solution { // == https://walkccc.me/LeetCode/problems/0021/
 
  public:
 
