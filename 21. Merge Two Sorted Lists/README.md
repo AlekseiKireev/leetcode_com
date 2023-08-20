@@ -13,10 +13,12 @@ https://walkccc.me/LeetCode/problems/0021/
 
 Указатели на node может находится в одном из состояний:   
 - оба не указывают на nullptr  
-  тогда
-- хотя бы один указывание на nullptr  
+  тогда надо сравнить if (list1->val < list2->val) {/*...*/} и записать адрес min{list1->val, list2->val} в ans->next, при этом сдвинуть адрес min{list1->val, list2->val} до "->next"
+- хотя бы один указывание на nullptr
+  ту node, которая отлична от nullptr цепляем за ответ и возвращаем искомое
 - оба указывают на nullptr  
-
+  возвращаем искомое
+  
 <p align="center"> my_code_2 </p>
 
 <p align="center"> my_code_3 </p>
