@@ -10,7 +10,7 @@ class Solution {
     TreeNode*& lca
   ) {
     
-    if (node == nullptr) {return;}
+    if (node == nullptr) {return;} // выход из обхода дерева. Обусловлен определением обхода
     
     if (pFound && qFound) {return;}
 
@@ -42,6 +42,8 @@ class Solution {
     */
 
     // "lca == nullptr" необходим для того, чтобы гарантировать "Lowest" -- иначе вернется корень дерева
+    // данный условный опервтор находится в разделе post-order ибо ему необходимо обработать информацию на node, помечанных с помощью foundBefore
+    // так как информация для post-order своевременно собирается только в pre-order, положение условного оператора и определения foundBefore фиксированно 
     if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;} // стек рекурсивных вызовов раскручивается до тех пор, пока определение foundBefore не станет равным false
   }
 
