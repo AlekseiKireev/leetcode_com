@@ -1,6 +1,6 @@
 Также см.  
 986. Interval List Intersections -- это зачем?    
-763 Partition Labels
+763 Partition Labels -- аналог
 
 ____
 
