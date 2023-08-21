@@ -1,5 +1,5 @@
 Также см.  
-986. Interval List Intersections -- это зачем?    
+986. Interval List Intersections -- обратная задача: надо найти пересечение, а в исходной -- объединение    
 763 Partition Labels -- аналог
 
 ____
