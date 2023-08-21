@@ -24,6 +24,7 @@ ______________________
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_236_leetcode_1.png" width="750" height="550"/>
 
+При 
 ______________________
 
 https://www.techiedelight.com/ru/find-lowest-common-ancestor-lca-two-nodes-bst/  
