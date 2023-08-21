@@ -29,6 +29,9 @@ class Solution {
     if (node == q) {qFound = true;}
     */
     
+    // error: хорошо видно это на данных из "Example 2:"
+    // if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;}
+    
     visit(node->right, p, q, pFound, qFound, lca);
 
     // good!
