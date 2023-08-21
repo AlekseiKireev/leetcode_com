@@ -39,7 +39,8 @@ class Solution {
     if (node == p) {pFound = true;}
     if (node == q) {qFound = true;}
     */
-    
+
+    // "lca == nullptr" необходим для того, чтобы гарантировать "Lowest" -- иначе вернется корень дерева
     if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;} // стек рекурсивных вызовов раскручивается до тех пор, пока определение foundBefore не станет равным false
   }
 
