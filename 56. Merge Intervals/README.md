@@ -1,5 +1,5 @@
 Также см.  
-986. Interval List Intersections  
+986. Interval List Intersections -- это зачем?    
 763 Partition Labels
 
 ____
