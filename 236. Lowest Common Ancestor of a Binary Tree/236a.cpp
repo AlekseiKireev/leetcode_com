@@ -23,7 +23,7 @@ class Solution {
     visit(node->left, p, q, pFound, qFound, lca);
     visit(node->right, p, q, pFound, qFound, lca);
     
-    if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;}
+    if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;} // стек рекурсивных вызовов раскручивается до тех пор, пока определение foundBefore не станет ложью
   }
 
 public:
