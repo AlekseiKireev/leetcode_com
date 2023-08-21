@@ -14,8 +14,8 @@ class Solution {
     
     if (pFound && qFound) {return;}
     
-    bool foundBefore = pFound || qFound; // было ли хоть что-то найдено до этого [выше]. 
-                                         // Если да, то текущая [распаложенная ниже ранее найденной] вершина LCA быть не может
+    bool foundBefore = pFound || qFound; // было ли хоть что-то найдено до этого [выше / в ином поддереве]. 
+                                         // Если да, то текущая [распаложенная ниже / в ином поддереве ранее найденной] вершина LCA быть не может
     
     if (node == p) {pFound = true;}
     if (node == q) {qFound = true;}
@@ -23,7 +23,7 @@ class Solution {
     visit(node->left, p, q, pFound, qFound, lca);
     visit(node->right, p, q, pFound, qFound, lca);
     
-    if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;} // стек рекурсивных вызовов раскручивается до тех пор, пока определение foundBefore не станет ложью
+    if (lca == nullptr && pFound && qFound && !foundBefore) { lca = node;} // стек рекурсивных вызовов раскручивается до тех пор, пока определение foundBefore не станет равным false
   }
 
 public:
