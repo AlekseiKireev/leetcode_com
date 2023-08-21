@@ -24,7 +24,7 @@ ______________________
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_236_leetcode_1.png" width="750" height="550"/>
 
-При 
+При входе в node надо сразу же ее метить на foundBefore, т.е. foundBefore должен находится в топе обхода
 ______________________
 
 https://www.techiedelight.com/ru/find-lowest-common-ancestor-lca-two-nodes-bst/  
