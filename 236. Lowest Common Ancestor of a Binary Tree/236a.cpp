@@ -14,7 +14,7 @@ class Solution {
     
     if (pFound && qFound) {return;}
     
-    bool foundBefore = pFound || qFound; // было ли хоть что-то найдено до этого
+    bool foundBefore = pFound || qFound; // было ли хоть что-то найдено до этого. Если да, то текущая вершина LCA быть не может
     
     if (node == p) {pFound = true;}
     if (node == q) {qFound = true;}
