@@ -22,6 +22,9 @@ O(n) по времени и O(h) по памяти - на обход дерев�
 
 ______________________
 
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/for_236_leetcode_1.png" width="800" height="500"/>
+____
+
 https://www.techiedelight.com/ru/find-lowest-common-ancestor-lca-two-nodes-bst/  
 https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
 
