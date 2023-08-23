@@ -6,6 +6,8 @@ ____
 
 https://leetcode.com/problems/merge-intervals/description/
 
+https://walkccc.me/LeetCode/problems/0056/
+
 [Разбор задачи 56 leetcode.com Merge Intervals. Решение на C++](https://www.youtube.com/watch?v=PIUaSD1c0AY)
 
 0. Наивный подход. Берём каждый исходный отрезок - и ищем, с какими он имеет пересечения. Потенциально 0(n^2). 
