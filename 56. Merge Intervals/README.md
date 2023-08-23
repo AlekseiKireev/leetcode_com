@@ -25,7 +25,7 @@ https://leetcode.com/problems/merge-intervals/description/
 
 После сортировки O(n) - один проход по интервалам.
 
-Сортировка O(nlogn) по времени, в std::sort O(logn) по памяти.
+Сортировка занимает O(nlogn) по времени, в std::sort O(logn) по памяти.
 
 ____
 
