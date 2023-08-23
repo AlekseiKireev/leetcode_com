@@ -12,7 +12,7 @@ public:
 
         for(auto interval : intervals){
 
-            if(Covers.empty() || ! /*CheckIntersection = */ (interval[0] <= Covers.back()[1])){
+            if(Covers.empty() ||  /*CheckIntersection = */ (interval[0] > Covers.back()[1])){
                 Covers.push_back(move(interval));
             }else{ // CheckIntersection == true
                 Covers.back()[1] = max(Covers.back()[1], interval[1]);
@@ -25,3 +25,39 @@ public:
 
     }
 };
+
+/*
+У двух отрезков нет пересечения в двух случиях: 
+
+        /1/
+a1|----------|a2
+                 b1|-------|b2  
+             
+        /2/
+                               a1|----------|a2
+                 b1|-------|b2   
+
+Что зквивалентно в логическом виде:  a2 < b1 || b2 < a1
+Если инвертировать: a2 >= b1 && b2 >= a1 -- получим условик пересечения
+*/
+
+/*
+max в 41 строке необходим ввиду того, что есть два вида положения правой границы при пересечении: 
+
+инваринат b1 <= a1 ввиду sort Intervals
+
+        /1/
+interval                      a1|--|a2
+Covers.back()            b1|-------------|b2
+
+        /2/
+interval                       a1|----------|a2
+Covers.back()             b1|-------|b2   
+
+
+Нет пересечения: 
+
+interval                                    a1|----------|a2
+Covers.back()             b1|-------|b2  
+
+*/
