@@ -3,7 +3,8 @@ public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         
         sort(intervals.begin(), intervals.end()); // --> if i < j --> intervals[i][0] <=  intervals[j][0] --> проверку пересечения можно делать только по второй координате, а именно: 
-                                                  // если intervals[i][1] <  intervals[j][0] -- пересечений нет, ибо начало следующего отрезка больше конца предыдущего
+                                                  // если левая граница больше правой == intervals[i][1] < intervals[j][0] -- пересечений нет, ибо начало следующего отрезка больше конца предыдущего.
+                                                  // это следует из условия отсутсивия пересечения: intervals[i][1] < intervals[j][0] || intervals[j][1] < intervals[i][0]        
 
         vector<vector<int>> Covers;
         Covers.reserve(intervals.size());
