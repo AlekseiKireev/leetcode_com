@@ -37,6 +37,9 @@ Covers.back()            b1|-------------|b2
 interval                       a1|----------|a2
 Covers.back()             b1|-------|b2   
 
+Нет пересечения: 
 
+interval                                    a1|----------|a2
+Covers.back()             b1|-------|b2  
 
 */
