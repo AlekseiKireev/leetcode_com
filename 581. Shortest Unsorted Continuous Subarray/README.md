@@ -56,7 +56,7 @@ N- 1 млн - сортировка в 1 с уложится.
 
 
 Инваринат: MIN[i] <= nums[i] <= MAX[i]  
-Инваринат: MIN.front() == min(nums) == sort(nums).front()
+Инваринат: MIN.front() == min(nums) == sort(nums).front()  
 Инваринат: MAX.back() = max(nums) == sort(nums).back()
 
 MIN[i] == nums[i] == MAX[i] <--> элемент стоит на своем месте, иначе -- nums[i] != MIN[i]  || nums[i] != MAX[i] -- нет. Необходимо найти соответственно первые элементы слева и справа, где это нарушается
