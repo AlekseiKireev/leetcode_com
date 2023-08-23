@@ -11,7 +11,7 @@ public:
   int findUnsortedSubarray(const vector<int>& a) { 
 
     int max = a[0];
-    int last = -1;
+    int last = -1; // RightBorder
 
     for (int i = 0; i < (int)a.size(); i++) { 
 
@@ -23,7 +23,7 @@ public:
     if (last == -1) {return 0;} // последовательность отсортирована 
 
     int min = a.back();
-    int first = -1;
+    int first = -1; // LeftBorder
 
     for (int i = (int)a.size() - 1; i >= 0; i--) { 
 
