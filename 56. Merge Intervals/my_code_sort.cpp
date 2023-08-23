@@ -21,7 +21,7 @@ public:
             
             if(CheckIntersection){
                 
-                // max for 117 / 170 testcases passed: [[1,4],[2,3]]
+                // algorithm "max" for 117 / 170 testcases passed: [[1,4],[2,3]]
                 EndCover = max(interval.back(), EndCover);
 
             }else{
