@@ -34,7 +34,10 @@ public:
 
         }        
 
+        
         if(RightBorder == -1){return 0;} // nums is sorted
+
+        
         int LeftBorder = -1;
         for(int i = 0; i < nums.size(); ++i){
 
