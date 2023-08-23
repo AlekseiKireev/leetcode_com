@@ -1,4 +1,6 @@
-// аналог: https://leetcode.com/problems/merge-intervals/description/
+// аналог: 
+// https://leetcode.com/problems/merge-intervals/description/
+// https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
 
 class Solution {
 public:
@@ -33,3 +35,19 @@ public:
         return Ans;
     }
 };
+/*
+max в 23 строке необходим ввиду того, что есть два вида пересечения: 
+
+инваринат b1 <= a1 ввиду sort
+
+        /1/
+interval                      a1|--|a2
+Covers.back()            b1|-------------|b2
+
+        /2/
+interval                       a1|----------|a2
+Covers.back()             b1|-------|b2   
+
+
+
+*/
