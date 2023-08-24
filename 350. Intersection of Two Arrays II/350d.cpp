@@ -35,7 +35,7 @@ public:
       
      vector<int> ans;
       
-     while (ia < a.size() && ib < b.size()) {
+     while (ia < a.size() && ib < b.size()) { // <--> https://en.cppreference.com/w/cpp/algorithm/set_intersection
 
        if(a[ia] == b[ib]){
           ans.push_back(a[ia]);
