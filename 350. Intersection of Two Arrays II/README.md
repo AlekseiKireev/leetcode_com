@@ -27,11 +27,11 @@ unordered_map<int,int> таблица с цепочками переполнен
 unordered_map<int,int> - накладные расходы на одну пару ключ/значение ~ 24 байт    
 
 ==  
-
-pair<const key, value> kv = pair<const int, int> - 8 byte
+[  
+pair<const key, value> kv = pair<const int, int> - 8 byte  
 Так как цепочки переполнения, нужен указатель на следующее значение пары == Node* next - 8 byte  
 элемент основной таблицы == size_t hash  
-
+]  
 - в 3 раза больше, сама пара.
 
 Если в массиве все числа различные - то при занесении в unordered_map разбухание в ~ б раз.
