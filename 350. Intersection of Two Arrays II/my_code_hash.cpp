@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+    vector<int> intersect(const vector<int>& nums1, const vector<int>& nums2) {
         
         if(nums1.size() > nums2.size()){return intersect(nums2, nums1);}
 
@@ -8,11 +8,11 @@ public:
 
         unordered_map<int, int> NumToCount;
 
-        for(int num : nums1){++NumToCount[num];}
+        for(const int num : nums1){++NumToCount[num];}
 
         vector<int> intersection; intersection.reserve(nums1.size());
 
-        for(int num : nums2){
+        for(const int num : nums2){
             
             if(NumToCount.find(num) != NumToCount.end() && NumToCount[num] > 0){
 
