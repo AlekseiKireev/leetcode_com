@@ -82,6 +82,8 @@ O(min(size(nums1), size(nums2))) по памяти.
  
 2 2
 
+Time:  O(mlogm+nlogn)  
+Space: O(min(m,n))
 _____
 
 https://youtu.be/QgsZ3BI1Xc8?t=262
