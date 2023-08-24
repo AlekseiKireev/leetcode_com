@@ -1,6 +1,6 @@
 56. Merge Intervals -- аналог
 
-НАЙТИ ПРУФ ТОГО, ЧТО U_M НЕ ВЫГОДЕН! ВОТ ТУТ ОН ДОЛЖЕН БЫТЬ: https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II
+Доказательство невыгодности использования unordered_map: https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II
 
 https://leetcode.com/problems/partition-labels/
 
