@@ -1,3 +1,6 @@
+https://leetcode.com/problems/max-consecutive-ones-iii/description/
+
+https://walkccc.me/LeetCode/problems/1004/
 
 У Федора Меньшикова разбор отсут-т!
 
