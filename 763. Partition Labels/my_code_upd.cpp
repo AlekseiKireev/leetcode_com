@@ -4,21 +4,24 @@ public:
         
         vector<int> CharToEndIdx(26);
 
-        for(int i = 0; i < s.size(); ++i){
-            CharToEndIdx[s[i] - 'a'] = i;
-        }
+        for(int i = 0; i < s.size(); ++i){CharToEndIdx[s[i] - 'a'] = i;}
 
         vector<int> SizeParts; SizeParts.reserve(26);
 
-        IdxEndPart = 0; // инициализируем нулем, например, для входных данных вида: "a" / "abc"
+        int LeftBorderChunk = -1; // инициализируем '-1', например, для входных данных вида: "a" / "abc"
+        int RightBorderChunk = 0; // инициализируем '0', например, для входных данных вида: "a" / "abc"
 
         for(int i = 0; i < s.size(); ++i){
 
-            IdxEndPart = max(IdxEndPart, CharToEndIdx[s[i] - 'a']);
+            RightBorderChunk = max(RightBorderChunk, CharToEndIdx[s[i] - 'a']); // ????????????????
 
-            if(IdxEndPart == i){
-
+            if(RightBorderChunk == i){ // ????????????????
+                SizeParts.push_back(RightBorderChunk - LeftBorderChunk);
+                LeftBorderChunk = RightBorderChunk; // LeftBorderChunk все также указывает на элемент, стоящий перед началом чанка --> p(RightBorderChunk, LeftBorderChunk) так и будет равен далее RightBorderChunk - LeftBorderChunk
             }
+            
+            assert(i <= RightBorderChunk);
+            assert(LeftBorderChunk<= i);
 
         }
 
