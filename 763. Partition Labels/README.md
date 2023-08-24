@@ -1,4 +1,4 @@
-56. Merge Intervals -- аналог
+56. Merge Intervals == https://leetcode.com/problems/merge-intervals/ -- аналог
 
 Доказательство невыгодности использования unordered_map: https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II
 
@@ -21,8 +21,7 @@ ___
 <p align="center"> Example 1: </p>
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_763_leetcode_1.png" width="1500" height="400"/>  
-
-Тепер задача выглядит аналогично https://leetcode.com/problems/merge-intervals/, но такое решение не выгодно!
+Демонстарция аналога с 56. Merge Intervals
 
 <p align="center"> My Example 1: </p>
 
