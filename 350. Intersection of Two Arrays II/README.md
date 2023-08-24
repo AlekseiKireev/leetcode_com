@@ -91,7 +91,7 @@ unordered_map<int,int> - накладные расходы на одну пар�
 ???
 
     struct Node{
-     pair<const key, value> kv;
-     Node* next;
-     size_t hash // хеш текущего ключа
+      pair<const key, value> kv;
+      Node* next;
+      size_t hash // хеш текущего ключа
     };
