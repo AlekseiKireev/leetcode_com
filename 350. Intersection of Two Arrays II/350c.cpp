@@ -26,7 +26,7 @@ public:
            pairs.begin(),
            pairs.end(),
            v,
-           [](const Pair &p, int v) {
+           [](const Pair &p, int v) { // "Iterator pointing to the first element in the range [first, last) such that comp(element, value) is false" <-- https://en.cppreference.com/w/cpp/algorithm/lower_bound
            return p.num < v || (p.num == v && !p.present);
            }
         );
