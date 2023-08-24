@@ -10,7 +10,7 @@ public:
 
         for(int num : nums1){++NumToCount[num];}
 
-        vector<int> intersection;
+        vector<int> intersection; intersection.reserve(nums1.size());
 
         for(int num : nums2){
             
@@ -23,6 +23,7 @@ public:
             
         }
 
+        intersection.shrink_to_fit();
         return intersection;
     }
 };
