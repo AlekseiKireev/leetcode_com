@@ -60,6 +60,12 @@ ________
 
 [Leetcode Premium Unlocker](https://chrome.google.com/webstore/detail/leetcode-premium-unlocker/gnpcbhmchfdadabkcmooljbhgdemgiof)
 
+===
+
+https://chrome.google.com/webstore/detail/leetcode-premium-unlocker/gnpcbhmchfdadabkcmooljbhgdemgiof
+
+Как следствие: https://leetcode.com/list/oy4y273c/ 
+
 Ме Бэ, [6/29/2023 3:03 PM]
 есть у кого доступ к платной вервсии на литкоед? Хотел попросить задачу в грейдер залить...
 
