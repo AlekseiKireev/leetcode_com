@@ -8,7 +8,7 @@ public:
         vector<int> CharToEndIdx(26); // "s consists of lowercase English letters."
         for(int i = 0; i < s.size(); ++i){CharToEndIdx[s[i] - 'a'] = i;}
 
-        int IdxEndPart = -1; /* "-1" необходим для того для удобства измерения расстояния между индексами. 
+        int PrevIdxEndPart = -1; /* "-1" необходим для удобства измерения расстояния между индексами. 
                                     Если бы "PrevIdxEndPart = 0", то имело бы место стркоа: "SizeParts.push_back(IdxEndPart -   PrevIdxEndPart + 1);"*/
         int IdxEndPart = 0;
 
