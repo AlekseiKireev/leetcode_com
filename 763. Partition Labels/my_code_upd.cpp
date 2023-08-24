@@ -12,11 +12,20 @@ public:
         int RightBorderChunk = 0; // инициализируем '0', например, для входных данных вида: "a" / "abc"
 
         for(int i = 0; i < s.size(); ++i){
+            /* Утверждения:
+             LeftBorderChunk указывает на элемент, предшествующий первому в исследуемом чанке
+             i == LeftPtr
+             RightBorderChunk == RightPtr -- указывают на потенциальынй конец чанка
 
-            RightBorderChunk = max(RightBorderChunk, CharToEndIdx[s[i] - 'a']); // ????????????????
+             i и RightBorderChunk в одном чанке находятся всегда
 
-            if(RightBorderChunk == i){ // ????????????????
-                SizeParts.push_back(RightBorderChunk - LeftBorderChunk);
+             CharToEndIdx[s[i] - 'a'] -- указывают на потенциальынй конец чанка, в котором последний раз встречается s[i]
+            */
+            RightBorderChunk = max(RightBorderChunk, CharToEndIdx[s[i] - 'a']); // обновляем правую крайницу чанка в поисках крайней, максимальной
+
+            if(RightBorderChunk == i){ // Максимальное значение правой границы чанка совпало с текущей левой границей <--> " each letter appears in at most one part." == каждая буква появлялась не более чем в одной части.
+            
+                SizeParts.push_back(RightBorderChunk - LeftBorderChunk); // искомое
                 LeftBorderChunk = RightBorderChunk; // LeftBorderChunk все также указывает на элемент, стоящий перед началом чанка --> p(RightBorderChunk, LeftBorderChunk) так и будет равен далее RightBorderChunk - LeftBorderChunk
             }
             
