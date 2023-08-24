@@ -26,7 +26,7 @@ public:
 		int right = a.size() - 1;
 		*/
 		
-		
+		// right - left - 1 == количество элементов в интервале (left, right)
 		while (1 != right - left) { // <-->  1 < right - left <--> цикл до тех пор, пока left + 1 != right -- 
 					    // то есть пока не дошли до соседних гранично-инвариантных индексов, пока расстояние между left и right не равно 1
 			int mid = (left + right) / 2;
