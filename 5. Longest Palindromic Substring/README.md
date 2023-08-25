@@ -22,13 +22,13 @@ https://neerc.ifmo.ru/wiki/index.php?title=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%
 
 https://e-maxx.ru/algo/palindromes_count
 
-https://www.techiedelight.com/longest-palindromic-substring-non-dp-space-optimized-solution/
-
 https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/
 
 _____
 
 <p align="center"> DP </p>
+
+https://www.techiedelight.com/longest-palindromic-substring-non-dp-space-optimized-solution/
 
 Утверждение:  
 
