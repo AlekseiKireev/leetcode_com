@@ -5,3 +5,5 @@ https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 https://walkccc.me/LeetCode/problems/1493/
 
 У Федора Меньшикова разбор отсут-т!
+
+Алгоритм: Sliding Window
