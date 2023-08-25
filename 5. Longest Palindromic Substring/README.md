@@ -21,3 +21,13 @@ https://www.techiedelight.com/longest-palindromic-substring-non-dp-space-optimiz
 https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/
 
 <p align="center"> DP </p>
+
+_____
+
+| **_DP_** 	| 0 	| 1 	| ... 	| j - 1 	| j 	|
+|:--------:	|:-:	|:-:	|:---:	|:-----:	|:-:	|
+|     0    	| 1 	|   	|     	|       	|   	|
+|     1    	|   	| 1 	|     	|       	|   	|
+|    ...   	|   	|   	| ... 	|       	|   	|
+| i        	|   	|   	|     	|       	|   	|
+| i+1      	|   	|   	|     	|       	|   	|
