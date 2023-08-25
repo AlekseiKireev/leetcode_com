@@ -19,3 +19,5 @@ https://e-maxx.ru/algo/palindromes_count
 https://www.techiedelight.com/longest-palindromic-substring-non-dp-space-optimized-solution/
 
 https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/
+
+<p align="center"> DP </p>
