@@ -116,3 +116,19 @@ ______________________
 https://e-maxx.ru/algo/dsu#16
 
 Возможно, еще через дерево отрезков?
+
+_______________________
+
+<p align="center"> ex for my_code_upd.cpp</p>
+
+<p align="center">1</p>
+
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_1_for_236.png" width="750" height="550"/>
+
+<p align="center">2</p>
+
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_2_for_236.png" width="750" height="550"/>
+
+<p align="center">3</p>
+
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_3_for_236.png" width="750" height="550"/>
