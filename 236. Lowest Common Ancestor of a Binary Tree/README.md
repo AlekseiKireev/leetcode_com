@@ -123,12 +123,12 @@ _______________________
 
 <p align="center">1</p>
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_1_for_236.png" width="750" height="550"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_1_for_236.png" width="850" height="500"/>
 
 <p align="center">2</p>
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_2_for_236.png" width="750" height="550"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_2_for_236.png" width="850" height="500"/>
 
 <p align="center">3</p>
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_3_for_236.png" width="750" height="550"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/ex_3_for_236.png" width="850" height="500"/>
