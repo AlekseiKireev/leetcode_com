@@ -37,6 +37,8 @@ void travel(TreeNode* node){
     travel(node->left);
     travel(node->right);
 
+    // условный оператор находится в postorder позиции ввиду того, что ищем lowest, а при postorder обходе
+    // как раз поднимаемся снизу вверх, что даст нам необходимый (самый удаленный) узел 
     if(LCA == nullptr && CheckNodeOnParentP_or_Q && Found_P && Found_Q){LCA = node;}
 
 }
