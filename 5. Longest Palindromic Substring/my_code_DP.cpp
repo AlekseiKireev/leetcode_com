@@ -29,7 +29,7 @@ public:
 
                 assert(i <= j);
 
-                if(s[i] == s[j] && DP[i + 1][j - 1]){ // {s[i], ..., s[j]} is palindrome
+                if(s[i] == s[j] && DP[i + 1][j - 1]){ // {s[i], s[i + 1],..., s[j - 1] , s[j]} is palindrome
                     DP[i][j] = true;
                     LeftBorder = i;
                     RightBorder = j;
