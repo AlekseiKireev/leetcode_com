@@ -1,3 +1,5 @@
+ПРЕДОСТАВИТЬ СЕРТИФИКАТ!
+
 https://leetcode.com/problems/maximum-subarray/
 
 https://walkccc.me/LeetCode/problems/0053/
