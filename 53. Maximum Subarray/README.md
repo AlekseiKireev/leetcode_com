@@ -1,4 +1,4 @@
-ПРЕДОСТАВИТЬ СЕРТИФИКАТ! МОЖНО КАК-ТО РЕШИТЬ ЧЕРЕЗ ПРЕФИКСНЫЕ СУММЫ?
+ПРЕДОСТАВИТЬ СЕРТИФИКАТ!
 
 https://leetcode.com/problems/maximum-subarray/
 
@@ -12,7 +12,7 @@ https://leetcode.com/problems/maximum-subarray/solutions/ -- см. топ 3
 
 ____
 
-[Разбор задачи 53 leetcode.com Maximum Subarray. Решение на C++](https://www.youtube.com/watch?v=JGoQK5MUbIY) -- остановился на 13 минуте
+[Разбор задачи 53 leetcode.com Maximum Subarray. Решение на C++](https://www.youtube.com/watch?v=JGoQK5MUbIY)
 
 1. Наивное решение: 
 
