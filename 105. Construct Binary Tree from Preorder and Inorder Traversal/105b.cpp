@@ -10,7 +10,6 @@
  * };
  */
 
-
 class Solution {
       TreeNode* buildTree(
       const vector<int>& preorder,int preorderFirst, int preorderAfter, 
@@ -28,12 +27,14 @@ class Solution {
 
       root->left = buildTree(
          preorder, preorderFirst + 1, preorderFirst + 1 + leftSize,
-         inorder, inorderFirst, i, valueToIndex
+         inorder, inorderFirst, i, 
+         valueToIndex
       );
 
       root->right = buildTree(
          preorder, preorderFirst + 1 + leftSize, preorderAfter, 
-         inorder, i + 1, inorderAfter, valueToIndex
+         inorder, i + 1, inorderAfter, 
+         valueToIndex
       );
 
       return root;
