@@ -32,3 +32,6 @@ postorder left... right... root
 
 Очевидное решение для O(nodes) - unordered_map из значения в позицию в inorder.
 
+______
+
+ВСТАВИТЬ КАРТИНКУ
