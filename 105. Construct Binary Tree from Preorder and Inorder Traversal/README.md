@@ -34,4 +34,4 @@ postorder left... right... root
 
 ______
 
-ВСТАВИТЬ КАРТИНКУ
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/travel_tree_three.png" width="800" height="500"/>
