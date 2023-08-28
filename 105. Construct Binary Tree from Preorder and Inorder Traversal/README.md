@@ -34,4 +34,7 @@ postorder left... right... root
 
 ______
 
+https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/  
+https://progler.ru/blog/predvaritelnyy-zakaz-iz-obhodov-inorder-i-postorder  
+
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/travel_tree_three.png" width="800" height="500"/>
