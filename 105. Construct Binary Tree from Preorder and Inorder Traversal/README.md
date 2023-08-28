@@ -21,6 +21,8 @@ inorder [9 3 15 20 7]
 preorder root left... right...   
 inorder left... root right...  
 postorder left... right... root
+
+
 Сложность:
 
 самая сложная операция - найти корень в inorder.
