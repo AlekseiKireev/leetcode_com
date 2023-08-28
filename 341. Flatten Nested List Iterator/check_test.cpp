@@ -96,5 +96,21 @@ Expected
 */
 
 /*
+Input
 [1, [2, [3, [4, [5]]]]]
+Stdout
+isInteger
+Not isInteger
+isInteger
+Not isInteger
+isInteger
+Not isInteger
+isInteger
+Not isInteger
+isInteger
+View less 
+Output
+[1,2,3,4,5]
+Expected
+[1,2,3,4,5]
 */
