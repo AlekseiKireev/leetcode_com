@@ -26,6 +26,7 @@ private:
       if (preorderFirst == preorderAfter) {return nullptr;}
 
       TreeNode* root = new TreeNode(preorder[preorderFirst]);
+            
       int i = valueToIndex.at(preorder[preorderFirst]);
       int leftSize = i - inorderFirst;
 
@@ -44,12 +45,11 @@ private:
 
 public:
 
-   TreeNode* buildTree(const vector<int>& preorder, const vector<int>& inorder) {
-         
+   TreeNode* buildTree(const vector<int>& preorder, const vector<int>& inorder) {         
       
-      for (int i = 0; i < (int)inorder.size(); i++) {valueToIndex[inorder[i]] = i;}
+   for (int i = 0; i < (int)inorder.size(); i++) {valueToIndex[inorder[i]] = i;}
          
-      return buildTree(preorder, 0, (int)preorder.size(), 
+   return buildTree(preorder, 0, (int)preorder.size(), 
                        0);
    }
 };
