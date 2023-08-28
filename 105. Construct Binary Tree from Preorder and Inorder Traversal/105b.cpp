@@ -17,9 +17,7 @@ class Solution {
       const unordered_map<int, int>& valueToIndex
    ) {
 
-      if (preorderFirst == preorderAfter) {
-         return nullptr;
-      }
+      if (preorderFirst == preorderAfter) {return nullptr;}
 
       TreeNode* root = new TreeNode(preorder[preorderFirst]);
       int i = valueToIndex.find(root->val)->second;
