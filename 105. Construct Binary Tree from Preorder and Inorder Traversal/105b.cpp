@@ -20,7 +20,7 @@ class Solution {
       if (preorderFirst == preorderAfter) {return nullptr;}
 
       TreeNode* root = new TreeNode(preorder[preorderFirst]);
-      int i = valueToIndex.find(root->val)->second;
+      int i = valueToIndex.find(root->val)->second; // <--> int i = valueToIndex.at(preorder[preorderFirst]);
       int leftSize = i - inorderFirst;
 
       root->left = buildTree(
