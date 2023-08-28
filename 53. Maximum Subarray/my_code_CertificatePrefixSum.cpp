@@ -37,7 +37,7 @@ public:
             
         }
 
-        totalMax = accumulate(nums.begin() + LeftIdxMaxSuffixSum, nums.begin() + RightIdxMaxSuffixSum + 1, 0); 
+        assert(totalMax == accumulate(nums.begin() + LeftIdxMaxSuffixSum, nums.begin() + RightIdxMaxSuffixSum + 1, 0) );
         return totalMax; 
     }
 };
