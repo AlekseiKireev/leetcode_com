@@ -43,10 +43,10 @@ class Solution {
 public:
 
    TreeNode* buildTree(const vector<int>& preorder, const vector<int>& inorder) {
+         
       unordered_map<int, int> valueToIndex;
-      for (int i = 0; i < (int)inorder.size(); i++) {
-         valueToIndex[inorder[i]] = i;
-      }
+      for (int i = 0; i < (int)inorder.size(); i++) {valueToIndex[inorder[i]] = i;}
+         
       return buildTree(preorder, 0, (int)preorder.size(), inorder, 0, (int)inorder.size(), valueToIndex);
    }
 };
