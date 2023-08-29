@@ -3,6 +3,7 @@ https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-tr
 
 https://walkccc.me/LeetCode/problems/0105/ == 105b.cpp
 
+[Construct Binary Tree from Inorder and Postorder Traversal - Leetcode 106 - Python](https://www.youtube.com/watch?v=vm63HuIU7kw)
 ____
 105a.cpp == поиск кореня в inorder   
 105b.cpp == unordered_map
