@@ -1,3 +1,5 @@
+Как-то можно через enum?
+
 https://leetcode.com/problems/design-an-atm-machine/description/
 
 https://walkccc.me/LeetCode/problems/2241/
