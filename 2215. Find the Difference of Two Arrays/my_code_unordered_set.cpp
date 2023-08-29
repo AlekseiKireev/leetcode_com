@@ -9,13 +9,13 @@ public:
         answer.front().reserve(set1.size());
         answer.back().reserve(set2.size());
 
-        for(auto num : set1){
+        for(const auto num : set1){
             if(set2.count(num) == 0){
                 answer.front().push_back(num);
             }
         }
 
-        for(auto num : set2){
+        for(const auto num : set2){
             if(set1.count(num) == 0){
                 answer.back().push_back(num);
             }
