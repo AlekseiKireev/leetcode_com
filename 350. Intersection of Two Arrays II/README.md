@@ -1,5 +1,3 @@
-РЕШИТЬ СВОИМИ РУКАМИ!
-
 https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
 
 https://walkccc.me/LeetCode/problems/0350/
