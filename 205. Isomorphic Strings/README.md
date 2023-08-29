@@ -2,4 +2,24 @@ https://leetcode.com/problems/isomorphic-strings/
 
 https://walkccc.me/LeetCode/problems/0205/
 
+__________
+
 [Разбор задачи 205 leetcode.com Isomorphic Strings. Решение на C++](https://www.youtube.com/watch?v=a793ad7hmao)
+
+Два unordered_mар / vector - индекс - буква в одном слове, значение - буква в другом слове.
+
+Получаем новую пару буква1-буква2 - смотрим в этих таблицах, сопоставлено ли что-то букве1, и сопоставлено ли что-то букве2.
+
+Если нет сопоставления - добавляем.
+
+Вариант unordered_mар:  
+о(|s|) - по времени  
+O(min(|s|, |alphabet|)) - по памяти  
+
+Вариант vector:  
+O(|s|+|alphabet|) - по времени  
+O(|alphabet|) - по памяти
+
+Если алфавит небольшой:  
+O(|s|) по времени  
+O(1) по памяти
