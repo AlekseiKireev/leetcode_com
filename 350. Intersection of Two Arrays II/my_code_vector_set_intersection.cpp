@@ -8,6 +8,7 @@ public:
         vector<int> intersection;
         intersection.reserve(min(nums1.size(), nums2.size()));
 
+        // https://en.cppreference.com/w/cpp/algorithm/set_intersection
         set_intersection(nums1.begin(), nums1.end(), nums2.begin(), nums2.end(),
                           std::back_inserter(intersection));
 
