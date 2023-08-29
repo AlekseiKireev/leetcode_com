@@ -1,4 +1,4 @@
-Как-то можно через enum?
+Как-то можно через enum? См. середину: http://ci-plus-plus-snachala.ru/?p=41
 
 https://leetcode.com/problems/design-an-atm-machine/description/
 
