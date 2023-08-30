@@ -1,0 +1,28 @@
+class Solution {
+
+public:
+
+    bool isIsomorphic(string S, string T) {
+        
+        const int SIZE = S.size();
+        unordered_map<char, char> S_ch_To_T_ch;
+        unordered_set<char> UsedCharT; // <-- " Wrong Answer 37 / 44 testcases   Input s = "badc" t = "baba" "
+        
+        for(int i = 0 ; i < SIZE;++i){
+
+            if(S_ch_To_T_ch[S[i]] == '\0' &&  UsedCharT.count(T[i]) == 0){
+              
+                S_ch_To_T_ch[S[i]] = T[i];                
+                UsedCharT.insert(T[i]);
+              
+                }
+
+                S[i] =  S_ch_To_T_ch[S[i]];
+            
+        }
+
+        return S == T;
+
+    }
+
+};
