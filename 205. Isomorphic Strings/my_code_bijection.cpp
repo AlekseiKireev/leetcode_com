@@ -1,14 +1,18 @@
 class Solution {
 public:
     bool isIsomorphic(string S, string T) {
-        
+
+        /* // good!
+        array<char, 128> CharS_to_CharT; CharS_to_CharT.fill(-1);
+        array<char, 128> CharT_to_CharS; CharT_to_CharS.fill(-1);
+        */
         array<int, 128> CharS_to_CharT; CharS_to_CharT.fill(-1); // отображаем элемент S[k] из множества S в элемент T[k] из множества T 
         array<int, 128> CharT_to_CharS; CharT_to_CharS.fill(-1); // отображаем элемент T[k] из множества T в элемент S[k] из множества S 
 
 
         for(int i = 0; i < S.size(); ++i){
 
-            // работает и с этой строкой и без
+            // работает и с этим условным оператором и без
             if(CharS_to_CharT[S[i]] * CharT_to_CharS[T[i]] < 0){return false;} // нарушено условие биекции: есть отображение элемента из S в T, но нет из T в S (или наоборот)
 
             if(CharS_to_CharT[S[i]] == -1 && CharT_to_CharS[T[i]] == -1){ // устанавливаем биективную связь
