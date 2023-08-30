@@ -10,7 +10,7 @@ public:
         
         for(int i = 0 ; i < SIZE;++i){
 
-            if(S_ch_To_T_ch[S[i]] == '\0' &&  UsedCharT.count(T[i]) == 0){
+            if(S_ch_To_T_ch[S[i]] == '\0' &&  UsedCharT.count(T[i]) == 0){ // " &&  UsedCharT.count(T[i]) == 0" -- для контроля биекции
                 S_ch_To_T_ch[S[i]] = T[i];
                 UsedCharT.insert(T[i]);
                 }
