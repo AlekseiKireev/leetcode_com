@@ -1,3 +1,7 @@
+В теории множеств любая биекция является изоморфизмом.
+
+__________
+
 https://leetcode.com/problems/isomorphic-strings/
 
 https://walkccc.me/LeetCode/problems/0205/
