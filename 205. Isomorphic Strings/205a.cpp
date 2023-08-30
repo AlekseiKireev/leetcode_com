@@ -10,8 +10,10 @@ public:
     for (size_t i = 0; i < s.size(); i++) { 
       char sc = s[i];
       char tc = t[i];
+      
       assert(0 <= sc && sc <= 127); 
       assert(0 <= tc && tc <= 127); 
+      
       if (sToT[sc] == tc && tToS[tc] == sc) {
         // ok
       } else if (sToT[sc] == -1 && tToS[tc] == -1) { 
