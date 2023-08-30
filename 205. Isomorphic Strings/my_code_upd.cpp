@@ -10,6 +10,10 @@ public:
         
         for(int i = 0 ; i < SIZE;++i){
 
+            if(UsedCharT.count(T[i]) == 1 && S_ch_To_T_ch[S[i]] == '\0'){
+                return false; // нарушена биекция при отображении S в T
+            }
+
             if(S_ch_To_T_ch[S[i]] == '\0' &&  UsedCharT.count(T[i]) == 0){
               
                 S_ch_To_T_ch[S[i]] = T[i];                
