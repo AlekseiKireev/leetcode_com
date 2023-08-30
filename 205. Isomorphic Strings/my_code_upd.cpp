@@ -5,7 +5,10 @@ public:
     bool isIsomorphic(string S, string T) {
         
         const int SIZE = S.size();
-        unordered_map<char, char> S_ch_To_T_ch;
+        
+        array<char, 128> S_ch_To_T_ch; 
+        S_ch_To_T_ch.fill('\0');
+        
         unordered_set<char> UsedCharT; // <-- " Wrong Answer 37 / 44 testcases   Input s = "badc" t = "baba" "
         
         for(int i = 0 ; i < SIZE;++i){
