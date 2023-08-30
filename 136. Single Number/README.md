@@ -1,4 +1,22 @@
-https://leetcode.com/problems/single-number/
+[https://leetcode.com/problems/single-number/](https://leetcode.com/problems/single-number/description/  
+related:  
+- https://leetcode.com/problems/single-number-ii/
+
+https://walkccc.me/LeetCode/problems/0136/
+
+_____
+
+[Разбор задачи 136 leetcode.com Single Number. Решение на C++](https://www.youtube.com/watch?v=ZCmUnoLmL-0))https://leetcode.com/problems/single-number/description/  
+related:  
+- https://leetcode.com/problems/single-number-ii/
+
+https://walkccc.me/LeetCode/problems/0136/
+
+_____
+
+[Разбор задачи 136 leetcode.com Single Number. Решение на C++](https://www.youtube.com/watch?v=ZCmUnoLmL-0)
+
+____
 
 Алгоритм
 
