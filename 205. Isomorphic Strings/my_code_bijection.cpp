@@ -2,8 +2,8 @@ class Solution {
 public:
     bool isIsomorphic(string S, string T) {
         
-        array<int, 128> CharS_to_CharT; CharS_to_CharT.fill(-1);
-        array<int, 128> CharT_to_CharS; CharT_to_CharS.fill(-1);
+        array<int, 128> CharS_to_CharT; CharS_to_CharT.fill(-1); // отображаем элемент S[k] из множества S в элемент T[k] из множества T 
+        array<int, 128> CharT_to_CharS; CharT_to_CharS.fill(-1); // отображаем элемент T[k] из множества T в элемент S[k] из множества S 
 
 
         for(int i = 0; i < S.size(); ++i){
