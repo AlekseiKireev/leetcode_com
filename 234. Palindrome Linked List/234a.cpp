@@ -51,7 +51,7 @@ public:
 
   bool isPalindrome(ListNode* head) {
    int len = getLen(head);
-   ListNode* half2 = forward(head, (len + 1) / 2); 
+   ListNode* half2 = forward(head, (len + 1) / 2);  // <--> ListNode* half2 = forward(head, (len /*+ 1*/) / 2); 
    ListNode* last = reverse(half2);
    ListNode* node1 = head; 
    ListNode* node2 = last; 
