@@ -28,6 +28,15 @@ class Solution {
    return len;
   }
 
+/*
+  ListNode* forward(ListNode* node, int steps) { 
+   
+   for (;steps > 0;steps--) {node = node->next;}
+   return node;
+   
+  }
+*/
+
   ListNode* forward(ListNode* node, int steps) { 
    while (steps > 0) {
      node = node->next;
