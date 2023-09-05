@@ -9,3 +9,5 @@ _________
 При решении используется Postorder - обход дерева
 
 Достойный разбор: https://leetcode.com/problems/maximum-depth-of-binary-tree/solutions/1770060/c-recursive-dfs-example-dry-run-well-explained/
+
+<img src="[https://github.com/SkosMartren/useful-materials/blob/main/470_1.png](https://assets.leetcode.com/users/images/523c99f4-e3ae-4123-8454-aef6f81f69fd_1644824385.5203114.jpeg)https://assets.leetcode.com/users/images/523c99f4-e3ae-4123-8454-aef6f81f69fd_1644824385.5203114.jpeg" width="800" height="500"/>
