@@ -3,7 +3,7 @@ class DSU{
 private:
 
 vector<int> RankSize;
-vector<int> ParentToChild;
+vector<int> Parent;
 
 int StartingNumberLeaders;
 
@@ -12,17 +12,17 @@ public:
     DSU(int StartingNumberLeaders_) : StartingNumberLeaders(StartingNumberLeaders_){
 
         RankSize.resize(StartingNumberLeaders, 1);
-        ParentToChild.resize(StartingNumberLeaders);
+        Parent.resize(StartingNumberLeaders);
 
         for(int i = 0; i < StartingNumberLeaders; ++i){
-            ParentToChild[i] = i;
+            Parent[i] = i;
         }
 
     }
 
     int Find(int Parent){
 
-        return (ParentToChild[Parent] == Parent) ? Parent : ParentToChild[Parent] = Find(ParentToChild[Parent]);
+        return (Parent[Parent] == Parent) ? Parent : Parent[Parent] = Find(Parent[Parent]);
 
     }
 
@@ -40,7 +40,7 @@ public:
 
         assert(RankSize[Leader_2] <= RankSize[Leader_1]); // подвешиваем дерево с мЕньшим рангом за дерево с бОльшим рангом
 
-        ParentToChild[Leader_1] = Leader_2;
+        Parent[Leader_2] = Leader_1;
         RankSize[Leader_1] += RankSize[Leader_2];
         RankSize[Leader_2] = 0;
         
