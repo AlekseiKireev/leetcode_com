@@ -20,9 +20,9 @@ public:
 
     }
 
-    int Find(int Parent){
+    int Find(int parent){
 
-        return (Parent[Parent] == Parent) ? Parent : Parent[Parent] = Find(Parent[Parent]);
+        return (Parent[parent] == parent) ? parent : Parent[parent] = Find(Parent[parent]);
 
     }
 
