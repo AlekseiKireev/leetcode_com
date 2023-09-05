@@ -10,4 +10,4 @@ _________
 
 Достойный разбор: https://leetcode.com/problems/maximum-depth-of-binary-tree/solutions/1770060/c-recursive-dfs-example-dry-run-well-explained/
 
-<img src="https://assets.leetcode.com/users/images/523c99f4-e3ae-4123-8454-aef6f81f69fd_1644824385.5203114.jpeg" width="800" height="500"/>
+<img src="https://assets.leetcode.com/users/images/523c99f4-e3ae-4123-8454-aef6f81f69fd_1644824385.5203114.jpeg" width="850" height="550"/>
