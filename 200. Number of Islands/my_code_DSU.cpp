@@ -41,7 +41,7 @@ public:
 
         assert(Rank[LeaderV] <= Rank[LeaderU]); // За бОльшее по высоте дерево подвешиваем мАлое
 
-        Parent[LeaderU] = LeaderV;
+        Parent[LeaderV] = LeaderU;
 
         if (Rank[LeaderU] == Rank[LeaderV]) { ++Rank[LeaderU]; }
 
