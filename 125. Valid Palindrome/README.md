@@ -2,7 +2,35 @@ https://leetcode.com/problems/valid-palindrome/
 
 https://walkccc.me/LeetCode/problems/0125/
 
+______
+
 [Разбор задачи 125 leetcode.com Valid Palindrome. Решение на C++](https://www.youtube.com/watch?v=JEH5gk_2g34)
+
+Как проверять буквы или цифры.
+
+С++ isalnum  
+ - аргумент int.  
+int ожидается >= 0.
+
+char - по спецификации С++ на выбор со знаком или без знака.
+
+signed char или unsigned char.
+
+isalnum(с) - можем получить UB, если символ со знаком - и отрицательный.
+
+
+Правильно:
+
+isalnum((unsigned char)с)
+
+Сравнить маленькую и большую букву
+
+tolower - приводим к нижнему регистру. 
+
+tolower((unsigned char)с)
+
+
+
 __________
 
 А Б, [7/2/2023 2:15 PM]  
