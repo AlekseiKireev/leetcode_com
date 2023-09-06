@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isValid(string s) {
+    bool isValid(string_view s) {
         
         if(s.empty()){return true;}
         if(s.size() % 2){return false;}
