@@ -7,9 +7,11 @@ public:
 
 		while (l < r) {
 
+			// "Alphanumeric characters include letters and numbers."
 			// отрбрасываем от левой границы окна символы, отличные от чисел / алфавитных символов нижнего и верхнего регистра. Например: ' ', ':', '%' и т.д.
 			while (l < r && !isalnum(s[l])) { ++l; }
 
+			// "Alphanumeric characters include letters and numbers."
 			// отрбрасываем от правой границы окна символы, отличные от чисел / алфавитных символов нижнего и верхнего регистра. Например: ' ', ':', '%' и т.д.
 			while (l < r && !isalnum(s[r])) { --r; }
 
@@ -23,7 +25,7 @@ public:
 
 			// "...converting all uppercase letters into lowercase letters..."
 			if (tolower(s[l]) != tolower(s[r])) { return false; }
-			++l; --r; // очередной сдвиг окна
+			++l; --r; // очередной сдвиг указателей
 
 			/* //equiv:
    
