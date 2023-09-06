@@ -30,8 +30,8 @@ public:
         }
 
         vector<Interval> Covers;
-        Covers.reserve(s.size());
-        Covers.push_back(Intervals[s[0] - 'a']); // <-- " 1 <= s.length <= 500 "
+        Covers.reserve(26);
+        Covers.push_back(Intervals[s[0] - 'a']);
 
         for(int i = 1; i < s.size(); ++i){
 
@@ -46,9 +46,10 @@ public:
 
         Covers.shrink_to_fit();
         Intervals.clear();
+
+
         vector<int> SizeChanks; 
         SizeChanks.reserve(Covers.size());
-
 
         for(auto cover : Covers){
             SizeChanks.push_back(cover.RightBorder - cover.LeftBorder + 1);
