@@ -4,6 +4,7 @@ https://walkccc.me/LeetCode/problems/0104/
 
 [Разбор задачи 104 leetcode.com Maximum Depth of Binary Tree. Решение на C++](https://www.youtube.com/watch?v=ELOXBdKsdbo)
 
+104c.cpp -- по идеи похоже на BFS
 _________
 
 <p align="center">my_code_rec_int.cpp</p>
