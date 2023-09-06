@@ -13,7 +13,7 @@ struct Interval{
 public:
     vector<int> partitionLabels(string_view s) {
         
-        // Так как i возрастает, то Intervals "отсортирован"(при итерации по s) по LeftBorder
+        // Так как i возрастает, то Intervals "отсортирован"(при итерации по s) по обеим полям Interval
         vector<Interval> Intervals(26); // 26 <-- "s consists of lowercase English letters."
         for(int i = 0; i < s.size(); ++i){
 
