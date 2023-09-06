@@ -1,4 +1,4 @@
-56. Merge Intervals == https://leetcode.com/problems/merge-intervals/ -- аналог
+56. Merge Intervals == https://leetcode.com/problems/merge-intervals/ -- аналог. Используется в решении merge_Intervals_upd.cpp
 
 Доказательство невыгодности использования unordered_map: https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II
 
