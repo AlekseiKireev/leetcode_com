@@ -6,7 +6,7 @@ public:
         while(path.empty() == false && (path.back() == '/' /*|| path.back() == '.'*/)){ // Если вы столкнетесь с символом "/", то игнорируйте его.
             /* ошибка при использовании || path.back() == '.'
             Wrong Answer 210 / 258 testcases passed   
-            Input path = "/a//b////c/d//././/.." 
+            Input path = "/a//b////c/d//././/.." == "/a/b/c/d/././.." 
             Output "/a/b/c/d" 
             Expected "/a/b/c"
             */
@@ -55,3 +55,15 @@ public:
         return CanonicalPath;
     }
 };
+
+/* Пояснение к 33 строке: 
+// ERROR!
+#include <vector>
+
+int main() {
+
+	std::vector<int> foo;
+	foo.pop_back(); // Expression: vector empty before pop
+
+}
+*/
