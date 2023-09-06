@@ -7,7 +7,7 @@ public:
 
         unordered_map<char, char> OpenToClosed = {{'(', ')'}, {'{', '}'}, {'[', ']'}};
         
-        stack<char> OpenBrackets;
+        stack<char, vector<char>> OpenBrackets;
 
         for(int i = 0; i < s.size(); ++i){
             
