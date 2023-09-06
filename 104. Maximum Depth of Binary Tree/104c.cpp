@@ -26,7 +26,7 @@ public:
    while (!curLevel.empty()) {
      for (TreeNode* node : curLevel) {
        if (node->left != nullptr) { 
-        nextLevel. push_back(node->left);
+        nextLevel.push_back(node->left);
        }
        if (node->right != nullptr) { 
         nextLevel.push_back(node->right);
