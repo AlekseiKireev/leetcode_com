@@ -5,6 +5,7 @@ public:
 		int l = 0;
 		int r = s.size() - 1;
 
+		// так как работаем с двумя указателями, должен выполнятся инваринат: l < r
 		while (l < r) {
 
 			// "Alphanumeric characters include letters and numbers."
