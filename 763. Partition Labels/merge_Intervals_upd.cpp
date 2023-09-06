@@ -31,7 +31,7 @@ public:
 
         vector<Interval> Covers;
         Covers.reserve(s.size());
-        Covers.push_back(Intervals[s[0] - 'a']);
+        Covers.push_back(Intervals[s[0] - 'a']); // <-- " 1 <= s.length <= 500 "
 
         for(int i = 1; i < s.size(); ++i){
 
