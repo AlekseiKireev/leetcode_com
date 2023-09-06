@@ -1,5 +1,8 @@
 https://leetcode.com/problems/valid-palindrome/
-- Related: https://leetcode.com/problems/valid-palindrome-ii/
+
+Related: 
+- https://leetcode.com/problems/valid-palindrome-ii/
+- https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II
 
 https://walkccc.me/LeetCode/problems/0125/
 
