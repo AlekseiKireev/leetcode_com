@@ -1,9 +1,17 @@
 class Solution {
 public:
-    string simplifyPath(string path) {
+    string simplifyPath(string& path) {
         
         // RE on "6 / 258 testcases passed" without "path.empty() == false &&" on ex: "/"
-        while(path.empty() == false && path.back() == '/'){path.pop_back();}
+        while(path.empty() == false && (path.back() == '/' /*|| path.back() == '.'*/)){ // Если вы столкнетесь с символом "/", то игнорируйте его.
+            /* ошибка при использовании || path.back() == '.'
+            Wrong Answer 210 / 258 testcases passed   
+            Input path = "/a//b////c/d//././/.." 
+            Output "/a/b/c/d" 
+            Expected "/a/b/c"
+            */
+            path.pop_back();
+            }
 
         stringstream PartPath(path);
 
