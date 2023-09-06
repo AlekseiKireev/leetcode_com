@@ -1,3 +1,9 @@
+const int FASTIO = []() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    return 0;
+}();
+
 class Solution {
 public:
 	bool isAlphaNum(char c) { 
