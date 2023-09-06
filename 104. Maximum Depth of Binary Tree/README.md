@@ -7,7 +7,7 @@ https://walkccc.me/LeetCode/problems/0104/
 104c.cpp -- по идеи похоже на BFS
 _________
 
-<p align="center">my_code_rec_int.cpp</p>
+<p align="center">my_code_rec_int.cpp == 104a.cpp </p>
 
 Достойный разбор: https://leetcode.com/problems/maximum-depth-of-binary-tree/solutions/1770060/c-recursive-dfs-example-dry-run-well-explained/
 
