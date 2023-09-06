@@ -7,7 +7,7 @@ public:
 
         unordered_map<char, char> OpenToClosed = {{'(', ')'}, {'{', '}'}, {'[', ']'}};
         
-        stack<char, vector<char>> OpenBrackets;
+        stack<char, vector<char>> OpenBrackets; // https://en.cppreference.com/w/cpp/container/stack --> template< class T, class Container = std::deque<T> > class stack;
 
         for(int i = 0; i < s.size(); ++i){
             
