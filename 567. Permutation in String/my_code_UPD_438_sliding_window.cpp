@@ -3,8 +3,8 @@ public:
 
 bool findAnagrams(string S, string Angr) {
         
-        int S_len = S.size();
-        int Angr_len = Angr.size();
+        const int S_len = S.size();
+        const int Angr_len = Angr.size();
 
         /*
         20 / 65 testcases passed
@@ -12,7 +12,7 @@ bool findAnagrams(string S, string Angr) {
         p = "aaaaaaaaaaaaa"
         */
 
-        if(S_len < Angr_len){return {};} // необходимо для 20 / 65 testcases passed
+        if(S_len < Angr_len){return false;} // необходимо для 20 / 65 testcases passed
 
 
         vector<int> CharSToCount(26, 0); // == window
