@@ -10,7 +10,8 @@ public:
 
             // while (i + 1 < nums.size() && nums[i + 1]  - nums[i] == 1) { ++i; } // error:
             //  nums[i] < nums[i+1] --> в 1 + nums[i] переполнения не будет, в то
-            // время как в nums[i + 1]  - nums[i]  будет 
+            // время как в nums[i + 1]  - nums[i]  будет, например 
+            // Runtime Error 24 / 32 testcases passed nums = [-2147483648,-2147483647,2147483647]
             while (i + 1 < nums.size() && nums[i + 1] == 1 + nums[i]) { ++i; }
 
             if (start_ranges != nums[i]) {
