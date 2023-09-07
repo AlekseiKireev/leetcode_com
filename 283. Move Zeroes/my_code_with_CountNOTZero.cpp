@@ -11,7 +11,7 @@ void moveZeroes(vector<int>& nums) {
 		}
 	}
 
-	for (int i = LastIdxNotZero; i < nums.size();++i) {
+	for (; LastIdxNotZero < nums.size(); ++LastIdxNotZero) {
 		nums[i] = 0;
 	}
 }
