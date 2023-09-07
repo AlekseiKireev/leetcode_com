@@ -1,3 +1,10 @@
+https://leetcode.com/problems/summary-ranges/
+
+https://walkccc.me/LeetCode/problems/0228/
+
+У Федора Меньшикова разбор отсут-т!
+_________
+
 Заметим, что в vector<string> ans [ == искомое] кладется лишь два типа данных: $nums[i]->num[j] \ : \ i \ != \ j$, иначе $nums[k]$. 
 При этом $nums[k]$ кладется если $nums[i] == num[j]$ -- тогда $nums[i] = num[j] = nums[k]$
 
