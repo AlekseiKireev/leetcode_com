@@ -1,3 +1,13 @@
+https://leetcode.com/problems/move-zeroes/
+
+https://walkccc.me/LeetCode/problems/0283/
+
+________
+
+[Разбор задачи 283 leetcode.com Move Zeroes. Решение на C++](https://www.youtube.com/watch?v=oIJ5qG1CPz0)
+
+________
+
 Имеет место очевидная формула: $LastIdxNotZero + CountZero = i$, где
 
 $i$ - индекс $nums$
