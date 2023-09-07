@@ -15,6 +15,8 @@ public:
             // при подсчете 2147483647 - (-2147483647)
             // правильнее даже будет так: 
             // while (i + 1 < nums.size() && nums[i] == nums[i + 1] - 1) { ++i; }
+            // <-->
+            // for (;i + 1 < nums.size() && nums[i + 1]  - 1 == nums[i]; ++i);
             while (i + 1 < nums.size() && nums[i + 1] == 1 + nums[i]) { ++i; }
 
             if (start_ranges != nums[i]) {
