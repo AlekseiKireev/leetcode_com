@@ -4,6 +4,8 @@ https://walkccc.me/LeetCode/problems/0283/
 
 ________
 
+283c.cpp == my_code_with_CountNOTZero.cpp
+
 [Разбор задачи 283 leetcode.com Move Zeroes. Решение на C++](https://www.youtube.com/watch?v=oIJ5qG1CPz0)
 
 0. Сортировка пузырьком
