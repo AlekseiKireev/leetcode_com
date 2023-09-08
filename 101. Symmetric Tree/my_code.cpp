@@ -7,6 +7,7 @@ public:
 
         if(LeftSubTree == nullptr || RightSubTree == nullptr){return false;}
 
+        assert(LeftSubTree != nullptr && RightSubTree != nullptr);
         if(LeftSubTree->val != RightSubTree->val){return false;}
 
         //equiv return ChechSymmetricTree(LeftSubTree->left, RightSubTree->right) && ChechSymmetricTree(LeftSubTree->right, RightSubTree->left);
