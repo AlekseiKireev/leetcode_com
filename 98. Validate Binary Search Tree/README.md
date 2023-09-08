@@ -45,7 +45,7 @@ val == INT_МАХ, то не существует val + 1
 
 ________
 
-<img src="https://progler.ru/public/uploads/articles4/preorder-from-inorder-and-postorder-traversals.jpg" width="1500" height="500"/>
+<img src="https://progler.ru/public/uploads/articles4/preorder-from-inorder-and-postorder-traversals.jpg" width="1500" height="600"/>
 
 
 у этой задачи есть ещё одно решение - обходим дерево inorder (можно рекурсивно, можно нерекурсивно) и проверяем, что ключи на пути обхода строго возрастают.
