@@ -2,7 +2,7 @@ https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 
 Частный cлучай: https://contest.yandex.ru/contest/45468/problems/13/
 
-https://walkccc.me/LeetCode/problems/0150/
+https://walkccc.me/LeetCode/problems/0150/ == my_code_functor.cpp
 
 __________
 
