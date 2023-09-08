@@ -18,7 +18,7 @@ public:
         for(const string& token : tokens){
 
             // https://en.cppreference.com/w/cpp/string/byte/ispunct
-            if(token.size() == 1 && ispunct(token.front())){
+            if(token.size() == 1 && ispunct(token.front())){ // "token.size() == 1 &&" необходим чтобы найти множество символов: {1,2,...,9,+,-,*,/}. После чего ispunct из них выбирает операцию
 
                 // обозначение операндов следует из примеров: ["2","1","/"] --> 2 / 1 -- то есть операнд, расположенный ближе к оператору -- стоит от него справа в выражении. В случае использовании стека элемент на вершине ближе всего к оператору
                 const int  RightOperand = Numbs.top();  Numbs.pop();
