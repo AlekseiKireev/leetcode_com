@@ -19,7 +19,7 @@ public:
             // for (;i + 1 < nums.size() && nums[i + 1]  - 1 == nums[i]; ++i);
             while (i + 1 < nums.size() && nums[i + 1] == 1 + nums[i]) { ++i; } // в крайнем случае после выхода из этого цикла i указывает на nums.back() -- т.е. на индекс i == nums.size() - 1
 
-            if (start_ranges != nums[i]) {
+            if (start_ranges != nums[i]) { // "Each range [a,b] in the list should be output as: "a->b" if a != b "a" if a == b"
                 ans.push_back(to_string(start_ranges) + "->" + to_string(nums[i]));
             }
             else {
