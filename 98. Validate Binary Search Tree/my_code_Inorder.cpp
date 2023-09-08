@@ -6,8 +6,7 @@ private:
                                                             // дабы избежать использования numeric_limits, ибо если бы у val был бы тип не int а long long, 
                                                             // то так бы делать было нельзя
 
-    bool CheckDefinition(
-    TreeNode* root){
+    bool CheckDefinition(TreeNode* root){
         
         if(root == nullptr){return true;}
         
