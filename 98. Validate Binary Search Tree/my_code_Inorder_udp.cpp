@@ -2,7 +2,7 @@ class Solution {
 
 private:
 
-    bool flag = 0;
+    bool flag = 0; // необходим для первой инициализации prev_node самым левым листком, минимальным элементов, которое содержится в данном дереве
 
     int prev_node;
 
