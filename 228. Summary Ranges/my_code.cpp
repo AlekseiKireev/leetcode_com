@@ -2,7 +2,8 @@ class Solution {
 public:
     vector<string> summaryRanges(const vector<int>& nums) {
 
-        vector<string> ans; ans.reserve(nums.size());
+        vector<string> ans; 
+        ans.reserve(nums.size()); // худший случай: [1, 3, ..., 2n + 1] -- не будет ни одного склеивания
 
         for (int i = 0; i < nums.size(); ++i) {
 
@@ -28,6 +29,7 @@ public:
 
         }
 
+        ans.shrink_to_fit();
         return ans;
     }
 
