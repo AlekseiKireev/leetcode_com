@@ -5,6 +5,8 @@ public:
 
         // https://en.cppreference.com/w/cpp/utility/functional/function
         const unordered_map<char, function<int (int,int)>> OperatorToLambda = { // const unordered_map<char, int(*) (int,int)> OperatorToLambda = { // good!
+        // https://en.cppreference.com/w/cpp/language/lambda
+            /*This example shows how to pass a lambda to a generic algorithm and how objects resulting from a lambda expression can be stored in std::function objects.*/
         {'+', [](const int f, const int s){return f+s;}},
         {'-', [](const int f, const int s){return f-s;}},
         {'*', [](const int f, const int s){return f*s;}},
