@@ -10,7 +10,7 @@ public:
         {'/', [](const int f, const int s){return f/s;}}
         };
 
-        stack<int> Numbs;
+        stack<int, vector<int>> Numbs;
         
         for(const string& token : tokens){
 
