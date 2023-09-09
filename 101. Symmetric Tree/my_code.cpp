@@ -25,7 +25,19 @@ public:
         //equiv return ChechSymmetricTree(LeftSubTree->left, RightSubTree->right) && ChechSymmetricTree(LeftSubTree->right, RightSubTree->left);
         const bool f = ChechSymmetricTree(LeftSubTree->left, RightSubTree->right);
         if(!f){return f;}
+        
+        /* // inorder bypass is good!
+        assert(LeftSubTree != nullptr && RightSubTree != nullptr);
+        if(LeftSubTree->val != RightSubTree->val){return false;}
+        */
+        
         const bool s = ChechSymmetricTree(LeftSubTree->right, RightSubTree->left);
+
+        /* // postorder bypass is good!
+        assert(LeftSubTree != nullptr && RightSubTree != nullptr);
+        if(LeftSubTree->val != RightSubTree->val){return false;}
+        */
+        
         return s;
     }
 
