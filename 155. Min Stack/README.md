@@ -51,6 +51,6 @@ getMin -> -3
 
 pop()
 
-values[-2,0] 
+values[-2,0]  
 mins[-2,-2]
 
