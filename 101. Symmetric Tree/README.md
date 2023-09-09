@@ -4,7 +4,7 @@ https://walkccc.me/LeetCode/problems/0101/
 
 * Конспекта не велось
 
-101a.cpp == rec  
+101a.cpp == my_code_upd.cpp == my_code.cpp == rec  
 - O(h) по памяти
 - O(n) по времени
 
