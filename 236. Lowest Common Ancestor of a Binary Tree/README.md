@@ -13,11 +13,13 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/descriptio
 
 https://walkccc.me/LeetCode/problems/0236/
 
+http://neerc.ifmo.ru/wiki/index.php?title=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%B4%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D0%BE%D0%B4%D1%8A%D1%91%D0%BC%D0%B0
+
+______________________
+
 [Разбор задачи 236 leetcode.com Lowest Common Ancestor of a Binary Tree. Решение на C++](https://www.youtube.com/watch?v=q3z4CkOhMa4&ab_channel=3.5%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D0%B2%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8E)
 
 Если в рекурсивном вызове какой-то из аргументов изменяется по ссылке -- то он изменяется во всем стеке рекурсивных вызовов
-
-______________________
 
 O(n) по времени и O(h) по памяти - на обход дерева  
 В обходе собираем статистику:  
