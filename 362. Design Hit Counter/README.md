@@ -1,4 +1,4 @@
-premium
+https://leetcode.com/problems/design-hit-counter/ -- CLOSED == premium
 
 - https://www.geeksforgeeks.org/design-a-hit-counter/
 - https://cheonhyangzhang.gitbooks.io/leetcode-solutions/content/362-design-hit-counter.html
