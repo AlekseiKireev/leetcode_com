@@ -10,7 +10,7 @@ ____________
 
 [Разбор задачи 235 leetcode.com Lowest Common Ancestor of a Binary Search Tree. Решение на C++](https://www.youtube.com/watch?v=SZp0M7DmHFs)
 
-1. Построение путей до вершин. [235a.cpp]
+1. Построение путей до вершин. [235c.cpp]
 
 Получаем путь от корня до каждой вершины.
 
