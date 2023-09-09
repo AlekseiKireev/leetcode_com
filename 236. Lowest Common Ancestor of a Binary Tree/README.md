@@ -6,6 +6,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/descriptio
 
 тематический аналог:  
 -  https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
+      -  https://github.com/SkosMartren/leetcode_com/tree/main/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree
 -  https://contest.yandex.ru/contest/29403/problems/C/
 -  https://zhenchaogan.gitbook.io/leetcode-solution/leetcode-1644-lowest-common-ancestor-of-a-binary-tree-ii == LeetCode 1644. Lowest Common Ancestor of a Binary Tree II
 -  https://zhenchaogan.gitbook.io/leetcode-solution/leetcode-1650-lowest-common-ancestor-of-a-binary-tree-iii == LeetCode 1650. Lowest Common Ancestor of a Binary Tree III
