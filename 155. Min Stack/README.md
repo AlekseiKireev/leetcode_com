@@ -55,12 +55,12 @@ mins[-2,-2]
 
 какой контейнер взять?
 
-vector 
-deque
-1ist
+vector  
+deque  
+list
 
-vector: push_back - O(1) amortized
-deque: push_back - O(1) amortized, возможно рор_back тоже O(1) amortized 
+vector: push_back - O(1) amortized  
+deque: push_back - O(1) amortized, возможно рор_back тоже O(1) amortized  
 list: если выделение памяти O(1), то push_back делается за O(1) чистый.
 
 std::stack - адаптер, по умолчанию использует std::deque 
