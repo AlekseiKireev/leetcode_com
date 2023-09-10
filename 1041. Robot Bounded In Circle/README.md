@@ -107,4 +107,6 @@ $y_4 = y + \Delta y - \Delta y + \Delta y - \Delta y = y$
 После одного цикла робот поворачивается лицом на запад.
 Тогда вот что мы имеем после 4 циклов:
 
-$x_4 = x + \Delta x - \Delta y - \Delta x + \Delta$
+$x_4 = x + \Delta x - \Delta y - \Delta x + \Delta y = x$
+
+$y_4 = y + \Delta y - \Delta x - \Delta y + \Delta x = y$
