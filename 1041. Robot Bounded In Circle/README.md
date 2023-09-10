@@ -54,10 +54,7 @@ x4=x+Δx+Δx+Δx+Δx=x+4Δxx_4 = x + \Delta x + \Delta x + \Delta x + \Delta x =
 ​
  =x+Δx+Δx+Δx+Δx=x+4Δx
 
-y4=y+Δy+Δy+Δy+Δy=y+4Δyy_4 = y + \Delta y + \Delta y + \Delta y + \Delta y = y + 4 \Delta yy 
-4
-​
- =y+Δy+Δy+Δy+Δy=y+4Δy
+$y_4 = y + \Delta y + \Delta y + \Delta y + \Delta y = y + 4 \Delta y$
 
 After one cycle, the robot faces east.
 Then here is what we have after 4 cycles:
