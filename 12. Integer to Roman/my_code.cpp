@@ -12,17 +12,19 @@ struct RomanNum{
 public:
     string intToRoman(int Num) {
         
-        // const array<RomanNum, 13> DescendingRomanNum = { // why error?
-        const vector<RomanNum> DescendingRomanNum = {
+        const array<RomanNum, 13> DescendingRomanNum = { 
+        //const vector<RomanNum> DescendingRomanNum = {
 
-        {1000, "M"}, {900, "CM"}, {500, "D"}, {400, "CD"}, 
-        {100, "C"}, {90, "XC"},  {50, "L"}, {40, "XL"}, 
-        {10, "X"}, {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}
+        { // https://stackoverflow.com/questions/35021112/excess-elements-in-struct-initializer-when-nested-stdarray
+            {1000, "M"}, {900, "CM"}, {500, "D"}, {400, "CD"}, 
+            {100, "C"}, {90, "XC"},  {50, "L"}, {40, "XL"}, 
+            {10, "X"}, {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}
+        }
 
         }; 
 
         string ConvertedRomanNum = ""; ConvertedRomanNum.reserve(to_string(Num).size() * 2);
-        for(const auto [val, symb] : DescendingRomanNum){
+        for(const auto& [val, symb] : DescendingRomanNum){
 
             const int Count = Num / val;
             Num -= (Count * val);
