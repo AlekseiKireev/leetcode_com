@@ -18,7 +18,8 @@ Second, if the robot doesn't face north at the end of the first cycle,
 that's the limit cycle trajectory.
 Once again, that's the consequence of the plane symmetry for the repeated cycles [proof].
 
-Appendix: Mathematical Proof
+<p align="center">Appendix: Mathematical Proof</p>
+
 Let's provide a strict mathematical proof.
 
 If the robot doesn't face north at the end of the first cycle, then that's the limit cycle trajectory.
