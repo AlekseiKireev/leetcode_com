@@ -54,7 +54,9 @@ $y_4 = y + \Delta y - \Delta y + \Delta y - \Delta y = y$
 After one cycle, the robot faces west.
 Then here is what we have after 4 cycles:
 
-$x_4 = x + \Delta x - \Delta y - \Delta x + \Delta$
+$x_4 = x + \Delta x - \Delta y - \Delta x + \Delta y = x$
+
+$y_4 = y + \Delta y - \Delta x - \Delta y + \Delta x = y$
 
 ___________
 
