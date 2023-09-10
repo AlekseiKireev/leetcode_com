@@ -39,8 +39,7 @@ $x_4 = x + \Delta x + \Delta x + \Delta x + \Delta x = x + 4 \Delta x$
 
 $y_4 = y + \Delta y + \Delta y + \Delta y + \Delta y = y + 4 \Delta y$
 
-After one cycle, the robot faces east.
-Then here is what we have after 4 cycles:
+After one cycle, the robot faces east. Then here is what we have after 4 cycles:
 
 $x_4 = x + \Delta x + \Delta y - \Delta x - \Delta y = x$
 
@@ -88,24 +87,23 @@ ___________
 
 После одного цикла робот поворачивается лицом на север. Тогда вот что мы имеем после 4 циклов:
 
-$x_4 = x + \Дельта x + \Дельта x + \Дельта x + \Дельта x = x + 4 \Дельта x$
+$x_4 = x + \Delta x + \Delta x + \Delta x + \Delta x = x + 4 \Delta x$
 
-$y_4 = y + \Дельта y + \Дельта y + \Дельта y + \Дельта y = y + 4 \Дельта y$
+$y_4 = y + \Delta y + \Delta y + \Delta y + \Delta y = y + 4 \Delta y$
 
-После одного цикла робот поворачивается лицом на восток.
-Тогда вот что мы имеем после 4 циклов:
+После одного цикла робот поворачивается лицом на восток. Тогда вот что мы имеем после 4 циклов:
 
-$x_4 = x + \Дельта x + \Дельта y - \Дельта x - \Дельта y = x$
+$x_4 = x + \Delta x + \Delta y - \Delta x - \Delta y = x$
 
-$y_4 = y + \Дельта y - \Дельта x - \Дельта y + \Дельта x = y$
+$y_4 = y + \Delta y - \Delta x - \Delta y + \Delta x = y$
 
 После одного цикла робот поворачивается лицом на юг. Тогда вот что мы имеем после 4 циклов:
 
-$x_4 = x + \Дельта x - \Дельта x + \Дельта x - \Дельта x = x$
+$x_4 = x + \Delta x - \Delta x + \Delta x - \Delta x = x$
 
-$y_4 = y + \Дельта y - \Дельта y + \Дельта y - \Дельта y = y$
+$y_4 = y + \Delta y - \Delta y + \Delta y - \Delta y = y$
 
 После одного цикла робот поворачивается лицом на запад.
 Тогда вот что мы имеем после 4 циклов:
 
-$x_4 = x + \Дельта x - \Дельта y - \Дельта x + \Дельта$
+$x_4 = x + \Delta x - \Delta y - \Delta x + \Delta$
