@@ -80,10 +80,7 @@ x4=x+Δx−Δx+Δx−Δx=xx_4 = x + \Delta x - \Delta x + \Delta x - \Delta x = 
 ​
  =x+Δx−Δx+Δx−Δx=x
 
-y4=y+Δy−Δy+Δy−Δy=yy_4 = y + \Delta y - \Delta y + \Delta y - \Delta y = yy 
-4
-​
- =y+Δy−Δy+Δy−Δy=y
+$y_4 = y + \Delta y - \Delta y + \Delta y - \Delta y = y$
 
 After one cycle, the robot faces west.
 Then here is what we have after 4 cycles:
