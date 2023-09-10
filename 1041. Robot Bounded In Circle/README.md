@@ -46,13 +46,9 @@ both Δx\Delta xΔx and Δy\Delta yΔy could be positive or negative.
 
 Let's consider four situations.
 
-After one cycle, the robot faces north.
-Then here is what we have after 4 cycles:
+After one cycle, the robot faces north. Then here is what we have after 4 cycles:
 
-x4=x+Δx+Δx+Δx+Δx=x+4Δxx_4 = x + \Delta x + \Delta x + \Delta x + \Delta x = x + 4 \Delta xx 
-4
-​
- =x+Δx+Δx+Δx+Δx=x+4Δx
+$x_4 = x + \Delta x + \Delta x + \Delta x + \Delta x = x + 4 \Delta x$
 
 $y_4 = y + \Delta y + \Delta y + \Delta y + \Delta y = y + 4 \Delta y$
 
