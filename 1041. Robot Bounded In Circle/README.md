@@ -29,20 +29,11 @@ Let's use numbers from 0 to 3 to mark the directions:
 north = 0, east = 1, south = 2, west = 3.
 After one cycle the robot is facing direction k != 0.
 
-After 4 cycles, the robot faces direction (k * 4) % 4 = 0, i.e.
-after 4 cycles, the robot is always facing north.
+After 4 cycles, the robot faces direction (k * 4) % 4 = 0, i.e. after 4 cycles, the robot is always facing north.
 
 Second, let's find the robot coordinates after 4 cycles.
 
-The robot initial coordinates are x = y = 0. After one cycle,
-the new coordinates are x1=x+Δxx_1 = x + \Delta xx 
-1
-​
- =x+Δx, y1=y+Δyy_1 = y + \Delta yy 
-1
-​
- =y+Δy, where
-both Δx\Delta xΔx and Δy\Delta yΔy could be positive or negative.
+The robot initial coordinates are $x = y = 0$. After one cycle, the new coordinates are $x_1 = x + \Delta x$, $y_1 = y + \Delta y$, where both $\Delta x$ and $\Delta y$ could be positive or negative.
 
 Let's consider four situations.
 
