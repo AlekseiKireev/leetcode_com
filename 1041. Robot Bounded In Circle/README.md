@@ -6,16 +6,11 @@ https://walkccc.me/LeetCode/problems/1041/
 
 ___________
 
-Figure 3. After 4 cycles the limit cycle trajectory returns to the initial point x = 0, y = 0.
+We do not need to run 4 cycles to identify the limit cycle trajectory. One cycle is enough. There could be two situations here.
 
-We do not need to run 4 cycles to identify the limit cycle trajectory.
-One cycle is enough. There could be two situations here.
+First, if the robot returns to the initial point after one cycle, that's the limit cycle trajectory.
 
-First, if the robot returns to the initial point after one cycle,
-that's the limit cycle trajectory.
-
-Second, if the robot doesn't face north at the end of the first cycle,
-that's the limit cycle trajectory.
+Second, if the robot doesn't face north at the end of the first cycle, that's the limit cycle trajectory.
 Once again, that's the consequence of the plane symmetry for the repeated cycles [proof].
 
 <p align="center">Appendix: Mathematical Proof</p>
