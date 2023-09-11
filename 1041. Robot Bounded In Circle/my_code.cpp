@@ -70,7 +70,7 @@ The west direction is the negative direction of the x-axis.
 
         }
 
-        return (X == 0 && Y == 0) || SideWorld != 0;
+        return (X == 0 && Y == 0) || SideWorld != 0; // prove in "README.md" 
 
     }
 };
