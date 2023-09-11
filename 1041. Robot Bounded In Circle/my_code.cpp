@@ -31,7 +31,7 @@ The west direction is the negative direction of the x-axis.
             N
             |
             |
-        W --------- E
+       W --------- E
             |
             |
             S
@@ -43,7 +43,7 @@ The west direction is the negative direction of the x-axis.
             0
             |
             |
-        3 --------- 1
+       3 --------- 1
             |
             |
             2     
