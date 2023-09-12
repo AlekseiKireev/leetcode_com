@@ -114,3 +114,9 @@ $y_4 = y + \Delta y - \Delta y + \Delta y - \Delta y = y$
 $x_4 = x + \Delta x - \Delta y - \Delta x + \Delta y = x$
 
 $y_4 = y + \Delta y - \Delta x - \Delta y + \Delta x = y$
+
+___________
+
+$
+M(\theta )={\begin{pmatrix}\cos {\theta }&\mp \sin {\theta }\\\pm \sin {\theta }&\cos {\theta }\end{pmatrix}}
+$
