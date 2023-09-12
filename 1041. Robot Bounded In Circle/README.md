@@ -130,8 +130,8 @@ ___________
 $$
 {
 \begin{pmatrix}
-x* \\ 
-y*
+x \\ 
+y
 \end{pmatrix}
 }
 $$
