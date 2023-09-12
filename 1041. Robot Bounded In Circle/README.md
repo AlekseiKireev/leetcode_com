@@ -128,7 +128,9 @@ ___________
 Положим, $(x', y')$ -- вектор, проведенный из точки $(0, 0)$ в конец пути робота, на момент окончания 4 прохода.
 
 $$
-{\begin{pmatrix} x \\  y \end{pmatrix} }= {\begin{pmatrix} \cos {\theta }& \mp \sin {\theta } \\ \pm \sin {\theta }& \cos {\theta } \end{pmatrix}}
+{\begin{pmatrix} x 
+\\  
+y \end{pmatrix} }= {\begin{pmatrix} \cos {\theta }& \mp \sin {\theta } \\ \pm \sin {\theta }& \cos {\theta } \end{pmatrix}}
 $$
 
 $$
