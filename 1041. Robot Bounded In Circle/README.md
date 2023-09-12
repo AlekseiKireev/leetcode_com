@@ -132,10 +132,10 @@ $$
 \\  
 y' \end{pmatrix} }
 = 
-{\begin{pmatrix} \cos {\theta }& \mp \sin {\theta } \\ 
-\pm \sin {\theta }& \cos {\theta } \end{pmatrix}} {\begin{pmatrix} x 
+{\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
+\pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x_0 
 \\  
-y \end{pmatrix} }
+y_0 \end{pmatrix} }
 $$
 
 $$
