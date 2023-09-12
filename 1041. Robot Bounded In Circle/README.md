@@ -139,6 +139,9 @@ y_1 \end{pmatrix} } + {\begin{pmatrix} \cos { \frac{\pi}{2} }& \mp \sin { \frac{
 y_2 \end{pmatrix} } + {\begin{pmatrix} \cos { \pi }& \mp \sin { \pi } \\ 
 \pm \sin { \pi }& \cos { \pi } \end{pmatrix}} {\begin{pmatrix} x_3 
 \\  
-y_3 \end{pmatrix} }
+y_3 \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \frac{3\pi}{2} } \\ 
+\pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x_4 
+\\  
+y_4 \end{pmatrix} }
 $$
 
