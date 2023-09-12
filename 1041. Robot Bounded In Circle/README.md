@@ -124,3 +124,10 @@ M(\theta )={
  \pm \sin {\theta }& \cos {\theta }
 \end{pmatrix}}
 $$
+
+$$
+{\displaystyle {
+\begin{bmatrix}
+x'\\y'\\\end{bmatrix}}={\begin{bmatrix}\cos \theta &\mp \sin \theta \\\pm \sin \theta &\cos \theta \\\end{bmatrix}}{\begin{bmatrix}x\\y\\
+\end{bmatrix}}.}
+$$
