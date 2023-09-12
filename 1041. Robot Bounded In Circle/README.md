@@ -130,9 +130,7 @@ ___________
 $$
 {\begin{pmatrix} x' 
 \\  
-y' \end{pmatrix} }
-= 
-{\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
+y' \end{pmatrix} } = {\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
 \pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x_0 
 \\  
 y_0 \end{pmatrix} }
