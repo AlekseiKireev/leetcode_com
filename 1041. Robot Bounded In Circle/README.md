@@ -121,6 +121,8 @@ ___________
 - если после одного прохода по instructions робот поворачивается в направлении west / east (запада / востока) [[в отрицательном / положительном направлении оси OX], то на момент конца 3 прохода робот вернется в исходную точку. В качестве мотивировки это можно прочувствовать нарисовав путь:
 <img src="https://leetcode.com/problems/Figures/1041/pic2.png" width="750" height="600"/>
 
+<img src="https://leetcode.com/problems/Figures/1041/pic4.png" width="750" height="600"/>
+
 $$
 M(\theta )={
 \begin{pmatrix}
