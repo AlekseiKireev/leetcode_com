@@ -132,9 +132,9 @@ $$
 \begin{pmatrix}
 x' \\ 
 y'
-\end{pmatrix}}
+\end{pmatrix}
 =
-{
+
 \begin{pmatrix}
 \cos {\theta }& \mp \sin {\theta } \\ 
  \pm \sin {\theta }& \cos {\theta }
