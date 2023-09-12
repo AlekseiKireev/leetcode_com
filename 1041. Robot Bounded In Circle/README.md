@@ -120,8 +120,8 @@ ___________
 $$
 M(\theta )={
 \begin{pmatrix}
-\cos {\theta }& \\ 
- \pm \sin {\theta }& 
+\cos {\theta } \\ 
+ \pm \sin {\theta }
 \end{pmatrix}}
 $$
 
