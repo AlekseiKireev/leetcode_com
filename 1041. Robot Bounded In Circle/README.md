@@ -120,7 +120,7 @@ ___________
 $$
 M(\theta )={
 \begin{pmatrix}
-\cos {\theta }&\mp \sin {\theta }\\ 
-\pm \sin {\theta }&\cos {\theta }
+\cos {\theta }& \mp \sin {\theta } \\ 
+ \pm \sin {\theta }& \cos {\theta }
 \end{pmatrix}}
 $$
