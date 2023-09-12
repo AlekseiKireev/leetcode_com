@@ -118,27 +118,30 @@ $y_4 = y + \Delta y - \Delta x - \Delta y + \Delta x = y$
 ___________
 
 Рассмотирим один проход по instructions как способ задания вектора на двумерное плоскости. При это, набор "L" и "R" в конечном итоге будет задавать поворот вектора. Изначально, по услвоию, вектор направлен на north (север) [в положительном направлении оси OY]. Рассмторим случаи: 
-- если после одного прохода по instructions робот поворачивается в направлении west / east (запада / востока) [[в отрицательном / положительном направлении оси OX], то на момент конца 3 прохода робот вернется в исходную точку. В качестве мотивировки это можно прочувствовать нарисовав путь:
+- если после одного прохода по instructions робот поворачивается в направлении west / east (запада / востока) [[в отрицательном / положительном направлении оси OX], то на момент конца 4 прохода робот вернется в исходную точку. В качестве мотивировки это можно прочувствовать нарисовав путь:
 <img src="https://leetcode.com/problems/Figures/1041/pic2.png" width="750" height="600"/>
 
 <img src="https://leetcode.com/problems/Figures/1041/pic4.png" width="750" height="600"/>
 
-$$
-M(\theta )={
-\begin{pmatrix}
-\cos {\theta } \\ 
- \pm \sin {\theta }
-\end{pmatrix}}
-$$
+Докажем это на основе [матрицы поворота](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0):
+
+Положим, $(x', y')$ -- вектор, проведенный из точки $(0, 0)$ в конец пути робота, на момент окончания 4 прохода.
 
 $$
 M(\theta )={
+\begin{pmatrix}
+x' \\ 
+y'
+\end{pmatrix}}
+=
+{
 \begin{pmatrix}
 \cos {\theta }& \mp \sin {\theta } \\ 
  \pm \sin {\theta }& \cos {\theta }
-\end{pmatrix}}
+\end{pmatrix}
+}
 $$
 
 $$
-{\begin{bmatrix}x'\\ y' \end{bmatrix}}={\begin{bmatrix}\cos \theta &-\sin \theta \\\sin \theta &\cos \theta \end{bmatrix}}{\begin{bmatrix}x\\ y \end{bmatrix}}
+{\begin{bmatrix}x' \\ y' \end{bmatrix}}={\begin{bmatrix}\cos \theta &-\sin \theta \\\sin \theta &\cos \theta \end{bmatrix}}{\begin{bmatrix}x\\ y \end{bmatrix}}
 $$
