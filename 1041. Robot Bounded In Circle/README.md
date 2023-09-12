@@ -130,7 +130,8 @@ ___________
 $$
 {\begin{pmatrix} x 
 \\  
-y \end{pmatrix} }= {\begin{pmatrix} \cos {\theta }& \mp \sin {\theta } \\ \pm \sin {\theta }& \cos {\theta } \end{pmatrix}}
+y \end{pmatrix} }= {\begin{pmatrix} \cos {\theta }& \mp \sin {\theta } \\ 
+\pm \sin {\theta }& \cos {\theta } \end{pmatrix}}
 $$
 
 $$
