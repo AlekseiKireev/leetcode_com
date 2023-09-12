@@ -132,7 +132,7 @@ $$
 {\begin{pmatrix} x' 
 \\  
 y' \end{pmatrix} } = {\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
-\pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x_1
+\pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x_1 
 \\  
 y_1 \end{pmatrix} } + {\begin{pmatrix} \cos { \frac{\pi}{2} }& \mp \sin { \frac{\pi}{2} } \\ 
 \pm \sin { \frac{\pi}{2} }& \cos { \frac{\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x_2 
@@ -144,5 +144,6 @@ y_3 \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \fr
 \pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x_4 
 \\  
 y_4 \end{pmatrix} }
+y \end{pmatrix} }
 $$
 
