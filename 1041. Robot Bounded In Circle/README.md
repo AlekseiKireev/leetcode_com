@@ -135,7 +135,7 @@ y
 \end{pmatrix}
 }
 $$
-
+=
 $$
 {
 \begin{pmatrix}
