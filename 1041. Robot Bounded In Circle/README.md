@@ -144,6 +144,5 @@ y_3 \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \fr
 \pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x_4 
 \\  
 y_4 \end{pmatrix} }
-y \end{pmatrix} }
 $$
 
