@@ -130,8 +130,8 @@ ___________
 $$
 {
 \begin{pmatrix}
-x &  \\ 
-y & 
+\cos {\theta }& \mp \sin {\theta } \\ 
+ \pm \sin {\theta }& \cos {\theta }
 \end{pmatrix}
 }
 $$
