@@ -125,23 +125,24 @@ ___________
 
 Докажем это на основе [матрицы поворота](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0):
 
-Положим, $(x', y')$ -- вектор, проведенный из точки $(0, 0)$ в конец пути робота, на момент окончания 4 прохода.
-
+Положим, 
+- $(x', y')$ -- вектор, проведенный из точки $(0, 0)$ в конец пути робота, на момент окончания 4 прохода.
+- $(x, y)$ -- вектор, получившийся при одном проходе instructions
 $$
 {\begin{pmatrix} x' 
 \\  
 y' \end{pmatrix} } = {\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
-\pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x_1 
+\pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x
 \\  
-y_1 \end{pmatrix} } + {\begin{pmatrix} \cos { \frac{\pi}{2} }& \mp \sin { \frac{\pi}{2} } \\ 
-\pm \sin { \frac{\pi}{2} }& \cos { \frac{\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x_2 
+y \end{pmatrix} } + {\begin{pmatrix} \cos { \frac{\pi}{2} }& \mp \sin { \frac{\pi}{2} } \\ 
+\pm \sin { \frac{\pi}{2} }& \cos { \frac{\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x 
 \\  
-y_2 \end{pmatrix} } + {\begin{pmatrix} \cos { \pi }& \mp \sin { \pi } \\ 
-\pm \sin { \pi }& \cos { \pi } \end{pmatrix}} {\begin{pmatrix} x_3 
+y \end{pmatrix} } + {\begin{pmatrix} \cos { \pi }& \mp \sin { \pi } \\ 
+\pm \sin { \pi }& \cos { \pi } \end{pmatrix}} {\begin{pmatrix} x 
 \\  
-y_3 \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \frac{3\pi}{2} } \\ 
-\pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x_4 
+y \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \frac{3\pi}{2} } \\ 
+\pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x 
 \\  
-y_4 \end{pmatrix} }
+y \end{pmatrix} }
 $$
 
