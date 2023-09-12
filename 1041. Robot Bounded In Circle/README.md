@@ -136,6 +136,9 @@ y' \end{pmatrix} } = {\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\
 y_1 \end{pmatrix} } + {\begin{pmatrix} \cos { \frac{\pi}{2} }& \mp \sin { \frac{\pi}{2} } \\ 
 \pm \sin { \frac{\pi}{2} }& \cos { \frac{\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x_2 
 \\  
-y_2 \end{pmatrix} }
+y_2 \end{pmatrix} } + {\begin{pmatrix} \cos { \pi }& \mp \sin { \pi } \\ 
+\pm \sin { \pi }& \cos { \pi } \end{pmatrix}} {\begin{pmatrix} x_3 
+\\  
+y_3 \end{pmatrix} }
 $$
 
