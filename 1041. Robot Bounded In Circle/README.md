@@ -134,9 +134,7 @@ x \\
 y
 \end{pmatrix}
 }
-
 =
-
 {
 \begin{pmatrix}
 \cos {\theta }& \mp \sin {\theta } \\ 
