@@ -95,4 +95,4 @@ vector - как идеал структуры, которая мало испо�
 
 ___________
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/asymptotics_containers.png" width="600" height="400"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/asymptotics_containers.png" width="800" height="500"/>
