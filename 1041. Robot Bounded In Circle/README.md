@@ -438,5 +438,11 @@ y \end{pmatrix} } + {\begin{pmatrix} \cos { \pi }& \mp \sin { \pi } \\
 y \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \frac{3\pi}{2} } \\ 
 \pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x 
 \\  
-y \end{pmatrix} }
+y \end{pmatrix} } = ({\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
+\pm \sin{ 0 }&\cos{ 0 } \end{ pmatrix }} + {\begin{ pmatrix } \cos{ \frac{\pi}{2} }&\mp \sin{ \frac{\pi}{2} } \\
+\pm \sin{ \frac{\pi}{2} }&\cos{ \frac{\pi}{2} } \end{ pmatrix }} + {\begin{ pmatrix } \cos{ \pi }&\mp \sin{ \pi } \\
+\pm \sin{ \pi }&\cos{ \pi } \end{ pmatrix }} + {\begin{ pmatrix } \cos{ \frac{3 \pi}{2} }&\mp \sin{ \frac{3\pi}{2} } \\
+\pm \sin{ \frac{3\pi}{2} }&\cos{ \frac{3\pi}{2} } \end{ pmatrix }}) {\begin{ pmatrix } x
+\\
+y \end{ pmatrix } }
 $$
