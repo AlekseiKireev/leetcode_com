@@ -1,13 +1,20 @@
 class Solution {
 public:
-    int longestOnes(vector<int>& nums, int CountUpdZero) {
+    int longestOnes(vector<int>& nums, int CountUpdZero) {       
 
-        int L_Idx_Longest_Subarray = 0; 
-        int R_Idx_Longest_Subarray = 0; 
+        // сертификат
+        /*
+            -1 необходим для теста: 
+            [0,0,0,0]
+            0
 
-        int CountUpdZeroInWindow = CountUpdZero;
-        int Ans = 0;
+            output: 0 != R_Idx_Longest_Subarray - L_Idx_Longest_Subarray + 1
+        */
+        int L_Idx_Longest_Subarray = -1; 
+        int R_Idx_Longest_Subarray = -1;        
         
+        int Ans = 0;
+
         for(int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow < nums.size(); ++RightBorderWindow){
 
             if(nums[RightBorderWindow] == 0){--CountUpdZero;}
@@ -24,8 +31,11 @@ public:
                 Ans = RightBorderWindow - LeftBorderWindow + 1;
             }
         }
+        
+        //cout << L_Idx_Longest_Subarray << ' ' << R_Idx_Longest_Subarray;
+        if(L_Idx_Longest_Subarray == -1){return 0;}
+        else {assert(Ans == R_Idx_Longest_Subarray - L_Idx_Longest_Subarray + 1);}
 
-        cout << L_Idx_Longest_Subarray << ' ' << R_Idx_Longest_Subarray;
         return Ans;
     }
 };
