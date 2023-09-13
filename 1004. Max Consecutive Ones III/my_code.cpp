@@ -15,12 +15,12 @@ public:
         
         int Ans = 0;
 
-        for(int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow < nums.size(); ++RightBorderWindow){
+        for(int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow < nums.size(); ++RightBorderWindow){ // сдвиг правого указателя
 
             if(nums[RightBorderWindow] == 0){--CountUpdZero;}
             
             /* // equiv:
-            while(CountUpdZero < 0){
+            while(CountUpdZero < 0){ // сдвиг левого указателя
                 if(nums[LeftBorderWindow] == 0){
                     CountUpdZero++;
                     
@@ -28,7 +28,7 @@ public:
                 LeftBorderWindow++;
             }
             */
-            while(CountUpdZero < 0){
+            while(CountUpdZero < 0){ // сдвиг левого указателя
                 if(nums[LeftBorderWindow++] == 0){++CountUpdZero;}
             }
 
