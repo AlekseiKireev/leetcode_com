@@ -1,6 +1,7 @@
-ОБОБЩЕНИЕ 1004? ТУТ КАЖДЫЙ СИМВОЛ МОЖНО ЗАКОДИРОВАТЬ КАК ЦИФРУ
-
 https://leetcode.com/problems/longest-repeating-character-replacement/description/
+
+related: 
+- https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
 https://walkccc.me/LeetCode/problems/0424/
 
