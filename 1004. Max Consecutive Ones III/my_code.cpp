@@ -18,11 +18,23 @@ public:
         for(int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow < nums.size(); ++RightBorderWindow){
 
             if(nums[RightBorderWindow] == 0){--CountUpdZero;}
-
+            
+            /* // equiv:
+            while(CountUpdZero < 0){
+                if(nums[LeftBorderWindow] == 0){
+                    CountUpdZero++;
+                    
+                }
+                LeftBorderWindow++;
+            }
+            */
             while(CountUpdZero < 0){
                 if(nums[LeftBorderWindow++] == 0){++CountUpdZero;}
             }
 
+            cout << LeftBorderWindow << ' ' << RightBorderWindow << '\n';
+            // assert(LeftBorderWindow <= RightBorderWindow); // error: 2 / 55 testcases passed, nums = [0,0,1,1,1,0,0] k = 0
+            
             if(Ans < RightBorderWindow - LeftBorderWindow  + 1){
 
                 L_Idx_Longest_Subarray = LeftBorderWindow;
