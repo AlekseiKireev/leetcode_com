@@ -15,7 +15,7 @@ class MinStack {
         int min;
     };
 
-    stack<Item, list<Item>> st;
+    stack<Item, list<Item>> st; // 155b.cpp: stack<Item, vector<Item>> st;
 public:
 
     void push(int x) {
