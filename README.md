@@ -1,5 +1,9 @@
 У Федора Меньшикова разбор отсут-т!
 
+https://docs.google.com/spreadsheets/d/1w5JqsXFfNTS7NUT7ujKrt8NvhJiw52S6jfvoo2X_fo8/edit?pli=1#gid=0
+
+https://docs.google.com/spreadsheets/d/1vgoyVzOqueURT7jNXuoEec5dQnIdtUCEqVPX1x0Vx6A/edit?pli=1#gid=0
+
 _________
 
 Ускорение ввода-вывода
