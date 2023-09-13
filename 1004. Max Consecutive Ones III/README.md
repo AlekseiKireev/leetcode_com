@@ -2,18 +2,15 @@ https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
 related: 
 - https://leetcode.com/problems/longest-repeating-character-replacement/description/
+- Замечание: из этой задачи следует задача https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/
 
 https://walkccc.me/LeetCode/problems/1004/
 
 У Федора Меньшикова разбор отсут-т!
 
-Замечание: из этой задачи следует задача https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/
-
-Перефраз условия: "Найдите самый длинный подмассив в бинарном векторе, содержащий не более K нулей."
-
-
 __________________________________________
 
+Перефраз условия: "Найдите самый длинный подмассив в бинарном векторе, содержащий не более K нулей."
 
 Двигаем правую границу окна, если есть возможность изменить 0 на 1 -- делаем это, изменяя K [CountUpdZero] посредством вычитания 1
 
