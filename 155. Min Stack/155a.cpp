@@ -1,4 +1,4 @@
-const int ZERO = [](){ 
+const int ZERO = [](){
 
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -8,44 +8,43 @@ const int ZERO = [](){
 
 class MinStack {
 
-    struct Item {
+private:
 
-        int value;
+struct Pair {
 
-        int min;
-    };
+    int Val;
+    int Min;
+    //Pair(int Val_, int Min_) : Val(Val_),Min(Min_) {} // необходим для emplace
+};
 
-    stack<Item, list<Item>> st; // 155b.cpp: stack<Item, vector<Item>> st; | 155c.cpp: stack<Item> st;
+stack<Pair, list<Pair>> Stack;
+
 public:
+    MinStack() {}
+    
+    void push(int val) {
+        
+        if(Stack.empty()){
+            Stack.push({val,val});
+            //Stack.emplace(val,val);
+        }else{
+            Stack.push({val,min(val, getMin())} );
+            //Stack.emplace(val,min(val, getMin()));
+        }
 
-    void push(int x) {
-        if (st.empty()) {
-                st.push(Item{ x, x });
-        }
-        else {
-            st.push(Item{ x, min(x, st.top().min) });
-        }
     }
-
+    
+    // "Methods pop, top and getMin operations will always be called on non-empty stacks."
     void pop() {
-        if (st.empty()) {
-            throw logic_error("pop from empty stack");
-        }
-        st.pop();
+        Stack.pop();
     }
-
+    
     int top() const {
-        if (st.empty()) {
-            throw logic_error("top when stack empty");
-        }
-          return st.top().value;
-    } 
-
+        return Stack.top().Val;
+    }
+    
     int getMin() const {
-        if (st.empty()) {
-            throw logic_error("getMin when stack empty");
-        }
-        return st.top().min;
+        return Stack.top().Min;
     }
 };
 
