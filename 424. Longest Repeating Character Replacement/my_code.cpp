@@ -13,14 +13,14 @@ public:
             CharToCountInSuffix[S[RightPtr] - 'A']++;
             MaxCountRepeatVal = max(MaxCountRepeatVal, CharToCountInSuffix[S[RightPtr] - 'A']);
 
-            int window_length = RightPtr - LeftPtr + 1;
-            if (window_length - MaxCountRepeatVal > k) {
+            int WindowLength = RightPtr - LeftPtr + 1;
+            if (WindowLength - MaxCountRepeatVal > k) {
                 --CharToCountInSuffix[S[LeftPtr] - 'A'];
                 LeftPtr++;
-                window_length = RightPtr - LeftPtr + 1;
+                WindowLength = RightPtr - LeftPtr + 1;
             }
 
-            ans = max(ans, window_length);
+            ans = max(ans, WindowLength);
 
         }
 
