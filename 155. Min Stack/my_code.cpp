@@ -14,7 +14,7 @@ struct Pair {
 
     int Val;
     int Min;
-    Pair(int Val_, int Min_) : Val(Val_),Min(Min_) {} // необходим для emplace, см. например: https://en.cppreference.com/w/cpp/container/vector/emplace_back 
+    //Pair(int Val_, int Min_) : Val(Val_),Min(Min_) {} // необходим для emplace
 };
 
 stack<Pair, list<Pair>> Stack;
@@ -25,9 +25,11 @@ public:
     void push(int val) {
         
         if(Stack.empty()){
-            Stack.emplace(val,val);
+            Stack.push({val,val});
+            //Stack.emplace(val,val);
         }else{
-            Stack.emplace(val,min(val, getMin()));
+            Stack.push({val,min(val, getMin())} );
+            //Stack.emplace(val,min(val, getMin()));
         }
 
     }
