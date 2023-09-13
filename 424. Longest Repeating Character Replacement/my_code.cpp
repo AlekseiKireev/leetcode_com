@@ -11,7 +11,7 @@ public:
         for (int RightPtr = 0, LeftPtr = 0; RightPtr < S.size(); RightPtr++) {
 
             CharToCountInSuffix[S[RightPtr] - 'A']++;
-            MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInSuffix[S[RightPtr] - 'A']);
+            MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInSuffix[S[RightPtr] - 'A']); // MaxCountRepeatSymb in Suffix
 
             int WindowLength = RightPtr - LeftPtr + 1;
             //if (WindowLength - MaxCountRepeatSymb > k) { // good!
