@@ -14,7 +14,8 @@ public:
             MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInSuffix[S[RightPtr] - 'A']);
 
             int WindowLength = RightPtr - LeftPtr + 1;
-            if (WindowLength - MaxCountRepeatSymb > k) {
+            //if (WindowLength - MaxCountRepeatSymb > k) { // good!
+            while (LeftPtr < RightPtr && WindowLength - MaxCountRepeatSymb > k) {
                 --CharToCountInSuffix[S[LeftPtr] - 'A'];
                 LeftPtr++;
                 WindowLength = RightPtr - LeftPtr + 1;
