@@ -15,13 +15,15 @@ public:
 
             int WindowLength = RightPtr - LeftPtr + 1;
             //if (WindowLength - MaxCountRepeatSymb > k) { // good!
-            while (LeftPtr < RightPtr && WindowLength - MaxCountRepeatSymb > k) {
+            while (LeftPtr < RightPtr && WindowLength - MaxCountRepeatSymb > k) { // разве при изменении LeftPtr не надо обновлять MaxCountRepeatSymb?
                 --CharToCountInSuffix[S[LeftPtr] - 'A'];
                 LeftPtr++;
+                // MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInSuffix[S[LeftPtr] - 'A']); // работает с этой строкой, но, работает и без нее!
                 WindowLength = RightPtr - LeftPtr + 1;
             }
-
-            LengthLongestSubstring = max(LengthLongestSubstring, WindowLength);
+            
+            LengthLongestSubstring = WindowLength; // good! WHY?!
+            //LengthLongestSubstring = max(LengthLongestSubstring, WindowLength);
 
         }
 
