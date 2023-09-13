@@ -1,3 +1,5 @@
+НЕ РАЗОБРАЛ + СМ. https://www.youtube.com/watch?v=26MPOmLZgcc
+
 https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
 related: 
