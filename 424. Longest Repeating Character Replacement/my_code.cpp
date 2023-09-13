@@ -2,8 +2,8 @@ class Solution {
 public:
     int characterReplacement(string_view S, int k) {
 
-        int MaxCountRepeatVal = 0;
-        int ans = -1;
+        int MaxCountRepeatSymb = 0;
+        int LengthLongestSubstring = -1;
 
         array<int, 26> CharToCountInSuffix; // Suffix лежит в границах [LeftPtr, RightPtr]
         CharToCountInSuffix.fill(0);
@@ -11,19 +11,19 @@ public:
         for (int RightPtr = 0, LeftPtr = 0; RightPtr < S.size(); RightPtr++) {
 
             CharToCountInSuffix[S[RightPtr] - 'A']++;
-            MaxCountRepeatVal = max(MaxCountRepeatVal, CharToCountInSuffix[S[RightPtr] - 'A']);
+            MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInSuffix[S[RightPtr] - 'A']);
 
             int WindowLength = RightPtr - LeftPtr + 1;
-            if (WindowLength - MaxCountRepeatVal > k) {
+            if (WindowLength - MaxCountRepeatSymb > k) {
                 --CharToCountInSuffix[S[LeftPtr] - 'A'];
                 LeftPtr++;
                 WindowLength = RightPtr - LeftPtr + 1;
             }
 
-            ans = max(ans, WindowLength);
+            LengthLongestSubstring = max(LengthLongestSubstring, WindowLength);
 
         }
 
-        return ans;
+        return LengthLongestSubstring;
     }
 };
