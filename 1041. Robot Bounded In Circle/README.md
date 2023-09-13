@@ -417,28 +417,28 @@ ___________
 
 <img src="https://leetcode.com/problems/Figures/1041/pic4.png" width="750" height="600"/>
 
-Докажем это на основе [матрицы поворота](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0):
-
-Положим 
-- $(x', y')$ -- вектор, проведенный из точки $(0, 0)$ в конец пути робота, на момент окончания 4 прохода.
-- $(x, y)$ -- вектор, получившийся после одного прохода по instructions
-
-$$
-{\begin{pmatrix} x' 
-\\  
-y' \end{pmatrix} } = {\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
-\pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x 
-\\  
-y \end{pmatrix} } + {\begin{pmatrix} \cos { \frac{\pi}{2} }& \mp \sin { \frac{\pi}{2} } \\ 
-\pm \sin { \frac{\pi}{2} }& \cos { \frac{\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x 
-\\  
-y \end{pmatrix} } + {\begin{pmatrix} \cos { \pi }& \mp \sin { \pi } \\ 
-\pm \sin { \pi }& \cos { \pi } \end{pmatrix}} {\begin{pmatrix} x 
-\\  
-y \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \frac{3\pi}{2} } \\ 
-\pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x 
-\\  
-y \end{pmatrix} } = {\begin{pmatrix} 0 
-\\  
-0 \end{pmatrix} }
-$$
+  Докажем это на основе [матрицы поворота](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0):
+  
+  Положим 
+  - $(x', y')$ -- вектор, проведенный из точки $(0, 0)$ в конец пути робота, на момент окончания 4 прохода.
+  - $(x, y)$ -- вектор, получившийся после одного прохода по instructions
+  
+  $$
+  {\begin{pmatrix} x' 
+  \\  
+  y' \end{pmatrix} } = {\begin{pmatrix} \cos { 0 }& \mp \sin { 0 } \\ 
+  \pm \sin { 0 }& \cos { 0 } \end{pmatrix}} {\begin{pmatrix} x 
+  \\  
+  y \end{pmatrix} } + {\begin{pmatrix} \cos { \frac{\pi}{2} }& \mp \sin { \frac{\pi}{2} } \\ 
+  \pm \sin { \frac{\pi}{2} }& \cos { \frac{\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x 
+  \\  
+  y \end{pmatrix} } + {\begin{pmatrix} \cos { \pi }& \mp \sin { \pi } \\ 
+  \pm \sin { \pi }& \cos { \pi } \end{pmatrix}} {\begin{pmatrix} x 
+  \\  
+  y \end{pmatrix} }  + {\begin{pmatrix} \cos { \frac{3 \pi}{2} }& \mp \sin { \frac{3\pi}{2} } \\ 
+  \pm \sin { \frac{3\pi}{2} }& \cos { \frac{3\pi}{2} } \end{pmatrix}} {\begin{pmatrix} x 
+  \\  
+  y \end{pmatrix} } = {\begin{pmatrix} 0 
+  \\  
+  0 \end{pmatrix} }
+  $$
