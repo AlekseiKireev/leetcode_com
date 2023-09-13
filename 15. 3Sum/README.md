@@ -1,3 +1,5 @@
+sort + unique?
+
 https://leetcode.com/problems/3sum/
 
 related: 
