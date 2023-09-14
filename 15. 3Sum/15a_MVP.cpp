@@ -12,6 +12,7 @@ public:
             int k = (int)a.size() - 1;
             for (int j = i + 1; j < k; j++) { // move j [ == second ptr] forward
 
+                // j < k - 1  // ОБЪЯСНИТЬ!
                 while (j < k - 1 && a[i] + a[j] + a[k] > 0) { // move k [ == third ptr] backward
                     k--;
                 }
