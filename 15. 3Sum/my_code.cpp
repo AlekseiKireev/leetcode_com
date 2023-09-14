@@ -25,7 +25,7 @@ public:
                 if(Target > 0){break;}
                 
                 
-                for(; j + 1 != k && Target + nums[k] > 0; --k); // j + 1 != k // ОБЪЯСНИТЬ!
+                for(; j + 1 != k && Target + nums[k] > 0; --k); // j + 1 != k стоит понимать как факт того, что 
                 if(Target + nums[k] == 0/* &&(Triplets.empty() || Triplets.back() != vector<int>{nums[i], nums[j], nums[k]})*/){ // либо  &&(Triplets.empty() || Triplets.back() != vector<int>{nums[i], nums[j], nums[k]}), либо  while(j + 1 != k && nums[j] == nums[j + 1]){++j;}
                     Triplets.push_back({nums[i], nums[j], nums[k]});
                 }
@@ -36,7 +36,7 @@ public:
                    проверять nums[j] == nums[j + 1], так как получим тот же самый результат*/
                 while(j + 1 != k && nums[j] == nums[j + 1]){++j;} // если закомментировать будет ошибка: Wrong Answer 79 / 312 testcases passed nums = [0,0,0,0] Expected[[0,0,0]]
                 
-                
+                // [-4,-2,-1,0,2,2,5] -- тест, демонстрирующий, что k должно быть фиксировано!
                 // while(j != k + 1 && nums[k-1] == nums[k]){--k;} // если раскомментировать будет ошибка: Wrong Answer 261 / 312 testcases passed Input nums = [-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0] Expected[[-5,1,4],[-4,0,4],[-4,1,3],[-2,-2,4],[-2,1,1],[0,0,0]]
             }
 
