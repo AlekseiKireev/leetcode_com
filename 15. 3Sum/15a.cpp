@@ -18,7 +18,8 @@ public:
             int j = i + 1;
             int k = (int)a.size() - 1;
             for (int j = i + 1; j < k; j++) { // move j [ == second ptr] forward
-                
+
+                // if(a[i] + a[j] > 0){break;} // good! 
                 while (j < k - 1 && a[i] + a[j] + a[k] > 0) { // move k [ == third ptr] backward
                     k--;
                 }
