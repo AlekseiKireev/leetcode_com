@@ -2,7 +2,10 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& a) {
         sort(a.begin(), a.end());
+        if(a[a.size() - 1] < 0 || a[0] > 0){return ans;} // optimization
+        
         vector<vector<int>> ans;
+        
         for (int i = 0; i + 2 < (int)a.size(); i++) { // move i [== first ptr] forward
 
             //___________________________________________________
