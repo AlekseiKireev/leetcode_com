@@ -8,7 +8,7 @@ public:
 
         if(nums.front() > 0 || nums.back() < 0 ){return Triplets;}
 
-
+        
         //  nums.size() - 2 <-- "3 <= nums.length <= 3000"
         for(int i = 0; i < nums.size() - 2; ++i){ 
 
@@ -35,7 +35,6 @@ public:
             }
 
         }
-
 
         return Triplets;
     }
