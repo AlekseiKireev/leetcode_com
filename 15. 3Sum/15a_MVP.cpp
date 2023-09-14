@@ -17,7 +17,7 @@ public:
                 }
                 
                 if (a[i] + a[j] + a[k] == 0) {
-                    if (ans.empty() || a[i] != ans.back()[0] || a[j] != ans.back()[1] || a[k] != ans.back()[2]) {
+                    if (ans.empty() || a[i] != ans.back()[0] || a[j] != ans.back()[1] || a[k] != ans.back()[2]) { // условный оператор неоходим, например, для обхода таких тестов: Wrong Answer 79 / 312 testcases passed  Input nums = [0,0,0,0] Expected [[0,0,0]]
                         ans.push_back({ a[i], a[j], a[k] });
                     }
                 }
