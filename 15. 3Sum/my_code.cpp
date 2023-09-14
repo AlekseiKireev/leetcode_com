@@ -15,17 +15,23 @@ public:
             if(i > 0 && nums[i - 1] == nums[i]){ // если текущий элемент nums[i] равен предыдущему, то по нему не собираем статистику, так как вся возможная статистика была учтена при обработке nums[i - 1]
                 continue;
             }
+            if (nums[i] + nums[nums.size() - 1] + nums[nums.size() - 2] < 0) {continue;}
+            if (nums[i] + nums[i + 1] + nums[i + 2] > 0) {return Triplets;}
 
-            for(int j = i + 1; j < nums.size() - 1; ++j){
+            int k = nums.size() - 1; // необходим в этой области видимости для ограничения на j сверху
+            for(int j = i + 1; j < k; ++j){
                
                 const int Target = nums[i] + nums[j];
                 if(Target > 0){break;}
                 
-                int k = nums.size() - 1;
+                
                 for(; j + 1 != k && Target + nums[k] > 0; --k); // j + 1 != k // ОБЪЯСНИТЬ!
-                if(Target + nums[k] == 0){
-                    cout << "push_back " << i  << ' ' << j << ' '<< k  << '\n';
-                    Triplets.push_back({nums[i], nums[j], nums[k]});}
+                if(Target + nums[k] == 0/* &&(Triplets.empty() || Triplets.back() != vector<int>{nums[i], nums[j], nums[k]})*/){ // либо  &&(Triplets.empty() || Triplets.back() != vector<int>{nums[i], nums[j], nums[k]}), либо  while(j + 1 != k && nums[j] == nums[j + 1]){++j;}
+                    Triplets.push_back({nums[i], nums[j], nums[k]});
+                }
+                
+                while(j + 1 != k && nums[j] == nums[j + 1]){++j;} // если закомментировать будет ошибка: Wrong Answer 79 / 312 testcases passed nums = [0,0,0,0] Expected[[0,0,0]]
+                // while(j != k + 1 && nums[k-1] == nums[k]){--k;} // если раскомментировать будет ошибка: Wrong Answer 261 / 312 testcases passed Input nums = [-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0] Expected[[-5,1,4],[-4,0,4],[-4,1,3],[-2,-2,4],[-2,1,1],[0,0,0]]
             }
 
         }
