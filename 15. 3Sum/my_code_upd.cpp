@@ -8,7 +8,7 @@ public:
 
         for(int i = 0; i < nums.size() - 2; ++i){
             
-            while(i > 0 && i < nums.size() - 3 && nums[i-1] == nums[i]){++i;}
+            if(i > 0 && nums[i - 1] == nums[i]){ continue;} // while(i > 0 && i < nums.size() - 3 && nums[i-1] == nums[i]){++i;} // error!
 
             //___________________________________________________
             // optimization
