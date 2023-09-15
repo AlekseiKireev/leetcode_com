@@ -1,4 +1,4 @@
-https://leetcode.com/problems/3sum/
+https://leetcode.com/problems/3sum/ -- по сути задачу можно обобщить на поиск суммы любого числа, надо лишь вместо нуля вставить искомое число в условном операторе для push_back и при сдвиге k
 
 related: 
 - https://leetcode.com/problems/two-sum/
