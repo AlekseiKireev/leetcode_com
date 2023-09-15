@@ -8,17 +8,29 @@ public:
 
         for(int i = 0; i < nums.size() - 2; ++i){
             
-            while(i > 0 && ){}
+            while(i > 0 && i < nums.size() - 3 && nums[i-1] == nums[i]){++i;}
+
+            //___________________________________________________
+            // optimization
+            if(nums[i+2] +nums[i+1] + nums[i] > 0){continue;}
+            if(nums[nums.size() - 2] +nums[nums.size() - 1] + nums[i] < 0){continue;}
+            //___________________________________________________
 
             int k = nums.size() - 1;
-            for(int j = 0; j < k; ++j){
+            for(int j = i + 1; j != k; ++j){
                 
                 const int Target = nums[i] + nums[j];
                 if(Target > 0){break;}
+                
+                for(;j != k - 1 && nums[k] + Target > 0;--k); // после выхода из этого цикла в крайнем случае j = k - 1 -- крайнее значение, которое может достигаться индексом j
+                
+                if(nums[k] + Target == 0){Triplets.push_back({nums[i], nums[j], nums[k]});}
 
-
+                for(; j != k - 1 && nums[j + 1] == nums[j]; ++j);
             }            
         }
         
+
+        return Triplets;
     }
 };
