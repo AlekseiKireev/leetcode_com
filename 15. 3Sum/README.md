@@ -5,7 +5,8 @@ related:
   - https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum
 - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
   - https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
-
+- https://leetcode.com/problems/3sum-closest/
+  - https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest -- на основе my_code_sort.cpp написан код my_code_3SumClosest.cpp
 https://walkccc.me/LeetCode/problems/0015/
 
 _______
