@@ -12,7 +12,7 @@ public:
 
             //___________________________________________________
             // optimization
-            if(nums[i+2] +nums[i+1] + nums[i] > 0){continue;}
+            if(nums[i+2] +nums[i+1] + nums[i] > 0){return Triplets;}
             if(nums[nums.size() - 2] +nums[nums.size() - 1] + nums[i] < 0){continue;}
             //___________________________________________________
 
