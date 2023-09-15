@@ -8,9 +8,9 @@ public:
                
         for (int i = 0; i + 2 < (int)a.size(); i++) { // move i [== first ptr] forward
 
+            if (i > 0 && a[i] == a[i - 1]) {continue;}
             //___________________________________________________
             // optimization
-            if (i > 0 && a[i] == a[i - 1]) {continue;}
             if (a[i] + a[i + 1] + a[i + 2] > 0) {continue;} // if (a[i] + a[i + 1] + a[i + 2] > 0) {return ans;} // good!
             if (a[i] + a[a.size() - 1] + a[a.size() - 2] < 0) {continue;}
             //___________________________________________________
