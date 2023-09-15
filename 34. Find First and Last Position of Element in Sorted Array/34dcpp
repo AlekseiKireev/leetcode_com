@@ -1,1 +1,11 @@
-
+class Solution {
+public:
+  vector<int> searchRange(const vector<int>& a, int target) {
+    auto after = upper_bound(a.begin(), a.end(), target); 
+    if (after == a.begin() || *(after - 1) != target) {
+      return {-1, -1};
+    }
+    auto first = lower_bound(a.begin(), after, target);
+    return {int(first - a.begin()), int(after - a.begin() - 1)};
+  }
+};
