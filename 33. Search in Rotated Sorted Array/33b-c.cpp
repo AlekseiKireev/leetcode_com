@@ -16,6 +16,7 @@ public:
         int left = 0;
         int right = (int)a.size() - 1;
         while (left + 1 < right) {
+            //if(a[left] <=  a[right - 1] && (target < a[left] || a[right - 1] < target)){return -1;} // 33c.cpp
             int mid = (left + right) / 2;
             assert(mid != left && mid != right);
             int sortedLeft, sortedRight, secondLeft, secondRight;
