@@ -8,7 +8,7 @@ public:
                
         for (int i = 0; i + 2 < (int)a.size(); i++) { // move i [== first ptr] forward
 
-            if (i > 0 && a[i] == a[i - 1]) {continue;}
+            if (i > 0 && a[i] == a[i - 1]) {continue;} // equiv: // while (i > 0 && i + 3 < (int)a.size() && a[i] == a[i - 1]) {++i;}
             //___________________________________________________
             // optimization
             if (a[i] + a[i + 1] + a[i + 2] > 0) {continue;} // if (a[i] + a[i + 1] + a[i + 2] > 0) {return ans;} // good!
