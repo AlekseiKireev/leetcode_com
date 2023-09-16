@@ -11,7 +11,7 @@ class Solution {
        right = mid;
      }
    }
-   return right;
+   return right; // target <= a[right]
  }
 
  int lastIndex(const vector<int>& a, int target) { 
@@ -25,7 +25,7 @@ class Solution {
        right = mid;
      }
    }
-   return left;
+   return left; // a[left] <= target
  }
 
 public:
