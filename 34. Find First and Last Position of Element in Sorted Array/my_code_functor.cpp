@@ -2,7 +2,7 @@ class Solution {
 
 private:
 
-    int BinarySearch(const vector<int>& nums,const int target, function<int (int,int)> Operator,const bool LowerBound){
+    int BinarySearch(const vector<int>& nums, const int target, function<int (int,int)> Operator, const bool LowerBound){
 
         int RightBorder = -1;
         int LeftBorder = nums.size();
@@ -15,7 +15,9 @@ private:
             Operator(nums[Mid], target) ? RightBorder = Mid : LeftBorder = Mid;
         }
 
-        if(LowerBound){return ((nums[LeftBorder] != target) ? -1 : LeftBorder);}
+        if(LowerBound){ // инварианты: nums[RightBorder] < target, nums[LeftBorder] >= target
+            return ((nums[LeftBorder] != target) ? -1 : LeftBorder);
+        } // инварианты: nums[RightBorder] <= target, nums[LeftBorder] > target
         return ((nums[RightBorder] != target) ? -1 : RightBorder);
     }
 
@@ -37,3 +39,7 @@ public:
     }
 
 };
+/*
+Для простоты положим, что target существует в nums
+Инвариантный оператора для lower_bound: <
+*/
