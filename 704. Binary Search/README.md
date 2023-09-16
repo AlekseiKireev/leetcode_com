@@ -48,3 +48,6 @@ target = 7
 Потенциальная проблема -- ranges::upper_bound(nums, target) = nums.begin()  --> на ItCheck словим исключение out of range. Чтобы этого ибежать, перейдем к индексам сразу: 
  const int idx = upper_bound(nums.begin(), nums.end(), target) - nums.begin() - 1; -- где "- 1" выполняет операцию, аналогичную prev
 
+_______________
+
+Бинарный поиск ищет ** *первый* ** индекс для которого выполняется инвариант 
