@@ -3,7 +3,7 @@ public:
 	int search(const vector<int>& a, int target, function<int(int, int)>  Operator = less_equal<int>()) {
 
 		// 45 / 47 testcases passed nums = [-1] target = 2
-		if (a.back() < target || target < a.front()) { return -1; }
+		if (a.back() < target || target < a.front()) { return -1; } // теперь можно гарантировать, что a.back() <= target <= a.front() --> left и right не будут указывать за границы исходного массива чисел
 
 		// left и right -- противоположные инварианты: a[left] < target, a[right] >= target --> ответ будет right или -1
 		int left = -1;
