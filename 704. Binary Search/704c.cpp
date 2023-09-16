@@ -20,7 +20,7 @@ int search(const vector<int>& a, int target) {
   while (left + 1 < right) {
     int mid = (left + right) / 2;
 
-    if (target <= a[mid]) {
+    if (target <= a[mid]) { // удобно использовать только два вида оператора: <= AND < --> соответ-о для a[left] < target <= a[right] AND a[left] <= target < a[right]
       right = mid;
     } else {
       left = mid;
