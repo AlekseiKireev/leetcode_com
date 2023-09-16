@@ -25,9 +25,12 @@ public:
         
         if( nums.empty() || target < nums.front() || nums.back() < target){return {-1,-1};}
         
+        const int FirstIdx = BinarySearch(nums, target, less<int>(), 1); //  <
+        if(FirstIdx == -1){return {-1,-1};}
+
         return { // https://en.cppreference.com/w/cpp/utility/functional
             
-            BinarySearch(nums, target, less<int>(),1), //  <
+            FirstIdx, //  <
             BinarySearch(nums, target, less_equal<int>(),0) // <=
         };
         
