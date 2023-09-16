@@ -1,5 +1,9 @@
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
+related
+- https://leetcode.com/problems/binary-search/description/
+  - https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
+
 https://walkccc.me/LeetCode/problems/0034/
 
 __________________
