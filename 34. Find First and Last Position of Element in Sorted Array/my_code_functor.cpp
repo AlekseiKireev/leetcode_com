@@ -13,7 +13,6 @@ private:
             int Mid = (LeftBorder + RightBorder) / 2;
 
             Operator(nums[Mid], target) ? LeftBorder = Mid : RightBorder = Mid;
-            cout << LowerBound << ' ' << LeftBorder << ' ' << RightBorder << '\n';
         }
 
         if(LowerBound){return ((nums[RightBorder] != target) ? -1 : RightBorder);}
