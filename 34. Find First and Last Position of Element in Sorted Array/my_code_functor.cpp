@@ -4,21 +4,21 @@ private:
 
     int BinarySearch(const vector<int>& nums, const int target, function<int (int,int)> Operator, const bool LowerBound){
 
-        int RightBorder = -1;
-        int LeftBorder = nums.size();
+        int LeftBorder = -1;
+        int RightBorder = nums.size();
 
-        while(1 != LeftBorder - RightBorder){
+        while(1 != RightBorder - LeftBorder){
                         
-            assert(RightBorder < LeftBorder);
+            assert(LeftBorder < RightBorder);
             
-            int Mid = (RightBorder + LeftBorder) / 2;
-            Operator(nums[Mid], target) ? RightBorder = Mid : LeftBorder = Mid;
+            int Mid = (LeftBorder + RightBorder) / 2;
+            Operator(nums[Mid], target) ? LeftBorder = Mid : RightBorder = Mid;
         }
 
-        if(LowerBound){ // инварианты: nums[RightBorder] < target, nums[LeftBorder] >= target
-            return ((nums[LeftBorder] != target) ? -1 : LeftBorder);
-        } // инварианты: nums[RightBorder] <= target, nums[LeftBorder] > target
-        return ((nums[RightBorder] != target) ? -1 : RightBorder);
+        if(LowerBound){ // инварианты: nums[LeftBorder] < target, nums[RightBorder] >= target
+            return ((nums[RightBorder] != target) ? -1 : RightBorder);
+        } // инварианты: nums[LeftBorder] <= target, nums[RightBorder] > target
+        return ((nums[LeftBorder] != target) ? -1 : LeftBorder);
     }
 
 public:
@@ -39,7 +39,3 @@ public:
     }
 
 };
-/*
-Для простоты положим, что target существует в nums
-Инвариантный оператора для lower_bound: <
-*/
