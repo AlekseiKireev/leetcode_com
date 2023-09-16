@@ -24,6 +24,6 @@ public:
 			//}
 		}
 
-		return (a[right] != target) ? -1 : right;
+		return (a[right] != target) ? -1 : right; // делаем вывод, что для a[right] записывается инвариант из правдивой ветки условного оператора 
 	}
 };
