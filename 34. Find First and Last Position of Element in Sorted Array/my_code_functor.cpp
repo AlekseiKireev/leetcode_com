@@ -4,19 +4,19 @@ private:
 
     int BinarySearch(const vector<int>& nums,const int target, function<int (int,int)> Operator,const bool LowerBound){
 
-        int LeftBorder = -1;
-        int RightBorder = nums.size();
+        int RightBorder = -1;
+        int LeftBorder = nums.size();
 
-        while(1 != RightBorder - LeftBorder){
+        while(1 != LeftBorder - RightBorder){
                         
-            assert(LeftBorder < RightBorder);
+            assert(RightBorder < LeftBorder);
             
-            int Mid = (LeftBorder + RightBorder) / 2;
-            Operator(nums[Mid], target) ? LeftBorder = Mid : RightBorder = Mid;
+            int Mid = (RightBorder + LeftBorder) / 2;
+            Operator(nums[Mid], target) ? RightBorder = Mid : LeftBorder = Mid;
         }
 
-        if(LowerBound){return ((nums[RightBorder] != target) ? -1 : RightBorder);}
-        return ((nums[LeftBorder] != target) ? -1 : LeftBorder);
+        if(LowerBound){return ((nums[LeftBorder] != target) ? -1 : LeftBorder);}
+        return ((nums[RightBorder] != target) ? -1 : RightBorder);
     }
 
 public:
