@@ -10,8 +10,8 @@ private:
         while(1 != RightBorder - LeftBorder){
                         
             assert(LeftBorder < RightBorder);
+            
             int Mid = (LeftBorder + RightBorder) / 2;
-
             Operator(nums[Mid], target) ? LeftBorder = Mid : RightBorder = Mid;
         }
 
