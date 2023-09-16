@@ -15,9 +15,9 @@ private:
             Operator(nums[Mid], target) ? LeftBorder = Mid : RightBorder = Mid;
         }
 
-        if(LowerBound){ // инварианты: nums[LeftBorder] < target, nums[RightBorder] >= target
+        if(LowerBound){ // инварианты: nums[LeftBorder] < target, target <= nums[RightBorder]  
             return ((nums[RightBorder] != target) ? -1 : RightBorder);
-        } // инварианты: nums[LeftBorder] <= target, nums[RightBorder] > target
+        } // инварианты: nums[LeftBorder] <= target, target < nums[RightBorder] 
         return ((nums[LeftBorder] != target) ? -1 : LeftBorder);
     }
 
