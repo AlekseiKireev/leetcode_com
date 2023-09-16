@@ -8,7 +8,10 @@ public:
 		// left и right -- противоположные инварианты: a[left] < target, a[right] >= target --> ответ будет right или -1
 		int left = -1;
 		int right = (int)a.size();
-
+		// left и right указывают за границы массива с целью обработки случаев: 
+		// right == (int)a.size() если a.back() < target
+		// left == -1 если target < a.front()
+		
 		// примечательно также то, что данная реализация будет работать для пустого массива
 		// right - left - 1 == количество элементов в интервале (left, right)
 		while (1 != right - left) { // <-->  1 < right - left <--> цикл до тех пор, пока left + 1 != right -- 
