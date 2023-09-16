@@ -7,7 +7,7 @@ related
 https://walkccc.me/LeetCode/problems/0034/
 
 34a.cpp == 34c.cpp == 34d.cpp -- algorithm lower_bound / upper_bound  
-34b.cpp -- custom lower_bound / upper_bound  
+34b.cpp == my_code_functor.cpp -- custom lower_bound / upper_bound  
 __________________
 
 [Разбор задачи 34 leetcode.com Find First and Last Position of Element in Sorted Array. Решение C++](https://www.youtube.com/watch?v=tnLSdiQW-_c)
