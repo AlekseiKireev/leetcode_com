@@ -1,5 +1,8 @@
 https://leetcode.com/problems/balanced-binary-tree/
 
+related:
+- https://github.com/SkosMartren/leetcode_com/tree/main/104.%20Maximum%20Depth%20of%20Binary%20Tree
+
 https://walkccc.me/LeetCode/problems/0110/
 
 110a.cpp -- алгоритм 3.  
