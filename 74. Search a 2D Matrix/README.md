@@ -9,6 +9,10 @@ https://walkccc.me/LeetCode/problems/0074/
 
 ____________________
 
+my_code_1.cpp видится более инвариантным и схож с кодом https://github.com/SkosMartren/leetcode_com/blob/main/704.%20Binary%20Search/my_code.cpp
+
+____________________
+
 1. бинарный поиск по первому столбцу, после чего бинарный поиск по подходящей строке
 
 2. Рассмотрим таблицу nums:
