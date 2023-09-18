@@ -2,9 +2,9 @@ https://leetcode.com/problems/balanced-binary-tree/
 
 https://walkccc.me/LeetCode/problems/0110/
 
-[Разбор задачи 110 leetcode.com Balanced Binary Tree. Решение на C++](https://www.youtube.com/watch?v=96p-hKzC6Qo)
-
 _______________________
+
+[Разбор задачи 110 leetcode.com Balanced Binary Tree. Решение на C++](https://www.youtube.com/watch?v=96p-hKzC6Qo)
 
 1. Наивный алгоритм
 
