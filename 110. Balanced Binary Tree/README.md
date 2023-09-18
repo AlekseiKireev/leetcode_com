@@ -2,6 +2,8 @@ https://leetcode.com/problems/balanced-binary-tree/
 
 https://walkccc.me/LeetCode/problems/0110/
 
+110a.cpp -- алгоритм 3.  
+110b.cpp -- алгоритм 1.
 _______________________
 
 [Разбор задачи 110 leetcode.com Balanced Binary Tree. Решение на C++](https://www.youtube.com/watch?v=96p-hKzC6Qo)
