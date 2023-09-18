@@ -12,7 +12,7 @@ public:
 
 	int search(const vector<int>& a, int target) {
 
-		if (a.back() < target || target < a.front()) { return -1; } // если этот условный оператор не сработал, то гарантируется, что a[left] / a[right] существует
+		if (a.back() < target || target < a.front()) { return -1; } // если этот условный оператор не сработал, то гарантируется, что a[left] ИЛИ a[right] существует
 		
 		// left и right -- противоположные инварианты: a[left] < target, a[right] >= target --> ответ будет right или -1
 		int left = -1;
@@ -39,6 +39,7 @@ public:
 			}
 		}
 
+		assert(0 <= left <= a.size() - 1 || 0 <= right <= a.size() - 1);
 		return (a[right] != target) ? -1 : right;
 
 	}
