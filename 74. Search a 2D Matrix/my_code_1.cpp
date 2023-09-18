@@ -4,7 +4,7 @@ public:
         
         if(target < matrix.front().front() ||
         matrix.back().back() < target
-        ){return false;}
+        ){return false;} // если этот условный оператор не сработал, то гарантируется, что a[left] ИЛИ a[right] существует
 
         const int CountColumn = matrix.front().size();
         int LeftBorder = -1;
