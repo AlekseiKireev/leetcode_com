@@ -1,6 +1,9 @@
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 - https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/3879263/100-binary-search-easy-video-o-log-n-optimal-solution/?envType=list&envId=oy4y273c
 
+related:  
+- https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
 https://walkccc.me/LeetCode/problems/0033/
 
 ___________________
