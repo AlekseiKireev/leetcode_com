@@ -16,7 +16,7 @@ public:
         int left = 0;
         int right = (int)a.size() - 1;
         while (left + 1 < right) {
-            int mid = (left + right) / 2;
+            int mid = (left + right) / 2; // int mid = left + (right - left) / 2; // для избежания переполнения при сложении
             assert(mid != left && mid != right);
             if (a[left] < a[right]) {
                 // sorted
