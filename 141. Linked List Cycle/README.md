@@ -39,6 +39,8 @@ __________
 
 https://en.wikipedia.org/wiki/Cycle_detection
 
+![ alt](https://github.com/SkosMartren/useful-materials/blob/main/141_1.png)
+
 Отметим, что  
 0 <= i <= List.size() – 1  
 2 <= λ <= List.size() 
