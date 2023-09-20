@@ -13,6 +13,7 @@ public:
         if (a.back() == target) {
             return (int)a.size() - 1;
         }
+        // теперь обработы случаи вида: Wrong Answer 176 / 195 Input nums = [1,3] target = 3 -- без условных операторов, которые выше, будет ошибка
         int left = 0;
         int right = (int)a.size() - 1;
         while (left + 1 < right) {
