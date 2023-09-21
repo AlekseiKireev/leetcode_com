@@ -1,5 +1,8 @@
 https://leetcode.com/problems/guess-number-higher-or-lower/
 
+related:  
+- https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
+
 https://walkccc.me/LeetCode/problems/0374/
 
 _______________
