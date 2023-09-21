@@ -15,7 +15,8 @@ int search(const vector<int>& a, int target) {
   // left и right -- противоположные инварианты: a[left] < target, a[right] >= target --> ответ будет right или -1
   int left = -1;
   int right = (int)a.size();
-
+  // значения left и right выбирались на случай, если значения target находится вне границ вектора a, т.е. выполняется условие: target < a.front() || a.back() < target
+    
   // примечательно также то, что данная реализация будет работать для пустого массива
   while (left + 1 < right) {
     int mid = (left + right) / 2;
