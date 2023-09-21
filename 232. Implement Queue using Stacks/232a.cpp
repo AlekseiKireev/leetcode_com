@@ -3,7 +3,7 @@ class MyQueue {
 private:
 
 stack<int, vector<int>> in;
-stack<int, vector<int>> out;
+stack<int, vector<int>> out; // необходим в основном для работ методов: pop / peek
 
 void PrepareOut(){
     if(out.empty()){
