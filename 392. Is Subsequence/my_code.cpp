@@ -8,6 +8,7 @@ public:
             if(s[S_Idx]  == t[T_Idx]){++S_Idx;}
             if(S_Idx == s.size()){return true;}
         }
+        
         if(S_Idx == s.size()){return true;}
         return false;
     }
