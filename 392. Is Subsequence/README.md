@@ -2,6 +2,8 @@ https://leetcode.com/problems/is-subsequence/description/
 
 https://walkccc.me/LeetCode/problems/0392/
 
+392b.cpp == Follow up
+
 __________
 
 [Разбор задачи 392 leetcode.com Is Subsequence. Решение на C++](https://www.youtube.com/watch?v=J8ii90nFNKQ)
