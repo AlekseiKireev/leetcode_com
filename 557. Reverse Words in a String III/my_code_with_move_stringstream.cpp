@@ -1,7 +1,7 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        stringstream ss(move(s));    
+        stringstream ss(move(s)); // а тут точно работает move? Найти пруф в документации!   
 
         string ans; ans.reserve(s.size());
         string buffer;
