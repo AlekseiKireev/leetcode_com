@@ -1,3 +1,11 @@
+https://leetcode.com/problems/consecutive-characters/
+
+https://walkccc.me/LeetCode/problems/1446/
+
+У Федора Меньшикова разбор отсут-т!
+______
+
+
 |     0    	|     1    	| 2 	| 3 	| 4 	| 5 	| 6 	| 7 	| indexes  	|
 |:--------:	|:--------:	|---	|---	|---	|---	|---	|---	|----------	|
 |     l    	|     e    	| e 	| t 	| c 	| o 	| d 	| e 	|  == s    	|
