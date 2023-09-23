@@ -19,7 +19,7 @@ public:
                 secondLeft = mid;
                 secondRight = right;
             }
-            else {
+            else { // is_sorted({mid, ..., right}) == true
                 sortedLeft = mid;
                 sortedRight = right;
                 secondLeft = left;
