@@ -27,7 +27,7 @@ public:
             }
             
             if (a[sortedLeft] <= target && target < a[sortedRight]) { 
-                auto It = lower_bound(a.begin() + sortedLeft, a.begin() + sortedRight + 1, target); // " - 1" 
+                auto It = lower_bound(a.begin() + sortedLeft, a.begin() + sortedRight + 1, target); // " + 1" 
                 return (*It == target ? It - a.begin() : -1);
             }
             else {
