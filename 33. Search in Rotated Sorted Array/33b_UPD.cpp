@@ -13,7 +13,7 @@ public:
             int mid = (left + right) / 2;
             assert(mid != left && mid != right);
             int sortedLeft, sortedRight, secondLeft, secondRight;
-            if (a[left] < a[mid]) { // is_sorted({left, ..., mid}) == true
+            if (a[left] <= a[mid]) { // is_sorted({left, ..., mid}) == true
                 sortedLeft = left;
                 sortedRight = mid;
                 secondLeft = mid;
@@ -27,7 +27,7 @@ public:
             }
             
             if (a[sortedLeft] <= target && target < a[sortedRight]) { 
-                auto It = lower_bound(a.begin() + sortedLeft, a.begin() + sortedRight + 1, target); // " + 1" чтобы искать в границах [a.begin() + sortedLeft, a.begin() + sortedRight]
+                auto It = lower_bound(a.begin() + sortedLeft, a.begin() + sortedRight + 1, target); // " - 1" 
                 return (*It == target ? It - a.begin() : -1);
             }
             else {
