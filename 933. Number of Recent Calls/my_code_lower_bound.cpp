@@ -8,6 +8,8 @@ public:
     RecentCounter() { // "At most 10^4 calls will be made to ping."
         Pings.reserve(1e4);
     }
+
+    ~RecentCounter() { Pings.shrink_to_fit();}
     
     int ping(int t) {
 
