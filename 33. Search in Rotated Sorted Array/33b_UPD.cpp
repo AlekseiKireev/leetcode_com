@@ -2,15 +2,9 @@ class Solution {
 public:
     int search(const vector<int>& a, int target) {
 
-        if (a[0] == target) {
-            return 0;
-        }
-        if (a.size() == 1) {
-            return -1;
-        }
-        if (a.back() == target) {
-            return (int)a.size() - 1;
-        }
+        if (a[0] == target) {return 0;}
+        if (a.size() == 1) {return -1;}
+        if (a.back() == target) {return (int)a.size() - 1;}
 
         int left = 0;
         int right = (int)a.size() - 1;
@@ -32,9 +26,9 @@ public:
                 secondRight = mid;
             }
             
-            if (a[sortedLeft] <= target && target < a[sortedRight]) { // target <= a[sortedRight] ошибочен, так как может наружать инвариант: a[left] <= target
-                left = sortedLeft;
-                right = sortedRight;
+            if (a[sortedLeft] <= target && target < a[sortedRight]) { 
+                auto It = lower_bound(a.begin() + sortedLeft, a.begin() + sortedRight - 1, target);
+                return (*It == target ? It - a.begin() : -1);
             }
             else {
                 left = secondLeft;
