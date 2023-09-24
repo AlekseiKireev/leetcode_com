@@ -58,13 +58,6 @@ public:
             return (It == a.end() || *It != target ? -1 : It - a.begin());
         }
 
-        // такое условие нужно для обработки случаев: [5,1,3]
-        if(a.front() > a[1] && a[1] > a.back()){ // is_sorted(nums, greater) == true <-- https://en.cppreference.com/w/cpp/utility/functional
-            // assert(is_sorted(a.rbegin() , a.rend()));  // https://en.cppreference.com/w/cpp/algorithm/is_sorted // работает, закоментировал чтобы не увеличивать расходы по памяти
-            auto It = lower_bound(a.rbegin(), a.rend(), target); 
-            return (It == a.rend() || *It != target ? -1 : It - a.rbegin());
-        }
-
         const int Idx = BinarySearch(a, target);
         return  Idx;
 
