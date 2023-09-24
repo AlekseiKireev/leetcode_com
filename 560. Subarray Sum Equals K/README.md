@@ -1,6 +1,4 @@
-Привет. Интервью прошло, успешно или нет, скоро узнаю, но задачи были одна вот эта, 
-https://leetcode.com/problems/subarray-sum-equals-k/
-Только надо было вернуть не длину, а индексы
+задачи были одна вот эта,  https://leetcode.com/problems/subarray-sum-equals-k/ Только надо было вернуть не длину, а индексы
 ___________
 
 https://leetcode.com/problems/subarray-sum-equals-k/
