@@ -9,7 +9,7 @@ int BinarySearch(const vector<int>& a, int target) {
 
         while (1 != right - left) {
                        
-            int mid = (left + right) / 2;
+            int mid = left + (right - left) / 2;
             assert(mid != left && mid != right);
 
             int sortedLeft, sortedRight, secondLeft, secondRight;
