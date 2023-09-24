@@ -15,6 +15,11 @@ prefixSum[h] - prefixSum[f] = k == Suffix[g] : 0 <= f < h <= nums.size()
 
 */
 
+/*
+ОШИБКА НА ТЕСТАХ ВИДА k = 0:
+[1,1,1]
+0
+*/
 
 class Solution {
 
