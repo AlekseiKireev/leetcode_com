@@ -3,7 +3,7 @@ class Solution {
 private:
     int Ans;
 
-    int BinarySearch(const vector<int>& a) {
+    int BinarySearch(const vector<int>& a) { // https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
       
         int left = 0;
         int right = (int)a.size() - 1; // если написать "(int)a.size() - 1" будет ошибка на тесте [2,3,1] при " Ans = nums.front();"
