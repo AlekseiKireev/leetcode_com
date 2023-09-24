@@ -14,7 +14,7 @@ int BinarySearch(const vector<int>& a, int target) {
 
             int sortedLeft, sortedRight, secondLeft, secondRight;
             if (a[left] <= a[mid]) { // "<=" необходим, например, для обработки участков вида: [..., 2,2,2,2,...]
-                // is_sorted({left, ..., mid}) == true
+                // is_sorted({left, ..., mid}, less) == true
                 // assert(is_sorted(a.begin() + left, a.begin() + mid + 1)); // https://en.cppreference.com/w/cpp/algorithm/is_sorted // работает, закоментировал чтобы не увеличивать расходы по памяти
                 sortedLeft = left;
                 sortedRight = mid;
