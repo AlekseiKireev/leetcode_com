@@ -1,3 +1,10 @@
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+https://walkccc.me/LeetCode/problems/0026/
+
+У Федора Меньшикова разбор отсут-т!
+___________
+
 #  <p align="center"> Алгоритм для my_code_with_my_unique.cpp </p>
 
 ## <p align="center"> Пример 1 </p>
