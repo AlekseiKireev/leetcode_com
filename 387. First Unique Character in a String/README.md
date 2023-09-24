@@ -1,6 +1,13 @@
 https://leetcode.com/problems/first-unique-character-in-a-string/description/
 
-Алгоритм решения: два прохода, сортировка подсчетом
+https://walkccc.me/LeetCode/problems/0387/
+
+У Федора Меньшикова разбор отсут-т!
+_________
+
+Алгоритм решения: два прохода...
+1. сортировка подсчетом
+2. проход по строке и поиск первого символа, количество которого при сортировке подсчетом равно 1
 
 Time complexity : $\mathcal{O}(N)$ since we go through the string of length N two times.  
 Space complexity : $\mathcal{O}$ because English alphabet contains 26 letters.
