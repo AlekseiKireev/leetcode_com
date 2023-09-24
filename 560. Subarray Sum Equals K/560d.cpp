@@ -13,7 +13,7 @@ public:
 
    map<int, int> prefixSumToCount;
    int prefixSum = 0;
-   prefixSumToCount[prefixSum] = 1;
+   prefixSumToCount[prefixSum] = 1; // надо для Input nums = [1,1,1] k = 2
 
    int ans = 0;
    for (int v : nums) {
