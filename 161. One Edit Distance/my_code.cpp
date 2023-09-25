@@ -27,13 +27,12 @@ class Solution {
         for(int i = 0; i < MinLeng; ++i){
             
             if(First[i] != Second[i]){ // delete Second[i]
-                return ();
+                return (First.substr(i) == Second.substr(i + 1)  );
             }
-        }        
+        }      
         
-        
-        return false;        
-    }    
+        return true; // ex: abc abcd -- во втором слове удаляем d       
+    }   
         
     bool Insert(string_view First, string_view Second){
         
