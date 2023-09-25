@@ -1,5 +1,8 @@
 https://leetcode.com/problems/meeting-rooms-ii/
 
+related: 
+- https://leetcode.com/problems/meeting-rooms/
+
 https://walkccc.me/LeetCode/problems/0253/
 
 У Федора Меньшикова разбор отсут-т!
