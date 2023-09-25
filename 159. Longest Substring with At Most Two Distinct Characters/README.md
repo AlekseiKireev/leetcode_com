@@ -2,6 +2,8 @@ https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-charac
 
 https://walkccc.me/LeetCode/problems/0159/
 
+https://github.com/doocs/leetcode/tree/main/solution/0100-0199/0159.Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters
+
 У Федора Меньшикова разбор отсут-т!
 
 ____________
