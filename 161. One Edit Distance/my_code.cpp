@@ -44,7 +44,7 @@ private:
         for (int i = 0; i < MinLeng; ++i) {
 
             if (First[i] != Second[i]) { // вставляем Second[i] в слово First на i позицию, все остальные буквы слова сдвигаем на "+1" вправа
-                return (First.substr(i) == Second.substr(i));
+                return (First.substr(i) == Second.substr(i + 1));
             }
         }
 
