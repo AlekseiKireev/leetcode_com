@@ -15,3 +15,7 @@ https://tutorialhorizon.com/algorithms/longest-substring-with-at-most-two-unique
 https://www.lintcode.com/problem/928/description
 
 https://aaronice.gitbook.io/lintcode/two_pointers/longest-substring-with-at-most-two-distinct-characters
+
+___________
+
+[340. Longest Substring with At Most K Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters) --> 159. Longest Substring with At Most Two Distinct Characters
