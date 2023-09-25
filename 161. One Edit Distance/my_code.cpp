@@ -63,7 +63,7 @@ public:
 
         if (MaxLeng - MinLeng > 1) { return false; }
 
-        assert(MinLeng == MaxLeng || MinLeng == MaxLeng + 1);
+        assert(MinLeng == MaxLeng || MinLeng == MaxLeng - 1);
         return ((MinLeng == MaxLeng) ? Replace(First, Second) : (Delete(First, Second) || Insert(First, Second)));
 
     }
