@@ -4,6 +4,7 @@
 
 https://docs.google.com/spreadsheets/d/1vgoyVzOqueURT7jNXuoEec5dQnIdtUCEqVPX1x0Vx6A/edit?pli=1#gid=0
 
+Архив условий и решений: https://github.com/doocs/leetcode/tree/main/solution
 _________
 
 Ускорение ввода-вывода
