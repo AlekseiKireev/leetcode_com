@@ -24,13 +24,20 @@ class Solution {
     
     bool Delete(string_view First, string_view Second){
         
+        for(int i = 0; i < MinLeng; ++i){
+            
+            if(First[i] != Second[i]){ // delete Second[i]
+                return ();
+            }
+        }        
+        
+        
+        return false;        
     }    
         
     bool Insert(string_view First, string_view Second){
         
-        
-        
-        return true;
+
     }
     
  public:
