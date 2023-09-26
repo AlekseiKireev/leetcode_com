@@ -48,8 +48,9 @@ class Solution{
 
 /*
 НАПИСАТЬ ТЕСТЫ
-
+aaaa 1
 aaaa 2 
+aaaa 4
 aaaa 42 
 */
 
