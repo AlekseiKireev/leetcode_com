@@ -9,7 +9,7 @@ ________
 
 https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/
 
-https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1 -- удачаня тестирующая система?
+https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1 -- НЕудачаня тестирующая система! Код из https://walkccc.me/LeetCode/problems/0340/ считается пройденым, хотя ошибочно отрабатывает на предложенном тесте "Example 2 S = "aaaa", K = 2 Output: -1" на geeksforgeeks
 
 https://www.lintcode.com/problem/386/
 
