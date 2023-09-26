@@ -13,7 +13,12 @@ class Solution{
         int LengthSubstr = -1;
         
         for(int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow <=  nums.size() - 1; ++RightBorderWindow){ // move Right ptr
-            
+          
+           if(++CharToCount[RightBorderWindow] == 1){ // новая буква (CharToCount[RightBorderWindow]) в sliding window
+                --k;
+            }
+          
+          /* // лучше не сдвигать двумя способами правй указатель, не удобно / понижает читабельность / повышает вероятность ошибки
             while(RightBorderWindow < nums.size() - 1 && k >= 0){
                 
                     if(++CharToCount[RightBorderWindow] == 1){ // новая буква (CharToCount[RightBorderWindow]) в sliding window
@@ -21,8 +26,8 @@ class Solution{
                     }
                     ++RightBorderWindow;
                 
-            } // RightBorderWindow указывет на последний / за последний символ sliding window ????
-            
+            } // RightBorderWindow указывет на последний или за последний символ sliding window ????
+            */
             assert(RightBorderWindow >= nums.size() - 1 || k < 0);
             
             while(LeftBorderWindow < RightBorderWindow && k < 0){ // move Left ptr
@@ -44,5 +49,7 @@ class Solution{
 
 /*
 НАПИСАТЬ ТЕСТЫ
+
+aaaa 2 
 */
 
