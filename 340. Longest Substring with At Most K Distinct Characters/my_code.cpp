@@ -28,7 +28,6 @@ class Solution{
                 
             } // RightBorderWindow указывет на последний или за последний символ sliding window ????
             */
-            assert(RightBorderWindow >= nums.size() - 1 || k < 0);
             
             while(LeftBorderWindow < RightBorderWindow && k < 0){ // move Left ptr
                               
@@ -51,5 +50,6 @@ class Solution{
 НАПИСАТЬ ТЕСТЫ
 
 aaaa 2 
+aaaa 42 
 */
 
