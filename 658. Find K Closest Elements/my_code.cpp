@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<int> findClosestElements(const vector<int>& arr, int k, const int x) {
 
+        // [0,0,1,2,3,3,4,7,7,8] 3 5 // вся соль в повторя-я 7
         auto It = lower_bound(arr.begin(), arr.end(), x);
 
         if(It == arr.begin()){return {arr.begin(), arr.begin() + k};} // My ex 2
@@ -10,10 +11,12 @@ public:
 
         int LeftPtr, RightPtr;
 
-        if(*It == x || abs(*prev(It) - x) >= abs(*It - x)){
-            LeftPtr = RightPtr = It - arr.begin();
-        }else{
+        // [1,3] 1 2
+        // 
+        if(*It == x || abs(*prev(It) - x) == abs(*It - x) ){
             LeftPtr = RightPtr = It - arr.begin() - 1;
+        }else{
+            LeftPtr = RightPtr = It - arr.begin();
         }
 
         
