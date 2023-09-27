@@ -42,4 +42,4 @@ _________
 [25,15,50,10,22,35,70,4,12,18,24,31,44,66,90]  
 []
 
-![ alt](https://github.com/SkosMartren/useful-materials/blob/main/BST_1.png)
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/travel_tree_three.png" width="800" height="500"/>
