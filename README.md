@@ -5,6 +5,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels
     https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II
 </details>
+
 ______
 
 У Федора Меньшикова разбор отсут-т!
