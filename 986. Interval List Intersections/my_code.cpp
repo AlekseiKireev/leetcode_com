@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>> intervalIntersection(vector<vector<int>>& firstList, vector<vector<int>>& secondList) {
         
-        vector<vector<int>> Intersection; // O(max(firstList.size(), secondList.size()))
+        vector<vector<int>> Intersection; // O(max(firstList.size(), secondList.size())). Пример: firstList = {{1,100}}, secondList = {{2,3},{4,5}}
         if(firstList.empty() || secondList.empty()){return Intersection;}
 
         // "0 <= firstList.length, secondList.length <= 1000"
