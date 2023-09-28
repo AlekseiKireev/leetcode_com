@@ -4,6 +4,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
     https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels
     https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II
+    https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
 </details>
 
 ______
