@@ -1,10 +1,8 @@
-Также см.  
-986. Interval List Intersections -- обратная задача: надо найти пересечение, а в исходной -- объединение    
-763 Partition Labels -- аналог
-
-____
-
 https://leetcode.com/problems/merge-intervals/description/
+
+related 
+- https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections -- обратная задача: надо найти пересечение, а в исходной -- объединение    
+- https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- аналог
 
 https://walkccc.me/LeetCode/problems/0056/
 
