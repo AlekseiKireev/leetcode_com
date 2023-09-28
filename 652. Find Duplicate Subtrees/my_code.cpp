@@ -19,21 +19,35 @@ private:
 
 private:
 
-  string Postorder(TreeNode* Node){ // обходит дерево от листьев к родителем листьев и т.д. выше
+  string Postorder(TreeNode* Node){ 
 
-      if(Node == nullptr){return {};}
+      if(Node == nullptr){return {};} // https://stackoverflow.com/questions/26587110/returning-an-empty-string-efficient-way-in-c
 
       string LeftBranch = Postorder(Node->left);
       string RightBranch = Postorder(Node->right);
 
-      string Subtree = to_string(Node->val) + ' '+ LeftBranch+ ' '+ RightBranch;
+      string Subtree = to_string(Node->val) + '*'+ LeftBranch+ '#'+ RightBranch;
 
-       if(SubtreeToCount[Subtree]++ == 1){DuplicateSubtrees.push_back(Node);} // good!
-      //if(++SubtreeToCount[move(Subtree)] == 2){DuplicateSubtrees.push_back(Node);}
-      // else{++SubtreeToCount[move(Subtree)];} // Wrong Answer 133 / 175 testcases passed Input root = [1,2,3,4,null,2,4,null,null,4] Output [[4],[2,4],[4]] Expected [[2,4],[4]]
+       if(++SubtreeToCount[Subtree] == 2){DuplicateSubtrees.push_back(Node);} // good!
+      //if(SubtreeToCount[move(Subtree)]++ == 1){DuplicateSubtrees.push_back(Node);} // error: если элемент не сущесвует в мапине, то он создастся и при этом данные из строки будет перемещены. А вы потом эту строку возвращаете. А в первом случае со строкой никаких метаморфоз не произойдет
 
-      //++SubtreeToCount[move(Subtree)]; // <-- T& operator[]( Key&& key ); (2)	(since C++11) <-- https://en.cppreference.com/w/cpp/container/unordered_map/operator_at
       return Subtree;
+      /*
+Киреев Алексей MonsieurAKA, [9/28/2023 1:37 PM]
+а тогда move можно в return засунуть, или это так не работает?
+
+return move(Subtree); // речь об этом, оптимизация будет? Если нет, можно как-то ее получить?
+
+Alexander "Ternvein" Isaev, [9/28/2023 1:38 PM]
+С move не будет, без move — будет.
+
+Киреев Алексей MonsieurAKA, [9/28/2023 1:40 PM]
+а почему так, можно подробнее?
+
+Alexander "Ternvein" Isaev, [9/28/2023 1:40 PM]
+Почитайте про NRVO.
+Если коротко: return move(...) — это всегда деградация.
+      */
   }
 
 public:
