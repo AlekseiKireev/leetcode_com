@@ -16,7 +16,7 @@ public:
 		// right - left - 1 == количество элементов в интервале (left, right)
 		while (2 != right - left + 1) { // <-->  1 < right - left <--> цикл до тех пор, пока left + 1 != right -- 
 						// то есть пока не дошли до соседних гранично-инвариантных индексов, пока между left и right есть хотя бы один элемент
-			int mid = (left + right) / 2;
+			int mid = left + (right - left) / 2;
 
 			(Operator(target, a[mid])) ? right = mid : left = mid;
 			//if (target <= a[mid]) {
