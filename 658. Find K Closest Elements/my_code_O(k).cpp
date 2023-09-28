@@ -5,7 +5,7 @@ public:
         int l = 0, r = arr.size() - 1;
         while (r - l + 1 != k) {
             assert(l < r && arr[l] <= arr[r]);
-            if (x - arr[l] <= arr[r] - x) {
+            if (x - arr[l] <= arr[r] - x) { // arr[l] ближе к x, нежели arr[r]
                 --r;
             } else {
                 ++l;
