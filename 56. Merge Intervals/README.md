@@ -4,7 +4,11 @@ related
 - https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections -- обратная задача: надо найти пересечение, а в исходной -- объединение    
 - https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- аналог
 
+https://github.com/doocs/leetcode/tree/main/solution/0000-0099/0056.Merge%20Intervals
+
 https://walkccc.me/LeetCode/problems/0056/
+
+__________
 
 [Разбор задачи 56 leetcode.com Merge Intervals. Решение на C++](https://www.youtube.com/watch?v=PIUaSD1c0AY)
 
