@@ -1,7 +1,8 @@
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
-        
+
+        if(arr.size() == k){return arr;}
         auto ItCheck_x = lower_bound(arr.begin(), arr.end(), x);
 
         if(ItCheck_x == arr.begin()){return {arr.begin(), arr.begin() + k};} // My ex 2 / 2.1
