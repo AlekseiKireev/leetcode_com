@@ -49,3 +49,17 @@ ________
     2
     4
 [4,5]
+
+________
+
+Ввиду услвоия 
+
+    An integer a is closer to x than an integer b if:
+    
+    |a - x| < |b - x|, or
+    |a - x| == |b - x| and a < b
+
+
+можно утверждать, что на arr введен порядок: $a \preccurlyeq b$  если 
+- |a - x| < |b - x|
+- или |a - x| == |b - x| и a < b
