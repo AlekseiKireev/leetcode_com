@@ -8,6 +8,7 @@ public:
         if(ItCheck_x == arr.end()){return {arr.end() - k, arr.end()};} // My ex 3
 
         assert(ItCheck_x != arr.begin() && ItCheck_x != arr.end()); // <--> prev(ItCheck_x) exist!
+        assert(*arr.begin() <= x && x <= *prev(arr.end()));
         
         int LeftPtr, RightPtr;      
 
