@@ -3,7 +3,7 @@
 https://leetcode.com/problems/partition-labels/
 
 related: 
-- 56. Merge Intervals == https://leetcode.com/problems/merge-intervals/ -- аналог. Используется в решении merge_Intervals_upd.cpp
+-  56. Merge Intervals == https://leetcode.com/problems/merge-intervals/ -- аналог. Используется в решении merge_Intervals_upd.cpp
 
 https://walkccc.me/LeetCode/problems/0763/
 
