@@ -1,3 +1,12 @@
+<details>  
+<summary> Сканирующая прямая </summary>  
+    https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
+    https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
+    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels
+    https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II
+</details>
+______
+
 У Федора Меньшикова разбор отсут-т!
 
 Архив видео https://docs.google.com/spreadsheets/d/1w5JqsXFfNTS7NUT7ujKrt8NvhJiw52S6jfvoo2X_fo8/edit?pli=1#gid=0
