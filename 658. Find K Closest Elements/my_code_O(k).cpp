@@ -1,17 +1,18 @@
 class Solution {
 public:
-    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+    vector<int> findClosestElements(vector<int>& arr, int k, int target) {
+        
+        function<bool(int, int)>  Operator = [target](const int a, const int b){
 
-        int l = 0, r = arr.size() - 1;
-        while (r - l + 1 != k) {
-            assert(l < r && arr[l] <= arr[r]);
-            if (x - arr[l] <= arr[r] - x) { // arr[l] ближе к x, нежели arr[r]
-                --r;
-            } else {
-                ++l;
-            }
-        } // l и r указывают на концы искомого вектора --> при возврате надо дописать " + 1"
+            assert(a <= b);
+            return target - a <= b - target;
+        };
 
-        return vector<int>(arr.begin() + l, arr.begin() + r + 1);
+		int left = 0;
+		int right = (int)arr.size() - 1;
+
+		while (k != right - left + 1) { Operator(arr[left], arr[right]) ?  --right : ++left; }
+
+        return {arr.begin() + left, arr.begin() + right + 1};        
     }
 };
