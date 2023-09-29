@@ -15,3 +15,16 @@ ________
 https://www.lintcode.com/problem/920/
 
 https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- тут есть "Условие пересечения отсортированных и не отсортированных интервалов"
+
+________
+
+<p align="center"> My_ex 1</p>
+
+    [[7,10],[10,14]]
+
+true
+
+<p align="center"> My_ex 2</p>
+
+    [[13,15],[1,13]]
+true
