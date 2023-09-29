@@ -11,6 +11,9 @@ https://github.com/doocs/leetcode/tree/main/solution/0200-0299/0253.Meeting%20Ro
 
 _________
 
+Перефраз: " minimum number of conference rooms required." эквивалентен задаче о "[Точка, покрытая наибольшим количеством отрезков](https://ru.algorithmica.org/cs/decomposition/scanline/)"
+_________
+
 https://github.com/doocs/leetcode/tree/main/solution/0200-0299/0253.Meeting%20Rooms%20II
 
 https://aaronice.gitbook.io/lintcode/sweep-line/meeting-rooms-ii
