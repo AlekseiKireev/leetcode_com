@@ -5,7 +5,7 @@ public:
         sort(intervals.begin(), intervals.end());
         
         for(int i = 1; i < intervals.size(); ++i){
-                if(intervals[i].front() <= intervals[i-1].back()){return false;}
+                if(intervals[i].front() < intervals[i-1].back()){return false;}
         }
         
         return true;
