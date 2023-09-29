@@ -9,3 +9,5 @@ https://github.com/doocs/leetcode/tree/main/solution/0200-0299/0252.Meeting%20Ro
 ________
 
 https://www.lintcode.com/problem/920/
+
+https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- тут есть "Условие пересечения отсортированных и не отсортированных интервалов"
