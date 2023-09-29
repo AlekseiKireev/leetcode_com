@@ -7,3 +7,5 @@ https://github.com/doocs/leetcode/tree/main/solution/0200-0299/0252.Meeting%20Ro
 У Федора Меньшикова разбор отсут-т!
 
 ________
+
+https://www.lintcode.com/problem/920/
