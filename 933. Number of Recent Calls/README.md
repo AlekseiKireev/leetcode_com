@@ -1,5 +1,8 @@
 https://leetcode.com/problems/number-of-recent-calls/
 
+related: ? 
+- https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
+
 https://walkccc.me/LeetCode/problems/0933/
 
 __________
