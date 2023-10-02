@@ -24,7 +24,7 @@ public:
             }
         }
         
-        if(L_Idx_Longest_Subarray == -1){return 0;}
+        if(L_Idx_Longest_Subarray == -1){ /*Когда такое происходит??*/ return 0;}
         else {assert(Ans == R_Idx_Longest_Subarray - L_Idx_Longest_Subarray + 1);}
 
         return Ans;
