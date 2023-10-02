@@ -1,5 +1,6 @@
 <details>  
-<summary> Сканирующая прямая </summary>      
+<summary> Сканирующая прямая </summary>
+    не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
     https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
     https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- тут есть "Условие пересечения отсортированных и не отсортированных интервалов"  <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
