@@ -1,4 +1,5 @@
-через make_move_iterator перебрасывать остатки для экономии памяти?
+через make_move_iterator перебрасывать остатки для экономии памяти?  
+Организовать поиск в RotatedArray с учетом сдвига?
 
 https://leetcode.com/problems/number-of-recent-calls/
 
