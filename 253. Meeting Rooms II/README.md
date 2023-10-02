@@ -23,3 +23,10 @@ https://aaronice.gitbook.io/lintcode/sweep-line/meeting-rooms-ii
 https://www.lintcode.com/problem/919/
 
 https://www.youtube.com/watch?v=FdzJmTCVyJU
+
+_________
+
+<p align="center">My_ex 1</p>
+
+    [[5,8],[8,18]]  
+1
