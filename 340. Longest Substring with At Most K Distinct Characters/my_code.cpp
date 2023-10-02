@@ -15,7 +15,7 @@ private:
     int LengthSubstr = 0;
 public:
 
-    int lengthOfLongestSubstringKDistinct(string& s, int k) { // "0 <= k <= 50"
+    int lengthOfLongestSubstringKDistinct(string_view s, int k) { // "0 <= k <= 50"
 
         if(k <= 0){ return LengthSubstr; }
 
@@ -64,4 +64,3 @@ public:
 //    cout << Solution().lengthOfLongestSubstringKDistinct("aaaa", 42) << '\n';
 //
 //}
-
