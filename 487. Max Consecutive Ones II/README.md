@@ -2,6 +2,7 @@ https://leetcode.com/problems/max-consecutive-ones-ii/ -- CLOSED == premium
 
 related:
 - https://leetcode.com/problems/max-consecutive-ones/
+- 485. Max Consecutive Ones <-- 487. Max Consecutive Ones II <-- 1004. Max Consecutive Ones III
 
 https://walkccc.me/LeetCode/problems/0487/
 
