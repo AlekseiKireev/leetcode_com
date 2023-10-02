@@ -2,6 +2,8 @@ https://leetcode.com/problems/meeting-rooms-ii/ -- CLOSED == premium
 
 related: 
 - https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
+- https://stepik.org/lesson/199934/step/5
+- https://contest.yandex.ru/contest/27883/problems/B/
 
 https://walkccc.me/LeetCode/problems/0253/
 
