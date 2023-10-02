@@ -1,3 +1,5 @@
+через make_move_iterator перебрасывать остатки для экономии памяти?
+
 https://leetcode.com/problems/number-of-recent-calls/
 
 related: ? 
