@@ -12,3 +12,5 @@ https://github.com/doocs/leetcode/tree/main/solution/0400-0499/0487.Max%20Consec
 ______
 
 https://www.geeksforgeeks.org/maximum-consecutive-ones-or-zeros-in-a-binary-array/
+
+https://www.lintcode.com/problem/883/
