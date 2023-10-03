@@ -68,7 +68,9 @@ public:
         if (v1.empty() == false) { GetZigzag.push({ v1.cbegin(), v1.cend() }); }
         if (v2.empty() == false) { GetZigzag.push({ v2.cbegin(), v2.cend() }); }
 
-является ошибочным, в то время как
+является ошибочной:
+no instance of overloaded function "std::queue<_Ty, _Container>::push [with _Ty=ZigzagIterator::Pair, _Container=std::deque<ZigzagIterator::Pair, std::allocator<ZigzagIterator::Pair>>]" matches the argument list
+в то время как
 
         if (v1.empty() == false) { GetZigzag.emplace( v1.cbegin(), v1.cend() ); }
         if (v2.empty() == false) { GetZigzag.emplace( v2.cbegin(), v2.cend() ); }
