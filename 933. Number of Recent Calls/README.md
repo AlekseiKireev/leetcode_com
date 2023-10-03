@@ -3,8 +3,8 @@
 
 https://leetcode.com/problems/number-of-recent-calls/
 
-related: ? 
-- https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
+related: 
+- https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- аналог my_code_queue.cpp
 
 https://walkccc.me/LeetCode/problems/0933/
 
