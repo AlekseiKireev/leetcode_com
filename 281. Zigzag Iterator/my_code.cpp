@@ -16,50 +16,60 @@ class ZigzagIterator {
 */
 
 #include <iostream>
-#include <string>
-#include<vector>
 #include <queue>
- 
-using namespace std; 
- 
+
+using namespace std;
+
+
 class ZigzagIterator {
- 
+
 private:
- 
+
     struct Pair {
- 
-        const vector<int>::iterator CurrentItr;
-        const vector<int>::iterator EndItr;
- 
+        vector<int>::const_iterator CurrentItr;
+        vector<int>::const_iterator EndItr;
     };
- 
+
 private:
- 
+
     queue<Pair> GetZigzag;
- 
+
 public:
     ZigzagIterator(const vector<int>& v1, const vector<int>& v2) { // 0 <= v1.length, v2.length <= 1000        
- 
-        // no instance of overloaded function "std::queue<_Ty, _Container>::push [with _Ty=ZigzagIterator::Pair, _Container=std::deque<ZigzagIterator::Pair, std::allocator<ZigzagIterator::Pair>>]" matches the argument list
+
+        
         if (v1.empty() == false) { GetZigzag.push({ v1.cbegin(), v1.cend() }); }
         if (v2.empty() == false) { GetZigzag.push({ v2.cbegin(), v2.cend() }); }
         //if (v1.empty() == false) { GetZigzag.emplace( v1.cbegin(), v1.cend() ); }
         //if (v2.empty() == false) { GetZigzag.emplace( v2.cbegin(), v2.cend() ); }
- 
+
     }
- 
+
     int next() {
- 
- 
+
+
         const auto [CurrentItr, EndItr] = GetZigzag.front();
         GetZigzag.pop();
         if (CurrentItr + 1 != EndItr) { GetZigzag.push({ CurrentItr + 1, EndItr }); }
         return *CurrentItr;
     }
- 
+
     bool hasNext() { return !(GetZigzag.empty()); }
- 
+
 };
+
+
+int main() {
+
+    vector<int> v1 = { 1,2 };
+    vector<int> v2 = { 3,4,5,6 };
+    auto Tmp = ZigzagIterator(v1, v2);
+
+    while (Tmp.hasNext()) {
+        cout << Tmp.next() << ' ';
+    }
+
+}
        
 /*
 
