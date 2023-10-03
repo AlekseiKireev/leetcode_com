@@ -1,7 +1,7 @@
 https://leetcode.com/problems/design-hit-counter/ -- CLOSED == premium
 
-related: ? 
-- https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls
+related: 
+- https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls  -- аналог my_code_queue.cpp
 
 https://walkccc.me/LeetCode/problems/0362/ -- ОЗНАКОМИТЬСЯ И ПОПЫТАТЬСЯ РЕАЛИЗОВАТЬ ТАК В 933
 
