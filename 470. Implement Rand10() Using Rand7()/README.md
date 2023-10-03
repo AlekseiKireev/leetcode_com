@@ -5,7 +5,7 @@
 
         val = x + (y-1)*7;
 
-можно отнести к uniform random
+можно отнести к uniform random?
 
 ___________
 
