@@ -19,8 +19,9 @@ queue<int> Timestamps;
 
 private:
 
-    void clear(const int timestamp){
-        while(Timestamps.empty() == false && Timestamps.front() + 300 <= timestamp){Timestamps.pop()}
+    void clear(const int timestamp){ // "Timestamps.front() + 300 <= timestamp" == условие того, что событие Timestamps.front() произошло ранее 300 секунд при начале отсчета от timestamp
+                                     // необходимы события, находящиеся в (timestamp - 300, timestamp]   
+     while(Timestamps.empty() == false && Timestamps.front() + 300 <= timestamp){Timestamps.pop()}
     }
 
 public:
@@ -36,3 +37,11 @@ public:
     }
 
 };
+
+/*
+Удаление происходит при: 
+---------|--------------------------------|---------------|
+Timestamps.front()                 timestamp - 300    timestamp
+
+В том числе, если Timestamps.front() == timestamp - 300 
+*/
