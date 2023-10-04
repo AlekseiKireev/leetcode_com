@@ -1,7 +1,10 @@
-constexpr int NUMBER_SECONDS = 300;
+
 
 class HitCounter {
 
+private:
+// https://github.com/SkosMartren/leetcode_com/blob/main/README.md#setting-the-size-of-an-array-in-a-private-section
+static constexpr int NUMBER_SECONDS = 300;
 
 public:
 
