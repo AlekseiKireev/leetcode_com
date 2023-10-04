@@ -112,3 +112,67 @@ ____
 ___________
 
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/asymptotics_containers.png)
+
+___________
+
+Киреев Алексей MonsieurAKA, [10/4/2023 3:54 PM]
+Друзья, почему такой код ошибочный: 
+
+    #include <array>
+    
+    using namespace std; 
+    
+    class foo {
+    
+    private:
+        constexpr int NUMBER_SECONDS = 300;
+    
+    
+    private:
+        array<int, NUMBER_SECONDS> timestamps;
+    };
+
+ввиду положения constexpr int NUMBER_SECONDS = 300;, но если вынести constexpr int NUMBER_SECONDS = 300; в глобальную область видимости, то все работает. Хотелось бы доказ-а с помощью документации, смотрел тут: https://en.cppreference.com/w/cpp/language/constexpr — не нашел инф-и про ограничение области видимости
+
+Alexander "Ternvein" Isaev, [10/4/2023 3:57 PM]
+Потому что область видимости не при чём. static бы.
+
+Ilya Zviagin, [10/4/2023 3:59 PM]
+Скажи, прежде всего, а какая для тебя принципиальная разница, где будет находиться эта константа, в классе, или вне класса ?
+
+Киреев Алексей MonsieurAKA, [10/4/2023 4:00 PM]
+как таковой нет, хотел разобраться в ошибке, которую впервые встретил
+
+Киреев Алексей MonsieurAKA, [10/4/2023 4:00 PM]
+а зачем static там?
+
+Андрей Таусинов, [10/4/2023 4:01 PM]
+Чтобы не хранить ее в каждом объекте
+
+Alexander "Ternvein" Isaev, [10/4/2023 4:01 PM]
+Потому что без static NUMBER_SECONDS — это обычное поле класса.
+
+Киреев Алексей MonsieurAKA, [10/4/2023 4:02 PM]
+резонно, прикольно, понял о чем речь, но не знал, что array так на подобное реагирует, а может, не только array...
+
+Alexander, [10/4/2023 4:03 PM]
+даже constexpr? странно как-то. обычные const он вроде в полях не хранит.
+
+Ilya Zviagin, [10/4/2023 4:03 PM]
+Раз
+A constexpr specifier used in a function or static data member (since C++17) declaration implies inline. 
+
+И два
+constexpr variable
+
+A constexpr variable must satisfy the following requirements:
+
+        its type must be a LiteralType
+        it must be immediately initialized
+        the full-expression of its initialization, including all implicit conversions, constructors calls, etc, must be a constant expression 
+
+
+Тут подходит второе правило, it must be immediately initialized,  если у тебя member-variable, то она НЕ immediately initialized и НЕ inline
+
+Alexander "Ternvein" Isaev, [10/4/2023 4:03 PM]
+Хранит.
