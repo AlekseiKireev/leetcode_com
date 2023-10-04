@@ -8,6 +8,8 @@ related:
 
 https://walkccc.me/LeetCode/problems/0933/
 
+https://leetcode.ca/2018-06-20-933-Number-of-Recent-Calls/
+
 __________
 
 [Разбор задачи 933 leetcode.com Number of Recent Calls. Решение на C++](https://www.youtube.com/watch?v=iK2EnenuLG0)
