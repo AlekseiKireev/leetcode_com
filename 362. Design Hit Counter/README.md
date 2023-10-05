@@ -20,3 +20,5 @@ https://wentao-shao.gitbook.io/leetcode/data-structure/362.design-hit-counter
 https://aaronice.gitbook.io/lintcode/data_structure/design-hit-counter
 
 https://www.lintcode.com/problem/3662/
+
+https://leetcode.ca/2016-11-26-362-Design-Hit-Counter/
