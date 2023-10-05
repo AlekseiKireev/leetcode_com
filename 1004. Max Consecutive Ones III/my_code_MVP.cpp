@@ -12,6 +12,7 @@ public:
                 if(nums[LeftBorderWindow++] == 0){++CountUpdZero;}
             }
 
+            // В отрезке [LeftBorderWindow, RightBorderWindow] содержится максимум CountUpdZero нулей
             Ans = max(Ans, RightBorderWindow - LeftBorderWindow  + 1);
         }
 
