@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int longestOnes(vector<int>& nums, int CountUpdZero = 1) { // CountUpdZero = 1 <-- "you can flip at most one 0."      
+    int findMaxConsecutiveOnes(vector<int>& nums, int CountUpdZero = 1) { // CountUpdZero = 1 <-- "you can flip at most one 0."      
         
         int Ans = 0;
 
