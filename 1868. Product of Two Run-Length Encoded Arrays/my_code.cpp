@@ -38,6 +38,8 @@ public:
             encoded2[j].length == 2
             */
             int product_ij = encoded1[i].front() * encoded2[j].front();
+
+            // "Note: Compression should be done such that the run-length encoded array has the minimum possible length."
             int freq_ij = min(encoded1[i].back(), encoded2[j].back()); // количество  product_ij не может быть более min(encoded1[i].back(), encoded2[j].back())
 
             encoded1[i].back() -= freq_ij;
