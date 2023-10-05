@@ -39,7 +39,13 @@ public:
 
               } // RightBorderWindow указывет на последний символ sliding window
               
+        /*  // equiv:
+            while (LeftBorderWindow < RightBorderWindow && k < 0) { // move Left ptr
 
+                if (--CharToCount[s[LeftBorderWindow++] - 'a'] == 0) {++k;}
+            }
+        */
+            
             while (LeftBorderWindow < RightBorderWindow && k < 0) { // move Left ptr
 
                 if (--CharToCount[s[LeftBorderWindow] - 'a'] == 0) {
