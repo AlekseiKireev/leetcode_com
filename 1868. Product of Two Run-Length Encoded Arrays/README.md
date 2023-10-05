@@ -1,4 +1,4 @@
-https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/
+https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/ -- CLOSED == premium
 
 https://walkccc.me/LeetCode/problems/1868/
 
