@@ -1,10 +1,3 @@
-#include <iostream>
-#include <string>
-#include<string_view>
-#include <array>
-
-using namespace std;
-
 constexpr int SIZE_ALPHABET = 26;
 
 class Solution {
@@ -45,12 +38,3 @@ public:
     }
 
 };
-
-//int main() {
-//    cout << Solution().lengthOfLongestSubstringKDistinct("aaaa", 0) << '\n';
-//    cout << Solution().lengthOfLongestSubstringKDistinct("aaaa", 1) << '\n';
-//    cout << Solution().lengthOfLongestSubstringKDistinct("aaaa", 2) << '\n';
-//    cout << Solution().lengthOfLongestSubstringKDistinct("aaaa", 4) << '\n';
-//    cout << Solution().lengthOfLongestSubstringKDistinct("aaaa", 42) << '\n';
-//
-//}
