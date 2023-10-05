@@ -15,7 +15,7 @@ public:
 
     void hit(int timestamp) { // "All the calls are being made to the system in chronological order (i.e., timestamp is monotonically increasing)."
 
-        const int i = timestamp % 300;
+        const int i = timestamp % NUMBER_SECONDS;
         timestamps[i] = timestamp;
         hits[i] = 1; 
         
@@ -24,8 +24,8 @@ public:
     int getHits(int timestamp) {
         int countHits = 0;
 
-        for (int i = 0; i < 300; ++i) {
-            if (timestamp - timestamps[i] < 300) { countHits += hits[i]; }
+        for (int i = 0; i < NUMBER_SECONDS; ++i) {
+            if (timestamp - timestamps[i] < NUMBER_SECONDS) { countHits += hits[i]; }
         }
 
         return countHits;
