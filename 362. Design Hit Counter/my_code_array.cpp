@@ -1,5 +1,3 @@
-
-
 class HitCounter {
 
 private:
