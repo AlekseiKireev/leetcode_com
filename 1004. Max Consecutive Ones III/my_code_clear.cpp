@@ -15,6 +15,7 @@ public:
                 if(nums[LeftBorderWindow++] == 0){++CountUpdZero;}
             }
 
+            // В отрезке [LeftBorderWindow, RightBorderWindow] содержится максимум CountUpdZero нулей
             if(Ans < RightBorderWindow - LeftBorderWindow  + 1){
 
                 L_Idx_Longest_Subarray = LeftBorderWindow;
