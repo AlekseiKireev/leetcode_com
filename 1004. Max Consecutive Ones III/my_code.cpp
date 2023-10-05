@@ -34,7 +34,8 @@ public:
 
             cout << LeftBorderWindow << ' ' << RightBorderWindow << '\n';
             // assert(LeftBorderWindow <= RightBorderWindow); // error: 2 / 55 testcases passed, nums = [0,0,1,1,1,0,0] k = 0
-            
+
+            // // В отрезке [LeftBorderWindow, RightBorderWindow] содержится максимум CountUpdZero нулей
             if(Ans < RightBorderWindow - LeftBorderWindow  + 1){
 
                 L_Idx_Longest_Subarray = LeftBorderWindow;
