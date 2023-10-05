@@ -12,6 +12,9 @@ public:
                 if(nums[LeftBorderWindow++] == 0){++CountUpdZero;}
             }
 
+            // if(CountUpdZero != 0){ assert(LeftBorderWindow < RightBorderWindow); } // error: nums = [1,1,1,0,0,0,1,1,1,1,0] k = 2
+            if(CountUpdZero != 0){ assert(LeftBorderWindow <= RightBorderWindow); } // LeftBorderWindow == RightBorderWindow по меньшей мере в самом начале, когда указывают на первый элемент
+            
             // В отрезке [LeftBorderWindow, RightBorderWindow] содержится максимум CountUpdZero нулей
             Ans = max(Ans, RightBorderWindow - LeftBorderWindow  + 1);
         }
