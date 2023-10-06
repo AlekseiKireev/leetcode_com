@@ -29,6 +29,17 @@ public:
     
 private:
 
+/* // equiv:
+    string Preorder(TreeNode* root) {
+        if (!root) {return {};}
+
+        string val_1 = to_string(root->val) + "-";
+        string val_2 = Preorder(root->left);
+        string val_3 = Preorder(root->right);
+        return  val_1 + val_2 + val_3;
+    }
+*/
+
     string Preorder(TreeNode* root) {
         if (!root) {return {};}
         return to_string(root->val) + "-" + Preorder(root->left) + Preorder(root->right);
