@@ -52,6 +52,17 @@
 <summary> Dynamic programming </summary>    
     
 </details>
+
+<details>  
+<summary> Two pointer </summary>    
+    
+</details>
+
+<details>  
+<summary> [Prefix Sum](https://leetcode.com/tag/prefix-sum/) </summary>    
+    
+</details>
+
 ______
 
 У Федора Меньшикова разбор отсут-т!
