@@ -28,6 +28,11 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal
 </details>
 
+<details>  
+<summary> Design </summary>    
+    
+</details>
+
 ______
 
 У Федора Меньшикова разбор отсут-т!
