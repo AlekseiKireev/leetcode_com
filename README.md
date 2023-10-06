@@ -33,6 +33,16 @@
     
 </details>
 
+<details>  
+<summary> List </summary>    
+    
+</details>
+
+<details>  
+<summary> Binary search </summary>    
+    
+</details>
+
 ______
 
 У Федора Меньшикова разбор отсут-т!
