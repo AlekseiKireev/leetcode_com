@@ -47,7 +47,7 @@ private:
     
     TreeNode* Add(TreeNode* root, int Value) {
         
-        if (root == nullptr) {return new TreeNode(Value);;}
+        if (root == nullptr) {return new TreeNode(Value);}
     
 		if (Value < root->val){
             root->left=Add(root->left,Value);
