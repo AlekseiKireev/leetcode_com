@@ -1,13 +1,13 @@
 class Solution {
 
 public:
-    int maxSubArray(const vector<int>& a) {
+    int maxSubArray(const vector<int>& nums) {
 
-        int CurrentMaxAffixSum = a[0];
-        int TotalMaxAffixSum = a[0];
+        int CurrentMaxAffixSum = nums[0];
+        int TotalMaxAffixSum = nums[0];
 
-        for (size_t i = 1; i < a.size(); i++) {
-            CurrentMaxAffixSum = max(CurrentMaxAffixSum + a[i], a[i]);
+        for (size_t i = 1; i < nums.size(); i++) {
+            CurrentMaxAffixSum = max(CurrentMaxAffixSum + nums[i], nums[i]);
             TotalMaxAffixSum = max(TotalMaxAffixSum, CurrentMaxAffixSum);
         }
 
