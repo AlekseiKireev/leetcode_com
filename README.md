@@ -17,6 +17,17 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию
 </details>
 
+
+<details>  
+<summary> BST </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/449.%20Serialize%20and%20Deserialize%20BST
+</details>
+
+<details>  
+<summary> BT </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal
+</details>
+
 ______
 
 У Федора Меньшикова разбор отсут-т!
