@@ -59,7 +59,7 @@
 </details>
 
 <details>  
-<summary> [Prefix Sum](https://leetcode.com/tag/prefix-sum/) </summary>    
+<summary> Prefix Sum </summary>    
     
 </details>
 
