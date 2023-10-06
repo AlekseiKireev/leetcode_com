@@ -44,7 +44,12 @@
 </details>
 
 <details>  
-<summary> DFS/BFS/DSU </summary>    
+<summary> DFS / BFS / DSU </summary>    
+    
+</details>
+
+<details>  
+<summary> Dynamic programming </summary>    
     
 </details>
 ______
