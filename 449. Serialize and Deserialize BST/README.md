@@ -15,3 +15,11 @@ https://github.com/doocs/leetcode/blob/main/solution/0400-0499/0449.Serialize%20
 ______
 
 (pre-order / Post-order можно, в то время как in-order – нельзя!) -- попробовать решить двумя обходами!
+
+______
+
+<p align="center">preorder</p>
+
+https://visualgo.net/en/bst --> traverse --> preorder
+
+![alt](https://github.com/SkosMartren/useful-materials/blob/main/travel_tree_three.png)
