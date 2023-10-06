@@ -9,7 +9,7 @@ public:
         int PrefixSum = 0; 
         int MinPrefixSum = 0; 
 
-        int totalMax = nums.front(); // == MaxSuffixSum = sum{nums[j]} : LeftIdxMaxSuffixSum <= j <= RightIdxMaxSuffixSum
+        int MaxAffixSum = nums.front(); // == MaxSuffixSum = sum{nums[j]} : LeftIdxMaxSuffixSum <= j <= RightIdxMaxSuffixSum
 
         int RightIdxMinPrefixSum = -1;
 
@@ -22,9 +22,9 @@ public:
 
             PrefixSum += nums[i];
 
-            // totalMax = max(totalMax, PrefixSum - MinPrefixSum);
-            if(totalMax < PrefixSum - MinPrefixSum){
-                totalMax = PrefixSum - MinPrefixSum;
+            // MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum);
+            if(MaxAffixSum < PrefixSum - MinPrefixSum){
+                MaxAffixSum = PrefixSum - MinPrefixSum;
                 RightIdxMaxSuffixSum = i;
                 LeftIdxMaxSuffixSum = RightIdxMinPrefixSum + 1;
             }
@@ -37,7 +37,7 @@ public:
             
         }
 
-        assert(totalMax == accumulate(nums.begin() + LeftIdxMaxSuffixSum, nums.begin() + RightIdxMaxSuffixSum + 1, 0) );
-        return totalMax; 
+        assert(MaxAffixSum == accumulate(nums.begin() + LeftIdxMaxSuffixSum, nums.begin() + RightIdxMaxSuffixSum + 1, 0) );
+        return MaxAffixSum; 
     }
 };
