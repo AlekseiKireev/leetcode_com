@@ -62,6 +62,11 @@
     
 </details>
 
+<details>  
+<summary> Greedy </summary>    
+    
+</details>
+
 ______
 
 У Федора Меньшикова разбор отсут-т!
