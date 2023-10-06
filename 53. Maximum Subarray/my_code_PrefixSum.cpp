@@ -14,8 +14,8 @@ public:
         int MinPrefixSum = 0; // берем минимальный префикс из отрезка [0, i - 1]
 
         // "nums.front()" существует ввиду "1 <= nums.length <= 10^5"
-        // "totalMax = 0" будет ошибочным на примере: Wrong Answer 195 / 210 testcases  Input nums = [-1] Output 0 Expected -1
-        int totalMax = nums.front(); // ограничения на totalMax следуют из ограни-й PrefixSum
+        // "MaxAffixSum = 0" будет ошибочным на примере: Wrong Answer 195 / 210 testcases  Input nums = [-1] Output 0 Expected -1
+        int MaxAffixSum = nums.front(); // ограничения на MaxAffixSum следуют из ограни-й PrefixSum
 
         for(int i = 0; i < nums.size(); ++i){
 
@@ -24,13 +24,13 @@ public:
 
             /*  PrefixSum - MinPrefixSum == MaxSuffixSum на [RightIdxMinPrefixSum + 1, i] -- ввиду того, что минимизируем вычитаемое для каждого 
                возможного значения PrefixSum */
-            totalMax = max(totalMax, PrefixSum - MinPrefixSum); // в данной строке в MinPrefixSum записано значения из диапозона [0, i - 1]
+            MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); // в данной строке в MinPrefixSum записано значения из диапозона [0, i - 1]
 
             // MinPrefixSum == sum{nums[i]} : 0 <= i <= RightIdxMinPrefixSum 
             MinPrefixSum = min(MinPrefixSum, PrefixSum); // минимум либо был достигнут ранее -- MinPrefixSum, либо получен при последнем подсчете -- PrefixSum
         }
 
-        return totalMax; 
+        return MaxAffixSum; 
 
     }
 };
