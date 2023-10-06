@@ -14,7 +14,7 @@ https://github.com/doocs/leetcode/blob/main/solution/0400-0499/0449.Serialize%20
 
 ______
 
-(pre-order / Post-order можно, в то время как in-order – нельзя!) -- попробовать решить двумя обходами!
+pre-order / Post-order можно, в то время как in-order – нельзя! -- попробовать решить двумя обходами!
 
 ______
 
