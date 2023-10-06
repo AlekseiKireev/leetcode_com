@@ -43,6 +43,10 @@
     
 </details>
 
+<details>  
+<summary> DFS/BFS/DSU </summary>    
+    
+</details>
 ______
 
 У Федора Меньшикова разбор отсут-т!
