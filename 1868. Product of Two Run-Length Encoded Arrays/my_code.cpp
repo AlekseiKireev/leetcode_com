@@ -17,14 +17,14 @@ class Solution {
 public:
 
     /*
-    
+
     1 <= val_i, freq_i <= 10^4 for each encoded1[i].
     1 <= val_j, freq_j <= 10^4 for each encoded2[j].
-    
+
     encoded1[i].front() == val_i, encoded1[i].back() == freq_i
     encoded2[j].front() == val_j, encoded2[j].back() == freq_j
     */
-    vector<vector<int>> findRLEArray(vector<vector<int>>& encoded1, vector<vector<int>>& encoded2) {  
+    vector<vector<int>> findRLEArray(vector<vector<int>>& encoded1, vector<vector<int>>& encoded2) {
 
         vector<vector<int>> Product;
 
@@ -49,7 +49,10 @@ public:
             if (encoded1[i].back() == 0) { ++i; }
             if (encoded2[j].back() == 0) { ++j; }
 
-            Product.push_back({ product_ij , freq_ij });
+            if (Product.empty() || Product.back().front() != product_ij) { Product.push_back({ product_ij , freq_ij }); }
+            else { // см. "My ex 2" пример в теле main
+                Product.back().back() += freq_ij; 
+            }
         }
 
         return Product;
@@ -59,7 +62,7 @@ public:
 
 int main() {
 
-    vector<vector<int>> encoded1 = { {10, 2}, {7,1}, {3, 2}, {17,1} }, encoded2 = { {11, 3}, {15, 3} };
+    vector<vector<int>> encoded1 = { {1, 3}, {2,3} }, encoded2 = { {6, 3}, {3, 3} };
 
     vector<vector<int>> Ans = Solution().findRLEArray(encoded1, encoded2);
 
