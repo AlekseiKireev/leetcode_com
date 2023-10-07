@@ -67,3 +67,11 @@ _______
 |          	|   	|         	|         	|              	|        	|              	|
 | encoded2 	|   	| [11, 3] 	| [15, 3] 	| end_encoded2 	|        	|              	|
 |   idx2   	|   	|         	|         	|      ^^^     	|        	|              	|
+
+<p align="center"> My ex 2 </p>
+
+    encoded1 = [ [1, 3], [2, 3] ]
+    encoded2 = [ [6, 3], [3, 3] ]
+
+encoded1 = [1,1,1,2,2,2]  
+encoded2 = [6,6,6,3,3,3]
