@@ -8,7 +8,7 @@ public:
         int TotalMaxAffixSum = nums.front();
 
         for (size_t i = 1; i < nums.size(); i++) {
-            CurrentMaxAffixSum = max(CurrentMaxAffixSum + nums[i], nums[i]);
+            CurrentMaxAffixSum = max(CurrentMaxAffixSum + nums[i], nums[i]); //  Условие CurrentMaxAffixSum проверяет, выгодно ли прибавить новое число к текущей сумме. Делается это исходя из предположения, что nums[i] последний элемент.
             TotalMaxAffixSum = max(TotalMaxAffixSum, CurrentMaxAffixSum);
         }
 
