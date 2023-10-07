@@ -1,8 +1,8 @@
-САМОМУ НАПИСАТЬ ДОСТОЙНЫЙ КОД!
-
 https://leetcode.com/problems/lru-cache/
 
 https://walkccc.me/LeetCode/problems/0146/
+
+https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0146.LRU%20Cache/README_EN.md
 
 ____
 
