@@ -9,3 +9,6 @@ https://walkccc.me/LeetCode/problems/1493/
 У Федора Меньшикова разбор отсут-т!
 
 Алгоритм: Sliding Window
+
+_____
+
