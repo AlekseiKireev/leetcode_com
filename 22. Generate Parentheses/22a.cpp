@@ -2,7 +2,7 @@ class Solution {
 public:
     void generateParentheses(vector<char>& cur, int toOpen, int toClose, vector<string>& ans) {
 
-        if (toOpen == 0 && toClose == 0) {
+        if (toOpen == 0 && toClose == 0) { // ПСП сгенерирована, добавляем в ответ
             ans.push_back(string(cur.begin(), cur.end()));
             return;
         }
