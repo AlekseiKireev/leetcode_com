@@ -29,7 +29,7 @@
 
 <details>  
 <summary> Design </summary>    
-    
+    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache
 </details>
 
 <details>  
