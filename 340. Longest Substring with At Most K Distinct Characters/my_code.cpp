@@ -5,14 +5,14 @@
 
 using namespace std;
 
-constexpr int SIZE_ALPHABET = 26;
+constexpr int SIZE_ALPHABET = 128;
 
 class Solution {
 
 private:
 
     // https://github.com/SkosMartren/leetcode_com/blob/main/README.md#setting-the-size-of-an-array-in-a-private-section
-    //constexpr int SIZE_ALPHABET = 26; // 'Solution::SIZE_ALPHABET' cannot be declared with 'constexpr' specifier // почему так?
+    //constexpr int SIZE_ALPHABET = 128; // 'Solution::SIZE_ALPHABET' cannot be declared with 'constexpr' specifier // почему так?
     int LengthSubstr = 0;
 public:
 
@@ -25,14 +25,14 @@ public:
 
         for (int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow <= s.size() - 1; ++RightBorderWindow) { // move Right ptr
 
-            //if (++CharToCount[s[RightBorderWindow] - 'a'] == 1) { // новая буква (CharToCount[RightBorderWindow]) в sliding window
+            //if (++CharToCount[s[RightBorderWindow]] == 1) { // новая буква (CharToCount[RightBorderWindow]) в sliding window
             //    --k;
             //} // RightBorderWindow указывет на последний символ sliding window 
 
              // лучше не сдвигать двумя способами правй указатель, не удобно / понижает читабельность / повышает вероятность ошибки
               while(RightBorderWindow < s.size() - 1 && k > 0){
 
-                      if(++CharToCount[RightBorderWindow] == 1){ // новая буква (CharToCount[RightBorderWindow]) в sliding window
+                      if(++CharToCount[s[RightBorderWindow]] == 1){ // новая буква (CharToCount[RightBorderWindow]) в sliding window
                           --k;
                       }
                       ++RightBorderWindow;
@@ -42,13 +42,13 @@ public:
         /*  // equiv:
             while (LeftBorderWindow < RightBorderWindow && k < 0) { // move Left ptr
 
-                if (--CharToCount[s[LeftBorderWindow++] - 'a'] == 0) {++k;}
+                if (--CharToCount[s[LeftBorderWindow++]] == 0) {++k;}
             }
         */
             
             while (LeftBorderWindow < RightBorderWindow && k < 0) { // move Left ptr
 
-                if (--CharToCount[s[LeftBorderWindow] - 'a'] == 0) {
+                if (--CharToCount[s[LeftBorderWindow]] == 0) {
                     ++k;
                 }
                 ++LeftBorderWindow;
