@@ -29,7 +29,7 @@ private:
             STACK.pop_back();
         }
 
-        if(ToOpen > ToClose){
+        if(ToClose < ToOpen){
             STACK.push_back(')');
             MakeBalancedBracket(ToOpen, ToClose + 1);
             STACK.pop_back();
