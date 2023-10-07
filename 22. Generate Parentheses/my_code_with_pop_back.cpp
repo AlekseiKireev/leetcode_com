@@ -2,7 +2,7 @@ class Solution {
 
 private:
 
- vector<string> BBS;// Balanced Bracket Sequences
+vector<string> BBS;// Balanced Bracket Sequences
 int N;
 string STACK = {};
 
