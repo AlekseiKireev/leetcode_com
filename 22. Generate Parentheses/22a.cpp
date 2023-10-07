@@ -5,7 +5,7 @@ public:
         if (toOpen == 0 && toClose == 0) { // ПСП сгенерирована, добавляем в ответ
             ans.push_back(string(cur.begin(), cur.end()));
             return;
-        }
+        } // иначе есть два варианта: открыть скобку, или закрыть
         if (toOpen > 0) {
             cur.push_back('(');
             generateParentheses(cur, toOpen - 1, toClose + 1, ans);
