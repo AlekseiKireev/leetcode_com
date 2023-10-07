@@ -3,7 +3,7 @@ https://leetcode.com/problems/max-consecutive-ones-iii/description/
 related: 
 - https://leetcode.com/problems/longest-repeating-character-replacement/description/
 - Замечание: из этой задачи следует задача https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/
-- /485. Max Consecutive Ones <-- 487. Max Consecutive Ones II <-- 1004. Max Consecutive Ones III
+- /485. Max Consecutive Ones <-- 487. Max Consecutive Ones II AND 1493. Longest Subarray of 1's After Deleting One Element <-- 1004. Max Consecutive Ones III
 
 https://walkccc.me/LeetCode/problems/1004/
 
