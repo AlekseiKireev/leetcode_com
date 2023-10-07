@@ -1,30 +1,35 @@
-constexpr int SIZE_ALPHABET = 26;
+#include <iostream>
+#include<cassert>
+#include <array>
+
+using namespace std; 
+
+constexpr int SIZE_ALPHABET = 128;
 
 class Solution {
 
 private:
 
     // https://github.com/SkosMartren/leetcode_com/blob/main/README.md#setting-the-size-of-an-array-in-a-private-section
-    //constexpr int SIZE_ALPHABET = 26; // 'Solution::SIZE_ALPHABET' cannot be declared with 'constexpr' specifier // почему так?
+    //constexpr int SIZE_ALPHABET = 128; // 'Solution::SIZE_ALPHABET' cannot be declared with 'constexpr' specifier // почему так?
     int LengthSubstr = 0;
 public:
 
     int lengthOfLongestSubstringKDistinct(string_view s, int k) { // "0 <= k <= 50"
 
-        if(k <= 0){ return LengthSubstr; }
+        if (k <= 0) { return LengthSubstr; }
 
-
-        array<int, SIZE_ALPHABET> CharToCount; CharToCount.fill(0);        
+        array<int, SIZE_ALPHABET> CharToCount; CharToCount.fill(0);
 
         for (int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow <= s.size() - 1; ++RightBorderWindow) { // move Right ptr
 
-            if (++CharToCount[s[RightBorderWindow] - 'a'] == 1) { // новая буква (CharToCount[RightBorderWindow]) в sliding window
+            if (++CharToCount[s[RightBorderWindow]] == 1) { // новая буква (CharToCount[RightBorderWindow]) в sliding window
                 --k;
             } // RightBorderWindow указывет на последний символ sliding window 
-              
+
             while (LeftBorderWindow < RightBorderWindow && k < 0) { // move Left ptr
 
-                if (--CharToCount[s[LeftBorderWindow] - 'a'] == 0) {
+                if (--CharToCount[s[LeftBorderWindow]] == 0) {
                     ++k;
                 }
                 ++LeftBorderWindow;
@@ -38,3 +43,18 @@ public:
     }
 
 };
+
+int main() {
+    cout << Solution().lengthOfLongestSubstringKDistinct("abc", 0) << '\n';
+    cout << Solution().lengthOfLongestSubstringKDistinct("aaa", 0) << '\n';
+    cout << Solution().lengthOfLongestSubstringKDistinct("aAaA", 1) << '\n';
+    cout << Solution().lengthOfLongestSubstringKDistinct("aA~aA", 2) << '\n';
+    cout << Solution().lengthOfLongestSubstringKDistinct("aAaA", 2) << '\n';
+}
+/*
+0
+0
+1
+2
+4
+*/
