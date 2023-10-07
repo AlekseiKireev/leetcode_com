@@ -49,7 +49,7 @@
 
 <details>  
 <summary> Dynamic programming </summary>    
-    
+    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
 </details>
 
 <details>  
@@ -59,7 +59,7 @@
 
 <details>  
 <summary> Prefix Sum </summary>    
-    
+    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
 </details>
 
 <details>  
