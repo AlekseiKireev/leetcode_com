@@ -58,24 +58,24 @@ ____
 Вывод для for_get_test.cpp
 
     Stdout
-    order cache after put is
+    order cache after put { 91 41 } is
     91 41
-    order cache after put is
+    order cache after put { 92 42 } is
     92 42
     91 41
-    order cache after get is
+    order cache after get { 91 } is
     91 41
     92 42
-    order cache after put is
+    order cache after put { 93 43 } is
     93 43
     91 41
-    order cache after put is
+    order cache after put { 94 44 } is
     94 44
     93 43
-    order cache after get is
+    order cache after get { 93 } is
     93 43
     94 44
-    order cache after get is
+    order cache after get { 94 } is
     94 44
     93 43
     
