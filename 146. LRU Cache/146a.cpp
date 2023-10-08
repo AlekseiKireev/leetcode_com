@@ -36,6 +36,7 @@ public:
 
         if (listIt != order.begin()) { // перекладываем key в начало order
 
+            // Из order переносим listIt в order перед элементов order.begin() 
             order.splice(order.begin(), order, listIt); // <-- (3) - (4) <-- https://en.cppreference.com/w/cpp/container/list/splice
             // order.erase(listIt);            
             // order.push_front(key);
