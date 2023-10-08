@@ -28,7 +28,7 @@ public:
 
         auto it = keyToValue.find(key);
 
-        if (it == keyToValue.end()) {return -1; }
+        if (it == keyToValue.end()) { return -1; }
 
         auto listIt = keyToIterator[key];
 
@@ -39,11 +39,11 @@ public:
             order.splice(order.begin(), order, listIt); // <-- (3) - (4) <-- https://en.cppreference.com/w/cpp/container/list/splice
             // order.erase(listIt);            
             // order.push_front(key);
-            
+
             keyToIterator[key] = order.begin();
 
         }
-        
+
         return it->second;
     }
 
@@ -53,17 +53,17 @@ public:
         auto it = keyToValue.find(key);
 
         if (it != keyToValue.end()) { // еслю ключ нашли, то надо его перекинуть в начало списка -- это происходит после if...else 
-                            
-        auto listIt = keyToIterator[key];
 
-        assert(listIt != order.end());
+            auto listIt = keyToIterator[key];
 
-        if (listIt == order.begin()) {
+            assert(listIt != order.end());
 
-            keyToValue[key] = value;
-            return;
+            if (listIt == order.begin()) {
 
-        }
+                keyToValue[key] = value;
+                return;
+
+            }
 
             order.erase(listIt); // удаляем key, который НЕ находится в начале, чтобы в последствии положить key в начало order
 
