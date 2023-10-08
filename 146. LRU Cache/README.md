@@ -48,4 +48,36 @@ int get(int key) -- при использовании этого метода п
 
 void put(int key, int value) --  при использовании этого метода пара "key-value" переносится / вставляется в начало LRU Cache  при порядке по времени использования
 
+____
 
+<p align="center">My ex 1</p>
+
+    ["LRUCache","put","put","get","put","get","put","get","get","get"]
+    [[2],[91,41],[92,42],[91],[93,43],[92],[94,44],[91],[93],[94]]
+
+Вывод для for_get_test.cpp
+
+    Stdout
+    order cache after put is
+    91 41
+    order cache after put is
+    92 42
+    91 41
+    order cache after get is
+    91 41
+    92 42
+    order cache after put is
+    93 43
+    91 41
+    order cache after put is
+    94 44
+    93 43
+    order cache after get is
+    93 43
+    94 44
+    order cache after get is
+    94 44
+    93 43
+    
+    Expected
+    [null,null,null,41,null,-1,null,-1,43,44]
