@@ -1,3 +1,54 @@
+        class LRUCache {
+        
+        private:
+        
+        int capacity_;
+        
+        unordered_map<int, int> KeyToValue;
+        list<int> OrderKey;
+        unordered_map<int, iterator::list<int> > KeyToItInOrderKey;
+        
+        private:
+        
+         void MakeFrontKey(const int key){
+        
+        
+        
+         }
+        
+        public:
+        
+            LRUCache(const int capacity) : capacity_(capacity) {OrderKey.reserve(capacity);}
+             
+            int get(const int Key) {
+                
+                auto ItOnValue = KeyToValue.find(Key);
+                if(ItOnValue == KeyToValue.end()){return -1;}
+        
+        
+        
+                return *ItOnValue;
+            }
+            
+            void put(const int Key, const int Value) {
+                
+                if(OrderKey == capacity_){
+        
+                }
+        
+                KeyToValue[Key] = Value;
+            }
+        };
+        
+        /**
+         * Your LRUCache object will be instantiated and called as such:
+         * LRUCache* obj = new LRUCache(capacity);
+         * int param_1 = obj->get(key);
+         * obj->put(key,value);
+         */
+
+____
+
 https://leetcode.com/problems/lru-cache/
 
 https://walkccc.me/LeetCode/problems/0146/
