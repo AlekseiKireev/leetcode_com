@@ -34,6 +34,7 @@ public:
 
         assert(listIt != order.end());
 
+        // при listIt == order.begin() нет смысла перекладывать listIt перед order.begin(), так как он уже там находится
         if (listIt != order.begin()) { // перекладываем key в начало order
 
             // Из order переносим listIt в order перед элементов order.begin() 
