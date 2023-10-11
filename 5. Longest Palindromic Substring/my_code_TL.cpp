@@ -28,3 +28,30 @@ public:
         return LPS;
     }
 };
+/* // примечательно, что такой код на JS работает
+const isPalidrom = (s) => {
+    let l = 0
+    let r = s.length - 1
+    while (l < r) {
+        if (s[l] !== s[r]) return false
+        l++
+        r--
+    }
+    return true
+}
+
+function longestPalindrome(s )  {
+    let longest = s[0]
+    for (let i = 0; i < s.length; i++) {
+        let right = s.length - 1
+        while (i < right) {
+            const curStr = s.slice(i, right + 1)
+            if (isPalidrom(curStr)) {
+                if (longest.length < curStr.length) longest = curStr
+            }
+            right -= 1
+        }
+    }
+    return longest
+};
+*/
