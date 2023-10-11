@@ -49,6 +49,7 @@
 
 <details>  
 <summary> Dynamic programming </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
 </details>
 
