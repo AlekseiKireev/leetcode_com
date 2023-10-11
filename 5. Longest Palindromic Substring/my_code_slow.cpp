@@ -13,10 +13,8 @@ public:
         int start = 0, maxLength = 1;
         
         for (int i = 0; i < s.size(); i++) {
-            for (int j = s.size() - 1; j > i; j--) {
-                if (j - i + 1 <= maxLength) {
-                    break;  // No need to continue, we won't find a longer palindrome.
-                }
+            for (int j = s.size() - 1; j > i; j--) { //  проход с конца
+                if (j - i + 1 <= maxLength) {break;  }
                 
                 if (isPalindrome(s, i, j)) {
                     int length = j - i + 1;
