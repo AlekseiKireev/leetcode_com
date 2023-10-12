@@ -25,7 +25,7 @@ public:
             if(nums[Mid] == target){return Mid;}
             if(nums[Mid] < target){
                LeftBorder = Mid;
-            }else{ // target < nums[Mid] 
+            }else{ // target <= nums[Mid] 
                RightBorder = Mid;
             }
 
