@@ -1,58 +1,72 @@
 // https://leetcode.com/problems/lru-cache/solutions/792449/simple-c-solution-with-detailed-explanation/  
 // https://en.cppreference.com/w/cpp/container/list/splice
 
-struct DataLRU{
+    class LRUCache {
+    
+    private:
+    
+    const int capacity_;
+    
+    unordered_map<int, int> KeyToValue; // <-- "The functions get and put must each run in O(1) average time complexity."
+    list<int> OrderKey;
+    unordered_map<int, list<int>::iterator > KeyToItInOrderKey; // <-- "The functions get and put must each run in O(1) average time complexity."
+    
+    private:
+    
+    // Используется, если {Key, Value} уже существует в KeyToValue
+     void MoveFrontKey(const int Key){
+    
+        OrderKey.splice(OrderKey.begin(),OrderKey, KeyToItInOrderKey[Key]);
+        KeyToItInOrderKey[Key] = OrderKey.begin();    
+    
+     }
+    
+    public:
+    
+        LRUCache(const int capacity) : capacity_(capacity) {}
+         
+        int get(const int Key) {
+            
+            auto ItOnValue = KeyToValue.find(Key);
+            if(ItOnValue == KeyToValue.end()){return -1;}
 
-    int key;
-    int value;
+            if(OrderKey.front() != Key){
+                MoveFrontKey(Key);
+            }
 
-};
-
-
-class LRUCache{
-
-private:
-
-    list<DataLRU> order; // хранит порядок ключ-значение по времени использования
-    unordered_map<int, list<DataLRU>::iterator> keyToIterator; // "The functions get and put must each run in O(1) average time complexity."
-    int capacity;
-
-public:
-
-
-    LRUCache(int capacity) : capacity(capacity){}
-
-
-    int get(int key){
-
-        if (keyToIterator.find(key) == keyToIterator.end()) { return -1; }
-
-        if (keyToIterator[key] != order.begin()) {
-            order.splice(order.begin(), order, keyToIterator[key]); 
+    
+            return ItOnValue->second;
         }
+        
+        void put(const int Key, const int Value) {
+            
+            auto ItOnValue = KeyToValue.find(Key);
+            if(ItOnValue != KeyToValue.end()){ // "Update the value of the key if the key exists. "
+                
+                KeyToValue[Key] = Value;
+                MoveFrontKey(Key);
+                return;
+            } // " Otherwise, add the key-value pair to the cache. "           
 
-        return keyToIterator[key]->value;
-    }
+            assert(ItOnValue == KeyToValue.end());
+            KeyToValue[Key] = Value;
+            OrderKey.push_front(Key);
+            KeyToItInOrderKey[Key] = OrderKey.begin();
 
-
-    void put(int key, int value){
-
-        if (keyToIterator.find(key) != keyToIterator.end()){
-
-            order.splice(order.begin(), order, keyToIterator[key]);
-            keyToIterator[key]->value = value;
-            return;
+            if(OrderKey.size() == capacity_ + 1){ // "If the number of keys exceeds the capacity from this operation, evict the least recently used key."
+                
+                KeyToValue.erase(OrderKey.back());
+                KeyToItInOrderKey.erase(OrderKey.back());
+                OrderKey.pop_back();
+            }
+    
+            
         }
-
-        if (order.size() == capacity){ // " If the number of keys exceeds the capacity from this operation, evict the least recently used key."
-
-            const auto delete_key = order.back().key;
-            order.pop_back();
-            keyToIterator.erase(delete_key);
-        }
-
-        order.push_front({ key,value });
-        keyToIterator[key] = order.begin();
-    }
-
-};
+    };
+    
+    /**
+     * Your LRUCache object will be instantiated and called as such:
+     * LRUCache* obj = new LRUCache(capacity);
+     * int param_1 = obj->get(key);
+     * obj->put(key,value);
+     */
