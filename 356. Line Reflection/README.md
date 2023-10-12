@@ -2,6 +2,8 @@ https://leetcode.com/problems/line-reflection/ -- CLOSED
 
 https://walkccc.me/LeetCode/problems/0356/
 
+https://github.com/doocs/leetcode/tree/main/solution/0300-0399/0356.Line%20Reflection
+
 У Федора Меньшикова разбор отсут-т!
 
 ___________
