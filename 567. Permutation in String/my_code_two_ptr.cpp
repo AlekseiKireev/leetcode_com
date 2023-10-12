@@ -18,8 +18,8 @@ public:
             while(CountCharAngrInWindow == Angr.size()){ // никаких досрочных выходов из цикла быть не должно, ибо надо в DataAngr заполнить то, что отняли в "--DataAngr[Str[RightPtr] - 'a']"
 
                 if(CountCharAngrInWindow == RightPtr - LeftPtr + 1){ /* совпали оба условия, отвечаю-я за анаграмму:                
-                                                                        1. Размер окна равен размеру анаграммы 
-                                                                        2. В окне находятся все символы, из которых состоит анаграмма
+                                                                        1. Размер окна равен размеру анаграммы  <-- "CountCharAngrInWindow == Angr.size()"
+                                                                        2. В окне находятся все символы, из которых состоит анаграмма <-- "CountCharAngrInWindow == RightPtr - LeftPtr + 1"
                                                                      */
                     return true;
                 }
