@@ -14,7 +14,7 @@ public:
         int CountCharInWindowForBuildAngr = 0; // количество символов в window, которые лежат в Angr
         
         vector<int> Idxs;
-        for(int l = 0, r = 0; r < S.size();++r){
+        for(int l = 0, r = 0; r < S.size();++r){ // move RightPtr
 
             // ">=" так как декрементируем на месте. Именно благодаря декременту дли символов, не лежащих в Angr, имеет место неравенство: DataWindowForBuildAngr[k] < 0
             if(--DataWindowForBuildAngr[S[r] - 'a'] >= 0){ // если это истино, то символ DataWindowForBuildAngr[S[r] - 'a'] хотя-бы раз встречался в Angr
@@ -23,7 +23,7 @@ public:
 
             // если CountCharInWindowForBuildAngr == Angr.size() -- истина, то можно утверждать, что
             //  Angr == [ Angr[0], Angr[1], ..., Angr[Angr.size() - 1] ] является мультиподмножеством windows == [ S[l], S[l + 1], ..., S[r] ]
-            while(CountCharInWindowForBuildAngr == Angr.size()){
+            while(CountCharInWindowForBuildAngr == Angr.size()){ // move LeftPtr
 
                 // этот условный оператор должен в начале цикла, действиткельно: S = cabrw, Angr = abc
                 // Если это истино, то DataWindowForBuildAngr должен состоять из одних нулей
