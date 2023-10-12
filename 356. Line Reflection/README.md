@@ -110,7 +110,7 @@ bool isReflected(const vector<vector<int>>& points) {
 		if (!PointToExist[{x, y}]) { PointToExist[{x, y}] = true; }
 
 	}
-	
+	// if(PointToExist.size() % 2 == 1){return false;} // check it!
 	return CheckCoordinate(points, PointToExist, x_min + x_max);
 }
 
