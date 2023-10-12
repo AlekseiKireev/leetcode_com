@@ -81,9 +81,9 @@ struct PairHash {
 	hash<int> h_i_2;
 };
 
-// можно ли из двумерной координаы получить уникальный id?
-bool CheckCoordinate(const vector<vector<int>>& points, unordered_map<pair<int, int>, bool, PairHash>& PointToExist, const int cnt/* = x_min + x_max*/) {
-	for (auto point : points) {
+// тип cnt <-- "-108 <= points[i][j] <= 10^8"
+bool CheckCoordinate(const vector<vector<int>>& points, /*const*/ unordered_map<pair<int, int>, bool, PairHash>& PointToExist, const int cnt/* = x_min + x_max*/) {
+	for (/*const*/ auto point : points) { // "const" будет ошибкой, так как можем обратится к несущест-у элементу в "PointToExist[{cnt - point[0], point[1]}]"
 
 		if (!PointToExist[{cnt - point[0], point[1]}]) { return false; }
 	}
