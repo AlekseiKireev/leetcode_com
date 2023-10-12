@@ -107,7 +107,7 @@ bool isReflected(const vector<vector<int>>& points) {
 		const int y = point[1];
 		x_min = min(x_min, x);
 		x_max = max(x_max, x);
-		if (!PointToExist[{x, y}]) { PointToExist[{x, y}] = 1; }
+		if (!PointToExist[{x, y}]) { PointToExist[{x, y}] = true; }
 
 	}
 	
