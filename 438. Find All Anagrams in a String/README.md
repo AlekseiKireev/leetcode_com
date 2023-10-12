@@ -3,7 +3,7 @@ https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 
 https://walkccc.me/LeetCode/problems/0438/
 
-примечательно то, что [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/) 
+примечательно то, что [567. Permutation in String](https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String) 
 следует из 438. Find All Anagrams in a String, необходимо лишь изменять возвращаемый тип
 
 438. Find All Anagrams in a String --> 567. Permutation in String --> 242. Valid Anagram
