@@ -1,4 +1,5 @@
 https://leetcode.com/problems/rotate-image/
+- "rotate the image by 90 degrees (clockwise)."
 - https://leetcode.com/problems/rotate-image/solutions/3440564/animation-understand-in-30-seconds/
 
 https://walkccc.me/LeetCode/problems/0048/
