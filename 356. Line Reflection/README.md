@@ -81,7 +81,9 @@ struct PairHash {
 	hash<int> h_i_2;
 };
 
+
 // тип cnt <-- "-108 <= points[i][j] <= 10^8"
+ // "const" будет ошибкой, так как можем обратится к несущест-у элементу в "PointToExist[{cnt - point[0], point[1]}]"
 bool CheckCoordinate(const vector<vector<int>>& points, /*const*/ unordered_map<pair<int, int>, bool, PairHash>& PointToExist, const int cnt/* = x_min + x_max*/) {
 	for (/*const*/ auto point : points) { // "const" будет ошибкой, так как можем обратится к несущест-у элементу в "PointToExist[{cnt - point[0], point[1]}]"
 
@@ -106,10 +108,11 @@ bool isReflected(const vector<vector<int>>& points) {
 		const int x = point[0];
 		const int y = point[1];
 		x_min = min(x_min, x);
-		x_max = max(x_max, x);
+		x_max = max(x_max, x); 
 		if (!PointToExist[{x, y}]) { PointToExist[{x, y}] = true; }
 
-	}
+	} // отрезок, проходящий через (x_min, y*) и (x_max, y*) будет иметь максимальную длину. Примечательно, что не получатся рассуждения через поиск концов отрезка минимальной длины!
+
 	// if(PointToExist.size() % 2 == 1){return false;} // check it!
 	return CheckCoordinate(points, PointToExist, x_min + x_max);
 }
