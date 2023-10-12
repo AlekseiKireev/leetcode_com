@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-bool findAnagrams(string S, string Angr) {
+bool findAnagrams(const string& S, const string& Angr) {
         
         const int S_len = S.size();
         const int Angr_len = Angr.size();
