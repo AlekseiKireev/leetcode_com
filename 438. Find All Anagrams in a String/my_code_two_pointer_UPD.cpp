@@ -14,10 +14,10 @@ public:
         int CountCharInWindowForBuildAngr = 0; // количество символов в window, которые лежат в Angr
         
         vector<int> Idxs;
-        for(int l = 0, r = 0; r < S.size();++r){ // move RightPtr
+        for(int LeftPtr = 0, RightPtr = 0; RightPtr < S.size();++RightPtr){ // move RightPtr
 
             // ">=" так как декрементируем на месте. Именно благодаря декременту дли символов, не лежащих в Angr, имеет место неравенство: DataWindowForBuildAngr[k] < 0
-            if(--DataWindowForBuildAngr[S[r] - 'a'] >= 0){ // если это истино, то символ DataWindowForBuildAngr[S[r] - 'a'] хотя-бы раз встречался в Angr
+            if(--DataWindowForBuildAngr[S[RightPtr] - 'a'] >= 0){ // если это истино, то символ DataWindowForBuildAngr[S[r] - 'a'] хотя-бы раз встречался в Angr
                 ++CountCharInWindowForBuildAngr;
             }
 
@@ -27,11 +27,11 @@ public:
 
                 // этот условный оператор должен в начале цикла, действиткельно: S = cabrw, Angr = abc
                 // Если это истино, то DataWindowForBuildAngr должен состоять из одних нулей
-                if(r - l + 1 == Angr.size()){Idxs.push_back(l);} // <--> [ Angr[0], Angr[1], ..., Angr[Angr.size() - 1] ] == [ S[l], S[l + 1], ..., S[r] ]
+                if(RightPtr - LeftPtr + 1 == Angr.size()){Idxs.push_back(LeftPtr);} // <--> [ Angr[0], Angr[1], ..., Angr[Angr.size() - 1] ] == [ S[l], S[l + 1], ..., S[r] ]
 
                 // сдвигаем левый указатель. Если ++DataWindowForBuildAngr[S[l++] - 'a'] > 0 истино, то левый указатель указывал на символ, лежащий в Angr, т.е. S[l], 
                 // именно поэтому декрементируем CountCharInWindowForBuildAngr
-                if(++DataWindowForBuildAngr[S[l++] - 'a'] > 0){--CountCharInWindowForBuildAngr;}
+                if(++DataWindowForBuildAngr[S[LeftPtr++] - 'a'] > 0){--CountCharInWindowForBuildAngr;}
 
             }
 
