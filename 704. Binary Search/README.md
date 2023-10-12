@@ -1,3 +1,5 @@
+НУЖНЫ ЛИ ИНДЕКСЫ ЗА МАССИВ, ЕСЛИ ЗАВЕДОМА ЗНАТЬ, ЧТО ИСКОМОЕ ЧИСЛО В ГРАНИЦАХ МАССИВА?
+
 https://leetcode.com/problems/binary-search/description/
 
 [Разбор задачи 704 leetcode.com Binary Search. Решение на C++](https://www.youtube.com/watch?v=VL30zBhwjMQ)
