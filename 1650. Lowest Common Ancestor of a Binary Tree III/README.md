@@ -8,3 +8,6 @@ https://github.com/doocs/leetcode/tree/main/solution/1600-1699/1650.Lowest%20Com
 _______
 
 Вроде, были иные задачи на LCA, найти и тематически связать!
+
+related:  
+- https://github.com/doocs/leetcode/tree/main/solution/1600-1699/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II
