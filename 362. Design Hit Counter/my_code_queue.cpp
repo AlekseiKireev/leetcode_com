@@ -12,16 +12,21 @@ class HitCounter {
 };
 */
 
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
 class HitCounter {
 
 private:
-queue<int> Timestamps;
+    queue<int> Timestamps;
 
 private:
 
-    void clear(const int timestamp){ // "Timestamps.front() + 300 <= timestamp" == условие того, что событие Timestamps.front() произошло ранее 300 секунд при начале отсчета от timestamp
+    void clear(const int timestamp) { // "Timestamps.front() + 300 <= timestamp" == условие того, что событие Timestamps.front() произошло ранее 300 секунд при начале отсчета от timestamp
                                      // необходимы события, находящиеся в (timestamp - 300, timestamp]   
-     while(Timestamps.empty() == false && Timestamps.front() + 300 <= timestamp){Timestamps.pop();}
+        while (Timestamps.empty() == false && Timestamps.front() + 300 <= timestamp) { Timestamps.pop(); }
     }
 
 public:
@@ -37,6 +42,14 @@ public:
     }
 
 };
+
+int main(){
+
+    HitCounter foo;
+    foo.hit(1); foo.hit(1); foo.hit(1);
+    cout << foo.getHits(2);
+
+}
 
 /*
 Удаление Timestamps.front() происходит при: 
