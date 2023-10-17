@@ -118,3 +118,10 @@ bool isReflected(const vector<vector<int>>& points) {
 }
 
 ```
+
+___________
+
+<p align="center"> 25/36 test cases </p>
+
+	[[0,0]]
+	true
