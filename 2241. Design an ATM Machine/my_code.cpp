@@ -32,7 +32,7 @@ public:
 
 
         vector<int> WithdrawBanknotes(5);
-        const array<size_t, 5> CopyBankAccount = BankAccount;
+        const array<size_t, 5> CopyBankAccount = BankAccount; // для случия если снять не удалось (вывод {-1}), восстановить количество купюр в банкомате
 
         for(int i = 4 ; i >= 0 ; --i){
 
@@ -47,7 +47,7 @@ public:
             if(amount == 0) {return WithdrawBanknotes;}
         }
 
-        BankAccount = CopyBankAccount;
+        BankAccount = CopyBankAccount; // восстановление количемтва купюр в банкомате
         return {-1}; // <-- "Returns [-1] if it is not possible (do not withdraw any banknotes in this case)."
         
         
