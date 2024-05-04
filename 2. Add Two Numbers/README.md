@@ -17,7 +17,7 @@ https://walkccc.me/LeetCode/problems/0002/
 
 [Разбор задачи 2 leetcode.com Add Two Numbers. Решение на C++](https://www.youtube.com/watch?v=QflftNTHeeE)
 
-Конспект отсут-т
+Сложение идет от младших разярдов к старшему, узнать какая сторона считается за младший разряд!
 ________
 
 Аналог: [415. Add Strings](https://leetcode.com/problems/add-strings/description/)
