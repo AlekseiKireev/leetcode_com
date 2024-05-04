@@ -2,7 +2,7 @@ class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* a, ListNode* b) { 
        ListNode beforeRes;
-        assert(beforeRes == nullptr);
+        //assert(beforeRes == nullptr);
         assert(beforeRes.next == nullptr);
        ListNode *resLast = &beforeRes;
        int carry = 0;
