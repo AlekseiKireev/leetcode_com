@@ -42,7 +42,8 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
 <details>  
 <summary> Design </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache
+    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>
 </details>
 
 <details>  
