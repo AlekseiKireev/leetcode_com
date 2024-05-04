@@ -1,8 +1,12 @@
 class Solution {
+
+private:
+    const int POWER_ENCODING = 256;
+
 public:
     int lengthOfLongestSubstring(string_view Str) {
         
-        vector<bool> CharToExistingInSlidingWindow(128, false);
+        vector<bool> CharToExistingInSlidingWindow(POWER_ENCODING, false);
 
         int Length = 0;
         int Right = 0; // правый указатель поднимает флаг о сущест-и символа 
