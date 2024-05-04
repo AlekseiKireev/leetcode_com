@@ -8,9 +8,14 @@
 https://leetcode.com/problems/add-two-numbers/
 
 - https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/
-        
+
+________
+
 https://e-maxx.ru/algo/big_integer
 
+        // /assert(nullptr == false);/ error!!
+        assert(!nullptr);
+        
 ________
 
 https://walkccc.me/LeetCode/problems/0002/
@@ -18,13 +23,14 @@ https://walkccc.me/LeetCode/problems/0002/
 [Разбор задачи 2 leetcode.com Add Two Numbers. Решение на C++](https://www.youtube.com/watch?v=QflftNTHeeE)
 
 Сложение идет от младших разярдов к старшему, узнать какая сторона считается за младший разряд!
+
 ________
 
 Аналог: [415. Add Strings](https://leetcode.com/problems/add-strings/description/)
 
+https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
 
-        // /assert(nullptr == false);/ error!!
-        assert(!nullptr);
+
 
 ____
 
@@ -33,3 +39,4 @@ ____
 условие: страница 87, задача 2.5.
 
 решение: страница 220
+
