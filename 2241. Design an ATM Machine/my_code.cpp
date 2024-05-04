@@ -36,7 +36,7 @@ public:
 
         for(int i = 4 ; i >= 0 ; --i){
 
-            size_t Count = amount / denominations[i];
+            size_t Count = amount / denominations[i]; // далее переменная amount будет изментсья, важно снять данные исходя из исходного значения!
 
             Count = min(Count, BankAccount[i]); // либо Count <= BankAccount[i], тогда списываем ВЕСЬ необходимый Count, либо Count > BankAccount[i], тогда придется брать из остальных номиналов 
             amount -= Count * denominations[i];
