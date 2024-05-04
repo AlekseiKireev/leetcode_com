@@ -11,18 +11,15 @@ public:
         for(int Left = 0; Left < Str.size(); ++Left){ // сдвиг левого указателя
             
             // проверка на сдвиг правого указателя: необходимо выполнение услвоия "substring without repeating characters."
-            while(Right < Str.size() && CharToExistingInSlidingWindow[Str[Right]] == false){ 
-
-                CharToExistingInSlidingWindow[Str[Right]] = true;
-                ++Right; // сдвиг правого указателя
-
+            for(;Right < Str.size() && CharToExistingInSlidingWindow[Str[Right]] == false;++Right){  // сдвиг правого указателя
+                CharToExistingInSlidingWindow[Str[Right]] = true;                 
             }
 
             Length = max(Length, Right - Left); // "find the length of the longest substring"
 
             assert(Left <= Right); // инваринат, который появляется при работе с думя указателями
 
-            CharToExistingInSlidingWindow[Str[Left]] = false;
+            CharToExistingInSlidingWindow[Str[Left]] = false; // левый указатель сдвинулся, убираем информацию о нем из окна
         }
 
         return Length;
