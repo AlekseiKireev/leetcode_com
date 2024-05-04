@@ -7,3 +7,6 @@ https://contest.yandex.ru/contest/27844/problems/K/
 
 У Федора Меньшикова разбор отсут-т!
 
+___________
+
+related: https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array
