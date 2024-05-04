@@ -5,6 +5,10 @@ https://walkccc.me/LeetCode/problems/0001/
 ____________________
 
 
+Важный тест: [3,4,5,3,8], target = 6
+
+____________________
+
 [Разбор задачи 1 leetcode.com Two Sum. Решение на C++](https://www.youtube.com/watch?v=WEPGndfosls&ab_channel=3.5%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D0%B2%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8E)
 
 Хотя бы одно решение существует, если выполняется уравнение: $target = nums[i] + nums[j] \ : \ i \ != \ j$
