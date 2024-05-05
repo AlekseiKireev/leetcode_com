@@ -42,7 +42,7 @@ public:
         }
 
             ListNode* Garbage = Left->next;
-            Left->next = Left->next->next;
+            Left->next = Left->next->next; // из 1-2-3-4-5-null сделали 1-2-3 4 5-null и связали 3 с 5 (т.е. Left указывал на 3)
             delete Garbage;
             return head;
     }
