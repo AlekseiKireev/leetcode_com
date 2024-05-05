@@ -10,6 +10,7 @@ public:
         for(int i = 0; i < n; ++i){DP[i][i] = true;} // строка {s[i],...,s[i]} является палиндромом
 
         // "1 <= s.length <= 1000"
+        // границы ответа, обновляются если найдет палиндром большей длины, чем RightBorder - LeftBorder + 1
         int LeftBorder = 0;
         int RightBorder = 0;
 
