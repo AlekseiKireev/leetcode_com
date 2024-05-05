@@ -72,6 +72,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 <details>  
 <summary> Two pointer </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters
+    https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
 </details>
 
 <details>  
