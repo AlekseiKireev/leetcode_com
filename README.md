@@ -44,6 +44,8 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 <summary> Design </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>
+    https://github.com/SkosMartren/leetcode_com/blob/main/12.%20Integer%20to%20Roman
+    https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
 </details>
 
 <details>  
