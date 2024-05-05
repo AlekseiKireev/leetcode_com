@@ -24,7 +24,7 @@ public:
         // дошли до конца списка --> head.size() == n  --> у удаляемого элеменат Garbage нет prev(Garbage), т.е. удаляем первый элемент листа
         if(Right == nullptr){ 
             ListNode* Garbage = head;
-            head = head->next;
+            head = head->next; // перебрасываем ссылку, т.е. из 1-2-3-4-5 делаем 1 2-3-4-5
             delete Garbage;
             return head;
         }
