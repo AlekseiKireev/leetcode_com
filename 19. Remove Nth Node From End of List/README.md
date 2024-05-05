@@ -9,6 +9,8 @@ ____
 19a.cpp  
 19b.cpp == https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/1164542/js-python-java-c-easy-two-pointer-solution-w-explanation/ 
 
+примечательно то, что в обоих случаях надо проверить на то, ушли ли мы в конец листа
+
 1. Наивный способ. 
 
 Посчитать длину списка. Если длина == n - возвращаем head->next.
