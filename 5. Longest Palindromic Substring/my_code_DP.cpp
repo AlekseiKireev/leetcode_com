@@ -7,7 +7,7 @@ public:
         const int n = s.size();
         vector<vector<bool>> DP (n, vector<bool>(n));
 
-        for(int i = 0; i < n; ++i){DP[i][i] = true;}
+        for(int i = 0; i < n; ++i){DP[i][i] = true;} // строка {s[i],...,s[i]} является палиндромом
 
         // "1 <= s.length <= 1000"
         int LeftBorder = 0;
