@@ -52,6 +52,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 <summary> List </summary>
     https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/ <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List
 </details>
 
 <details>  
