@@ -1,4 +1,9 @@
 <details>  
+<summary> Stack </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
+</details>
+
+<details>  
 <summary> LCA </summary>
 https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree
 https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III
