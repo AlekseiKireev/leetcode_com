@@ -2,7 +2,7 @@ class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
-        //std::vector<int> merged; merged.reserve(nums1.size() + nums2.size());
+        //std::vector<int> merged; merged.reserve(nums1.size() + nums2.size()); // error!
         std::vector<int> merged(nums1.size() + nums2.size());
 
         // Сливаем отсортированные векторы
