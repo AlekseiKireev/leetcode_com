@@ -4,6 +4,7 @@ https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 https://contest.yandex.ru/contest/27844/problems/J/  
 https://contest.yandex.ru/contest/27844/problems/K/  
 
+https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/
 
 У Федора Меньшикова разбор отсут-т!
 
