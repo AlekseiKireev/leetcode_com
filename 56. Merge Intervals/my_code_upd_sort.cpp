@@ -12,7 +12,7 @@ public:
 
         for(auto interval : intervals){
 
-            if(Covers.empty() ||  /*CheckIntersection = */ (interval[0] > Covers.back()[1])){
+            if(Covers.empty() ||  /*CheckIntersection = */ (interval[0] > Covers.back()[1])){ // intervals[i][1] < intervals[j][0] : i < j -- тут выполнено это условие
                 Covers.push_back(move(interval));
             }else{ // CheckIntersection == true
                 Covers.back()[1] = max(Covers.back()[1], interval[1]);
