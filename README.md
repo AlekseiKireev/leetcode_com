@@ -13,6 +13,11 @@
 </details>
 
 <details>  
+<summary> prefix sum </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
+</details>
+
+<details>  
 <summary> LCA </summary>
 https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree
 https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III
