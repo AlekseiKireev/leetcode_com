@@ -70,6 +70,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>
     https://github.com/SkosMartren/leetcode_com/blob/main/12.%20Integer%20to%20Roman
     https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
+    https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
 </details>
 
 <details>  
