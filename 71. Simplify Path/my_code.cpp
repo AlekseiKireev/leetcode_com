@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string simplifyPath(string& path) {
+    string simplifyPath(string& path) { // error with string_view
         
         // RE on "6 / 258 testcases passed" without "path.empty() == false &&" on ex: "/"
         while(path.empty() == false && (path.back() == '/' /*|| path.back() == '.'*/)){ // Если вы столкнетесь с символом "/", то игнорируйте его.
