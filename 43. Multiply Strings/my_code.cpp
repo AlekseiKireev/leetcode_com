@@ -29,6 +29,11 @@ public:
         }
 
         if(Answer.back() == '0'){Answer.pop_back();} // проверка на ведущие нули 
+        /*
+        // skip leading 0's
+        int i = 0;
+        while (i < num.size() && num[i] == 0) ++i;
+        */
         reverse(Answer.begin(), Answer.end());
 
         return Answer;
