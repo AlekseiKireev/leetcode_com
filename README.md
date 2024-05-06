@@ -46,6 +46,11 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 </details>
 
 <details>  
+<summary> recursive </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses
+</details>
+
+<details>  
 <summary> Design </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>
