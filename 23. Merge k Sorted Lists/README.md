@@ -10,6 +10,9 @@ ______
 
 https://leetcode.com/problems/merge-k-sorted-lists/solutions/10531/sharing-my-straightforward-c-solution-without-data-structure-other-than-vector/
 
+N: All number of elements of all linked lists.
+K : Number of linked lists.
+
 I agree with @cqnkxy.
 
 During 1st iteration, we merge two lists(every list is N) into one, this will make K down to K / 2.
