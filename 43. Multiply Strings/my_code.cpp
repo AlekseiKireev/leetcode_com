@@ -21,7 +21,7 @@ public:
                 const int carry =  Answer[pos1 + pos2] - '0'; // остаток
                 const int BitwiseMultiplication = digit1 * digit2 + carry; // Поразрядное Умножение с учетом Остатка
 
-                Answer[pos1 + pos2] = BitwiseMultiplication % 10 + '0';
+                Answer[pos1 + pos2] = BitwiseMultiplication % 10 + '0'; // целая часть
                 Answer[pos1 + pos2 + 1] =  Answer[pos1 + pos2 + 1] - '0' + BitwiseMultiplication / 10 + '0'; // переносим остаток 
             }
 
