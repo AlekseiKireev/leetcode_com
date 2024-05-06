@@ -96,6 +96,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
     https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water
+    https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array
 </details>
 
