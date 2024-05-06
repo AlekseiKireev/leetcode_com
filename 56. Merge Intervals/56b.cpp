@@ -26,3 +26,27 @@ public:
         return ans;
     }
 };
+/* C++ 20
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        
+        ranges::sort(intervals);
+        vector<vector<int>> Ans; Ans.reserve(intervals.size());
+
+        for(auto interval : intervals){
+
+            
+            if(Ans.empty() || /*!Intesection =*/ Ans.back().back() < interval.front()){
+                Ans.push_back(interval);
+            }else{
+                Ans.back().back() = max(interval.back(), Ans.back().back()); // max на случай вложнности interval в Ans.back() 
+            }
+
+        }
+
+        return Ans;
+    }
+};
+*/
+
