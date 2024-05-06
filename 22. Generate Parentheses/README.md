@@ -9,8 +9,8 @@ https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/
 Инвариант свойственный ПСП: 
 
 Положим, в ПСП N открывающих скобок, тогда выполнятеся инвариант: 
-* open <= N
-* close <= open
+* open не превосходит N
+* close не превосходит open
 
 
 ___________
