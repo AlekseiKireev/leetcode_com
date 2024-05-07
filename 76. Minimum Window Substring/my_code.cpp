@@ -1,6 +1,6 @@
 class Solution {
 public:
-    std::string minWindow(std::string s, std::string t) {
+    std::string minWindow(std::string& s, std::string& t) {
         if (s.empty() || t.empty() || s.length() < t.length()) {
             return "";
         }
