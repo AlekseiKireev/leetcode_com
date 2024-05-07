@@ -2,7 +2,7 @@ my_code.cpp по сути аналог 279b.cpp, просто более рап�
 
 ________
 
-https://leetcode.com/problems/perfect-squares/
+https://leetcode.com/problems/perfect-squares/ <-- Теорема Лагранжа о сумме четырёх квадратов
 
 https://walkccc.me/LeetCode/problems/0279/ -- аналог 279b.cpp
 
