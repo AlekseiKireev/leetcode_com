@@ -29,3 +29,24 @@ public:
     Тогда [0,1,...,n-1,n] можно свернуть в [CurrentMaxAffixSum,n] -- тут есть два возможных аффикса: [CurrentMaxAffixSum,n] и [n] -- один из них, максимальный, и окажется в CurrentMaxAffixSum
     Значит, для i = n работает верно. Доказали верность формулы с помощью мат. индукции. 
 */
+
+
+/*
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+
+        //Wrong Answer 195 / 210 testcases Input nums = [-1]  Output 0
+        int Total = 0;
+        int Cur = 0;
+
+        for(int i = 0; i < nums.size(); ++i){
+
+            Cur  = max(Cur + nums[i], nums[i]);
+            Total = max(Total, Cur);
+        }
+
+        return Total;
+    }
+};
+*/
