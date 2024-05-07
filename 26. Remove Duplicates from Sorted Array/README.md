@@ -3,6 +3,8 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 https://walkccc.me/LeetCode/problems/0026/
 
 У Федора Меньшикова разбор отсут-т!
+
+analogue: https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes
 ___________
 
 #  <p align="center"> Алгоритм для my_code_with_my_unique.cpp </p>
