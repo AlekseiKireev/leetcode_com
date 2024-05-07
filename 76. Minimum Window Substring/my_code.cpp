@@ -16,7 +16,7 @@ public:
 
         for (int LeftPtr = 0, RightPtr = 0;RightPtr < s.length();RightPtr++) { // сдвиг правого указателя
             
-            if (map[s[RightPtr]] > 0) {
+            if (map[s[RightPtr]] > 0) { // s[RightPtr] является символом из t
                 count--;
             }
             map[s[RightPtr]]--;
