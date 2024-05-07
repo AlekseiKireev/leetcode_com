@@ -2,6 +2,7 @@ https://leetcode.com/problems/move-zeroes/
 
 https://walkccc.me/LeetCode/problems/0283/
 
+analogue: https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
 ________
 
 283c.cpp == my_code_with_CountNOTZero.cpp
