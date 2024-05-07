@@ -1,6 +1,7 @@
 class Solution {
 
-const unordered_map<string, function<int (int, int)>> OperatorToFuctor{
+// https://en.cppreference.com/w/cpp/utility/functional --> Operator function objects
+const unordered_map<  string, function<int (int, int)>  > OperatorToFuctor{
     {"+", plus<int>()},
     {"-", minus<int>()},
     {"*", multiplies<int>()},
