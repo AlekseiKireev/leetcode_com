@@ -50,3 +50,24 @@ public:
     }
 };
 */
+
+
+/*
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+
+        // Runtime Error
+        int Total = INT_MIN;
+        int Cur = INT_MIN;
+
+        for(int i = 0; i < nums.size(); ++i){
+
+            Cur  = max(Cur + nums[i], nums[i]);
+            Total = max(Total, Cur);
+        }
+
+        return Total;
+    }
+};
+*/
