@@ -26,6 +26,7 @@ public:
 
 			// "...converting all uppercase letters into lowercase letters..."
 			if (tolower(s[l]) != tolower(s[r])) { return false; }
+			
 			++l; --r; // очередной сдвиг указателей
 
 			/* //equiv:
