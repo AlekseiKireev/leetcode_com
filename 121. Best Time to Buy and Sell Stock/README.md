@@ -2,6 +2,11 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 
 https://walkccc.me/LeetCode/problems/0121/
 
+related:
+
+[Разбор задачи 309 leetcode.com Best Time to Buy and Sell Stock with Cooldown. Решение на C++](https://www.youtube.com/watch?v=DLbTZhraubI&ab_channel=3.5%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D0%B2%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8E)
+
+[Разбор задачи 714 leetcode.com Best Time to Buy and Sell Stock with Transaction Fee. Решение на C++](https://www.youtube.com/watch?v=8whjaYFjBIk&ab_channel=3.5%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D0%B2%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8E)
 __________
 
 [Разбор задачи 121 leetcode.com Best Time to Buy and Sell Stock. Решение на C++](https://www.youtube.com/watch?v=1SS2WnsMcbU&ab_channel=3.5%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D0%B2%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8E)
