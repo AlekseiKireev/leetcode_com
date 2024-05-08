@@ -1,5 +1,6 @@
 В теории множеств любая биекция является изоморфизмом.
-my_code_bijection.cpp == 
+
+my_code_bijection.cpp == 205a.cpp
 __________
 
 https://leetcode.com/problems/isomorphic-strings/
