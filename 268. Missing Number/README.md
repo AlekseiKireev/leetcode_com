@@ -8,4 +8,6 @@ https://walkccc.me/LeetCode/problems/268/
 
 _______
 
-в итоге должна получиться формула: n^(0 ^ 1 ^ 2 ^ ... ^ n-1) ^ (nums[0] ^ nums[1] ^ nums[n-1]) = val -- что аналогично https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
+в итоге должна получиться формула: n^(0 ^ 1 ^ 2 ^ ... ^ n-1) ^ (nums[0] ^ nums[1] ^ nums[n-1]) = val -- что аналогично https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number 
+<-- 
+https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II
