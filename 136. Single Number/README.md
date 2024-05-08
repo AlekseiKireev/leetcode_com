@@ -6,6 +6,9 @@ https://walkccc.me/LeetCode/problems/0136/
 
 _____
 
+аналог: https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
+_____
+
 [Разбор задачи 136 leetcode.com Single Number. Решение на C++](https://www.youtube.com/watch?v=ZCmUnoLmL-0)
 
 O(n) по времени O(1) по памяти 
