@@ -15,6 +15,12 @@
 </details>
 
 <details>  
+<summary> operations on sets </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
+    https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
+</details>
+
+<details>  
 <summary> Stack </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
     https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
