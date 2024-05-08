@@ -9,7 +9,19 @@ public:
     }
 };
 /*
-ожидается что в конечном итоге SumXOR = (0 ^ 1 ^ 2 ^ ... ^ n) ^ (nums[0] ^ nums[1] ^ nums[n-1]) = val
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        
+        int SumXOR = 0;
+        for(int i = 1; i <= nums.size();++i){SumXOR ^= i ^ nums[i-1];}
+
+        return SumXOR; // SumXOR == val -- искомое
+    }
+};
+*/
+/*
+ожидается что в конечном итоге SumXOR = n^(0 ^ 1 ^ 2 ^ ... ^ n-1) ^ (nums[0] ^ nums[1] ^ nums[n-1]) = val
 
 
 Цепочка равевенства обусловлена свойством: 
