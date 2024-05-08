@@ -11,7 +11,7 @@ public:
         array<int, 128> CharT_to_CharS; CharT_to_CharS.fill(-1); // отображаем элемент T[k] из множества T в элемент S[k] из множества S 
 
 
-        for(int i = 0; i < S.size(); ++i){
+        for(int i = 0; i < S.size(); ++i){ // S.size() == T.size()
 
             // работает и с этим условным оператором и без
             if(CharS_to_CharT[S[i]] * CharT_to_CharS[T[i]] < 0){return false;} // нарушено условие биекции: есть отображение элемента из S в T, но нет из T в S (или наоборот)
