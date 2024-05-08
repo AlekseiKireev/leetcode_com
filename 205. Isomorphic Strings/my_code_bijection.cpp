@@ -1,7 +1,8 @@
 class Solution {
 public:
-    bool isIsomorphic(string S, string T) {
+    bool isIsomorphic(string_view S, string_view T) {
 
+        if(S.size() != T.size()){return false;}
         /* // good!
         array<char, 128> CharS_to_CharT; CharS_to_CharT.fill(-1);
         array<char, 128> CharT_to_CharS; CharT_to_CharS.fill(-1);
