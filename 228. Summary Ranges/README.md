@@ -1,3 +1,5 @@
+предоставить решение с структурой двух указателей
+
 https://leetcode.com/problems/summary-ranges/
 
 https://walkccc.me/LeetCode/problems/0228/
