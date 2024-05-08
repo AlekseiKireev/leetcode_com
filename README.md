@@ -8,6 +8,13 @@
 </details>
 
 <details>  
+<summary> Bitwise operator </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
+    https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II
+    https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
+</details>
+
+<details>  
 <summary> Stack </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
     https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
