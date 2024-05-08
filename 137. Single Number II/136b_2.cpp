@@ -11,8 +11,8 @@ public:
     for (unsigned int x : nums) {
 
           for (int bit = 0; bit < INT_BIT_SIZE; bit++) { 
-          countOnes[bit] += x & 1;
-          x >>= 1;
+          countOnes[bit] += x & 1; // x & 1 используется для получения значения крайнего бита числа x.
+          x >>= 1; // x >>= 1 сдвигает число x вправо на один бит, чтобы проверить следующий бит.
           }
 
     }
