@@ -2,6 +2,7 @@ https://leetcode.com/problems/two-sum/
 
 https://walkccc.me/LeetCode/problems/0001/
 
+related: https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
 ____________________
 
 
@@ -42,8 +43,6 @@ NumbToIdx.count(complement) -- проврека, что существует [н
 
 $NumbToIdx[complement] != idx$ нужно не только для того, чтобы избежать  случай  target = 14 = nums[1] + nums[1], но и использовать nums[j] такой, что он равен nums[i]
 
-____
 
-Замечание:  
-        1. Two Sum  - Input Array Is Unsorted  
-        167. Two Sum II - Input Array Is Sorted
+
+
