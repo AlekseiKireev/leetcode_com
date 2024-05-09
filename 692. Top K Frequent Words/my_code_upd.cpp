@@ -25,6 +25,7 @@ public:
             Buffer.push_back({cnt, move(str)});
         }
 
+        // https://en.cppreference.com/w/cpp/algorithm/partial_sort
         partial_sort(Buffer.begin(), Buffer.begin() + k, Buffer.end(),
                       [](const auto& data1, const auto& data2) {
                           return data1.first > data2.first // сортируем числа по убывания 
