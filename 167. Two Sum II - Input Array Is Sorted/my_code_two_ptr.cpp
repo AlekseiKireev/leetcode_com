@@ -16,3 +16,8 @@ public:
         return {};
     }
 };
+/*
+нашли L и R такие, что numbers[L] + numbers[R] < target
+может ли быть такое, что мы потеряли решение пока двигали указатель, например, numbers[L + n] + numbers[R + m] : n,m > 0
+Нет, так как numbers[L] + numbers[R + i] > target, тогда numbers[L + n] + numbers[R + i] > target и нет смысла бепокоиться, что что-то упустили. 
+*/
