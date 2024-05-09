@@ -8,7 +8,7 @@ public:
 
             while (RightPtr >= 0 && numbers[LeftPtr] + numbers[RightPtr] > target) {
                 --RightPtr; // сдвигаем правый указатель --> numbers[LeftPtr] + numbers[RightPtr] уменьшается. 
-            }
+            } // numbers[LeftPtr] + numbers[RightPtr] <= target
 
             if (numbers[LeftPtr] + numbers[RightPtr] == target) { return { LeftPtr + 1, RightPtr + 1 }; }
         }
