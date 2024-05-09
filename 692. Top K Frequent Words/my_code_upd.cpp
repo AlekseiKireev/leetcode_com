@@ -4,7 +4,7 @@ class Solution {
 public:
     vector<string> topKFrequent(vector<string>& words, int k) {
         
-        if(words.size() <= k){
+        if(words.size() == k){ // k is in the range [1, The number of unique words[i]]
             
             ranges::sort(words);
             return words;
