@@ -1,11 +1,14 @@
-Два указателя -- надо сначала найти инвариант?
-
 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
 related: https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum
 
+____
+
+Два указателя -- надо сначала найти инвариант?
+
 [Павел Маврин. Два указателя](https://vk.com/wall-194505932_266)
 
+*numbers.begin() + *next(numbers.begin()) <= target <= *prev(numbers.end()) + *prev(prev(numbers.end()))
 ____
 
 [Разбор задачи 167 leetcode.com Two Sum II - Input array is sorted. Решение на C++](https://www.youtube.com/watch?v=xj6YMf4IOks)
