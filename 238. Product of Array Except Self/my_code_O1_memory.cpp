@@ -22,7 +22,7 @@ public:
         }
 
         int suffix = 1;
-        for(int i = SIZE - 2; i >= 0 ; --i){
+        for(int i = SIZE - 2; i >= 0 ; --i){  // make product suffix
             suffix *= nums[i + 1];
             answer[i] *= suffix;
         }
