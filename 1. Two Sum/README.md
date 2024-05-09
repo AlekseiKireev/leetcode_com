@@ -2,8 +2,6 @@ https://leetcode.com/problems/two-sum/
 
 https://walkccc.me/LeetCode/problems/0001/
 
-У Федора Меньшикова разбор отсут-т!
-
 ____________________
 
 
