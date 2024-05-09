@@ -9,7 +9,9 @@ public:
             if(nums[RightBorderWindow] == 0){--CountUpdZero;}
 
             while(CountUpdZero < 0){ // сдвиг левого указателя
-                if(nums[LeftBorderWindow++] == 0){++CountUpdZero;}
+                //if(nums[LeftBorderWindow++] == 0){++CountUpdZero;} // equiv
+                if(nums[LeftBorderWindow] == 0){++CountUpdZero;}
+                LeftBorderWindow++;
             }
 
             // if(CountUpdZero != 0){ assert(LeftBorderWindow < RightBorderWindow); } // error: nums = [1,1,1,0,0,0,1,1,1,1,0] k = 2
