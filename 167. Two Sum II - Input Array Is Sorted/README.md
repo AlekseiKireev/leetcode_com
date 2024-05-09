@@ -8,9 +8,10 @@ https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
 [Павел Маврин. Два указателя](https://vk.com/wall-194505932_266)
 
+____
+
 [Разбор задачи 167 leetcode.com Two Sum II - Input array is sorted. Решение на C++](https://www.youtube.com/watch?v=xj6YMf4IOks)
 
-____
 
 1. Совсем плохо - перебираем все пары индексов из исходного массива, смотрим, не равна ли сумма этих чисел target.
 
