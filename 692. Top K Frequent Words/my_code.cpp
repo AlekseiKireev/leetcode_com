@@ -17,8 +17,13 @@ struct Data{
 };
 
 public:
-    vector<string> topKFrequent(const vector<string>& words, int k) {
-        
+    vector<string> topKFrequent( vector<string>& words, int k) {
+
+        if(words.size() <= k){
+            
+            ranges::sort(words);
+            return words;
+        }
         // можно ли отуверждать, что количество слов в words <= k ? <-- "k is in the range [1, The number of unique words[i]]"
         // поэтому можно спокойно обращаться по индексу в последнем цикле
 
