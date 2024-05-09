@@ -18,3 +18,14 @@ public:
     throw invalid_argument("sum not found");
   }
 };
+/*
+int main() {
+  auto ans = Solution().twoSum({1, INT MAX, INT_MIN / 2, INT_MIN / 2}, INT_MIN);
+  for (int v : ans) { 
+    printf(" %d", v); 
+  }
+  printf("\n");
+  return 0;
+}
+// output: 2 3
+*/
