@@ -125,6 +125,8 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
     https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence
     https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array
+    https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum
+    https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
 </details>
 
 <details>  
