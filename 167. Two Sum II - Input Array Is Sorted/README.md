@@ -2,9 +2,7 @@
 
 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
-Замечание:  
-        1. Two Sum  - Input Array Is Unsorted  
-        167. Two Sum II - Input Array Is Sorted
+related: https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum
 
 [Павел Маврин. Два указателя](https://vk.com/wall-194505932_266)
 
