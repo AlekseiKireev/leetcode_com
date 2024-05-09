@@ -58,7 +58,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
     https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum -- использование хеш-таблицы <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection -- перегрузка хеш-функции
-    
+    https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays
 </details>
 
 
