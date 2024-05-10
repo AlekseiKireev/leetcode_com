@@ -20,7 +20,7 @@ int search(const vector<int>& a, int target) {
     
   // примечательно также то, что данная реализация будет работать для пустого массива
   while (left + 1 < right) {
-    int mid = (left + right) / 2;
+    int mid = (left + right) / 2; // лучше писать нечто подобное: int Mid = LeftBorder + (RightBorder - LeftBorder) / 2; для избежания переполнения в рамках C++
 
     if (target <= a[mid]) { // удобно использовать только два вида оператора: <= AND < --> соответ-о для a[left] < target <= a[right] AND a[left] <= target < a[right]
       right = mid;
