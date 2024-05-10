@@ -2,6 +2,7 @@ https://leetcode.com/problems/top-k-frequent-elements/
 
 https://walkccc.me/LeetCode/problems/0347/
 
+analoge: https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words
 __________
 
 [Разбор задачи 347 leetcode.com Top K Frequent Elements. Решение на C++](https://www.youtube.com/watch?v=gamjygyIzg0)
