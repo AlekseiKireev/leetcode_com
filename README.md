@@ -7,7 +7,11 @@
             https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
             https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array    
         </details>
-    https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
+        <br>
+        <details>  
+        <summary> counting  </summary>
+            https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
+        </details>
 </details>
 
 
