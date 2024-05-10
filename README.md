@@ -42,12 +42,25 @@
 </details>
 
 <details>  
-<summary> LCA </summary>
-https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree
-https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III
-https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree /
-https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-    
+<summary> tree </summary>
+        <details>  
+        <summary> LCA </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree
+        https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III
+        https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree /
+        https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/            
+        </details>
+        <br>
+        <details>  
+        <summary> BST </summary>    
+            https://github.com/SkosMartren/leetcode_com/tree/main/449.%20Serialize%20and%20Deserialize%20BST
+            https://github.com/SkosMartren/leetcode_com/tree/main/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal
+        </details>
+        <br>
+        <details>  
+        <summary> BT </summary>    
+            https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal
+        </details>
 </details>
 
 <details>  
@@ -73,16 +86,6 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 </details>
 
 
-<details>  
-<summary> BST </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/449.%20Serialize%20and%20Deserialize%20BST
-    https://github.com/SkosMartren/leetcode_com/tree/main/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal
-</details>
-
-<details>  
-<summary> BT </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal
-</details>
 
 <details>  
 <summary> recursive </summary>    
