@@ -7,18 +7,17 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
 </details>
 
-
-
-<details>  
-<summary> Bitwise operator </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
-    https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II
-    <details>  
+<details> 
 <summary> Bitonic sequence </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
     https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
     https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
 </details>
+
+<details>  
+<summary> Bitwise operator </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
+    https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II    
     https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
 </details>
 
