@@ -11,3 +11,7 @@ https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/
 ___________
 
 related: https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array
+
+___
+
+Добавить в конец большого вектора малый + воспользоваться nth_element?
