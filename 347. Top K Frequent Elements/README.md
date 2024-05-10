@@ -6,7 +6,7 @@ __________
 
 [Разбор задачи 347 leetcode.com Top K Frequent Elements. Решение на C++](https://www.youtube.com/watch?v=gamjygyIzg0)
 
-0. Считаем частоту элементов. 
+0. Считаем частоту элементов. -- делается всегда, далее пункт 1. и 2. на выбор
 
 unordered_map<int-key, int-count>
 
