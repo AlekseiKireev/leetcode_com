@@ -5,7 +5,7 @@ public:
         //std::vector<int> merged; merged.reserve(nums1.size() + nums2.size()); // error!
         std::vector<int> merged(nums1.size() + nums2.size());
 
-        // Сливаем отсортированные векторы
+        // Сливаем отсортированные векторы через https://en.cppreference.com/w/cpp/algorithm/merge --> O(N1+N2)
         std::merge(nums1.begin(), nums1.end(), nums2.begin(), nums2.end(), merged.begin());
 
         int total = merged.size();
