@@ -1,21 +1,16 @@
 <details>  
 <summary>  Sorted  </summary>
-    <details>  
-<summary> Merge   </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
-    https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists
-    https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
-    https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array    
-</details>
+        <details>  
+        <summary> Merge   </summary>
+            https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
+            https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists
+            https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
+            https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array    
+        </details>
     https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
 </details>
 
-<details> 
-<summary> Bitonic sequence </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
-    https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
-    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
-</details>
+
 
 <details>  
 <summary> Bitwise operator </summary>
@@ -111,6 +106,12 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 <summary> Binary search </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix
     https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
+        <details> 
+        <summary> Bitonic sequence </summary>
+            https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
+            https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
+            https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+        </details>
 </details>
 
 <details>  
