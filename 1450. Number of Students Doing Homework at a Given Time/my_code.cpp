@@ -11,8 +11,8 @@ public:
             [10,10,10,10,10,10,10,10,10]
             5
             */
-            if(queryTime < startTime[i]){continue;}           
-            if(startTime[i] <= queryTime && queryTime <= endTime[i]) {++ans;}
+            if(queryTime < startTime[i]){continue;} // -->     startTime[i] <= queryTime       
+            if(/*startTime[i] <= queryTime && */queryTime <= endTime[i]) {++ans;}
                        
         }
 
