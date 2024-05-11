@@ -46,6 +46,7 @@
 <summary> prefix sum </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
     https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
+        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K
 </details>
 
 <details>  
