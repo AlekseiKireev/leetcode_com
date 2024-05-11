@@ -3,7 +3,7 @@ public:
     int compress(vector<char>& chars) {
 
         // искомое
-        int NewLength = 0;
+        int NewLength = 0; // при смещение в циклах будет указывать на потенциальный новый элемент в обновленном chars
 
         for(int i = 0; i < chars.size() ; ++i){
 
