@@ -162,6 +162,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array
     https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum
     https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
+    https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
 </details>
 
 <details>  
