@@ -126,10 +126,12 @@
         </details>
 </details>
 
+
 <details>  
 <summary> DFS / BFS / DSU </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands
 </details>
+
 
 <details>  
 <summary> Dynamic programming </summary>    
@@ -137,6 +139,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
     https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
 </details>
+
 
 <details>  
 <summary> Two pointer </summary>    
@@ -146,6 +149,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome
+    https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
     https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II
     https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges
     https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence
