@@ -12,10 +12,11 @@ public:
     bool isRobotBounded(string_view instructions) {
         
         // "On an infinite plane, a robot initially stands at (0, 0) and faces north. "
+        // после одного прохода это будут координаты вектора перемещения
         int X = 0;
         int Y = 0;
 
-        int SideWorld = 0;
+        int SideWorld = 0; // направление робота после конца первого прохода
 
         /*
 The north direction is the positive direction of the y-axis.
