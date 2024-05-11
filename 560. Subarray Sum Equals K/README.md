@@ -10,7 +10,7 @@ https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equal-k/
 _____
 
 PS[i] - k = PS[j] : k == Affix[j, ..., i]  
-PS[n] - k = Affix[n, ..., m] : k == PS[m] 
+PS[i] - k = Affix[m, ..., i] : k == PS[m] : m < i
 
 _____
 
