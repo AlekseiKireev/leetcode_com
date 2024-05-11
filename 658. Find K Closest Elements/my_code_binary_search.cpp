@@ -20,9 +20,13 @@ public:
             assert(left < right); // --> может сделать "+1" в "left = mid + 1" и не выйти за грницу right
             const int mid = left + (right - left) / 2; // тут видно, что mid остается на месте при right-left == 1, ввиду чего без "+1" попадем в бесконечный цикл
             
-            // target - arr[mid] > arr[mid + k] - target <--> префикс {..., arr[mid]} не должен быть в ответе --> сдвигаем указатель на arr[mid + 1] ввиду требования оптимизации left
-            // target - arr[mid] <= arr[mid + k] - target <--> постфикс {arr[mid + k], ...} не должен быть в ответе --> сдвигаем right левее, до mid. При этом right = mid - 1 будет ошибочным, так как mid может равняться 0, да и смысла в этом нет, ибо оптимизируем левую границу
-            Operator(arr[mid], arr[mid + k]) ?  right = mid : left = mid + 1; // why "+1"?!
+            
+            
+            Operator(arr[mid], arr[mid + k]) ?  
+	right = mid // target - arr[mid] <= arr[mid + k] - target <--> постфикс {arr[mid + k], ...} не должен быть в ответе --> сдвигаем right левее, до mid. При этом right = mid - 1 будет ошибочным, так как mid может равняться 0, да и смысла в этом нет, ибо оптимизируем левую границу
+	: 
+	left = mid + 1; // target - arr[mid] > arr[mid + k] - target <--> префикс {..., arr[mid]} не должен быть в ответе --> сдвигаем указатель на arr[mid + 1] ввиду требования оптимизации left
+	// why "+1"?!
 
             assert(left <= right); 
             //cout << mid << ' ' << left << ' ' << right  << '\n';
