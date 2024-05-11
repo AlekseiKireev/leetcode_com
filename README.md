@@ -32,6 +32,8 @@
 
 <details>  
 <summary> operations on sets </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays
+        https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II
     https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
     https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
 </details>
