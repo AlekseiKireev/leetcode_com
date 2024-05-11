@@ -15,7 +15,7 @@ public:
             ++NewLength; // инкрементируем, так как учитываем prev_char
 
             // обновление CountRepeat
-            for(; i+1 < chars.size() && prev_char == chars[i+1]; ++i){                
+            for(; i+1 < chars.size() && prev_char == chars[i+1]; ++i){ // "i+1" ввиду того, что chars[i] обработали выше                 
                 ++CountRepeat;                            
             }
 
