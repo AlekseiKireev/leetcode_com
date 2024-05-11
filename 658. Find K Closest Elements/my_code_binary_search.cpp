@@ -4,7 +4,8 @@ public:
         
         if(arr.size() == k){return arr;}
 
-        function<bool(int, int)>  Operator = [target](const int a, const int b){
+	// аргумент b удален дальше от target, чем a. Если это истинно, то надо избавиться от постфикса
+        function<bool (int, int)>  Operator = [target](const int a, const int b){
 
             assert(a <= b);
             return target - a <= b - target;
@@ -24,7 +25,7 @@ public:
             Operator(arr[mid], arr[mid + k]) ?  right = mid : left = mid + 1; // why "+1"?!
 
             assert(left <= right); 
-            cout << mid << ' ' << left << ' ' << right  << '\n';
+            //cout << mid << ' ' << left << ' ' << right  << '\n';
         }
 
         return {arr.begin() + left, arr.begin() + left + k};        
