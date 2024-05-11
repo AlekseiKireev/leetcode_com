@@ -7,7 +7,7 @@ public:
 
         for(int i = 0; i < chars.size() ; ++i){
 
-            char prev_char = chars[i]; 
+            const char prev_char = chars[i]; 
             chars[NewLength] = prev_char; // "The compressed string s should not be returned separately, but instead, be stored in the input character array chars. "
 
             // CountRepeat -- количество повторяющихся символов prev_char, которые расположены в диапозоне [i, j] : i <= j
