@@ -51,7 +51,10 @@ The west direction is the negative direction of the x-axis.
 
         array<step, 4> Steps = {
             {
-                {0, 1}, {1, 0}, {0, -1}, {-1, 0}
+                {0, 1}, /*0*/
+                {1, 0}, /*1*/
+                {0, -1}, /*2*/
+                {-1, 0} /*3*/
             }
 
         };
