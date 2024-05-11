@@ -26,6 +26,11 @@
 </details>
 
 <details>  
+<summary> math </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle
+</details>
+
+<details>  
 <summary> operations on sets </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
     https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
