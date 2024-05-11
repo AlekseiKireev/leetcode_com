@@ -50,7 +50,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
     https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
         https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum
-        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K  
+        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K  <br>
         https://leetcode.com/problems/subarray-sums-divisible-by-k/
 </details>
 
