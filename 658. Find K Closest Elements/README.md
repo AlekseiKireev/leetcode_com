@@ -93,3 +93,9 @@ ________
 ________
 
 # binary search
+
+- int left = 0;
+- int right = (int)arr.size() - k;
+
+чтобы left < mid = left + (right - left) / 2 < right при смещение на "+ k" гарантировано не выходил за границу массива, так как 
+k  <  k + left + (right - left) / 2 <  (int)arr.size()
