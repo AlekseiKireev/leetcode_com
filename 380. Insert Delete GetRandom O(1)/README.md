@@ -6,6 +6,9 @@ https://walkccc.me/LeetCode/problems/0380/
 
 _____
 
+" Each element must have the same probability of being returned." --> https://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution
+_____
+
 [Разбор задачи 380 leetcode.com Insert Delete GetRandom O(1). Решение на C++](https://www.youtube.com/watch?v=knlHlKV6Uag)
 
 Хотя бы что-то за 0(1) умеют:
