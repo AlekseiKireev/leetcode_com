@@ -8,6 +8,7 @@ public:
     // error: 96 / 98 testcases passed
     // nums = [1,0,1,0,1]
     // k = 4
+    // 98 / 99 testcases passed Input nums = [0,1,0,3,0,4,0,4,0] k = 5
     */
 
      unordered_set<int> seen;
