@@ -62,3 +62,30 @@ public:
     }
 };
 */
+
+//-------------------------------------------------------------------------
+
+/*
+class Solution {
+
+int SUM = 0;
+
+void travel(TreeNode* node, bool IsLeft, int& Sum){
+
+    if(node == nullptr){return;} 
+    bool IsLeaf = (node->left == nullptr && node->right == nullptr);
+    if(IsLeaf && IsLeft){
+        Sum += node->val;
+    }
+    travel(node->left, true, Sum);
+    travel(node->right, false, Sum);
+
+}
+
+public:
+    int sumOfLeftLeaves(TreeNode* root) {
+        travel(root, false, SUM);
+        return SUM;
+    }
+};
+*/
