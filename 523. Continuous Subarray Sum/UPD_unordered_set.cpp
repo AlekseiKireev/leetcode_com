@@ -11,7 +11,7 @@ public:
     // 98 / 99 testcases passed Input nums = [0,1,0,3,0,4,0,4,0] k = 5
     */
 
-     unordered_set<int> seen;
+     unordered_set<int> seen; 
      int sum = 0;
      for (int v : a) {
        int prevSum = sum;
@@ -33,11 +33,11 @@ class Solution {
 public:
   bool checkSubarraySum(const vector<int>& a, int k) { 
 
-     unordered_set<int> seen;
+     unordered_set<int> seen; // == {PS[0], ..., PS[i - 2]}
      int CurrentSum = 0;
      for (int v : a) {
-       int prevSum = CurrentSum; // == sum[i-1]
-       CurrentSum += v; // == sum[i]
+       int prevSum = CurrentSum; // == PS[i-1]
+       CurrentSum += v; // == PS[i]
        CurrentSum %= k; 
        
         // на момент проверки существования sum в seen, в seen еще не лежит prevSum и CurrentSum --> 
