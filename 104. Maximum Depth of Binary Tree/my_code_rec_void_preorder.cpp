@@ -40,3 +40,24 @@ public:
         return MaximumDepth;
     }
 };
+
+/*
+class Solution {
+
+void travel(TreeNode* root, int& MaximumDepth, int height = 0){
+
+    if(root == nullptr){return;}
+    ++height;
+    MaximumDepth = max(MaximumDepth, height);
+    travel(root->left, MaximumDepth, height);
+    travel(root->right, MaximumDepth, height);
+}
+
+public:
+    int maxDepth(TreeNode* root) {
+        int max = 0;
+        travel(root, max);
+        return max;
+    }
+};
+*/
