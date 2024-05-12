@@ -7,3 +7,5 @@ https://walkccc.me/LeetCode/problems/0242/
 ______
 
 438. Find All Anagrams in a String --> 567. Permutation in String --> 242. Valid Anagram
+
+https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String
