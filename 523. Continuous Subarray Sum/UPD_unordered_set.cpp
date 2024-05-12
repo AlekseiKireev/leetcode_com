@@ -16,7 +16,8 @@ public:
        int prevSum = sum;
        sum += v; 
        sum %= k; 
-       
+
+       // seen. insert(prevSum); // error: nums = [1,2,12] k = 6 --> PS = [0,1,3,3] -- при таком положение находятся в том числе длинной 1
        // на момент проверки существования sum в seen, в seen еще не лежит prevSum --> на момент проверки sum[i] в seen = {sum[0], ..., sum[i - 2]} : i >= 2
        if (seen.count(sum)) {return true;}
 
