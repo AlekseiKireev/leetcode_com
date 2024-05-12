@@ -12,7 +12,7 @@ __________
 
 [Разбор задачи 100 leetcode.com Same Tree. Решение на C++](https://www.youtube.com/watch?v=Od0Oq8hNT3Q)
 
-100a.cpp == рекурсивный DFS == preorder   
+100a.cpp == рекурсивный DFS == preorder == my_code_preoder.cpp   
 100b.cpp ==  не рекурсивный DFS  
 
 1. Рекурсивное решение.
