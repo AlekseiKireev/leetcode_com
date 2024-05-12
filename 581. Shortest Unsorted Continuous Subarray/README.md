@@ -89,6 +89,22 @@ O(1) по памяти.
 
 ____
 
+Для сортированного по неубыванию массива выполняется
+
+        int ExtremeSubsequance = numbers.front();
+        for(int i = 0; i < numbers.size(); ++i){
+
+            ExtremeSubsequance = max(ExtremeSubsequance, numbers[i]);
+            assert(ExtremeSubsequance == numbers[i]);
+        }
+
+
+        ExtremeSubsequance = numbers.back();
+        for(int i = numbers.size() - 1; i>= 0; --i){
+            ExtremeSubsequance = min(ExtremeSubsequance, numbers[i]);
+            assert(ExtremeSubsequance == numbers[i]);
+        }
+
 @cuul55
 3 года назад  
 Спасибо за объяснение. А есть ли возможность написать проход в один цикл, начиная с двух сторон одновременно?
