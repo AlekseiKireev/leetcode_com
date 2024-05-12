@@ -1,19 +1,12 @@
-Почему 
 
-        const int x = rand7();
-        const int y = rand7();
-
-        val = x + (y-1)*7;
-
-можно отнести к uniform random?
-
-___________
 
 https://leetcode.com/problems/implement-rand10-using-rand7/
 
 У Федора Меньшикова разбор отсут-т!
 
 ___________
+
+https://en.cppreference.com/w/cpp/numeric/random/rand -- встроенный рандомайзер
 
 Алгоритм получения равномерного распределения для rand10()
 
