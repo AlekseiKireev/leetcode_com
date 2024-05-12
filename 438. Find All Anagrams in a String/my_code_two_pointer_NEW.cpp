@@ -20,7 +20,7 @@ public:
             }
             
             // Ex: "abcdefgtt" "t"
-            while(CountCharAngrInWindow == Angr.size()){// move LeftPtr
+            for(;CountCharAngrInWindow == Angr.size(); LeftPtr++){// move LeftPtr
                 
                 if(RightPtr - LeftPtr + 1 == CountCharAngrInWindow){/* Совпали оба условия отвеча-е за то, что окно является анаграммой Angr:
                                                             1. Совпадают символы <-- "RightPtr - LeftPtr + 1 == CountCharAngrInWindow"
@@ -30,7 +30,7 @@ public:
                 }
 
                 // строго больше нуля, потому что изначально заполнили все нулями <-- "array<int, ALPHABET_SIZE> DataAngr; DataAngr.fill(0);"
-                if(++DataAngr[Str[LeftPtr++] - 'a'] > 0){ // условие выхода из цикла: символ Str[LeftPtr] - 'a'] входит в Angr, поэтому LeftPtr должен указывать на него
+                if(++DataAngr[Str[LeftPtr] - 'a'] > 0){ // условие выхода из цикла: символ Str[LeftPtr] - 'a'] входит в Angr, поэтому LeftPtr должен указывать на него
                     --CountCharAngrInWindow;
                 }
             }
