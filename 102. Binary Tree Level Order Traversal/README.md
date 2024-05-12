@@ -4,6 +4,8 @@ https://walkccc.me/LeetCode/problems/0102/
 
 analoge:  
 https://github.com/SkosMartren/leetcode_com/tree/main/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal
+
+103 Binary Tree Zigzag Level Order Traversal <--> 102. Binary Tree Level Order Traversal -- разница лишь в выоде ответа. В обоих случаях используется preorder обход (сверху-вниз) и отображается высота дерева в элементы, находящиеся на этом уровне <-- 104. Maximum Depth of Binary Tree
 ____
 
 [Разбор задачи 102 leetcode.com Binary Tree Level Order Traversal. Решение на C++](https://www.youtube.com/watch?v=062En8ycnF0)
