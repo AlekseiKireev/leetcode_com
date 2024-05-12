@@ -91,7 +91,7 @@ ____
 
 Для сортированного по неубыванию массива numbers выполняется
 
-        // удобно прочувст-ь на примере numbers = {4,3,2,1}
+        // удобно прочувст-ь на примере numbers = {4,3,2,1}, numbers = {4,3,2,1,5}
         
         int ExtremeSubsequance = numbers.front();
         for(int i = 0; i < numbers.size(); ++i){
