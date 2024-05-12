@@ -17,7 +17,7 @@ public:
 
         for(int i = 0; i < power_English_alphabet;++i){
             if(CharAngr_To_Count[i] != 0){return false;}
-            }
+        }
 
         return true;
     }
