@@ -20,7 +20,7 @@ public:
        // на момент проверки существования sum в seen, в seen еще не лежит prevSum --> на момент проверки sum[i] в seen = {sum[0], ..., sum[i - 2]} : i >= 2
        if (seen.count(sum)) {return true;}
 
-       seen. insert(prevSum);
+       seen. insert(prevSum); // "its length is at least two"
      }
      
      return false;
