@@ -134,6 +134,7 @@
             https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
             https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
             https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+            https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
         </details>
 </details>
 
