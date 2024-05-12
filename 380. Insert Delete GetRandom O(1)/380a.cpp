@@ -23,7 +23,7 @@ public:
 
     // примемчательно то, что работает верно для последнего элемента, т.е. когда pos = values.size() - 1 --> val == val2
     /* * Removes a value from the set. Returns true if the set contained the specified element. */
-    bool remove(int val) {
+    bool remove(int val) { // swap and remove in vector
        if (valToPos.count(val) == 0) {
            return false;
        }
