@@ -15,7 +15,8 @@ public:
 
             if(--DataAngr[Str[RightPtr] - 'a'] >= 0){++CountCharAngrInWindow;}
 
-            while(CountCharAngrInWindow == Angr.size()){ // никаких досрочных выходов из цикла быть не должно, ибо надо в DataAngr заполнить то, что отняли в "--DataAngr[Str[RightPtr] - 'a']"
+            // move LeftPtr
+            for(;CountCharAngrInWindow == Angr.size(); LeftPtr++){ // никаких досрочных выходов из цикла быть не должно, ибо надо в DataAngr заполнить то, что отняли в "--DataAngr[Str[RightPtr] - 'a']"
 
                 if(CountCharAngrInWindow == RightPtr - LeftPtr + 1){ /* совпали оба условия, отвечаю-я за анаграмму:                
                                                                         1. Размер окна равен размеру анаграммы  <-- "CountCharAngrInWindow == Angr.size()"
@@ -24,7 +25,7 @@ public:
                     return true;
                 }
 
-                if(++DataAngr[Str[LeftPtr++] - 'a'] > 0){ // условие выхода из цикла: Str[LeftPtr++] является символом, который находится в Angr
+                if(++DataAngr[Str[LeftPtr] - 'a'] > 0){ // условие выхода из цикла: Str[LeftPtr] является символом, который находится в Angr
                     --CountCharAngrInWindow;
                 }
             }
