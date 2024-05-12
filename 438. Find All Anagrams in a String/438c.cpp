@@ -16,7 +16,7 @@ public:
       if(s.size() < DesiredAnagr.size()){ return ans;}
 
       int count[1 + 'z'] = {}; // char of DesiredAnagr -, chars of s +
-      int NonZero = 0;
+      int NonZero = 0; // количество уникальных символов в DesiredAnagr
 
       for (char c : DesiredAnagr) { 
 
