@@ -31,6 +31,7 @@ private:
 public:
 
     bool isSameTree(TreeNode* p, TreeNode* q) {
+        // если бы вместо двух деревьев был бы root, то его просто надо было бы расщепить и передать также
         return (Travel(p, q) && Travel(q, p)); // разница с 101 в этой строке
     }
 
