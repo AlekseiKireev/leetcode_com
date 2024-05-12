@@ -38,3 +38,36 @@ public:
   } 
   
 };
+
+/*
+class Solution {
+
+void travel(TreeNode* root, vector<vector<int>>& Ans, int& MaxDepth, int Level = 0){
+
+    if(root == nullptr){return;}
+
+    Ans[Level].push_back(root->val);
+    ++Level;
+    MaxDepth = max(MaxDepth, Level);
+
+    travel(root->left, Ans, MaxDepth, Level);
+    travel(root->right, Ans, MaxDepth, Level);
+}
+
+public:
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        
+        vector<vector<int>> Ans(2000);
+        
+        int MaxDepth = 0;
+        travel(root, Ans, MaxDepth);
+        Ans.resize(MaxDepth);
+
+        for(int i = 1; i < MaxDepth; i+= 2){
+            reverse(Ans[i].begin(), Ans[i].end());
+        }
+
+        return Ans;
+    }
+};
+*/
