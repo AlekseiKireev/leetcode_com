@@ -76,6 +76,7 @@
         <details>  
         <summary> BT </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal
+                https://github.com/SkosMartren/leetcode_com/tree/main/101.%20Symmetric%20Tree
         </details>
 </details>
 
