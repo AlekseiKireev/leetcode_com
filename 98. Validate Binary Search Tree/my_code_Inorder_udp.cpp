@@ -28,3 +28,32 @@ public:
 
     }
 };
+/*
+class Solution {
+
+bool flag = true;
+int prev_node = 0;
+
+    bool isBST(TreeNode* root, bool& flag, int& prev_node){
+        if(root == nullptr){return true;}
+
+        bool isValidBST = isBST(root->left, flag, prev_node);
+        if(isValidBST == false){return false;}
+
+        if(flag || prev_node < root->val){
+            prev_node = root->val;
+            flag = false; // опускаем флаг, так как впервые обновили значение prev_node
+        }else{
+            return false;
+            
+        }
+        
+        return isBST(root->right, flag, prev_node);
+    }
+
+public:
+    bool isValidBST(TreeNode* root) {
+       return isBST(root, flag, prev_node);
+    }
+};
+*/
