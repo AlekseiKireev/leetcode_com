@@ -148,6 +148,8 @@ This helped me visualize the ans. In the example:
 
 ________________
 
+если в массиве nums есть 2 подряд идущих нуля, ответ true вне зависимости от k
+
 <p align="center"> Пример 0 </p>
 
 |   	|     1    	| 2 	| 3 	| 4        	| 5  	| а[i]                         	|
