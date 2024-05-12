@@ -20,7 +20,7 @@ public:
 
 
         if(RightPtr == -1){return 0;} // nums is sorted
-
+        //if(RightPtr == nums.size() - 1){return nums.size();} // Wrong Answer 277 / 307 testcases passed nums = [1,3,2,2,2]
 
         ExtremeSubsequance = nums.back();
         for(int i = nums.size() - 1; i >= 0; --i){ // passing right-to-left <--> passing for finding MIN / LeftPtr
