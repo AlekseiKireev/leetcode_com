@@ -1,5 +1,6 @@
 <details>  
 <summary>  Sorted  </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
         <details>  
         <summary> Merge   </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
