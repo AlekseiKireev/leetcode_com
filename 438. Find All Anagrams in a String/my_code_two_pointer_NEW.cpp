@@ -41,3 +41,40 @@ public:
         return Idxs;
     }
 };
+
+// более рациональный подсчет с точки зрения логики окна
+/*
+class Solution {
+public:
+    vector<int> findAnagrams(string_view s, string_view ang) {
+        
+        vector<int>  start_indices;
+
+        array<int,26> CharAngToCount; CharAngToCount.fill(0);
+        for(char ch : ang){
+            --CharAngToCount[ch - 'a'];
+        }
+
+        int CountCharsAngInWindow = 0;
+        for(int RightPtr = 0, LeftPtr = 0; RightPtr < s.size(); ++RightPtr){
+
+            if(++CharAngToCount[s[RightPtr] - 'a'] <= 0){ // сдвигаем правую границу, увпличиваем количетсво символов в окне
+                ++CountCharsAngInWindow;
+            }
+
+            for(; CountCharsAngInWindow == ang.size(); ++LeftPtr){
+
+                if(RightPtr - LeftPtr + 1 == ang.size()){
+                    start_indices.push_back(LeftPtr);
+                }
+
+                if(--CharAngToCount[s[LeftPtr] - 'a'] < 0){ // сдвигаем левую границу, уменьшаем количество символов в окне
+                    --CountCharsAngInWindow;
+                }                
+            }
+        }
+
+        return start_indices;
+    }
+};
+*/
