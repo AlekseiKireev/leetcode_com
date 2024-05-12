@@ -42,6 +42,41 @@ public:
 /*
 class Solution {
 
+  void visit(TreeNode* node, int level, vector<vector<int>> &res) { 
+
+    if (node == nullptr) {return;} 
+
+    if (level == (int)res.size()) {
+        res.push_back({node->val});
+    }else{
+        res[level].push_back(node->val); 
+    }
+
+    assert(level < (int)res.size()); 
+
+    
+    visit(node->left, level + 1, res); 
+    visit(node->right, level + 1, res);
+
+  }
+
+public:
+
+  vector<vector<int>> zigzagLevelOrder(TreeNode* root) { 
+    vector<vector<int>> res;
+    visit(root, 0, res);
+    for (int i = 1; i < (int)res.size(); i += 2) { 
+      std::reverse(res[i].begin(), res[i].end()); 
+    }
+    return res;
+  } 
+  
+};
+*/
+
+/*
+class Solution {
+
 void travel(TreeNode* root, vector<vector<int>>& Ans, int& MaxDepth, int Level = 0){
 
     if(root == nullptr){return;}
