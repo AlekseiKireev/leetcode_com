@@ -31,7 +31,7 @@ private:
 public:
 
     bool isSymmetric(TreeNode* root) {
-        return (root == nullptr ? false : Travel(root->left, root->right));
+        return (Travel(root->left, root->right));
     }
 
 };
