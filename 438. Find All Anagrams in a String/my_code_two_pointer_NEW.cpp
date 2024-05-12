@@ -12,7 +12,7 @@ public:
 
         vector<int> Idxs;
 
-        int CountCharAngrInWindow = 0;
+        int CountCharAngrInWindow = 0;я
         for(int LeftPtr = 0, RightPtr = 0; RightPtr < Str.size(); ++RightPtr){ // move RightPtr
 
             if(--DataAngr[Str[RightPtr] - 'a'] >= 0){ // Str[RightPtr] встречается в Angr
@@ -29,6 +29,7 @@ public:
                     Idxs.push_back(LeftPtr);
                 }
 
+                // инкрементируем потому что заносим информацию и символе
                 // строго больше нуля, потому что изначально заполнили все нулями <-- "array<int, ALPHABET_SIZE> DataAngr; DataAngr.fill(0);"
                 if(++DataAngr[Str[LeftPtr] - 'a'] > 0){ // условие выхода из цикла: символ Str[LeftPtr] - 'a'] входит в Angr, поэтому LeftPtr должен указывать на него
                     --CountCharAngrInWindow;
