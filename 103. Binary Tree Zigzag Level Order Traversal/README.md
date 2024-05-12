@@ -6,7 +6,7 @@ Analoge:
 https://leetcode.com/problems/binary-tree-level-order-traversal/  
 https://github.com/SkosMartren/leetcode_com/tree/main/102.%20Binary%20Tree%20Level%20Order%20Traversal -- отсюда можно взять структуру обхода для inorder / postorder
 
-103. Binary Tree Zigzag Level Order Traversal <--> 102. Binary Tree Level Order Traversal -- разница лишь в выоде ответа. В обоих случаях используется preorder обход (сверху-вниз) и отображается высота дерева в элементы, находящиеся на этом уровне <-- 104. Maximum Depth of Binary Tree
+103 Binary Tree Zigzag Level Order Traversal <--> 102. Binary Tree Level Order Traversal -- разница лишь в выоде ответа. В обоих случаях используется preorder обход (сверху-вниз) и отображается высота дерева в элементы, находящиеся на этом уровне <-- 104. Maximum Depth of Binary Tree
 
 ____
 
