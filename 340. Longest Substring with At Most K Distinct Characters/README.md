@@ -1,5 +1,7 @@
 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/ --> https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/  -- CLOSED == premium
 
+https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters/README_EN.md
+
 https://walkccc.me/LeetCode/problems/0340/
 
 related: https://github.com/doocs/leetcode/tree/main/solution/0300-0399/0340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters
