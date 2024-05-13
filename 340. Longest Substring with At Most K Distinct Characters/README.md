@@ -7,6 +7,8 @@ related: https://github.com/doocs/leetcode/tree/main/solution/0300-0399/0340.Lon
 У Федора Меньшикова разбор отсут-т!
 ________
 
+в строке s надо найти нибольшу по длине подстроку с мощностью k
+
 https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/
 
 https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1 -- НЕудачаня тестирующая система! Код из https://walkccc.me/LeetCode/problems/0340/ считается пройденым, хотя ошибочно отрабатывает на предложенном тесте "Example 2 S = "aaaa", K = 2 Output: -1" на geeksforgeeks
