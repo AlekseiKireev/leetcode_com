@@ -19,8 +19,9 @@ public:
             // также может произойти случай, когда LCA == root->val, для этого надо знак "="
             if(min(p->val,q->val) <= root->val && root->val <= max(p->val,q->val)){ // errror: if(min(p->val,q->val) <= root->val <= max(p->val,q->val)){
                 LCA = root;
-            }else{ // сдвигаем указатель на ноду
+            }else{ // текущий root не является LCA, значит p и q находятся в левом или правом поддереве, надо сдвинуть указатель root в соот-е с определением BST
                 root = (root->val < min(p->val,q->val) ? root->right : root->left);
+                // root = (root->val < max(p->val,q->val) ? root->right : root->left); // good!
             }
         }
 
