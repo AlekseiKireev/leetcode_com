@@ -29,7 +29,7 @@ public:
 
             for (;LeftBorderWindow < RightBorderWindow && k < 0; ++LeftBorderWindow) { // move Left ptr
 
-                if (--CharToCount[s[LeftBorderWindow]] == 0) {
+                if (--CharToCount[s[LeftBorderWindow]] == 0) { // символа s[LeftBorderWindow] больше нет в sliding window
                     ++k;
                 }
                 
