@@ -30,12 +30,14 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
 </details>
 
+
 <details>  
 <summary> math </summary>
         https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings
         https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()
     https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle
 </details>
+
 
 <details>  
 <summary> operations on sets </summary>
@@ -46,20 +48,24 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays
 </details>
 
+
 <details>  
 <summary> Stack </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
     https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
 </details>
 
+
 <details>  
 <summary> prefix sum </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
     https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
         https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum
+        https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K
         https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K  <br>
         https://leetcode.com/problems/subarray-sums-divisible-by-k/
 </details>
+
 
 <details>  
 <summary> tree </summary>
@@ -88,6 +94,7 @@
         </details>
 </details>
 
+
 <details>  
 <summary> Сканирующая прямая </summary>
     не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
@@ -111,11 +118,11 @@
 </details>
 
 
-
 <details>  
 <summary> recursive </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses
 </details>
+
 
 <details>  
 <summary> Design </summary>    
@@ -126,6 +133,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
 </details>
 
+
 <details>  
 <summary> List </summary>
     https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/ <br>
@@ -133,6 +141,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List
     https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
 </details>
+
 
 <details>  
 <summary> Binary search </summary>    
@@ -186,11 +195,11 @@
 </details>
 
 
-
 <details>  
 <summary> Greedy </summary>    
     
 </details>
+
 
 <details>  
 <summary> 2D Matrix </summary>    
