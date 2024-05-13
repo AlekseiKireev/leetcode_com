@@ -204,6 +204,8 @@ ______
 
 Yandex Interview Kit: https://docs.google.com/spreadsheets/d/1vgoyVzOqueURT7jNXuoEec5dQnIdtUCEqVPX1x0Vx6A/edit?pli=1#gid=0
 
+https://leetcode-company-tagged.vercel.app/yandex
+
 Архив условий и решений: https://github.com/doocs/leetcode/tree/main/solution
 _________
 
