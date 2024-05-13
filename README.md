@@ -185,10 +185,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
 </details>
 
-<details>  
-<summary> Prefix Sum </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
-</details>
+
 
 <details>  
 <summary> Greedy </summary>    
