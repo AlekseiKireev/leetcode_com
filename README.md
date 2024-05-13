@@ -1,4 +1,8 @@
 <details>  
+<summary>  Topics </summary>
+
+
+<details>  
 <summary>  Sorted  </summary>
         https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
         <details>  
@@ -196,6 +200,8 @@
     
 </details>
 
+
+</details>
 ______
 
 У Федора Меньшикова разбор отсут-т!
