@@ -27,12 +27,12 @@ public:
                 --k;
             } // RightBorderWindow указывет на последний символ sliding window 
 
-            while (LeftBorderWindow < RightBorderWindow && k < 0) { // move Left ptr
+            for (;LeftBorderWindow < RightBorderWindow && k < 0; ++LeftBorderWindow) { // move Left ptr
 
                 if (--CharToCount[s[LeftBorderWindow]] == 0) {
                     ++k;
                 }
-                ++LeftBorderWindow;
+                
             } // LeftBorderWindow указывет на первый символ sliding window
 
             LengthSubstr = max(LengthSubstr, RightBorderWindow - LeftBorderWindow + 1);
