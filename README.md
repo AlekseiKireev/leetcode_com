@@ -206,6 +206,8 @@ Yandex Interview Kit: https://docs.google.com/spreadsheets/d/1vgoyVzOqueURT7jNXu
 
 https://leetcode-company-tagged.vercel.app/yandex
 
+https://leetcode.com/problem-list/oy4y273c/
+
 Архив условий и решений: https://github.com/doocs/leetcode/tree/main/solution
 _________
 
@@ -271,7 +273,6 @@ ________
 
 https://chrome.google.com/webstore/detail/leetcode-premium-unlocker/gnpcbhmchfdadabkcmooljbhgdemgiof
 
-Как следствие: https://leetcode.com/list/oy4y273c/ 
 
 Ме Бэ, [6/29/2023 3:03 PM]
 есть у кого доступ к платной вервсии на литкоед? Хотел попросить задачу в грейдер залить...
