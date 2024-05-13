@@ -32,7 +32,7 @@ public:
                 if (--CharToCount[s[LeftBorderWindow]] == 0) { // символа s[LeftBorderWindow] больше нет в sliding window
                     ++k;
                 }
-                // после выхода из этого цикла мощность sliding window будет равна k
+                // после выхода из этого цикла мощность sliding window будет равна входному k
             } // LeftBorderWindow указывет на первый символ sliding window
 
             LengthSubstr = max(LengthSubstr, RightBorderWindow - LeftBorderWindow + 1);
