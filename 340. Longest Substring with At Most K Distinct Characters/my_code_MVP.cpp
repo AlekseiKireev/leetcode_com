@@ -21,11 +21,11 @@ public:
 
         array<int, SIZE_ALPHABET> CharToCount; CharToCount.fill(0);
 
-        for (int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow <= s.size() - 1; ++RightBorderWindow) { // move Right ptr
+        for (int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow <= s.size() - 1; ++RightBorderWindow) { // move Right ptr. RightBorderWindow указывет на последний символ sliding window 
 
             if (++CharToCount[s[RightBorderWindow]] == 1) { // новая буква (CharToCount[RightBorderWindow]) в sliding window
                 --k;
-            } // RightBorderWindow указывет на последний символ sliding window 
+            } 
 
             for (;LeftBorderWindow < RightBorderWindow && k < 0; ++LeftBorderWindow) { // move Left ptr
 
