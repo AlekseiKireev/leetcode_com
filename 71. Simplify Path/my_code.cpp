@@ -29,7 +29,7 @@ public:
             if(buffer.empty() || buffer == "."){continue;}
 
             // Какая будет ошиба при закоменченном "PartsCP.empty() == false &&"???
-            // Ответ: RE
+            // Ответ: RE на Example 4: Input: path = "/../" Output: "/"
             if(PartsCP.empty() == false && buffer == ".."){
 
                 PartsCP.pop_back();
