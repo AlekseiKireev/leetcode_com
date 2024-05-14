@@ -198,7 +198,7 @@
 
 <details>  
 <summary> Greedy </summary>    
-    
+    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels
 </details>
 
 
