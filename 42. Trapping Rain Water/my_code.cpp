@@ -35,3 +35,47 @@ public:
 
 
 };
+/*
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        
+        int IdxTotalMax;
+        int TotalMax = -1;
+        for(int i = 0; i < height.size(); ++i){
+            if(TotalMax < height[i]){
+                IdxTotalMax = i;
+                TotalMax = height[i];
+            }
+        }
+
+
+        int Ans = 0;
+        int IdxLocalMax = 0;
+        for(int i = 0; i < IdxTotalMax; ++i){
+            
+            if(height[IdxLocalMax] > height[i]){
+                // количество заполненной воды равно перепаду высот текущего уровня высоты и максимального слева (справа не сможет вылиться так как глобальный максимум)
+                Ans += (height[IdxLocalMax] - height[i]); 
+            }else{
+                IdxLocalMax = i;
+            }
+            
+        }
+
+        IdxLocalMax = height.size() - 1;
+        for(int i = height.size() - 1; i > IdxTotalMax;--i){
+            if(height[IdxLocalMax] > height[i]){
+                // количество заполненной воды равно перепаду высот текущего уровня высоты и максимального справа (слева не сможет вылиться так как глобальный максимум)
+                Ans += (height[IdxLocalMax] - height[i]); 
+            }else{
+                IdxLocalMax = i;
+            }
+        }
+
+
+        return Ans;
+
+    }
+};
+*/
