@@ -20,6 +20,8 @@ public:
         auto it = values.begin();
         advance(it, rand() % values.size()); // https://en.cppreference.com/w/cpp/numeric/random/rand
         return (*it);
+        // equiv
+        // return *next(values.begin(),  rand() % values.size());
     }
 };
 
