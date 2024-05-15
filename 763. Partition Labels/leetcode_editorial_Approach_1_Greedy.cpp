@@ -14,10 +14,12 @@ public:
 
         std::vector<int> ans;
         for (int i = 0; i < S.length(); ++i) {
-            EndCurrentChunk = std::max(EndCurrentChunk, CharToLastID[S[i] - 'a']);
+            EndCurrentChunk = std::max(EndCurrentChunk, CharToLastID[S[i] - 'a']); // сдвигаем ПРАВЫЙ указатель
 
             if (i == EndCurrentChunk) { // S[i] в разделе встречается последний раз, j < i также встречались до него ввиду использования max в EndCurrentChunk
                 ans.push_back(i - StartCurrentChunk + 1); // длина текущего раздела
+
+                // сдвигаем ЛЕВЫЙ указатель
                 StartCurrentChunk = i + 1; // указываем на следующий символ, начало нового раздела
             }
         }
