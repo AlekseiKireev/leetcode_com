@@ -5,7 +5,7 @@ public:
         // last[IdxChar] -> index of S where char occurs last
         std::array<int, 26> last; last.fill(0);
         for (int i = 0; i < S.length(); ++i){
-            last[S[i] - 'a'] = i;
+            last[S[i] - 'a'] = i; // "s consists of lowercase English letters."
         }
             
 
