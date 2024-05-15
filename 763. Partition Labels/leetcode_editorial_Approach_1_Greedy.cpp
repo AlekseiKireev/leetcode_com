@@ -16,7 +16,7 @@ public:
         for (int i = 0; i < S.length(); ++i) {
             EndCurrentChunk = std::max(EndCurrentChunk, last[S[i] - 'a']);
 
-            if (i == EndCurrentChunk) {
+            if (i == EndCurrentChunk) { // S[i] в разделе встречается последний раз, j < i также встречались до него ввиду использования max в EndCurrentChunk
                 ans.push_back(i - StartCurrentChunk + 1); // длина текущего раздела
                 StartCurrentChunk = i + 1; // указываем на следующий символ, начало нового раздела
             }
