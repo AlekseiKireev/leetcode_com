@@ -30,7 +30,7 @@ public:
 
         // -----------------------REVERSE------------------------------------
         
-        ListNode* HeadMid = (fast == NULL) ? slow : slow->next;
+        ListNode* HeadMid = slow; // в случае 1-2-2-1 slow указывает на 2 с конца!
         ListNode* HeadEnd = NULL;
 
         while (HeadMid != NULL){
