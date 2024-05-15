@@ -8,6 +8,53 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+class Solution {
+
+public:
+        bool isPalindrome(ListNode* head) {
+
+        // ------------------------Быстрые и медленные указатели для поиска серидины-----------------------------------
+        auto slow = head;
+        auto fast = head;
+        while (fast != NULL && fast->next != NULL){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        // -----------------------------------------------------------
+
+
+        // -----------------------REVERSE------------------------------------
+        
+        ListNode* HeadMid = (fast == NULL) ? slow : slow->next;
+        ListNode* HeadEnd = NULL;
+
+        while (HeadMid != NULL){
+            auto temp = HeadMid->next;
+            HeadMid->next = HeadEnd;
+            HeadEnd = HeadMid;
+            HeadMid = temp;
+        }
+        // -----------------------------------------------------------
+
+
+        // ---------------------CHECK-PALINDROME--------------------------------------
+
+        while (HeadEnd != NULL){
+
+            if (head->val != HeadEnd->val){return false;}
+
+            head = head->next;
+            HeadEnd = HeadEnd->next;
+        }
+        // -----------------------------------------------------------
+
+        return true;
+
+    }
+};
+
+/*
 class Solution {
 
 public:
@@ -52,3 +99,4 @@ public:
 
     }
 };
+*/
