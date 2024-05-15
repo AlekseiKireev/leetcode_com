@@ -44,7 +44,7 @@ public:
 
         // ---------------------CHECK-PALINDROME--------------------------------------
 
-        while (HeadEnd != NULL){
+        while (HeadEnd != NULL){ // именно такое условие выхода из цикла ввиду того, что в случае 1-2-2-1 slow указывает на 2 с конца!
 
             if (head->val != HeadEnd->val){return false;}
 
