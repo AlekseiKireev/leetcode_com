@@ -17,7 +17,11 @@ public:
         // ------------------------Быстрые и медленные указатели для поиска серидины-----------------------------------
         auto slow = head;
         auto fast = head;
-        while (fast != NULL && fast->next != NULL){
+        while (
+                fast != NULL /*для четной длины*/
+                        && 
+                fast->next != NULL /*для нечетной длины*/
+              ){
             slow = slow->next;
             fast = fast->next->next;
         }
