@@ -89,7 +89,8 @@
         <br>
         <details>  
         <summary> BT </summary>    
-            https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal <br>
+            https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal -- тут есть хорошая картинка
+                <br>
                 https://github.com/SkosMartren/leetcode_com/tree/main/100.%20Same%20Tree
                 https://github.com/SkosMartren/leetcode_com/tree/main/101.%20Symmetric%20Tree
                 https://github.com/SkosMartren/leetcode_com/tree/main/104.%20Maximum%20Depth%20of%20Binary%20Tree
