@@ -10,7 +10,7 @@ https://walkccc.me/LeetCode/problems/0206/
 
 [Software interview question - Reverse a linked list recursively](https://www.youtube.com/watch?v=S92RuTtt9EE)
 
-
+https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List --> https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
 ____
 
 <p align="center"> iteratively </p>
