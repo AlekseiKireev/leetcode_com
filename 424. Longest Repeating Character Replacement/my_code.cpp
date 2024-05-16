@@ -24,7 +24,9 @@ public:
 
             /* MaxCountRepeatSymb достиг глобального максимального значения. после того как RightPtr увеличивается на 1 
             выполнится условие WindowLength - MaxCountRepeatSymb == k + 1 и LeftPtr также увеличичться на 1,
-            ввиду чего WindowLength == LengthLongestSubstring*/
+            ввиду чего WindowLength == LengthLongestSubstring
+            Т.е. ответ не обновляется, если не обновляется MaxCountRepeatSymb
+            */
             LengthLongestSubstring = WindowLength;  // <--> LengthLongestSubstring = max(LengthLongestSubstring, WindowLength);
 
         }
