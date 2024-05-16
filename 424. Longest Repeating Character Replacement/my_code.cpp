@@ -2,28 +2,29 @@ class Solution {
 public:
     int characterReplacement(string_view S, int k) {
 
-        int maxFrequency = 0;
-        int LengthLongestSubstring = -1;
+        int MaxCountRepeatSymb = 0;
+        int LengthLongestSubstring = 1; // 1 <= s.length <= 10^5 --> есть хотя-бы один символ
 
-        array<int, 26> CharToCountInSuffix; // Suffix лежит в границах [LeftPtr, RightPtr]
-        CharToCountInSuffix.fill(0);
+        array<int, 26> CharToCountInWindow; 
+        CharToCountInWindow.fill(0);
 
         for (int RightPtr = 0, LeftPtr = 0; RightPtr < S.size(); RightPtr++) {
 
-            CharToCountInSuffix[S[RightPtr] - 'A']++;
-            maxFrequency = max(maxFrequency, CharToCountInSuffix[S[RightPtr] - 'A']); // maxFrequency in Suffix
+            CharToCountInWindow[S[RightPtr] - 'A']++;
+            MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInWindow[S[RightPtr] - 'A']);
 
             int WindowLength = RightPtr - LeftPtr + 1;
-            //if (WindowLength - maxFrequency > k) { // good!
-            while (LeftPtr < RightPtr && WindowLength - maxFrequency > k) { // разве при изменении LeftPtr не надо обновлять maxFrequency?
-                --CharToCountInSuffix[S[LeftPtr] - 'A'];
-                LeftPtr++;
-                // maxFrequency = max(maxFrequency, CharToCountInSuffix[S[LeftPtr] - 'A']); // работает с этой строкой, но, работает и без нее!
-                WindowLength = RightPtr - LeftPtr + 1;
+
+            if(WindowLength - MaxCountRepeatSymb == k + 1) {
+                
+                --CharToCountInWindow[S[LeftPtr] - 'A']; 
+                LeftPtr++;                               
+                WindowLength = RightPtr - LeftPtr + 1; // нет "+1" так как WindowIdx == (LeftPtr, RightPtr] 
             }
-            
-            LengthLongestSubstring = WindowLength; // good! WHY?!
-            //LengthLongestSubstring = max(LengthLongestSubstring, WindowLength);
+
+            /* MaxCountRepeatSymb достиг максимального значения, после того как RightPtr увеличивается на 1 
+            выполнится условие WindowLength - MaxCountRepeatSymb > k и LeftPtr также увеличичться на 1*/
+            LengthLongestSubstring = WindowLength;  // <--> LengthLongestSubstring = max(LengthLongestSubstring, WindowLength);
 
         }
 
