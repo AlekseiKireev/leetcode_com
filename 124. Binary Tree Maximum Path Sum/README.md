@@ -18,3 +18,17 @@ visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
 <!---
 - идея решения заключается в слияние листов в max(root->left->val, root->right->val, 0), перед этим в выполнить MaxPathSum = max(root->left->val, root->right->val)
 -->
+
+Решение удобно предсталвять через призму postorder и деревьях вида
+
+         1
+        / \
+     NULL   NULL
+
+         1
+        / \
+     NULL   3
+
+       1
+      / \
+    2     3
