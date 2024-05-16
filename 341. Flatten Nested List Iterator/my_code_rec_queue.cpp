@@ -28,7 +28,7 @@ void Travel(const vector<NestedInteger> &nestedList){
           if(NI.isInteger()){
             FlattenList.push(NI.getInteger());
 
-          }else{
+          }else{ // getList для того, чтобы скастовать NestedInteger к vector<NestedInteger>
             Travel(NI.getList());
           }
 
