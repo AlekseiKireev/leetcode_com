@@ -139,6 +139,12 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List
     https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
+    https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List
+        <br>
+        <details>  
+        <summary> cycle Floyd's </summary>    
+            https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
+        </details>
 </details>
 
 
