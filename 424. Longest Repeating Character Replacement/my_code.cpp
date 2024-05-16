@@ -22,8 +22,9 @@ public:
                 WindowLength = RightPtr - LeftPtr + 1; 
             }
 
-            /* MaxCountRepeatSymb достиг максимального значения, после того как RightPtr увеличивается на 1 
-            выполнится условие WindowLength - MaxCountRepeatSymb > k и LeftPtr также увеличичться на 1*/
+            /* MaxCountRepeatSymb достиг глобального максимального значения. после того как RightPtr увеличивается на 1 
+            выполнится условие WindowLength - MaxCountRepeatSymb == k + 1 и LeftPtr также увеличичться на 1,
+            ввиду чего WindowLength == LengthLongestSubstring*/
             LengthLongestSubstring = WindowLength;  // <--> LengthLongestSubstring = max(LengthLongestSubstring, WindowLength);
 
         }
