@@ -7,7 +7,7 @@ https://walkccc.me/LeetCode/problems/124/
 
 _____
 
-visualitaion algo: https://youtu.be/6cA_NDtpyz8?t=143
+visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
 
 - положим, искомым является MaxPathSum
 - очевидно, каждую node надо проверять на возможность быть ответом, например: [-1,-2,-3], [-1,-2,-3,4,-5,-6,-7]. Поэтому при решение будем использовать postorder обход
