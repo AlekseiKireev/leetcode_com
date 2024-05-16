@@ -8,6 +8,7 @@ https://walkccc.me/LeetCode/problems/0234/
   
   решение: страница 223
 
+https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List --> https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
 ________
 
 [Разбор задачи 234 leetcode.com Palindrome Linked List. Решение на C++](https://www.youtube.com/watch?v=MdcP1e-pnNw)
