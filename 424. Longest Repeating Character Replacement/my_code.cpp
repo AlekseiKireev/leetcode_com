@@ -19,7 +19,7 @@ public:
                 
                 --CharToCountInWindow[S[LeftPtr] - 'A']; 
                 LeftPtr++;                               
-                WindowLength = RightPtr - LeftPtr + 1; // нет "+1" так как WindowIdx == (LeftPtr, RightPtr] 
+                WindowLength = RightPtr - LeftPtr + 1; 
             }
 
             /* MaxCountRepeatSymb достиг максимального значения, после того как RightPtr увеличивается на 1 
