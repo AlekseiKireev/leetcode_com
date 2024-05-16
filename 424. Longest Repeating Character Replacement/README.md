@@ -12,8 +12,8 @@ https://walkccc.me/LeetCode/problems/0424/
 
 ___
 
- the length of the longest substring containing the same letter you can get after performing the above operations ==
- [j, ..., k] ==
-k - j + 1 ==
-LengthLongestSubstring =
+ the length of the longest substring containing the same letter you can get after performing the above operations == <br>
+ [j, ..., k] == <br>
+k - j + 1 == <br>
+LengthLongestSubstring = <br>
 k + MaxCountRepeatSymb : MaxCountRepeatSymb contained in {s[j], ..., s[k]}
