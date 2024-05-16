@@ -7,6 +7,8 @@ https://walkccc.me/LeetCode/problems/124/
 
 _____
 
+https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
+
 visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
 
 - положим, искомым является MaxPathSum
