@@ -25,10 +25,11 @@ public:
         int l = max(max_gain(root->left), 0); 
         int r = max(max_gain(root->right), 0);
 
-        int price_path_sum = root->val + l + r; // оптимальная сумма поддерева с текущем корнем root
+        // CurrentMaxPath == price_path_sum
+        int price_path_sum = root->val + l + r; // оптимальная сумма поддерева с текущем корнем root (путь имеет вид: l1<--l2<--...<--root-->...-->r2-->r1)
         max_sum = max(max_sum, price_path_sum); // обновляем искомое
 
-        return root->val + max(l, r); // "max(l, r)" необходим для того, чтобы из правого и левого поддерева с корнем root выбрать максимальное и отбросить ненужную ветку
+        return root->val + max(l, r); // "max(l, r)" необходим для того, чтобы из правого и левого поддерева с корнем root выбрать максимальный пуь и отбросить ненужную ветку
     }
 
     int maxPathSum(TreeNode* root) {
