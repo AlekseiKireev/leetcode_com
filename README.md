@@ -55,6 +55,10 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
 </details>
 
+<details>  
+<summary> queue </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator
+</details>
 
 <details>  
 <summary> prefix sum </summary>
