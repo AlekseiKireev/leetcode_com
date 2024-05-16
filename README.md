@@ -142,7 +142,8 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List
         <br>
         <details>  
-        <summary> cycle Floyd's </summary>    
+        <summary> cycle Floyd's == slow & fast ptr</summary>    
+            https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/
             https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
         </details>
 </details>
