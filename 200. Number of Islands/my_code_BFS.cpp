@@ -70,3 +70,64 @@ public:
     }
 };
 
+/*
+class Solution {
+
+const array<pair<int, int>, 4> dt = {{{0,1}, {1,0}, {-1,0}, {0,-1}}}; // обрати внимание на скобки!
+
+struct Pair{
+    int y;
+    int x;
+};
+
+void BFS(int y, int x, vector<vector<char>>& grid){
+
+    queue<Pair> BurningVertexes; // если вершина горит, значит она посещана 
+
+    grid[y][x] = '0';
+    BurningVertexes.push({y,x});
+
+    while(!BurningVertexes.empty()){
+
+        const auto [y, x] = BurningVertexes.front();
+        BurningVertexes.pop();
+
+        
+
+        for(auto [dy, dx] : dt){
+            if(
+                0 <= y + dy && y + dy < grid.size()
+                &&
+                0 <= x + dx && x + dx < grid.back().size()
+                &&
+                grid[y + dy][x + dx] == '1'
+              ){
+
+                grid[y+dy][x+dx] = '0';
+                BurningVertexes.push({y + dy, x + dx});
+            }
+        }
+
+    }
+
+}
+
+public:
+
+    int numIslands(vector<vector<char>>& grid) {
+        int Component  = 0;
+        for(int y = 0; y < grid.size(); ++y){
+            for(int x  =0; x < grid.back().size(); ++x){
+
+                if(grid[y][x] - '0' == 1){
+                    ++Component ;
+                    BFS(y,x,grid);
+                }
+
+            }            
+        }
+
+        return Component;        
+    }
+};
+*/
