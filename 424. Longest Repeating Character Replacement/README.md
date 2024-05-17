@@ -11,7 +11,7 @@ ___
 related: 
 - https://leetcode.com/problems/max-consecutive-ones-iii/description/ -- более слабая версия задачи с бинарной последовательностью
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/leetcode_424_1004_487_485_1493.png" width="600" height="400"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/leetcode_424_1004_487_485_1493.png" width="800" height="400"/>
 ___
 
  the length of the longest substring containing the same letter you can get after performing the above operations == <br>
