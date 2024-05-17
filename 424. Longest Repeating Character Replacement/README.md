@@ -11,6 +11,8 @@ ___
 related: 
 - https://leetcode.com/problems/max-consecutive-ones-iii/description/ -- более слабая версия задачи с бинарной последовательностью
 
+![ alt](https://github.com/SkosMartren/useful-materials/blob/main/leetcode_424_1004_487_485_1493.png)
+
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/leetcode_424_1004_487_485_1493.png" width="800" height="400"/>
 ___
 
