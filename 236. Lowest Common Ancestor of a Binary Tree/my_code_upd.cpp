@@ -29,7 +29,7 @@ void travel(TreeNode* node){
     // Проверка на то, может ли текуищй узел быть потенциальным родителем p и q. 
     // По условию необходимо найти нижайшего родителя p и q. 
     // node может быть родителем / LCA, если расположена не ниже [выше либо равен] p или q.
-    bool CheckNodeOnParentP_or_Q = (! Found_P) && (! Found_Q); // == CNOP. Проверяет, является ли node потомком P или Q
+    bool CheckNodeOnParentP_or_Q = (! Found_P) && (! Found_Q); // == CNOP. Проверяет, является ли node потомком P или Q (LCA не может быть потомком)
 
     if(node == Q){ Found_Q = true; }
     if(node == P){ Found_P = true; }
