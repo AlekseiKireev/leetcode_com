@@ -74,10 +74,9 @@
 <summary> tree </summary>
         <details>  
         <summary> LCA </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree
         https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree
-        https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III <br>
-        https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree /  <br>
-        https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/            
+        https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III          
         </details>
         <br>
         <details>  
