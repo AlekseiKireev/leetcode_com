@@ -21,7 +21,7 @@ public:
             return root; 
         }
 
-        return left == NULL ? right : left;        
+        return left == NULL ? right : left; // [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 6 -- view Example 1       
 
     }
 
