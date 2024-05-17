@@ -125,6 +125,7 @@
 <details>  
 <summary> recursive </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses
+    https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator
 </details>
 
 
