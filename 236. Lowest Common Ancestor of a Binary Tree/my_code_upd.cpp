@@ -9,50 +9,36 @@
  */
 class Solution {
 
-private:
-
 TreeNode* LCA = nullptr;
 
 bool Found_P = false;
 bool Found_Q = false;
 
-TreeNode* Q;
-TreeNode* P;
+void Travel(TreeNode* node, TreeNode* P, TreeNode* Q){
 
-private:
+    if(node == nullptr || (Found_P && Found_Q)){return;}
 
-void travel(TreeNode* node){
+    // LCA == node, которая является максимальны по высоте родителем (считая сверху) как P, так и Q
+    const bool NodeIsParent_P_and_Q = (!Found_P) && (!Found_Q); // Нода W рассматривается как родитель ноды W
 
-    if(node == nullptr){return;}
-    if(Found_P && Found_Q){return;}
+    if(node == P){Found_P = true;}
+    if(node == Q){Found_Q = true;}
 
-    // Проверка на то, может ли текуищй узел быть потенциальным родителем p и q. 
-    // По условию необходимо найти нижайшего родителя p и q. 
-    // node может быть родителем / LCA, если расположена не ниже [выше либо равен] p или q.
-    bool CheckNodeOnParentP_or_Q = (! Found_P) && (! Found_Q); // == CNOP. Проверяет, является ли node потомком P или Q (LCA не может быть потомком)
+    Travel(node->left,P,Q);
+    Travel(node->right,P,Q);
 
-    if(node == Q){ Found_Q = true; }
-    if(node == P){ Found_P = true; }
-
-    travel(node->left);
-    travel(node->right);
-
-    // условный оператор находится в postorder позиции ввиду того, что ищем lowest, а при postorder обходе
-    // как раз поднимаемся снизу вверх, что даст нам необходимый (самый удаленный) узел 
-    if(LCA == nullptr && CheckNodeOnParentP_or_Q && Found_P && Found_Q){LCA = node;}
-
+    // postorder проходит снизу-вверх, это гарантирует наименьшее (наибольшее по глубине) NodeIsParent_P_and_Q
+    // зашли в postorder раздел и предше-е ему ноды уже помечены в preorder разделе
+    if(LCA == nullptr && /*это необходимо чтобы единожды обновить LCA*/
+    NodeIsParent_P_and_Q && /*услвоие, свойственное для LCA*/
+    Found_P && Found_Q){LCA = node;}
 }
 
 public:
-
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         
-        Q = q;
-        P = p;
+        Travel(root, p, q);
 
-        travel(root);
         return LCA;
-
     }
-
 };
