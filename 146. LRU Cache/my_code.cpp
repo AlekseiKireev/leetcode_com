@@ -32,6 +32,7 @@
             auto ItOnValue = KeyToValue.find(Key);
             if(ItOnValue == KeyToValue.end()){return -1;}
 
+            // if(It != KeyToValue.begin()){MoveFront(key);} // equiv
             if(OrderKey.front() != Key){
                 MoveFrontKey(Key);
             }
