@@ -15,7 +15,9 @@
     
     // Используется, если {Key, Value} уже существует в KeyToValue
      void MoveFrontKey(const int Key){
-    
+
+        // https://en.cppreference.com/w/cpp/container/list/splice
+        // "Transfers the element pointed to by it from other into *this. The element is inserted before the element pointed to by pos."
         OrderKey.splice(OrderKey.begin(),OrderKey, KeyToItInOrderKey[Key]);
         KeyToItInOrderKey[Key] = OrderKey.begin();    
     
