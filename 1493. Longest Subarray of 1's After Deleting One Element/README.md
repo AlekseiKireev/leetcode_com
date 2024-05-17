@@ -11,4 +11,8 @@ https://walkccc.me/LeetCode/problems/1493/
 
 _____
 
+related:
+
 Основная разница между 1004. Max Consecutive Ones III и 1493. Longest Subarray of 1's After Deleting One Element заключется в том, что в 1004 ***заменяется*** не более CountUpdZero нулей, в то время как в 1493 ***удаляется*** ровно один элемент. Поэтому, если в 1004 ответом является Ans, то в 1493 ответом является Ans - CountUpdZero 
+
+![ alt](https://github.com/SkosMartren/useful-materials/blob/main/leetcode_424_1004_487_485_1493.png)
