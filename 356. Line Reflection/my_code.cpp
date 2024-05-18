@@ -35,8 +35,11 @@ public:
 
     bool isReflected(const vector<vector<int>>& points) {
 		if (points.empty()) { return true; } // проверка пустого points -- такой тест есть в тестирующей системе
+
+	    	// у них должно быть одинаковое значение y*, в противном случае это выяснится в CheckCoordinate но значение cnt все равно найдется верное
 		int x_min = points.front().front();
 		int x_max = points.back().front();
+	    
 		unordered_map<pair<int, int>, bool, PairHash> PointToExist; // необходимо для реализации CheckCoordinate
 
 		for (const auto& point : points) {
