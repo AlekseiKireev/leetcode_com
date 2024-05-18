@@ -37,7 +37,11 @@ public:
     }
 
     int getHits(const int timestamp) {
-        clear(timestamp);
+
+        /* "and you may assume that calls are being made to the system in chronological order (i.e., timestamp is monotonically increasing)." 
+           т.е. при следущюем вызове hit / getHits переданное туда значение будет больше текущего timestamp, ввиду чего вызываем clear
+        */
+        clear(timestamp); 
         return Timestamps.size();
     }
 
