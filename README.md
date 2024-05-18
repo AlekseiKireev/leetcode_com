@@ -55,10 +55,12 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
 </details>
 
+
 <details>  
 <summary> queue </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator
 </details>
+
 
 <details>  
 <summary> prefix sum </summary>
@@ -137,6 +139,8 @@
     https://github.com/SkosMartren/leetcode_com/blob/main/12.%20Integer%20to%20Roman
     https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
     https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
+    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
+    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls        
 </details>
 
 
