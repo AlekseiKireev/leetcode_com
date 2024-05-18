@@ -5,3 +5,5 @@ https://leetcode.com/problems/max-stack/description/ - closed
 https://walkccc.me/LeetCode/problems/716/
 
 https://github.com/doocs/leetcode/blob/main/solution/0700-0799/0716.Max%20Stack/README_EN.md
+
+related: https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
