@@ -12,6 +12,12 @@ https://leetcode.ca/2018-06-20-933-Number-of-Recent-Calls/
 
 __________
 
+|                                                   idx                                                  	|   	|  0  	|   1   	| 2       	| 3       	|
+|:------------------------------------------------------------------------------------------------------:	|:-:	|:---:	|:-----:	|---------	|---------	|
+| t   It is guaranteed that every call to ping uses a strictly larger value of t than the previous call. 	|   	|  1  	|  100  	| 3001    	| 3002    	|
+| ping(t)                                                                                                	|   	| 1   	| 2     	| 3       	| 3       	|
+| idx-based certificate                                                                                  	|   	| {0} 	| {0,1} 	| {0,1,2} 	| {1,2,3} 	|
+
 [Разбор задачи 933 leetcode.com Number of Recent Calls. Решение на C++](https://www.youtube.com/watch?v=iK2EnenuLG0)
 
 Решение:
