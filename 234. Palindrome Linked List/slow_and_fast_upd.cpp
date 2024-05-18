@@ -29,10 +29,12 @@ ListNode* Reverse(ListNode* head){
     ListNode* ReverseNodes = nullptr;
 
     while(head != nullptr){
-        ListNode* NextNode = head->next;
-        head->next = ReverseNodes;
-        ReverseNodes = head;
 
+        ListNode* NextNode = head->next;
+        head->next = ReverseNodes; // разрываем связь
+
+        // перебрасываем указатели
+        ReverseNodes = head;
         head = NextNode;
 
     }
