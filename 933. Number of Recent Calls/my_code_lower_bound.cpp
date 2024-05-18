@@ -2,7 +2,7 @@ class RecentCounter {
 
 private:
 
-vector<int> Pings; // "1 <= t <= 10^9"
+vector<int> Pings; // int <-- "1 <= t <= 10^9"
 
 public:
     RecentCounter() { // "At most 10^4 calls will be made to ping."
