@@ -105,3 +105,35 @@ k  <  k + left + (right - left) / 2 <  (int)arr.size()
 при анализе будем рассматривать окно длиною k и откидывать левый / правый префиес / постфикс в случае, если противоположная граница более подходящая, элемент расположен ближе к x. 
 
 Дейтсвительно, если, например, arr[mid] расположен ближе к x, чем arr[mid + k], то arr[mid + k + t] дальше от x чем arr[mid], смысла брать его в окно нет.
+
+
+https://leetcode.com/problems/find-k-closest-elements/solutions/106426/java-c-python-binary-search-o-log-n-k-k/
+
+
+    below are my explanation.
+    
+    assume A[mid] ~ A[mid + k] is sliding window
+    
+    case 1: x - A[mid] < A[mid + k] - x, need to move window go left
+    -------x----A[mid]-----------------A[mid + k]----------
+    
+    case 2: x - A[mid] < A[mid + k] - x, need to move window go left again
+    -------A[mid]----x-----------------A[mid + k]----------
+    
+    case 3: x - A[mid] > A[mid + k] - x, need to move window go right
+    -------A[mid]------------------x---A[mid + k]----------
+    
+    case 4: x - A[mid] > A[mid + k] - x, need to move window go right
+    -------A[mid]---------------------A[mid + k]----x------
+    
+    I think there can be 2 more cases, where A[mid] == A[mid + k].
+    
+    case 5: x - A[mid] < A[mid + k] - x, need to move window go left
+    -------x----A[mid]/A[mid + k]----------
+    
+    case 6: x - A[mid] > A[mid + k] - x, need to move window go right
+    -------A[mid]/A[mid + k]-----x---------
+    
+    test case [1,1,2,2,2,2,2,3,3], k=3, x=3 is a example of case 6.
+    
+    Anyway, all 6 cases can be represented by: x - A[mid] > A[mid + k] - x
