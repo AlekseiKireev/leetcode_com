@@ -26,7 +26,7 @@ private:
 
     void clear(const int timestamp) { // "Timestamps.front() + 300 <= timestamp" == условие того, что событие Timestamps.front() произошло ранее 300 секунд при начале отсчета от timestamp
                                      // необходимы события, находящиеся в (timestamp - 300, timestamp]   
-        while (Timestamps.empty() == false && Timestamps.front() + 300 <= timestamp) { Timestamps.pop(); }
+        while (Timestamps.empty() == false && Timestamps.front() + 300 <= timestamp) { Timestamps.pop(); } /*"300 <=" -- единственное отличие от 933*/
     }
 
 public:
