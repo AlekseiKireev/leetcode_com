@@ -4,6 +4,10 @@ https://walkccc.me/LeetCode/problems/0155/
 
 ________
 
+| stack 	|   	| 3 	| 0 	| 1 	| -2 	| -3 	| 11 	| 12 	|
+|:-----:	|:-:	|:-:	|:-:	|---	|----	|----	|----	|----	|
+|  min  	|   	| 3 	| 0 	| 0 	| -2 	| -3 	| -3 	| -3 	|
+
 [Разбор задачи 155 leetcode.com Min Stack. Решение на C++](https://www.youtube.com/watch?v=NNCWMFT1e24)
 
 O(1) по времени на каждую операцию.
