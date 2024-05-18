@@ -62,3 +62,20 @@ Timestamps.front()                 timestamp - 300    timestamp
 
 В том числе, если Timestamps.front() == timestamp - 300 
 */
+
+/*
+int main(){
+
+    HitCounter foo;
+    
+    foo.hit(1); foo.hit(2); foo.hit(3);
+    
+    cout << foo.getHits(4) << '\n';
+    
+    foo.hit(300);
+    
+    cout << foo.getHits(300) << '\n';
+    cout << foo.getHits(301) << '\n';
+
+}
+*/
