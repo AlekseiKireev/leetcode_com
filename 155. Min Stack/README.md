@@ -2,6 +2,7 @@ https://leetcode.com/problems/min-stack/
 
 https://walkccc.me/LeetCode/problems/0155/
 
+related: https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack
 ________
 
 | stack 	|   	| 3 	| 0 	| 1 	| -2 	| -3 	| 11 	| 12 	|
