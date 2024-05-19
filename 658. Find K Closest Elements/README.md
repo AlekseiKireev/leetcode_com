@@ -103,6 +103,8 @@ ________
 
 # binary search
 
+По сути надо найти окно вида: arr[LeftPtr]~arr[LeftPtr + k] --> return {arr.begin() + left, arr.begin() + left + k};  
+
 - int left = 0;
 - int right = (int)arr.size() - k;
 
