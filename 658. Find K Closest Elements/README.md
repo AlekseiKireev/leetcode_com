@@ -103,10 +103,13 @@ ________
 
 # binary search
 
-По сути надо найти окно вида: arr[LeftPtr]~arr[LeftPtr + k] --> return {arr.begin() + left, arr.begin() + left + k};  
+По сути надо найти окно вида: arr[LeftPtr]~arr[LeftPtr + k] --> return {arr.begin() + left + 0, arr.begin() + left + k};  
+
+Тогда, указатели должны иметь вид: 
 
 - int left = 0;
-- int right = (int)arr.size() - k;
+- int right = (int)arr.size() - k; -- "-k" для того, чтобы в случае необходимости вернуть постфикс вида {arr.end() - k, arr.end()}, т.е. упереть левый указатель в правый.
+Также это позволит работать с (arr.size() + 1)/2 <= mid + k == (left + right)/2 + k <= arr.size()
 
 чтобы 
 left < mid = left + (right - left) / 2 < right 
@@ -117,6 +120,7 @@ k  <  k + left + (right - left) / 2 <  (int)arr.size()
 
 Дейтсвительно, если, например, arr[mid] расположен ближе к x, чем arr[mid + k], то arr[mid + k + t] дальше от x чем arr[mid], смысла брать его в окно нет.
 
+так как указатели могут указывать друг на друга, то цикл имеет вид: while (left != right) {
 
 https://leetcode.com/problems/find-k-closest-elements/solutions/106426/java-c-python-binary-search-o-log-n-k-k/
 
