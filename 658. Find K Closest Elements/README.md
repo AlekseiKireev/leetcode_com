@@ -154,7 +154,7 @@ https://leetcode.com/problems/find-k-closest-elements/solutions/106426/java-c-py
     
     test case [1,1,2,2,2,2,2,3,3], k=3, x=3 is a example of case 6.
     
-    Anyway, all 6 cases can be represented by: x - A[mid] > A[mid + k] - x
+    Anyway, all 6 cases can be represented by: x - A[mid] > A[mid + k] - x -- for operator if if (x - A[mid] > A[mid + k] - x)
 
 
 ________
