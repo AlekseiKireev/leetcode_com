@@ -9,6 +9,7 @@ public:
 
       // Удаляем элементы из дек, которые меньше текущего элемента,
       // потому что они не могут быть максимумом в текущем окне
+      // необходим для максимизации фронтового элемента в windowIndices
       while (!windowIndices.empty() && nums[windowIndices.back()] < nums[i]) {
         windowIndices.pop_back();
       }
