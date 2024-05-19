@@ -103,7 +103,14 @@ ________
 
 # binary search
 
-По сути надо найти окно вида: arr[LeftPtr]~arr[LeftPtr + k] --> return {arr.begin() + left + 0, arr.begin() + left + k};  
+По сути надо найти окно вида: arr[LeftPtr]~arr[LeftPtr + k], прижатость влево видно из условия: 
+
+    An integer a is closer to x than an integer b if:
+    
+    |a - x| < |b - x|, or
+    |a - x| == |b - x| and a < b (<----)
+
+--> return {arr.begin() + left + 0, arr.begin() + left + k};  
 
 Тогда, указатели должны иметь вид: 
 
