@@ -22,7 +22,7 @@ public:
 
 
       // Удаляем индексы, которые выходят за границы текущего окна
-      if (windowIndices.front() <= i - k) {
+      if (windowIndices.front() + k <= i) { // если элемент windowIndices.front() находится в необходимом окне, то он выйдет за i. Можно заметить на примере 1  3 [-1  -3  5] 3   
         windowIndices.pop_front();
       }
 
