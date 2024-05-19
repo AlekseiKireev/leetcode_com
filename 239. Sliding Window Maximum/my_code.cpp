@@ -29,6 +29,7 @@ public:
       if (i >= k - 1) { // условный оператор чтобы пропустить первые k-1 символов, пропуск ввиду того, что окно не сформировано еще
         result.push_back(nums[windowIndices.front()]);
       }
+      
     }
 
     return result;
