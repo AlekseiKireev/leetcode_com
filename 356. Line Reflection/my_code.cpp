@@ -20,10 +20,13 @@ private:
 	// тип cnt <-- "-108 <= points[i][j] <= 10^8"
 	 // "const" будет ошибкой, так как можем обратится к несущест-у элементу в "PointToExist[{cnt - point[0], point[1]}]"
 	bool CheckCoordinate(const vector<vector<int>>& points, /*const*/ unordered_map<pair<int, int>, bool, PairHash>& PointToExist, const int cnt/* = x_min + x_max*/) {
-		for (/*const*/ auto point : points) { // "const" будет ошибкой, так как можем обратится к несущест-у элементу в "PointToExist[{cnt - point[0], point[1]}]"
+
+		// "const" будет ошибкой, так как можем обратится к несущест-у элементу в "PointToExist[{cnt - point[0], point[1]}]"
+		for (/*const*/ auto point : points) { 
 
 			if (!PointToExist[{cnt - point[0], point[1]}]) { return false; }
 		}
+		
 		return true;
 	}
 
