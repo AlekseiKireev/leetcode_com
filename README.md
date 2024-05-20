@@ -169,6 +169,7 @@
 <details>  
 <summary> Binary search </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix
+    https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
     https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
         <details> 
         <summary> Bitonic sequence </summary>
