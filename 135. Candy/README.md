@@ -6,6 +6,10 @@ https://walkccc.me/LeetCode/problems/135/
 
 ___
 
+# O(1)
+
+# O(n)
+
 ```objectives
 
 We can easily calculate the number of candy needed by using an array to store the candy of each child. And after that traverse the rating array twice. 
