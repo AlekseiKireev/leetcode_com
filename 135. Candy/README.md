@@ -6,6 +6,8 @@ https://walkccc.me/LeetCode/problems/135/
 
 ___
 
+для обоих подходов характерно следующая идея: $ratings[i-l] < ... < ratings[i-1] < ratings[i] > ... > ratings[i+r]$ --> candy[i] = max(l,r) + 1 -- это хорошо видно из графика, "+1" следует из "Each child must have at least one candy."
+
 # O(1)
 
 ```objectives
