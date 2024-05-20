@@ -25,12 +25,15 @@ public:
         int l = max(max_gain(root->left), 0); 
         int r = max(max_gain(root->right), 0);
         assert(0 <= l && 0 <= r);
-        
+
+        // tree 1 -- поиск опмильного листа
+        // tree 2 -- сумма, проходящая через root
+        // tree 3 -- сумма, проходящая через root и левое поддерево
         int CurrentMaxSumPricePath = root->val + l + r; // оптимальная сумма пути в поддеревьях с текущем корнем root (путь имеет вид: l1<--l2<--...<--root-->...-->r2-->r1)
+
         
-        
-        
-        max_sum = max(max_sum, CurrentMaxSumPricePath); // обновляем искомое
+        // обновляем искомое
+        max_sum = max(max_sum, CurrentMaxSumPricePath); 
 
         assert( 0 <= max(l, r) ); 
 
@@ -43,3 +46,20 @@ public:
         return max_sum;
     }
 };
+/* tree 1
+    -3
+    / \
+  -1   -2  
+*/
+
+/* tree 2
+     3
+    / \
+   1   2  
+*/
+
+/* tree 3
+     3
+    / \
+   1   -2  
+*/
