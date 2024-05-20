@@ -8,6 +8,19 @@ ___
 
 ```objectives
 
+We can easily calculate the number of candy needed by using an array to store the candy of each child. And after that traverse the rating array twice. 
+* The first loop makes sure children with a higher rating get more candy than its left neighbor, 
+* the second loop makes sure children with a higher rating get more candy than its right neighbor. 
+
+At last add the total number of candies. This approach is O(n) time and O(n) space.
+
+
+Мы можем легко рассчитать необходимое количество конфет, используя массив для хранения конфет каждого ребенка. И после этого дважды пройдемся по массиву оценок. 
+* В первом цикле дети с более высоким рейтингом получают больше конфет, чем их сосед слева, 
+* во втором цикле дети с более высоким рейтингом получают больше конфет, чем их соседи справа. 
+
+Наконец, подсчитайте общее количество конфет. Этот подход требует O (n) времени и O (n) пространства.
+
 ratings    = [1,3,6,8,9,5,3,6,8,5,4,2,2]
 
 
