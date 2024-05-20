@@ -11,11 +11,11 @@ public:
 
             if(FirstPtr >= 0 && /*теперь гарантируется, что FirstPtr >= 0 && SecondPtr >= 0, можем сравнить элементы*/
                 nums1[FirstPtr] > nums2[SecondPtr]){
-                nums1[IdxMergeArray] = nums1[FirstPtr];
-                --FirstPtr;    
+                    nums1[IdxMergeArray] = nums1[FirstPtr];
+                    --FirstPtr;    
             }else{ // FirstPtr < 0 || nums1[FirstPtr] < nums2[SecondPtr] -- в обоих случаях забираем элемент из nums2
-                nums1[IdxMergeArray] = nums2[SecondPtr];
-                --SecondPtr;                
+                    nums1[IdxMergeArray] = nums2[SecondPtr];
+                    --SecondPtr;                
             
             }
             
