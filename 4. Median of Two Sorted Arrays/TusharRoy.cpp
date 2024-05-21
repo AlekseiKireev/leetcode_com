@@ -40,7 +40,9 @@ public:
                 
             } 
 
-            if (maxLeftX > minRightY) {
+            // нарушино что-то из: maxLeftX <= minRightY && maxLeftY <= minRightX
+            if (maxLeftX > minRightY) { 
+                // необходимо приблизиться к выполнению условия: maxLeftX <= minRightY
                 high = partitionX - 1;
             } else {
                 low = partitionX + 1;
