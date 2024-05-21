@@ -17,7 +17,7 @@ public:
 
         while (low <= high) {
             int partitionX = (low + high) / 2;
-            int partitionY = (x + y + 1) / 2 - partitionX;
+            int partitionY = (x + y + 1) / 2 - partitionX; // max{  (x + y + 1) / 2 } = y
 
             int maxLeftX = (partitionX == 0) ? INT_MIN : nums1[partitionX - 1];
             int minRightX = (partitionX == x) ? INT_MAX : nums1[partitionX];
