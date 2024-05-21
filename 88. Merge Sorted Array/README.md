@@ -6,6 +6,8 @@ https://walkccc.me/LeetCode/problems/0088/
 
 Аналог: https://leetcode.com/problems/merge-two-sorted-lists/description/
 
+related: https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array -- связь через проход с конца для ответа
+
 У Федора Меньшикова разбор отсут-т!
 
 _____
