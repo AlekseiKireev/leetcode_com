@@ -13,7 +13,7 @@ public:
         assert(x <= y);
 
         int low = 0;
-        int high = x; // x-1 --> RE
+        int high = x; // x-1 --> RE. Дейтвитнельно, такое значение нужно на случай, если low = x-1 --> 0 <= partitionX <= x
 
         while (low <= high) { // equiv: while (0 != high - low + 1) {
             int partitionX = (low + high) / 2;
