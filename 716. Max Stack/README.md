@@ -51,7 +51,7 @@ ___
 
 ___
 
-Так как popMax может быть из любого места стека, то удобно использовать list<type(x)> OrderVal и удалять по итератору 
+Так как popMax может быть из любого места стека, то удобно использовать list<type(x)> OrderVal и удалять по итератору. Для удобства будем использовать push_front  
 
 Обсудим оптимальное удаление и "If there is more than one maximum element, only remove the top-most one."
 
