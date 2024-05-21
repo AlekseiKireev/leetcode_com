@@ -18,7 +18,11 @@ public:
         while (low <= high) {
             int partitionX = (low + high) / 2;
             int partitionY = (x + y + 1) / 2 - partitionX; // max{  (x + y + 1) / 2 } = y
-
+            assert(partitionX + partitionY == (x + y) / 2
+                                ||
+                   partitionX + partitionY - 1 == (x + y) / 2    
+                  );
+            
             int maxLeftX = (partitionX == 0) ? INT_MIN : nums1[partitionX - 1];
             int minRightX = (partitionX == x) ? INT_MAX : nums1[partitionX];
 
@@ -27,10 +31,7 @@ public:
 
             if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
 
-                assert(partitionX + partitionY == (x + y) / 2
-                        ||
-                       partitionX + partitionY - 1 == (x + y) / 2    
-                      );
+
                 
                 return ( (x + y) % 2 == 0 ) ?
                      (double)( max(maxLeftX, maxLeftY) + min(minRightX, minRightY) ) / 2
