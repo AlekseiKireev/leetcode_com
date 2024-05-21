@@ -2,6 +2,8 @@ https://leetcode.com/problems/squares-of-a-sorted-array/description/
 
 https://walkccc.me/LeetCode/problems/0977/ == two ptr
 
+related: https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array -- связь через проход с конца для ответа
+
 У Федора Меньшикова разбор отсут-т!
 
 ____
