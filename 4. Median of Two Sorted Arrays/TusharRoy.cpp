@@ -45,7 +45,7 @@ public:
                 // необходимо приблизиться к выполнению условия: maxLeftX <= minRightY
                 high = partitionX - 1;
                 //high = partitionX; // working!
-            } else {
+            } else { // нарушение в maxLeftY <= minRightX, т.е. maxLeftY > minRightX --> надо уменьшить maxLeftY
                 low = partitionX + 1;
             }
 
