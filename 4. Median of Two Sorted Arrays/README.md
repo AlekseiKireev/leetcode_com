@@ -21,4 +21,11 @@ my ex 1
             [1,2]
             [3,4,5]
 
-Expected 4.00000
+Expected 3.00000
+
+my ex 2
+
+            [1,3]
+            [2,4,5]
+
+Expected 3.00000
