@@ -22,8 +22,8 @@ x  $\to \quad \quad$  $x_1  \quad  x_2 \quad | \quad x_3 \quad x_4 \quad x_5$  <
 y  $\to \quad \quad$  $y_1  \quad y_2 \quad y_3 \quad y_4 \quad y_5 \quad | \quad y_6  \quad y_7 \quad y_8$ 
 
 default:
-- $ ... \leqslant x_2 \leqslant x_3 \leqslant ...$
-- $ ... \leqslant y_5 \leqslant y_6 \leqslant ...$
+- $... \leqslant x_2 \leqslant x_3 \leqslant ...$
+- $... \leqslant y_5 \leqslant y_6 \leqslant ...$
 
 * if $x_2 \leqslant y_6$ --> $x_1 \leqslant x_2 \leqslant y_6$
 * if $y_5 \leqslant x_3$ -->  $y_1 \leqslant ... \leqslant y_5 \leqslant x_3$
