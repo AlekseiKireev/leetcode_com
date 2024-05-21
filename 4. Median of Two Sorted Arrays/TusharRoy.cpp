@@ -26,6 +26,11 @@ public:
             int minRightY = (partitionY == y) ? INT_MAX : nums2[partitionY];
 
             if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
+
+                assert(partitionX + partitionY == (x + y) / 2
+                        ||
+                       partitionX + partitionY - 1 == (x + y) / 2    
+                      );
                 
                 return ( (x + y) % 2 == 0 ) ?
                      (double)( max(maxLeftX, maxLeftY) + min(minRightX, minRightY) ) / 2
