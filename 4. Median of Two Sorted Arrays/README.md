@@ -16,12 +16,12 @@ related: https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sor
 
 ___
 
-нечетная длина
+нечетная длина merge(x,y)
 
 x  $\to \quad \quad$  $x_1  \quad  x_2 \quad | \quad x_3 \quad x_4 \quad x_5$  <br>
 y  $\to \quad \quad$  $y_1  \quad y_2 \quad y_3 \quad y_4 \quad y_5 \quad | \quad y_6  \quad y_7 \quad y_8$ 
 
-четная длина
+четная длина merge(x,y)
 
 x  $\to \quad \quad$  $x_1  \quad  x_2 \quad | \quad x_3 \quad x_4 \quad x_5 \quad x_6$ <br>
 y  $\to \quad \quad$  $y_1  \quad y_2 \quad y_3 \quad y_4 \quad y_5 \quad | \quad y_6  \quad y_7 \quad y_8$ 
