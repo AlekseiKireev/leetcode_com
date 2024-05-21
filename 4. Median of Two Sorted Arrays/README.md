@@ -18,7 +18,7 @@ ___
 
 
 x  $\to \quad \quad$  $x_1  \quad  x_2 \quad | \quad x_3 \quad x_4 \quad x_5 \quad x_6$ <br>
-y  $\to \quad \quad$  $y_1  \quad y_2 \quad y_3 \quad \quad y_4 \quad y_5 | \quad y_6  \quad y_7 \quad y_8$ 
+y  $\to \quad \quad$  $y_1  \quad y_2 \quad y_3 \quad y_4 \quad y_5 | \quad y_6  \quad y_7 \quad y_8$ 
 
 
 my ex 1
