@@ -7,6 +7,8 @@ https://walkccc.me/LeetCode/problems/0049/
 
 _________
 
+49c.cpp == my_code.cpp
+
 [Разбор задачи 49 leetcode.com Group Anagrams. Решение на C++](https://www.youtube.com/watch?v=zi7yMt2pMUQ)
 
 Как группировать вместе:
