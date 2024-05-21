@@ -3,6 +3,7 @@ public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         
         unordered_map<string, vector<string>> SortStrToAnagrams;
+        //SortStrToAnagrams.reserve(strs.size()); // "Average case linear in the size of the container, worst case quadratic." <-- https://en.cppreference.com/w/cpp/container/unordered_map/reserve
         
         for(string& str : strs){
             
