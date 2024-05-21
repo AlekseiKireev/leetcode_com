@@ -23,6 +23,7 @@ Aleksandr, [5/21/2024 9:17 PM]
         <summary> counting  </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
                 https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements
+                https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String
                 https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words
         </details>
 </details>
