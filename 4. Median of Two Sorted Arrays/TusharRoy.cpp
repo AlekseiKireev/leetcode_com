@@ -15,7 +15,7 @@ public:
         int low = 0;
         int high = x; // x-1 --> RE
 
-        while (low <= high) {
+        while (low <= high) { // equiv: while (0 != high - low + 1) {
             int partitionX = (low + high) / 2;
             int partitionY = (x + y + 1) / 2 - partitionX; // max{  (x + y + 1) / 2 } = y
             assert(partitionX + partitionY == (x + y) / 2
