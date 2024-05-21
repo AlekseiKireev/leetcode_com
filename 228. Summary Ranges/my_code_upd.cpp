@@ -5,7 +5,7 @@ public:
 
         for(int RightPtr = 0; RightPtr < nums.size(); ++RightPtr){
             
-            int LeftPtr = RightPtr;
+            const int LeftPtr = RightPtr;
 
             for(;RightPtr+1 < nums.size() && nums[RightPtr] == nums[RightPtr+1] - 1; ++RightPtr);
 
