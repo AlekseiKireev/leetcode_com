@@ -8,6 +8,10 @@ https://walkccc.me/LeetCode/problems/0125/
 
 ______
 
+my_code.cpp == clear_my_code.cpp == 125a.cpp
+
+125b.cpp -- явная реализация tolower и isalnum
+
 [Разбор задачи 125 leetcode.com Valid Palindrome. Решение на C++](https://www.youtube.com/watch?v=JEH5gk_2g34)
 
 Как проверять буквы или цифры.
