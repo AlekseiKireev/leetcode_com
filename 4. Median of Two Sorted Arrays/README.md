@@ -25,8 +25,8 @@ default:
 - $... \leqslant x_2 \leqslant x_3 \leqslant ...$
 - $... \leqslant y_5 \leqslant y_6 \leqslant ...$
 
-* if $x_2 \leqslant y_6$ --> $x_1 \leqslant x_2 \leqslant y_6$
-* if $y_5 \leqslant x_3$ -->  $y_1 \leqslant ... \leqslant y_5 \leqslant x_3$
+* if $x_2 \leqslant y_6$ -->  $\quad x_1 \leqslant x_2 \leqslant y_6$
+* if $y_5 \leqslant x_3$ -->  $\quad y_1 \leqslant ... \leqslant y_5 \leqslant x_3$
 
 $median = max(x_2, y_5)$
 
