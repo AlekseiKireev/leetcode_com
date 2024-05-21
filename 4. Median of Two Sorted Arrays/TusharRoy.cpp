@@ -28,7 +28,7 @@ public:
             if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
                 
                 return ( (x + y) % 2 == 0 ) ?
-                     ( (double)max(maxLeftX, maxLeftY) + min(minRightX, minRightY) ) / 2
+                     (double)( max(maxLeftX, maxLeftY) + min(minRightX, minRightY) ) / 2
                         :
                      (double)max(maxLeftX, maxLeftY);
                 
