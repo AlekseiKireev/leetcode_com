@@ -17,8 +17,8 @@ related: https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sor
 ___
 
 
-x  $\to$  $x_1 \  x_2 \ | \ x_3 \ x_4 \ x_5 \ x_6$ <br>
-y  $\to$  $y_1  \ y_2  y_3 \ | \ y_4 \ y_5 \ y_6$ 
+x  $\to$  $x_1  \quad  x_2 \quad | \quad x_3 \quad x_4 \quad x_5 \quad x_6$ <br>
+y  $\to$  $y_1  \quad y_2 \quad y_3 \quad | \quad y_4 \quad y_5 \quad y_6$ 
 
 
 my ex 1
