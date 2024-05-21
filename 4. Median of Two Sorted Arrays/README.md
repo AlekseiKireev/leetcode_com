@@ -28,7 +28,7 @@ default:
 * if $x_2 \leqslant y_6$ -->  $\quad x_1 \leqslant x_2 \leqslant y_6$
 * if $y_5 \leqslant x_3$ -->  $\quad y_1 \leqslant ... \leqslant y_5 \leqslant x_3$
 
-Тогда, если упорядочить первые 7 элементов merge(x,y) : $x_1  \quad  x_2 \quad y_1  \quad y_2 \quad y_3 \quad y_4 \quad y_5$ , то справа будет либо $y_5$ либо $x_2$, а конкретнее $max(x_2, y_5)$
+Тогда, если упорядочить первые 7 элементов merge(x,y) : $x_1  \quad  x_2 \quad y_1  \quad y_2 \quad y_3 \quad y_4 \quad y_5$ , то справа будет либо $y_5$ либо $x_2$, а конкретнее $max(x_2, y_5)$ -- это бцдет 7 элемент в 13 элементном множестве, т.е. медиана
 
 $median = max(x_2, y_5)$
 
