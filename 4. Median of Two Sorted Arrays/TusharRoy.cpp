@@ -10,7 +10,8 @@ public:
 
         int x = nums1.size();
         int y = nums2.size();
-
+        assert(x <= y);
+        
         int low = 0;
         int high = x;
 
