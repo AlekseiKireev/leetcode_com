@@ -13,7 +13,7 @@ public:
         assert(x <= y);
 
         int low = 0;
-        int high = x;
+        int high = x; // x-1 --> RE
 
         while (low <= high) {
             int partitionX = (low + high) / 2;
