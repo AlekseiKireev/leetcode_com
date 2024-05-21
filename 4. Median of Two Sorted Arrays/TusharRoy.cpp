@@ -44,6 +44,7 @@ public:
             if (maxLeftX > minRightY) { 
                 // необходимо приблизиться к выполнению условия: maxLeftX <= minRightY
                 high = partitionX - 1;
+                //high = partitionX; // working!
             } else {
                 low = partitionX + 1;
             }
