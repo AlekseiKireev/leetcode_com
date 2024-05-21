@@ -239,7 +239,7 @@ Aleksandr, [5/21/2024 9:17 PM]
 
 <details>  
 <summary> 2D Matrix </summary>    
-    
+    https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
 </details>
 
 
