@@ -2,6 +2,8 @@ https://leetcode.com/problems/is-subsequence/description/
 
 https://walkccc.me/LeetCode/problems/0392/
 
+392a.cpp == my_code.cpp
+
 392b.cpp == Follow up
 
 __________
