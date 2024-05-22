@@ -5,6 +5,10 @@ https://walkccc.me/LeetCode/problems/0001/
 related: https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
 ____________________
 
+В этой задачи входные данные могут быть не отсортированны, в сравнении с 167!
+
+        [7,2,11,15]
+        9
 
 Важный тест: [3,4,5,3,8], target = 6
 
