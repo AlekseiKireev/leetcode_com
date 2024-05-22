@@ -6,7 +6,7 @@ analogue: https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20D
 
 ________
 
-Имеет место очевидная формула: $CountNotZero + CountZero = i$, где
+Имеет место очевидная формула: $LastIdxNotZero + CountZero = i$, где
 
 $i$ - индекс $nums$
 
