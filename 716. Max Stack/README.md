@@ -1,5 +1,7 @@
 https://leetcode.com/problems/max-stack/description/ - closed
 
+https://www.lintcode.com/problem/859/
+
 У Федора Меньшикова разбор отсут-т!
 
 https://walkccc.me/LeetCode/problems/716/
