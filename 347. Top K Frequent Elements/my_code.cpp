@@ -20,8 +20,7 @@ public:
 
             CountToNum.push_back({cnt, num});
 
-         }
-        CountToNum.shrink_to_fit();
+         }        
 
         nth_element(
             CountToNum.begin(),
