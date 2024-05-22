@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxPower(string s) {
+    int maxPower(string_view s) {
 
         int LenSub = 1;
 
