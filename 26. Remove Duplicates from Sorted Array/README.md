@@ -7,6 +7,8 @@ https://walkccc.me/LeetCode/problems/0026/
 analogue: https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes
 ___________
 
+i-CountDuplicates = CountUnique
+
 #  <p align="center"> Алгоритм для my_code_with_my_unique.cpp </p>
 
 ## <p align="center"> Пример 1 </p>
