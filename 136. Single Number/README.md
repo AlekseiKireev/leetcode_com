@@ -1,6 +1,6 @@
 https://leetcode.com/problems/single-number/description/  
-related:  
-- https://leetcode.com/problems/single-number-ii/
+
+related:  https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II
 
 https://walkccc.me/LeetCode/problems/0136/
 
