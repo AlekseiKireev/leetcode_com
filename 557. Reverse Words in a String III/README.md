@@ -2,6 +2,11 @@ https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
 
 https://walkccc.me/LeetCode/problems/0557/
 
+Примечательно то, что при запуске теста
+
+    "Let's    take"
+
+выдается ошибка: Invalid Testcase   The words should be separated by a single space. -- об этом нет в условии. 
 __________
 
 [Разбор задачи 557 leetcode.com Reverse Words in a String III. Решение на C++](https://www.youtube.com/watch?v=1IYt44WYzkM)
