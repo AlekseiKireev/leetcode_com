@@ -262,6 +262,8 @@ https://leetcode-company-tagged.vercel.app/yandex
 https://leetcode.com/problem-list/oy4y273c/
 
 Архив условий и решений: https://github.com/doocs/leetcode/tree/main/solution
+
+чтобы зарегестрироваться в https://www.lintcode.com/ -- можно использовать viber (при регистрации по номеру телефона туда приходит верифицированный код)! На этом сайте есть возможность сдать закрытые заадчи с leetcode
 _________
 
 Ускорение ввода-вывода
