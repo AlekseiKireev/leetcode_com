@@ -9,6 +9,10 @@ https://walkccc.me/LeetCode/problems/0557/
 выдается ошибка: Invalid Testcase   The words should be separated by a single space. -- об этом нет в условии. 
 __________
 
+557c-d.cpp -- явная реализация reverse
+
+my_code_two_ptr.cpp == my_code_in_place.cpp == my_code_two_ptr.cpp
+
 [Разбор задачи 557 leetcode.com Reverse Words in a String III. Решение на C++](https://www.youtube.com/watch?v=1IYt44WYzkM)
 
 Ожидаемые характеристики:
