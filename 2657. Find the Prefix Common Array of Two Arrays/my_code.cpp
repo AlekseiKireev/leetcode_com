@@ -6,7 +6,9 @@ public:
         const int CountPermutations = 2;
 
         vector<int> PrefixCommonArray(SIZE); // искомое
-        vector<int> CountValInPrefix(SIZE + 1); // "+1" для удобства ввиду "A sequence of n integers is called a permutation if it contains all integers from 1 to n exactly once."
+        // "+1" для удобства ввиду "A sequence of n integers is called a permutation if it contains all integers from 1 to n exactly once."
+        // т.е. в входном массие размера SIZE содержатся элименты {1, 2 ,..., SIZE} -- нам надо их подсчитвать, удобнее всего использовать число как индекс
+        vector<int> CountValInPrefix(SIZE + 1); 
        
         int SizeCommonPrefix = 0; // Количество одинаковых элементов в префиксах массивов A и B длины i + 1 
 
