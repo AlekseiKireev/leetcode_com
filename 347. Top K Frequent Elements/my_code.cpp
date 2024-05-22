@@ -7,7 +7,8 @@ public:
             return nums;
         }   
 
-        unordered_map<int, int> NumToCount; NumToCount.reserve(nums.size() - 1);
+        unordered_map<int, int> NumToCount; 
+        //NumToCount.reserve(nums.size() - 1); // медленно работает, сам. докуменатцию!
 
         for(int num : nums){
             ++NumToCount[num];
