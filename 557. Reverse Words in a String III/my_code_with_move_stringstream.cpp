@@ -4,8 +4,8 @@ public:
         stringstream ss(move(s)); // а тут точно работает move? Найти пруф в документации!   
 
         string ans; ans.reserve(s.size());
-        string buffer;
-        while(ss >> buffer){
+        
+        for(string buffer; ss >> buffer; ){
             reverse(buffer.begin(), buffer.end());
             ans += (move(buffer) + " ");
 
