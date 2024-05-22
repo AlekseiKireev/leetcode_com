@@ -37,7 +37,15 @@ Aleksandr, [5/21/2024 9:17 PM]
 
 <details>  
 <summary> Bitwise operator </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
+                        | Оператор | Действие          |
+                        |----------|-------------------|
+                        | &        | И                 |
+                        | \|       | ИЛИ               |
+                        | ^        | Исключающее ИЛИ   |
+                        | ~        | Дополнение        |
+                        | >>       | Сдвиг вправо      |
+                        | <<       | Сдвиг влево       | 
+    <br>https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
     https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II    
     https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
 </details>
