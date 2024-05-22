@@ -3,6 +3,18 @@ https://leetcode.com/problems/move-zeroes/
 https://walkccc.me/LeetCode/problems/0283/
 
 analogue: https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
+
+________
+
+Имеет место очевидная формула: $LastIdxNotZero + CountZero = i$, где
+
+$i$ - индекс $nums$
+
+$CountZero$ - количество нулей в префиксе $nums$, в диапозоне индексов от 0 до $i$
+
+$LastIdxNotZero$ - количество НЕ нулей в префиксе $nums$, в диапозоне индексов от 0 до $i$
+
+Примечательно, что решение my_code_with_CountZero.cpp схоже с Create my_code_without_unique.cpp задачи 26. Remove Duplicates from Sorted Array
 ________
 
 283c.cpp == my_code_with_CountNOTZero.cpp
@@ -165,14 +177,4 @@ _________
 
 std::move для int'ов не делает вообще ничего. Она облегчает перенос для чего-то, у чего внутренность лежит в динамической памяти. Тогда приёмник может получить ссылку на внутренность того, откуда идёт перенос. И тогда реально копирования основной части данных не происходит. Например в vector, map и похожих контейнерах. Нужно всего лишь понимать как контейнеры внутри устроены. Например у std::array нет указателей внутри - и std::move для него ничего не сможет сделать. Как и для любого элементарного типа, как и для структуры без указателей. Однако если структура с указателями создана Вами лично, то опять же недостаточно написать move, нужно ещё и методы обработки написать - move constructor, move assignment operator.
 
-________
 
-Имеет место очевидная формула: $LastIdxNotZero + CountZero = i$, где
-
-$i$ - индекс $nums$
-
-$CountZero$ - количество нулей в префиксе $nums$, в диапозоне индексов от 0 до $i$
-
-$LastIdxNotZero$ - количество НЕ нулей в префиксе $nums$, в диапозоне индексов от 0 до $i$
-
-Примечательно, что решение my_code_with_CountZero.cpp схоже с Create my_code_without_unique.cpp задачи 26. Remove Duplicates from Sorted Array
