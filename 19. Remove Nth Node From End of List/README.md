@@ -2,6 +2,8 @@ https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
 https://walkccc.me/LeetCode/problems/0019/
 
+Суть в том, чтобы двигать окно длиную n+1=RightPtr - LeftPtr + 1, тогда  LeftPtr->next -- элемент, который надо удалить (это легко можно увидеть, держа перед глазами изображение списка). отметим, что RightPtr и LeftPtr не указывают на nullptr. Если RightPtr == nullptr, удаляем первый элемент массива
+
 ____
 
 [Разбор задачи 19 leetcode.com Remove Nth Node From End of List. Решение на C++](https://www.youtube.com/watch?v=-Fak6wi8I98)
