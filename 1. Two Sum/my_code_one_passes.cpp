@@ -9,7 +9,7 @@ vector<int> twoSum(const vector<int>& nums, int target) {
                
         const int complement = target - nums[idx];
 
-        if (NumbToIdx.count(complement) && NumbToIdx[complement] != idx) {
+        if (NumbToIdx.count(complement) && NumbToIdx[complement] != idx) { // "NumbToIdx[complement] != idx" <-- nums = [3,2,4] target = 6
             return { NumbToIdx[complement], idx };
         }
         
