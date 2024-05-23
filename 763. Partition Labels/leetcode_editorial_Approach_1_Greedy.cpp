@@ -3,6 +3,7 @@ public:
     std::vector<int> partitionLabels(std::string_view S) {
 
         // CharToLastID[IdxChar] -> index of S where char occurs CharToLastID
+        // 26 --> "s consists of lowercase English letters."
         std::array<int, 26> CharToLastID; CharToLastID.fill(0);
         for (int i = 0; i < S.length(); ++i){
             CharToLastID[S[i] - 'a'] = i; // "s consists of lowercase English letters."
