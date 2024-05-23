@@ -2,6 +2,10 @@ https://leetcode.com/problems/symmetric-tree/description/
 
 https://walkccc.me/LeetCode/problems/0101/
 
+____
+
+Используется preorder обход, чтобы сразу анализировать входные узлы
+
 * Конспекта не велось
 
 101a.cpp == my_code_upd.cpp == my_code.cpp == rec  
