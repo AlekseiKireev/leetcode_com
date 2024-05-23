@@ -19,3 +19,24 @@ public:
 
     }
 };
+/*
+class Solution {
+public:
+    int rand10() {
+        int val;
+        while(true){
+
+        const int x = rand7();
+        const int y = rand7();
+
+        val = x + (y-1)*7;
+
+        if(val <= 10){break;}
+
+    }
+    assert(1 <= val <= 10);
+    return  (val);
+
+    }
+};
+*/
