@@ -2,7 +2,7 @@ https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characte
 
 https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0340.Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters/README_EN.md
 
-https://walkccc.me/LeetCode/problems/0340/
+https://walkccc.me/LeetCode/problems/0340/ -- можно сдать сюда, попробовав написать общую функцию для leetcode 340. Longest Substring with At Most K Distinct Characters
 
 related: 
 340. Longest Substring with At Most K Distinct Characters --> [159. Longest Substring with At Most Two Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters)
