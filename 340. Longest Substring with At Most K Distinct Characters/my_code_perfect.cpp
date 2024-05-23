@@ -36,7 +36,7 @@ public:
                 }
             }
             
-            // по сути этот оператор вообще не нужен!
+            // по сути этот оператор вообще не нужен! (обновление ответа нужно!
             if(PowerSlidingWindow <= k){ // "<=" обусловлен s = "aaaaaaaa", k = 3 --> 8
                 LengthSubstr = max(LengthSubstr, RightPtr - LeftPtr + 1);
             }
