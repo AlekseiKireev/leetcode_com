@@ -6,6 +6,8 @@ https://walkccc.me/LeetCode/problems/0424/
 
 У Федора Меньшикова разбор отсут-т!
 
+analoge: https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters
+
 ___
 
 related: 
