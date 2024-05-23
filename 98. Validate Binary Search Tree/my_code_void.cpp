@@ -8,7 +8,7 @@ bool flag = false;
 
 void InOrder(TreeNode* node){
 
-    if(node == nullptr){return;}
+    if(node == nullptr || Result== false){return;}
 
     InOrder(node->left);
 
