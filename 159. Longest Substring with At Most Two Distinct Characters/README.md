@@ -1,4 +1,4 @@
-https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/ <-- https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/ -- CLOSED == premium
+CLOSED == premium -- https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/ <-- https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/ 
 
 https://walkccc.me/LeetCode/problems/0159/
 
