@@ -13,7 +13,8 @@ public:
 
     }
 
-    return 1 + (val - 1)%10;
+    assert(1 <= val <= 40);        
+    return 1 + (val)%10;
 
     }
 };
