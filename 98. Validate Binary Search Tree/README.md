@@ -2,6 +2,8 @@ https://leetcode.com/problems/validate-binary-search-tree/
 
 https://walkccc.me/LeetCode/problems/0098/
 
+related:  
+- Также аналогичный подход используется в задаче https://github.com/SkosMartren/leetcode_com/tree/main/938.%20Range%20Sum%20of%20BST -- обходим дерево inorder
 ________
 
 [Разбор задачи 98 leetcode.com Validate Binary Search Tree. Решение на C++](https://www.youtube.com/watch?v=Ik2KuUxhuQs&ab_channel=3.5%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D0%B2%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8E)
