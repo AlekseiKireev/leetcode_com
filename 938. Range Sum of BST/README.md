@@ -1,7 +1,7 @@
 https://leetcode.com/problems/range-sum-of-bst/description/
 
 related:  
-- Также аналогичный подход используется в задаче https://leetcode.com/problems/validate-binary-search-tree/ -- обходим дерево inorder
+- Также аналогичный подход используется в задаче https://github.com/SkosMartren/leetcode_com/tree/main/98.%20Validate%20Binary%20Search%20Tree -- обходим дерево inorder
 
 https://walkccc.me/LeetCode/problems/0938/
 
