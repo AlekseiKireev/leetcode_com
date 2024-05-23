@@ -2,6 +2,8 @@ https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
 related: https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum
 
+* Наличие сортировки позваляет решить за O(1) по памяти с помощью двух указателей (167. Two Sum II - Input Array Is Sorted)
+* при отсутствии сортировки придется воспользоваться дополнительной памятью (1. Two Sum)
 ____
 
 Два указателя -- надо сначала найти инвариант?
