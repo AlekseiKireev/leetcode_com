@@ -50,6 +50,7 @@ public:
         
         vector<int>  start_indices;
 
+        // "s and p consist of lowercase English letters."
         array<int,26> CharAngToCount; CharAngToCount.fill(0);
         for(char ch : ang){
             --CharAngToCount[ch - 'a'];
