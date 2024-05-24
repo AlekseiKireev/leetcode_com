@@ -7,6 +7,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
         <details>  
         <summary> Merge   </summary>
+            https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees
             https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
             https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists
             https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
