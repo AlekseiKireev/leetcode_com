@@ -1,9 +1,3 @@
-А Б, [5/21/2024 9:14 PM]
-ой, а расскажите, что попалось?)
-
-Aleksandr, [5/21/2024 9:17 PM]
-Конкретно тут я откажусь писать, так как меня скорее всего легко смогут вычислить, если вдруг тут интервьюверы сидят. Могу сказать, что можете посмотреть в сторону https://www.lintcode.com/problem/960/
-
 <details>  
 <summary>  Topics </summary>
 
@@ -158,7 +152,8 @@ Aleksandr, [5/21/2024 9:17 PM]
     https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
     https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
     https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
-    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls        
+    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls
+    https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II
 </details>
 
 
