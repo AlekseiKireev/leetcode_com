@@ -34,6 +34,7 @@ Aleksandr, [5/21/2024 9:17 PM]
     https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum
     https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters
     https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters
+    https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays
 </details>
 
 
