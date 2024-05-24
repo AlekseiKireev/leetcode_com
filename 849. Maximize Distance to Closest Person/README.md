@@ -2,6 +2,9 @@ https://leetcode.com/problems/maximize-distance-to-closest-person/
 
 https://walkccc.me/LeetCode/problems/0849/
 
+https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
+<-- 
+https://github.com/SkosMartren/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones
 _________
 
 [Разбор задачи 849 leetcode.com Maximize Distance to Closest Person. Решение на C++](https://www.youtube.com/watch?v=EcFZ4l0EN1A)
