@@ -6,7 +6,6 @@ public:
         assert(nums1.size() <= nums2.size());
 
         // "Each element in the result must be unique and you may return the result in any order."
-        // теперь nums1 пустой, будем в него складывать!
         unordered_set<int> Numbers = {make_move_iterator(nums1.begin()), make_move_iterator(nums1.end())};
 
         vector<int> intersection; intersection.reserve(Numbers.size());
