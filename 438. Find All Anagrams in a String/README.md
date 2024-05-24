@@ -8,6 +8,10 @@ https://walkccc.me/LeetCode/problems/0438/
 В 438 необходимо вернуть массив ВСЕХ индексов, с которого начинается искомая анаграмма, в то время как в 567 
 необходимо вернуть булево значение ( == есть ли хотя бы один индекс)
 
+438. Find All Anagrams in a String --> 567. Permutation in String --> 242. Valid Anagram
+
+---
+
 Подстрока является анаграммой если: 
 1. CountCharsAngInWindow == ang.size()
 2. RightPtr - LeftPtr + 1 == ang.size()
@@ -15,7 +19,7 @@ https://walkccc.me/LeetCode/problems/0438/
 * пример нарушения 1. и соблюдения 2. : s = "zabcde", ang = "cb" -- в подстроке "zabc" количество символов из ang равно 2
 * пример нарушения 2. и соблюдения 1. : s = "zabcde", ang = "cb" -- в подстроке "de" символов столько, сколько в ang, но строка не является анаграммой
 
-438. Find All Anagrams in a String --> 567. Permutation in String --> 242. Valid Anagram
+
 
 -----------
 
