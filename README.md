@@ -32,6 +32,8 @@ Aleksandr, [5/21/2024 9:17 PM]
 <details>  
 <summary> Sliding Window </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum
+    https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters
+    https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters
 </details>
 
 
