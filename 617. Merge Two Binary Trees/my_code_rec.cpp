@@ -22,6 +22,8 @@ TreeNode* Preorder(TreeNode* node1, TreeNode* node2){
     }    
 
     assert(node1 != nullptr && node2 != nullptr );
+
+    // будем перезаписывать результат в node1, поэтому обновляем в нем поля!
     node1->val += node2->val;
 
     node1->left = Preorder(node1->left, node2->left);
