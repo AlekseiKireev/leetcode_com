@@ -13,6 +13,10 @@ https://leetcode.com/problems/maximum-subarray/solutions/ -- см. топ 3
 1. Он является искомым, берем, например: [-1,-2,42]
 2. Его стоит добавить к иному оптимальному окну, берем, например:  [-1,2,42],  [1,2,42]
 3. его не стоит брать, так как он уменьшает сумму окна, например:  [-1,2,-42], [1,2,-42]
+
+        CurrentMaxAffixSum = max(CurrentMaxAffixSum + nums[i], nums[i]); // обработка 1. и 2.
+        TotalMaxAffixSum = max(TotalMaxAffixSum, CurrentMaxAffixSum); // обработка 3.
+
 ____
 
 [Разбор задачи 53 leetcode.com Maximum Subarray. Решение на C++](https://www.youtube.com/watch?v=JGoQK5MUbIY)
