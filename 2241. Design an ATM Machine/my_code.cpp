@@ -28,7 +28,9 @@ public:
     
     vector<int> withdraw(int amount) { // "When withdrawing, the machine prioritizes using banknotes of larger values."
         
-        if(amount % 10 || amount < 20){return {-1};}
+        if(amount % 10 /*20a+50b+100c+200d+500e = 10(...)*/
+            || 
+        amount < 20){return {-1};}
 
 
         vector<int> WithdrawBanknotes(5);
@@ -41,13 +43,16 @@ public:
             Count = min(Count, BankAccount[i]); // либо Count <= BankAccount[i], тогда списываем ВЕСЬ необходимый Count, либо Count > BankAccount[i], тогда придется брать из остальных номиналов 
             amount -= Count * denominations[i];
 
+            /*сначала обновляем, затем выходим, если есть такая возможность*/
             WithdrawBanknotes[i] = Count;
             BankAccount[i] -= Count;
-
+            
             if(amount == 0) {return WithdrawBanknotes;}
         }
 
-        BankAccount = CopyBankAccount; // восстановление количемтва купюр в банкомате
+        assert(amount != 0); // "do not withdraw any banknotes in this case"
+        BankAccount = CopyBankAccount; // восстановление количемтва купюр в банкомате: это необходимо ввиду неудачного обновления при  BankAccount[i] -= Count
+        
         return {-1}; // <-- "Returns [-1] if it is not possible (do not withdraw any banknotes in this case)."
         
         
