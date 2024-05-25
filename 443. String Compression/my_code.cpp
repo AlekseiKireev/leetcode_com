@@ -38,3 +38,40 @@ public:
         return NewLength;
     }
 };
+/*
+class Solution {
+public:
+    int compress(vector<char>& chars) {
+        
+        int LenghtCompress = 0;
+
+        for(int i = 1; i < chars.size(); ++i){
+            
+            const char CurrentChar = chars[i-1];
+            int CountRepeat = 1;
+
+            for(; i < chars.size() && chars[i-1] == chars[i]; ++i){ // порядок важен: сначала проверка валидности индексов, потом работа с индексом!
+                ++CountRepeat;
+                
+            }
+            
+            chars[LenghtCompress] = CurrentChar;
+            ++LenghtCompress;
+
+            if(CountRepeat != 1){
+            
+                for(char ch : to_string(CountRepeat)){
+                    chars[LenghtCompress] = ch;
+                    ++LenghtCompress;
+                }
+
+            }
+
+
+
+        }
+
+        return LenghtCompress;
+    }
+};
+*/
