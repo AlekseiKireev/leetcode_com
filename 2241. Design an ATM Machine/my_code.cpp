@@ -36,6 +36,7 @@ public:
         vector<int> WithdrawBanknotes(5);
         const array<size_t, 5> CopyBankAccount = BankAccount; // для случия если снять не удалось (вывод {-1}), восстановить количество купюр в банкомате
 
+        // можно заметить схожесть с https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
         for(int i = 4 ; i >= 0 ; --i){
 
             size_t Count = amount / denominations[i]; // далее переменная amount будет изментсья, важно снять данные исходя из исходного значения!
