@@ -26,6 +26,7 @@
 
 <details>  
 <summary> Sliding Window </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters
     https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum
     https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters
     https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters
@@ -208,8 +209,7 @@
 
 
 <details>  
-<summary> Two pointer </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters
+<summary> Two pointer </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
