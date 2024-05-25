@@ -11,14 +11,14 @@ public:
     }
 
     // Push element x to the back of queue.
-    void push(int x) {
+    void push(int x) { // == deque::push_back
         if (s1.empty()) {
             front = x;
         }
         s1.push(x);
     }
 
-    int pop() {
+    int pop() { // == deque::pop_front
         if (s2.empty()) {
             while (!s1.empty()) {
                 s2.push(s1.top());
@@ -31,7 +31,7 @@ public:
     }
 
     // Get the front element.
-    int peek() {
+    int peek() { // == deque::front
         if (!s2.empty()) {
             return s2.top();
         }
@@ -39,7 +39,7 @@ public:
     }
 
     // Return whether the queue is empty.
-    bool empty() {
+    bool empty() { // == deque::empty
         return s1.empty() && s2.empty();
     }
 };
