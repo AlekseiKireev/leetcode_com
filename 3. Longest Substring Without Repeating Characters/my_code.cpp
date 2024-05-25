@@ -17,7 +17,8 @@ public:
             // проверка на сдвиг правого указателя: необходимо выполнение услвоия "substring without repeating characters."
             for(;Right < Str.size() && CharToExistingInSlidingWindow[Str[Right]] == false;++Right){  // сдвиг правого указателя
                 CharToExistingInSlidingWindow[Str[Right]] = true;  // обновляем информацию о окне после сдвига правого указателя               
-            }
+            
+            } // Str[Right] уже встречался в {Str[Left], ..., Str[Right-1]} --> длина текущей подходящйе подсткроки: Right - 1 - Left + 1
 
             Length = max(Length, Right - Left); // "find the length of the longest substring"
 
