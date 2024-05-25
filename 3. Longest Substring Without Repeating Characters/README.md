@@ -6,7 +6,7 @@ ____
 
 3a.cpp == 4. alg  
 3b.cpp == 3. alg  
-3c.cpp == 5. alg
+3c.cpp == my_code.cpp == 5. alg
 
 1. O(n^4)
 
