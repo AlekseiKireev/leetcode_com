@@ -49,3 +49,50 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
+
+/*
+
+class MyQueue {
+
+private:
+
+stack<int, vector<int>> in;
+stack<int, vector<int>> out; 
+
+void PreparedOut(){
+
+    if(out.empty()){
+
+        for(;!in.empty();in.pop()){
+            out.push(in.top());
+        }
+    }
+    
+}
+
+public:
+    MyQueue() {
+        
+    }
+    
+    void push(int x) {
+        in.push(x);
+    }
+    
+    int pop() {
+        const int TOP = peek();
+        out.pop();
+        return TOP;
+    }
+    
+    int peek() {
+        PreparedOut();
+        return out.top();
+    }
+    
+    bool empty() {
+        return (in.empty() && out.empty());
+    }
+};
+
+*/
