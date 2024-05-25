@@ -6,4 +6,6 @@ https://leetcode.com/problems/design-an-atm-machine/description/
 
 https://walkccc.me/LeetCode/problems/2241/
 
+analoge: https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
+
 У Федора Меньшикова разбор отсут-т!
