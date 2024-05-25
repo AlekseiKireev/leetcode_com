@@ -3,7 +3,7 @@
 class MyQueue {
 private:
     std::stack<int> s1;
-    std::stack<int> s2;
+    std::stack<int> s2; // upd in int pop()
     int front;
 
 public:
