@@ -12,7 +12,8 @@ public:
         
         vector<vector<int>> Ans;
 
-        for(int FirstPtr = 0, SecondPtr = 0; FirstPtr < firstList.size() && SecondPtr < secondList.size(); ){
+        // как только один из контейнеров кончиться, нет смысла проверять остатки оствашегося, так как "Each list of intervals is pairwise disjoint"
+        for(int FirstPtr = 0, SecondPtr = 0; FirstPtr < firstList.size() && SecondPtr < secondList.size(); ){ 
 
             if( CheckIntersectionSortedIntervals(firstList[FirstPtr], secondList[SecondPtr]) ){
 
