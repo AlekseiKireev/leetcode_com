@@ -10,7 +10,7 @@ private:
 public:
     vector<vector<int>> intervalIntersection(vector<vector<int>>& firstList, vector<vector<int>>& secondList) {
         
-        vector<vector<int>> Ans;
+        vector<vector<int>> Ans; Ans.reserve(min(firstList.size(), secondList.size()));
 
         // как только один из контейнеров кончиться, нет смысла проверять остатки оствашегося, так как "Each list of intervals is pairwise disjoint"
         for(int FirstPtr = 0, SecondPtr = 0; FirstPtr < firstList.size() && SecondPtr < secondList.size(); ){ 
