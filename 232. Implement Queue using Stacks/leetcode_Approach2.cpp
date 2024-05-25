@@ -43,4 +43,51 @@ public:
         return s1.empty() && s2.empty();
     }
 };
+/*
+#include <stack>
 
+class MyQueue {
+private:
+    std::stack<int> BackQueue;
+    std::stack<int> FrontReverseQueue;
+    int front;
+
+public:
+    MyQueue() {
+    }
+
+    // Push element x to the back of queue.
+    void push(int x) {
+        if (BackQueue.empty()) {
+            front = x;
+        }
+        BackQueue.push(x);
+    }
+
+    int pop() {
+        if (FrontReverseQueue.empty()) {
+            while (!BackQueue.empty()) {
+                FrontReverseQueue.push(BackQueue.top());
+                BackQueue.pop();
+            }
+        }
+        int result = FrontReverseQueue.top();
+        FrontReverseQueue.pop();
+        return result;
+    }
+
+    // Get the front element.
+    int peek() {
+        if (!FrontReverseQueue.empty()) {
+            return FrontReverseQueue.top();
+        }
+        return front;
+    }
+
+    // Return whether the queue is empty.
+    bool empty() {
+        return BackQueue.empty() && FrontReverseQueue.empty();
+    }
+};
+
+*/
