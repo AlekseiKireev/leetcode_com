@@ -25,3 +25,20 @@ public:
 
     }
 };
+/* по объяснению ФМ:
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        
+        int MAX_Profit = 0;
+        int PostfixMaxSell = -1;
+
+        for(int i = prices.size() - 2; i >= 0; --i){
+            PostfixMaxSell = max(PostfixMaxSell, prices[i+1]);
+            MAX_Profit = max(MAX_Profit, PostfixMaxSell - prices[i]);
+        }
+
+        return MAX_Profit;
+    }
+};
+*/
