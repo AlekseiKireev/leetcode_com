@@ -22,3 +22,31 @@ public:
         return m == n + 1; // ab abc
     }
 };
+
+/*
+class Solution {
+public:
+
+    bool isOneEditDistance(string &s, string &t) {
+
+        int m = s.size(), n = t.size();
+        if (m - n > 1) return false;
+        if (m < n) return isOneEditDistance(t, s);
+        assert(m == n || m == n + 1); // t.size() <= s.size()
+
+        for(int i = 0; i < n; ++i){
+
+            if(s[i] != t[i]){
+                return (m == n) ? 
+                s.substr(i + 1) == t.substr(i + 1)
+                                :
+                s.substr(i + 1) == t.substr(i) // t < s, Ex: s = "acb", t = "ab"
+                                ;
+            }
+        }
+
+        return m == n + 1;
+
+    }
+};
+*/
