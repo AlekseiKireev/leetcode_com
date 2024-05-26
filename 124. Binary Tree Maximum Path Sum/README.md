@@ -32,3 +32,16 @@ visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
        1
       / \
     2     3
+
+
+             -3
+             / \
+           -1   -2  
+         
+              3
+             / \
+            1   2  
+         
+              3
+             / \
+            1   -2  
