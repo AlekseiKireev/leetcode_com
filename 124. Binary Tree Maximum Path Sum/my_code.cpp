@@ -12,6 +12,7 @@
 class Solution {
 public:
 
+    // глобальынй минимум для обработки случаев: root = [-3]   Expected -3
     int max_sum = -1001; // -1000 <= Node.val <= 1000
 
     int max_gain(TreeNode* root) {
