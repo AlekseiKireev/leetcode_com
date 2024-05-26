@@ -152,14 +152,14 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
     https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
-    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls
-    https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II
+    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls    
         <details>  
         <summary> Data Strucut </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
             https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack 
             https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks
             https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache
+            https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II
         </details>
 </details>
 
