@@ -17,7 +17,8 @@ public:
                 return s.substr(i + 1) == t.substr(i); // Delete s[i] or Insert before t[i]
             }
         }
-      
+        
+        //return true; // error: s = "", t = ""
         return m == n + 1; // ab abc
     }
 };
