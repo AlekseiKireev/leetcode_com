@@ -49,6 +49,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers
         https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
         https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings
+        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
         https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()
     https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle
 </details>
@@ -147,17 +148,19 @@
 
 
 <details>  
-<summary> Design </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
-    https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack
-    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>
-    https://github.com/SkosMartren/leetcode_com/blob/main/12.%20Integer%20to%20Roman
-    https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
+<summary> Design </summary>        
+    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
     https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
     https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls
     https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II
+        <details>  
+        <summary> Data Strucut </summary>    
+            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
+            https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack 
+            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks
+            https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache
+        </details>
 </details>
 
 
