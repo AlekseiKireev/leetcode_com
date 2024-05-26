@@ -18,6 +18,8 @@ related:
 ___
 
  the length of the longest substring containing the same letter you can get after performing the above operations == <br>
-k - j + 1 == <br>
+i - j + 1 == <br>
 LengthLongestSubstring = <br>
-k + MaxCountRepeatSymb : MaxCountRepeatSymb contained in {s[j], ..., s[k]}
+k + MaxCountRepeatSymb : MaxCountRepeatSymb contained in {s[j], ..., s[k]} -- при условии замены, например, такое рассуждение не верно для теста: Input s = "AAAA" k = 2   Output 6 Expected 4
+
+Для того, чтобы поддерживать глобальный максимум MaxCountRepeatSymb необходимо оттображение CharToCountInSW
