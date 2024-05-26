@@ -24,13 +24,13 @@ _____
 
 можно понять CurrentPosition и причину использования reverse
 
-   11
-x  18
------
-   88  (11 * 8)
-+ 110  (11 * 10, shifted one position to the left)
------
-  198
+         11
+      x  18
+      -----
+         88  (11 * 8)
+      + 110  (11 * 10, shifted one position to the left)
+      -----
+        198
 
 _____
 
