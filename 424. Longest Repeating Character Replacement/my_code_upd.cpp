@@ -18,7 +18,8 @@ public:
             for (;LeftPtr < RightPtr && WindowLength - MaxCountRepeatSymb == k + 1; LeftPtr++) {
                 
                 --CharToCountInWindow[S[LeftPtr] - 'A'];                                
-                WindowLength = RightPtr - LeftPtr; // нет "+1" так как WindowIdx == (LeftPtr, RightPtr] 
+                //WindowLength = RightPtr - LeftPtr; // нет "+1" так как WindowIdx == (LeftPtr, RightPtr] 
+                --WindowLength; // получается, не смысла в цикле, при изменение этой переменной происходыт выход из цикла!
             }
 
             /* MaxCountRepeatSymb достиг максимального значения, после того как RightPtr увеличивается на 1 
