@@ -17,9 +17,11 @@ public:
 
             if(WindowLength - MaxCountRepeatSymb == k + 1) {
                 
-                --CharToCountInWindow[S[LeftPtr] - 'A'];                                         
+                --CharToCountInWindow[S[LeftPtr] - 'A'];     
+                LeftPtr++;
+                
                 --WindowLength; // убрали символ на который указывет LeftPtr
-                LeftPtr++;   
+                   
             }
 
             /* MaxCountRepeatSymb достиг глобального максимального значения. после того как RightPtr увеличивается на 1 
