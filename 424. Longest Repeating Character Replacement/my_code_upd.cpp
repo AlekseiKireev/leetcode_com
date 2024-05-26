@@ -15,7 +15,7 @@ public:
 
             int WindowLength = RightPtr - LeftPtr + 1;
 
-            for (;LeftPtr < RightPtr && WindowLength - MaxCountRepeatSymb > k; LeftPtr++) {
+            for (;LeftPtr < RightPtr && WindowLength - MaxCountRepeatSymb == k + 1; LeftPtr++) {
                 
                 --CharToCountInWindow[S[LeftPtr] - 'A'];                                
                 WindowLength = RightPtr - LeftPtr; // нет "+1" так как WindowIdx == (LeftPtr, RightPtr] 
