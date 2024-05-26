@@ -11,14 +11,32 @@ class MaxStack {
 
 list<int> OrderVal;
 map< int, vector<list<int>::iterator>, greater<int> > ValToItsOnVal;
-
+/* vector<list<int>::iterator> так как видно, что значения, в том числе максимальные, могут повторяться 
+Input:
+push(5)
+push(1)
+push(5)
+top()
+popMax()
+top()
+peekMax()
+pop()
+top()
+Output:
+5
+5
+1
+5
+1
+5
+*/
 public:
 
     MaxStack() {
     }
 
     void push(int x) {
-        OrderVal.push_front(x);
+        OrderVal.push_front(x); // так будет легче обращаться к значению, лежащему на вершине стека
         ValToItsOnVal[x].push_back(OrderVal.begin());
     }
 
