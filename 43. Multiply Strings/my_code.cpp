@@ -8,6 +8,7 @@ public:
         reverse(num1.begin(), num1.end());
         reverse(num2.begin(), num2.end());
 
+        // записывать будем сюда, в начале будут младшие разряды (ввиду предыдущих reverse), в конце -- старшие
         string Answer(num1.size() + num2.size(), '0'); // num1.size() + num2.size() == MaxSizeProduct
 
 
