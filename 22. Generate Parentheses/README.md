@@ -12,6 +12,21 @@ https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/
 * open не превосходит N
 * close не превосходит open
 
+    n = 2
+
+                      ("", 0, 0)
+                         |
+                         v
+                    ("(", 1, 0)
+                    /           \
+                   v             v
+       ("((", 2, 0)              ("()", 1, 1)
+               \                  /     
+                v                v       
+          ("(()", 2, 1)      ("()(", 2, 1)
+                 \                         \
+                  v                          v
+        ("(())", 2, 2)                 ("()()", 2, 2)
 
 ___________
 
