@@ -53,3 +53,50 @@ public:
         
     }
 };
+/*
+class Solution {
+public:
+    string minWindow(string S, string T) {
+        
+        vector<int> AnagrT(128);
+        for(char t : T){
+            --AnagrT[t];
+        }
+        
+        int MinSize = 10e5 + 1;
+        int LeftPtrSub = -1;
+
+        int CharFromTinSW = 0;
+        for(int LeftPtr = 0, RightPtr = 0; RightPtr < S.size(); ++RightPtr){
+
+            if(AnagrT[S[RightPtr]] < 0){
+                ++CharFromTinSW;
+            }
+            ++AnagrT[S[RightPtr]]; // --> для любого символа из T AnagrT[t] <= 0, в противном случае, если символ из S, то AnagrT[s] >= 0
+
+            
+
+            for(;CharFromTinSW == T.size(); ++LeftPtr){
+                
+                // выход из цикла
+                if(AnagrT[S[LeftPtr]] == 0){ // если символ из S, то AnagrT[s] > 0 в рамках {S[LeftPtr], ..., S[RightPtr]}
+                    --CharFromTinSW; // S[LeftPtr] \in {T[i] : 0<=i<=n-1} --> при следующем сдвиге LeftPtr не будет хватать символов в SW
+                }
+
+                --AnagrT[S[LeftPtr]]; // сдвиг количетсва 
+
+                //обновляем ответ
+                if(RightPtr - LeftPtr + 1 < MinSize){
+                    
+                    MinSize = RightPtr - LeftPtr + 1;
+                    LeftPtrSub = LeftPtr;
+                }
+
+            }
+
+        }
+
+        return LeftPtrSub == -1 ? "" : S.substr(LeftPtrSub, MinSize);
+    }
+};
+*/
