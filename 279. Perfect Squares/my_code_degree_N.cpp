@@ -15,6 +15,9 @@ public:
     }
 
     int numSquares(int N) {
+
+        // конретно для этой задачи можно написать std::vector<int> DP(N + 1, 4); -- глобальынй максимум необходим так как в дальнейшем будем использовать min
+        // ввиду условия: "return the least number of perfect square numbers that sum to n."
         std::vector<int> DP(N + 1, 101); // DP[i] == наименьшее число слагаемых в квадратичном разложении числа i : i \in |N --> искомое == DP.back()
         DP[0] = 0;
 
