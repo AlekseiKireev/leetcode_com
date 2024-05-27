@@ -38,7 +38,7 @@ public:
         return NewLength;
     }
 };
-/*
+/* // ошибка заключается в "for(int i = 1; i < chars.size(); ++i){" --> не обрабатывается тест вида: ["a"]
 class Solution {
 public:
     int compress(vector<char>& chars) {
