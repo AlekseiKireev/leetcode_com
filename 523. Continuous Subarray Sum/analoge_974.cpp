@@ -3,7 +3,7 @@ public:
   bool checkSubarraySum(const vector<int>& a, int k) { 
 
      unordered_set<int> seen; // == {PS[0], ..., PS[i - 2]}
-     long long CurrentSum = 0;
+     long long CurrentSum = 0; // с типом int будет ошибка RE!
      for (int v : a) {
        int prevSum = CurrentSum; // == PS[i-1]
        
