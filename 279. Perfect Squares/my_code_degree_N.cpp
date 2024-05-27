@@ -20,7 +20,7 @@ public:
         // ввиду условия: "return the least number of perfect square numbers that sum to n."
         // "N + 1" необходим для того, чтобы DP.back() == DP[N] -- что является искомым
         std::vector<int> DP(N + 1, 101); // DP[i] == наименьшее число слагаемых в квадратичном разложении числа i : i \in |N --> искомое == DP.back()
-        DP[0] = 0;
+        DP[0] = 0; // необходим для обработки полных квадратов в "DP[sum - power(first, DEGREE)] + 1" -->, например, DP[16] = DP[0] + 1 = 1
 
         for (size_t sum = 1; sum <= N; sum++) {
 
