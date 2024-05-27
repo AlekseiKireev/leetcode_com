@@ -3,6 +3,7 @@ public:
   vector<int> maxSlidingWindow(vector<int>& nums, int k) {
     
     vector<int> result;         // Вектор для хранения результатов
+    result.reserve(nums.size() + 1 - k);
     deque<int> windowIndices;   // Дек для хранения индексов элементов в окне
 
     for (int i = 0; i < nums.size(); ++i) {
@@ -26,6 +27,7 @@ public:
         windowIndices.pop_front();
       }
 
+      // "k - 1" ввиду индексов, см. пример, т.е. при i = k - 1 искомое окно уже будет сформировано
       // Добавляем максимальный элемент в результат, когда окно полностью сформировано
       if (i >= k - 1) { // условный оператор чтобы пропустить первые k-1 символов, пропуск ввиду того, что окно не сформировано еще
         result.push_back(nums[windowIndices.front()]);
