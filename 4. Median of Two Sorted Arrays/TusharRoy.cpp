@@ -17,7 +17,7 @@ public:
         int high = x; // x-1 --> RE. Дейтвитнельно, такое значение нужно на случай, если low = x-1 --> 0 <= partitionX <= x
 
         while (low <= high) { // equiv: while (0 != high - low + 1) {
-            int partitionX = (low + high) / 2;
+            int partitionX = (low + high) / 2; // берутся элементы слева от partitionX
             // " + 1" необходим для того, чтобы слева от оазделителей было на один элемент больше чем справа, это удобно для получения медианы 
             int partitionY = (x + y + 1) / 2 - partitionX; // max{  (x + y + 1) / 2 } = y
 
