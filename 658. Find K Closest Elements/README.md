@@ -138,7 +138,7 @@ https://leetcode.com/problems/find-k-closest-elements/solutions/106426/java-c-py
     
     assume A[mid] ~ A[mid + k] is sliding window
 
-    move window go right == смещение левого указателя до mid+1
+    move window go right == смещение левого указателя до mid+1 (можно заметитть на тесте: arr = [1,1,1,10,10,10] k = 1 x = 9 -- если не "+1", уткнутся указатели в 2 3)
     move window go left  == смещение правого указателя до mid
     
     case 1: x - A[mid] < A[mid + k] - x, need to move window go left
