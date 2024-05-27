@@ -11,10 +11,9 @@ public:
       // Удаляем элементы из дек, которые меньше текущего элемента,
       // потому что они не могут быть максимумом в текущем окне
       // необходим для максимизации фронтового элемента в windowIndices
-      while (!windowIndices.empty() && nums[windowIndices.back()] < nums[i]) {
+      while (!windowIndices.empty() && nums[windowIndices.back()] <= nums[i]) { // так ка в дальнейшем положим i, то nums[windowIndices.back()] = nums[i] не нужны!
         windowIndices.pop_back();
       }
-
 
       // сначала pop_back затем push_back затем  pop_front, иначе ошибка!
 
@@ -22,8 +21,8 @@ public:
       windowIndices.push_back(i);
 
 
-      // Удаляем индексы, которые выходят за границы текущего окна
-      if (windowIndices.front() + k <= i) { // если элемент windowIndices.front() находится в необходимом окне, то он выйдет за i. Можно заметить на примере 1  3 [-1  -3  5] 3   
+      // Удаляем индексы, которые выходят за границы текущего окна в рамках индексов: [i - k + 1, i] --> если windowIndices.front() < i - k + 1 -- удаляем
+      if (windowIndices.front() < i - k + 1) { // если элемент windowIndices.front() находится в необходимом окне, то он выйдет за i. Можно заметить на примере 1  3 [-1  -3  5] 3   
         windowIndices.pop_front();
       }
 
