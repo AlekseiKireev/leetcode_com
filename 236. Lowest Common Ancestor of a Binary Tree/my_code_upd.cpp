@@ -19,7 +19,7 @@ void Travel(TreeNode* node, TreeNode* P, TreeNode* Q){
     if(node == nullptr || (Found_P && Found_Q)){return;}
 
     // LCA == node, которая является максимальны по высоте родителем (считая сверху) как P, так и Q
-    const bool NodeIsParent_P_and_Q = (!Found_P) && (!Found_Q); // Нода W рассматривается как родитель ноды W
+    const bool NodeIsParent_P_and_Q = (!Found_P) && (!Found_Q); // Нода W рассматривается как родитель ноды W, поэтому этот аргумент находится перед нижинми if
 
     if(node == P){Found_P = true;}
     if(node == Q){Found_Q = true;}
