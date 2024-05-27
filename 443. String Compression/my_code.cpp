@@ -5,7 +5,7 @@ public:
         // искомое
         int NewLength = 0; // при смещение в циклах будет указывать на потенциальный новый элемент в обновленном chars
 
-        for(int i = 0; i < chars.size() ; ++i){
+        for(int i = 0; i < chars.size() ; ++i){ // "int i = 0" ввиду chars = ["a"], если начинать с "int i = 1" -- ошибка!
 
             const char prev_char = chars[i]; 
             chars[NewLength] = prev_char; // "The compressed string s should not be returned separately, but instead, be stored in the input character array chars. "
