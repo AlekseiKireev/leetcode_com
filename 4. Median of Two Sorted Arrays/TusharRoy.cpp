@@ -18,11 +18,15 @@ public:
         while (low <= high) { // equiv: while (0 != high - low + 1) {
             int partitionX = (low + high) / 2;
             int partitionY = (x + y + 1) / 2 - partitionX; // max{  (x + y + 1) / 2 } = y
+
+            // суммарное коли-о элементов слева от partitionX partitionY равно:
             assert(partitionX + partitionY == (x + y) / 2
                                 ||
-                   partitionX + partitionY - 1 == (x + y) / 2    
+                   partitionX + partitionY == (x + y) / 2 + 1
                   );
-            
+
+            // Если partition == 0, слева от него нет элементов, вносим виртуальный элемент INT_MIN
+            // Если partition == container.size(), справа от него нет элементов, вносим виртуальный элемент INT_MAX
             int maxLeftX = (partitionX == 0) ? INT_MIN : nums1[partitionX - 1];
             int minRightX = (partitionX == x) ? INT_MAX : nums1[partitionX];
 
