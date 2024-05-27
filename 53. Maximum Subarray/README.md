@@ -15,7 +15,7 @@ https://leetcode.com/problems/maximum-subarray/solutions/ -- см. топ 3
 3. его не стоит брать, так как он уменьшает сумму окна, например:  [-1,2,-42], [1,2,-42]
 4. начинаем с него новое окно, например: [1,-2,42, 11, -18]
 
-        CurrentMaxAffixSum = max(CurrentMaxAffixSum + nums[i], nums[i]); // обработка 1. и 2.
+        CurrentMaxAffixSum = max(CurrentMaxAffixSum + nums[i], nums[i]); // обработка 1. , 2. , 4.
         TotalMaxAffixSum = max(TotalMaxAffixSum, CurrentMaxAffixSum); // обработка 3.
 
 ____
