@@ -211,8 +211,7 @@
 
 <details>  
 <summary> Dynamic programming </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
-    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
+    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray    
 </details>
 
 
@@ -242,6 +241,7 @@
 <details>  
 <summary> Greedy </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
+    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
     https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy
     https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels
 </details>
