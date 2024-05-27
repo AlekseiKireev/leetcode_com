@@ -18,3 +18,26 @@ public:
 
 };
 
+/*
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int AffixOrPrefix) {
+        
+        unordered_map<int, int> PartToCount;
+        int PrefixSum = 0;
+        ++PartToCount[PrefixSum];
+
+        int Ans = 0;
+
+        for(int num : nums){
+
+            PrefixSum += num;
+            Ans += PartToCount[PrefixSum - AffixOrPrefix];
+            ++PartToCount[PrefixSum];
+            
+        }
+
+        return Ans;
+    }
+};
+*/
