@@ -1,7 +1,8 @@
 https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-of-a-substring-by-pattern
 <br>
 https://leetcode.com/problems/reconstruct-itinerary/description/
-
+<br>
+the minimum product of two numbers in an any numbers array
 <details>  
 <summary>  Topics </summary>
 
