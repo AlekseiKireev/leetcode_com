@@ -14,7 +14,7 @@
     private:
     
     // Используется, если {Key, Value} уже существует в KeyToValue
-     void MoveFrontKey(const int Key){
+     void MoveFrontKey(const int Key){ // тут обновляются KeyToItInOrderKey и OrderKeyы
 
         // https://en.cppreference.com/w/cpp/container/list/splice
         // "Transfers the element pointed to by it from other into *this. The element is inserted before the element pointed to by pos."
