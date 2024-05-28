@@ -89,12 +89,6 @@ the minimum product of two numbers in an any numbers array
 
 
 <details>  
-<summary> queue </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator
-</details>
-
-
-<details>  
 <summary> prefix sum </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
         https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum
