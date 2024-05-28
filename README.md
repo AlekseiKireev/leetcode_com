@@ -81,7 +81,6 @@
 
 <details>  
 <summary> prefix sum </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray
     https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
         https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum
         https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K
