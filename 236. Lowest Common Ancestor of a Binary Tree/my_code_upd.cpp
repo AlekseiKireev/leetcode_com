@@ -16,6 +16,7 @@ bool Found_Q = false;
 
 void Travel(TreeNode* node, TreeNode* P, TreeNode* Q){
 
+    // (Found_P && Found_Q) -- не обязатнльо!
     if(node == nullptr || (Found_P && Found_Q)){return;}
 
     // LCA == node, которая является максимальны по высоте родителем (считая сверху) как P, так и Q
