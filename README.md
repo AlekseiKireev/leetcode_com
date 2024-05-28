@@ -35,6 +35,7 @@
         <details>  
         <summary> Anagramma </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring
+                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String
         </details>
 </details>
 
