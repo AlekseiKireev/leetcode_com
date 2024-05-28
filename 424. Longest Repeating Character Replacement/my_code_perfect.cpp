@@ -15,10 +15,11 @@ public:
 
             ++LengthLongestSubstring;
 
-            for (;LengthLongestSubstring - MaxCountRepeatSymb == k + 1; LeftPtr++) {
+            if (LengthLongestSubstring - MaxCountRepeatSymb == k + 1) {
                 
                 --CharToCountInWindow[S[LeftPtr] ];                                
                 --LengthLongestSubstring;
+                LeftPtr++;
             }
 
         }
