@@ -8,6 +8,9 @@ https://leetcode.com/problems/same-tree/
 https://walkccc.me/LeetCode/problems/0100/
 
 related: https://github.com/SkosMartren/leetcode_com/tree/main/101.%20Symmetric%20Tree -- разница только в порядке передачи левой и правой ноды при обходе
+
+В 100 и 101 preorder обход!
+
 __________
 
 [Разбор задачи 100 leetcode.com Same Tree. Решение на C++](https://www.youtube.com/watch?v=Od0Oq8hNT3Q)
