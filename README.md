@@ -8,8 +8,7 @@ the minimum product of two numbers in an any numbers array
 
 
 <details>  
-<summary>  Sorted  </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
+<summary>  Sorted  </summary>        
         <details>  
         <summary> Merge   </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees
@@ -22,6 +21,7 @@ the minimum product of two numbers in an any numbers array
         <details>  
         <summary> counting  </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
+                https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
                 https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String
                 https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements                
                 https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words
