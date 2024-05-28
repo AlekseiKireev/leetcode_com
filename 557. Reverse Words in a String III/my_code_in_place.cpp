@@ -6,7 +6,7 @@ public:
     for(int i = 0; i < s.size();++i){
 
       if(s[i] == ' '){
-        reverse(s.begin() + IdxStartWord, s.begin() + i);
+        reverse(s.begin() + IdxStartWord, s.begin() + i); // правая граница должна указывать за границу, т.е. разорачивается полуинтервал: [s.begin() + IdxStartWord, s.begin() + i)
         IdxStartWord = i + 1;
       }
     }
