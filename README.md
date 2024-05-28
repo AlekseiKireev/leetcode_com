@@ -57,6 +57,7 @@ the minimum product of two numbers in an any numbers array
 <summary> one pass / two passes </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
+        https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
         https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
 </details>
 
@@ -158,8 +159,7 @@ the minimum product of two numbers in an any numbers array
 
 <details>  
 <summary> Design </summary>        
-    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
+    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>        
     https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
     https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls    
         <details>  
