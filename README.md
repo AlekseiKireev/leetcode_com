@@ -57,6 +57,7 @@ the minimum product of two numbers in an any numbers array
 <summary> one pass / two passes </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
+        https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
 </details>
 
 <details>  
@@ -134,8 +135,7 @@ the minimum product of two numbers in an any numbers array
     https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- тут есть "Условие пересечения отсортированных и не отсортированных интервалов"  <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
     https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II
-    https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
-    https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time  <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections    
 </details>
 
 
