@@ -8,6 +8,7 @@ https://walkccc.me/LeetCode/problems/0021/ == recursive
 
 Аналог: https://leetcode.com/problems/merge-sorted-array/description/
 
+related: https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists
 
 <p align="center"> my_code_1 </p>
 
