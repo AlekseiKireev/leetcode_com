@@ -51,7 +51,8 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings
         https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
         https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()
-    https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle
+        https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle
+        https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares
 </details>
 
 
