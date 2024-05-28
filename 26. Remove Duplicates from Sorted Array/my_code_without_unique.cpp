@@ -27,7 +27,7 @@ public:
         for(int i = 1; i < nums.size(); ++i){
 
             if(nums[i] != nums[i-1]){
-                /*Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. */
+                //Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. 
                 nums[CountUniqueInPrefix] = nums[i]; // Input nums = [1,1,2]  Output [1,1] Expected [1,2]
                 ++CountUniqueInPrefix;
             }
