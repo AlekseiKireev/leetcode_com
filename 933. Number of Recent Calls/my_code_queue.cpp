@@ -7,7 +7,8 @@ queue<int> Pings;
 private:
 
     void clear(int timestamp) {
-        while(/*Pings.empty() == false && */Pings.front() + 3000 <  timestamp){ // пустым не будет, так как сверху лежит гарантировано timestamp
+        // необходимы события, находящиеся в [timestamp - 3000, timestamp]   
+        while(/*Pings.empty() == false && */Pings.front() <  timestamp - 3000){ // пустым не будет, так как сверху лежит гарантировано timestamp
             Pings.pop();
         }
     }
