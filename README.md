@@ -58,6 +58,7 @@ the minimum product of two numbers in an any numbers array
     https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
         https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
+        https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
         https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
 </details>
 
@@ -229,8 +230,7 @@ the minimum product of two numbers in an any numbers array
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
-        https://github.com/SkosMartren/leetcode_com/tree/main/161.%20One%20Edit%20Distance
-        https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
+        https://github.com/SkosMartren/leetcode_com/tree/main/161.%20One%20Edit%20Distance        
     https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome    
     https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II
     https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges
