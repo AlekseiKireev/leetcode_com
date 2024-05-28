@@ -22,6 +22,8 @@ _____
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/for_43_leetcode_1.png" width="300" height="300"/>
 
+Сначала в Ans записывается 738, потом работаем с числами из Ans как с остатками при умножение следующего разярда
+
 можно понять CurrentPosition и причину использования reverse
 
          11
