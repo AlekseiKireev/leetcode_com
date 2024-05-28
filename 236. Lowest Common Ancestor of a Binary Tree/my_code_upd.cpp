@@ -30,7 +30,7 @@ void Travel(TreeNode* node, TreeNode* P, TreeNode* Q){
     // postorder проходит снизу-вверх, это гарантирует наименьшее (наибольшее по глубине) NodeIsParent_P_and_Q
     // зашли в postorder раздел и предше-е ему ноды уже помечены в preorder разделе
     if(LCA == nullptr && /*это необходимо чтобы единожды обновить LCA*/
-    NodeIsParent_P_and_Q && /*услвоие, свойственное для LCA*/
+    NodeIsParent_P_or_Q && /*услвоие, свойственное для LCA*/
     Found_P && Found_Q){LCA = node;}
 }
 
