@@ -9,7 +9,7 @@ public:
             right++;
         }
 
-        // right - left - 1 = right - left + 1  - 2, где "-2" обсуловлен тем, что в окно {s[left], ..., s[right]} не беруться крайние символы, так как s[left] != s[right]
+        // сдвиг обсуловлен тем, что в окно {s[left], ..., s[right]} не беруться крайние символы, так как s[left] != s[right]
         return {left + 1, right - 1};
     }
 
