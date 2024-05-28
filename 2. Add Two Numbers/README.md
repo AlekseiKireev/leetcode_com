@@ -1,3 +1,4 @@
+https://cplusplus.com/reference/new/operator%20new/ -- если создается указатель на пользовательскую структуру, то при ее создание используется оператор new, например: MyClass * p1 = new MyClass;ы
 
 
 Почему  
