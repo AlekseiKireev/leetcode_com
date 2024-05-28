@@ -2,6 +2,7 @@ class Solution {
 
 bool Result = true;
 
+// RangesMin  == PrevNode
 long long RangesMin;// = numeric_limits<long long>::min();
 
 bool flag = false;
