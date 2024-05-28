@@ -64,6 +64,7 @@ public:
                     return true;
                 }
 
+                // количество символов НЕ из анаграммы > 0, если s[LeftPtr] из анаграммы, то CharAngToCount[s[LeftPtr] - 'a'] = 0, так как CountCharsAngInWindow == ang.size()
                 if(--CharAngToCount[s[LeftPtr] - 'a'] < 0){ // сдвигаем левую границу, уменьшаем количество символов в окне
                     --CountCharsAngInWindow;
                 }                
