@@ -81,6 +81,7 @@ the minimum product of two numbers in an any numbers array
     https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
     https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
         https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays
+        https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers
 </details>
 
 
@@ -239,8 +240,7 @@ the minimum product of two numbers in an any numbers array
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array    
     https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
     https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray       
-    https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters
-    https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers
+    https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters    
 </details>
 
 
