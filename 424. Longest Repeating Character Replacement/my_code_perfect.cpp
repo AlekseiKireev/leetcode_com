@@ -17,9 +17,10 @@ public:
 
             if (LengthLongestSubstring - MaxCountRepeatSymb == k + 1) {
                 
-                --CharToCountInWindow[S[LeftPtr] ];                                
+                --CharToCountInWindow[S[LeftPtr] ];    
+                ++LeftPtr;
                 --LengthLongestSubstring;
-                LeftPtr++;
+                
             }
 
         }
