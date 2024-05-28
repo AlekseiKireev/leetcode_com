@@ -10,7 +10,7 @@ public:
 
         for (int RightPtr = 0, LeftPtr = 0; RightPtr < S.size(); RightPtr++) {
 
-            CharToCountInWindow[S[RightPtr] - 'A']++;
+            ++CharToCountInWindow[S[RightPtr] - 'A'];
             MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInWindow[S[RightPtr] - 'A']);
 
             int WindowLength = RightPtr - LeftPtr + 1;
