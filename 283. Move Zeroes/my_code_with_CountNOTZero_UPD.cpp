@@ -2,7 +2,7 @@ class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
         
-        int LastIdxNotZero = -1; // -1 как метка на случай, если не встретится ни одного нуля        
+        int LastIdxNotZero = -1; // -1 как метка на случай, если nums состоит из нулей      
 
         for(int i = 0; i < nums.size(); ++i){
 
