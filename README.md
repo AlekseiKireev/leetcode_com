@@ -54,6 +54,12 @@ the minimum product of two numbers in an any numbers array
 
 
 <details>  
+<summary> one pass / two passes </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes
+    https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
+</details>
+
+<details>  
 <summary> math </summary>
         https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers
         https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
@@ -228,8 +234,7 @@ the minimum product of two numbers in an any numbers array
 <details>  
 <summary> Two pointer </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
-    https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water
-    https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
+    https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
         https://github.com/SkosMartren/leetcode_com/tree/main/161.%20One%20Edit%20Distance
         https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
