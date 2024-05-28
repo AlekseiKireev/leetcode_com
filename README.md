@@ -33,7 +33,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement
     https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays
         <details>  
-        <summary> Sliding Window </summary>
+        <summary> Anagramma </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring
         </details>
 </details>
