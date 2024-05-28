@@ -14,7 +14,7 @@ public:
 
         for(const int num : nums2){
             
-            if(NumToCount.find(num) != NumToCount.end() && NumToCount[num] > 0){
+            if(/*NumToCount.find(num) != NumToCount.end() &&*/ NumToCount[num] > 0){
 
                 intersection.push_back(num); // "you may return the result in any order."
                 --NumToCount[num];
