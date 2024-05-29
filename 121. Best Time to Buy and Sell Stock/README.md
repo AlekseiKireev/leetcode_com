@@ -115,3 +115,15 @@ maxPrices[i] = либо prices[i], либо maxPrices[i + 1] -- из этих з
 | 2 	| _4_         	| _4_         	| **0**             	|
 | 3 	| _3_         	| _3_         	| **0**             	|
 | 4 	| _1_         	| _1_         	| **0**             	|
+
+___
+
+Ex 
+
+    Input
+    prices =
+    [7]
+    Output
+    0
+    Expected
+    0
