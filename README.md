@@ -15,7 +15,8 @@ the minimum product of two numbers in an any numbers array
             https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
             https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists
             https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
-            https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array    
+            https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array
+            https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
         </details>
         <br>
         <details>  
