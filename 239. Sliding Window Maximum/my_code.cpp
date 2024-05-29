@@ -11,7 +11,7 @@ public:
       // Удаляем элементы из дек, которые меньше текущего элемента,
       // потому что они не могут быть максимумом в текущем окне
       // необходим для максимизации фронтового элемента в windowIndices
-      // "!windowIndices.empty() " -- эта проверка важна, так как windowIndices может опустеть при удалении!
+      // "!windowIndices.empty() " -- эта проверка важна, так как windowIndices может опустеть при удалении! Пример: [5,5,5,5,5,5] k=3
       while (!windowIndices.empty() && nums[windowIndices.back()] <= nums[i]) { // так ка в дальнейшем положим i, то nums[windowIndices.back()] = nums[i] не нужны!
         windowIndices.pop_back();
       }
