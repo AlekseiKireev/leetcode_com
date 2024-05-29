@@ -60,6 +60,7 @@ the minimum product of two numbers in an any numbers array
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
         https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
+        https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String
         https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
         https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
 </details>
