@@ -1,5 +1,7 @@
 https://leetcode.com/problems/minimum-window-substring/description/
 
+https://walkccc.me/LeetCode/problems/76/
+
 У Федора Меньшикова разбор отсут-т!
 
 _____
