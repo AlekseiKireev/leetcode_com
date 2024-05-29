@@ -14,7 +14,8 @@ public:
             ++NumToCount[num];
         } 
 
-         vector<pair<int, int>> CountToNum; CountToNum.reserve(nums.size() - 1);
+        vector<pair<int, int>> CountToNum; 
+        CountToNum.reserve(NumToCount.size());
 
          for(auto [num, cnt] : NumToCount){
 
