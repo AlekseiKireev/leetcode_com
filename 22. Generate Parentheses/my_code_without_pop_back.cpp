@@ -43,3 +43,37 @@ public:
         return BBS;
     }
 };
+/* ошибка: НЕ НАДО В КОНКРЕТНОЙ РЕКУРСИИ МЕНЯТЬ STACK
+class Solution {
+
+vector<string>  A;
+int N;
+
+void MakeParent(int open, int closed, string STACK){
+    
+    if(open + closed == 2*N){
+
+        A.push_back(STACK);
+        return;
+    }
+
+
+    if(open < N){
+        STACK.push_back('(');
+        MakeParent(open + 1, closed, STACK);
+    }
+
+    if(closed < open){
+        STACK.push_back(')');
+        MakeParent(open, closed + 1, STACK);
+    }
+}
+
+public:
+    vector<string> generateParenthesis(int n) {
+        N = n;
+        MakeParent(0,0,"");
+        return A;
+    }
+};
+*/
