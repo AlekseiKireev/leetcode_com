@@ -6,7 +6,13 @@ https://walkccc.me/LeetCode/problems/0404/
 
 ______
 
-Обходить можно в любом порядке, главное, чтобы выполнялось условие левого листа: IsLeftNode && node->left == nullptr && node->right == nullptr
+Обходить можно в любом порядке, главное, чтобы выполнялось условие левого листа: 
+        
+        IsLeftNode 
+            && 
+        node->left == nullptr 
+            && 
+        node->right == nullptr
 
 ______
 
