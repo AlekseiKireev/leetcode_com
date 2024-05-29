@@ -23,8 +23,8 @@ the minimum product of two numbers in an any numbers array
                 https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
                 https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
                 https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String
-                https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements                
-                https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words
+                https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements + nth_element               
+                https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words + partial_sort
         </details>
 </details>
 
