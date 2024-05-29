@@ -13,7 +13,9 @@ public:
         }
 
         vector<vector<string>> ans;ans.reserve(SortStrToAnagrams.size());
-        for(auto [Key, Anagrams] : SortStrToAnagrams){ans.push_back(move(Anagrams));}
+        for(auto [Key, VectorAnagrams] : SortStrToAnagrams){
+            ans.push_back(move(VectorAnagrams));
+        }
 
         return ans;
 
