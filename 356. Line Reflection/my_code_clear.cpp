@@ -9,7 +9,7 @@ struct Myhash{
 class Solution {
 
 int cnt;
-unordered_map< pair<int, int>, bool, Myhash > Points;
+unordered_map< pair<int, int>, bool, Myhash > HashPoints;
 
 public:
 
@@ -24,19 +24,18 @@ public:
           int y = point.back();
           X_min = min(x, X_min);
           X_max = max(x, X_max);
-          Points[{x,y}] = true;
+          HashPoints[{x,y}] = true;
       }
 
       
       cnt = X_min + X_max;
 
-      for(const auto point : Points){
+      for(const auto point : HashPoints){
           
-          if(Points[{cnt - point.first.first, point.first.second}] == false){
+          if(HashPoints[{cnt - point.first.first, point.first.second}] == false){
             return false;
           }
       }
-
 
       return true;
 
