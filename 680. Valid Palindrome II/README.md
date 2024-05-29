@@ -1,3 +1,5 @@
+НАПИСАТЬ ТЕСТЫ НА КОТОРЫХ ВИДНА ПРИЧИНА ИМЕННО ТАКОГО УДАЛЕНИЯЫ
+
 https://leetcode.com/problems/valid-palindrome-ii/
 
 Related: https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome
