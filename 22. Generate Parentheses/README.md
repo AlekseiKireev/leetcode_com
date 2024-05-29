@@ -6,6 +6,12 @@ https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0022.Generate%20P
 
 https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/
 
+___
+
+Текущие состояние стека ни как не меняем (my_code_without_push_pop_back.cpp), а если меняем, то потом откатываем (my_code_with_push_pop_back.cpp)
+
+___
+
 Инвариант свойственный ПСП: 
 
 Положим, в ПСП N открывающих скобок, тогда выполнятеся инвариант: 
