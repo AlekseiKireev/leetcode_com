@@ -40,6 +40,7 @@ the minimum product of two numbers in an any numbers array
         <details>  
         <summary> Anagramma </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring
+                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String
                 https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String
         </details>
 </details>
