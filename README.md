@@ -3,6 +3,15 @@ https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-o
 https://leetcode.com/problems/reconstruct-itinerary/description/
 <br>
 the minimum product of two numbers in an any numbers array
+
+https://leetcode.com/problems/longest-increasing-subsequence/description/  
+https://www.geeksforgeeks.org/longest-increasing-subarray/  
+https://t.me/lordsStash/411  
+дан массив. надо вернуть `pair<int, int>  где максимальная длина монотонно возрастающего или убывающего под массива.
+требования:
+O(1)
+O(n)
+
 <details>  
 <summary>  Topics </summary>
 
