@@ -1,23 +1,34 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 
-bool Result = true;
-
-// RangesMin  == PrevNode
-long long RangesMin;// = numeric_limits<long long>::min();
-
-bool flag = false;
+int CurMinNode;
+bool NotExistCurMinNode = true;
+bool TreeIsBST = true;
 
 void InOrder(TreeNode* node){
 
-    if(node == nullptr || Result== false){return;}
+    if(node == nullptr){
+        return;
+    }
 
     InOrder(node->left);
-
-    if(flag == false || RangesMin < node->val){ // RangesMin <= node->val --> Input root = [2,2,2]  Output true Expected false
-        RangesMin = node->val;
-        flag = true;
+    
+    if(NotExistCurMinNode || CurMinNode < node->val){
+        
+        CurMinNode = node->val;
+        NotExistCurMinNode = false;
     }else{
-        Result = false;
+        TreeIsBST = false;
         return;
     }
 
@@ -27,7 +38,7 @@ void InOrder(TreeNode* node){
 public:
     bool isValidBST(TreeNode* root) {
         InOrder(root);
-        return Result;
+        return TreeIsBST;
     }
 };
 
