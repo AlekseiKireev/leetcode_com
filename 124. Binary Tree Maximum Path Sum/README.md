@@ -23,6 +23,15 @@ visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
 
 Решение удобно предсталвять через призму postorder и деревьях вида
 
+         Начальное значение int Sum = -1001; обусловленно 
+         
+         The number of nodes in the tree is in the range [1, 3 * 104].
+         -1000 <= Node.val <= 1000
+
+         т.е. гарантировано существует хотя бы одна нода, которая гарантировано больше -1001
+
+<br>
+
          1
         / \
      NULL   NULL
@@ -47,3 +56,19 @@ visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
               3
              / \
             1   -2  
+
+<br>
+
+         пояснение к
+
+    int L = max(PostOrder(root->left), 0);
+    int R = max(PostOrder(root->right), 0);            
+
+             -1
+             / \
+           -3   -2  
+
+    В этом случае возвращаем -1, делается это посредством строки
+    int RootSum = root->val + L + R;
+    
+
