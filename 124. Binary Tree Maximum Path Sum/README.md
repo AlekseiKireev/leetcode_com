@@ -81,6 +81,10 @@ visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
 
          Демонстрация к return root->val + max(L, R);
 
+              3                  3
+             / \         --->      \
+            1   2                    2
+            
                   1000
                   /
                -1
