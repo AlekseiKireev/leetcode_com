@@ -91,3 +91,9 @@ visualization algorithms: https://youtu.be/6cA_NDtpyz8?t=143
                /
              1000
 
+
+         Теперь понимаем каким должен быть выход из рекурсии при nullptr:
+
+             if(root == nullptr){
+                 return 0;
+             }
