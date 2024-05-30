@@ -1,5 +1,7 @@
 https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
 
+https://leetcode.com/problems/binary-tree-maximum-path-sum/solutions/603423/python-recursion-stack-thinking-process-diagram/ -- разбор
+
 https://walkccc.me/LeetCode/problems/124/
 
 У Федора Меньшикова разбор отсут-т!
