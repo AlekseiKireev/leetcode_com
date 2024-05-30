@@ -149,8 +149,8 @@ O(n)
 <summary> tree </summary>
         <details>  
         <summary> LCA </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree
-        https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree
+        https://github.com/SkosMartren/leetcode_com/tree/main/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree -- Iter
+        https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree -- PreOrder + PostOrder or PostOrder
         https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III          
         </details>
         <br>
@@ -158,19 +158,19 @@ O(n)
         <summary> BST </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/449.%20Serialize%20and%20Deserialize%20BST
             https://github.com/SkosMartren/leetcode_com/tree/main/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal
-            https://github.com/SkosMartren/leetcode_com/tree/main/98.%20Validate%20Binary%20Search%20Tree
+            https://github.com/SkosMartren/leetcode_com/tree/main/98.%20Validate%20Binary%20Search%20Tree -- InOrder
         </details>
         <br>
         <details>  
         <summary> BT </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal -- тут есть хорошая картинка
                 <br>
-                https://github.com/SkosMartren/leetcode_com/tree/main/100.%20Same%20Tree
-                https://github.com/SkosMartren/leetcode_com/tree/main/101.%20Symmetric%20Tree
-                https://github.com/SkosMartren/leetcode_com/tree/main/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal
-                https://github.com/SkosMartren/leetcode_com/tree/main/104.%20Maximum%20Depth%20of%20Binary%20Tree
-                https://github.com/SkosMartren/leetcode_com/tree/main/124.%20Binary%20Tree%20Maximum%20Path%20Sum
-                https://github.com/SkosMartren/leetcode_com/tree/main/404.%20Sum%20of%20Left%20Leaves
+                https://github.com/SkosMartren/leetcode_com/tree/main/100.%20Same%20Tree -- PreOrder
+                https://github.com/SkosMartren/leetcode_com/tree/main/101.%20Symmetric%20Tree -- PreOrder
+                https://github.com/SkosMartren/leetcode_com/tree/main/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal -- AnyOrder
+                https://github.com/SkosMartren/leetcode_com/tree/main/104.%20Maximum%20Depth%20of%20Binary%20Tree -- AnyOrder
+                https://github.com/SkosMartren/leetcode_com/tree/main/124.%20Binary%20Tree%20Maximum%20Path%20Sum -- PostOrder
+                https://github.com/SkosMartren/leetcode_com/tree/main/404.%20Sum%20of%20Left%20Leaves -- AnyOrder
         </details>
 </details>
 
