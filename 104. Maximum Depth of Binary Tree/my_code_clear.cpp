@@ -11,8 +11,10 @@ void travel(TreeNode* Root, int height = 1){
   MaximumDepth = max(MaximumDepth, height );
 
   travel(Root->left, height + 1);
-
+  // MaximumDepth = max(MaximumDepth, height );   // good!
   travel(Root->right, height + 1);
+
+  // MaximumDepth = max(MaximumDepth, height );   // good!
 
 }
 
