@@ -52,11 +52,11 @@ O(n)
 <summary>  Sorted  </summary>        
         <details>                
         <summary> Merge   </summary>
-            https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees
-            https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
-            https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists
-            https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
-            https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array            
+            https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees -- PreOrder
+            https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists -- rec
+            https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists -- rec
+            https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals -- iter 
+            https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array -- iter           
         </details>
         <br>
         <details>  
