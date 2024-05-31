@@ -4,6 +4,13 @@ https://en.cppreference.com/w/cpp/string/basic_string/stol
 
 https://e-maxx.ru/algo/big_integer
 
+Алгоритм: 
+* инициализируем указатели F и S так, чтобы они указывали на младшие разряды
+* Входим в цикл, до тех пор, пока F действительна ИЛИ S действительна ИЛИ carry != 0
+** получаем значения, на которые указывают F и S
+** кладем целую часть в текущий разряд
+** обновляем carry
+** сдвигаем указатель
 ________
 
 https://www.geeksforgeeks.org/converting-strings-numbers-c-cpp/
