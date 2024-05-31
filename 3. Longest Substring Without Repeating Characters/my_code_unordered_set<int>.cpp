@@ -39,8 +39,7 @@ public:
         unordered_set<int> CharToExistingInSlidingWindow;
 
         for (int LeftPtr = 0, RightPtr = 0; RightPtr < Str.size(); ++RightPtr) {
-                                               
-                
+                                                               
             for (; CharToExistingInSlidingWindow.count(Str[RightPtr]) == 1; ++LeftPtr) {
                 CharToExistingInSlidingWindow.erase(Str[LeftPtr]);
                 
