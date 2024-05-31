@@ -14,6 +14,9 @@ public:
         int RightBorder = nums.size() - 1;
         */
 
+        // Если исправить на 0 и nums.size() - 1 то будет ошибка на тестах
+        // nums = [5] target = 5
+        // nums = [0,5] target = 5
         int LeftBorder = - 1;
         int RightBorder = nums.size();
 
