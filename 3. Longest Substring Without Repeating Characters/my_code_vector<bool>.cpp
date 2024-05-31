@@ -33,3 +33,27 @@ public:
 
     }
 };
+
+/*
+class Solution {
+public:
+    int lengthOfLongestSubstring(string Str) {
+
+        vector<bool> CharToExistingInSlidingWindow(128);
+
+        int Length = 0;
+
+        for(int LeftPtr = 0, RightPtr = 0; RightPtr < Str.size(); ++RightPtr) {
+
+            for(; CharToExistingInSlidingWindow[Str[RightPtr]] == true; ++LeftPtr) {
+                CharToExistingInSlidingWindow[Str[LeftPtr]] = false;
+            }
+
+            CharToExistingInSlidingWindow[Str[RightPtr]] = true;
+            Length = max(Length, RightPtr - LeftPtr + 1);
+        }
+
+        return Length;
+    }
+};
+*/
