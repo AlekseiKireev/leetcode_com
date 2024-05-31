@@ -33,7 +33,10 @@ void Travel(TreeNode* node, TreeNode* P, TreeNode* Q){
     // зашли в postorder раздел и предше-е ему ноды уже помечены в preorder разделе
     if(LCA == nullptr && /*это необходимо чтобы единожды обновить LCA*/
     NodeIsParent_P_or_Q && /*услвоие, свойственное для LCA*/
-    Found_P && Found_Q){LCA = node;}
+    Found_P && Found_Q /* без этой строки будет ошибка: Input root = [3,5,1,6,2,0,8,null,null,7,4] p = 5 q = 1  Output 5 Expected 3*/
+        ){
+        LCA = node;
+    }
 }
 
 public:
