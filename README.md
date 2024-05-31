@@ -50,8 +50,7 @@ O(n)
 
 <details>  
 <summary>  Sorted  </summary>        
-        <details>
-                https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
+        <details>                
         <summary> Merge   </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees
             https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
@@ -61,7 +60,8 @@ O(n)
         </details>
         <br>
         <details>  
-        <summary> counting  </summary>                
+        <summary> counting  </summary>   
+                https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
                 https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
                 https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String
                 https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements + nth_element + Hash table              
