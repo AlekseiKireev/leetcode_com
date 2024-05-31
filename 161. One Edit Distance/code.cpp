@@ -18,7 +18,7 @@ public:
             }
         }
         
-        //return true; // error: s = "", t = ""
+        //return true; --> error: s = "", t = "" | ab ab
         return m == n + 1; // ab abc
     }
 };
