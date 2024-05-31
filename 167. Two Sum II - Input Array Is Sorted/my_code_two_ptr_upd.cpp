@@ -2,15 +2,12 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
         
-        const int SIZE = numbers.size();
         int LeftPtr = 0;
-        int RightPtr = SIZE - 1;
+        int RightPtr = numbers.size() - 1;
 
-        while(RightPtr != LeftPtr){
+        while(numbers[LeftPtr] != target - numbers[RightPtr]){
 
-            if(numbers[LeftPtr] == target - numbers[RightPtr]){break;}
-
-            numbers[LeftPtr] < target - numbers[RightPtr] ? ++LeftPtr : --RightPtr;
+            (numbers[LeftPtr] < target - numbers[RightPtr]) ? ++LeftPtr : --RightPtr;
         }
 
         return {LeftPtr + 1, RightPtr + 1};
