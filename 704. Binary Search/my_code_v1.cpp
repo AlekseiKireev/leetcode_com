@@ -8,7 +8,8 @@ public:
 
         assert(nums.front() <= target && target <= nums.back());
         
-        /* // Wrong Answer 31 / 47 testcases   Input nums = [2,5] target = 5 // при таких указателях не верно обрабатываются случаи с двумя элементами. Это можно исправить написав условие: while(0 <= RightBorder - LeftBorder ){ ... LeftBorder = Mid + 1; ... RightBorder = Mid - 1; 
+        /* // Wrong Answer 31 / 47 testcases   Input nums = [2,5] target = 5 // при таких указателях не верно обрабатываются случаи с двумя элементами. 
+        Это можно исправить написав условие: while(0 <= RightBorder - LeftBorder ){ ... LeftBorder = Mid + 1; ... RightBorder = Mid - 1; 
         int LeftBorder = 0;
         int RightBorder = nums.size() - 1;
         */
