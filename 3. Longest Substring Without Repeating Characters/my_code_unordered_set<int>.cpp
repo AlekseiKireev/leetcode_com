@@ -18,6 +18,7 @@ public:
                     ++LeftPtr;
                 }
                 CharToExistingInSlidingWindow.insert(Str[RightPtr]);
+                // тут обновлять ответ нет смысла, так как сдвинули левую границу --> уменьшили размер окна по меньшей мере на 1
             }
         }
 
