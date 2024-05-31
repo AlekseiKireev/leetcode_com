@@ -2,6 +2,11 @@ https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/
 
 https://walkccc.me/LeetCode/problems/0581/
 
+___
+
+    [1,2,3,4]
+    0
+
 ____
 
 [Разбор задачи 581 leetcode.com Shortest Unsorted Continuous Subarray. Решение на C++](https://www.youtube.com/watch?v=WSLTFJ_aiB8)
