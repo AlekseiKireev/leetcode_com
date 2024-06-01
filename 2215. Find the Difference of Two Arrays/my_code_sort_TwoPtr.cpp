@@ -8,7 +8,8 @@ class Solution {
 
             if (nums1[i] < nums2[j]) {
 
-                if(result.empty() || result.back() != nums1[i]) {
+                if(result.empty() || result.back() != nums1[i]) { /* отличие от https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers
+                                                                     в этом условном операторе*/
                     result.push_back(nums1[i]);
                 }
 
