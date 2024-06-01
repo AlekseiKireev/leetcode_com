@@ -45,3 +45,28 @@ public:
         return 3;  
     }  
 }; 
+
+/*
+class Solution {
+public:
+    int numSquares(int N) {
+        
+        int SqrtN = sqrt(N);
+
+        if(SqrtN * SqrtN == N){return 1;}
+
+        for(int i = 1; i <= SqrtN; ++i){
+
+            int Buffer = sqrt(N - i*i);
+            if(Buffer * Buffer == N- i*i){return 2;}
+        }
+
+        while(N%4 == 0){
+            N /= 4;
+        }
+
+        return (N%8 == 7) ? 4 : 3;
+        
+    }
+};
+*/
