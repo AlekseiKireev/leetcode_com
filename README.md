@@ -1,3 +1,9 @@
+
+Ну у меня была типо пробелы в строке заменить на три символа
+
+И надо за О(n) по времени и O(1) по памяти
+
+
 https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-of-a-substring-by-pattern
 <br>
 https://leetcode.com/problems/reconstruct-itinerary/description/
