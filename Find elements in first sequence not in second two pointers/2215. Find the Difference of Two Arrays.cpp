@@ -3,6 +3,12 @@ class Solution {
         std::vector<int> result;
         int i = 0, j = 0;
 
+        /*
+        чтобы прийти к решению надо учесть события: 
+        nums1[i] < nums2[j]
+        nums1[i] = nums2[j]
+        nums1[i] > nums2[j]
+        */
         while (i < nums1.size() && j < nums2.size()) {
 
             if (nums1[i] < nums2[j]) {
