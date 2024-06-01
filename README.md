@@ -122,9 +122,9 @@ O(n)
 
 <details>  
 <summary> operations on sets </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays -- return unique intersection
+        https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays -- return unique intersection (в частности unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)
         https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- return all val intersection
-        https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference
+        https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference (в частности unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)
         https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference
                 <details>  
                 <summary> Intervals </summary>
