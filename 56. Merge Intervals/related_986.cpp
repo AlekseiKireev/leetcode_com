@@ -17,6 +17,8 @@ public:
        for(vector<int> & interval : intervals){
 
             if( CheckIntersectionSortedIntervals(interval, Ans.back()) ){
+                /*[[1,5], [2,3]] --> [1,5]*/
+                /*[[1,5], [2,13]] --> [1,13]*/
                 Ans.back().back() = max(Ans.back().back(), interval.back());
             }else{
                 Ans.push_back(interval);
