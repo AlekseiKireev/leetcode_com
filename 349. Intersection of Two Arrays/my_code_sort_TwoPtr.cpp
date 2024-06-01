@@ -12,6 +12,14 @@ public:
 
         int FirstPtr = 0;
         int SecondPtr = 0;
+
+        /*
+        чтобы прийти к решению надо учесть события: 
+        nums1[i] < nums2[j]
+        nums1[i] = nums2[j]
+        nums1[i] > nums2[j]
+        */
+        
         while(FirstPtr < FIRST_SIZE && SecondPtr < SECOND_SIZE){
 
             if(nums1[FirstPtr] == nums2[SecondPtr]){
