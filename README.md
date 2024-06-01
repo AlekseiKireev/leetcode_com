@@ -14,6 +14,8 @@ https://leetcode.com/problems/longest-increasing-subsequence/description/
 https://www.geeksforgeeks.org/longest-increasing-subarray/  
 https://t.me/lordsStash/411  
 
+По моему еще вывести длину максимальной непрерывно возрастающей/убывающей последовательности
+
 нет смысла искать правую границу: обновляем только левую и длину, тогда возврат будет: 
 {LeftPtr, LeftPtr + MaxSize} — это если я правильно понял задачу, что надо найти левую и правую границу
 
