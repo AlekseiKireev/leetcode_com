@@ -46,7 +46,11 @@ public:
         auto& VCT = ValToItsOnVal[ValTopStack];
 
         VCT.pop_back();
-        if(VCT.empty()){
+        if(VCT.empty()){ /* если не удалять, то он иожет стать фейковым максимумом, ввиду чего в строках
+                            auto& VCT = ValToItsOnVal.begin()->second;        
+                            OrderVal.erase(VCT.back());
+                            будет ошибка при VCT.back() -- будет обращение к пустому элементу
+            */
             ValToItsOnVal.erase(ValTopStack);
         }
 
