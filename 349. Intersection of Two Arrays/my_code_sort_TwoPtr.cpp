@@ -21,9 +21,10 @@ public:
         */
         
         while(FirstPtr < FIRST_SIZE && SecondPtr < SECOND_SIZE){
+            
+            if(nums1[FirstPtr] == nums2[SecondPtr]){ 
 
-            if(nums1[FirstPtr] == nums2[SecondPtr]){
-
+                // данный условный оператор единственное отличие в сравнение с решением 350. Intersection of Two Arrays II/my_code_sort_two_ptr.cpp
                 if(Intersection.empty() || Intersection.back() != nums1[FirstPtr]){
                     Intersection.push_back(nums1[FirstPtr]);
                 }
