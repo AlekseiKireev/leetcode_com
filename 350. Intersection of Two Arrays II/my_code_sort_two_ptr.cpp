@@ -22,9 +22,11 @@ public:
                 
             }else{
                 
-               //(nums1[Ptr_1] < nums2[Ptr_2]) ? ++Ptr_1 : ++Ptr_2; // equiv
+               (nums1[Ptr_1] < nums2[Ptr_2]) ? ++Ptr_1 : ++Ptr_2; // equiv
+               /* так будет ошибочно, ввиду того, что можно сдвинуть Ptr_1 за границу массива, а потом обратиться к nums1[Ptr_1] -- что приведет к ошибке!
                Ptr_1 += (nums1[Ptr_1] < nums2[Ptr_2]);
                Ptr_2 += (nums1[Ptr_1] > nums2[Ptr_2]);
+               */
 
             }
 
