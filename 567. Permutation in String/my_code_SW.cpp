@@ -1,39 +1,34 @@
 class Solution {
-
-private:
-
-static const int ALPHABET_SIZE = 26;
-
 public:
-    bool checkInclusion(string_view ang, string_view s) {
-          vector<int>  start_indices;
+    bool checkInclusion(string_view Angr, string_view Str) {
 
-        array<int,26> CharAngToCount; CharAngToCount.fill(0);
-        for(char ch : ang){
-            --CharAngToCount[ch - 'a'];
+        vector<int> CharAngrToCount(128);
+        for(char ch : Angr){
+            --CharAngrToCount[ch];
         }
+        
+        int CountChFromAngrInSW = 0;
+        for(int LeftPtr = 0, RightPtr = 0; RightPtr < Str.size(); ++RightPtr){
 
-        int CountCharsAngInWindow = 0;
-        for(int RightPtr = 0, LeftPtr = 0; RightPtr < s.size(); ++RightPtr){
-
-            if(++CharAngToCount[s[RightPtr] - 'a'] <= 0){ // сдвигаем правую границу, увпличиваем количетсво символов в окне
-                ++CountCharsAngInWindow;
+            if(++CharAngrToCount[Str[RightPtr]]<= 0){
+                ++CountChFromAngrInSW;
             }
 
-            for(; CountCharsAngInWindow == ang.size(); ++LeftPtr){
+            for(; CountChFromAngrInSW == Angr.size(); ++LeftPtr){
 
-                if(RightPtr - LeftPtr + 1 == ang.size()){
+                if(RightPtr - LeftPtr + 1 == Angr.size()){
                     return true;
                 }
 
-                // количество символов НЕ из анаграммы > 0, если s[LeftPtr] из анаграммы, то CharAngToCount[s[LeftPtr] - 'a'] = 0, так как CountCharsAngInWindow == ang.size()
-                if(--CharAngToCount[s[LeftPtr] - 'a'] < 0){ // сдвигаем левую границу, уменьшаем количество символов в окне
-                    --CountCharsAngInWindow;
-                }                
+                if(--CharAngrToCount[Str[LeftPtr]] < 0){
+                    --CountChFromAngrInSW;
+                }
             }
+
         }
 
         return false;
+
     }
 };
 
