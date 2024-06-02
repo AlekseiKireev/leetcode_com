@@ -1,8 +1,6 @@
 class Solution {
 public:
-    pair<int, int> CheckOnPalindrom(int i, int j, string s) {
-        int left = i;
-        int right = j;
+    pair<int, int> CheckOnPalindrom(int left, int right, string s) {
 
         while (left >= 0 && right < s.size() && s[left] == s[right]) {
             left--;
