@@ -16,7 +16,7 @@ https://neerc.ifmo.ru/wiki/index.php?title=%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_
 
 ____
 
-<p align="center"> Manacher's algorithm | Алгоритм Манакера </p>
+# <p align="center"> Manacher's algorithm | Алгоритм Манакера </p>
 
 "
 Note: this algorithm is completely out of scope for coding interviews. Because of this, we will not be talking about the algorithm in detail. This approach has been included for the sake of completeness and for those who are curious about algorithms beyond the scope of interviews.
@@ -34,7 +34,7 @@ https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromi
 
 _____
 
-<p align="center"> DP </p>
+# <p align="center"> DP </p>
 
 https://www.techiedelight.com/longest-palindromic-substring-non-dp-space-optimized-solution/
 
