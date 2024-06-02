@@ -294,7 +294,10 @@ O(n)
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array    
     https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
     https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray       
-    https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters    
+    https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters
+        https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III
+        https://github.com/SkosMartren/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II
+        https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element
 </details>
 
 
