@@ -21,7 +21,7 @@ public:
                 ++LeftPtr;
                 --LengthLongestSubstring;
                 
-            }
+            } // LengthLongestSubstring - MaxCountRepeatSymb <= k
 
         }
 
