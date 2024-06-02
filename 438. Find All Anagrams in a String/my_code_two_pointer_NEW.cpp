@@ -46,36 +46,35 @@ public:
 /*
 class Solution {
 public:
-    vector<int> findAnagrams(string_view s, string_view ang) {
+    vector<int> findAnagrams(string Str, string Angr) {
         
-        vector<int>  start_indices;
-
-        // "s and p consist of lowercase English letters."
-        array<int,26> CharAngToCount; CharAngToCount.fill(0);
-        for(char ch : ang){
-            --CharAngToCount[ch - 'a'];
+        vector<int> CharAngrToCount(128);
+        for(char ch : Angr){
+            --CharAngrToCount[ch];
         }
 
-        int CountCharsAngInWindow = 0;
-        for(int RightPtr = 0, LeftPtr = 0; RightPtr < s.size(); ++RightPtr){
+        vector<int> Idxs;
+        int CountChFromAngrInSW = 0;
+        for(int LeftPtr = 0, RightPtr = 0; RightPtr < Str.size(); ++RightPtr){
 
-            if(++CharAngToCount[s[RightPtr] - 'a'] <= 0){ // сдвигаем правую границу, увпличиваем количетсво символов в окне
-                ++CountCharsAngInWindow;
+            if(++CharAngrToCount[Str[RightPtr]]<= 0){
+                ++CountChFromAngrInSW;
             }
 
-            for(; CountCharsAngInWindow == ang.size(); ++LeftPtr){
+            for(; CountChFromAngrInSW == Angr.size(); ++LeftPtr){
 
-                if(RightPtr - LeftPtr + 1 == ang.size()){
-                    start_indices.push_back(LeftPtr);
+                if(RightPtr - LeftPtr + 1 == Angr.size()){
+                    Idxs.push_back(LeftPtr);
                 }
 
-                if(--CharAngToCount[s[LeftPtr] - 'a'] < 0){ // сдвигаем левую границу, уменьшаем количество символов в окне
-                    --CountCharsAngInWindow;
-                }                
+                if(--CharAngrToCount[Str[LeftPtr]] < 0){
+                    --CountChFromAngrInSW;
+                }
             }
+
         }
 
-        return start_indices;
+        return Idxs;
     }
 };
 */
