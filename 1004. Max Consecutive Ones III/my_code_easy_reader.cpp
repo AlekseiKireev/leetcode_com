@@ -57,15 +57,12 @@ public:
         int CountFlipZero = 0;
 
         for(int L = 0, R = 0; R < N.size(); ++R){
-
-            if(N[R] == 0){
-                ++CountFlipZero;
-            }
+            
+            CountFlipZero += (N[R] == 0);
 
             for(;CountFlipZero == k + 1; ++L){
-                if(N[L] == 0){
-                    --CountFlipZero;
-                }                
+            
+                CountFlipZero -= (N[L] == 0);            
             }
 
             Ans = max(Ans, R - L + 1);
