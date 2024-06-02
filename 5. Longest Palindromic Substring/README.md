@@ -16,6 +16,8 @@ https://neerc.ifmo.ru/wiki/index.php?title=%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_
 
 ____
 
+# обход из i / i и i+1 позиции с проверкой на палиндром
+
 # <p align="center"> Manacher's algorithm | Алгоритм Манакера </p>
 
 "
