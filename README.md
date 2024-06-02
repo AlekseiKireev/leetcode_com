@@ -250,7 +250,8 @@ O(n)
 
 
 <details>  
-<summary> Binary search </summary>    
+<summary> Binary search </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays        
     https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix
     https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
     https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
