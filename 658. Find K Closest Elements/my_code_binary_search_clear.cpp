@@ -4,7 +4,7 @@ public:
     vector<int> findClosestElements(vector<int>& arr, int k, int target) {
 
         function<bool(int, int)> Operator = [target](const int a, const int b) {
-            return target - a <= b - target;
+            return target - a > b - target;
         };
 
         int left = 0;
@@ -14,7 +14,7 @@ public:
 
             const int mid = left + (right - left) / 2;
 
-            Operator(arr[mid], arr[mid + k]) ? right = mid : left = mid + 1;
+            Operator(arr[mid], arr[mid + k]) ? left = mid + 1 : right = mid;
 
         }
 
