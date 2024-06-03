@@ -4,47 +4,6 @@ https://leetcode.com/problems/reconstruct-itinerary/description/
 <br>
 the minimum product of two numbers in an any numbers array
 
-https://leetcode.com/problems/longest-increasing-subsequence/description/  
-https://www.geeksforgeeks.org/longest-increasing-subarray/  
-https://t.me/lordsStash/411  
-
-По моему еще вывести длину максимальной непрерывно возрастающей/убывающей последовательности
-
-нет смысла искать правую границу: обновляем только левую и длину, тогда возврат будет: 
-{LeftPtr, LeftPtr + MaxSize} — это если я правильно понял задачу, что надо найти левую и правую границу
-
-дан массив. надо вернуть `pair<int, int>  где максимальная длина монотонно возрастающего или убывающего под массива.
-требования:
-O(1)
-O(n)
-
-        #include <vector>
-        #include <algorithm>
-        using namespace std;
-        
-        pair<int, int> findLongestIncreasingDecreasingSubarray(const vector<int>& nums) {
-            if (nums.empty()) return {0, 0};
-        
-            int maxInc = 1, maxDec = 1;
-            int currentInc = 1, currentDec = 1;
-        
-            for (size_t i = 1; i < nums.size(); ++i) {
-                if (nums[i] > nums[i - 1]) {
-                    currentInc++;
-                    currentDec = 1;
-                } else if (nums[i] < nums[i - 1]) {
-                    currentDec++;
-                    currentInc = 1;
-                } else {
-                    currentInc = currentDec = 1;
-                }
-                maxInc = max(maxInc, currentInc);
-                maxDec = max(maxDec, currentDec);
-            }
-        
-            return {maxInc, maxDec};
-        }
-
 
 <details>  
 <summary>  Topics </summary>
