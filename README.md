@@ -272,6 +272,7 @@ the minimum product of two numbers in an any numbers array
 <details>  
 <summary> Yandex </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string
+        https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence        
 </details>
 
 </details>
