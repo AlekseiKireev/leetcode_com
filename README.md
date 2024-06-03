@@ -2,6 +2,9 @@ https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-o
 <br>
 https://leetcode.com/problems/reconstruct-itinerary/description/
 
+из того, что мне встречалось  
+- найти элемент в бин дерево поиска == https://leetcode.com/problems/search-in-a-binary-search-tree/description/  
+- дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем
 
 <details>  
 <summary>  Topics </summary>
