@@ -75,3 +75,49 @@ public:
     }
 };
 */
+
+
+
+/* // тут ошибка: 
+class Solution {
+public:
+    int compress(vector<char>& chars) {
+        
+        int IdxOnCompressStr = 0;
+
+        for(int i = 0; i < chars.size(); ++i){
+
+            
+            const char CurChar = chars[i];
+            chars[IdxOnCompressStr] = CurChar;
+            ++IdxOnCompressStr;
+
+            int CountPepeat = 0;
+            for(; i < chars.size() && CurChar == chars[i]; ++i){
+                ++CountPepeat;
+            } // тут ошибка, так как при выхоже chars[i] будет указывать на символ != CurChar, а потом еще раз сдвинеться в внешнем цикле. Чтобы исправить надо убрать сдвиг из внешнего цикла
+
+            if(CountPepeat > 1){
+
+                for(char ch : to_string(CountPepeat)){
+
+                    chars[IdxOnCompressStr] = ch;
+                    ++IdxOnCompressStr;    
+
+                }
+            }
+
+        }
+
+        return IdxOnCompressStr; // +1??????????
+    }
+};
+*/
+/* // верно будет: 
+            int CountPepeat = 1;
+            for(; i + 1 < chars.size() && CurChar == chars[i + 1]; ++i){
+                ++CountPepeat;
+            }
+    
+    
+*/
