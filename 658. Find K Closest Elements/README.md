@@ -168,6 +168,11 @@ https://leetcode.com/problems/find-k-closest-elements/solutions/106426/java-c-py
     Anyway, all 6 cases can be represented by: x - A[mid] > A[mid + k] - x -- for operator if if (x - A[mid] > A[mid + k] - x)
 
 
+    For those who are finding it hard to understand x - A[mid] > A[mid + k] - x think in terms of midpoint of the two values x > (A[mid + k] + A[mid])/2.
+
+    This comment is awesome - made it very clear for me - our task in this binary search is to find the start of sliding window so that it's middle is the closest to x.
+    NB to everyone who'll try to code it - integer division lacks precision - make sure to convert to double - e.g. if (x > ((double)arr[m + k] + arr[m])/2)    
+
 ________
 
 # Два указателя, линейный поиск
