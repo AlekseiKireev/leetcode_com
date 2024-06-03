@@ -316,6 +316,10 @@ O(n)
     https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
 </details>
 
+<details>  
+<summary> Yandex </summary>    
+    w
+</details>
 
 </details>
 
