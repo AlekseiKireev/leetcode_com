@@ -23,6 +23,9 @@ int write(char* bufer, int count)
 принимает буфер в который надо записать и количество чисел которое необходимо туда записать 
 она возвращает, сколько удалось записать символов
 
+https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0158.Read%20N%20Characters%20Given%20read4%20II%20-%20Call%20Multiple%20Times/README_EN.md  
+https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0157.Read%20N%20Characters%20Given%20Read4/README_EN.md
+
 <details>  
 <summary>  Topics </summary>
 
