@@ -1,6 +1,7 @@
 https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/ -- подзадача
 
 https://leetcode.com/problems/longest-increasing-subsequence/description/  
+https://contest.yandex.ru/contest/45469/problems/22/  
 https://www.geeksforgeeks.org/longest-increasing-subarray/  
 https://t.me/lordsStash/411  
 
