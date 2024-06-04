@@ -66,7 +66,7 @@ private:
 
                 for (int j = jStart; j <= i; j++) {
                     
-                    if (s[j] == closedParen && (j == jStart || s[j - 1] != closedParen)) {
+                    if (s[j] == closedParen && (j == jStart || s[j - 1] != closedParen)) { // s[j - 1] == openParen // error!
                         removeHelper(s.substr(0, j) + s.substr( j + 1, s.length() ), i, j, openParen, closedParen);
                     }
                 }
