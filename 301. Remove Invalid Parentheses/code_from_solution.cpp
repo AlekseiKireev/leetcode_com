@@ -72,7 +72,7 @@ private:
 
                 return;
             }
-        }
+        } // numClosedParen <= numOpenParen
 
         string reversed = s;
         reverse(reversed.begin(), reversed.end());
