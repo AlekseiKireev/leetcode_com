@@ -38,3 +38,46 @@ private:
         }
     }
 };
+
+/*
+class Solution {
+
+public:
+
+    vector<string> removeInvalidParentheses(string s) {
+        vector<string> output;
+        removeHelper(s, output, 0, 0, '(', ')');
+        return output;
+    }
+
+private:
+    void removeHelper(string s, vector<string>& output, int iStart, int jStart, char openParen, char closedParen) {
+
+        int numOpenParen = 0, numClosedParen = 0;
+        for (int i = iStart; i < s.length(); i++) {
+
+            if (s[i] == openParen) numOpenParen++;
+            if (s[i] == closedParen) numClosedParen++;
+
+            if (numClosedParen > numOpenParen) {
+
+                for (int j = jStart; j <= i; j++) {
+                    if (s[j] == closedParen && (j == jStart || s[j - 1] != closedParen)) {
+                        removeHelper(s.substr(0, j) + s.substr(j + 1, s.length()), output, i, j, openParen, closedParen);
+                    }
+                }
+                return;
+            }
+        }
+
+        string reversed = s;
+        reverse(reversed.begin(), reversed.end());
+        if (openParen == '(') {
+            removeHelper(reversed, output, 0, 0, ')', '(');
+        } else {
+            output.push_back(reversed);
+        }
+        
+    }
+};
+*/
