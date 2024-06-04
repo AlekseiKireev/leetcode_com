@@ -21,7 +21,7 @@ private:
 
             if (numClosedParen - 1 == numOpenParen) { 
 
-                for (int j = jStart; j <= i; j++) {
+                for (int j = jStart; j <= i; j++) { // знак равенства нужен для "Wrong Answer 28 / 127 Input s = ")(" Use Testcase Output [] Expected [""]"
                     
                     if (s[j] == closedParen ) {
                         removeHelper(s.substr(0, j) + s.substr( j + 1, s.length() ), i, j, openParen, closedParen);
