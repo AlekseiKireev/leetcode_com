@@ -2,6 +2,8 @@ https://leetcode.com/problems/remove-invalid-parentheses/description/
 
 https://walkccc.me/LeetCode/problems/301/
 
+У Федора Меньшикова разбор отсут-т!
+
 ___
 
 * При проходе слева-направа должен выполняться инвариант: closedParen <= openParen
