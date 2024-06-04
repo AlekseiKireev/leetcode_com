@@ -1,4 +1,5 @@
 https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-of-a-substring-by-pattern
+https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 
 из того, что мне встречалось  
 - найти элемент в бин дерево поиска == https://leetcode.com/problems/search-in-a-binary-search-tree/description/  
