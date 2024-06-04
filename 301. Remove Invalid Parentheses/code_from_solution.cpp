@@ -61,7 +61,8 @@ private:
             if (s[i] == openParen)   {numOpenParen++;}
             if (s[i] == closedParen) {numClosedParen++;}
 
-            if (numClosedParen > numOpenParen) {
+            // if (numClosedParen - 1 == numOpenParen) { // good!
+            if (numClosedParen > numOpenParen) { 
 
                 for (int j = jStart; j <= i; j++) {
                     
