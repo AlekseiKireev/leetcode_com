@@ -11,7 +11,7 @@ public:
     }
 
 private:
-    void removeHelper(string s,  int iStart, int jStart, char openParen, char closedParen) {
+    void removeHelper(string s,  int iStart, int jStart, const char openParen, const char closedParen) { // " const char openParen, const char closedParen" по сути нужны для removeHelper(reversed, 0, 0, ')', '(');
 
         int numOpenParen = 0, numClosedParen = 0;
         for (int i = iStart; i < s.length(); i++) {
