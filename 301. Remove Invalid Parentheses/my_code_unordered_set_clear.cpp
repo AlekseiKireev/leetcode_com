@@ -14,7 +14,7 @@ private:
     void removeHelper(string Str,  int RightPtr, int LeftPtr, const char openParen, const char closedParen) {
 
         int numOpenParen = 0, numClosedParen = 0;
-        for (int Right = RightPtr; Right < Str.length(); Right++) {
+        for (int Right = RightPtr; Right < Str.size(); Right++) {
 
             if (Str[Right] == openParen)   {numOpenParen++;}
             if (Str[Right] == closedParen) {numClosedParen++;}
@@ -24,7 +24,8 @@ private:
                 for (int Left = LeftPtr; Left <= Right; Left++) {
                     
                     if (Str[Left] == closedParen ) {
-                        removeHelper(Str.substr(0, Left) + Str.substr( Left + 1, Str.length() ), Right, Left, openParen, closedParen);
+                        // removeHelper(Str.substr(0, Left) + Str.substr( Left + 1, Str.size() - Left - 1), Right, Left, openParen, closedParen);
+                        removeHelper(Str.substr(0, Left) + Str.substr( Left + 1, Str.size() ), Right, Left, openParen, closedParen);
                     }
                 }
 
