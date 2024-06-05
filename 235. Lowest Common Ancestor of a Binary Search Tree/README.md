@@ -5,9 +5,8 @@ https://walkccc.me/LeetCode/problems/0235/
 https://www.techiedelight.com/ru/find-lowest-common-ancestor-lca-two-nodes-bst/
 
 related:  
-- https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-- https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree -- ЭТО РЕШЕНИЕ ПОДХОДИТ!
-
+- https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree 
+- https://github.com/SkosMartren/leetcode_com/tree/main/700.%20Search%20in%20a%20Binary%20Search%20Tree
 ____________
 
 [Разбор задачи 235 leetcode.com Lowest Common Ancestor of a Binary Search Tree. Решение на C++](https://www.youtube.com/watch?v=SZp0M7DmHFs)
