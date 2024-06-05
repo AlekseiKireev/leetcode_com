@@ -277,6 +277,7 @@ https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
     https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string
         https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence
         https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes
+        https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4
 </details>
 
 </details>
