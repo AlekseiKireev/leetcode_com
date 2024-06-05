@@ -2,7 +2,6 @@ https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-o
 https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 
 из того, что мне встречалось  
-- найти элемент в бин дерево поиска == https://leetcode.com/problems/search-in-a-binary-search-tree/description/  
 - дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем
 
 Никита Красков, [6/3/2024 8:40 PM]
@@ -140,7 +139,8 @@ https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0157.Read%20N%20C
         </details>
         <br>
         <details>  
-        <summary> BST </summary>    
+        <summary> BST </summary>
+            https://github.com/SkosMartren/leetcode_com/tree/main/700.%20Search%20in%20a%20Binary%20Search%20Tree -- Iter
             https://github.com/SkosMartren/leetcode_com/tree/main/449.%20Serialize%20and%20Deserialize%20BST
             https://github.com/SkosMartren/leetcode_com/tree/main/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal
             https://github.com/SkosMartren/leetcode_com/tree/main/98.%20Validate%20Binary%20Search%20Tree -- InOrder
