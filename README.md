@@ -1,4 +1,10 @@
-https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-of-a-substring-by-pattern
+https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-of-a-substring-by-pattern  
+
+А надо за один проход удалить, или пока такая конструкция существует в строке, например: 
+"A:-:-)))(((A"
+
+Возврат будет "AA"? Ожидается "A:-(((A"   
+
 https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 
 из того, что мне встречалось  
