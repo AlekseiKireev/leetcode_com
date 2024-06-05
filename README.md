@@ -5,6 +5,27 @@ https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-o
 
 Возврат будет "AA"? Ожидается "A:-(((A"   
 
+Akniyet Sarsenbek, [5/28/2024 9:21 PM]
+Дается строка надо убрать все смайлики из строки
+
+Akniyet Sarsenbek, [5/28/2024 9:21 PM]
+:-))))
+
+Akniyet Sarsenbek, [5/28/2024 9:21 PM]
+:-(((
+
+Akniyet Sarsenbek, [5/28/2024 9:21 PM]
+:-)
+
+Akniyet Sarsenbek, [5/28/2024 9:21 PM]
+Смайлики
+
+Akniyet Sarsenbek, [5/28/2024 9:21 PM]
+:) не смайлик
+
+Akniyet Sarsenbek, [5/28/2024 9:24 PM]
+Самйликом считается если начинается с :- и N количество скобок ) или (
+
 https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 
 из того, что мне встречалось  
