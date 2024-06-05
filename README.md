@@ -4,25 +4,6 @@ https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 из того, что мне встречалось  
 - дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем
 
-Никита Красков, [6/3/2024 8:40 PM]
-значит есть функция которая читает по 4 байта куда мы скажем. Это наш ввод. Нам нужно написать свою функцию которая будет читать столько байт, сколько мы попросим
-
-Никита Красков, [6/3/2024 8:40 PM]
-и вернуть сколько удалось записать байт
-
-Никита Красков, [6/3/2024 8:46 PM]
-значит есть функция 
-void write4(char* bufer)
-она пишет в bufer по 4 байта
-
-Никита Красков, [6/3/2024 8:48 PM]
-есть наша функция 
-int write(char* bufer, int count)
-принимает буфер в который надо записать и количество чисел которое необходимо туда записать 
-она возвращает, сколько удалось записать символов
-
-https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0158.Read%20N%20Characters%20Given%20read4%20II%20-%20Call%20Multiple%20Times/README_EN.md  
-https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0157.Read%20N%20Characters%20Given%20Read4/README_EN.md
 
 <details>  
 <summary>  Topics </summary>
