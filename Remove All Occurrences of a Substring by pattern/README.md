@@ -63,4 +63,4 @@ Akniyet Sarsenbek, [5/28/2024 9:24 PM]
         }
 
 
-https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
+related: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
