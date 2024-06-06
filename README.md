@@ -1,74 +1,3 @@
-https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-of-a-substring-by-pattern  
-
-А надо за один проход удалить, или пока такая конструкция существует в строке, например: 
-"A:-:-)))(((A"
-
-Возврат будет "AA"? Ожидается "A:-(((A"   
-
-Akniyet Sarsenbek, [5/28/2024 9:21 PM]
-Дается строка надо убрать все смайлики из строки
-
-Akniyet Sarsenbek, [5/28/2024 9:21 PM]
-:-))))
-
-Akniyet Sarsenbek, [5/28/2024 9:21 PM]
-:-(((
-
-Akniyet Sarsenbek, [5/28/2024 9:21 PM]
-:-)
-
-Akniyet Sarsenbek, [5/28/2024 9:21 PM]
-Смайлики
-
-Akniyet Sarsenbek, [5/28/2024 9:21 PM]
-:) не смайлик
-
-Akniyet Sarsenbek, [5/28/2024 9:24 PM]
-Самйликом считается если начинается с :- и N количество скобок ) или (
-
-        #include <iostream>
-        using namespace std;
-        
-        string removeSmileys(string s) {
-            
-            int i = 0;
-            while (i < s.size()) {
-                
-                if (s[i] == ':' && i + 2 < s.size() && s[i + 1] == '-' && (s[i + 2] == '(' || s[i + 2] == ')')) {
-                    // Найден потенциальный смайлик, теперь нужно проверить количество скобок
-                    int j = i + 2;
-                    //int count = 0;
-                    char ChRemove = s[i + 2];
-                    
-                    while (j < s.size() && s[j] == ChRemove) {
-                        //count++;
-                        j++;
-                    }
-                    s.erase(i, j - i);
-                    //s.erase(i, count + 2);
-                    
-                } else {
-                    // Продолжаем поиск
-                    i++;
-                }
-            }
-            return s;
-        }
-        
-        int main() {
-            string s = "A:-:-)))(((A";
-            string result = removeSmileys(s);
-            cout << result << endl;  // Выведет "A:-(((A"
-            return 0;
-        }
-
-
-https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
-
-из того, что мне встречалось  
-- дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем
-
-
 <details>  
 <summary>  Topics </summary>
 
@@ -290,7 +219,7 @@ https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 <details>  
 <summary> DFS / BFS / DSU </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands
-    https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary    
+    https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary -- YA   
 </details>
 
 
@@ -338,9 +267,11 @@ https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 
 <details>  
 <summary> Yandex </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string
+        - дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем
+        https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string
         https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence
         https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes
+        https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern
         https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4
 </details>
 
