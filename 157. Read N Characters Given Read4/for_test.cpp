@@ -20,14 +20,17 @@ int read4(char *buf4) {
 int read(char *buf, int n) {
     
     int totalRead = 0;    
-    bool eof = false;
+    bool eof = false; // https://en.wikipedia.org/wiki/End-of-file
     
     for (char buf4[4]; totalRead < n && !eof;) {
+        
         int currentRead = read4(buf4);
-        if (currentRead < 4) eof = true;
+        if (currentRead < 4) {eof = true;}
+        
         for (int i = 0; i < currentRead && totalRead < n; ++i) {
             buf[totalRead++] = buf4[i];
         }
+        
     }
     return totalRead;
 }
