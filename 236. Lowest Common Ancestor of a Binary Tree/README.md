@@ -10,6 +10,9 @@
 2. Если в node вернулось оба nullptr, возвращаем nullptr, так как текущая node не является родителем ни одного потоска, для которого ищется LCA
 3. Если в node вернулось nullptr и НЕ nullptr, то эта node не является LCA, возвращаем в ее родителя  НЕ nullptr
 4. Если node == p (одной из тех, для которой ищем LCA), возвращаем ее, тем самым остановив рекурсивный поиск. Действительно, если q -- потомок p, то то все остальные возвращения будут nullptr. Если в разных поддеревьях -- попадаем в случай 1. . Если в одном, в конечном итоге попадем в 3. .
+
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/TusharRoy236.png" width="750" height="550"/>
+
 ______________________
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
