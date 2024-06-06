@@ -17,7 +17,9 @@ https://leetcode.com/discuss/interview-question/1585947/remove-all-occurrences-o
         :-)
 
 
-:) не смайлик
+не смайлик
+
+        :) 
 
 
 related: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
