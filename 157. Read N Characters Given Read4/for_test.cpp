@@ -18,11 +18,11 @@ int read4(char *buf4) {
 // Функция read читает до n символов, используя read4, и записывает их в буфер buf. 
 // Она продолжает читать, пока не будет прочитано n символов или не достигнут конец файла.
 int read(char *buf, int n) {
-    int totalRead = 0;
-    char buf4[4];
+    
+    int totalRead = 0;    
     bool eof = false;
     
-    while (totalRead < n && !eof) {
+    for (char buf4[4]; totalRead < n && !eof;) {
         int currentRead = read4(buf4);
         if (currentRead < 4) eof = true;
         for (int i = 0; i < currentRead && totalRead < n; ++i) {
