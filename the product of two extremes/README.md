@@ -19,7 +19,7 @@ the minimum product of two numbers in an any numbers array https://www.geeksforg
       }
 
 
-
+# ChatGPT
 
 
       решу эту задачу: https://www.geeksforgeeks.org/minimum-product-pair-an-array-of-positive-integers/ -- только для любых чисел в массиве (как положительных, так и отрицательных) -- реши без явной сортировки на C++
