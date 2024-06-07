@@ -1,3 +1,5 @@
+https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/
+
 the minimum product of two numbers in an any numbers array https://www.geeksforgeeks.org/minimum-product-pair-an-array-of-positive-integers/
 
       #include <iostream>
