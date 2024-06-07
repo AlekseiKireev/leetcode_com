@@ -102,6 +102,7 @@ ___
         std::cout << "Modified array: ";
         for (int i = 0; i < size; i++) {
             std::cout << *(ptr + i) << " ";
+            //std::cout << ptr[i] << " "; // good!
         }
         std::cout << std::endl;
     
