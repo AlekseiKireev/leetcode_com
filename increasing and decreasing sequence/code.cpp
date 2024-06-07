@@ -8,7 +8,7 @@ using namespace std;
 class Solution {
 public:
     pair<int, int> maxLengthSubarray(const vector<int>& nums, function<bool(int, int)> comp) {
-        if (nums.empty()) return {0, 0};
+        if (nums.empty()) return {-1, -1};
 
         int maxLength = 1;
         int currentLength = 1;
