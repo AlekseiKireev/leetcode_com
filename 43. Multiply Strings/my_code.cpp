@@ -12,7 +12,7 @@ public:
         string Answer(num1.size() + num2.size(), '0'); // num1.size() + num2.size() == MaxSizeProduct
 
 
-        for(int pos1 = 0; pos1 < num1.size();++pos1){
+        for(int pos1 = 0; pos1 < num1.size();++pos1){ // == num2 * num1
 
             const int digit1  = num1[pos1] - '0';
 
