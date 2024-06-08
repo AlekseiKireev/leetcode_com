@@ -39,6 +39,18 @@ y  $\to \quad \quad$  $y_1  \quad y_2 \quad y_3 \quad y_4 \quad y_5 \quad | \qua
 
 $median = [max(x_2, y_5) + min(x_3, y_6) ] / 2$
 
+            условие 
+            
+            if (maxLeftX > minRightY) {             
+                high = partitionX;
+            } else { 
+                low = partitionX + 1;
+            }
+            необходимо для того, чтобы выйти из цикла, так как ограничение на цикл имеет вид: while (low <= high) { 
+            аналогичное можно увдитеть, напрмиер, в https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
+
+# Ex
+
 my ex 1
 
             [1,2]
