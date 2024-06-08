@@ -20,7 +20,7 @@ pair<int,int> FindExtrem(vector<int>& nums, auto comp, int GlobalExtrem){
 
 public:
     int maxProduct(vector<int>& nums) {
-        auto [F, S] = FindExtrem(nums, greater<int>(), INT_MIN);
+        auto [F, S] = FindExtrem(nums, greater<int>(), INT_MIN); // также надо сделать проверку на то, что F, S != INT_MIN
         return (F-1)*(S-1);
     }
 
