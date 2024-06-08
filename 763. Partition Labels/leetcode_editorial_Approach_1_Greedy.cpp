@@ -32,27 +32,33 @@ public:
 
 
 /*
-#include <vector>
-#include <string>
-
 class Solution {
 public:
-    std::vector<int> partitionLabels(std::string S) {
-        std::vector<int> CharToLastID(26, 0);
-        for (int i = 0; i < S.length(); ++i) {
-            CharToLastID[S[i] - 'a'] = i;
+    vector<int> partitionLabels(string Str) {
+        
+        int STR_SIZE = Str.size();
+
+        array<int, 128> CharToLastIdx; //CharToLastIdx.fill(0);
+        for(int i = 0; i < STR_SIZE; ++i){
+            CharToLastIdx[Str[i]] = i;
         }
 
-        int j = 0, anchor = 0;
-        std::vector<int> ans;
-        for (int i = 0; i < S.length(); ++i) {
-            j = std::max(j, CharToLastID[S[i] - 'a']);
-            if (i == j) {
-                ans.push_back(i - anchor + 1);
-                anchor = i + 1;
+        int EndCurrentChunk  = 0; 
+        int StartCurrentChunk = 0; 
+        vector<int> LengthChanck; LengthChanck.reserve(STR_SIZE);
+
+        for(int i = 0; i < STR_SIZE; ++i){
+
+            EndCurrentChunk = max(EndCurrentChunk, CharToLastIdx[Str[i]]);
+
+            if(EndCurrentChunk == i){
+                LengthChanck.push_back(EndCurrentChunk -StartCurrentChunk + 1);
+                StartCurrentChunk = i + 1;
             }
         }
-        return ans;
+
+        return LengthChanck;
+
     }
 };
 */
