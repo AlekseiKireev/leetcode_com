@@ -9,8 +9,8 @@ pair<int,int> FindExtrem(vector<int>& nums, auto comp, int GlobalExtrem){
         if(comp(num, 0) && comp(num, ExtremF) ){
             ExtremS = ExtremF;
             ExtremF = num;
-        }else{
-            ExtremS = max(ExtremS, num);
+        } else if ( comp(num, ExtremS) ) {
+            ExtremS =  num;
         }
     }
 
