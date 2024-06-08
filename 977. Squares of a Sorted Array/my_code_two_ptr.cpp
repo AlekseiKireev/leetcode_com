@@ -5,7 +5,7 @@ public:
         int i = nums.size() - 1;
         vector<int>  ans(nums.size());
 
-        for(int LeftBorderWindow  = 0, RightBorderWindow  = nums.size() - 1; LeftBorderWindow <= RightBorderWindow ;){ // l != r -- error!
+        for(int LeftBorderWindow  = 0, RightBorderWindow  = nums.size() - 1; /*LeftBorderWindow <= RightBorderWindow*/ i>=0;--i){ // l != r -- error!
             
             if(abs(nums[LeftBorderWindow]) > abs(nums[RightBorderWindow])){ // локальный максимум в nums из диапозона индексов [LeftBorderWindow, RightBorderWindow] находится в крайнем левой стороне окна
 
@@ -17,7 +17,7 @@ public:
                 ans[i] = nums[RightBorderWindow ] * nums[RightBorderWindow];
                 --RightBorderWindow;
             }
-            --i;
+            
         }
 
         return ans;
