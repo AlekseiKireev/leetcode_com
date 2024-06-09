@@ -19,7 +19,10 @@ void Visited(TreeNode* node, int Height){
 
     if(node == nullptr){return;}
 
-    if(Height == ZigzagLevel.size()){ZigzagLevel.push_back(vector<int>());}
+    if(Height == ZigzagLevel.size()){
+        // ZigzagLevel.push_back({}); // good!
+        ZigzagLevel.push_back(vector<int>());
+    }
 
     ZigzagLevel[Height].push_back(node->val);
 
