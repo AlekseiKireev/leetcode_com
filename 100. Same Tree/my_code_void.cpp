@@ -24,12 +24,12 @@ private:
         if(LeftNode == nullptr && RightNode == nullptr){return;} // хотя-бы одна нода указывает НЕ на nullptr
         if(LeftNode == nullptr || RightNode == nullptr){
             Ans = false;
-            return;
+            return; // этот выход обязательный, так как далее можно запросить элемент по nullptr указателю
         }
 
         if(LeftNode->val != RightNode->val){
             Ans = false;
-            return;
+            return; // этот выход не обязателен, но он ускоряет код
         }
         //--------------------------УСЛОВИЕ-ВЫХОДА-ИЗ-РЕКУРСИИ---------------------------------------------------------
         Travel(LeftNode->left, RightNode->left) ;
