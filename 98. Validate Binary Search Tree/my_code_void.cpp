@@ -17,7 +17,7 @@ bool TreeIsBST = true;
 
 void InOrder(TreeNode* node){
 
-    if(node == nullptr){
+    if(node == nullptr || TreeIsBST == false){
         return;
     }
 
