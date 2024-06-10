@@ -1,5 +1,11 @@
 class Solution {
 
+/*
+Compile Error
+
+Line 4: Char 31: error: 'auto' not allowed in template argument
+    4 | const unordered_map<  string, auto>  > OperatorToFuctor{
+*/
 // https://en.cppreference.com/w/cpp/utility/functional --> Operator function objects
 const unordered_map<  string, function<int (int, int)>  > OperatorToFuctor{
     {"+", plus<int>()},
