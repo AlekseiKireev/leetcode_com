@@ -33,7 +33,7 @@ public:
 
         }
 
-        SuffixSize = ((SuffixSize%2) ? SuffixSize/2 + 1: SuffixSize/2); // расстояние между Алексом и ближайшим к нему человеком, при условии, что Алекс сидит между двумя людьми
-        return max({PrefixSize,SuffixSize ,EndingSize}); // https://en.cppreference.com/w/cpp/algorithm/max – см. 3-4
+        //SuffixSize = ((SuffixSize%2) ? SuffixSize/2 + 1: SuffixSize/2); // расстояние между Алексом и ближайшим к нему человеком, при условии, что Алекс сидит между двумя людьми
+        return max({PrefixSize,(SuffixSize + 1)/2 ,EndingSize}); // https://en.cppreference.com/w/cpp/algorithm/max – см. 3-4
     }
 };
