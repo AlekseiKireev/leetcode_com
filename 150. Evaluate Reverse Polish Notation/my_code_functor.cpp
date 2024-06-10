@@ -25,7 +25,10 @@ public:
                 
                 const int  RightOperand = Numbs.top();  Numbs.pop();
                 const int  LeftOperand = Numbs.top();  Numbs.pop();
-                Numbs.push(OperatorToFuctor.at(token)(LeftOperand, RightOperand));
+
+                // если перепутать порядок аргументов: Numbs.push(OperatorToFuctor.at(token)(RightOperand, LeftOperand)); 
+                // будет ошибка: Wrong Answer 2 / 21 Input tokens = ["4","13","5","/","+"] Use Testcase Output 4 Expected 6
+                Numbs.push(OperatorToFuctor.at(token)(LeftOperand, RightOperand)); 
                 
             }else{
                 
