@@ -1,12 +1,12 @@
 class Solution {
 public:
 
-    int maxDepth(TreeNode* root) {
+    int maxDepth(TreeNode* node) { // для каждого узла снизу-вверх подсчитывает максимальную глубину его левого и правого поддерева
         
-        if(root == nullptr){return 0;}
+        if(node == nullptr){return 0;}
 
-        int LeftDepth = maxDepth(root->left);
-        int RightDepth = maxDepth(root->right);
+        int LeftDepth = maxDepth(node->left);
+        int RightDepth = maxDepth(node->right);
 
         return max(LeftDepth, RightDepth) + 1;
 
