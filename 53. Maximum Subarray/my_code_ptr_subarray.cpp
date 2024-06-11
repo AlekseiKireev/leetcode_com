@@ -1,7 +1,8 @@
 class Solution {
 
 pair<int, int> GetPtr(vector<int>& nums) {
-    int maxSum = INT_MIN;
+    
+    int maxSum = INT_MIN; // искомое!
     int currentSum = 0;
     int start = 0;
     int end = 0;
