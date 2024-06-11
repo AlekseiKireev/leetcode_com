@@ -26,11 +26,11 @@ class Solution {
             return 0;
         }
         int leftH = getHeight(node->left);
-        if (leftH == -1) {
+        if (leftH == -1) { // <-- "if (abs(leftH - rightH) > 1) { return -1; }"
             return -1;
         }
         int rightH = getHeight(node->right);
-        if (rightH == -1) {
+        if (rightH == -1) { // <-- "if (abs(leftH - rightH) > 1) { return -1; }"
             return -1;
         }
         if (abs(leftH - rightH) > 1) {
