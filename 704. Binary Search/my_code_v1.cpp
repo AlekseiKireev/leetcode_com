@@ -27,7 +27,7 @@ public:
             if(nums[Mid] < target){
                LeftBorder = Mid;
             }else{ // target < nums[Mid] 
-               RightBorder = Mid;
+               RightBorder = Mid; // если убрать досрочный выход, то правый указатель будет указвать на ответ, т.е. конечный возврат имеет вид: return (nums[R] == target ? R: -1);
             }
 
         }
