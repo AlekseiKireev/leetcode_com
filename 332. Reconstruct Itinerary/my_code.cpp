@@ -1,8 +1,11 @@
 class Solution {
 
 vector<string> PathTravel;
+
+// "All of the tickets belong to a man who departs from "JFK", thus, the itinerary must begin with "JFK". ...
+// You may assume all tickets form at least one valid itinerary. "
 //"you should return the itinerary that has the smallest lexical order when read as a single string." --> multiset
-unordered_map<string, multiset<string>> TicketToEndPoint;
+unordered_map<string, multiset<string>> TicketToEndPoint; // multiset -- так как мультиграф
 
 void DFS(const string& depart = "JFK"){
 
