@@ -6,6 +6,10 @@ vector<string> PathTravel;
 // You may assume all tickets form at least one valid itinerary. "
 //"you should return the itinerary that has the smallest lexical order when read as a single string." --> multiset
 unordered_map<string, multiset<string>> TicketToEndPoint; // multiset -- так как мультиграф
+// если использовать set будет ошибка в тесте: 
+/* Wrong Answer 16 / 81 
+Input tickets = [["EZE","AXA"],["TIA","ANU"],["ANU","JFK"],["JFK","ANU"],["ANU","EZE"],["TIA","ANU"],["AXA","TIA"],["TIA","JFK"],["ANU","TIA"],["JFK","TIA"]]   
+Expected ["JFK","ANU","EZE","AXA","TIA","ANU","JFK","TIA","ANU","TIA","JFK"]*/
 
 void DFS(const string& depart = "JFK"){
 
