@@ -2,6 +2,8 @@ https://leetcode.com/problems/merge-k-sorted-lists/
 
 related: https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists
 
+https://walkccc.me/LeetCode/problems/23/
+
 my_code_deque.cpp -- самый быстрый
 ______
 
