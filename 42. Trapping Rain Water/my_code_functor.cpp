@@ -20,7 +20,6 @@ void Check(int idxMaxHeight, int Ptr, auto comp, vector<int>& height){
     for(; idxMaxHeight != Ptr; comp(Ptr)){
         IdxLocalMaxHeight = max(IdxLocalMaxHeight, height[Ptr]);
         Trap += (IdxLocalMaxHeight - height[Ptr]);
-        cout << Trap << '\n';
     }
 }
 
