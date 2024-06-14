@@ -4,7 +4,7 @@ using namespace std;
 class DataStream {
 private:
     list<int> UniqieList;
-    unordered_map<int, list<int>::iterator> NumToItr;
+    unordered_map<int, list<int>::iterator> NumToItr;// необходим для быстрого удаления из UniqieList в случае, если num уже существует в NumToItr
 
 public:
     DataStream() {}
