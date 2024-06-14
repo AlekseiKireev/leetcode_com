@@ -21,3 +21,34 @@ class Solution {
     return true;
   }
 };
+/*
+Изоморфные символы отображаются в одинаковые индексы: 
+
+Example 3:
+
+Input: S = "paper", T = "title"
+
+StoId = {{p, {0,2}}, {a, {1}}, ...}
+TtoId = {{t, {0,2]}, {i, {1}}, ...}
+*/
+/*
+class Solution {
+public:
+    bool isIsomorphic(string s, string t) {
+        
+        vector<int> StoId(128,-1);
+        vector<int> TtoId(128,-1);
+
+        for(int i = 0; i < s.size(); ++i){
+            
+            if(StoId[s[i]] !=TtoId[t[i]]){return false;}
+
+            StoId[s[i]] = i;
+            TtoId[t[i]] = i;
+            
+        }
+
+        return true;
+    }
+};
+*/
