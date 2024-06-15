@@ -9,8 +9,8 @@ https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equal-k/
 
 _____
 
-PS[i] - k = PS[j] : k == Affix[j, ..., i]  
-PS[i] - k = Affix[m, ..., i] : k == PS[m] : m < i
+PS[i] - k = PS[j] : k == Affix[j, ..., i + 1], 0 <= j < nums.size()
+Тогда, сумма количеств PS[j] и будет ответом
 
 _____
 
