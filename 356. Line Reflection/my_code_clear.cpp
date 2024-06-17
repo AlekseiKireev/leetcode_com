@@ -1,7 +1,7 @@
 
 struct Myhash{
 
-  size_t operator()(const pair<int, int> Pair) const {
+  size_t operator()(const pair<int, int> Pair) const { // без const будет ошибка
       return Pair.first ^ Pair.second;
   }
 };
