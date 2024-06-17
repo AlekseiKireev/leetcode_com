@@ -6,6 +6,24 @@ https://github.com/doocs/leetcode/tree/main/solution/0600-0699/0658.Find%20K%20C
 
 У Федора Меньшикова разбор отсут-т!
 
+    class Solution {
+    public:
+        vector<int> findClosestElements(vector<int>& arr, int k, int x) {      
+    
+            int n = size(arr);
+            int R = lower_bound(begin(arr), end(arr) - k, x) - begin(arr);
+            int L = R - 1;
+    
+            while(k + 2 != R - L + 1) {
+                if(R >= n || L >= 0 && x - arr[L] <= arr[R] - x) {L--;}
+                else {R++;}
+            }
+    
+            return {begin(arr) + L + 1, begin(arr) + R};
+        }
+    };
+
+
 ________
 
 <p align="center">My ex -1</p>
