@@ -6,6 +6,7 @@ https://github.com/doocs/leetcode/tree/main/solution/0600-0699/0658.Find%20K%20C
 
 У Федора Меньшикова разбор отсут-т!
 
+    // https://leetcode.com/problems/find-k-closest-elements/solutions/1310981/simple-solutions-w-explanation-all-possible-approaches-explained/
     class Solution {
     public:
         vector<int> findClosestElements(vector<int>& arr, int k, int x) {      
