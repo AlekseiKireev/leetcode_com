@@ -37,3 +37,23 @@ public:
     }
 };
 */
+/*
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        
+        int CurUpdidx = 1;
+
+        for(int i = 0; i < nums.size(); ++i){
+
+            if(nums[i] != nums[CurUpdidx - 1]){
+                nums[CurUpdidx] = nums[i];
+                ++CurUpdidx;
+                
+            }
+        }
+
+        return CurUpdidx;
+    }
+};
+*/
