@@ -1,5 +1,42 @@
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+___
+
+
+дана строка. Вернуть всевоможные подстроки, состоящие из уникальных элементов — во
+
+
+abca - a ab abc - b bc bca - c ca - a
+
+9
+
+
+aba - a ab - b ba - a
+
+Разбиваешь каждую букву пока не встретишь повторку
+
+Как встретил переходишь к следующей
+
+
+    int Foo(const std::string & Str) {
+     
+        int count = 0;
+        
+        std::vector<bool> CharToExist(128);
+        
+        for(int L = 0, R = 0; R < Str.size(); ++R){
+            
+            for(; CharToExist[Str[R]] == true; ++L){
+                CharToExist[Str[L]] = false;
+            }
+            
+            CharToExist[Str[R]] = true;
+            count += (R - L + 1);
+        }
+        
+        return count;
+    }
+    
 ____
 
 [Разбор задачи 3 leetcode.com Longest Substring Without Repeating Characters. Решение на C++](https://www.youtube.com/watch?v=2HqQ9DsrYQ0)
