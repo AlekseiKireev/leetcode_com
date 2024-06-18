@@ -25,7 +25,7 @@ public:
         int LeftPtr = 0, RightPtr = 0; 
 
         // "+1" ввиду  Wrong Answer 251 / 268  Input s = "a" t = "a" Use Testcase Output "" Expected "a"
-        int MinimumSizeSW = S_SIZE + 1; // s = "AONBONC", t = "ABC"
+        int MinimumSizeSW = S_SIZE + 1; // s = "AONBONC", t = "ABC". "+1" на случай если длины равны и строка является анаграмоой
         int LeftPtrOnSubstr = -1; // почему не 0? Пример: Wrong Answer 224 / 268 Input s = "a" t = "b" Use Testcase Output "a" Expected ""
 
         for(int CountCharFromT = 0; RightPtr < S_SIZE; ++RightPtr){
