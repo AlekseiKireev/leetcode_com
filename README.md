@@ -172,7 +172,7 @@
             https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
             https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks
                 <details>  
-                <summary> List + mapping</summary>    
+                <summary> List + mapping (такая связка используется для быстрого удаления из середины по итератору) </summary>    
                     https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack
                     https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache
                     https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II                        
