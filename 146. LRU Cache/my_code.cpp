@@ -12,7 +12,16 @@
     unordered_map<int, list<int>::iterator > KeyToItInOrderKey; // <-- "The functions get and put must each run in O(1) average time complexity."
     
     private:
-    
+
+/*
+void MoveFrontKey(const int key){
+
+        OrderKey.erase(KeyToItInOrderKey[key]);
+        OrderKey.push_front(key);
+        KeyToItInOrderKey[key] = OrderKey.begin();
+}
+*/
+
     // Используется, если {Key, Value} уже существует в KeyToValue
      void MoveFrontKey(const int Key){ // тут обновляются KeyToItInOrderKey и OrderKeyы
 
