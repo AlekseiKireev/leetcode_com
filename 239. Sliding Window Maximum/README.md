@@ -2,6 +2,8 @@ https://leetcode.com/problems/sliding-window-maximum/description/
 
 https://walkccc.me/LeetCode/problems/239/
 
+https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+
 У Федора Меньшикова разбор отсут-т!
 
 Удобнее всего представить решение на основе возрастающего nums
