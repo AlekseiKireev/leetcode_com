@@ -1,4 +1,4 @@
-my_code.cpp по сути аналог 279b.cpp, просто более раписаный, обобщенный
+my_code.cpp == 279b.cpp <-- my_code_degree_N.cpp 
 
 ________
 
