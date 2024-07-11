@@ -6,6 +6,11 @@ public:
 
         for(int LeftPtr = 0, RightPtr = SizeS - 1; LeftPtr < RightPtr; ++LeftPtr, --RightPtr){
 
+/* isalnum --> 
+s = "0P"
+Expected false
+*/
+            
             for(; LeftPtr < RightPtr && isalnum(S[LeftPtr]) == false ; ++LeftPtr);
 
             for(; LeftPtr < RightPtr && isalnum(S[RightPtr]) == false ; --RightPtr);
