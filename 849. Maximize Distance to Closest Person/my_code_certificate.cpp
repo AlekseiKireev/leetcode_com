@@ -22,8 +22,9 @@ public:
 
         int Idx = -1;
         int LocalMaxSuffixSize = 0;
-        for(int i = PrefixSize; i<seats.size(); ++i){
-
+        for(int i = PrefixSize; i<seats.size(); ++i){ /* [1,1,0,0,0,0,1] --> idx = 6 - (4 + 1)/2 = 4
+                                                         [1,1,0,0,0,0,0,1] --> idx = 7 - (5 + 1)/2 = 4
+                                                      */
             if(!seats[i]){ // место свободно, заносим информацию в буффер
                 ++LocalMaxSuffixSize;
             }
