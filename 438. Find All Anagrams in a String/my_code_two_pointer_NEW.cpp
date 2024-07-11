@@ -61,13 +61,13 @@ public:
                 ++CountChFromAngrInSW;
             }
 
-            for(; CountChFromAngrInSW == Angr.size(); ++LeftPtr){ // CharAngrToCount[ch] >= 0 : ch \in Angr
+            for(; CountChFromAngrInSW == Angr.size(); ++LeftPtr){ 
 
                 if(RightPtr - LeftPtr + 1 == Angr.size()){
                     Idxs.push_back(LeftPtr);
                 }
 
-                if(--CharAngrToCount[Str[LeftPtr]] < 0){ 
+                if(--CharAngrToCount[Str[LeftPtr]] < 0){ // CharAngrToCount[ch] >= 0 если ch не лежит в Angr
                     --CountChFromAngrInSW;
                 }
             }
