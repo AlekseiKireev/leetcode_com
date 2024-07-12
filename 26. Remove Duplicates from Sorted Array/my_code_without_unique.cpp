@@ -42,9 +42,9 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         
-        int CurUpdidx = 1;
+        int CurUpdidx = 1; // LeftPtr
 
-        for(int i = 0; i < nums.size(); ++i){
+        for(int i = 0; i < nums.size(); ++i){ // RightPtr
 
             if(nums[i] != nums[CurUpdidx - 1]){
                 nums[CurUpdidx] = nums[i];
