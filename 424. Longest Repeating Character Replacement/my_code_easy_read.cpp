@@ -15,12 +15,14 @@ public:
             ++CharToCountInWindow[s[RightPtr]];
             MaxCountRepeatSymb = max(MaxCountRepeatSymb, CharToCountInWindow[s[RightPtr]]);
 
-            if ((RightPtr - LeftPtr + 1) - MaxCountRepeatSymb == k + 1) {
+            if ((RightPtr - LeftPtr + 1) - MaxCountRepeatSymb == k + 1) { // (RightPtr - LeftPtr + 1) - MaxCountRepeatSymb -- количество символов, отличных от MaxCountRepeatSymb --> из заменяем
                 --CharToCountInWindow[s[LeftPtr]];
                 ++LeftPtr;
-            } else {
-                LengthLongestSubstring = max(LengthLongestSubstring, (RightPtr - LeftPtr + 1));
-            }
+            } 
+
+            // (RightPtr - LeftPtr + 1) - MaxCountRepeatSymb <= k 
+            LengthLongestSubstring = max(LengthLongestSubstring, (RightPtr - LeftPtr + 1));
+            
         }
 
         return LengthLongestSubstring;
