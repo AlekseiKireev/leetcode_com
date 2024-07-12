@@ -12,7 +12,7 @@ public:
                 ++CountFlipZero;
             }
 
-            for(;CountFlipZero == k + 1; ++L){
+            for(;CountFlipZero == k + 1; ++L){ // CountFlipZero == R - L + 1 - CountOne
                 if(N[L] == 0){
                     --CountFlipZero;
                 }                
