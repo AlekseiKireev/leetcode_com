@@ -10,6 +10,7 @@ using namespace std;
 class MaxStack {
 
 list<int> OrderVal;
+// multimap не получится, так как при удалении по ключу имеем " Removes all elements with the key equivalent to key." <-- https://en.cppreference.com/w/cpp/container/multimap/erase
 map< int, vector<list<int>::iterator>, greater<int> > ValToItsOnVal;
 /* vector<list<int>::iterator> так как видно, что значения, в том числе максимальные, могут повторяться 
 Input:
