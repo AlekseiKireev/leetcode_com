@@ -20,6 +20,8 @@ https://leetcode.com/problems/maximum-subarray/solutions/ -- см. топ 3
 
 ____
 
+my_code_general.cpp <-- my_code_ptr_subarray.cpp
+
 [Разбор задачи 53 leetcode.com Maximum Subarray. Решение на C++](https://www.youtube.com/watch?v=JGoQK5MUbIY)
 
 53a.cpp - алгоритм Кадана  
