@@ -17,6 +17,22 @@ aba - a ab - b ba - a
 
 Как встретил переходишь к следующей
 
+    int countSubstrWithoutRepeats(const string& s) {
+        unordered_map<char, int> lastIndex;
+        int result = 0;
+        int start = 0;
+    
+        for (int end = 0; end < s.size(); ++end) {
+            if (lastIndex.find(s[end]) != lastIndex.end()) {
+                start = max(start, lastIndex[s[end]] + 1);
+            }
+            lastIndex[s[end]] = end;
+            result += end - start + 1;
+        }
+    
+        return result;
+    }
+
 
     int Foo(const std::string & Str) {
      
