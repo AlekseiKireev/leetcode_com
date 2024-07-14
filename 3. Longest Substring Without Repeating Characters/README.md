@@ -47,7 +47,7 @@ aba - a ab - b ba - a
             }
             
             CharToExist[Str[R]] = true;
-            count += (R - L + 1);
+            count += (R - L + 1); // Количество всех подстрок строки n - равно биномиальному коэффициенту (2, n + 1). Т.е. 1/2 * (n+1)n.
         }
         
         return count;
