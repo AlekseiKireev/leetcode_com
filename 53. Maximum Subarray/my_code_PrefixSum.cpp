@@ -17,7 +17,7 @@ public:
         // "MaxAffixSum = 0" будет ошибочным на примере: Wrong Answer 195 / 210 testcases  Input nums = [-1] Output 0 Expected -1
         int MaxAffixSum = nums.front(); // ограничения на MaxAffixSum следуют из ограни-й PrefixSum
 
-        for(int i = 0; i < nums.size(); ++i){
+        for(int i = 0; i < nums.size(); ++i){ // для каждого префикса диапозона [0, ..., i] находим оптимальный аффикс через вычитаение наименьшего префикса
 
             // PrefixSum == sum{nums[i]} : 0 <= i <= i
             PrefixSum += nums[i];
