@@ -77,8 +77,7 @@
 <summary> operations on sets </summary>
         https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays -- return unique intersection (в частности unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)  
         https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- return all val intersection  
-        https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference ( unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)  
-        https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference
+        https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference ( unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)          
                 <details>  
                 <summary> Intervals </summary>
                         https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
@@ -274,7 +273,8 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes
         https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern
         https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4
-        https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary 
+        https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary  
+        https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference
 </details>
 
 </details>
