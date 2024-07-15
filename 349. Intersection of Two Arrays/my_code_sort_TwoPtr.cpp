@@ -15,9 +15,9 @@ public:
 
         /*
         чтобы прийти к решению надо учесть события: 
-        nums1[i] < nums2[j]
-        nums1[i] = nums2[j]
-        nums1[i] > nums2[j]
+        nums1[i] < nums2[j] --> сдвигаем указатель на nums1
+        nums1[i] = nums2[j] --> сдвигаем оба указателя на проверку следующего элемента И проверяем, что последний элемент в искомом != nums1[i] = nums2[j]
+        nums1[i] > nums2[j] --> сдвигаем указатель на nums2
         */
         
         while(FirstPtr < FIRST_SIZE && SecondPtr < SECOND_SIZE){
