@@ -6,7 +6,7 @@ pair<int,int> FindExtrem(vector<int>& nums, auto comp, int GlobalExtrem){
     int ExtremS = GlobalExtrem;
 
     for(int num : nums){
-        if(comp(num, 0) && comp(num, ExtremF) ){
+        if(comp(num, 0) && comp(num, ExtremF) ){ // comp(num, 0) необходим, чтобы отсортировать числа на положительные и отрицательные
             ExtremS = ExtremF;
             ExtremF = num;
         } else if ( comp(num, ExtremS) ) {
