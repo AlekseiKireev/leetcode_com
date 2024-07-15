@@ -23,7 +23,7 @@ public:
 
                 const int digit2  = num2[pos2] - '0';
                 const int carry =  Answer[pos1 + pos2] - '0'; // остаток
-                const int BitwiseMultiplication = digit1 * digit2 + carry; // Поразрядное Умножение с учетом Остатка
+                const int BitwiseMultiplication = digit1 * digit2 + carry; // Поразрядное Умножение с учетом Остатка. Важно, что данная переменна объявлена перед изменением  Answer[pos1 + pos2]
 
                 Answer[pos1 + pos2] = BitwiseMultiplication % 10 + '0'; // целая часть
                 Answer[pos1 + pos2 + 1] += BitwiseMultiplication / 10; // остаток, переносится в младий разряд, но так как мы находимся в реверсивной позиции, то переносим остаток на +1
