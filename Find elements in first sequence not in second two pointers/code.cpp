@@ -18,7 +18,11 @@ std::vector<int> findElementsNotInSecond(const std::vector<int>& nums1, const st
         }
     }
 
-    // Если остались элементы в nums1, которые не были проверены
+    /* Если остались элементы в nums1, которые не были проверены, например:
+    std::vector<int> nums1 = {1, 2, 3, 11};
+    std::vector<int> nums2 = {4, 5};
+    */
+    
     while (i < nums1.size()) {
         result.push_back(nums1[i]);
         i++;
