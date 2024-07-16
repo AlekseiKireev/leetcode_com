@@ -9,7 +9,8 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        
+
+        // если не будет копий, то в цикле будем сдвигать оригинал, ввиду чего, например, при A = headB получится, что A не указывает на начало headB
         ListNode *A = headA;
         ListNode *B = headB;
 
