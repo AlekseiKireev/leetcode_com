@@ -16,6 +16,8 @@ related: https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sor
 
 ___
 
+Решение через бинарный поиск, будм итерироваться по массиву наименьшей длины
+
 нечетная длина merge(x,y)
 
 x  $\to \quad \quad$  $x_1  \quad  x_2 \quad | \quad x_3 \quad x_4 \quad x_5$  <br>
