@@ -11,7 +11,7 @@ class ATM {
 private:
 
 array<size_t, 5> BankAccount;
-const array<int, 5> denominations = {20, 50, 100, 200, 500};
+const array<int, 5> denominations = {20, 50, 100, 200, 500}; // важен именно такой порядок, так как в withdraw после надо будет обращаться по индексу к BankAccount, так будет проще!
 
 public:
     
