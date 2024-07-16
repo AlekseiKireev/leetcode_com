@@ -27,6 +27,8 @@ public:
                    partitionX + partitionY == (x + y) / 2 + 1
                   );
 
+            // Берем значения элементов массивов по левую и правую сторону partitionX и partitionY, где partitionX разделяет nums1, а partitionY - nums2
+            
             // Если partition == 0, слева от него нет элементов, вносим виртуальный элемент INT_MIN
             // Если partition == container.size(), справа от него нет элементов, вносим виртуальный элемент INT_MAX
             int maxLeftX = (partitionX == 0) ? INT_MIN : nums1[partitionX - 1];
@@ -35,6 +37,8 @@ public:
             int maxLeftY = (partitionY == 0) ? INT_MIN : nums2[partitionY - 1];
             int minRightY = (partitionY == y) ? INT_MAX : nums2[partitionY];
 
+
+            
             if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
 
 
