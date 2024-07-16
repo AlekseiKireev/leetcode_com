@@ -7,8 +7,8 @@ public:
     const int n = ratings.size();
     int totalCandies = 0;
     // "Each child must have at least one candy."
-    vector<int> leftToRight(n, 1);  // Вектор для хранения количества конфет при проходе слева направо
-    vector<int> rightToLeft(n, 1);  // Вектор для хранения количества конфет при проходе справа налево
+    vector<int> leftToRight(n, 1);  // Вектор для хранения количества конфет при проходе слева направо (подсчитваем вес для возвышенностей)
+    vector<int> rightToLeft(n, 1);  // Вектор для хранения количества конфет при проходе справа налево (подсчитваем вес для впадин)
 
     // Заполнение вектора leftToRight
     for (int i = 1; i < n; ++i) {
