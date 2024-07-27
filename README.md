@@ -122,7 +122,6 @@
 
 <details>  
 <summary> passes one / two  </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes    
         https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
         https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
@@ -228,6 +227,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy  
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
+    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome   
     https://github.com/SkosMartren/leetcode_com/tree/main/161.%20One%20Edit%20Distance        
