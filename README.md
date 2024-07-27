@@ -248,32 +248,6 @@
 
 
 <details>  
-<summary> Сканирующая прямая </summary>
-    не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
-    https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
-    https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II 
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details>  
-<summary> 2D Matrix </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
-</details>
-
-<details>  
 <summary> Yandex </summary>    
         - дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II List + mapping (такая связка используется для быстрого удаления из середины по итератору)  
@@ -285,6 +259,21 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary  
         https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference  
         https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists == https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III -- Iter
+</details>
+
+
+<details>  
+<summary> Сканирующая прямая </summary>
+    не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
+    https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
+    https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II 
+</details>
+
+
+
+<details>  
+<summary> 2D Matrix </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
 </details>
 
 </details>
