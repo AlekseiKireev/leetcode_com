@@ -1,6 +1,151 @@
 <details>  
 <summary>  Topics </summary>
 
+<details>  
+<summary> Binary search </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays       
+    https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix
+    https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
+    https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
+        <details> 
+        <summary> Bitonic sequence </summary>
+            https://www.geeksforgeeks.org/bitonic-sort/
+            https://en.wikipedia.org/wiki/Bitonic_sorter
+            https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%B5%D1%82%D1%8C_%D0%91%D0%B5%D1%82%D1%87%D0%B5%D1%80%D0%B0
+            https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
+            https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
+            https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+            https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+        </details>
+</details>
+
+<details>  
+<summary> Bitwise operator </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
+    https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II    
+    https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
+</details>
+
+
+<details>  
+<summary> Design </summary>        
+    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>        
+    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
+    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls    
+        <details>  
+        <summary> Data Strucut </summary>    
+            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
+            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks
+                <details>  
+                <summary> List + mapping (такая связка используется для быстрого удаления из середины по итератору) </summary>    
+                    https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack
+                    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache
+                    https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II                        
+                </details>
+        </details>
+</details>
+
+
+<details>  
+<summary> Dynamic programming </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray    
+</details>
+
+
+<details>  
+<summary> DFS / BFS / DSU </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands      
+</details>
+
+
+<details>  
+<summary> Greedy </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
+    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
+    https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy
+    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels + Two ptr
+        https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
+</details>
+
+<details>  
+<summary> Hash table </summary>    
+    https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9 -- Разрешение коллизий  <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum -- использование хеш-таблицы <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection -- перегрузка хеш-функции
+    https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)
+</details>
+
+<details>  
+<summary> List </summary>
+    https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/ <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List
+    https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists    
+    https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List
+        <br>
+        <details>  
+        <summary> cycle Floyd's == slow & fast ptr</summary>    
+            https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/
+            https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
+            https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle
+        </details>
+</details>
+
+
+
+<details>  
+<summary> math </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers
+        https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
+        https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings
+        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
+        https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()
+        https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle
+        https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
+        https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares
+</details>
+
+
+<details>  
+<summary> operations on sets </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays -- return unique intersection (в частности unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)  
+        https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- return all val intersection  
+        https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference ( unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)          
+                <details>  
+                <summary> Intervals </summary>
+                        https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
+                        https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
+                </details>
+</details>
+
+
+<details>  
+<summary> passes one / two  </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes    
+        https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
+        https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
+        https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String
+        https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
+        https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
+</details>
+
+
+<details>  
+<summary> prefix sum </summary>    
+        https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum
+        https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K
+        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K  
+</details>
+
+
+<details>  
+<summary> recursive </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses
+    https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator
+    https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses
+</details>
+
 
 <details>  
 <summary>  Sorted  </summary>        
@@ -40,65 +185,12 @@
         </details>
 </details>
 
-
-<details>  
-<summary> Bitwise operator </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
-    https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II    
-    https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
-</details>
-
-
-<details>  
-<summary> one pass / two passes </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes    
-        https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
-        https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
-        https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String
-        https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
-        https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
-</details>
-
-
-<details>  
-<summary> math </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers
-        https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
-        https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings
-        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
-        https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()
-        https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle
-        https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
-        https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares
-</details>
-
-
-<details>  
-<summary> operations on sets </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays -- return unique intersection (в частности unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)  
-        https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- return all val intersection  
-        https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference ( unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array)          
-                <details>  
-                <summary> Intervals </summary>
-                        https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
-                        https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
-                </details>
-</details>
-
-
 <details>  
 <summary> Stack </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
     https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
 </details>
 
-
-<details>  
-<summary> prefix sum </summary>    
-        https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum
-        https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K
-        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K  
-</details>
 
 
 <details>  
@@ -134,99 +226,6 @@
 
 
 <details>  
-<summary> Сканирующая прямая </summary>
-    не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
-    https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
-    https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II 
-</details>
-
-
-<details>  
-<summary> Hash table </summary>    
-    https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9 -- Разрешение коллизий  <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum -- использование хеш-таблицы <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection -- перегрузка хеш-функции
-    https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)
-</details>
-
-
-<details>  
-<summary> recursive </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses
-    https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator
-    https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses
-</details>
-
-
-<details>  
-<summary> Design </summary>        
-    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine <br>        
-    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
-    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls    
-        <details>  
-        <summary> Data Strucut </summary>    
-            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
-            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks
-                <details>  
-                <summary> List + mapping (такая связка используется для быстрого удаления из середины по итератору) </summary>    
-                    https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack
-                    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache
-                    https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II                        
-                </details>
-        </details>
-</details>
-
-
-<details>  
-<summary> List </summary>
-    https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/ <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List
-    https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists    
-    https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List
-        <br>
-        <details>  
-        <summary> cycle Floyd's == slow & fast ptr</summary>    
-            https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/
-            https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
-            https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle
-        </details>
-</details>
-
-
-<details>  
-<summary> Binary search </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays       
-    https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix
-    https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
-    https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
-        <details> 
-        <summary> Bitonic sequence </summary>
-            https://www.geeksforgeeks.org/bitonic-sort/
-            https://en.wikipedia.org/wiki/Bitonic_sorter
-            https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%B5%D1%82%D1%8C_%D0%91%D0%B5%D1%82%D1%87%D0%B5%D1%80%D0%B0
-            https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
-            https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
-            https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
-            https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
-        </details>
-</details>
-
-
-<details>  
-<summary> DFS / BFS / DSU </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands      
-</details>
-
-
-<details>  
-<summary> Dynamic programming </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray    
-</details>
-
-
-<details>  
 <summary> Two pointer </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy  
@@ -249,13 +248,24 @@
 
 
 <details>  
-<summary> Greedy </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
-    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
-    https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy
-    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels + Two ptr
-        https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
+<summary> Сканирующая прямая </summary>
+    не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
+    https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
+    https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <details>  
