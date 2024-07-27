@@ -19,3 +19,47 @@ public:
         return ans;
     }
 };
+
+/*
+A+0     A+1     A+2     A+3
+L
+R
+
+A+0     A+1     A+2     A+3
+L
+        R 
+
+A+0     A+1     A+2     A+3
+L
+                R       R+1 == N.size()-1
+
+A+0     A+1     A+2     A+3     NULL or A + k : k > 4
+L
+                        R       R+1 == N.size()                            
+*/
+
+/*
+class Solution {
+public:
+    vector<string> summaryRanges(vector<int>& N) {
+        
+        vector<string> A;
+
+        for(int L = 0; L < N.size(); ){
+
+            int R = L;
+            for(;R + 1 < N.size() && N[R] == N[R + 1] - 1; ++R);
+            
+
+            if(L == R){
+                A.push_back(to_string(N[L]));
+            }else{
+                A.push_back(to_string(N[L]) + "->" + to_string(N[R]));
+            }
+            L = R + 1;
+        }
+
+        return A;
+    }
+};
+*/
