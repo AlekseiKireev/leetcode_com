@@ -1,7 +1,7 @@
 /*
 n  : 1 2 3 4
--> : max(SubExtr, n[i]) = n[i]
-<- : min(SubExtr, n[i]) = n[i]
+-> : max(SubExtr, n[i]) = n[i] --> RightPtr
+<- : min(SubExtr, n[i]) = n[i] --> LeftPtr
 */
 
 class Solution {
