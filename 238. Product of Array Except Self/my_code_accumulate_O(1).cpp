@@ -28,7 +28,7 @@ public:
         }
 
 
-        const long long product_nums = accumulate(nums.begin(), nums.end(), 1, multiplies<int>()); // https://en.cppreference.com/w/cpp/algorithm/accumulate
+        const long long product_nums = accumulate(nums.begin(), nums.end(), (long long)1, multiplies<int>()); // https://en.cppreference.com/w/cpp/algorithm/accumulate
 
         for(int i = 0; i < SIZE; ++i){
             answer[i] = product_nums / nums[i];
