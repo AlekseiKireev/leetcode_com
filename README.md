@@ -64,7 +64,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
     https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy
     https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels + Two ptr
-        https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
+    https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
 </details>
 
 <details>  
