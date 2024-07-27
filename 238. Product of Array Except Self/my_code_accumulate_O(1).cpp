@@ -2,7 +2,7 @@ class Solution {
 
 public:
 
-    vector<int> productExceptSelf(vector<int>& nums) {
+    vector<int> productExceptSelf(vector<int>& nums) { // утверждение: Если в nums нулей >= 2, то искомое будет унирный нулевой вектор. Если кол-о нулей = 1, то везде нули, кроме нулевого элемента. Если кол-о нулей = 0, тривиально
         
         const int SIZE = nums.size();
         vector<int> answer(SIZE);
