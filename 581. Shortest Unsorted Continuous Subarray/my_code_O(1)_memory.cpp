@@ -1,3 +1,9 @@
+/*
+n  : 1 2 3 4
+-> : max(SubExtr, n[i]) = n[i]
+<- : min(SubExtr, n[i]) = n[i]
+*/
+
 class Solution {
 public:
 
