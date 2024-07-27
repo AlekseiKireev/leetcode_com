@@ -125,8 +125,6 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes    
         https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
-        https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String
-        https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
         https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
 </details>
 
@@ -234,7 +232,9 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome   
     https://github.com/SkosMartren/leetcode_com/tree/main/161.%20One%20Edit%20Distance        
     https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges    
-    https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence
+    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String    
+    https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence                
+    https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
     https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III
     https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray
     https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II
