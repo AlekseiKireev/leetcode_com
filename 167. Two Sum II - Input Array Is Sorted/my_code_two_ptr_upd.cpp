@@ -7,6 +7,8 @@ public:
 
         while(numbers[LeftPtr] != target - numbers[RightPtr]){ // "The tests are generated such that there is exactly one solution. " -- в противнмо случае пришлось бы делать ограничение на указатели
 
+            // так как numbers[LeftPtr] != target - numbers[RightPtr] --> numbers[LeftPtr] < target - numbers[RightPtr] или numbers[LeftPtr] > target - numbers[RightPtr]
+            // В первом случае увеличиваем numbers[LeftPtr] + numbers[RightPtr] (сдвигаем левый указатель) -- во втором - уменьшем (сдвигаем правый указатель)
             (numbers[LeftPtr] < target - numbers[RightPtr]) ? ++LeftPtr : --RightPtr;
         }
 
