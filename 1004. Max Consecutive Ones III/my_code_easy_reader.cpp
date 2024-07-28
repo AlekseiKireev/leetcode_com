@@ -52,7 +52,7 @@ public:
 
     int longestOnes(vector<int>& N, int k) {
         
-        int Ans = 0;
+        int Ans = 0; // если Ans = 1 --> Input nums = [0,0,0,0] k = 0   Output 1 Expected 0
 
         int CountFlipZero = 0;
 
