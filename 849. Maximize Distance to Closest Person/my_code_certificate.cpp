@@ -28,7 +28,7 @@ public:
             if(!seats[i]){ // место свободно, заносим информацию в буффер
                 ++LocalMaxSuffixSize;
             }
-            else{
+            else{ // seats[i] == 1
 
                 if(SuffixSize < LocalMaxSuffixSize ) {Idx = i - (LocalMaxSuffixSize+1)/2;}
                 SuffixSize = max(SuffixSize, LocalMaxSuffixSize);
