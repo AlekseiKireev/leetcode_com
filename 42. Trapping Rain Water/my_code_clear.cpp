@@ -4,7 +4,7 @@ public:
         
         auto it = ranges::max_element(height);
 
-        int IdxMaxHeight = it - height.begin();
+        int IdxMaxHeight = it - height.begin(); // ищем глобальный максимум чтобы гарантировать, что через него не переливается вода
 
         int TotalSum = 0;
 
@@ -12,7 +12,7 @@ public:
 
         for(int i = 0; i < IdxMaxHeight; ++i){
             
-            LocalMaxHeight = max(LocalMaxHeight, height[i]);
+            LocalMaxHeight = max(LocalMaxHeight, height[i]); // IdxMaxHeight -- глобальный максимум спраува
             TotalSum += (LocalMaxHeight - height[i]);
         }
 
