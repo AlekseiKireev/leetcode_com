@@ -105,7 +105,7 @@ _______
 
 ___
 
-| Step | nums                            | tempStart | Start | End | currentSumAffix | minSumAffix | maxSum | currentSumAffix - minSumAffix |
+| Step | nums                            | tempStart | Start | End | curSumAf        | minSumAf    | maxSum | currentSumAffix - minSumAffix |
 |------|---------------------------------|-----------|-------|-----|-----------------|-------------|--------|-------------------------------|
 | 0    | [-2, 1, -3, 4, -1, 2, 1, -5, 4] | 0         | 0     | 0   | 0               | 0           | -2     | -2                            |
 | 1    | [-2, 1, -3, 4, -1, 2, 1, -5, 4] | 0         | 0     | 0   | -2              | -2          | -2     | 0                             |
