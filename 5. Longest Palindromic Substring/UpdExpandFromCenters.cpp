@@ -1,3 +1,6 @@
+/*
+В этой реализации, в сравнении с ExpandFromCenters.cpp, возвращаются индексы, вместо строки, что способствует оптимизации
+*/
 class Solution {
 public:
     pair<int, int> CheckOnPalindrom(int left, int right, string s) {
