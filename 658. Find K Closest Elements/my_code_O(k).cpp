@@ -40,3 +40,41 @@ public:
         return vector<int>(arr.begin() + left + 1, arr.begin() + right);
     }
 };
+
+/* // error on test: Input arr = [1,1,1,10,10,10] k = 1 x = 9 Output [1] Expected [10]
+
+class Solution {
+public:
+    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+        
+        if (arr.size() == k) {
+            return arr;
+        }
+        
+        // Find the position where x would be inserted to keep the array sorted
+        auto it = ranges::upper_bound(arr, x);
+        int idx = it - arr.begin();
+        
+        // Initialize left and right pointers
+        int left = idx;
+        int right = idx;
+
+        // Find the k closest elements
+        while (k > 0) {
+            if (left <= 0) {
+                ++right;
+            } else if (right >= arr.size()-1) {
+                --left;
+            } else if (x - arr[left] <= arr[right] - x) {
+                --left;
+            } else {
+                ++right;
+            }
+            --k;
+        }
+
+        // Return the k closest elements
+        return vector<int>(arr.begin() + left , arr.begin() + right);
+    }
+};
+*/
