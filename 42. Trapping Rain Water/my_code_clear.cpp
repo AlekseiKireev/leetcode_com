@@ -12,14 +12,14 @@ public:
 
         for(int i = 0; i < IdxMaxHeight; ++i){
             
-            LocalMaxHeight = max(LocalMaxHeight, height[i]); // IdxMaxHeight -- глобальный максимум спраува
+            LocalMaxHeight = max(LocalMaxHeight, height[i]); // IdxMaxHeight -- локальный максимум слева, IdxMaxHeight -- глобальный максимум справа, теперь вода может перелиться разве что через локальный максимум
             TotalSum += (LocalMaxHeight - height[i]);
         }
 
         LocalMaxHeight = 0;
         for(int i = height.size() - 1; i > IdxMaxHeight; --i){
             
-            LocalMaxHeight = max(LocalMaxHeight, height[i]);
+            LocalMaxHeight = max(LocalMaxHeight, height[i]); // IdxMaxHeight -- локальный максимум справа, IdxMaxHeight -- глобальный максимум слева, теперь вода может перелиться разве что через локальный максимум
             TotalSum += (LocalMaxHeight - height[i]);
         }        
 
