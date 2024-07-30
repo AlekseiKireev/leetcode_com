@@ -3,7 +3,7 @@
 */
 class Solution {
 public:
-    pair<int, int> CheckOnPalindrom(int left, int right, string s) {
+    pair<int, int> CheckOnPalindrom(int left, int right, string& s) {
 
         while (left >= 0 && right < s.size() && s[left] == s[right]) {
             left--;
@@ -18,7 +18,7 @@ public:
         return Idx.second - Idx.first + 1;
     }
 
-    string longestPalindrome(string s) {
+    string longestPalindrome(string& s) {
         
         pair<int, int> IdxAns = {0,0};
 
