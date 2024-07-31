@@ -1,38 +1,29 @@
 class Solution {
 public:
-
-    //  p == Angr == Anagram
-    vector<int> findAnagrams(string_view S, string_view Angr) {
+    vector<int> findAnagrams(string Str, string Angr) {
         
-        // DataWindowForBuildAngr[k] --> необходимое положительное количество символов 'a' + k для построения анаграммы наподобие Angr в рамках window == [ S[l], S[l + 1], ..., S[r] ]
-        // 26 -- можщность алфавита, обусловленного улосвием задачи: "s and p consist of lowercase English letters."
-        array<int, 26> DataWindowForBuildAngr; // содержит положительное количество символов, которые необходимы для построения анаграммы наподобие Angr
-        DataWindowForBuildAngr.fill(0);
+        vector<int> CharAngrToCount(128);
+        for(char ch : Angr){
+            --CharAngrToCount[ch]; // сумма отрицательных чисел по модулю будет равняться Angr.size()
+        }
 
-        for(char ch : Angr){++DataWindowForBuildAngr[ch - 'a'];}
-
-        int CountCharInWindowForBuildAngr = 0; // количество символов в window, которые лежат в Angr
-        
         vector<int> Idxs;
-        for(int LeftPtr = 0, RightPtr = 0; RightPtr < S.size();++RightPtr){ // move RightPtr
+        int CountChFromAngrInSW = 0;
+        for(int LeftPtr = 0, RightPtr = 0; RightPtr < Str.size(); ++RightPtr){
 
-            // ">=" так как декрементируем на месте. Именно благодаря декременту дли символов, не лежащих в Angr, имеет место неравенство: DataWindowForBuildAngr[k] < 0
-            if(--DataWindowForBuildAngr[S[RightPtr] - 'a'] >= 0){ // если это истино, то символ DataWindowForBuildAngr[S[r] - 'a'] хотя-бы раз встречался в Angr
-                ++CountCharInWindowForBuildAngr;
+            if(++CharAngrToCount[Str[RightPtr]]<= 0){ 
+                ++CountChFromAngrInSW;
             }
 
-            // если CountCharInWindowForBuildAngr == Angr.size() -- истина, то можно утверждать, что
-            //  Angr == [ Angr[0], Angr[1], ..., Angr[Angr.size() - 1] ] является мультиподмножеством windows == [ S[l], S[l + 1], ..., S[r] ]
-            while(CountCharInWindowForBuildAngr == Angr.size()){ // move LeftPtr
+            for(; CountChFromAngrInSW == Angr.size(); ++LeftPtr){ 
 
-                // этот условный оператор должен в начале цикла, действиткельно: S = cabrw, Angr = abc
-                // Если это истино, то DataWindowForBuildAngr должен состоять из одних нулей
-                if(RightPtr - LeftPtr + 1 == Angr.size()){Idxs.push_back(LeftPtr);} // <--> [ Angr[0], Angr[1], ..., Angr[Angr.size() - 1] ] == [ S[l], S[l + 1], ..., S[r] ]
+                if(RightPtr - LeftPtr + 1 == Angr.size()){
+                    Idxs.push_back(LeftPtr);
+                }
 
-                // сдвигаем левый указатель. Если ++DataWindowForBuildAngr[S[l++] - 'a'] > 0 истино, то левый указатель указывал на символ, лежащий в Angr, т.е. S[l], 
-                // именно поэтому декрементируем CountCharInWindowForBuildAngr
-                if(++DataWindowForBuildAngr[S[LeftPtr++] - 'a'] > 0){--CountCharInWindowForBuildAngr;}
-
+                if(--CharAngrToCount[Str[LeftPtr]] < 0){ // CharAngrToCount[ch] >= 0 если ch не лежит в Angr
+                    --CountChFromAngrInSW;
+                }
             }
 
         }
