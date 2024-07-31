@@ -38,40 +38,34 @@ public:
         return NewLength;
     }
 };
-/* // ошибка заключается в "for(int i = 1; i < chars.size(); ++i){" --> не обрабатывается тест вида: ["a"]
+/* 
 class Solution {
 public:
     int compress(vector<char>& chars) {
         
-        int LenghtCompress = 0;
+        int A = 0;
+        for(int L = 0; L < chars.size(); ){
 
-        for(int i = 1; i < chars.size(); ++i){
+            int R = L + 1;
+            int C = 1;
+            for(;R <  chars.size() && chars[L] == chars[R] ;++R){
+                ++C;
+            }
             
-            const char CurrentChar = chars[i-1];
-            int CountRepeat = 1;
+            chars[A++] = chars[L];
+            L= R;
+            
+            if(C > 1){
 
-            for(; i < chars.size() && chars[i-1] == chars[i]; ++i){ // порядок важен: сначала проверка валидности индексов, потом работа с индексом!
-                ++CountRepeat;
+
+                for(char c : to_string(C)){
+                    chars[A++] = c;
+                }
                 
             }
-            
-            chars[LenghtCompress] = CurrentChar;
-            ++LenghtCompress;
-
-            if(CountRepeat != 1){
-            
-                for(char ch : to_string(CountRepeat)){
-                    chars[LenghtCompress] = ch;
-                    ++LenghtCompress;
-                }
-
-            }
-
-
-
         }
 
-        return LenghtCompress;
+    return A;
     }
 };
 */
