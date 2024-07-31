@@ -37,3 +37,20 @@ public:
     }
 
 };
+/*
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        
+        if(nums.empty() || target < nums.front() || nums.back() < target){return -1;}
+        int L = -1, R = nums.size();
+
+        while(2 != R- L + 1){
+            int mid = L + (R-L)/2;            
+            (nums[mid] <= target) ? L = mid : R = mid ;
+        }
+
+        return ( nums[L] == target ? L : -1 );
+    }
+};
+*/
