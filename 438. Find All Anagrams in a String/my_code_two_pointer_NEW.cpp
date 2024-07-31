@@ -12,7 +12,7 @@ public:
 
         vector<int> Idxs;
 
-        int CountCharAngrInWindow = 0;я
+        int CountCharAngrInWindow = 0;
         for(int LeftPtr = 0, RightPtr = 0; RightPtr < Str.size(); ++RightPtr){ // move RightPtr
 
             if(--DataAngr[Str[RightPtr] - 'a'] >= 0){ // Str[RightPtr] встречается в Angr
