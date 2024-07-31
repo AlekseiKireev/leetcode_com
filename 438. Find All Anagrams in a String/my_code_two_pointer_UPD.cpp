@@ -15,9 +15,9 @@ public:
                 ++CountChFromAngrInSW;
             }
 
-            for(; CountChFromAngrInSW == Angr.size(); ++LeftPtr){ 
+            for(; CountChFromAngrInSW == Angr.size(); ++LeftPtr){ // в окне {S[L], ..., S[R]} находятся символы из которых можнно построить Angr
 
-                if(RightPtr - LeftPtr + 1 == Angr.size()){
+                if(RightPtr - LeftPtr + 1 == Angr.size()){ // окно {S[L], ..., S[R]} имеют длину аналогичной Angr, поэтому из определения анаграмму  --> {S[L], ..., S[R]} является анаграммой Angr
                     Idxs.push_back(LeftPtr);
                 }
 
