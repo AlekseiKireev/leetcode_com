@@ -10,6 +10,7 @@ public:
 /* isalnum --> 
 s = "0P"
 Expected false
+https://ru.wikipedia.org/wiki/Isalnum
 */
             
             for(; LeftPtr < RightPtr && isalnum(S[LeftPtr]) == false ; ++LeftPtr);
