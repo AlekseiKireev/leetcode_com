@@ -4,7 +4,7 @@ public:
         
         const int SizeS = S.size();
 
-        // LeftPtr < RightPtr -- важно именно такое условие!
+        // LeftPtr < RightPtr -- важно именно такое условие! При четной длине не выполняется LeftPtr != RightPtr
         for(int LeftPtr = 0, RightPtr = SizeS - 1; LeftPtr < RightPtr; ++LeftPtr, --RightPtr){
 
 /* isalnum --> 
