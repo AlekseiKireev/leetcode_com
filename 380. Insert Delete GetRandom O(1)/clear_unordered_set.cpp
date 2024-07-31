@@ -17,6 +17,6 @@ public:
     }
 
     int getRandom() { // "There will be at least one element in the data structure when getRandom is called."
-         return *next(values.begin(),  rand() % values.size());
+         return *next(values.begin(),  rand() % values.size()); // https://en.cppreference.com/w/cpp/iterator/next
     }
 };
