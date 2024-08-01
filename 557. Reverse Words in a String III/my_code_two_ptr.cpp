@@ -18,3 +18,25 @@ public:
 
     }
 };
+/*
+class Solution {
+public:
+    string reverseWords(string s) {
+        
+        auto L = s.begin();
+        auto R = L + 1;
+        for(; R != s.end(); ++R){
+            
+            if(*R == ' '){
+                reverse(L, R);
+                L = R+ 1;
+
+            }
+
+        }
+
+        reverse(L, R);
+        return s;
+    }
+};
+*/
