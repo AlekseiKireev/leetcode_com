@@ -79,9 +79,9 @@
 <details>  
 <summary> List </summary>
     https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/ <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List
-    https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers  -- iter <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List -- iter  
+    https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List -- iter <br>
     ---------------------------------------------------------------------------------------------------          
     https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists -- rec
     https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists -- rec    
