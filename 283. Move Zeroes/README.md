@@ -4,6 +4,7 @@ https://walkccc.me/LeetCode/problems/0283/
 
 analogue: https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
 
+my_code_with_CountNOTZero.cpp считать основным решением
 ________
 
 Имеет место очевидная формула: $LastIdxNotZero + CountZero = i$, где
