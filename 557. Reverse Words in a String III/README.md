@@ -6,7 +6,7 @@ https://walkccc.me/LeetCode/problems/0557/
 
     "Let's    take"
 
-выдается ошибка: Invalid Testcase   The words should be separated by a single space. -- об этом нет в условии. 
+выдается ошибка: Invalid Testcase   The words should be separated by a single space. -- об этом и говорится в условии: All the words in s are separated by a single space.
 __________
 
 557c-d.cpp -- явная реализация reverse
