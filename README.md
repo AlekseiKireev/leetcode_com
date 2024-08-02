@@ -222,7 +222,7 @@
                 https://github.com/SkosMartren/leetcode_com/tree/main/104.%20Maximum%20Depth%20of%20Binary%20Tree -- AnyOrder <br>
                 https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree -- PostOrder <br>
                 https://github.com/SkosMartren/leetcode_com/tree/main/110.%20Balanced%20Binary%20Tree -- PostOrder
-                https://github.com/SkosMartren/leetcode_com/tree/main/124.%20Binary%20Tree%20Maximum%20Path%20Sum -- PostOrder
+                https://github.com/SkosMartren/leetcode_com/tree/main/124.%20Binary%20Tree%20Maximum%20Path%20Sum -- PostOrder <br>
                 https://github.com/SkosMartren/leetcode_com/tree/main/404.%20Sum%20of%20Left%20Leaves -- AnyOrder
         </details>
 </details>
