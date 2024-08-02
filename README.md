@@ -35,8 +35,8 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls    
         <details>  
         <summary> Data Strucut </summary>    
-            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack
-            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks
+            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack -- stack + struct Pair { int Val; int Min;};
+            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks -- stack + stack 
                 <details>  
                 <summary> List + mapping (такая связка используется для быстрого удаления из середины по итератору) </summary>    
                     https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack -- order_mapping
