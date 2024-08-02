@@ -31,8 +31,8 @@
 <summary> Design </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine  <br>
     ---------------------------------------------------------------------------------------------------         
-    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter
-    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls    
+    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- queue
+    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls -- queue   
         <details>  
         <summary> Data Strucut </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack -- stack + struct Pair { int Val; int Min;};
