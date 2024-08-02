@@ -9,6 +9,21 @@
  * };
  */
 
+/*
+надо удалить 4, т.е. n=2:
+1	2	3	4	5	nullptr
+L
+R
+
+1	2	3	4	5	nullptr
+L
+        R
+
+1	2	3	4	5	nullptr
+        L
+                R   R->next     
+*/
+
 class Solution {
 public:
 
