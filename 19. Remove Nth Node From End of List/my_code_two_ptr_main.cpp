@@ -17,11 +17,11 @@ R
 
 1	2	3	4	5	nullptr
 L
-        R
+                R
 
 1	2	3	4	5	nullptr
-        L
-                R   R->next     
+                L
+                                R       R->next     
 */
 
 class Solution {
