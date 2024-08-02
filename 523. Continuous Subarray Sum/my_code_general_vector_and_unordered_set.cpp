@@ -1,4 +1,9 @@
 class Solution {
+
+/*
+PrefixSumModK[n] - PrefixSumModK[m] = {nums[m] + ... + nums[n]} ModK : m < n
+*/
+
 public:
     bool checkSubarraySum(vector<int>& nums, int k) {
 
