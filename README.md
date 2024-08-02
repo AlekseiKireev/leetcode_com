@@ -104,7 +104,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares        
         https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
         https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()
-        https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north <br>
     ---------------------------------------------------------------------------------------------------    
         https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
         https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
