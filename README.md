@@ -64,8 +64,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
     https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
     https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy
-    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels + Two ptr
-    https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person
+    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels + Two ptr    
 </details>
 
 <details>  
@@ -134,6 +133,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path -- stringstream
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
         https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
+        https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person + Greedy
 </details>
 
 
