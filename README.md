@@ -108,7 +108,10 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north <br>
     ---------------------------------------------------------------------------------------------------    
         https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
-        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer
+        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer <br>
+    ---------------------------------------------------------------------------------------------------    
+        https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum  
+        https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest
 </details>
 
 
