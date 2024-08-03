@@ -12,7 +12,7 @@ public:
 
             PrefixSum += num;
             // ++PrefixToCount[PrefixSum]; // error: Input nums = [-1,-1,1] k = 0 Output 4 Expected 1
-            Ans += PrefixToCount[PrefixSum - RequiredAffix];
+            Ans += PrefixToCount[PrefixSum - RequiredAffix]; // PS[n] - PS[m] = RequiredAffix == PrefixSum - PS[m] --> сколько раз можем вычесть PS[m], столько и RequiredAffix
             ++PrefixToCount[PrefixSum];
             
         }
