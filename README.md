@@ -245,6 +245,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy  
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
+    https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String    
     https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome   
