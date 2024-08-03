@@ -16,6 +16,17 @@ public:
             PrefixSumModK.push_back(CurSumModK);
         }
 
+        // правильная, но не самая удачная реализация, так как сначала в вектор записываются нули, после чего нули перезатираются
+        /*
+        vector<long long> PS(N.size() + 1);
+
+        for(int i = 1; i < PS.size(); ++i){
+            
+            PS[i] = (PS[i-1] + N[i-1]%k + k)%k;
+
+        }
+    */
+
         unordered_set<int> Buffer;
         for(int i = 2; i < PrefixSumModK.size(); ++i){
 
