@@ -248,8 +248,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy  
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
-    https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>   
-    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes    
+    https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome   
     https://github.com/SkosMartren/leetcode_com/tree/main/161.%20One%20Edit%20Distance
@@ -267,7 +266,10 @@
      maximum number of consecutive 1's in the binary array if you can flip at most k 0's   <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  
     https://github.com/SkosMartren/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II
-    https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element
+    https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element <br>
+    ---------------------------------------------------------------------------------------------------  <br>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element    
+    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes       
 </details>
 
 
