@@ -143,7 +143,7 @@
 
 <details>  
 <summary> prefix sum </summary>    
-        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K -- total number of subarrays whose sum equals to k <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K -- total number of subarr whose sum = k <br>
         ---------------------------------------------------------------------------------------------------   <br>
         CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum -- $\exists$ subarr that have a sum divisible by k and lenght >= 2.   <br>
