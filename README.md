@@ -138,6 +138,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self
         https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
         https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person + Greedy
+        https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City -- DFS on Hash
 </details>
 
 
