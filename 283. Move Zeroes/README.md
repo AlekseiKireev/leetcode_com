@@ -2,8 +2,7 @@ https://leetcode.com/problems/move-zeroes/
 
 https://walkccc.me/LeetCode/problems/0283/
 
-analogue: https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
-
+27. Remove Element : val = 0 --> 283. Move Zeroes
 ___
 
 Можно встретить подзадачу:  дается массив из 0 и 1. Нужно за один проход поставить все нули в начало массива. 
