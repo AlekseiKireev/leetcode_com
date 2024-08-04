@@ -98,7 +98,8 @@
 
 <details>  
 <summary> math </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers                
+        https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers  
+        https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number  
         https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings    
         https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes  
         https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
