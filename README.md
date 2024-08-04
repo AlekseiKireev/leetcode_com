@@ -145,7 +145,7 @@
 <summary> prefix sum </summary>    
         https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K -- total number of subarr whose sum = k <br>
         ---------------------------------------------------------------------------------------------------   <br>
-        CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k <br>
+        CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum -- $\exists$ subarr that have a sum divisible by k and lenght >= 2.   <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K -- number subarr that have a sum divisible by k.
 </details>
