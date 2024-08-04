@@ -4,7 +4,11 @@ https://walkccc.me/LeetCode/problems/0283/
 
 analogue: https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
 
-my_code_with_CountNOTZero.cpp считать основным решением
+___
+
+Можно встретить подзадачу:  дается массив из 0 и 1. Нужно за один проход поставить все нули в начало массива. 
+
+решается аналогичным образом как one_traversal.cpp, где вместо if (nums[cur] != 0) { надо положить if (nums[cur] == 0) {
 ________
 
 Имеет место очевидная формула: $LastIdxNotZero + CountZero = i$, где
