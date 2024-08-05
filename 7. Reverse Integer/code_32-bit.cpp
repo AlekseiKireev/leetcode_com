@@ -14,10 +14,7 @@ public:
             x/=10;
         }
 
-        if(x<0){
-            A=-A;
-        }
-        return   A;
+        return A;
 
     }
 };
