@@ -55,7 +55,8 @@
 
 <details>  
 <summary> DFS / BFS / DSU </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands      
+    https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands   
+    https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary   
     https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City -- DFS on Hash    
 </details>
 
@@ -285,8 +286,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence
         https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes
         https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern
-        https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4
-        https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary  
+        https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4        
         https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference  
         https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists == https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III -- Iter  
         https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- дана строка. Вернуть количество всевозможных подстрок, состоящих из уникальных элементов
