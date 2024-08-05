@@ -9,9 +9,6 @@ public:
             x/=10;
         }
 
-        if(x<0){
-            A=-A;
-        }
         return A > INT_MAX  || A < INT_MIN ? 0 : A;
 
     }
