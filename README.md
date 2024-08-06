@@ -63,10 +63,12 @@
 
 <details>  
 <summary> Greedy </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
-    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
+    https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman    
     https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy
-    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels + Two ptr    
+    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels + Two ptr    <br>
+    --------------------------------------------------------------------------------------------------- 
+    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
+    https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II
 </details>
 
 <details>  
