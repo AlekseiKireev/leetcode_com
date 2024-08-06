@@ -6,7 +6,7 @@ public:
         int Buy = 0;
         int Total = 0;
 
-        for(int i = 0; i  < prices.size(); ){ // объяснить!
+        for(int i = 0; i  < prices.size(); ){ 
 
             for(; i + 1 < prices.size() && prices[i] >= prices[i+1]; ++i);
             
