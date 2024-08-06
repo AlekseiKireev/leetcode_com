@@ -77,7 +77,7 @@
     использование хеш-таблицы  <br>  
     https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum  
     https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1) <br>
-    ---------------------------------------------------------------------------------------------------     
+    ---------------------------------------------------------------------------------------------------     <br>
     перегрузка хеш-функции и operator==  <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection
     https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing        
