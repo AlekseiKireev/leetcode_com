@@ -68,4 +68,4 @@ find Sell
 
 Sell = 4
 
-Total = 5-1+6-3 
+Total = 5-1+6-3+4-4=7
