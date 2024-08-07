@@ -5,6 +5,9 @@ https://walkccc.me/LeetCode/problems/0026/
 У Федора Меньшикова разбор отсут-т!
 
 analogue: https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes
+
+related: https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II
+
 ___________
 
 i-CountDuplicates = CountUnique
