@@ -221,7 +221,10 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
 </details>
 
-
+<details>  
+<summary> string </summary>
+    https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern
+</details>
 
 <details>  
 <summary> tree </summary>
