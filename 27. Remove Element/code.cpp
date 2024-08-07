@@ -8,6 +8,7 @@ public:
 
             if(nums[i] != val){
                 swap(nums[Idx++], nums[i]);
+                // nums[Idx++] = nums[i]; // good!
             }
         }
 
