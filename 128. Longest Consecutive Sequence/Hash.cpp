@@ -74,3 +74,25 @@ num: 200 range: 1
 num: 4 range: 4
 num: 100 range: 1
 */
+
+/*
+num: 0 range: 1
+num: 3 range: 1
+num: 7 range: 1
+num: 2 range: 2
+num: 5 range: 1
+num: 8 range: 2
+num: 4 range: 4
+num: 6 range: 7
+num: 1 range: 9
+
+num: 1 range: 9
+num: 6 range: 7
+num: 4 range: 4
+num: 8 range: 9
+num: 5 range: 4
+num: 2 range: 7
+num: 7 range: 2
+num: 3 range: 2
+num: 0 range: 9
+*/
