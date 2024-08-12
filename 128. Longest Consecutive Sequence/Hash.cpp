@@ -2,21 +2,21 @@ class Solution {
 public:
     int longestConsecutive(const std::vector<int>& nums) {
         int res = 0;
-        std::unordered_map<int, int> map;
+        unordered_map<int, int> NumToRange;
         
         for (int n : nums) {
 
-            if (map.count(n) == 0) {
-                int left = map.count(n - 1) ? map[n - 1] : 0;
-                int right = map.count(n + 1) ? map[n + 1] : 0;
+            if (NumToRange.count(n) == 0) {
+                int left = NumToRange.count(n - 1) ? NumToRange[n - 1] : 0;
+                int right = NumToRange.count(n + 1) ? NumToRange[n + 1] : 0;
                 
                 int sum = left + right + 1;                
                 
                 res = max(res, sum);
                 
-                map[n] = sum;
-                map[n - left] = sum;
-                map[n + right] = sum;
+                NumToRange[n] = sum;
+                NumToRange[n - left] = sum;
+                NumToRange[n + right] = sum;
             }
 
         }
@@ -30,28 +30,28 @@ class Solution {
 public:
     int longestConsecutive(const std::vector<int>& nums) {
         int res = 0;
-        std::unordered_map<int, int> map;
+        std::unordered_map<int, int> NumToRange;
         
         for (int n : nums) {
 
-            if (map.count(n) == 0) {
-                int left = map.count(n - 1) ? map[n - 1] : 0;
-                int right = map.count(n + 1) ? map[n + 1] : 0;
+            if (NumToRange.count(n) == 0) {
+                int left = NumToRange.count(n - 1) ? NumToRange[n - 1] : 0;
+                int right = NumToRange.count(n + 1) ? NumToRange[n + 1] : 0;
                 
                 int sum = left + right + 1;                
                 
                 res = max(res, sum);
                 
-                map[n] = sum;
-                map[n - left] = sum;
-                map[n + right] = sum;
+                NumToRange[n] = sum;
+                NumToRange[n - left] = sum;
+                NumToRange[n + right] = sum;
                 cout << "num: " << n << ' ' << "range: " << sum << '\n';
             }
 
         }
 
         cout << '\n';
-        for(auto [num, range] : map){
+        for(auto [num, range] : NumToRange){
             cout << "num: " << num << ' ' << "range: " << range << '\n';
         }
         
