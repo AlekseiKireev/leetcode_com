@@ -152,6 +152,13 @@
                 <summary> Intervals </summary>
                         https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
                         https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
+                        https://github.com/SkosMartren/leetcode_com/tree/main/435.%20Non-overlapping%20Intervals  
+                        <details>  
+                        <summary> Сканирующая прямая </summary>
+                            не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
+                            https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
+                            https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II 
+                        </details>                        
                 </details>
 </details>
 
@@ -318,14 +325,6 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists ==                        
 https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III -- Iter  
         https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- дана строка. Вернуть количество всевозможных подстрок, состоящих из уникальных элементов
-</details>
-
-
-<details>  
-<summary> Сканирующая прямая </summary>
-    не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
-    https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
-    https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II 
 </details>
 
 
