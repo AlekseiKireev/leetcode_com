@@ -4,6 +4,9 @@ class Solution {
 Сначала мы сортируем интервалы по их конечному времени. 
 Это позволяет нам как можно скорее завершить текущий интервал, 
 чтобы освободить место для следующего интервала.
+
+This sorting is crucial because it allows us to prioritize intervals that finish early, 
+giving us more opportunities to accommodate additional meetings later on.
 */
 
 static bool comp(vector<int>& L, vector<int>& R){
