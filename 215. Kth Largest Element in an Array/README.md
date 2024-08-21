@@ -12,4 +12,8 @@ https://en.wikipedia.org/wiki/Quickselect
 
 https://www.geeksforgeeks.org/quickselect-algorithm/
 
+___
 
+max_memory_heap.cpp -- удаление элементов с конца
+
+min_memory_heap.cpp -- удаление элементов с начала
