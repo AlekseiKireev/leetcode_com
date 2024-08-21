@@ -14,6 +14,6 @@ https://www.geeksforgeeks.org/quickselect-algorithm/
 
 ___
 
-max_memory_heap.cpp -- удаление элементов с конца
+max_memory_heap.cpp -- удаление k элементов с конца
 
-min_memory_heap.cpp -- удаление элементов с начала
+min_memory_heap.cpp -- удаление n-k элементов с начала
