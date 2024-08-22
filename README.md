@@ -342,6 +342,8 @@ https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20
 
 ______
 
+https://yandex.ru/jobs/pages/dev_interview
+
 У Федора Меньшикова разбор отсут-т!
 
 Архив видео Федора Меньшикова: https://docs.google.com/spreadsheets/d/1w5JqsXFfNTS7NUT7ujKrt8NvhJiw52S6jfvoo2X_fo8/edit?pli=1#gid=0
