@@ -77,6 +77,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array    
 </details>
 
+
 <details>  
 <summary> Hash table </summary>    
     https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9 -- Разрешение коллизий  <br>
@@ -90,6 +91,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection
     https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing        
 </details>
+
 
 <details>  
 <summary> List </summary>
@@ -199,6 +201,7 @@
 
 <details>  
 <summary>  Sorted  </summary>        
+        https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index
         <details>                
         <summary> Merge   </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees -- PreOrder
