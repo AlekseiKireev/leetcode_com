@@ -4,6 +4,12 @@ O(n log n) time https://leetcode.com/problems/h-index/solutions/70768/java-bucke
 
 O(n) time https://leetcode.com/problems/h-index/solutions/4308437/h-index-easy-solution-brute-force-or-binary-search/
 
+___
+
+Учёный имеет индекс h, если h из его N_p статей цитируются как минимум h раз каждая, в то время как оставшиеся (N_p — h) статей цитируются не более чем h раз каждая.
+___
+
+
 количество статей <= количество цитирования == c[i] 
 
 Если данные отсортированны, то 
