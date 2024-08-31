@@ -84,7 +84,8 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
     ---------------------------------------------------------------------------------------------------  <br>
     использование хеш-таблицы  <br>  
-    https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum  
+    https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum  <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1) <br>
     ---------------------------------------------------------------------------------------------------     <br>
     перегрузка хеш-функции и operator==  <br>
