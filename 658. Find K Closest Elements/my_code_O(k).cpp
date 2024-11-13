@@ -37,7 +37,7 @@ public:
         }
 
         // Return the k closest elements
-        return vector<int>(arr.begin() + left + 1, arr.begin() + right);
+        return vector<int>(arr.begin() + left + 1, arr.begin() + right); // +1 на случай, если вышли за гранцу
     }
 };
 
