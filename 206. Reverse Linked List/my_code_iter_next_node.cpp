@@ -8,6 +8,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+/*
+Time complexity: O(head.size())
+Space complexity: O(1)
+*/    
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
