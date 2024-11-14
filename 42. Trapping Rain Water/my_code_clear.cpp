@@ -1,3 +1,7 @@
+/*
+Time complexity: O(height.size())
+Space complexity: O(1)
+*/    
 class Solution {
 public:
     int trap(vector<int>& height) {
