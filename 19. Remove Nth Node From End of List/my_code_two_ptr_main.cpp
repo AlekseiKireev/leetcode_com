@@ -27,7 +27,10 @@ L
                 L
                                 R       R->next     
 */
-
+/*
+Time complexity: O(head.size())
+Space complexity: O(1)
+*/    
 class Solution {
 public:
 
