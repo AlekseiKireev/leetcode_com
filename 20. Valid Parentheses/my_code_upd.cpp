@@ -1,3 +1,7 @@
+/*
+Time complexity: O(s.size())
+Space complexity: O(s.size())
+*/    
 class Solution {
 
 unordered_map<char,char> OpenToClosed = { {'(', ')'}, {'{', '}'}, {'[',']'} };
