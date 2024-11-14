@@ -1,3 +1,7 @@
+/*
+Time complexity: O(M⋅N).
+Space complexity: O(M+N).
+*/
 class Solution {
 public:
     string multiply(string & num1, string & num2) {
