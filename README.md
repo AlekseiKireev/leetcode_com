@@ -169,7 +169,7 @@
 
 <details>  
 <summary> passes one / two / ... </summary>
-        https://github.com/AlKiAl/leetcode_com/tree/main/1.%20Two%20Sum
+        https://github.com/AlKiAl/leetcode_com/tree/main/1.%20Two%20Sum + Hash table
         https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path -- stringstream
         https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses  
         https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy  
