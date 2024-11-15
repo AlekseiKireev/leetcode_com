@@ -1,5 +1,7 @@
 https://leetcode.com/problems/number-of-islands/  - задача на количество компонент связности
 
+https://walkccc.me/LeetCode/problems/200/
+
 ________
 
 [Разбор задачи 200 leetcode.com Number of Islands. Решение на C++](https://www.youtube.com/watch?v=F66bSGiWXEA)
