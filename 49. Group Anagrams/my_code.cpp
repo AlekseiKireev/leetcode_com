@@ -1,5 +1,5 @@
 /*
-Time complexity: O(n*str.size())
+Time complexity: O(n*str.size()*[str.size() * log(str.size())])
 Space complexity: O(n)    
 */
 class Solution {
