@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n*str.size())
+Space complexity: O(n)    
+*/
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
