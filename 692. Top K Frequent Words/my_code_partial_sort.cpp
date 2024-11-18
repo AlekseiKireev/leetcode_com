@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n*log(k))
+Space complexity: O(n)
+*/
 class Solution {
 
 
@@ -30,7 +34,7 @@ public:
                       [](const auto& data1, const auto& data2) {
                           return data1.first > data2.first // сортируем числа по убывания 
                           || 
-                          (data1.first == data2.first && data1.second < data2.second) // при равинстве чисел сортируем строки по возрастанию
+                          (data1.first == data2.first && data1.second < data2.second) // при равинстве количества строк сортируем строки по возрастанию
                           ;}
                     );      
 
