@@ -1,5 +1,5 @@
 /*
-Time complexity: O(n*log(k))
+Time complexity: O(n*log(k)*word.size())
 Space complexity: O(n)
 */
 class Solution {
