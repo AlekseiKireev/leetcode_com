@@ -29,7 +29,8 @@ public:
             Buffer.push_back({cnt, move(str)});
         }
 
-        // https://en.cppreference.com/w/cpp/algorithm/partial_sort
+        // https://en.cppreference.com/w/cpp/algorithm/partial_sort -->
+        // Given M as middle - first, N as last - first: 3,4) Approximately N ⋅ log ( M ) applications of the comparator comp.
         partial_sort(Buffer.begin(), Buffer.begin() + k, Buffer.end(),
                       [](const auto& data1, const auto& data2) {
                           return data1.first > data2.first // сортируем числа по убывания 
