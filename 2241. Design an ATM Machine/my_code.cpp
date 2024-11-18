@@ -1,3 +1,7 @@
+/*
+Time complexity: O(1)
+Space complexity: O(1)
+*/
 const int ZERO = [](){
 
     ios_base::sync_with_stdio(false);
