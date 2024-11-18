@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(n)
+*/
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
