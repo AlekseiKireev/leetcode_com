@@ -1,5 +1,5 @@
 /*
-Time complexity: O(k*log(n))
+Time complexity: O(k+log(n))
 Space complexity: O(1)
 */
 class Solution {
