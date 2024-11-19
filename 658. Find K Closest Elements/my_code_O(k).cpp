@@ -1,11 +1,7 @@
 /*
-arr = [1,2,3,5,11], k = 3, x = 4
-Expected [2,3,5]
-
-arr = [1,2,3,(4),5,11]
-
+Time complexity: O(k*log(n))
+Space complexity: O(1)
 */
-
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
@@ -40,7 +36,13 @@ public:
         return vector<int>(arr.begin() + left + 1, arr.begin() + right); // +1 на случай, если вышли за гранцу, также ввиду того, что изначально сделали -1: int left = idx - 1;
     }
 };
+/*
+arr = [1,2,3,5,11], k = 3, x = 4
+Expected [2,3,5]
 
+arr = [1,2,3,(4),5,11]
+
+*/
 /* // error on test: Input arr = [1,1,1,10,10,10] k = 1 x = 9 Output [1] Expected [10]
 
 class Solution {
