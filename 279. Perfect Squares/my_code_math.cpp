@@ -1,6 +1,6 @@
 /*
-Time complexity: O(n*\sqrt{n})
-Space Complexity: O(n)
+Time complexity: O(\sqrt{n} + log_{4}(n))
+Space Complexity: O(1)
 */
 class Solution {  
 private:  
