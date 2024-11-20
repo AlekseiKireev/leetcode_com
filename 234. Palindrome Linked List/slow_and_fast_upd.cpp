@@ -8,6 +8,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+/*
+Time complexity : O(n)
+Space complexity : O(1)
+*/
 class Solution {
 
 ListNode* FindRightMid(ListNode* head){
