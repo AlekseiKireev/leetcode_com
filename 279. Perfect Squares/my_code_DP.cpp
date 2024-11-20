@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n*\sqrt{n})
+Space Complexity: O(n)
+*/
 class Solution {
 public:
 	int numSquares(int N) {
