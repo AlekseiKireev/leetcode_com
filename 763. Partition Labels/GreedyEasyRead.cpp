@@ -1,3 +1,7 @@
+/*
+Time Complexity: O(N)
+Space Complexity: O(alphabet)
+*/
 class Solution {
 public:
     vector<int> partitionLabels(string Str) {
