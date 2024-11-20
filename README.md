@@ -219,7 +219,7 @@
         <details>  
         <summary> counting  </summary>   
                 https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
-                https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram
+                https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram + passes two    
                 https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String + Sliding Window
                 https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements + nth_element + Hash table              
                 https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words + partial_sort + Hash table
