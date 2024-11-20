@@ -1,5 +1,8 @@
-class Solution 
-{  
+/*
+Time complexity: O(n*\sqrt{n})
+Space Complexity: O(n)
+*/
+class Solution {  
 private:  
     int is_square(int n)
     {  
