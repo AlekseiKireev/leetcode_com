@@ -10,7 +10,7 @@
  */
 /*
 Time complexity : O(logK*KN)
-Space complexity : O(N)
+Space complexity : O(kN)
 */
 class Solution {
 
