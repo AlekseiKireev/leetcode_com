@@ -7,6 +7,10 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+/*
+Time complexity : O(n)
+Space complexity : O(h)
+*/   
 class Solution {
 
 TreeNode* LCA = nullptr;
