@@ -262,7 +262,12 @@
 
 <details>  
 <summary> (Sub)string </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern
+    https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- Sliding Window
+    https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern <br> 
+    --------------------------------------------------------------------------------------------------- <br> 
+    return the length of the longest substring of s that contains at most k distinct characters. <br>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters
+    https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters              
 </details>
 
 <details>  
