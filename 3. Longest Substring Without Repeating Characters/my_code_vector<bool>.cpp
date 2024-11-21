@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(alphabet byte)
+*/
 class Solution {
 public:
     int lengthOfLongestSubstring(string Str) {
