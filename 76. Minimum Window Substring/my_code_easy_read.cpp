@@ -1,6 +1,9 @@
-    // https://en.cppreference.com/w/cpp/language/ascii
-    const int POWER_ENCODING = 128; // s and t consist of uppercase and lowercase English letters.
-
+// https://en.cppreference.com/w/cpp/language/ascii
+const int POWER_ENCODING = 128; // s and t consist of uppercase and lowercase English letters.
+/*
+Time complexity: O(n)
+Space complexity: O(alphabet)
+*/
 class Solution {
 
 
