@@ -301,7 +301,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy      
     https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
-    https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome   
+    https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome -- + isalnum + tolower     
     https://github.com/SkosMartren/leetcode_com/tree/main/161.%20One%20Edit%20Distance
     https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
     https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges    
