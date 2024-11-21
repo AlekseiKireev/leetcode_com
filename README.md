@@ -263,6 +263,7 @@
 <details>  
 <summary> (Sub)string </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression  -- Two pointer     
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern <br> 
     --------------------------------------------------------------------------------------------------- <br> 
