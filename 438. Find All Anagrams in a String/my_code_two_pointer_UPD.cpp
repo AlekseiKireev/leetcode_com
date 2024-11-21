@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(alphabet)
+*/
 class Solution {
 public:
     vector<int> findAnagrams(string Str, string Angr) {
