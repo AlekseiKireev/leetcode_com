@@ -1,8 +1,8 @@
 /*
 В этой реализации, в сравнении с ExpandFromCenters.cpp, возвращаются индексы, вместо строки, что способствует оптимизации
 В обоих случаях 
-O(n^2) по времени
-O(1) по памяти
+Time complexity: O(n^2)
+Space complexity: O(1)
 */
 class Solution {
 public:
