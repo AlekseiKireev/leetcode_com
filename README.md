@@ -261,7 +261,7 @@
 </details>
 
 <details>  
-<summary> string </summary>
+<summary> (Sub)string </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern
 </details>
 
