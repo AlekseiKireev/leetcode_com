@@ -1,3 +1,7 @@
+/*
+Time complexity : O(n)
+Space complexity : O(n)
+*/ 
 class Solution {
 public:
     string simplifyPath(string& path) {
@@ -14,7 +18,7 @@ public:
                 continue;
             }
 
-            if(Buffer != ".."){ // услонвый оператор нужен на случай, если Data.empty() == true, например: path = "/../"  Output "/.." Expected "/"
+            if(Buffer != ".."){ // услонвый оператор нужен на случай, если Data.empty() == true (см. условный оператор выше), например: path = "/../"  Output "/.." Expected "/"
                 Data.push_back(Buffer);
             }
         }
