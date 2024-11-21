@@ -168,6 +168,14 @@
                 </details>
 </details>
 
+<details>  
+<summary> palindrome </summary>
+        https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
+        https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number        
+        https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome -- + isalnum + tolower   
+        https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
+        https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II                
+</details>
 
 <details>  
 <summary> passes one / two / ... </summary>
