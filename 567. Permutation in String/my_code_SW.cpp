@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(alphabet)
+*/
 class Solution {
 public:
     bool checkInclusion(string_view Angr, string_view Str) {
