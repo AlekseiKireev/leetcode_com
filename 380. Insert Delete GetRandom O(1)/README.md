@@ -4,6 +4,10 @@ https://leetcode.com/problems/insert-delete-getrandom-o1/
 
 https://walkccc.me/LeetCode/problems/0380/
 
+        /*
+        Time complexity: O(1)
+        Space Complexity: O(n)
+        */
 _____
 
 " Each element must have the same probability of being returned." --> https://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution
