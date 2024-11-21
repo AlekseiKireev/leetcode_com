@@ -248,9 +248,9 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters        
         <details>  
         <summary> Anagramma </summary>
-                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring
-                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String
-                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String
+                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagramma| <= |Substring|  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- |Anagramma| == |Substring|  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  |Anagramma| == |Substring| <br> 
         </details>
 </details>
 
@@ -269,7 +269,13 @@
     --------------------------------------------------------------------------------------------------- <br> 
     return the length of the longest substring of s that contains at most k distinct characters. <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters  -- S.W.  <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters   -- S.W.             
+    https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters   -- S.W.   
+        <details>  
+        <summary> Anagramma </summary>
+                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagramma| <= |Substring|  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- |Anagramma| == |Substring|  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  |Anagramma| == |Substring| <br> 
+        </details>        
 </details>
 
 <details>  
