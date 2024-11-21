@@ -1,3 +1,8 @@
+/*
+Time complexity : O(n)
+Space complexity : O(h)
+*/ 
+// решение через свойства InOrder обхода: в BST последовательность возрастает
 class Solution {
 
 private:
