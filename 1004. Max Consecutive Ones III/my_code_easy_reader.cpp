@@ -45,31 +45,3 @@ public:
 
     }
 };
-/* working!
-class Solution {
-
-public:
-
-    int longestOnes(vector<int>& N, int k) {
-        
-        int Ans = 0; // если Ans = 1 --> Input nums = [0,0,0,0] k = 0   Output 1 Expected 0
-
-        int CountFlipZero = 0;
-
-        for(int L = 0, R = 0; R < N.size(); ++R){
-            
-            CountFlipZero += (N[R] == 0);
-
-            for(;CountFlipZero == k + 1; ++L){
-            
-                CountFlipZero -= (N[L] == 0);            
-            }
-
-            Ans = max(Ans, R - L + 1);
-        }
-
-        return Ans;
-    }
-
-};
-*/
