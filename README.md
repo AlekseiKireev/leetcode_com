@@ -20,6 +20,13 @@
 </details>
 
 <details>  
+<summary> Binary sequance </summary>
+        https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II
+        https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  
+        https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element <br>
+</details>
+        
+<details>  
 <summary> Bitwise operator </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
     https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II    
