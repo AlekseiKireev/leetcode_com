@@ -222,7 +222,8 @@
 
 <details>  
 <summary>  Sorted  </summary>        
-        https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index
+        https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray -- Two pointer + passes two<br>
         <details>                
         <summary> Merge   </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees -- PreOrder
