@@ -1,33 +1,30 @@
+/*
+Time complexity: O(n)
+Space complexity: O(1)
+*/
 class Solution {
+
 public:
-    int longestOnes(vector<int>& nums, int CountUpdZero) {       
 
-        int L_Idx_Longest_Subarray = -1; 
-        int R_Idx_Longest_Subarray = -1;        
+    int longestOnes(vector<int>& Nums, int MaxCntFlipZero) {
         
-        int Ans = 0;
+        int Ans = 0; // если Ans = 1 --> Input nums = [0,0,0,0] MaxCntFlipZero = 0   Output 1 Expected 0
 
-        for(int RightBorderWindow = 0, LeftBorderWindow = 0; RightBorderWindow < nums.size(); ++RightBorderWindow){ // сдвиг правого указателя
+        int CurCntFlipZero = 0;
 
-            if(nums[RightBorderWindow] == 0){--CountUpdZero;}
+        for(int L = 0, R = 0; R < Nums.size(); ++R){
+            
+            CurCntFlipZero += (Nums[R] == 0);
 
-            while(CountUpdZero < 0){ // сдвиг левого указателя
-                if(nums[LeftBorderWindow++] == 0){++CountUpdZero;}
+            for(;CurCntFlipZero == MaxCntFlipZero + 1; ++L){
+            
+                CurCntFlipZero -= (Nums[L] == 0);            
             }
 
-            // В отрезке [LeftBorderWindow, RightBorderWindow] содержится максимум CountUpdZero нулей
-            if(Ans < RightBorderWindow - LeftBorderWindow  + 1){
-
-                L_Idx_Longest_Subarray = LeftBorderWindow;
-                R_Idx_Longest_Subarray = RightBorderWindow;
-
-                Ans = RightBorderWindow - LeftBorderWindow + 1;
-            }
+            Ans = max(Ans, R - L + 1);
         }
-        
-        if(L_Idx_Longest_Subarray == -1){ /*Когда такое происходит??*/ return 0;}
-        else {assert(Ans == R_Idx_Longest_Subarray - L_Idx_Longest_Subarray + 1);}
 
         return Ans;
     }
+
 };
