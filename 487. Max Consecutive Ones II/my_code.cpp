@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(1)
+*/
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums, int CountUpdZero = 1) { // CountUpdZero = 1 <-- "you can flip at most one 0."      
