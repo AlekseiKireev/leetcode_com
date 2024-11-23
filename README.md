@@ -272,9 +272,14 @@
 <details>  
 <summary> (Sub)string </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring  <br>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings      
     https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression  -- Two pointer     
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern <br> 
+    --------------------------------------------------------------------------------------------------- <br>     
+    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String    
+    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III    
     --------------------------------------------------------------------------------------------------- <br> 
     return the length of the longest substring of s that contains at most k distinct characters. <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters  -- S.W.  <br> 
@@ -345,6 +350,9 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
     https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- find max substr with same symb  <br>
+    ---------------------------------------------------------------------------------------------------  <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String    
+    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III        
     ---------------------------------------------------------------------------------------------------  <br>
      maximum number of consecutive 1's in the binary array if you can flip at most k 0's   <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  
