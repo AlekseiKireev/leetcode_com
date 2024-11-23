@@ -168,6 +168,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays -- return unique val intersection 
         https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- return all val intersection  
         https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference <br>
+        https://github.com/AlKiAl/leetcode_com/blob/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers/code.cpp  -- return difference <br>
         Для всех 3 задач характерно утверждение:  <br>
         - unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array  <br>
         - sort + comparison ptr on greater less equiv  <br>
