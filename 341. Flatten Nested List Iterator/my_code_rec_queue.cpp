@@ -15,7 +15,10 @@
  *     const vector<NestedInteger> &getList() const;
  * };
  */
-
+/*
+Time complexity: O(n)
+Space complexity: O(n)
+*/
 class NestedIterator {
 
 private:
