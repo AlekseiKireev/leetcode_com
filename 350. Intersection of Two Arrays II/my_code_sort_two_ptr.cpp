@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n+m)
+Space complexity: O(n*log(n) + m*log(m))
+*/
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
