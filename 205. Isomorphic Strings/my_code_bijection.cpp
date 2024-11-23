@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(alphabet)
+*/
 class Solution {
 public:
     bool isIsomorphic(string_view S, string_view T) {
