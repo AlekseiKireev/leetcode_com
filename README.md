@@ -369,7 +369,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II    <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element    <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes  -- mave any val to prefix / postfix     
+    https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes  -- move any val to prefix / postfix     
 </details>
 
 
