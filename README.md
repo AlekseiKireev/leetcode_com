@@ -366,9 +366,9 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
     https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- find max substr with same symb  <br>   
     ---------------------------------------------------------------------------------------------------  <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
-    https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II    
-    https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element    
+    https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II    <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element    <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes       
 </details>
 
