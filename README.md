@@ -372,11 +372,6 @@
     ---------------------------------------------------------------------------------------------------  <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String    
     https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  <br>       
-    ---------------------------------------------------------------------------------------------------  <br>
-     maximum number of consecutive 1's in the binary array if you can flip at most k 0's   <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  
-    https://github.com/SkosMartren/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II
-    https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element <br>
     ---------------------------------------------------------------------------------------------------  <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array
     https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II    
