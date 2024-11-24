@@ -1,6 +1,6 @@
 /*
-Time complexity: O(n+m)
-Space complexity: O(n*log(n) + m*log(m))
+Time complexity: O(n*log(n) + m*log(m))
+Space complexity: O(min(n,m))
 */
 class Solution {
 public:
