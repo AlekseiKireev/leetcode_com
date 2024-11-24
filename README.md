@@ -361,10 +361,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
     https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges    
-    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String    
     https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence                
-    https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression
-    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III
     https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray <br>
     https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
