@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n*log(n) + m*log(m))
+Space complexity: O(n+m)
+*/
 class Solution {
 
     std::vector<int> findElementsNotInSecond(const std::vector<int>& nums1, const std::vector<int>& nums2) {
