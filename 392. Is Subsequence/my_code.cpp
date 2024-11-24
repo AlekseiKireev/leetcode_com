@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(1)
+*/
 class Solution {
 public:
     bool isSubsequence(string_view s, string_view t) {
