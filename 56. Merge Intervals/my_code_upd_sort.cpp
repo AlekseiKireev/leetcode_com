@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(n*log(n))
+*/
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -12,9 +16,9 @@ public:
 
         for(auto interval : intervals){
 
-            if(Covers.empty() ||  /*CheckIntersection = */ (interval[0] > Covers.back()[1])){ // intervals[i][1] < intervals[j][0] : i < j -- тут выполнено это условие
+            if(Covers.empty() ||  /*NotIsIntersection = */ (interval[0] > Covers.back()[1])){ // intervals[i][1] < intervals[j][0] : i < j -- тут выполнено это условие
                 Covers.push_back(move(interval));
-            }else{ // CheckIntersection == true
+            }else{ // NotIsIntersection == false
                 Covers.back()[1] = max(Covers.back()[1], interval[1]);
             }
 
