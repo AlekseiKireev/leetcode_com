@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(1)
+*/
 class Solution {
 public:
     int busyStudent(const vector<int>& startTime, const vector<int>& endTime, int queryTime) {
