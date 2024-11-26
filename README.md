@@ -39,8 +39,9 @@
 <summary> Design </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine  <br>
     ---------------------------------------------------------------------------------------------------         
-    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- queue. события, находящиеся в (timestamp - 300, timestamp]      
-    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls -- queue. события, находящиеся в [timestamp - 3000, timestamp]     
+        события, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue: 
+    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- события, находящиеся в (timestamp - 300, timestamp]      <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls -- события, находящиеся в [timestamp - 3000, timestamp]     
         <details>  
         <summary> Data Strucut </summary>    
             Разница между 155. Min Stack и Max Stack в том, что в 716. Max Stack необходимо реализовать удаление экстремума из очереди    <br>
