@@ -38,8 +38,8 @@
 <details>  
 <summary> Design </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine  <br>
-    ---------------------------------------------------------------------------------------------------         
-        события, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue: 
+    ---------------------------------------------------------------------------------------------------  <br>       
+        события, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue: <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- события, находящиеся в (timestamp - 300, timestamp]      <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls -- события, находящиеся в [timestamp - 3000, timestamp]     
         <details>  
