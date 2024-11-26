@@ -267,15 +267,8 @@
 
 <details>  
 <summary> Sliding Window </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters    
     https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from S.W. . Using deque
     https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays <br>     
-        <details>  
-        <summary> Anagram </summary>
-                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagram| <= |Substring|  <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- |Anagram| == |Substring|  <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  |Anagram| == |Substring| <br> 
-        </details>
 </details>
 
 <details>  
@@ -295,7 +288,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String    
     https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III <br>   
         <details>  
-        <summary> Anagram </summary>
+        <summary> Anagram (Sliding Window) </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagram| <= |Substring|  <br> 
                 https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- |Anagram| == |Substring|  <br> 
                 https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  |Anagram| == |Substring| <br> 
@@ -303,7 +296,7 @@
         <details>  
         <summary> Substring </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring -- T.P. <br> 
                 https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. <br> 
                     --------------------------------------------------------------------------------------------------- <br> 
                     return the length of the longest substring of s that contains at most k distinct characters. <br>    
