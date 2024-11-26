@@ -282,11 +282,11 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings      
     https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression  -- Two pointer     
+    https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression  -- T.P.    
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern <br> 
     --------------------------------------------------------------------------------------------------- <br>     
-    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String    
-    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III <br>   
+    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       
+    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  -- T.P.    <br>   
         <details>  
         <summary> Anagram (Sliding Window) </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagram| <= |Substring|  <br> 
