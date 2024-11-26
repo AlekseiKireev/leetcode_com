@@ -201,8 +201,8 @@
 <details>  
 <summary> Parentheses </summary>
     https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
-    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses + string_stack
-    https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses                  
+    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses -- + string_stack + recursive
+    https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses -- + recursive                 
 </details>
 
 <details>  
