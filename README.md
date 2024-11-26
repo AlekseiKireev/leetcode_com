@@ -200,8 +200,8 @@
 
 <details>  
 <summary> Parentheses </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
-    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses -- + string_stack + recursive
+    https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses -- stack + unordered_map : Open -> Closed  <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses -- + string_stack + recursive  <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses -- + recursive                 
 </details>
 
