@@ -291,10 +291,10 @@
         <details>  
         <summary> Anagram  </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
-                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagram| <= |Substring|. S.W.  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- Check exist |Anagram| <= |Substring|. S.W.  <br> 
                  https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram + passes two        
-                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- |Anagram| == |Substring|. S.W.  <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  |Anagram| == |Substring|. S.W. <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- Find all |Anagram| == |Substring|. S.W.  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  Check exist |Anagram| == |Substring|. S.W. <br> 
         </details>        
         <details>  
         <summary> Substring </summary>
