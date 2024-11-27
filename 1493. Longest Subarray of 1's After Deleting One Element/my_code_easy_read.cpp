@@ -1,28 +1,24 @@
 class Solution {
 public:
-    int longestSubarray(vector<int>& N, int k = 1) {
+    int longestSubarray(vector<int>& Nums, int CntUpdZero = 1) {
+        
+        int Ans = 0; 
 
-  int Ans = 0;
+        int CurCntUpdZero = 0;
 
-        int CountFlipZero = 0;
+        for(int L = 0, R = 0; R < Nums.size(); ++R){
+            
+            CurCntUpdZero += (Nums[R] == 0);
 
-        for(int L = 0, R = 0; R < N.size(); ++R){
-
-            if(N[R] == 0){
-                ++CountFlipZero;
+            for(;CurCntUpdZero == CntUpdZero + 1  && L < R; ++L){
+            
+                CurCntUpdZero -= (Nums[L] == 0);            
             }
 
-            for(;CountFlipZero == k + 1; ++L){ // CountFlipZero == R - L + 1 - CountOne
-                if(N[L] == 0){
-                    --CountFlipZero;
-                }                
-            }
-
-            // CountFlipZero <= k
             Ans = max(Ans, R - L + 1);
         }
 
-        return Ans - k; // разница только в этой строке в сравнение с 1004
-
+        return Ans - CntUpdZero;
     }
+    
 };
