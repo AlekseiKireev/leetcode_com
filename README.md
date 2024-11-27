@@ -143,6 +143,7 @@
 <summary> math </summary>
         https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers          
         https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings   
+        https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation -- + Stack      
         https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element  
         https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes  
         https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
@@ -276,9 +277,7 @@
 </details>
 
 <details>  
-<summary> Stack </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses
-    https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation
+<summary> Stack </summary>    
 </details>
 
 <details>  
