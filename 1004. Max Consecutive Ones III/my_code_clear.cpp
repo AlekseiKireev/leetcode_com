@@ -16,7 +16,7 @@ public:
             
             CurCntFlipZero += (Nums[R] == 0);
 
-            for(;CurCntFlipZero == MaxCntFlipZero + 1 && L <= R; ++L){
+            for(;CurCntFlipZero == MaxCntFlipZero + 1 /*&& L <= R*/; ++L){
             
                 CurCntFlipZero -= (Nums[L] == 0);            
             }
