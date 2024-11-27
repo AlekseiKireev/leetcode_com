@@ -35,23 +35,26 @@
 </details>
 
 
+
 <details>  
 <summary> Design </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine  <br>
-    ---------------------------------------------------------------------------------------------------  <br>       
-        события, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue: <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- (timestamp - 300, timestamp]      <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls -- [timestamp - 3000, timestamp]     
+        <details>  
+        <summary> Counter </summary>
+            события, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue: <br>
+            https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- (timestamp - 300, timestamp]      <br>
+            https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls -- [timestamp - 3000, timestamp]  
+        </details>        
         <details>  
         <summary> Data Strucut </summary>    
             Разница между 155. Min Stack и Max Stack в том, что в 716. Max Stack необходимо реализовать удаление экстремума из очереди    <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack -- stack + struct Pair { int Val; int Min;};
-            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks -- stack + stack 
+            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack -- stack + struct Pair { int Val; int Min;}; <br>
+            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks -- stack + stack <br>
             https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1) -- использование хеш-таблицы    
                 <details>  
                 <summary> List + mapping (такая связка используется для быстрого удаления из середины по итератору) </summary>    
-                    https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack -- order_mapping : key -> vector list::iterator
-                    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache -- unorder_mapping : key -> list::iterator
+                    https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack -- order_mapping : key -> vector list::iterator <br>
+                    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache -- unorder_mapping : key -> list::iterator <br>
                     https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II -- unorder_mapping                       
                 </details>
         </details>
