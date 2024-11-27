@@ -10,7 +10,7 @@ public:
             
             CurCntUpdZero += (Nums[R] == 0);
 
-            for(;CurCntUpdZero == CntUpdZero + 1  && L < R; ++L){
+            for(;CurCntUpdZero == CntUpdZero + 1  && L <= R; ++L){
             
                 CurCntUpdZero -= (Nums[L] == 0);            
             }
