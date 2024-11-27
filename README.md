@@ -142,13 +142,11 @@
 <details>  
 <summary> math </summary>
         https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers          
-        https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings   
         https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation -- + Stack      
         https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element  
         https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes  
         https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
-        https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares -- or Dynamic programming       
-        https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
+        https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares -- or Dynamic programming               
         https://github.com/SkosMartren/leetcode_com/tree/main/463.%20Island%20Perimeter
         https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()  <br> 
     ---------------------------------------------------------------------------------------------------
@@ -276,13 +274,9 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays <br>     
 </details>
 
-<details>  
-<summary> Stack </summary>    
-</details>
 
 <details>  
-<summary> (Sub)string </summary>           
-    https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings      
+<summary> (Sub)string </summary>                
     https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression  -- T.P.    
@@ -290,6 +284,11 @@
     --------------------------------------------------------------------------------------------------- <br>     
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       
     https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  -- T.P.    <br>   
+        <details>  
+        <summary> Math </summary>    
+                https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings     
+                https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
+        </details>        
         <details>  
         <summary> Anagram  </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
