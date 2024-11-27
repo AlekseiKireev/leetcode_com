@@ -289,10 +289,12 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       
     https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  -- T.P.    <br>   
         <details>  
-        <summary> Anagram (Sliding Window) </summary>
-                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagram| <= |Substring|  <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- |Anagram| == |Substring|  <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  |Anagram| == |Substring| <br> 
+        <summary> Anagram  </summary>
+                https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
+                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- |Anagram| <= |Substring|. S.W.  <br> 
+                 https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram + passes two        
+                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- |Anagram| == |Substring|. S.W.  <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  |Anagram| == |Substring|. S.W. <br> 
         </details>        
         <details>  
         <summary> Substring </summary>
