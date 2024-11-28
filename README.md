@@ -22,8 +22,8 @@
 <details>  
 <summary> Binary sequance </summary>
         https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones
-        https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II -- T.P. . Flip no more 2 zero
-        https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  -- T.P. . Flip no more k zero
+        https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II -- T.P. . Flip at most 2 zero
+        https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  -- T.P. . Flip at most k zero
         https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element -- T.P. . Upd 1 zero <br>
 </details>
         
