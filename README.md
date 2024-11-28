@@ -54,7 +54,7 @@
                 <details>  
                 <summary> List + mapping (такая связка используется для быстрого удаления из середины по итератору) </summary>    
                     https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack -- order_mapping : key -> vector list::iterator <br>
-                    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache -- unorder_mapping : key -> list::iterator <br>
+                    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache -- unorder_mapping : key -> list::iterator + unorder_mapping : key -> val <br>
                     https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II -- unorder_mapping                       
                 </details>
         </details>
