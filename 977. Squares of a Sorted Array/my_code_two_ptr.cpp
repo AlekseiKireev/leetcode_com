@@ -6,7 +6,7 @@ class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
                
-        int i = nums.size() - 1;
+        int i = nums.size() - 1; // необходим, так как заполняем от большего к меньшему
         vector<int>  ans(nums.size());
 
         for(int LeftBorderWindow  = 0, RightBorderWindow  = nums.size() - 1; /*LeftBorderWindow <= RightBorderWindow*/ i>=0;--i){ // l != r -- error!
