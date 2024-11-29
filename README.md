@@ -303,9 +303,9 @@
         </details>        
         <details>  
         <summary> Substring </summary>
-                https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. . Longest substring with unique characters <br> 
                 https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring -- T.P. <br> 
-                https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. <br> 
+                https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. . Longest substring with same characters after at most k flip <br> 
                     --------------------------------------------------------------------------------------------------- <br> 
                     return the length of the longest substring of s that contains at most k distinct characters. <br>    
                     https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters  -- S.W.  <br> 
