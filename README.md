@@ -281,9 +281,13 @@
     https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression  -- T.P.    
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern <br> 
-    --------------------------------------------------------------------------------------------------- <br>     
-    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       
+        <details>  
+        <summary> Reverse </summary>    
+    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       <br> 
+    https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String <br> 
+    https://github.com/AlKiAl/leetcode_com/tree/main/186.%20Reverse%20Words%20in%20a%20String%20II    <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  -- T.P.    <br>   
+        </details>           
         <details>  
         <summary> Math </summary>    
                 https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings     
