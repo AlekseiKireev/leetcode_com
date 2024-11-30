@@ -131,8 +131,8 @@
         <br>
         <details>  
         <summary> cycle Floyd's == slow & fast ptr</summary>    
-            https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/
-            https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
+            https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/ <br>
+            https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List  -- Reverse(FindRightMid(head))  <br>
             https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle
         </details>
 </details>
