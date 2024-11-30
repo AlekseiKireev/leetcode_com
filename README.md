@@ -142,7 +142,7 @@
 <details>  
 <summary> math </summary>      
         https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation -- + Stack      
-        https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element -- The majority element is the element that appears more than ⌊n / 2⌋ times.  
+        https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element -- The majority element is the element that appears more than ⌊n / 2⌋ times.  <br> 
         https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes  
         https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
         https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares -- or Dynamic programming               
