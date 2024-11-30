@@ -284,9 +284,9 @@
         <details>  
         <summary> Reverse </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       <br> 
-    https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String <br> 
-    https://github.com/AlKiAl/leetcode_com/tree/main/186.%20Reverse%20Words%20in%20a%20String%20II    <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  -- T.P.    <br>   
+    https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String -- cleanSpaces: separator must be one space. The separator can be more than one space by condition <br> 
+    https://github.com/AlKiAl/leetcode_com/tree/main/186.%20Reverse%20Words%20in%20a%20String%20II  -- without cleanSpaces. The separator can be more than one space by condition <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  -- T.P. . the separator is by condition one space  <br>   
         </details>           
         <details>  
         <summary> Math </summary>    
