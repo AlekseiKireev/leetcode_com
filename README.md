@@ -364,7 +364,6 @@
     https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
     https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- find max substr with same symb  <br>   
-    ---------------------------------------------------------------------------------------------------  <br>    
         <details>  
         <summary> (Re)move </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array <br> 
