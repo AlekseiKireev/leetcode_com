@@ -228,7 +228,7 @@
 <summary> prefix sum </summary>    
         https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K -- total number of subarr whose sum = k <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K -- + u_m : Prefix -> Count . total number of subarr whose sum = k <br>
         ---------------------------------------------------------------------------------------------------   <br>
         CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum -- $\exists$ subarr that have a sum divisible by k and lenght >= 2.   <br>
