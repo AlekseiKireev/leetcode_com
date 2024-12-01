@@ -186,8 +186,8 @@
                         <details>  
                         <summary> Сканирующая прямая </summary>
                             не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
-                            https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms
-                            https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II 
+                            https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms -- прямая проходит через все интервалы <br>
+                            https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II -- прямая проходит через минимальное количество интервалов <br>
                         </details>                        
                 </details>
 </details>
