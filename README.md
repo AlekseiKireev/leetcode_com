@@ -89,11 +89,11 @@
 
 <details>  
 <summary> Greedy </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy
+    https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- + Two ptr + CharToLastIdx: each letter appears in at most one partition  <br>
-    --------------------------------------------------------------------------------------------------- 
-    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock
-    https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II  <br>
+    --------------------------------------------------------------------------------------------------- <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock -- one of the best deals <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II  -- maximum profit you can achieve <br>
     ---------------------------------------------------------------------------------------------------  <br>
     + passes one:  <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes    
