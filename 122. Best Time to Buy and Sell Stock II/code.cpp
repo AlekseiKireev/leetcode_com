@@ -9,8 +9,7 @@ public:
             int Sell = 0;
             int Buy = 0;
 
-            for(; i + 1 < prices.size() && prices[i] >= prices[i+1]; ++i);
-            
+            for(; i + 1 < prices.size() && prices[i] >= prices[i+1]; ++i);            
             Buy = prices[i];
 
             for(; i + 1 < prices.size() && prices[i] < prices[i+1]; ++i);
