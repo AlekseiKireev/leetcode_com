@@ -16,7 +16,7 @@ void DFS(const string& depart = "JFK"){
     while(TicketToEndPoint[depart].empty() == false){
 
         const string NextNode = *TicketToEndPoint[depart].begin();
-        TicketToEndPoint[depart].erase(TicketToEndPoint[depart].begin()); // помечаем посещенной
+        TicketToEndPoint[depart].erase(TicketToEndPoint[depart].begin()); // помечаем посещенной, тут хорошо видно, почему именно multiset -- удобно удалять
         DFS(NextNode);
         //PathTravel.push_back(depart); // в целом верно, но не будет класться последняя вершина на стеке!
     }
