@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n)
+Space complexity: O(1)
+*/
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
@@ -7,7 +11,7 @@ public:
             
             const int LeftPtr = RightPtr;
 
-            for(;RightPtr+1 < nums.size() && nums[RightPtr] == nums[RightPtr+1] - 1; ++RightPtr);
+            for(;RightPtr+1 < nums.size() && nums[RightPtr] == nums[RightPtr+1] - 1; ++RightPtr); // послденяя итерация цикла когда RightPtr+1 == nums.size() - 1
 
             if(LeftPtr == RightPtr){
                 ans.push_back(to_string(nums[LeftPtr])); 
