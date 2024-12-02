@@ -82,7 +82,7 @@
 <details>  
 <summary> Graph traversal: DFS / BFS / DSU </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands   
-    https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary -- реконструировать весь маршрут  
+    https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary -- (DFS on UnorderedHash) реконструировать весь маршрут  
     https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City -- (DFS on UnorderedHash) найти конечную точку маршрута    
 </details>
 
