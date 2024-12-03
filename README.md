@@ -414,7 +414,7 @@
 
 <details>  
 <summary> 2D Matrix </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image    
+    https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image -- rotate the matrix by 90 degrees (clockwise   
     https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix -- Binary search   
     https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
 </details>
