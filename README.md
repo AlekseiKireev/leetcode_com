@@ -248,7 +248,7 @@
 
 
 <details>  
-<summary> prefix sum </summary>    
+<summary> prefix sum (+ Subarray) </summary>    
         https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K -- + u_m : Prefix -> Count . total number of subarr whose sum = k <br>
