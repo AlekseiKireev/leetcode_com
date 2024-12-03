@@ -26,8 +26,7 @@
 
 <details>  
 <summary> Binary search </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays       
-    https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix
+    https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays       
     https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
     https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
   <br>
@@ -416,7 +415,7 @@
 <details>  
 <summary> 2D Matrix </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image    
-    https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix    
+    https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix -- Binary search   
     https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
 </details>
 
