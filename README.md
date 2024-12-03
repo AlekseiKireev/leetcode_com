@@ -399,7 +399,7 @@
 <details>  
 <summary> Yandex </summary>    
         - дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II List + mapping (такая связка используется для быстрого удаления из середины по итератору)  
+        https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II List + mapping (такая связка используется для быстрого удаления из середины по итератору). вернуть первый уникальный элемент из префикса чисел    
         https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string    
         https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence      
         https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern    
