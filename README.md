@@ -260,9 +260,7 @@
 
 
 <details>  
-<summary> recursive </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses + string_stack
-    https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses      
+<summary> recursive </summary>      
     https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator + queue    
 </details>
 
