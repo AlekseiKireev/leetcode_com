@@ -96,7 +96,7 @@
         https://en.wikipedia.org/wiki/Edit_distance <br>
         https://github.com/AlKiAl/leetcode_com/tree/main/72.%20Edit%20Distance -- D.P.     
         https://github.com/AlKiAl/leetcode_com/tree/main/161.%20One%20Edit%20Distance -- T.P.   
-        https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P.   
+        https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P.   . no more than min(|s1|,|s2|) editorial distance
         https://github.com/AlKiAl/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II -- T.P. . no more than one editorial distance      
         https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence -- D.P.
 </details>
