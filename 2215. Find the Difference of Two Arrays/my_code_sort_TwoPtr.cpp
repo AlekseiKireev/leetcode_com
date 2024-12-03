@@ -26,6 +26,8 @@ class Solution {
                     Без циклов ошибка будет в тесте:
                     [1,1,2,2]
                     [1,2,3,3]
+
+                    Также тут заметно отличие от https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers
                 */
                 while(i < nums1.size() && nums1[i] == equiv){i++;}
                 while(j < nums2.size() && nums2[j] == equiv){j++;}
