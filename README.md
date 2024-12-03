@@ -406,6 +406,7 @@
           https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4        <br>     
           https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string    <br>         
       <details>
+      <details>
       <summary> Array </summary>    
           https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference       <br>
             https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II List + mapping (такая связка используется для быстрого удаления из середины по итератору). вернуть первый уникальный элемент из префикса чисел    <br> 
