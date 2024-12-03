@@ -381,7 +381,8 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
-    https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges                 
+    https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges        
+    https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray <br>
     https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
