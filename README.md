@@ -86,8 +86,8 @@
 
 <details>  
 <summary> Dynamic programming </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray    
-    https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares     
+    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray -- find the subarray with the largest sum   <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares -- return the least number of numbers degree k that sum to n.    <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence
 </details>
 
