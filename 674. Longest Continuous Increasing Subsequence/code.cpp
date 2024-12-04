@@ -20,7 +20,7 @@ class Solution {
                 currentStartIndex = i;
             }
         }
-        cout << maxLength <<'\n';
+
         return {maxStartIndex, maxLength};
     }
 
