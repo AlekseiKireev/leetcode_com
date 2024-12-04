@@ -246,7 +246,7 @@
         <details>  
       <summary> (Increasing) decreasing (Continuous) sequence </summary>      
               https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array      
-              https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence
+              https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence -- + b.s. <br> 
               https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence
       </details>
 </details>
