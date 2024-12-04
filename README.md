@@ -211,6 +211,7 @@
                             не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
                             https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms -- прямая проходит через все интервалы <br>
                             https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II -- прямая проходит через минимальное количество интервалов <br>
+                            https://github.com/AlKiAl/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
                         </details>                        
                 </details>
 </details>
@@ -242,8 +243,12 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self  -- product_nums / nums[i] <br>  
         https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers  
         https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person + Greedy <br>  
-        https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array      
-        https://github.com/SkosMartren/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time  <br>          
+        <details>  
+      <summary> (Increasing) decreasing (Continuous) sequence </summary>      
+              https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array      
+              https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence
+              https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence
+      </details>
 </details>
 
 
