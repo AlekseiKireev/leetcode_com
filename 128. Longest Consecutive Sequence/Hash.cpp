@@ -1,7 +1,7 @@
 class Solution {
 public:
     int longestConsecutive(const std::vector<int>& nums) {
-        int res = 0;
+        int LCS = 0;
         unordered_map<int, int> NumToRange;
         
         for (int n : nums) {
@@ -10,18 +10,18 @@ public:
                 int left = NumToRange.count(n - 1) ? NumToRange[n - 1] : 0;
                 int right = NumToRange.count(n + 1) ? NumToRange[n + 1] : 0;
                 
-                int sum = left + right + 1;                
+                int SizeRange = left + right + 1;                
                 
-                res = max(res, sum);
+                LCS = max(LCS, SizeRange);
                 
-                NumToRange[n] = sum;
-                NumToRange[n - left] = sum;
-                NumToRange[n + right] = sum;
+                NumToRange[n] = SizeRange;
+                NumToRange[n - left] = SizeRange;
+                NumToRange[n + right] = SizeRange;
             }
 
         }
         
-        return res;
+        return LCS;
     }
 };
 
@@ -29,7 +29,7 @@ public:
 class Solution {
 public:
     int longestConsecutive(const std::vector<int>& nums) {
-        int res = 0;
+        int LCS = 0;
         std::unordered_map<int, int> NumToRange;
         
         for (int n : nums) {
@@ -38,14 +38,14 @@ public:
                 int left = NumToRange.count(n - 1) ? NumToRange[n - 1] : 0;
                 int right = NumToRange.count(n + 1) ? NumToRange[n + 1] : 0;
                 
-                int sum = left + right + 1;                
+                int SizeRange = left + right + 1;                
                 
-                res = max(res, sum);
+                LCS = max(LCS, SizeRange);
                 
-                NumToRange[n] = sum;
-                NumToRange[n - left] = sum;
-                NumToRange[n + right] = sum;
-                cout << "num: " << n << ' ' << "range: " << sum << '\n';
+                NumToRange[n] = SizeRange;
+                NumToRange[n - left] = SizeRange;
+                NumToRange[n + right] = SizeRange;
+                cout << "num: " << n << ' ' << "range: " << SizeRange << '\n';
             }
 
         }
@@ -55,7 +55,7 @@ public:
             cout << "num: " << num << ' ' << "range: " << range << '\n';
         }
         
-        return res;
+        return LCS;
     }
 };
 */
