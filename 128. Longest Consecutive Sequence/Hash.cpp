@@ -6,7 +6,7 @@ public:
         
         for (int n : nums) {
 
-            if (NumToRange.count(n) == 0) {
+            if (NumToRange.count(n) == 0) { // иначе уже обработан в NumToRange[n] = SizeRange; -- но, формально, условный оператор можно убрать
                 int left = NumToRange.count(n - 1) ? NumToRange[n - 1] : 0;
                 int right = NumToRange.count(n + 1) ? NumToRange[n + 1] : 0;
                 
