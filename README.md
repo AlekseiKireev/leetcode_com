@@ -247,6 +247,7 @@
       <summary> (Increasing) decreasing (Continuous) sequence </summary>      
               https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array      
               https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence -- + b.s. <br> 
+              https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray -- Two pointer + passes two <br>
               https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence
       </details>
 </details>
@@ -273,7 +274,6 @@
 <details>  
 <summary>  Sorted  </summary>        
         https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray -- Two pointer + passes two<br>
         <details>                
         <summary> Merge   </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees -- PreOrder
@@ -390,8 +390,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
     https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
     https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges        
-    https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>     
     https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
     https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- find max substr with same symb  <br>   
