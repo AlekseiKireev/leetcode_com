@@ -1,6 +1,8 @@
 https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/
 
-related: https://github.com/SkosMartren/leetcode_com/tree/main/628.%20Maximum%20Product%20of%20Three%20Numbers
+related: 
+* https://github.com/SkosMartren/leetcode_com/tree/main/628.%20Maximum%20Product%20of%20Three%20Numbers
+* https://github.com/AlKiAl/leetcode_com/tree/main/the%20product%20of%20two%20extremes -- общее решение
 
 https://walkccc.me/LeetCode/problems/1464/
 
