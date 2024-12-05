@@ -429,8 +429,9 @@
 
 <details>  
 <summary> 2D Matrix </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image -- rotate the matrix by 90 degrees (clockwise   
+    https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image -- rotate the matrix by 90 degrees   
     https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix -- Binary search   
+    https://github.com/AlKiAl/leetcode_com/tree/main/1329.%20Sort%20the%20Matrix%20Diagonally         
     https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
 </details>
 
