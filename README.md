@@ -310,7 +310,6 @@
 <summary> (Sub)string </summary>                
     https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/443.%20String%20Compression  -- T.P.    
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern <br> 
         <details>  
         <summary> Reverse </summary>    
@@ -406,6 +405,12 @@
             https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element --> 
             https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes  -- move any val to prefix / postfix     
         </details>        
+          <details>  
+        <summary> RLE </summary>    
+            [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
+            https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression
+            https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays
+        </details>    
 </details>
 
 
