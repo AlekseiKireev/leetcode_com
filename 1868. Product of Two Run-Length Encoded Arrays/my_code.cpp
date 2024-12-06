@@ -31,7 +31,7 @@ public:
         int i = 0;
         int j = 0;
 
-        while (i < encoded1.size()) { // <-- "The full arrays that encoded1 and encoded2 represent are the same length." --> sum(freq_i) == sum(freq_j)
+        while (i < encoded1.size() && && j < encoded2.size()) { // <-- "The full arrays that encoded1 and encoded2 represent are the same length." --> sum(freq_i) == sum(freq_j)
 
             /*
             encoded1[i].length == 2
@@ -49,7 +49,9 @@ public:
             if (encoded1[i].back() == 0) { ++i; }
             if (encoded2[j].back() == 0) { ++j; }
 
-            if (Product.empty() || Product.back().front() != product_ij) { Product.push_back({ product_ij , freq_ij }); }
+            if (Product.empty() || Product.back().front() != product_ij) { 
+             Product.push_back({ product_ij , freq_ij }); 
+            }
             else { // см. "My ex 2" пример в теле main
                 Product.back().back() += freq_ij; 
             }
