@@ -57,7 +57,16 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
 </details>
 
-
+<details>  
+<summary> data compression </summary>
+  https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges
+          <details>  
+        <summary> RLE </summary>    
+            [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
+            https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression
+            https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays
+        </details>       
+</details>
 
 <details>  
 <summary> Design </summary>        
@@ -392,8 +401,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy      
     https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
-    https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted
-    https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges        
+    https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted            
     https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>     
     https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
@@ -404,13 +412,7 @@
             https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II -- each unique element appears at most twice  <br> 
             https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element --> 
             https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes  -- move any val to prefix / postfix     
-        </details>        
-          <details>  
-        <summary> RLE </summary>    
-            [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
-            https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression
-            https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays
-        </details>    
+        </details>         
 </details>
 
 
