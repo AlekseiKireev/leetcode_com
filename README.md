@@ -343,8 +343,8 @@
         <details>  
         <summary> Substring </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. . Longest substring with unique characters <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring -- T.P. <br> 
                 https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. . Longest substring with same characters after at most k flip <br> 
+                https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- T.P. . find max substr with same symb  <br>   
                     --------------------------------------------------------------------------------------------------- <br> 
           https://github.com/AlKiAl/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern -- удаляются все, помимо образовавшихся после удаления <br> 
           https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring -- удаляются все, в том числе образовавшиеся после удаления <br> 
@@ -405,7 +405,6 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>     
     https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
-    https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- find max substr with same symb  <br>   
         <details>  
         <summary> (Re)move </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array -- each unique element appears only once <br> 
