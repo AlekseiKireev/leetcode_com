@@ -260,7 +260,10 @@
               https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array      
               https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence -- + b.s. <br> 
               https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray -- Two pointer + passes two <br>
-              https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence
+              https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence <br>
+          ---------------------------------------------------------------------------------------------------   <br>
+              https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray <br>
+              https://github.com/AlKiAl/leetcode_com/blob/main/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray
       </details>
 </details>
 
