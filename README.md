@@ -266,6 +266,13 @@
 
 
 <details>  
+<summary> prefix </summary>      
+         https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays <br>   
+         https://github.com/AlKiAl/leetcode_com/tree/main/14.%20Longest%20Common%20Prefix
+</details>
+
+
+<details>  
 <summary> prefix sum (+ Subarray) </summary>    
         https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self <br>
@@ -310,8 +317,7 @@
 
 <details>  
 <summary> Sliding Window </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from S.W. . Using deque
-    https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays <br>     
+    https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from S.W. . Using deque  
 </details>
 
 
