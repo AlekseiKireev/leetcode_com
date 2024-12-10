@@ -311,7 +311,7 @@
         <summary> counting  </summary>   
                 https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
                 https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram + passes two    
-                https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String + Sliding Window
+                https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String + S.W.
                 https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements + nth_element + Hash table              
                 https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words + partial_sort + Hash table
         </details>
@@ -320,8 +320,8 @@
 
 <details>  
 <summary> Sliding Window </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from S.W. . Using deque  <br>
-    https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray -- max sum in S.W. size = k contains at least m distinct elements.
+    https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from size = k S.W. . Using deque  <br>
+    https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray -- max sum in S.W. size = k contains at least m distinct elements. Using UnHash NumToCount
 </details>
 
 
