@@ -135,6 +135,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum  <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest  <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum  <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
 </details>
 
@@ -300,7 +301,8 @@
 <summary>  Sorted  </summary>        
         https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index <br>
         https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence <br>
-        https://github.com/AlKiAl/leetcode_com/tree/main/215.%20Kth%20Largest%20Element%20in%20an%20Array -- == nth_element
+        https://github.com/AlKiAl/leetcode_com/tree/main/215.%20Kth%20Largest%20Element%20in%20an%20Array -- == nth_element <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array    
         <details>                
         <summary> Merge   </summary>
             https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees -- PreOrder
@@ -414,11 +416,9 @@
 <summary> Two pointer </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy      
     https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water
-    https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted            
+    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water           
     https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>     
-    https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array            
+    https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>        
         <details>  
         <summary> (Re)move </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array -- each unique element appears only once <br> 
