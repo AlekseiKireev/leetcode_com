@@ -270,8 +270,8 @@
 
 <details>  
 <summary> prefix </summary>      
-         https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays <br>   
-         https://github.com/AlKiAl/leetcode_com/tree/main/14.%20Longest%20Common%20Prefix
+         https://github.com/AlKiAl/leetcode_com/tree/main/14.%20Longest%20Common%20Prefix -- L.C.P. strings  <br>  
+         https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays <br>            
 </details>
 
 
@@ -320,7 +320,8 @@
 
 <details>  
 <summary> Sliding Window </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from S.W. . Using deque  
+    https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from S.W. . Using deque  <br>
+    https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray -- max sum in S.W. size = k contains at least m distinct elements.
 </details>
 
 
