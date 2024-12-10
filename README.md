@@ -332,7 +332,7 @@
 <summary> (Sub)string </summary>                
     https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern -- check S == N*pattern == pattern + ... + pattern  <br> 
         <details>  
         <summary> Reverse </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       <br> 
