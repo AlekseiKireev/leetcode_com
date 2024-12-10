@@ -128,9 +128,17 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II  -- maximum profit you can achieve <br>
 </details>
 
+<details>  
+<summary> NSum </summary>    
+    https://github.com/AlKiAl/leetcode_com/tree/main/18.%204Sum <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum  <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest  <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum  <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
+</details>
 
 <details>  
-<summary> Maximum Product N number </summary>    
+<summary> N number Maximum Product </summary>    
     + passes one + Greedy :  <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes    
     https://github.com/SkosMartren/leetcode_com/tree/main/628.%20Maximum%20Product%20of%20Three%20Numbers  
@@ -140,10 +148,8 @@
 <details>  
 <summary> Hash table </summary>    
     https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9 -- Разрешение коллизий  <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
     ---------------------------------------------------------------------------------------------------  <br>
     использование хеш-таблицы  <br>  
-    https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum  <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1) <br>
     ---------------------------------------------------------------------------------------------------     <br>
@@ -193,10 +199,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number  <br>
     ---------------------------------------------------------------------------------------------------    
         https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
-        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer <br>
-    ---------------------------------------------------------------------------------------------------    
-        https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum  
-        https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest
+        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer <br>        
 </details>
 
 
