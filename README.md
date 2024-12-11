@@ -339,7 +339,8 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern -- check S == pattern + ... + pattern  <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String   
+    https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String   <br>
+      https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>   
         <details>  
         <summary> Reverse </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       <br> 
@@ -423,8 +424,7 @@
 <summary> Two pointer </summary>        
     https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy      
     https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water           
-    https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>     
+    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water             
     https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>        
         <details>  
         <summary> (Re)move </summary>    
