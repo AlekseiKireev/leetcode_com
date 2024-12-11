@@ -220,8 +220,9 @@
                 </details>        
                 <details>  
                 <summary> Intervals </summary>
-                        https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections
-                        https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals
+                        https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections <br>
+                        https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals   <br>
+                        https://github.com/AlKiAl/leetcode_com/tree/main/57.%20Insert%20Interval <br>
                         https://github.com/SkosMartren/leetcode_com/tree/main/435.%20Non-overlapping%20Intervals  -- return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
                         <details>  
                         <summary> Сканирующая прямая </summary>
