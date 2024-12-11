@@ -305,7 +305,7 @@
 
 <details>  
 <summary>  Sorted  </summary>        
-        https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index <br>
+        https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index -- Индекс хирша определяется как максимальное значение h, при котором данный исследователь опубликовал не менее h статей, каждая из которых цитировалась не менее h раз. <br>
         https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence -- length of the longest consecutive elements sequence <br>
         https://github.com/AlKiAl/leetcode_com/tree/main/215.%20Kth%20Largest%20Element%20in%20an%20Array -- == nth_element <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array    
