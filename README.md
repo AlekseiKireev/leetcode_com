@@ -259,13 +259,17 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path -- stringstream
         https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses  
         https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy  
-        https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate  
-        https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II  
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self  -- product_nums / nums[i] <br>  
   ---------------------------------------------------------------------------------------------------  <br> 
   https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin -- passes one + check end == start  <br> 
   https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north  <br> 
 ---------------------------------------------------------------------------------------------------
+  <details>  
+<summary> Check Contains Duplicate with a condition ... </summary>      
+        https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate  <br> 
+        https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II -- nums[i] == nums[j] and abs(i - j) <= k <br>  
+        https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III -- abs(i - j) <= indexDiff && abs(nums[i] - nums[j]) <= valueDiff <br>       
+</details>
         <details>  
       <summary> (Increasing) decreasing (Continuous) sequence </summary>      
               https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array      
