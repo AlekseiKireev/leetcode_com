@@ -320,7 +320,6 @@
         <summary> counting  </summary>   
                 https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
                 https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram + passes two    
-                https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String + S.W.
                 https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements + nth_element + Hash table              
                 https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words + partial_sort + Hash table
         </details>
@@ -339,6 +338,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
     https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern -- check S == pattern + ... + pattern  <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String   
         <details>  
         <summary> Reverse </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       <br> 
