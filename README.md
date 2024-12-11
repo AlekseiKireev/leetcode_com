@@ -442,7 +442,7 @@
 <summary> wandering through the plane </summary>    
   https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin -- passes one + check end == start  <br> 
   https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north  <br> 
-  https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing       
+  https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing -- check path crosses itself at any point      
 </details>
 
 <details>  
