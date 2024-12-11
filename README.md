@@ -344,6 +344,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern -- check S == pattern + ... + pattern  <br> 
     https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String   <br>
       https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>   
+  https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones -- подсчитать количетсво символов в stones, которые встречаются в jewels
         <details>  
         <summary> Reverse </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       <br> 
