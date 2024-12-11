@@ -49,6 +49,7 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  -- T.P. . Flip at most k zero
         https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element -- T.P. . Upd 1 zero <br>
         https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person + Greedy <br>  
+          https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers -- can be planted in without violating the no-adjacent-flowers rule  <br> 
 </details>
         
 <details>  
@@ -258,7 +259,6 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate  
         https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II  
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self  -- product_nums / nums[i] <br>  
-        https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers   <br> 
   ---------------------------------------------------------------------------------------------------  <br> 
   https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin -- passes one + check end == start  <br> 
   https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north  <br> 
