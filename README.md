@@ -160,8 +160,7 @@
     https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1) <br>
     ---------------------------------------------------------------------------------------------------     <br>
     перегрузка хеш-функции и operator==  <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection
-    https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing        
+    https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection     
 </details>
 
 
@@ -260,10 +259,6 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses  
         https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy  
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self  -- product_nums / nums[i] <br>  
-  ---------------------------------------------------------------------------------------------------  <br> 
-  https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin -- passes one + check end == start  <br> 
-  https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north  <br> 
----------------------------------------------------------------------------------------------------
   <details>  
 <summary> Check Contains Duplicate with a condition ... </summary>      
         https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate  <br> 
@@ -443,6 +438,12 @@
         </details>         
 </details>
 
+<details>  
+<summary> wandering through the plane </summary>    
+  https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin -- passes one + check end == start  <br> 
+  https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north  <br> 
+  https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing       
+</details>
 
 <details>  
 <summary> Yandex </summary>    
@@ -460,6 +461,7 @@
           https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence      
       </details>    
 </details>
+
 
 <details>  
 <summary> 2D Matrix </summary>    
