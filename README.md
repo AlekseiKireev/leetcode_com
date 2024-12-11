@@ -362,6 +362,8 @@
         <details>  
         <summary> Substring </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. . Longest substring with unique characters <br> 
+                https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character -- S.W. .  дана строка. Вернуть всевоможные подстроки, состоящие из уникальных элементов <br>
+          --------------------------------------------------------------------------------------------------- <br> 
                 https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. . Longest substring with same characters after at most k flip <br> 
                 https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- T.P. . find max substr with same symb  <br>   
                     --------------------------------------------------------------------------------------------------- <br> 
