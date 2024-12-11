@@ -99,7 +99,10 @@
 <summary> Dynamic programming </summary>    
     https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray -- find the subarray with the largest sum   <br>
     https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares -- return the least number of numbers degree k that sum to n.    <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence
+    https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence <br> 
+    --------------------------------------------------------------------------------------------------- <br> 
+        https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs <br> 
+        https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number   <br>       
 </details>
 
 <details>  
