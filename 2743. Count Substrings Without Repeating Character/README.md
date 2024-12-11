@@ -1,4 +1,4 @@
-https://leetcode.com/problems/count-substrings-without-repeating-character/description/
+https://leetcode.com/problems/count-substrings-without-repeating-character/description/ -- Subscribe to unlock
 
 https://github.com/doocs/leetcode/blob/main/solution/2700-2799/2743.Count%20Substrings%20Without%20Repeating%20Character/README_EN.md
 
