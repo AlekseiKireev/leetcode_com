@@ -343,15 +343,14 @@
   </details>
 
   <details>  
-  <summary>(Increasing) Decreasing (Continuous) Sequence</summary>      
-
-
+  <summary>(Increasing) Decreasing (Continuous) Sequence</summary>     
+    
   - [300. Longest Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence) -- + b.s.   
-  - [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence)  
-
-
+  - [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence)
+  - 
    <details>  
     <summary>Continuous</summary>      
+     
     - [896. Monotonic Array](https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array)  
     ---------------------------------------------------------------------------------------------------  
     - [978. Longest Turbulent Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray)  
