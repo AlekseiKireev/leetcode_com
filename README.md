@@ -349,6 +349,7 @@
   
    <details>  
     <summary>Continuous</summary>      
+     
   - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence)       
   - [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence)     
     - [896. Monotonic Array](https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array)  
