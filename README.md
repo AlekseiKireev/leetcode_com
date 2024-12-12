@@ -256,51 +256,64 @@
 </details>
 
 <details>  
-<summary> palindrome </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring
-        https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number        
-        https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome -- + isalnum + tolower   
-        https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List
-        https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II -- "can be palindrome after deleting at most one character from it."               
+<summary>Palindrome</summary>
+
+- [5. Longest Palindromic Substring](https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring)  
+- [9. Palindrome Number](https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number)  
+- [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- + isalnum + tolower  
+- [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List)  
+- [680. Valid Palindrome II](https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- "can be palindrome after deleting at most one character from it."  
+
 </details>
 
 <details>  
-<summary> Parentheses </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses -- stack + unordered_map : Open -> Closed  <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses -- + string_stack + recursive.  Open + Closed = 2N AND Open >= Closed AND Open <= N <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses -- + recursive                 
+<summary>Parentheses</summary>
+
+- [20. Valid Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses) -- stack + unordered_map : Open -> Closed  
+- [22. Generate Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses) -- + string_stack + recursive. Open + Closed = 2N AND Open >= Closed AND Open <= N  
+- [301. Remove Invalid Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses) -- + recursive  
+
 </details>
 
 <details>  
-<summary> passes one / two / ... </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path -- stringstream.  transform this absolute path into its simplified canonical path Unix-style <br>  
-        https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses  <br>  
-        https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy  <br>  
-        https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self  -- product_nums / nums[i] <br>  
+<summary>Passes one / two / ...</summary>
+
+- [71. Simplify Path](https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path) -- stringstream. Transform this absolute path into its simplified canonical path Unix-style  
+- [93. Restore IP Addresses](https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses)  
+- [135. Candy](https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy)  
+- [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self) -- product_nums / nums[i]  
+
   <details>  
-<summary> Check Contains Duplicate with a condition ... </summary>      
-        https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate  <br> 
-        https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II -- nums[i] == nums[j] and abs(i - j) <= k <br>  
-        https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III -- abs(i - j) <= indexDiff && abs(nums[i] - nums[j]) <= valueDiff <br>       
-</details>
-        <details>  
-      <summary> (Increasing) decreasing (Continuous) sequence </summary>      
-              https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array      
-              https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence -- + b.s. <br> 
-              https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray -- Two pointer + passes two <br>
-              https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence <br>
-          ---------------------------------------------------------------------------------------------------   <br>
-              https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray <br>
-              https://github.com/AlKiAl/leetcode_com/blob/main/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray
-      </details>
-</details>
+  <summary>Check Contains Duplicate with a condition ...</summary>      
 
+  - [217. Contains Duplicate](https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate)  
+  - [219. Contains Duplicate II](https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II) -- nums[i] == nums[j] and abs(i - j) <= k  
+  - [220. Contains Duplicate III](https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III) -- abs(i - j) <= indexDiff && abs(nums[i] - nums[j]) <= valueDiff  
+
+  </details>
+
+  <details>  
+  <summary>(Increasing) Decreasing (Continuous) Sequence</summary>      
+
+  - [896. Monotonic Array](https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array)  
+  - [300. Longest Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence) -- + b.s.  
+  - [581. Shortest Unsorted Continuous Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray) -- Two pointer + passes two  
+  - [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence)  
+  ---------------------------------------------------------------------------------------------------  
+  - [978. Longest Turbulent Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray)  
+  - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://github.com/AlKiAl/leetcode_com/blob/main/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray)  
+
+  </details>
+</details>
 
 <details>  
-<summary> prefix </summary>      
-         https://github.com/AlKiAl/leetcode_com/tree/main/14.%20Longest%20Common%20Prefix -- L.C.P. strings  <br>  
-         https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays <br>            
+<summary>Prefix</summary>      
+
+- [14. Longest Common Prefix](https://github.com/AlKiAl/leetcode_com/tree/main/14.%20Longest%20Common%20Prefix) -- L.C.P. strings  
+- [2657. Find the Prefix Common Array of Two Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays)  
+
 </details>
+
 
 
 <details>  
