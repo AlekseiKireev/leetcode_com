@@ -67,39 +67,52 @@
 </details>
 
 <details>  
-<summary> data compression </summary>
-  https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges
-          <details>  
-        <summary> RLE </summary>    
-            [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
-            https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression
-            https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays
-        </details>       
+<summary>Data compression</summary>
+
+- [228. Summary Ranges](https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges)
+
+  <details>  
+  <summary>RLE</summary>    
+
+  - [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
+  - [443. String Compression](https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression)
+  - [1868. Product of Two Run-Length Encoded Arrays](https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays)
+
+  </details>       
 </details>
 
 <details>  
-<summary> Design </summary>        
-    https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine  <br>
-        <details>  
-        <summary> Counter </summary>
-            события, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue: <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter -- (timestamp - 300, timestamp]      <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls -- [timestamp - 3000, timestamp]  
-        </details>        
-        <details>  
-        <summary> Data Strucut </summary>    
-            Разница между 155. Min Stack и Max Stack в том, что в 716. Max Stack необходимо реализовать удаление экстремума из очереди    <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack -- stack + struct Pair { int Val; int Min;}; <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks -- stack + stack <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1) -- использование хеш-таблицы    
-                <details>  
-                <summary> List + mapping (такая связка используется для быстрого удаления из середины по итератору) </summary>    
-                    https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack -- order_mapping : key -> vector list::iterator <br>
-                    https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache -- удаляются наименее использованные элементы. unorder_mapping : key -> list::iterator + unorder_mapping : key -> val <br>
-                    https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II -- unorder_mapping                       
-                </details>
-        </details>
-</details>
+<summary>Design</summary>        
+
+- [2241. Design an ATM Machine](https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine)  
+
+  <details>  
+  <summary>Counter</summary>
+
+  События, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue:  
+  - [362. Design Hit Counter](https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter) -- (timestamp - 300, timestamp]  
+  - [933. Number of Recent Calls](https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls) -- [timestamp - 3000, timestamp]  
+
+  </details>        
+
+  <details>  
+  <summary>Data Structure</summary>    
+
+  Разница между 155. Min Stack и Max Stack в том, что в 716. Max Stack необходимо реализовать удаление экстремума из очереди:  
+  - [155. Min Stack](https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack) -- stack + struct Pair { int Val; int Min;}  
+  - [232. Implement Queue using Stacks](https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks) -- stack + stack  
+  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- использование хеш-таблицы    
+
+    <details>  
+    <summary>List + mapping (такая связка используется для быстрого удаления из середины по итератору)</summary>    
+
+    - [716. Max Stack](https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack) -- order_mapping : key -> vector list::iterator  
+    - [146. LRU Cache](https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache) -- удаляются наименее использованные элементы. unorder_mapping : key -> list::iterator + unorder_mapping : key -> val  
+    - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- unorder_mapping                       
+
+    </details>
+  </details>
+</details>  
 
 
 <details>  
