@@ -116,53 +116,66 @@
 
 
 <details>  
-<summary> Dynamic programming </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray -- find the subarray with the largest sum   <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares -- return the least number of numbers degree k that sum to n.    <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence <br> 
-    --------------------------------------------------------------------------------------------------- <br> 
-        https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs <br> 
-        https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number   <br>       
+<summary>Dynamic programming</summary>    
+
+- [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- find the subarray with the largest sum  
+- [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- return the least number of numbers degree k that sum to n  
+- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence)
+
+  ---------------------------------------------------------------------------------------------------  
+
+- [70. Climbing Stairs](https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs)  
+- [509. Fibonacci Number](https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number)  
+
 </details>
 
 <details>  
-<summary> Edit distance </summary>
-        https://en.wikipedia.org/wiki/Edit_distance <br>
-        https://github.com/AlKiAl/leetcode_com/tree/main/72.%20Edit%20Distance -- D.P.     
-        https://github.com/AlKiAl/leetcode_com/tree/main/161.%20One%20Edit%20Distance -- T.P.   
-        https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P.   . no more than min(|s1|,|s2|) editorial distance <br>
-        https://github.com/AlKiAl/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II -- T.P. . no more than one editorial distance      
-        https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence -- D.P.
-</details>
+<summary>Edit distance</summary>
 
+- [Wikipedia: Edit distance](https://en.wikipedia.org/wiki/Edit_distance)  
+- [72. Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/72.%20Edit%20Distance) -- D.P.  
+- [161. One Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/161.%20One%20Edit%20Distance) -- T.P.  
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- T.P. . no more than min(|s1|,|s2|) editorial distance  
+- [680. Valid Palindrome II](https://github.com/AlKiAl/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- T.P. . no more than one editorial distance  
+- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- D.P.  
 
-<details>  
-<summary> Graph traversal: DFS / BFS / DSU </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands   <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary -- (DFS on UnorderedHash) реконструировать весь маршрут  <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City -- (DFS on UnorderedHash) найти конечную точку маршрута    
-</details>
-
-
-<details>  
-<summary> Greedy </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels -- + Two ptr + CharToLastIdx: each letter appears in at most one partition  <br>
-    --------------------------------------------------------------------------------------------------- <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock -- one of the best deals <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II  -- maximum profit you can achieve <br>
-    https://github.com/AlKiAl/leetcode_com/tree/main/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III -- maximum profit you can achieve complete at most two transactions
 </details>
 
 <details>  
-<summary> NSum </summary>    
-    https://github.com/AlKiAl/leetcode_com/tree/main/18.%204Sum <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum  <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest  <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum  <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
+<summary>Graph traversal: DFS / BFS / DSU</summary>    
+
+- [200. Number of Islands](https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands)  
+- [332. Reconstruct Itinerary](https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary) -- (DFS on UnorderedHash) реконструировать весь маршрут  
+- [1436. Destination City](https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City) -- (DFS on UnorderedHash) найти конечную точку маршрута    
+
 </details>
+
+<details>  
+<summary>Greedy</summary>    
+
+- [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy)  
+- [763. Partition Labels](https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels) -- + Two ptr + CharToLastIdx: each letter appears in at most one partition  
+
+  ---------------------------------------------------------------------------------------------------  
+
+- [121. Best Time to Buy and Sell Stock](https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) -- one of the best deals  
+- [122. Best Time to Buy and Sell Stock II](https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) -- maximum profit you can achieve  
+- [123. Best Time to Buy and Sell Stock III](https://github.com/AlKiAl/leetcode_com/tree/main/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III) -- maximum profit you can achieve complete at most two transactions  
+
+</details>
+
+<details>  
+<summary>NSum</summary>    
+
+- [18. 4Sum](https://github.com/AlKiAl/leetcode_com/tree/main/18.%204Sum)  
+- [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum)  
+- [16. 3Sum Closest](https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest)  
+- [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum)  
+- [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)  
+- [350. Intersection of Two Arrays II](https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II) -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах  
+
+</details>
+
 
 
 <details>  
