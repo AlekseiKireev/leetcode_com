@@ -164,43 +164,58 @@
         https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах <br>
 </details>
 
+
 <details>  
-<summary> N number Maximum Product </summary>    
-    + passes one + Greedy :  <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes    
-    https://github.com/SkosMartren/leetcode_com/tree/main/628.%20Maximum%20Product%20of%20Three%20Numbers  
-    https://github.com/SkosMartren/leetcode_com/tree/main/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array    
+<summary>N number Maximum Product</summary>    
+
+- Passes One + Greedy:  
+  - [The Product of Two Extremes](https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes)  
+  - [628. Maximum Product of Three Numbers](https://github.com/SkosMartren/leetcode_com/tree/main/628.%20Maximum%20Product%20of%20Three%20Numbers)  
+  - [1464. Maximum Product of Two Elements in an Array](https://github.com/SkosMartren/leetcode_com/tree/main/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array)    
+
 </details>
 
 <details>  
-<summary> Hash table </summary>    
-    https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9 -- Разрешение коллизий  <br>
-    ---------------------------------------------------------------------------------------------------  <br>
-    использование хеш-таблицы  <br>  
-    https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1) <br>
-    ---------------------------------------------------------------------------------------------------     <br>
-    перегрузка хеш-функции и operator==  <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection     
+<summary>Hash table</summary>    
+
+- [Разрешение коллизий (neerc.ifmo.ru)](https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9)  
+
+  ---------------------------------------------------------------------------------------------------  
+
+  Использование хеш-таблицы:  
+  - [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs)  
+  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1))  
+
+  ---------------------------------------------------------------------------------------------------  
+
+  Перегрузка хеш-функции и operator==:  
+  - [356. Line Reflection](https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection)  
+
 </details>
 
-
 <details>  
-<summary> List </summary>
-    https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/ <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers  -- iter <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List -- iter <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List -- iter <br>
-    ---------------------------------------------------------------------------------------------------          
-    https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists -- rec
-    https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists -- rec    
-        <br>
-        <details>  
-        <summary> cycle Floyd's == slow & fast ptr</summary>    
-            https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/ <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List  -- Reverse(FindRightMid(head))  <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle
-        </details>
+<summary>List</summary>
+
+- [How to Solve Linked List Problems (Leetcode Discussion)](https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/)  
+- Iterative:  
+  - [2. Add Two Numbers](https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers)  
+  - [19. Remove Nth Node From End of List](https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List)  
+  - [206. Reverse Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List)  
+
+  ---------------------------------------------------------------------------------------------------  
+
+- Recursive:  
+  - [21. Merge Two Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists)  
+  - [23. Merge k Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists)  
+
+  <details>  
+  <summary>Cycle Detection (Floyd's Algorithm == Slow & Fast Pointer)</summary>    
+
+  - [Floyd's Cycle-Finding Algorithm (GeeksforGeeks)](https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/)  
+  - [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List) -- Reverse(FindRightMid(head))  
+  - [141. Linked List Cycle](https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle)  
+
+  </details>
 </details>
 
 
