@@ -369,6 +369,7 @@
         <summary> Substring </summary>
                 https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. . Longest substring with unique characters <br> 
                 https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character -- S.W. .  дана строка. Вернуть количество всевоможных подстрок, состоящих из уникальных элементов <br>
+                https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String -- find idx start string in string <br>  
           --------------------------------------------------------------------------------------------------- <br> 
                 https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. . Longest substring with same characters after at most k flip <br> 
                 https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- T.P. . find max substr with same symb  <br>   
@@ -426,10 +427,8 @@
 
 <details>  
 <summary> Two pointer </summary>        
-    https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy      
-    https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water             
-    https://github.com/AlKiAl/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements    <br>        
+    https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy        
+    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water                 
         <details>  
         <summary> (Re)move </summary>    
             https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array -- each unique element appears only once <br> 
