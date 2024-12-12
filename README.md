@@ -304,54 +304,70 @@
 
 
 <details>  
-<summary> prefix sum (+ Subarray) </summary>    
-        https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K -- + u_m : Prefix -> Count . total number of subarr whose sum = k <br>
-        ---------------------------------------------------------------------------------------------------   <br>
-        CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum -- $\exists$ subarr that have a sum divisible by k and lenght >= 2.   <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K -- number subarr that have a sum divisible by k.
-</details>
+<summary>Prefix sum (+ Subarray)</summary>    
 
+- [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray)  
+- [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self)  
+- [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- + u_m : Prefix -> Count. Total number of subarrays whose sum = k  
+
+  ---------------------------------------------------------------------------------------------------  
+
+  CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible  
+
+- [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= 2  
+- [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k  
+
+</details>
 
 <details>  
-<summary> recursive </summary>      
-    https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator + queue    
-</details>
+<summary>Recursive</summary>      
 
+- [341. Flatten Nested List Iterator](https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator) + queue    
+
+</details>
 
 <details>  
-<summary>  Sorted  </summary>        
-        https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index -- Индекс хирша определяется как максимальное значение h, при котором данный исследователь опубликовал не менее h статей, каждая из которых цитировалась не менее h раз. <br>
-        https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence -- length of the longest consecutive elements sequence <br>
-        https://github.com/AlKiAl/leetcode_com/tree/main/215.%20Kth%20Largest%20Element%20in%20an%20Array -- == nth_element <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array    
-        <details>                
-        <summary> Merge   </summary>
-            https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees -- PreOrder
-            https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals -- iter 
-            https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array -- iter   <br>
-            ---------------------------------------------------------------------------------------------------          
-            https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists -- rec
-            https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists -- rec                
-        </details>
-        <br>
-        <details>  
-        <summary> counting  </summary>   
-                https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
-                https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram + passes two    
-                https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements + nth_element + Hash table              
-                https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words + partial_sort + Hash table
-        </details>
-</details>
+<summary>Sorted</summary>        
 
+- [274. H-Index](https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index) -- Индекс хирша определяется как максимальное значение h, при котором данный исследователь опубликовал не менее h статей, каждая из которых цитировалась не менее h раз  
+- [128. Longest Consecutive Sequence](https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence) -- Length of the longest consecutive elements sequence  
+- [215. Kth Largest Element in an Array](https://github.com/AlKiAl/leetcode_com/tree/main/215.%20Kth%20Largest%20Element%20in%20an%20Array) -- == nth_element  
+- [977. Squares of a Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array)    
+
+  <details>                
+  <summary>Merge</summary>
+
+  - [617. Merge Two Binary Trees](https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees) -- PreOrder  
+  - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- iter  
+  - [88. Merge Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array) -- iter  
+
+    ---------------------------------------------------------------------------------------------------          
+
+  - [21. Merge Two Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists) -- rec  
+  - [23. Merge k Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists) -- rec                
+
+  </details>
+  <br>
+
+  <details>  
+  <summary>Counting</summary>   
+
+  - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  
+  - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two    
+  - [347. Top K Frequent Elements](https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements) + nth_element + Hash table              
+  - [692. Top K Frequent Words](https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words) + partial_sort + Hash table  
+
+  </details>
+</details>
 
 <details>  
-<summary> Sliding Window </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum -- max val from size = k S.W. . Using deque  <br>
-    https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray -- max sum in S.W. size = k contains at least m distinct elements. Using UnHash NumToCount
+<summary>Sliding Window</summary>
+
+- [239. Sliding Window Maximum](https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum) -- Max val from size = k sliding window. Using deque  
+- [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Max sum in sliding window size = k containing at least m distinct elements. Using UnHash NumToCount  
+
 </details>
+
 
 
 <details>  
