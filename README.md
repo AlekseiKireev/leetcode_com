@@ -375,7 +375,7 @@
 <details>  
 <summary>Prefix sum (+ Subarray)</summary>    
 
-- [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray)  
+- [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- find the subarray with the largest sum 
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self)  -- product_nums / nums[i]
 - [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- + u_m : Prefix -> Count. Total number of subarrays whose sum = k  
 
