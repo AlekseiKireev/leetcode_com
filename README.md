@@ -26,19 +26,19 @@
 
 <details>  
 <summary> Binary search </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays       
-    https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
-    https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
+    - https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays       
+    - https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements
+    - https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search
   <br>
         <details> 
         <summary> Bitonic sequence </summary>
-            https://www.geeksforgeeks.org/bitonic-sort/
-            https://en.wikipedia.org/wiki/Bitonic_sorter
-            https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%B5%D1%82%D1%8C_%D0%91%D0%B5%D1%82%D1%87%D0%B5%D1%80%D0%B0
-            https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
-            https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
-            https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
-            https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+           - https://www.geeksforgeeks.org/bitonic-sort/
+           - https://en.wikipedia.org/wiki/Bitonic_sorter
+           - https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%B5%D1%82%D1%8C_%D0%91%D0%B5%D1%82%D1%87%D0%B5%D1%80%D0%B0
+           - https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
+           - https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array
+           - https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+           - https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
         </details>
 </details>
 
