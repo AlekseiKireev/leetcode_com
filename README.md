@@ -50,21 +50,26 @@
 </details>
 
 <details>  
-<summary> Binary sequance </summary>
-        https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones
-        https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II -- T.P. . Flip at most 2 zero
-        https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III  -- T.P. . Flip at most k zero
-        https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element -- T.P. . Upd 1 zero <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person + Greedy <br>  
-          https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers -- can be planted in without violating the no-adjacent-flowers rule  <br> 
+<summary>Binary sequence</summary>
+
+- [485. Max Consecutive Ones](https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones)
+- [487. Max Consecutive Ones II](https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II) -- T.P. Flip at most 2 zeros
+- [1004. Max Consecutive Ones III](https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III) -- T.P. Flip at most k zeros
+- [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element) -- T.P. Upd 1 zero
+- [849. Maximize Distance to Closest Person](https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person) + Greedy
+- [605. Can Place Flowers](https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers) -- Can be planted in without violating the no-adjacent-flowers rule
+
 </details>
-        
+
 <details>  
-<summary> Bitwise operator </summary>
-    https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number
-    https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II    
-    https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number
+<summary>Bitwise operator</summary>
+
+- [136. Single Number](https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number)
+- [137. Single Number II](https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II)
+- [268. Missing Number](https://github.com/SkosMartren/leetcode_com/tree/main/268.%20Missing%20Number)
+
 </details>
+
 
 <details>  
 <summary>Data compression</summary>
