@@ -253,9 +253,9 @@
 
 <details>  
 <summary> passes one / two / ... </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path -- stringstream
-        https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses  
-        https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy  
+        https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path -- stringstream.  transform this absolute path into its simplified canonical path Unix-style <br>  
+        https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses  <br>  
+        https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy  <br>  
         https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self  -- product_nums / nums[i] <br>  
   <details>  
 <summary> Check Contains Duplicate with a condition ... </summary>      
