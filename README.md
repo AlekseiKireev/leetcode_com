@@ -443,52 +443,66 @@
 
 
 <details>  
-<summary> Two pointer </summary>        
-    https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy         <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water                <br> 
-    https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum -- minimal length of a subarray whose sum is greater than or equal to target <br> 
-        <details>  
-        <summary> (Re)move </summary>    
-            https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array -- each unique element appears only once <br> 
-            https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II -- each unique element appears at most twice  <br> 
-            https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element --> 
-            https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes  -- move any val to prefix / postfix     
-        </details>         
+<summary>Two pointer</summary>        
+
+- [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) + Greedy  
+- [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  
+- [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- minimal length of a subarray whose sum is greater than or equal to target  
+
+  <details>  
+  <summary>(Re)move</summary>    
+
+  - [26. Remove Duplicates from Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array) -- each unique element appears only once  
+  - [80. Remove Duplicates from Sorted Array II](https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) -- each unique element appears at most twice  
+  - [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  
+  - [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix  
+
+  </details>         
 </details>
 
 <details>  
-<summary> wandering through the plane </summary>    
-  https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin -- passes one + check end == start  <br> 
-  https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north  <br> 
-  https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing -- check path crosses itself at any point      
+<summary>Wandering through the plane</summary>    
+
+- [657. Robot Return to Origin](https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin) -- passes one + check end == start  
+- [1041. Robot Bounded In Circle](https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle) -- passes one + end check side != north  
+- [1496. Path Crossing](https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing) -- check path crosses itself at any point  
+
 </details>
 
 <details>  
-<summary> Yandex </summary>    
-        - дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем <br>
-        <details>  
-      <summary> (Sub)string </summary>    
-          https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern    <br> 
-          https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4        <br>     
-          https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string    <br>         
-      </details>
-  <details> 
-      <summary> Array </summary>    
-          https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference       <br>
-            https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II List + mapping (такая связка используется для быстрого удаления из середины по итератору). вернуть первый уникальный элемент из префикса чисел    <br> 
-          https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence      
-      </details>    
+<summary>Yandex</summary>    
+
+- Дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем  
+
+  <details>  
+  <summary>(Sub)string</summary>    
+
+  - [Remove All Occurrences of a Substring by pattern](https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern)  
+  - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
+  - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string)  
+
+  </details>
+
+  <details>  
+  <summary>Array</summary>    
+
+  - [Find elements in first sequence not in second (two pointers)](https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers) -- return all val difference  
+  - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- List + mapping (такая связка используется для быстрого удаления из середины по итератору). Вернуть первый уникальный элемент из префикса чисел  
+  - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence)  
+
+  </details>    
 </details>
 
-
 <details>  
-<summary> 2D Matrix </summary>    
-    https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku <br>
-    https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image -- rotate the matrix by 90 degrees   
-    https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix -- Binary search   
-    https://github.com/AlKiAl/leetcode_com/tree/main/85.%20Maximal%20Rectangle -- макс. площ. прямоугольника из 1
-    https://github.com/AlKiAl/leetcode_com/tree/main/1329.%20Sort%20the%20Matrix%20Diagonally         
-    https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
+<summary>2D Matrix</summary>    
+
+- [36. Valid Sudoku](https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku)  
+- [48. Rotate Image](https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image) -- rotate the matrix by 90 degrees  
+- [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- Binary search  
+- [85. Maximal Rectangle](https://github.com/AlKiAl/leetcode_com/tree/main/85.%20Maximal%20Rectangle) -- макс. площ. прямоугольника из 1  
+- [1329. Sort the Matrix Diagonally](https://github.com/AlKiAl/leetcode_com/tree/main/1329.%20Sort%20the%20Matrix%20Diagonally)  
+- [1572. Matrix Diagonal Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum)  
+
 </details>
 
 </details>
@@ -920,66 +934,52 @@ _________
 
 
 <details>  
-<summary>Two pointer</summary>        
-
-- [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) + Greedy  
-- [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  
-- [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- minimal length of a subarray whose sum is greater than or equal to target  
-
-  <details>  
-  <summary>(Re)move</summary>    
-
-  - [26. Remove Duplicates from Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array) -- each unique element appears only once  
-  - [80. Remove Duplicates from Sorted Array II](https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) -- each unique element appears at most twice  
-  - [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  
-  - [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix  
-
-  </details>         
+<summary> Two pointer </summary>        
+    https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water  + Greedy         <br> 
+    https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water                <br> 
+    https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum -- minimal length of a subarray whose sum is greater than or equal to target <br> 
+        <details>  
+        <summary> (Re)move </summary>    
+            https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array -- each unique element appears only once <br> 
+            https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II -- each unique element appears at most twice  <br> 
+            https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element --> 
+            https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes  -- move any val to prefix / postfix     
+        </details>         
 </details>
 
 <details>  
-<summary>Wandering through the plane</summary>    
-
-- [657. Robot Return to Origin](https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin) -- passes one + check end == start  
-- [1041. Robot Bounded In Circle](https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle) -- passes one + end check side != north  
-- [1496. Path Crossing](https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing) -- check path crosses itself at any point  
-
+<summary> wandering through the plane </summary>    
+  https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin -- passes one + check end == start  <br> 
+  https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle -- passes one + end check side != north  <br> 
+  https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing -- check path crosses itself at any point      
 </details>
 
 <details>  
-<summary>Yandex</summary>    
-
-- Дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем  
-
-  <details>  
-  <summary>(Sub)string</summary>    
-
-  - [Remove All Occurrences of a Substring by pattern](https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern)  
-  - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
-  - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string)  
-
-  </details>
-
-  <details>  
-  <summary>Array</summary>    
-
-  - [Find elements in first sequence not in second (two pointers)](https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers) -- return all val difference  
-  - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- List + mapping (такая связка используется для быстрого удаления из середины по итератору). Вернуть первый уникальный элемент из префикса чисел  
-  - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence)  
-
-  </details>    
+<summary> Yandex </summary>    
+        - дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем <br>
+        <details>  
+      <summary> (Sub)string </summary>    
+          https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern    <br> 
+          https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4        <br>     
+          https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string    <br>         
+      </details>
+  <details> 
+      <summary> Array </summary>    
+          https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers -- return all val difference       <br>
+            https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II List + mapping (такая связка используется для быстрого удаления из середины по итератору). вернуть первый уникальный элемент из префикса чисел    <br> 
+          https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence      
+      </details>    
 </details>
 
+
 <details>  
-<summary>2D Matrix</summary>    
-
-- [36. Valid Sudoku](https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku)  
-- [48. Rotate Image](https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image) -- rotate the matrix by 90 degrees  
-- [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- Binary search  
-- [85. Maximal Rectangle](https://github.com/AlKiAl/leetcode_com/tree/main/85.%20Maximal%20Rectangle) -- макс. площ. прямоугольника из 1  
-- [1329. Sort the Matrix Diagonally](https://github.com/AlKiAl/leetcode_com/tree/main/1329.%20Sort%20the%20Matrix%20Diagonally)  
-- [1572. Matrix Diagonal Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum)  
-
+<summary> 2D Matrix </summary>    
+    https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku <br>
+    https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image -- rotate the matrix by 90 degrees   
+    https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix -- Binary search   
+    https://github.com/AlKiAl/leetcode_com/tree/main/85.%20Maximal%20Rectangle -- макс. площ. прямоугольника из 1
+    https://github.com/AlKiAl/leetcode_com/tree/main/1329.%20Sort%20the%20Matrix%20Diagonally         
+    https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum
 </details>
 
 
