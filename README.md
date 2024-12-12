@@ -204,56 +204,73 @@
 </details>
 
 
-
 <details>  
-<summary> math </summary>      
-        https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation -- + Stack      
-        https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element -- The majority element is the element that appears more than ⌊n / 2⌋ times.  <br> 
-        https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes  
-        https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings
-        https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares -- or Dynamic programming               
-        https://github.com/SkosMartren/leetcode_com/tree/main/463.%20Island%20Perimeter
-        https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()  <br> 
-    ---------------------------------------------------------------------------------------------------
-        https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs
-        https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number   <br> 
-    --------------------------------------------------------------------------------------------------- <br> 
-        https://github.com/SkosMartren/leetcode_com/tree/main/7.%20Reverse%20Integer <br> 
-        https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number  <br>
-    ---------------------------------------------------------------------------------------------------    
-        https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman
-        https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer <br>        
+<summary>Math</summary>      
+
+- [150. Evaluate Reverse Polish Notation](https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation) -- + Stack  
+- [169. Majority Element](https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element) -- The majority element is the element that appears more than ⌊n / 2⌋ times.  
+- [204. Count Primes](https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes)  
+- [205. Isomorphic Strings](https://github.com/SkosMartren/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  
+- [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- or Dynamic programming  
+- [463. Island Perimeter](https://github.com/SkosMartren/leetcode_com/tree/main/463.%20Island%20Perimeter)  
+- [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())  
+
+---
+
+- [70. Climbing Stairs](https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs)  
+- [509. Fibonacci Number](https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number)  
+
+---
+
+- [7. Reverse Integer](https://github.com/SkosMartren/leetcode_com/tree/main/7.%20Reverse%20Integer)  
+- [9. Palindrome Number](https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number)  
+
+---
+
+- [12. Integer to Roman](https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman)  
+- [13. Roman to Integer](https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer)  
+
 </details>
 
-
 <details>  
-<summary> operations on sets </summary>
-                <details>  
-                <summary> Arrays </summary>
-                        https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays -- return unique val intersection 
-                        https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II -- return all val intersection  
-                        https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays -- return unique difference <br>
-                        https://github.com/AlKiAl/leetcode_com/blob/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers/code.cpp  -- return difference <br>
-                        Для всех задач характерно утверждение:  <br>
-                        - unique можно реализовать своими руками: 26  Remove Duplicates from Sorted Array  <br>
-                        - sort + comparison ptr on greater less equiv  <br>
-                        - в случае нежелания сортировки можно решить через Hash table <br>              
-                </details>        
-                <details>  
-                <summary> Intervals </summary>
-                        https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections <br>
-                        https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals   <br>
-                        https://github.com/AlKiAl/leetcode_com/tree/main/57.%20Insert%20Interval <br>
-                        https://github.com/SkosMartren/leetcode_com/tree/main/435.%20Non-overlapping%20Intervals  -- return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
-                        <details>  
-                        <summary> Сканирующая прямая </summary>
-                            не забывай при работе с интервалами про обработку случаев вида: [[a,b], [b,c]]
-                            https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms -- прямая проходит через все интервалы <br>
-                            https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II -- прямая проходит через минимальное количество интервалов <br>
-                            https://github.com/AlKiAl/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time
-                        </details>                        
-                </details>
+<summary>Operations on sets</summary>
+
+  <details>  
+  <summary>Arrays</summary>    
+
+  - [349. Intersection of Two Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays) -- return unique val intersection  
+  - [350. Intersection of Two Arrays II](https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II) -- return all val intersection  
+  - [2215. Find the Difference of Two Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays) -- return unique difference  
+  - [Find elements in first sequence not in second (two pointers)](https://github.com/AlKiAl/leetcode_com/blob/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers/code.cpp) -- return difference  
+
+  Для всех задач характерно утверждение:  
+  - `unique` можно реализовать своими руками: [26. Remove Duplicates from Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)  
+  - `sort + comparison ptr` on greater/less/equiv  
+  - В случае нежелания сортировки можно решить через Hash table  
+
+  </details>        
+
+  <details>  
+  <summary>Intervals</summary>    
+
+  - [986. Interval List Intersections](https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections)  
+  - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals)  
+  - [57. Insert Interval](https://github.com/AlKiAl/leetcode_com/tree/main/57.%20Insert%20Interval)  
+  - [435. Non-overlapping Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/435.%20Non-overlapping%20Intervals) -- return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.  
+
+    <details>  
+    <summary>Сканирующая прямая</summary>    
+
+    Не забывай при работе с интервалами про обработку случаев вида: `[[a,b], [b,c]]`.  
+    - [252. Meeting Rooms](https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms) -- прямая проходит через все интервалы  
+    - [253. Meeting Rooms II](https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II) -- прямая проходит через минимальное количество интервалов  
+    - [1450. Number of Students Doing Homework at a Given Time](https://github.com/AlKiAl/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time)  
+
+    </details>                        
+
+  </details>  
 </details>
+
 
 <details>  
 <summary>Palindrome</summary>
