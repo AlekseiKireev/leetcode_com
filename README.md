@@ -355,90 +355,118 @@
 
 
 <details>  
-<summary> (Sub)string </summary>                
-    https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4  <br>    
-    https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings    <br>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern -- check S == pattern + ... + pattern  <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String   <br>
-      https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence -- T.P. . no more than min(|s1|,|s2|) editorial distance <br>   
-  https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones -- подсчитать количетсво символов в stones, которые встречаются в jewels
-        <details>  
-        <summary> Reverse </summary>    
-    https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String  -- T.P.       <br> 
-    https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String -- cleanSpaces: separator must be one space. The separator can be more than one space by condition <br> 
-    https://github.com/AlKiAl/leetcode_com/tree/main/186.%20Reverse%20Words%20in%20a%20String%20II  -- without cleanSpaces. The separator can be more than one space by condition <br> 
-    https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III  -- T.P. . the separator is by condition one space  <br>   
-        </details>           
-        <details>  
-        <summary> Math </summary>    
-                https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings     
-                https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings
-        </details>        
-        <details>  
-        <summary> Anagram  </summary>
-                https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams
-                https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring -- Check exist |Anagram| <= |Substring|. S.W.  <br> 
-                 https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram + passes two        
-                https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String -- Find all |Anagram| == |Substring|. S.W.  <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String --  Check exist |Anagram| == |Substring|. S.W. <br> 
-        </details>        
-        <details>  
-        <summary> Substring </summary>
-                https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters -- S.W. . Longest substring with unique characters <br> 
-                https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character -- S.W. .  дана строка. Вернуть количество всевоможных подстрок, состоящих из уникальных элементов <br>
-                https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String -- find idx start substring in string <br>  
-          --------------------------------------------------------------------------------------------------- <br> 
-                https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. . Longest substring with same characters after at most k flip <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- T.P. . find max substr with same symb  <br>   
-                    --------------------------------------------------------------------------------------------------- <br> 
-          https://github.com/AlKiAl/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern -- удаляются все, помимо образовавшихся после удаления <br> 
-          https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring -- удаляются все, в том числе образовавшиеся после удаления <br> 
-                    --------------------------------------------------------------------------------------------------- <br> 
-                    return the length of the longest substring of s that contains at most k distinct characters. <br>    
-                    https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters  -- S.W.  <br> 
-                    https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters   -- S.W.                   
-        </details>                            
+<summary>(Sub)string</summary>                
+
+- [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
+- [205. Isomorphic Strings](https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  
+- [459. Repeated Substring Pattern](https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern) -- check S == pattern + ... + pattern  
+- [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- T.P. . no more than min(|s1|, |s2|) editorial distance  
+- [771. Jewels and Stones](https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones) -- подсчитать количество символов в `stones`, которые встречаются в `jewels`  
+
+  <details>  
+  <summary>Reverse</summary>    
+
+  - [344. Reverse String](https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String) -- T.P.  
+  - [151. Reverse Words in a String](https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String) -- cleanSpaces: separator must be one space. The separator can be more than one space by condition  
+  - [186. Reverse Words in a String II](https://github.com/AlKiAl/leetcode_com/tree/main/186.%20Reverse%20Words%20in%20a%20String%20II) -- without cleanSpaces. The separator can be more than one space by condition  
+  - [557. Reverse Words in a String III](https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III) -- T.P. . the separator is by condition one space  
+
+  </details>           
+
+  <details>  
+  <summary>Math</summary>    
+
+  - [43. Multiply Strings](https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings)  
+  - [415. Add Strings](https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings)  
+
+  </details>        
+
+  <details>  
+  <summary>Anagram</summary>    
+
+  - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  
+  - [76. Minimum Window Substring](https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring) -- Check exist |Anagram| <= |Substring|. S.W.  
+  - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two  
+  - [438. Find All Anagrams in a String](https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String) -- Find all |Anagram| == |Substring|. S.W.  
+  - [567. Permutation in String](https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String) -- Check exist |Anagram| == |Substring|. S.W.  
+
+  </details>        
+
+  <details>  
+  <summary>Substring</summary>    
+
+  - [3. Longest Substring Without Repeating Characters](https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters) -- S.W. . Longest substring with unique characters  
+  - [2743. Count Substrings Without Repeating Character](https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character) -- S.W. . Дана строка. Вернуть количество возможных подстрок, состоящих из уникальных элементов  
+  - [28. Find the Index of the First Occurrence in a String](https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String) -- Find index of start substring in string  
+
+    ---  
+
+  - [424. Longest Repeating Character Replacement](https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement) -- S.W. . Longest substring with same characters after at most k flips  
+  - [1446. Consecutive Characters](https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters) -- T.P. . Find max substring with same symbols  
+
+    ---  
+
+  - [Remove All Occurrences of a Substring by pattern](https://github.com/AlKiAl/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern) -- Удаляются все, помимо образовавшихся после удаления  
+  - [1910. Remove All Occurrences of a Substring](https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring) -- Удаляются все, в том числе образовавшиеся после удаления  
+
+    ---  
+
+  Return the length of the longest substring of `s` that contains at most `k` distinct characters:  
+  - [159. Longest Substring with At Most Two Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters) -- S.W.  
+  - [340. Longest Substring with At Most K Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters) -- S.W.  
+
+  </details>                            
 </details>
 
+
 <details>  
-<summary> tree </summary>
-        <details>  
-        <summary> LCA </summary>
-        https://github.com/SkosMartren/leetcode_com/tree/main/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree -- Iter <br>
-        https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree -- PreOrder + PostOrder. Find LCA <br>        
-        https://github.com/AlKiAl/leetcode_com/blob/main/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II -- Find LCA + Check exist node   <br>   
-        ---------------------------------------------------------------------------------------------------        
-        https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists ==                        
-        https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III -- Iter. Find LCA if exist Parent                  
-        </details>
-        <br>
-        <details>  
-        <summary> BST </summary>
-            https://github.com/SkosMartren/leetcode_com/tree/main/98.%20Validate%20Binary%20Search%20Tree -- InOrder
-            https://github.com/SkosMartren/leetcode_com/tree/main/449.%20Serialize%20and%20Deserialize%20BST
-            https://github.com/SkosMartren/leetcode_com/tree/main/700.%20Search%20in%20a%20Binary%20Search%20Tree -- Iter     
-                https://github.com/AlKiAl/leetcode_com/tree/main/938.%20Range%20Sum%20of%20BST -- sum of values of all nodes inclusive range [low, high] <br>          
-            https://github.com/SkosMartren/leetcode_com/tree/main/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal            
-        </details>
-        <br>
-        <details>  
-        <summary> BT </summary>    
-            https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal -- тут есть хорошая картинка
-                <br>
-                https://github.com/SkosMartren/leetcode_com/tree/main/124.%20Binary%20Tree%20Maximum%20Path%20Sum -- PostOrder <br>
-                https://github.com/SkosMartren/leetcode_com/tree/main/404.%20Sum%20of%20Left%20Leaves -- AnyOrder    <br>
-                https://github.com/AlKiAl/leetcode_com/tree/main/652.%20Find%20Duplicate%20Subtrees -- PostOrder + u_m : str(Subtree) -> Count <br>
-                ---------------------------------------------------------------------------------------------------                 
-                https://github.com/SkosMartren/leetcode_com/tree/main/100.%20Same%20Tree -- PreOrder
-                https://github.com/SkosMartren/leetcode_com/tree/main/101.%20Symmetric%20Tree -- PreOrder   <br>
-                --------------------------------------------------------------------------------------------------- 
-                https://github.com/SkosMartren/leetcode_com/tree/main/104.%20Maximum%20Depth%20of%20Binary%20Tree -- AnyOrder <br>   
-                https://github.com/AlKiAl/leetcode_com/tree/main/102.%20Binary%20Tree%20Level%20Order%20Traversal   <br>  
-                https://github.com/SkosMartren/leetcode_com/tree/main/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal -- PreOrder  <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/199.%20Binary%20Tree%20Right%20Side%20View  -- PreOrder <br> 
-                https://github.com/SkosMartren/leetcode_com/tree/main/110.%20Balanced%20Binary%20Tree -- PostOrder <br>
-                https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree -- PostOrder 
-        </details>
+<summary>Tree</summary>
+
+  <details>  
+  <summary>LCA</summary>  
+
+  - [235. Lowest Common Ancestor of a Binary Search Tree](https://github.com/SkosMartren/leetcode_com/tree/main/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree) -- Iter  
+  - [236. Lowest Common Ancestor of a Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) -- PreOrder + PostOrder. Find LCA  
+  - [1644. Lowest Common Ancestor of a Binary Tree II](https://github.com/AlKiAl/leetcode_com/blob/main/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II) -- Find LCA + Check exist node  
+  ---------------------------------------------------------------------------------------------------  
+  - [160. Intersection of Two Linked Lists](https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists) ==  
+  - [1650. Lowest Common Ancestor of a Binary Tree III](https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III) -- Iter. Find LCA if exist Parent  
+
+  </details>  
+  <br>  
+
+  <details>  
+  <summary>BST</summary>  
+
+  - [98. Validate Binary Search Tree](https://github.com/SkosMartren/leetcode_com/tree/main/98.%20Validate%20Binary%20Search%20Tree) -- InOrder  
+  - [449. Serialize and Deserialize BST](https://github.com/SkosMartren/leetcode_com/tree/main/449.%20Serialize%20and%20Deserialize%20BST)  
+  - [700. Search in a Binary Search Tree](https://github.com/SkosMartren/leetcode_com/tree/main/700.%20Search%20in%20a%20Binary%20Search%20Tree) -- Iter  
+  - [938. Range Sum of BST](https://github.com/AlKiAl/leetcode_com/tree/main/938.%20Range%20Sum%20of%20BST) -- Sum of values of all nodes in range [low, high]  
+  - [1008. Construct Binary Search Tree from Preorder Traversal](https://github.com/SkosMartren/leetcode_com/tree/main/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal)  
+
+  </details>  
+  <br>  
+
+  <details>  
+  <summary>BT</summary>  
+
+  - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/SkosMartren/leetcode_com/tree/main/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal) -- Includes a helpful diagram  
+  - [124. Binary Tree Maximum Path Sum](https://github.com/SkosMartren/leetcode_com/tree/main/124.%20Binary%20Tree%20Maximum%20Path%20Sum) -- PostOrder  
+  - [404. Sum of Left Leaves](https://github.com/SkosMartren/leetcode_com/tree/main/404.%20Sum%20of%20Left%20Leaves) -- AnyOrder  
+  - [652. Find Duplicate Subtrees](https://github.com/AlKiAl/leetcode_com/tree/main/652.%20Find%20Duplicate%20Subtrees) -- PostOrder + u_m: str(Subtree) -> Count  
+  ---------------------------------------------------------------------------------------------------  
+  - [100. Same Tree](https://github.com/SkosMartren/leetcode_com/tree/main/100.%20Same%20Tree) -- PreOrder  
+  - [101. Symmetric Tree](https://github.com/SkosMartren/leetcode_com/tree/main/101.%20Symmetric%20Tree) -- PreOrder  
+  ---------------------------------------------------------------------------------------------------  
+  - [104. Maximum Depth of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/104.%20Maximum%20Depth%20of%20Binary%20Tree) -- AnyOrder  
+  - [102. Binary Tree Level Order Traversal](https://github.com/AlKiAl/leetcode_com/tree/main/102.%20Binary%20Tree%20Level%20Order%20Traversal)  
+  - [103. Binary Tree Zigzag Level Order Traversal](https://github.com/SkosMartren/leetcode_com/tree/main/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal) -- PreOrder  
+  - [199. Binary Tree Right Side View](https://github.com/SkosMartren/leetcode_com/tree/main/199.%20Binary%20Tree%20Right%20Side%20View) -- PreOrder  
+  - [110. Balanced Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/110.%20Balanced%20Binary%20Tree) -- PostOrder  
+  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder  
+
+  </details>
 </details>
 
 
