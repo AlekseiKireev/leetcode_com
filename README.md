@@ -501,7 +501,7 @@
 
 <details>  
 <summary>Tree</summary>
--   <br>  
+ 
   <details>  
   <summary>LCA</summary>  
 
