@@ -359,7 +359,7 @@
   
     </details>
   
-  </details>
+  
 </details>
 
 <details>  
