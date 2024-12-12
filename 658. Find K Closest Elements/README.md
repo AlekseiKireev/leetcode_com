@@ -2,6 +2,8 @@ https://leetcode.com/problems/find-k-closest-elements/
 
 https://walkccc.me/LeetCode/problems/0658/
 
+https://www.geeksforgeeks.org/find-k-closest-elements-given-value/ -- решение, если значение есть в массиве
+
 https://github.com/doocs/leetcode/tree/main/solution/0600-0699/0658.Find%20K%20Closest%20Elements
 
 У Федора Меньшикова разбор отсут-т!
