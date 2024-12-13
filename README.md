@@ -109,7 +109,7 @@
   - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- использование хеш-таблицы    
 
     <details>  
-    <summary>List + mapping (такая связка используется для быстрого удаления из середины по итератору)</summary>    
+    <summary>List + mapping (такая связка используется для быстрого удаления из любой позиции по итератору)</summary>    
 
     - [716. Max Stack](https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack) -- order_mapping : key -> vector list::iterator  
     - [146. LRU Cache](https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache) -- удаляются наименее использованные элементы. unorder_mapping : key -> list::iterator + unorder_mapping : key -> val  
