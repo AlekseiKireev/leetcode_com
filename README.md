@@ -515,8 +515,7 @@
   - [236. Lowest Common Ancestor of a Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) -- PreOrder + PostOrder. Find LCA  
   - [1644. Lowest Common Ancestor of a Binary Tree II](https://github.com/AlKiAl/leetcode_com/blob/main/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II) -- Find LCA + Check exist node  
   ---------------------------------------------------------------------------------------------------  
-  - [160. Intersection of Two Linked Lists](https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists) ==  
-  - [1650. Lowest Common Ancestor of a Binary Tree III](https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III) -- Iter. Find LCA if exist Parent  
+  - [160. Intersection of Two Linked Lists](https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists) ==  [1650. Lowest Common Ancestor of a Binary Tree III](https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III) -- Iter. Find LCA if exist Parent  
 
   </details>  
   <br>  
