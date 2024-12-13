@@ -567,8 +567,7 @@
 
   - [26. Remove Duplicates from Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array) -- each unique element appears only once  
   - [80. Remove Duplicates from Sorted Array II](https://github.com/SkosMartren/leetcode_com/tree/main/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) -- each unique element appears at most twice  
-  - [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  
-  - [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix  
+  - [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  --> [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix  
 
   </details>         
 </details>
