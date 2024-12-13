@@ -1,29 +1,3 @@
-<details>
-<summary>Binary search</summary>
-
-- [Median of Two Sorted Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays)
-- [Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix)
-- [Find K Closest Elements](https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements)
-- [Binary Search](https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search)
-
-  <details>
-  <summary>Bitonic sequence</summary>
-
-  - [Bitonic sort](https://www.geeksforgeeks.org/bitonic-sort/)
-  - [Wikipedia: Bitonic sorter](https://en.wikipedia.org/wiki/Bitonic_sorter)
-  - [Сеть Бетчера](https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%B5%D1%82%D1%8C_%D0%91%D0%B5%D1%82%D1%87%D0%B5%D1%80%D0%B0)
-  - [Find Minimum in Rotated Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array)
-  - [Search in Rotated Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array)
-  - [Leetcode Problem: Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
-  - [Leetcode Problem: Check if Array is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
-
-  </details>
-</details>
-
-
-
-
-
 <details>  
 <summary>  Topics </summary>
 
@@ -1091,6 +1065,28 @@ _________
 </details>
 
 
+</details>
+
+<details>
+<summary>Binary search</summary>
+
+- [Median of Two Sorted Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays)
+- [Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix)
+- [Find K Closest Elements](https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements)
+- [Binary Search](https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search)
+
+  <details>
+  <summary>Bitonic sequence</summary>
+
+  - [Bitonic sort](https://www.geeksforgeeks.org/bitonic-sort/)
+  - [Wikipedia: Bitonic sorter](https://en.wikipedia.org/wiki/Bitonic_sorter)
+  - [Сеть Бетчера](https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%B5%D1%82%D1%8C_%D0%91%D0%B5%D1%82%D1%87%D0%B5%D1%80%D0%B0)
+  - [Find Minimum in Rotated Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array)
+  - [Search in Rotated Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/33.%20Search%20in%20Rotated%20Sorted%20Array)
+  - [Leetcode Problem: Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+  - [Leetcode Problem: Check if Array is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
+
+  </details>
 </details>
 
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/asymptotics_containers.png)
