@@ -32,7 +32,7 @@ class Solution {
             // Добавляем последовательность в результат
             vector<int> range;
             for (int i = left; i <= right; ++i) {
-                //range.push_back(i);
+
                 numSet.erase(i); // Удаляем элементы из множества
             }
 
