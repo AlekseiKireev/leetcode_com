@@ -1,5 +1,7 @@
 https://leetcode.com/problems/longest-consecutive-sequence/description/
 
+https://walkccc.me/LeetCode/problems/128/
+
     https://t.me/algoses/222
     
     Задача Яндекса. 
