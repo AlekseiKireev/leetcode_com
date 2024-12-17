@@ -34,13 +34,13 @@ public:
         
         vector<vector<string>> mergedAccounts;
         for (vector<string>& account : accountList) {
-            string accountName = account[0];
+
             const string accountFirstEmail = account[1];
             
             if (visited.find(accountFirstEmail) == visited.end()) {
                 vector<string> mergedAccount;
 
-                mergedAccount.push_back(move(accountName));
+                mergedAccount.push_back(move(account[0]));
                 DFS(mergedAccount, accountFirstEmail);
 
                 sort(mergedAccount.begin() + 1, mergedAccount.end());
