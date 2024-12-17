@@ -4,7 +4,7 @@ https://walkccc.me/LeetCode/problems/721/
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/721_1.png" width="1200" height="600"/>
 
-                                                                      // фото показывает построение графика
+                                                                      // фото показывает построение графика и последующее сляиние через DFS
                                                                      for (vector<string>& account : accountList) {
                                                                         
                                                                         const string accountFirstEmail = account[1];
