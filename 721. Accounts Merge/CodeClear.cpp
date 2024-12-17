@@ -1,3 +1,10 @@
+/*
+Here N is the number of accounts and K is the maximum length of an account.
+
+Time complexity: O(NKlogNK)    
+Space complexity: O(NK)
+*/
+
 class Solution {
 
 public:
