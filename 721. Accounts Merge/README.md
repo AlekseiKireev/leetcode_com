@@ -2,7 +2,7 @@ https://leetcode.com/problems/accounts-merge/description/
 
 https://walkccc.me/LeetCode/problems/721/
 
-<img src="https://github.com/SkosMartren/useful-materials/blob/main/721_1.png" width="600" height="400"/>
+<img src="https://github.com/SkosMartren/useful-materials/blob/main/721_1.png" width="1200" height="600"/>
 
 https://t.me/algoses/213
 
