@@ -20,7 +20,6 @@ public:
     }
     
     vector<vector<string>> accountsMerge(vector<vector<string>>& accountList) {
-        int accountListSize = accountList.size();
         
          for (vector<string>& account : accountList) {
             
