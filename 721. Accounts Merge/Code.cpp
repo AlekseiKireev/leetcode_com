@@ -17,6 +17,7 @@ public:
         }
 
         // Add the email vector that contains the current component's emails
+        // может быть в любом месте функции вне цикла, но в этом положении можно использовать move
         mergedAccount.push_back(move(email));
     }
     
