@@ -6,7 +6,7 @@ public:
     unordered_map<string, vector<string>> adjacent;
     
     void DFS(vector<string>& mergedAccount, const string& email) {
-        visited.insert(email);                
+        visited.insert(email); // фиксированное положение, к следующему вызову DFS, информация уже должна быть добавлена               
         
         for (string& neighbor : adjacent[email]) {
 
