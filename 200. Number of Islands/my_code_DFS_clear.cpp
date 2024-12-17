@@ -8,7 +8,7 @@ class Solution {
 
 void DFS(int y, int x, vector<vector<char>>& grid){
 
-    grid[y][x] = '0'; // visited
+    grid[y][x] = '0'; // visited. Положение фиксировано, в самом начале. Метка необх-а для единоразового вызова DFS
 
     for(auto [dx, dy] : dt){
 
