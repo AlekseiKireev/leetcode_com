@@ -4,17 +4,17 @@ https://walkccc.me/LeetCode/problems/721/
 
 <img src="https://github.com/SkosMartren/useful-materials/blob/main/721_1.png" width="1200" height="600"/>
 
-                                                                  // фото показывает построение графика и последующее сляиние через DFS
-                                                                 for (vector<string>& account : accountList) {
+                                                              // фото показывает построение графика и последующее сляиние через DFS
+                                                             for (vector<string>& account : accountList) {
+                                                                
+                                                                const string accountFirstEmail = account[1];
+                                                                for (int j = 2; j < account.size(); j++) {
+                                                                    string email = account[j];
                                                                     
-                                                                    const string accountFirstEmail = account[1];
-                                                                    for (int j = 2; j < account.size(); j++) {
-                                                                        string email = account[j];
-                                                                        
-                                                                        adjacent[email].push_back(accountFirstEmail);
-                                                                        adjacent[accountFirstEmail].push_back(move(email));
-                                                                    }
+                                                                    adjacent[email].push_back(accountFirstEmail);
+                                                                    adjacent[accountFirstEmail].push_back(move(email));
                                                                 }
+                                                            }
 
 https://t.me/algoses/213
 
