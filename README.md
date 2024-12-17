@@ -125,7 +125,8 @@
 <summary>Graph traversal: DFS / BFS / DSU</summary>    
 
 - [200. Number of Islands](https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands)  
-- [332. Reconstruct Itinerary](https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary) -- (DFS on UnorderedHash) реконструировать весь маршрут  
+- [332. Reconstruct Itinerary](https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary) -- (DFS on UnorderedHash) реконструировать весь маршрут
+- [721. Accounts Merge](https://github.com/AlKiAl/leetcode_com/tree/main/721.%20Accounts%20Merge)  
 - [1436. Destination City](https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City) -- (DFS on UnorderedHash) найти конечную точку маршрута    
 
 </details>
