@@ -353,13 +353,14 @@
 - [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- find the subarray with the largest sum 
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self)  -- product_nums / nums[i]
 - [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- + u_m : Prefix -> Count. Total number of subarrays whose sum = k  
-
+- [325. Maximum Size Subarray Sum Equals k](https://github.com/AlKiAl/leetcode_com/tree/main/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20)
+  
   ---------------------------------------------------------------------------------------------------  
 
   CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible  
 
 - [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= 2  
-- [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k  
+- [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k
 
 </details>
 
