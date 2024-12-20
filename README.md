@@ -475,8 +475,7 @@
     ---  
 
   Return the length of the longest substring of `s` that contains at most `k` distinct characters:  
-  - [159. Longest Substring with At Most Two Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters) -- S.W.  
-  - [340. Longest Substring with At Most K Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters) -- S.W.  
+  - [159. Longest Substring with At Most Two Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters) <-- [340. Longest Substring with At Most K Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters) -- S.W.  
 
   </details>                            
 </details>
