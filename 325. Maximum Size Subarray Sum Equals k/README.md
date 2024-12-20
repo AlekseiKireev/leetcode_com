@@ -4,3 +4,7 @@ https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0325.Maximum%20Si
 
 https://walkccc.me/LeetCode/problems/325/
 
+| Idx  	|   	| 0 	| 1  	| 2 	| 3  	| 4 	| 5 	|
+|------	|---	|---	|----	|---	|----	|---	|---	|
+| Pref 	|   	| 0 	| 1  	| 0 	| 5  	| 3 	| 6 	|
+| Nums 	|   	| 1 	| -1 	| 5 	| -2 	| 3 	|   	|
