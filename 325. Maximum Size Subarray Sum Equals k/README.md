@@ -10,3 +10,5 @@ https://walkccc.me/LeetCode/problems/325/
 |------	|---	|---	|----	|---	|----	|---	|---	|
 | Pref 	|   	| 0 	| 1  	| 0 	| 5  	| 3 	| 6 	|
 | Nums 	|   	| 1 	| -1 	| 5 	| -2 	| 3 	|   	|
+
+https://ru.algorithmica.org/cs/range-queries/prefix-sum/
