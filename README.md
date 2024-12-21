@@ -152,7 +152,8 @@
 - [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum)  
 - [16. 3Sum Closest](https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest)  
 - [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum)  
-- [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)  
+- [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)
+- [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target)
 - [350. Intersection of Two Arrays II](https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II) -- тут есть конспект об устройстве и ссылка на лекцию / Доказательство невыгодности использования unordered_map в некоторых задачах  
 
 </details>
