@@ -353,6 +353,7 @@
 <details>  
 <summary>Prefix sum (+ Subarray)</summary>    
 
+- [Check subarrays on sort](https://github.com/AlKiAl/leetcode_com/tree/main/Check%20subarrays%20on%20sort)
 - [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- find the subarray with the largest sum 
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self)  -- product_nums / nums[i]
 - [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- + u_m : Prefix -> Count. Total number of subarrays whose sum = k  
@@ -382,6 +383,8 @@
 - [215. Kth Largest Element in an Array](https://github.com/AlKiAl/leetcode_com/tree/main/215.%20Kth%20Largest%20Element%20in%20an%20Array) -- == nth_element  
 - [977. Squares of a Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array)    
 - [581. Shortest Unsorted Continuous Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray) -- Two pointer + passes two 
+- [Check subarrays on sort](https://github.com/AlKiAl/leetcode_com/tree/main/Check%20subarrays%20on%20sort)
+  
   <details>                
   <summary>Merge</summary>
 
