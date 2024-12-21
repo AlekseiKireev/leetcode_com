@@ -183,7 +183,8 @@
   ---------------------------------------------------------------------------------------------------  
 
   Перегрузка хеш-функции и operator==:  
-  - [356. Line Reflection](https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection)  
+  - [356. Line Reflection](https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection)
+  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count)
 
 </details>
 
