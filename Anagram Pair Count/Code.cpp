@@ -26,13 +26,13 @@ vector<int> getFrequencyVector(const string& str) {
 
 // Основная функция для подсчета количества пар
 int countAnagramPairs(const vector<string>& strings) {
-    unordered_map<vector<int>, int, VectorHash> freqMap; // Используем кастомный хэш
+    unordered_map<vector<int>, int, VectorHash> freqToCount; // Используем кастомный хэш
     int pairCount = 0;
 
     for (const string& str : strings) {
         vector<int> freq = getFrequencyVector(str); // Вычисляем вектор частот
-        pairCount += freqMap[freq]; // Добавляем к числу пар количество уже найденных таких же векторов
-        freqMap[freq]++; // Увеличиваем количество вхождений текущего вектора
+        pairCount += freqToCount[freq]; // Добавляем к числу пар количество уже найденных таких же векторов
+        freqToCount[freq]++; // Увеличиваем количество вхождений текущего вектора
     }
 
     return pairCount;
