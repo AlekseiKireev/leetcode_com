@@ -428,7 +428,8 @@
 - [459. Repeated Substring Pattern](https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern) -- check S == pattern + ... + pattern  
 - [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  
 - [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- T.P. . no more than min(|s1|, |s2|) editorial distance  
-- [771. Jewels and Stones](https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones) -- подсчитать количество символов в `stones`, которые встречаются в `jewels`  
+- [771. Jewels and Stones](https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones) -- подсчитать количество символов в `stones`, которые встречаются в `jewels`
+- [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count)
 
   <details>  
   <summary>Reverse</summary>    
