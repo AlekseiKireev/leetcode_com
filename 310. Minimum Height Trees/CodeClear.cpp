@@ -11,21 +11,21 @@ public:
             graph[edge[1]].insert(edge[0]);
         }
 
-        deque<int> leaves; 
+        deque<int> Leafs; 
         for (int i = 0; i < n; ++i) {          
-            if (graph[i].size() == 1) {leaves.push_back(i);}          
+            if (graph[i].size() == 1) {Leafs.push_back(i);}          
         }
 
         int remaining_nodes = n;
         while (remaining_nodes > 2) {
             
-            int num_leaves = leaves.size();
-            remaining_nodes -= num_leaves;
+            int num_Leafs = Leafs.size();
+            remaining_nodes -= num_Leafs;
 
-            for (int i = 0; i < num_leaves; ++i) {
+            for (int i = 0; i < num_Leafs; ++i) {
                 
-                int leaf = leaves.front();
-                leaves.pop_front();
+                int leaf = Leafs.front();
+                Leafs.pop_front();
 
                 int neighbor = *graph[leaf].begin();
                 
@@ -33,11 +33,11 @@ public:
                 graph[leaf].clear();
 
                 if (graph[neighbor].size() == 1) {
-                    leaves.push_back(neighbor);
+                    Leafs.push_back(neighbor);
                 }
             }
         }
 
-        return {leaves.begin(), leaves.end()};
+        return {Leafs.begin(), Leafs.end()};
     }
 };
