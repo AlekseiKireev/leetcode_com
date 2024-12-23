@@ -551,7 +551,8 @@
 
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) + Greedy  
 - [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  
-- [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- minimal length of a subarray whose sum is greater than or equal to target  
+- [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- minimal length of a subarray whose sum is greater than or equal to target
+- [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs)
 
   <details>  
   <summary>(Re)move</summary>    
