@@ -416,8 +416,7 @@
 <details>  
 <summary>Sliding Window</summary>
 
-- [239. Sliding Window Maximum](https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum) -- Max val from size = k sliding window. Using deque  
-- [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Max sum in sliding window size = k containing at least m distinct elements. Using UnHash NumToCount  
+- [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Max sum in s.w. size = k containing at least m distinct elements. Using UnHash NumToCount  
 
 </details>
 
@@ -427,6 +426,7 @@
 
 - [316. Remove Duplicate Letters](https://github.com/AlKiAl/leetcode_com/tree/main/316.%20Remove%20Duplicate%20Letters)
 - https://leetcode.com/problems/remove-k-digits/description/
+- [239. Sliding Window Maximum](https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum) -- Max val from size = k sliding window. Using deque  
 
 </details>
 
