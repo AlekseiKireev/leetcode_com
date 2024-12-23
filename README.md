@@ -126,9 +126,10 @@
 
 - [200. Number of Islands](https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands)  
 - [332. Reconstruct Itinerary](https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary) -- (DFS on UnorderedHash) реконструировать весь маршрут
-- [721. Accounts Merge](https://github.com/AlKiAl/leetcode_com/tree/main/721.%20Accounts%20Merge)  
-- [1436. Destination City](https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City) -- (DFS on UnorderedHash) найти конечную точку маршрута    
-
+- [1436. Destination City](https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City) -- (DFS on UnorderedHash) найти конечную точку маршрута
+- [721. Accounts Merge](https://github.com/AlKiAl/leetcode_com/tree/main/721.%20Accounts%20Merge)
+- [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
+  
 </details>
 
 <details>  
@@ -540,7 +541,7 @@
   - [102. Binary Tree Level Order Traversal](https://github.com/AlKiAl/leetcode_com/tree/main/102.%20Binary%20Tree%20Level%20Order%20Traversal)  --> [103. Binary Tree Zigzag Level Order Traversal](https://github.com/SkosMartren/leetcode_com/tree/main/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal) -- PreOrder  
   - [199. Binary Tree Right Side View](https://github.com/SkosMartren/leetcode_com/tree/main/199.%20Binary%20Tree%20Right%20Side%20View) -- PreOrder  
   - [110. Balanced Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/110.%20Balanced%20Binary%20Tree) -- PostOrder  
-  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder  
+  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
 
   </details>
 </details>
