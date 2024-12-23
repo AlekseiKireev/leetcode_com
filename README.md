@@ -424,7 +424,8 @@
 <details>  
 <summary>Stack Monotonic</summary>      
 
-- [316. Remove Duplicate Letters](https://github.com/AlKiAl/leetcode_com/tree/main/316.%20Remove%20Duplicate%20Letters)   
+- [316. Remove Duplicate Letters](https://github.com/AlKiAl/leetcode_com/tree/main/316.%20Remove%20Duplicate%20Letters)
+- https://leetcode.com/problems/remove-k-digits/description/
 
 </details>
 
