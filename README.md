@@ -542,7 +542,8 @@
   - [199. Binary Tree Right Side View](https://github.com/SkosMartren/leetcode_com/tree/main/199.%20Binary%20Tree%20Right%20Side%20View) -- PreOrder  
   - [110. Balanced Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/110.%20Balanced%20Binary%20Tree) -- PostOrder  
   - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
-
+  - [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
+  
   </details>
 </details>
 
