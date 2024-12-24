@@ -423,7 +423,8 @@
 
 <details>  
 <summary>Stack (deque) Monotonic</summary>      
-- [task](https://liuzhenglaichn.gitbook.io/algorithm/monotonic-stack)
+
+- https://liuzhenglaichn.gitbook.io/algorithm/monotonic-stack
 - [316. Remove Duplicate Letters](https://github.com/AlKiAl/leetcode_com/tree/main/316.%20Remove%20Duplicate%20Letters)
 - https://leetcode.com/problems/remove-k-digits/description/
 - [239. Sliding Window Maximum](https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum) -- Max val from size = k sliding window.  + S.W.Min + S.W.Max on random length subarray  
