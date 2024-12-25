@@ -21,7 +21,7 @@ int longestSubarrayWithLimit(const std::vector<int>& nums, int k) {
         maxDeque.push_back(right);
 
         // Проверяем условие разницы
-        while (nums[maxDeque.front()] - nums[minDeque.front()] > k) {
+        while (!minDeque.empty() && !maxDeque.empty() && nums[maxDeque.front()] - nums[minDeque.front()] > k) {
             ++left;
             if (minDeque.front() < left) {
                 minDeque.pop_front();
