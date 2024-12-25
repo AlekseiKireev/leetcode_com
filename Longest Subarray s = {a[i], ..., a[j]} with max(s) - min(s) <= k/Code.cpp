@@ -25,6 +25,8 @@ int longestSubarrayWithLimit(const std::vector<int>& nums, int k) {
                nums[maxDeque.front()] - nums[minDeque.front()] > k
                ) {
             ++left;
+
+            // проверка индексов из minDeque/maxDeque на выход за границу [left, right]
             if (minDeque.front() < left) {
                 minDeque.pop_front();
             }
