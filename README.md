@@ -107,9 +107,13 @@
 <details>  
 <summary>Dynamic programming</summary>    
 
-- [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- find the subarray with the largest sum  
-- [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- return the least number of numbers degree k that sum to n  
+- [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- find the subarray with the largest sum
 - [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence)
+
+---
+
+- [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- return the least number of numbers degree k that sum to n  
+- [322. Coin Change](https://github.com/AlKiAl/leetcode_com/tree/main/322.%20Coin%20Change)
 
   ---------------------------------------------------------------------------------------------------  
 
