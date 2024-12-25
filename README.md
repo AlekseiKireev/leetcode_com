@@ -181,7 +181,7 @@
   ---------------------------------------------------------------------------------------------------  
 
   Использование хеш-таблицы:  
-  - [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs)  
+  - [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs) -- cnt pair (i,j) : nums[i] + nums[j] = k
   - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1))  
 
   ---------------------------------------------------------------------------------------------------  
