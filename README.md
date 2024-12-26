@@ -567,7 +567,10 @@
 
   
   </details>
-<br>  
+<br>   
+
+  
+</details>
 
   <details>  
   <summary>Diameter and centre/summary>    
@@ -579,12 +582,8 @@
 - Степень (валентность) вершины графа — количество рёбер графа G, инцидентных вершине x. При подсчёте степени ребро-петля учитывается дважды
 - Вершина степени 1 называется концевой (англ. end vertex), висячей (англ. pendant vertex) или листом графа (англ. leaf vertex). 
 
-  </details>      
-
+  </details>     
   
-</details>
-
-
 <details>  
 <summary>Two pointer</summary>        
 
