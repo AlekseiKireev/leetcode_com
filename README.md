@@ -570,9 +570,6 @@
   </details>
 <br>   
 
-  
-</details>
-
 <details>
 <summary>Diameter and centre</summary>
 
@@ -588,6 +585,10 @@
 Вершина степени 1 называется концевой (англ. end vertex), висячей (англ. pendant vertex) или листом графа (англ. leaf vertex).
 
 </details>
+  
+</details>
+
+
  
   
 <details>  
