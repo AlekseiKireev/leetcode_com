@@ -5,6 +5,7 @@ public:
         int maxUniqueCharacters = unordered_set<char>  {str.begin(), str.end()}.size();
         int longest = 0;
 
+
         for (int targetUnique = 1; targetUnique <= maxUniqueCharacters; ++targetUnique) {
             vector<int> charFrequency(128, 0);            
             
@@ -43,7 +44,7 @@ public:
                     ++left;
                 }
 
-                if (currentUnique == targetUnique && currentUnique == atLeastKCount) {
+                if (/*currentUnique == targetUnique && */currentUnique == atLeastKCount) {
                     longest = max(longest, right - left);
                 }
                 
