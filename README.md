@@ -564,10 +564,31 @@
   - [102. Binary Tree Level Order Traversal](https://github.com/AlKiAl/leetcode_com/tree/main/102.%20Binary%20Tree%20Level%20Order%20Traversal)  --> [103. Binary Tree Zigzag Level Order Traversal](https://github.com/SkosMartren/leetcode_com/tree/main/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal) -- PreOrder  
   - [199. Binary Tree Right Side View](https://github.com/SkosMartren/leetcode_com/tree/main/199.%20Binary%20Tree%20Right%20Side%20View) -- PreOrder  
   - [110. Balanced Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/110.%20Balanced%20Binary%20Tree) -- PostOrder  
-  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
-  - [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
+
   
   </details>
+
+
+  <details>  
+  <summary>Diameter and centre/summary>    
+
+Диаметр дерева (англ. diameter of a tree) — максимальная длина (в рёбрах) кратчайшего пути в дереве между любыми двумя вершинами.
+
+
+Центр (или центр Жордана) графа — это множество всех вершин с минимальным эксцентриситетом. 
+То есть множество всех вершин A, для которой максимальное расстояние d(A,B) до других вершин B минимально. 
+Эквивалентно, это множество вершин с эксцентриситетом, равным радиусу графа.
+
+
+Степень (валентность) вершины графа — количество рёбер графа G, инцидентных вершине x. При подсчёте степени ребро-петля учитывается дважды
+Вершина степени 1 называется концевой (англ. end vertex), висячей (англ. pendant vertex) или листом графа (англ. leaf vertex). 
+
+  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
+  - [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
+
+  </details>      
+
+  
 </details>
 
 
