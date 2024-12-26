@@ -5,19 +5,17 @@ public:
         int maxUniqueCharacters = unordered_set<char>  {str.begin(), str.end()}.size();
         int longest = 0;
 
-
         for (int targetUnique = 1; targetUnique <= maxUniqueCharacters; ++targetUnique) {
-            vector<int> charFrequency(128, 0);
+            vector<int> charFrequency(128, 0);            
             
-            int left = 0, right = 0;
             int currentUnique = 0;
             int atLeastKCount = 0; // количество не менее K
 
-            while (right < str.size()) {
+            for (int left = 0, right = 0; right < str.size(); ) {
 
                 // expand the sliding window
                 if (currentUnique <= targetUnique) {
-                    
+
                     char rightChar = str[right];
                     if (charFrequency[rightChar] == 0) {
                         ++currentUnique;
