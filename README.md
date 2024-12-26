@@ -434,6 +434,7 @@
 
 - [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Max sum in s.w. size = k containing at least m distinct elements. Using UnHash NumToCount  
 
+
 </details>
 
 
@@ -572,19 +573,25 @@
   
 </details>
 
-  <details>  
-  <summary>Diameter and centre/summary>    
+<details>
+<summary>Diameter and centre</summary>
 
-  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
-  - [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
-- Диаметр дерева (англ. diameter of a tree) — максимальная длина (в рёбрах) кратчайшего пути в дереве между любыми двумя вершинами.
-- Центр (или центр Жордана) графа — это множество всех вершин с минимальным эксцентриситетом.  То есть множество всех вершин A, для которой максимальное расстояние d(A,B) до других вершин B минимально.  Эквивалентно, это множество вершин с эксцентриситетом, равным радиусу графа.
-- Степень (валентность) вершины графа — количество рёбер графа G, инцидентных вершине x. При подсчёте степени ребро-петля учитывается дважды
-- Вершина степени 1 называется концевой (англ. end vertex), висячей (англ. pendant vertex) или листом графа (англ. leaf vertex). 
+- [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
+- [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
 
-  </details>     
+Диаметр дерева (англ. diameter of a tree) — максимальная длина (в рёбрах) кратчайшего пути в дереве между любыми двумя вершинами.
+
+Центр (или центр Жордана) графа — это множество всех вершин с минимальным эксцентриситетом. То есть множество всех вершин A, для которой максимальное расстояние d(A,B) до других вершин B минимально. Эквивалентно, это множество вершин с эксцентриситетом, равным радиусу графа.
+
+Степень (валентность) вершины графа — количество рёбер графа G, инцидентных вершине x. При подсчёте степени ребро-петля учитывается дважды.
+
+Вершина степени 1 называется концевой (англ. end vertex), висячей (англ. pendant vertex) или листом графа (англ. leaf vertex).
+
+</details>
+ 
   
 <details>  
+  
 <summary>Two pointer</summary>        
 
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) + Greedy  
