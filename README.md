@@ -567,10 +567,13 @@
 
   
   </details>
-
+<br>  
 
   <details>  
   <summary>Diameter and centre/summary>    
+
+  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
+  - [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
 
 Диаметр дерева (англ. diameter of a tree) — максимальная длина (в рёбрах) кратчайшего пути в дереве между любыми двумя вершинами.
 
@@ -582,9 +585,6 @@
 
 Степень (валентность) вершины графа — количество рёбер графа G, инцидентных вершине x. При подсчёте степени ребро-петля учитывается дважды
 Вершина степени 1 называется концевой (англ. end vertex), висячей (англ. pendant vertex) или листом графа (англ. leaf vertex). 
-
-  - [543. Diameter of Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/543.%20Diameter%20of%20Binary%20Tree) -- PostOrder
-  - [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
 
   </details>      
 
