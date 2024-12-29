@@ -37,3 +37,28 @@ public:
         return nodeCountMap[root];
     }
 };
+
+/*
+class Solution {
+
+unordered_map<TreeNode*, int> nodeCountMap;
+
+int calculateCountChildren(TreeNode* node) {
+    if (node == nullptr) {
+        return 0;
+    }
+
+    // Рекурсивно вычисляем количество вершин в левом и правом поддеревьях
+    int leftCount = calculateCountChildren(node->left);
+    int rightCount = calculateCountChildren(node->right);
+
+    return nodeCountMap[node] = leftCount + rightCount + 1;
+}
+
+public:
+    int countNodes(TreeNode* root) {
+        calculateCountChildren(root);
+        return nodeCountMap[root];
+    }
+};
+*/
