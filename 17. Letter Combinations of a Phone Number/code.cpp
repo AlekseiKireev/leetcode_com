@@ -1,3 +1,7 @@
+/*
+Time complexity: O(N) * O(3^0 + ... + 3^N) * O(3) = O(N) * O(3^N)
+Space complexity: O(N*3^N)
+*/
 class Solution {
 
  public:
