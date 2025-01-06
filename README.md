@@ -4,7 +4,7 @@
 <details>  
 <summary>backtracking</summary>
 
-- [17. Letter Combinations of a Phone Number](https://github.com/AlKiAl/leetcode_com/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number)
+- [17. Letter Combinations of a Phone Number](https://github.com/AlKiAl/leetcode_com/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) "23" --> ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 - [93. Restore IP Addresses](https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses)
   
 </details>
