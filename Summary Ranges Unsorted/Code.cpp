@@ -19,13 +19,9 @@
             int left = num;
             int right = num;
 
-            while (numSet.find(left - 1) != numSet.end()) {
-                left--;
-            }
+            for (;numSet.find(left - 1) != numSet.end(); left--);
 
-            while (numSet.find(right + 1) != numSet.end()) {
-                right++;
-            }
+            for (; numSet.find(right + 1) != numSet.end(); right++);
 
             // Добавляем последовательность в результат
             vector<int> range;
