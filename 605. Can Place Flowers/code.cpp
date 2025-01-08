@@ -15,9 +15,7 @@ public:
                     --n;
                     flowerbed[i] = 1;
                 }
-                if(0 == n){
-                    return true;
-                }
+                if(0 == n){return true;}
             }
 
         }
