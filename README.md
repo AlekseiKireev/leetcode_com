@@ -39,7 +39,7 @@
 - [1004. Max Consecutive Ones III](https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III) -- T.P. Flip at most k zeros
 - [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element) -- T.P. Upd 1 zero
 - [849. Maximize Distance to Closest Person](https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person) + Greedy
-- [605. Can Place Flowers](https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers) -- Can be planted in without violating the no-adjacent-flowers rule
+- [605. Can Place Flowers](https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers) -- Can be planted in without violating the no-adjacent-flowers rule. One passes + check going abroad
 
 </details>
 
