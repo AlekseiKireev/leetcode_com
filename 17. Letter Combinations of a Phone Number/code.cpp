@@ -17,10 +17,10 @@ class Solution {
     const vector<string> digitToLetters{"",    "",    "abc",  "def", "ghi",
                                         "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
-    for (const char d : digits) {
+    for (const char d : digits) { // основной цикл
       vector<string> temp;
-      for (const string& s : ans){
-        for (const char c : digitToLetters[d - '0']){
+      for (const string& s : ans){ // для добавлениях новых букы
+        for (const char c : digitToLetters[d - '0']){ // цикл по буквам, которые будут добавлен, т.к. digitToLetters[d - '0'] изоморф. d
             temp.push_back(s+c);
         }
       }
