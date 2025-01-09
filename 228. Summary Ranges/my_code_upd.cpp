@@ -11,7 +11,9 @@ public:
             
             const int LeftPtr = RightPtr;
 
-            for(;RightPtr+1 < nums.size() && nums[RightPtr] == nums[RightPtr+1] - 1; ++RightPtr); // послденяя итерация цикла когда RightPtr+1 == nums.size() - 1
+            // послденяя итерация цикла когда RightPtr+1 == nums.size() - 1 -->
+            // ++RightPtr и RightPtr указывает на nums.size() - 1 --> RightPtr+1 = nums.size() - выход цз цикла
+            for(;RightPtr+1 < nums.size() && nums[RightPtr] == nums[RightPtr+1] - 1; ++RightPtr); 
 
             if(LeftPtr == RightPtr){
                 ans.push_back(to_string(nums[LeftPtr])); 
