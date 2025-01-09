@@ -24,7 +24,6 @@
             for (; numSet.find(right + 1) != numSet.end(); right++);
 
             // Добавляем последовательность в результат
-            vector<int> range;
             for (int i = left; i <= right; ++i) {
 
                 numSet.erase(i); // Удаляем элементы из множества
