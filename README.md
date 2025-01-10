@@ -62,7 +62,7 @@
   <details>  
   <summary>Summary Ranges (SR). Ex: [0,1,2,4,5,7] --> ["0->2","4->5","7"] </summary> 
     
-- [228. Summary Ranges](https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges)
+- [228. Summary Ranges](https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges) -- external loop: ++RightPtr, internal loop: ++RightPtr AND nums[RightPtr] == nums[RightPtr+1] - 1
 - [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) --> [128. Longest Consecutive Sequence](https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence) -- Length of the longest SR. + NumUnSet(arr.begin(), arr.end())
   </details>  
   
@@ -70,7 +70,7 @@
   <summary>RLE. Ex: ["a","a","b","b","c","c","c"] --> ["a","2","b","2","c","3"] </summary>    
 
   - [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
-  - [443. String Compression](https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression)
+  - [443. String Compression](https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression) -- external loop: ... , internal loop: CurChar == chars[IdxOnOldStr]; ++IdxOnOldStr, ++IdxOnCompressStr
   - [1868. Product of Two Run-Length Encoded Arrays](https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays) [[1,2], [2,2]] * [[6,2], [3,1], [5,1]] = [1,1,2,2] * [6,6,3,5] = [6,6,6,10] = [[3,6], [1,10]]
 
   </details>       
