@@ -1,17 +1,17 @@
     vector<vector<int>> compressArray(const vector<int>& arr) {
         
         // Преобразуем массив в множество для O(1) доступа
-        unordered_set<int> numSet(arr.begin(), arr.end());
+        unordered_set<int> NumUnSet(arr.begin(), arr.end());
         vector<vector<int>> result;
 
         for (int num : arr) {
 
-            if(numSet.empty()){
+            if(NumUnSet.empty()){
                 break;
             }
 
             // Если текущий элемент уже удален из множества, пропускаем
-            if (numSet.find(num) == numSet.end()) {
+            if (NumUnSet.find(num) == NumUnSet.end()) {
                 continue;
             }
 
@@ -19,14 +19,14 @@
             int left = num;
             int right = num;
 
-            for (;numSet.find(left - 1) != numSet.end(); left--);
+            for (;NumUnSet.find(left - 1) != NumUnSet.end(); left--);
 
-            for (; numSet.find(right + 1) != numSet.end(); right++);
+            for (; NumUnSet.find(right + 1) != NumUnSet.end(); right++);
 
             // Добавляем последовательность в результат
             for (int i = left; i <= right; ++i) {
 
-                numSet.erase(i); // Удаляем элементы из множества
+                NumUnSet.erase(i); // Удаляем элементы из множества
             }
 
             result.push_back(
