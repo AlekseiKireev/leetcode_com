@@ -8,14 +8,14 @@ public:
         
         int IdxOnCompressStr = 0;
 
-        for(int i = 0; i < chars.size(); ){
+        for(int IdxOnOldStr = 0; IdxOnOldStr < chars.size(); ){
             
-            const char CurChar = chars[i];
+            const char CurChar = chars[IdxOnOldStr];
             chars[IdxOnCompressStr] = CurChar;
             ++IdxOnCompressStr;
 
             int CountPepeat = 0;
-            for(; i < chars.size() && CurChar == chars[i]; ++i){
+            for(; IdxOnOldStr < chars.size() && CurChar == chars[IdxOnOldStr]; ++IdxOnOldStr){
                 ++CountPepeat;
             }
 
