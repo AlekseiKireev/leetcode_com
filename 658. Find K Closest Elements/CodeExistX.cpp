@@ -1,3 +1,7 @@
+/*
+Time complexity: O(max(k, log(n)))
+Space complexity: O(1)
+*/
 #include <vector>
 #include <cmath>
 #include <iostream>
