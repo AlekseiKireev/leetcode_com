@@ -34,7 +34,7 @@
 <details>  
 <summary>Binary sequence</summary>
   
-  One passes + 2 ptr + check on cnt zeros in [nums[L], ..., nums[R]]
+- One passes + 2 ptr + check on cnt zeros in [nums[L], ..., nums[R]]
   
 - [485. Max Consecutive Ones](https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones)
 - [487. Max Consecutive Ones II](https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II) -- T.P. Flip at most 2 zeros
