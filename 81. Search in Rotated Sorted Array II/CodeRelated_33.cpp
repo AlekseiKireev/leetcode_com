@@ -18,7 +18,7 @@ class Solution {
           r = m - 1
         :
           l = m + 1;
-      } else {  // nums[m..n - 1] are sorted
+      } else {  // // nums[m..r] are sorted
         if (nums[m] < target && target <= nums[r]){
           if (nums[r] == target){return true;}
           l = m + 1;
