@@ -24,6 +24,7 @@ public:
             ++EndingSize;
         }
 
+        // https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones
         int LocalMaxSuffixSize = 0;
         for(int i = PrefixSize; i<seats.size(); ++i){
 
