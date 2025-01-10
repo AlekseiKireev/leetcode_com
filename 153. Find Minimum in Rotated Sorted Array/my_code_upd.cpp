@@ -14,7 +14,7 @@ int Min;
             const int Mid = Left + (Right - Left) / 2;
             // BordSortedLeft == BSL / BordSortedRight == BSR / Unsorted == U
             int BSL, BSR, BUL, BUR;
-            if(nums[Left] <= nums[Mid]){
+            if(nums[Left] <= nums[Mid]){ // nums[Left..Mid] are sorted
                 BSL = Left;
                 BSR = Mid;
                 BUL = Mid; // почему не "Mid + 1" ? Ведь получается, что учитваем элемент отсортированной части в не отсортированной. Ответ: может случится 2 == BUR - BUL + 1 и при смещении на "+1" --> BUL == BUR
