@@ -14,7 +14,7 @@
 <summary>Binary search</summary>
 
 - [4. Median of Two Sorted Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays)
-- [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix)
+- [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- (i,j) <--> j * CountColumn + i : j == line, i == column
 - [658. Find K Closest Elements](https://github.com/SkosMartren/leetcode_com/tree/main/658.%20Find%20K%20Closest%20Elements)
 - [704. Binary Search](https://github.com/SkosMartren/leetcode_com/tree/main/704.%20Binary%20Search)
 
@@ -658,7 +658,7 @@
 
 - [36. Valid Sudoku](https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku)  
 - [48. Rotate Image](https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image) -- rotate the matrix by 90 degrees  
-- [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- Binary search  
+- [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- Binary search + (i,j) <--> j * CountColumn + i : j == line, i == column 
 - [85. Maximal Rectangle](https://github.com/AlKiAl/leetcode_com/tree/main/85.%20Maximal%20Rectangle) -- макс. площ. прямоугольника из 1  
 - [1329. Sort the Matrix Diagonally](https://github.com/AlKiAl/leetcode_com/tree/main/1329.%20Sort%20the%20Matrix%20Diagonally)  
 - [1572. Matrix Diagonal Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1572.%20Matrix%20Diagonal%20Sum)  
