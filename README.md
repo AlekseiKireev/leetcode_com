@@ -4,8 +4,8 @@
 <details>  
 <summary>backtracking</summary>
 
-- [17. Letter Combinations of a Phone Number](https://github.com/AlKiAl/leetcode_com/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) "23" --> ["ad","ae","af","bd","be","bf","cd","ce","cf"]
-- [93. Restore IP Addresses](https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses) -- 3 nested loops + check 0 <= num <= 255. Ex: "101023" --> ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
+- [17. Letter Combinations of a Phone Number](https://github.com/AlKiAl/leetcode_com/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) -- 3 nested loops: digits / ans / digitToLetters. Ex: "23" --> ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+- [93. Restore IP Addresses](https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses) -- 3 nested loops to generate a num + check 0 <= num <= 255. Ex: "101023" --> ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
   
 </details>
 
