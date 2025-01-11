@@ -658,8 +658,8 @@
 <details>  
 <summary>2D Matrix</summary>    
 
-- [36. Valid Sudoku](https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku)  
-- [48. Rotate Image](https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image) -- rotate the matrix by 90 degrees  
+- [36. Valid Sudoku](https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku)  -- unordered_set<char> rows[9]; cols[9]; boxes[9]; boxIndex = (r / 3) * 3 + (c / 3);
+- [48. Rotate Image](https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image) -- rotate the matrix by 90 degrees (clockwise) == сначала по горизонтали, затем по главной диагонали
 - [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- Binary search + (i,j) <--> j * CountColumn + i : j == line, i == column 
 - [85. Maximal Rectangle](https://github.com/AlKiAl/leetcode_com/tree/main/85.%20Maximal%20Rectangle) -- макс. площ. прямоугольника из 1  
 - [1329. Sort the Matrix Diagonally](https://github.com/AlKiAl/leetcode_com/tree/main/1329.%20Sort%20the%20Matrix%20Diagonally)  
