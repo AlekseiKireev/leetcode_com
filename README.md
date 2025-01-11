@@ -86,7 +86,7 @@
   <details>  
   <summary>Counter</summary>
 
-  События, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue:  
+  События, находящиеся в промежутке ]timestamp - n, timestamp[. Решение с использованием queue (FIFO):  
   - [362. Design Hit Counter](https://github.com/SkosMartren/leetcode_com/tree/main/362.%20Design%20Hit%20Counter) -- (timestamp - 300, timestamp]  
   - [933. Number of Recent Calls](https://github.com/SkosMartren/leetcode_com/tree/main/933.%20Number%20of%20Recent%20Calls) -- [timestamp - 3000, timestamp]  
 
