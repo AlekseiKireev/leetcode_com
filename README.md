@@ -98,14 +98,14 @@
   Разница между 155. Min Stack и Max Stack в том, что в 716. Max Stack необходимо реализовать удаление экстремума из очереди:  
   - [155. Min Stack](https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack) -- stack + struct Pair { int Val; int Min;}  
   - [232. Implement Queue using Stacks](https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks) -- stack + stack  
-  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- использование хеш-таблицы    
+  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- next(values.begin(),  rand() % values.size()) + un_set values  
 
     <details>  
     <summary>List + mapping (такая связка используется для быстрого удаления из любой позиции по итератору)</summary>    
 
-    - [716. Max Stack](https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack) -- order_mapping : key -> vector list::iterator  
+    - [716. Max Stack](https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack) -- order_map : key -> vector list::iterator  
     - [146. LRU Cache](https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache) -- удаляются наименее использованные элементы. un_map : key -> list::iterator + un_map : key -> val  
-    - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- unorder_mapping                       
+    - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- un_map                    
 
     </details>
   </details>
