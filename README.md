@@ -105,7 +105,7 @@
 
     - [716. Max Stack](https://github.com/SkosMartren/leetcode_com/tree/main/716.%20Max%20Stack) -- list<int> OrderVal; map< int, vector<list<int>::iterator>, greater<int> > ValToItsOnVal;
     - [146. LRU Cache](https://github.com/SkosMartren/leetcode_com/tree/main/146.%20LRU%20Cache) -- удаляются наименее использованные элементы. unordered_map<int, list<int>::iterator> KeyToItInOrderKey; list<int> OrderKey; unordered_map<int, int> KeyToValue;
-    - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- un_map                    
+    - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- list<int> UniqieList; unordered_map<int, list<int>::iterator> NumToItr;                    
 
     </details>
   </details>
