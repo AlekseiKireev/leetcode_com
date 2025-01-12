@@ -1,3 +1,7 @@
+/*
+Time:O(n^2) 
+Space:O(n)    
+*/
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) { // is true --> s == P*k : P is str
