@@ -467,7 +467,7 @@
 - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
 - [205. Isomorphic Strings](https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  
 - [459. Repeated Substring Pattern](https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern) -- check S == pattern + ... + pattern  
-- [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  
+- [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  -- 2 passes: 1 - sort count, 2 - passes to str and check char_to_count[s[i] - 'a'] == 1
 - [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- T.P. . no more than min(|s1|, |s2|) editorial distance  
 - [771. Jewels and Stones](https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones) -- подсчитать количество символов в `stones`, которые встречаются в `jewels`
 
