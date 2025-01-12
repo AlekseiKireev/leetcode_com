@@ -13,17 +13,17 @@ public:
             return -1;
         }
 
-        for (int i = 0; i <= haystackLen - needleLen; ++i) {
-            int j = 0;
+        for (int LeftPtr = 0; LeftPtr <= haystackLen - needleLen; ++LeftPtr) {
+            int RightPtr = 0;
             
-            for (; j < needleLen; ++j) {
-                if (haystack[i + j] != needle[j]) {
+            for (; RightPtr < needleLen; ++RightPtr) {
+                if (haystack[LeftPtr + RightPtr] != needle[RightPtr]) {
                     break;
                 }
             }
 
-            if (j == needleLen) {
-                return i;
+            if (RightPtr == needleLen) {
+                return LeftPtr;
             }
         }
 
