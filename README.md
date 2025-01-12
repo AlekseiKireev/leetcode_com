@@ -607,7 +607,7 @@
 
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) + Greedy  
 - [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  
-- [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- minimal length of a subarray whose sum is greater than or equal to target
+- [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- Longest Subarray with sum {a[i], ..., a[j]} >= k.  external loop: Right < nums.size(); ++Right. internal loop: SumBuff >= target; ++Left
 - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs)
 - [Maximize Pair k * a[i] <= a[j] Removals](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Pair%20k%20*%20a%5Bi%5D%20%3C=%20a%5Bj%5D%20Removals)
 
