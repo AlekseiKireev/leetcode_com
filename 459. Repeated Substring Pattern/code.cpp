@@ -8,8 +8,8 @@ public:
         
         int size = s.size();
         
-        string postfix = s.substr(1, size-1);
-        string prefix = s.substr(0, size-1);
+        string postfix = s.substr(1, size-1); // строка без первого символа.
+        string prefix = s.substr(0, size-1); //  строка без последнего символа.
         
         string sFold = postfix + prefix; // head + P*k' + tail : k' == (k-1)*2
         //string sFold = prefix + postfix; // P*k^ + tail + head + P*k^ : k^ == k-1
