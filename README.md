@@ -625,8 +625,8 @@
 <details>  
 <summary>Wandering through the plane</summary>    
 
-- [657. Robot Return to Origin](https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin) -- passes one + check end == start  
-- [1041. Robot Bounded In Circle](https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle) -- passes one + end check side != north  
+- [657. Robot Return to Origin](https://github.com/SkosMartren/leetcode_com/tree/main/657.%20Robot%20Return%20to%20Origin) -- passes one + check end == start (X == 0 && Y == 0)
+- [1041. Robot Bounded In Circle](https://github.com/SkosMartren/leetcode_com/tree/main/1041.%20Robot%20Bounded%20In%20Circle) -- passes one + check end (X == 0 && Y == 0) || SideWorld != north  
 - [1496. Path Crossing](https://github.com/SkosMartren/leetcode_com/tree/main/1496.%20Path%20Crossing) -- check path crosses itself at any point  + Перегрузка хеш-функции и operator== : un_set<Pair, PairHash> Visit
 
 </details>
