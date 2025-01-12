@@ -209,7 +209,7 @@
 
   Перегрузка хеш-функции и operator==:  
   - [356. Line Reflection](https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection)
-  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count)
+  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- unordered_map<vector<int>, int, VectorHash> freqToCount + sort counting для freq
 
 </details>
 
@@ -497,7 +497,7 @@
   - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two  
   - [438. Find All Anagrams in a String](https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String) -- Find all |Anagram| == |Substring|. S.W.  
   - [567. Permutation in String](https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String) -- Check exist |Anagram| == |Substring|. S.W.  
-  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count)
+  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- unordered_map<vector<int>, int, VectorHash> freqToCount + sort counting для freq
   
   </details>        
 
