@@ -4,14 +4,15 @@ public:
 
     unordered_set<string> visited;
     unordered_map<string, vector<string>> FirstEmailToChild;
-    
-    void DFS(vector<string>& mergedAccount, const string& email) {
+    vector<string> mergedAccount;
+
+    void DFS(const string& email) {
         visited.insert(email);                
         
         for (string& neighbor : FirstEmailToChild[email]) {
 
             if (visited.count(neighbor) == 0) {
-                DFS(mergedAccount, neighbor);
+                DFS(neighbor);
             }
 
         }
@@ -34,11 +35,10 @@ public:
         for (vector<string>& account : accountList) {
             
             if (visited.count(account[1]) == 0) {
+                
+                mergedAccount.push_back(account[0]);
 
-                vector<string> mergedAccount;
-                mergedAccount.push_back(move(account[0]));
-
-                DFS(mergedAccount, account[1]);
+                DFS(account[1]);
 
                 sort(mergedAccount.begin() + 1, mergedAccount.end());
                 mergedAccounts.push_back(move(mergedAccount));
