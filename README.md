@@ -176,9 +176,10 @@
 - [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum)  
 - [16. 3Sum Closest](https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest)
 --- 
+- [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- unordered_map<int, int> NumToCount
 - [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum)  
 - [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)
-- [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target)
+
 
 </details>
 
