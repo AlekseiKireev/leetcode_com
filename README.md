@@ -507,7 +507,9 @@
     
   - [28. Find the Index of the First Occurrence in a String](https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String) -- Find index of start substring in string
   - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs) -- 2 ptr
+    
     ---
+    
   - [395. Longest Substring with At Least K Repeating Characters](https://github.com/AlKiAl/leetcode_com/tree/main/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters)
   - vector<bool> CharToExistingInSlidingWindow + 2 ptr + analysis RightPtr - LeftPtr + 1
   - [3. Longest Substring Without Repeating Characters](https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters) -- S.W. . Longest substring with unique characters  
