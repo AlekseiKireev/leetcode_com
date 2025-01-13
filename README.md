@@ -506,7 +506,7 @@
   <summary>Substring</summary>    
     
   - [28. Find the Index of the First Occurrence in a String](https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String) -- Find index of start substring in string
-
+  - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs) -- 2 ptr
     ---
   - [395. Longest Substring with At Least K Repeating Characters](https://github.com/AlKiAl/leetcode_com/tree/main/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters)
   - vector<bool> CharToExistingInSlidingWindow + 2 ptr + analysis RightPtr - LeftPtr + 1
@@ -610,7 +610,6 @@
 - [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  
 - [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- Longest Subarray with sum {a[i], ..., a[j]} >= k.  external loop: Right < nums.size(); ++Right. internal loop: SumBuff >= target; ++Left
 - [977. Squares of a Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array) -- 3 ptr: LeftBorderWindow  = 0, RightBorderWindow  = nums.size() - 1, i = nums.size() - 1; ans[i] = nums[Border] * nums[Border] 
-- [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs)
 - [Maximize Pair k * a[i] <= a[j] Removals](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Pair%20k%20*%20a%5Bi%5D%20%3C=%20a%5Bj%5D%20Removals)
 
   
@@ -1047,7 +1046,7 @@ _________
           --------------------------------------------------------------------------------------------------- <br> 
                 https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement -- S.W. . Longest substring with same characters after at most k flip <br> 
                 https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters  -- T.P. . find max substr with same symb  <br>   
-                    --------------------------------------------------------------------------------------------------- <br> 
+          --------------------------------------------------------------------------------------------------- <br> 
           https://github.com/AlKiAl/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern -- удаляются все, помимо образовавшихся после удаления <br> 
           https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring -- удаляются все, в том числе образовавшиеся после удаления <br> 
                     --------------------------------------------------------------------------------------------------- <br> 
