@@ -16,7 +16,7 @@ int maxProfit(vector<int>& prices) {
             profit1 = max(profit1, prices[i] - buy1);
 
             buy2    = min(buy2, prices[i] - profit1);
-// max <-- p2 = prices[n] - prices[m] + p1 == y - (x-p1) : (x-p1) == prices[i] - profit1 --> min
+// max <-- TotalProfit = prices[n] - prices[m] + p1 == y - (x-p1) : (x-p1) == prices[i] - profit1 --> min
             profit2 = max(profit2, prices[i] - buy2); 
         }
         return profit2;
