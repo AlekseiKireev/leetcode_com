@@ -179,7 +179,7 @@
 - [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- unordered_map<int, int> NumToCount
 - [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum)  
 - [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)
-
+- [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs) -- cnt pair (i,j) : nums[i] + nums[j] = k
 
 </details>
 
@@ -199,14 +199,6 @@
 <summary>Hash table</summary>    
 
 - [Разрешение коллизий (neerc.ifmo.ru)](https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9)  
-
-  ---------------------------------------------------------------------------------------------------  
-
-  Использование хеш-таблицы:  
-  - [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs) -- cnt pair (i,j) : nums[i] + nums[j] = k
-  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1))  
-
-  ---------------------------------------------------------------------------------------------------  
 
   Перегрузка хеш-функции и operator==:  
   - [356. Line Reflection](https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection)
