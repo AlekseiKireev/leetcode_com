@@ -198,11 +198,8 @@
 <details>  
 <summary>Hash table</summary>    
 
-- [Разрешение коллизий (neerc.ifmo.ru)](https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9)  
-
-  Перегрузка хеш-функции и operator==:  
-  - [356. Line Reflection](https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection)
-  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- unordered_map<vector<int>, int, VectorHash> freqToCount + sort counting для freq
+- [Разрешение коллизий (neerc.ifmo.ru)](https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BB%D0%BB%D0%B8%D0%B7%D0%B8%D0%B9)    
+- [356. Line Reflection](https://github.com/SkosMartren/leetcode_com/tree/main/356.%20Line%20Reflection) -- Перегрузка хеш-функции и operator==
 
 </details>
 
