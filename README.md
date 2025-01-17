@@ -437,7 +437,7 @@
 <details>  
 <summary>Sliding Window</summary>
 
-- [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Max sum in s.w. size = k containing at least m distinct elements. Using UnHash NumToCount  
+- [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Максимальная сумма подмассива длины k с по крайней мере m различных элементов
 
 
 </details>
