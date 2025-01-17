@@ -178,10 +178,12 @@
 --- 
 - [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- unordered_map<int, int> NumToCount. Найдите количество пар (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа
 - [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs) -- unordered_map<int, int> NumToCount. Найдите количество пар (i,j), что a[i] +  a[j]= k, при условии что (i,j) удаляется после учета их для ответа
----   
-- [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum)  
-- [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)
 
+---  
+
+- вернуть {i,j} : num[L] + num[R] = target
+- [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum) -- unordered_map<int, int> NumToIdx + 1 passes
+- [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted) --  LeftPtr = 0; RightPtr = numbers.size() - 1; + 1 passes
 
 </details>
 
