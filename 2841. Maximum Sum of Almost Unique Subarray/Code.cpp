@@ -3,13 +3,13 @@ public:
     long long maxSum(vector<int>& nums, int m, int k) {
 
         long long CntUniqInWindow = 0, MaxAffixSum = 0, AffixSum = 0;
-        unordered_map<int, int> AffixSumToCount;
+        unordered_map<int, int> NumToCount;
 
         for(int Right = 0, Left = 0; Right < nums.size(); ++Right){
 
             AffixSum += nums[Right];
 
-            if(++AffixSumToCount[nums[Right]] == 1) { // подсчет уникальных элементов
+            if(++NumToCount[nums[Right]] == 1) { // подсчет уникальных элементов
                 CntUniqInWindow++;
             }
 
@@ -17,7 +17,7 @@ public:
 
                 AffixSum -= nums[Left];
 
-                if(--AffixSumToCount[nums[Left]] == 0) {CntUniqInWindow--;}
+                if(--NumToCount[nums[Left]] == 0) {CntUniqInWindow--;}
 
                 Left++;
             }
