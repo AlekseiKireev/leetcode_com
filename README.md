@@ -435,9 +435,9 @@
 </details>
 
 <details>  
-<summary>Sliding Window</summary>
+<summary>Sliding Window (Максимальная сумма подмассива длины k с по крайней мере m различных элементов) </summary>
 
-- [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Максимальная сумма подмассива длины k с по крайней мере m различных элементов
+- [2841. Maximum Sum of Almost Unique Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray) -- Максимальная сумма подмассива длины k с по крайней мере m различных элементов. un_map : num -> cnt
 
 
 </details>
