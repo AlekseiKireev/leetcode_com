@@ -176,7 +176,7 @@
 - [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum)  
 - [16. 3Sum Closest](https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest)
 --- 
-- [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- unordered_map<int, int> NumToCount. Найдите количество пар (i,j), что a[i] +  a[j]= k.
+- [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- unordered_map<int, int> NumToCount. Найдите количество пар (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа
 - [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs) -- unordered_map<int, int> NumToCount. Найдите количество пар (i,j), что a[i] +  a[j]= k, при условии что (i,j) удаляется после учета их для ответа
 ---   
 - [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum)  
