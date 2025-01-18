@@ -1,6 +1,6 @@
-
-
 https://leetcode.com/problems/implement-rand10-using-rand7/
+
+https://walkccc.me/LeetCode/problems/470/
 
 У Федора Меньшикова разбор отсут-т!
 
