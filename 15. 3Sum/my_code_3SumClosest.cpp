@@ -8,7 +8,7 @@ public:
         sort(nums.begin(), nums.end());
         const int SIZE = nums.size();
 
-        for(int i = 0; i < SIZE - 2; ++i){
+        for(int i = 0; i <= SIZE - 3; ++i){
 
             if(i > 0 && nums[i] == nums[i - 1]){ // статистика для nums[i] была собрана при обработке nums[i - 1] -- нет смысла вновь анализировть это число
                 continue;
