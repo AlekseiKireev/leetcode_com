@@ -248,7 +248,6 @@
 - [169. Majority Element](https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element) -- The majority element is the element that appears more than ⌊n / 2⌋ times.  
 - [204. Count Primes](https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes)  
 - [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- or Dynamic programming  
-- [463. Island Perimeter](https://github.com/SkosMartren/leetcode_com/tree/main/463.%20Island%20Perimeter)  
 - [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())  
 
 ---
@@ -668,7 +667,8 @@
 
 <details>  
 <summary>2D Matrix</summary>    
-
+  
+- [463. Island Perimeter](https://github.com/SkosMartren/leetcode_com/tree/main/463.%20Island%20Perimeter) -- check the exit abroad + grid[y+dy][x+dx] == 0 
 - [36. Valid Sudoku](https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku)  -- unordered_set<char> rows[9]; cols[9]; boxes[9]; boxIndex = (r / 3) * 3 + (c / 3);
 - [48. Rotate Image](https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image) -- rotate the matrix by 90 degrees (clockwise) == сначала по горизонтали, затем по главной диагонали
 - [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- Binary search + (i,j) <--> j * CountColumn + i : j == line, i == column 
