@@ -273,7 +273,7 @@
 <details>  
 <summary>Operations on sets</summary>
 
-  -sd
+  sd
   
   <details>  
   <summary>Arrays</summary>    
