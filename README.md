@@ -173,7 +173,7 @@
 
 - [18. 4Sum](https://github.com/AlKiAl/leetcode_com/tree/main/18.%204Sum)
 --- 
-- fix it 'i'
+- fix it `i` then j = i + 1; k = nums.size() - 1; --> (Sum3 < target) ? ++j : --k;
 - [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum) --  return all unique the triplets [nums[i], nums[j], nums[k]] : nums[i] + nums[j] + nums[k] == target
 - [16. 3Sum Closest](https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest) -- Return the sum of the three integers closest to target
 --- 
