@@ -156,7 +156,7 @@
 <summary>Greedy</summary>    
 
 - [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy)  
-- [763. Partition Labels](https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels) -- + Two ptr + CharToLastIdx: each letter appears in at most one partition  
+- [763. Partition Labels](https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels) -- 2 passes: 1 - Char -> LastIdxChar, 2 - Two ptr: R = max(R, CharToLastIdx[Str[i]]), if(EndCurrentChunk == i) --> L = i + 1. каждая буква встречается не более чем в одном разделе
 
   ---------------------------------------------------------------------------------------------------  
 
