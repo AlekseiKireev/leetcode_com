@@ -255,11 +255,6 @@
 
 ---
 
-- [70. Climbing Stairs](https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs)  
-- [509. Fibonacci Number](https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number)  
-
----
-
 - [7. Reverse Integer](https://github.com/SkosMartren/leetcode_com/tree/main/7.%20Reverse%20Integer)  
 - [9. Palindrome Number](https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number)  
 
