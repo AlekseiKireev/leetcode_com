@@ -2,14 +2,6 @@
 <summary>  Topics </summary>
 
 <details>  
-<summary>Random</summary>
-
-  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- next(values.begin(),  rand() % values.size()) + un_set values  
-  - [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())
-    
-</details>
-
-<details>  
 <summary>backtracking</summary>
 
 - [17. Letter Combinations of a Phone Number](https://github.com/AlKiAl/leetcode_com/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) -- 3 nested loops: digits / ans / digitToLetters. Ex: "23" --> ["ad","ae","af","bd","be","bf","cd","ce","cf"]
@@ -281,6 +273,8 @@
 <details>  
 <summary>Operations on sets</summary>
 
+  -sd
+  
   <details>  
   <summary>Arrays</summary>    
 
@@ -315,6 +309,7 @@
     </details>                        
 
   </details>  
+  
 </details>
 
 
@@ -400,6 +395,14 @@
 - [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= 2  
 - [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k
 
+</details>
+
+<details>  
+<summary>Random</summary>
+
+  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- next(values.begin(),  rand() % values.size()) + un_set values  
+  - [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())
+    
 </details>
 
 <details>  
