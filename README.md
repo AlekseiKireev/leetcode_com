@@ -2,6 +2,14 @@
 <summary>  Topics </summary>
 
 <details>  
+<summary>Random</summary>
+
+  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- next(values.begin(),  rand() % values.size()) + un_set values  
+  - [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())
+    
+</details>
+
+<details>  
 <summary>backtracking</summary>
 
 - [17. Letter Combinations of a Phone Number](https://github.com/AlKiAl/leetcode_com/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) -- 3 nested loops: digits / ans / digitToLetters. Ex: "23" --> ["ad","ae","af","bd","be","bf","cd","ce","cf"]
@@ -98,7 +106,6 @@
   Разница между 155. Min Stack и Max Stack в том, что в 716. Max Stack необходимо реализовать удаление экстремума из очереди:  
   - [155. Min Stack](https://github.com/SkosMartren/leetcode_com/tree/main/155.%20Min%20Stack) -- stack + struct Pair { int Val; int Min;}  
   - [232. Implement Queue using Stacks](https://github.com/SkosMartren/leetcode_com/tree/main/232.%20Implement%20Queue%20using%20Stacks) -- stack + stack  
-  - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- next(values.begin(),  rand() % values.size()) + un_set values  
 
     <details>  
     <summary>List + mapping (такая связка используется для быстрого удаления из любой позиции по итератору)</summary>    
@@ -248,7 +255,6 @@
 - [169. Majority Element](https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element) -- The majority element is the element that appears more than ⌊n / 2⌋ times.  
 - [204. Count Primes](https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes)  
 - [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- or Dynamic programming  
-- [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())  
 
 ---
 
