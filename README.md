@@ -615,7 +615,7 @@
   
 <details>  
   
-<summary> pointer</summary>        
+<summary>Two pointer</summary>        
 
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) + Greedy  
 - [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  
