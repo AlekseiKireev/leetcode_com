@@ -161,7 +161,7 @@
   ---------------------------------------------------------------------------------------------------  
 
 - [121. Best Time to Buy and Sell Stock](https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) -- one of the best deals. MaximumProfit = max(MaximumProfit, prices[i] - MinPrice);  
-- [122. Best Time to Buy and Sell Stock II](https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) -- maximum profit you can achieve  
+- [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/AlKiAl/leetcode_com/tree/main/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee) --> [122. Best Time to Buy and Sell Stock II](https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) -- maximum profit you can achieve  
 - [123. Best Time to Buy and Sell Stock III](https://github.com/AlKiAl/leetcode_com/tree/main/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III) -- maximum profit you can achieve complete at most two transactions. max <-- TotalProfit = prices[n] - prices[m] + p1 == y - (x-p1) : (x-p1) == prices[i] - profit1 --> min
 - [Maximize Stock Profit with Daily Prices](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Stock%20Profit%20with%20Daily%20Prices)
 
