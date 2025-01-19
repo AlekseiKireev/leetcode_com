@@ -1,6 +1,12 @@
 class Solution {
  public:
   int maxProfit(vector<int>& prices, int fee) {
+
+       /*
+       profit: Максимальная прибыль, если сейчас у вас нет акции.
+       hold: Максимальная прибыль, если сейчас вы держите акцию.
+       */   
+   
     int profit = 0;
     int hold = -prices.front();
 
