@@ -619,7 +619,7 @@
   <details>  
   <summary>(Re)move</summary>    
     
-  - [Maximize Pair k * a[i] <= a[j] Removals](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Pair%20k%20*%20a%5Bi%5D%20%3C=%20a%5Bj%5D%20Removals)    
+  - [Maximize Pair k * a\[i\] <= a\[j\] Removals](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Pair%20k%20*%20a%5Bi%5D%20%3C=%20a%5Bj%5D%20Removals) -- i = 0, j = n - 1; if (k * a[i] <= a[j]) { Ans += 2; ++i; --j; } else { --j; }   
   - [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  --> [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix. 1 passes + if(nums[i] != val){ swap(nums[Idx++], nums[i]);  }  
   - external loop: int l = 0; l < N.size() internal loop: ;r < N.size() && cur == N[r]; ++r    
     - [26. Remove Duplicates from Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array) -- each unique element appears only once  
