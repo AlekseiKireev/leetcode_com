@@ -115,15 +115,15 @@
 <summary>Dynamic programming</summary>    
 
 - [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- find the subarray with the largest sum
-- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence)
+- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- s1 = "abcde", s2 = "ace" The LCS is "ace" and its length is 3
 
 ---
 
-- [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- return the least number of numbers degree k that sum to n  
-- [322. Coin Change](https://github.com/AlKiAl/leetcode_com/tree/main/322.%20Coin%20Change)
+- [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- возвращает наименьшее количество чисел в степени k, сумма которых равна n
+- [322. Coin Change](https://github.com/AlKiAl/leetcode_com/tree/main/322.%20Coin%20Change) -- Input: coins = \[1,2,5\], amount = 11=5+5+1 Output: 3
 
   ---------------------------------------------------------------------------------------------------  
-
+- vector<int> DP(n+1); DP\[1\] = 1; DP\[2\] = 2; for ({3,...,n}) { DP\[i\] = DP\[i-1\] + DP\[i-2\]; } return DP\[n\];
 - [70. Climbing Stairs](https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs)  
 - [509. Fibonacci Number](https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number)  
 
