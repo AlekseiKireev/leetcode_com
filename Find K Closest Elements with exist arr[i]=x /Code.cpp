@@ -7,7 +7,7 @@ std::vector<int> find_k_closest(const std::vector<int>& a, int index, int k) {
     int left_ptr = index - 1;
     int right_ptr = index + 1;
 
-    for (int count = 1; count < k; count++) {
+    for (int count = 1; count < k; count++) { // count = 1 т.к. a[index] уже гарантированно лежит в ответе
             if (left_ptr < 0 
                     || 
                 (right_ptr < a.size() && a[right_ptr]  - a[index] <= a[index] - a[left_ptr])
