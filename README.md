@@ -271,9 +271,12 @@
   
   <details>  
   <summary>Arrays</summary>    
-
+    
+   - HashMapping OR sort + 2 ptr: while(P1 <  N1.size() && P2 < N2.size()){ if( N1[P1] ==  N2[P2]){ A.push_back( N1[P1]); ++ P1; ++ P2; }else{ ( N1[P1] <  N2[P2]) ? ++P1 : ++P2; } }
    - [349. Intersection of Two Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/349.%20Intersection%20of%20Two%20Arrays) -- return unique val intersection  
-   - [350. Intersection of Two Arrays II](https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II) -- return all val intersection  
+   - [350. Intersection of Two Arrays II](https://github.com/SkosMartren/leetcode_com/tree/main/350.%20Intersection%20of%20Two%20Arrays%20II) -- return all val intersection
+   --- 
+   - q
    - [2215. Find the Difference of Two Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/2215.%20Find%20the%20Difference%20of%20Two%20Arrays) -- return unique difference  
    - [Find elements in first sequence not in second (two pointers)](https://github.com/AlKiAl/leetcode_com/blob/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers/code.cpp) -- return difference  
 
