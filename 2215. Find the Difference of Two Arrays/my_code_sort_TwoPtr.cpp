@@ -6,22 +6,22 @@ class Solution {
 
     std::vector<int> findElementsNotInSecond(const std::vector<int>& nums1, const std::vector<int>& nums2) {
         std::vector<int> result;
-        int i = 0, j = 0;
+        int Ptr_1 = 0, Ptr_2 = 0;
 
-        while (i < nums1.size() && j < nums2.size()) {
+        while (Ptr_1 < nums1.size() && Ptr_2 < nums2.size()) {
 
-            if (nums1[i] < nums2[j]) {
+            if (nums1[Ptr_1] < nums2[Ptr_2]) {
 
-                if(result.empty() || result.back() != nums1[i]) { /* отличие от https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers
+                if(result.empty() || result.back() != nums1[Ptr_1]) { /* отличие от https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers
                                                                      в этом условном операторе*/
-                    result.push_back(nums1[i]);
+                    result.push_back(nums1[Ptr_1]);
                 }
 
-                i++;
+                Ptr_1++;
 
-            }  else if (nums1[i] == nums2[j]) {
+            }  else if (nums1[Ptr_1] == nums2[Ptr_2]) {
 
-                const int equiv = nums1[i];
+                const int equiv = nums1[Ptr_1];
                 /*
                     Без циклов ошибка будет в тесте:
                     [1,1,2,2]
@@ -29,22 +29,22 @@ class Solution {
 
                     Также тут заметно отличие от https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers
                 */
-                while(i < nums1.size() && nums1[i] == equiv){i++;}
-                while(j < nums2.size() && nums2[j] == equiv){j++;}
+                while(Ptr_1 < nums1.size() && nums1[Ptr_1] == equiv){Ptr_1++;}
+                while(Ptr_2 < nums2.size() && nums2[Ptr_2] == equiv){Ptr_2++;}
 
             } 
             
-            else if (nums1[i] > nums2[j]) {
+            else if (nums1[Ptr_1] > nums2[Ptr_2]) {
 
-                j++;
+                Ptr_2++;
             }
         }
 
         // Если остались элементы в nums1, которые не были проверены
-        for (;i < nums1.size();i++) {
+        for (;Ptr_1 < nums1.size();Ptr_1++) {
             
-                if(result.empty() || result.back() != nums1[i]) {
-                    result.push_back(nums1[i]);
+                if(result.empty() || result.back() != nums1[Ptr_1]) {
+                    result.push_back(nums1[Ptr_1]);
                 }            
             
         }
