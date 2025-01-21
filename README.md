@@ -293,7 +293,7 @@
    - [986. Interval List Intersections](https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections) -- sort + for(int P1 = 0, P2 = 0; P1 < L1.size() && P2 < L2.size(); ){ if( CheckIntersec(L1[P1], L2[P2]) ){ Ans.push_back({max(L1[P1].front(), L2[P2].front()), min(L1[P1].back(), L2[P2].back())}); } L1[P1].back() < L2[P2].back() ? ++P1 : ++P2; }
    - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- sort +  for(vector<int> & interval : intervals){ if( CheckIntersec(interval, Ans.back()) ){ Ans.back().back() = max(Ans.back().back(), interval.back()); }else{ Ans.push_back(interval); } }
    - [57. Insert Interval](https://github.com/AlKiAl/leetcode_com/tree/main/57.%20Insert%20Interval) -- 1: перед интервалами слияния нет перекрывающихся регистров. 2: есть пересечение intervals с newInterval. 3:  отсутствие перекрытия интервалов после объединения нового интервала
-  - [435. Non-overlapping Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/435.%20Non-overlapping%20Intervals) --верните min cnt интервалов, которые нужно удалить, чтобы остальные интервалы не перекрывались
+  - [435. Non-overlapping Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/435.%20Non-overlapping%20Intervals) --find min cnt интервалов, которые нужно удалить, чтобы остальные интервалы не перекрывались
 
     <details>  
     <summary>Сканирующая прямая</summary>    
