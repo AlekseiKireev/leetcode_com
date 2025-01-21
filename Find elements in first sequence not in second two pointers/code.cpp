@@ -4,17 +4,17 @@
 
 std::vector<int> findElementsNotInSecond(const std::vector<int>& nums1, const std::vector<int>& nums2) {
     std::vector<int> result;
-    int i = 0, j = 0;
+    int Ptr_1 = 0, Ptr_2 = 0;
 
-    while (i < nums1.size() && j < nums2.size()) {
-        if (nums1[i] < nums2[j]) {
-            result.push_back(nums1[i]);
-            i++;
-        } else if (nums1[i] == nums2[j]) {
-            i++;
-            j++;
+    while (Ptr_1 < nums1.size() && Ptr_2 < nums2.size()) {
+        if (nums1[Ptr_1] < nums2[Ptr_2]) {
+            result.push_back(nums1[Ptr_1]);
+            Ptr_1++;
+        } else if (nums1[Ptr_1] == nums2[Ptr_2]) {
+            Ptr_1++;
+            Ptr_2++;
         } else {
-            j++;
+            Ptr_2++;
         }
     }
 
@@ -23,9 +23,9 @@ std::vector<int> findElementsNotInSecond(const std::vector<int>& nums1, const st
     std::vector<int> nums2 = {4, 5};
     */
     
-    while (i < nums1.size()) {
-        result.push_back(nums1[i]);
-        i++;
+    while (Ptr_1 < nums1.size()) {
+        result.push_back(nums1[Ptr_1]);
+        Ptr_1++;
     }
 
     return result;
