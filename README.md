@@ -437,8 +437,6 @@
   <details>  
   <summary>Counting</summary>   
 
-  - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  -- 2 passes: 1 - un_map : SortStrToAnagrams, 2 - make ans
-  - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two    
   - [347. Top K Frequent Elements](https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements) + nth_element + Hash table              
   - [692. Top K Frequent Words](https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words) + partial_sort + Hash table  
 
@@ -501,12 +499,14 @@
   <summary>Anagram</summary>    
 
   - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  -- 2 passes: 1 - un_map : SortStrToAnagrams, 2 - make ans
-  - [76. Minimum Window Substring](https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring) -- find Substring : |Anagram| <= |Substring| --> min. Необходимо найти в строке панграмму минимальной длины, где панграмма - это такая подстрока исходной строки, в которую входят все буквы из алфавита (но не обязательно только они).
-  - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two  
+  - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two
+  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- unordered_map<vector<int>, int, VectorHash> freqToCount + sort counting для freq
+  ---
+  - q 
   - [438. Find All Anagrams in a String](https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String) -- Find all |Anagram| == |Substring|. S.W.  
   - [567. Permutation in String](https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String) -- Check exist |Anagram| == |Substring|. S.W.  
-  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- unordered_map<vector<int>, int, VectorHash> freqToCount + sort counting для freq
-  
+  - [76. Minimum Window Substring](https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring) -- find Substring : |Anagram| <= |Substring| --> min. Необходимо найти в строке панграмму минимальной длины, где панграмма - это такая подстрока исходной строки, в которую входят все буквы из алфавита (но не обязательно только они).
+      
   </details>        
 
   <details>  
