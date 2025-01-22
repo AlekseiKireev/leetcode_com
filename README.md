@@ -498,8 +498,10 @@
   <details>  
   <summary>Anagram</summary>    
 
-  - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  -- 2 passes: 1 - un_map : SortStrToAnagrams, 2 - make ans
   - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two
+  ---
+  - q 
+  - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  -- 2 passes: 1 - un_map : SortStrToAnagrams, 2 - make ans
   - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- unordered_map<vector<int>, int, VectorHash> freqToCount + sort counting для freq
   ---
   - q 
