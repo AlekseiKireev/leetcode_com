@@ -521,8 +521,8 @@
     
   - [395. Longest Substring with At Least K Repeating Characters](https://github.com/AlKiAl/leetcode_com/tree/main/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters) -- Самая длинная подстрока, содержащая не менее K повторяющихся символов. external loop: int targetUniq = 1; targetUniq <= maxUniqueCharacters; ++targetUniq; internal loop: int left = 0, right = 0; right < str.size();
   - vector<bool> CharToExistingInSlidingWindow + 2 ptr + analysis RightPtr - LeftPtr + 1
-  - [3. Longest Substring Without Repeating Characters](https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters) -- S.W. . Longest substring with unique characters  
-  - [2743. Count Substrings Without Repeating Character](https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character) -- S.W. . Вернуть количество возможных подстрок, состоящих из уникальных элементов  
+  - [3. Longest Substring Without Repeating Characters](https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters) -- Самая длинная подстрока с одинаковыми символами 
+  - [2743. Count Substrings Without Repeating Character](https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character) -- Вернуть количество возможных подстрок, состоящих из уникальных элементов  
 
     ---  
 
