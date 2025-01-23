@@ -500,13 +500,13 @@
 
   - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two
   ---
-  - q 
+  - для обеих задач характерно использование сортировки строк подсчетом / явной, с целью отображать  SortStr в количество Str / множество Str
   - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  -- 2 passes: 1 - un_map : SortStrToAnagrams, 2 - make ans
   - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- unordered_map<vector<int>, int, VectorHash> freqToCount + sort counting для freq
   ---
-  - q 
-  - [438. Find All Anagrams in a String](https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String) -- Find all |Anagram| == |Substring|. S.W.  
-  - [567. Permutation in String](https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String) -- Check exist |Anagram| == |Substring|. S.W.  
+  - 2 passes: 1 - for(char ch : Angr){ --CharAngrToCount[ch]; } | 2 - 2 ptr + filling S.W.
+  - [438. Find All Anagrams in a String](https://github.com/SkosMartren/leetcode_com/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String) -- Find all Substring : |Anagram| == |Substring|.   
+  - [567. Permutation in String](https://github.com/SkosMartren/leetcode_com/tree/main/567.%20Permutation%20in%20String) -- Check exist Substring : |Anagram| == |Substring|.
   - [76. Minimum Window Substring](https://github.com/SkosMartren/leetcode_com/tree/main/76.%20Minimum%20Window%20Substring) -- find Substring : |Anagram| <= |Substring| --> min. Необходимо найти в строке панграмму минимальной длины, где панграмма - это такая подстрока исходной строки, в которую входят все буквы из алфавита (но не обязательно только они).
       
   </details>        
