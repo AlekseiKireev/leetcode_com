@@ -17,12 +17,12 @@ int main() {
         if (s[r] == 'a') {
             Cnt_a_InSW++;
         } 
-        if (s[r] == 'b') { // 
+        if (s[r] == 'b') { // в окне [l,..,r] символ 'a' встречается Cnt_a_InSW раз, с каждым из них символ 'b' может образовать пару
             Cnt_b_InSW++;
             CntPair += Cnt_a_InSW;
         }
 
-        for (;CntPair > k; l++) {
+        for (;CntPair > k; l++) { // не выполняется улосвие задачи: "количество пар (i, j) не превосходит числа k"
             if (s[l] == 'a') {
                 Cnt_a_InSW--;
                 CntPair -= Cnt_b_InSW;
