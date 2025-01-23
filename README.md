@@ -250,7 +250,7 @@
 
 ---
 
-- [150. Evaluate Reverse Polish Notation](https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation) -- + Stack
+- [150. Evaluate Reverse Polish Notation](https://github.com/SkosMartren/leetcode_com/tree/main/150.%20Evaluate%20Reverse%20Polish%20Notation) -- un_map<string, function<int (int, int)> > OperatorToFuctor + Stack
 - [227. Basic Calculator II](https://github.com/AlKiAl/leetcode_com/tree/main/227.%20Basic%20Calculator%20II)
 
 ---
