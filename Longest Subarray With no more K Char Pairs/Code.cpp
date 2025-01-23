@@ -8,27 +8,27 @@ int main() {
     long long n, k; cin >> n >> k;
     string s; cin >> s;
 
-    int cnta = 0, cntb = 0;
+    int Cnt_a_InSW = 0, Cnt_b_InSW = 0; // количество символов в [l,..,r]
     int ans = 0;
-    long long sum = 0;
+    long long CntPair = 0; // количество пар (i, j) таких что l <= i < j <= r и s[i] = a, s[j] = b 
 
     for (int l = 0, r = 0; r < n; ++r) {
         
         if (s[r] == 'a') {
-            cnta++;
+            Cnt_a_InSW++;
         } 
-        if (s[r] == 'b') {
-            cntb++;
-            sum += cnta;
+        if (s[r] == 'b') { // 
+            Cnt_b_InSW++;
+            CntPair += Cnt_a_InSW;
         }
 
-        for (;sum > k; l++) {
+        for (;CntPair > k; l++) {
             if (s[l] == 'a') {
-                cnta--;
-                sum -= cntb;
+                Cnt_a_InSW--;
+                CntPair -= Cnt_b_InSW;
             } 
             if (s[l] == 'b') {
-                cntb--;
+                Cnt_b_InSW--;
             }
             
         }
