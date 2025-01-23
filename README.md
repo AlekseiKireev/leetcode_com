@@ -300,7 +300,7 @@
 
     Не забывай при работе с интервалами про обработку случаев вида: `[[a,b], [b,c]]`.  
     - [252. Meeting Rooms](https://github.com/SkosMartren/leetcode_com/tree/main/252.%20Meeting%20Rooms) -- проверить, проходит ли прямая через все интервалы. sort + for (int i = 1; i < intervals.size(); ++i){ if (intervals[i - 1][1] > intervals[i][0]){ return false; } }
-    - [253. Meeting Rooms II](https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II) -- прямая проходит через минимальное количество интервалов  
+    - [253. Meeting Rooms II](https://github.com/SkosMartren/leetcode_com/tree/main/253.%20Meeting%20Rooms%20II) -- максимальное количество пересеченных интервалов с.п. . 3 passes: обработка данных + sort + формирование ответа
     - [1450. Number of Students Doing Homework at a Given Time](https://github.com/AlKiAl/leetcode_com/tree/main/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time)  
 
     </details>                        
