@@ -5,7 +5,7 @@
 
 int findShortestDistance(const std::string& str) {
     int xPos = -1, yPos = -1;
-    int minDistance = INT_MAX;
+    int minDistance = str.size() + 1;
 
     for (size_t i = 0; i < str.size(); ++i) {
         if (str[i] == 'x') {
