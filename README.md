@@ -191,7 +191,7 @@
 
 
 <details>  
-<summary>N number Maximum Product</summary>    
+<summary>N number Extreme Product</summary>    
 
 - Passes One + Greedy:  
   - [The Product of Two Extremes](https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes)  
