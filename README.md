@@ -245,7 +245,7 @@
 <summary>Math</summary>      
 
 - [169. Majority Element](https://github.com/SkosMartren/leetcode_com/tree/main/169.%20Majority%20Element) -- The majority element is the element that appears more than ⌊n / 2⌋ times.  
-- [204. Count Primes](https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes)  
+- [204. Count Primes](https://github.com/SkosMartren/leetcode_com/tree/main/204.%20Count%20Primes) -- количество простых чисел 
 - [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- Теорема Лагранжа о сумме четырёх квадратов (n = x^{2}+y^{2}+z^{2}+t^{2}) + Теорема Лежандра о трёх квадратах (n = x^{2}+y^{2}+z^{2} <-> n НЕ ПРЕДСТАВИМО в виде n=4^{a}(8b+7)) or Dynamic programming  
 
 ---
