@@ -317,8 +317,8 @@
 - [9. Palindrome Number](https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number)
 - [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List)
 ---   
-- [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- + isalnum + tolower  
-- [680. Valid Palindrome II](https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- проверить, может ли быть str палиндромом после удаления из него не более одного символа. Str ограничен алфавитом 
+- [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- 1 passes + 2 ptr + isalnum + tolower : for(int L = 0, R = SizeS - 1; L < R; ++L, --R){ for(; L < R && isalnum(S[L]) == false ; ++L); for(; L < R && isalnum(S[R]) == false ; --R); if( tolower(S[L]) != tolower(S[R]) ){return false;} }
+- [680. Valid Palindrome II](https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- проверить, может ли быть str палиндромом после удаления из него не более одного символа. Str ограничен алфавитом. if(s[L] != s[R]){ return (ChechkvalidPalindrome(s, L + 1, R) || ChechkvalidPalindrome(s, L, R - 1) ); } }
 
 </details>
 
