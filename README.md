@@ -619,7 +619,7 @@
 <summary>Two pointer</summary>        
 
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) + Greedy  
-- [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  
+- [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water)  -- find H[i], H[j] , которые образуют контейнер таким образом, чтобы в нем было max воды. R = H.size() - 1; int L = 0; Ans = max( Ans, (R - L) * min(H[R], H[L]) ); (H[R] < H[L]) ? --R: ++L;
 - [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- min(j-i+1) : sum {a[i], ..., a[j]} >= k.  external loop: Right < nums.size(); ++Right. internal loop: SumBuff >= target; ++Left
 - [977. Squares of a Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array) -- 3 ptr: LeftBorder = 0, RightBorder = nums.size() - 1, i = nums.size() - 1; ans[i] = nums[Border] * nums[Border] 
 - [Find K Closest Elements with exist arr\[i\]=x](https://github.com/AlKiAl/leetcode_com/tree/main/Find%20K%20Closest%20Elements%20with%20exist%20arr%5Bi%5D%3Dx%20) -- if (L < 0 || (R < a.size() && a[R]  - a[Idx] <= a[Idx] - a[L]) ) { R++; } else { L--; } 
