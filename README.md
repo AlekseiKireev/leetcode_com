@@ -313,10 +313,11 @@
 <details>  
 <summary>Palindrome</summary>
 
-- [5. Longest Palindromic Substring](https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring)  
-- [9. Palindrome Number](https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number)  
+- [5. Longest Palindromic Substring](https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring) -- проверка подстроки на палиндром: CheckOnPalindrom(i, i, s); // нечетная длина палиндрома + CheckOnPalindrom(i, i + 1, s); // четная длина палиндрома
+- [9. Palindrome Number](https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number)
+- [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List)
+---   
 - [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- + isalnum + tolower  
-- [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List)  
 - [680. Valid Palindrome II](https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- "can be palindrome after deleting at most one character from it."  
 
 </details>
