@@ -133,11 +133,12 @@
 <summary>Edit distance</summary>
 
 - [Wikipedia: Edit distance](https://en.wikipedia.org/wiki/Edit_distance)  
-- [72. Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/72.%20Edit%20Distance) -- D.P.  
+- [72. Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/72.%20Edit%20Distance) -- D.P.
+- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- D.P.
+---   
 - [161. One Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/161.%20One%20Edit%20Distance) -- T.P.  
 - [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- T.P. . no more than min(|s1|,|s2|) editorial distance  
 - [680. Valid Palindrome II](https://github.com/AlKiAl/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- T.P. . no more than one editorial distance  
-- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- D.P.  
 
 </details>
 
