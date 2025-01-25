@@ -318,7 +318,7 @@
 - [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List)
 ---   
 - [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- + isalnum + tolower  
-- [680. Valid Palindrome II](https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- "can be palindrome after deleting at most one character from it."  
+- [680. Valid Palindrome II](https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- проверить, может ли быть str палиндромом после удаления из него не более одного символа. Str не содержит пробелов
 
 </details>
 
