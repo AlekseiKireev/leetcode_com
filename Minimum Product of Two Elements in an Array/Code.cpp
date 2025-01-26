@@ -11,10 +11,10 @@ int findMinProduct(const vector<int>& nums) {
     }
 
     // Инициализируем минимальные и максимальные значения
-    int min1 = max(nums[0], nums[1]);
-    int min2 = max(nums[0], nums[1]);
-    int max1 = min(nums[0], nums[1]);
-    int max2 = min(nums[0], nums[1]);
+    int min1 = numeric_limits<int>::max();
+    int min2 = numeric_limits<int>::max();
+    int max1 = numeric_limits<int>::min();
+    int max2 = numeric_limits<int>::min();
 
     // Одним проходом по массиву находим два минимальных и два максимальных числа
     for (int num : nums) {
