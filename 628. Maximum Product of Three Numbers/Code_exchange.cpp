@@ -26,6 +26,7 @@ public:
             }
         }
 
-        return GlobalMax * max(GlobalMin * Min2, Max2 * Max3);
+        // return GlobalMax * max(GlobalMin * Min2, Max2 * Max3); // error: nums = [-1,-2,-3,-4] | Output -12 | Expected -6
+        return max(GlobalMax * GlobalMin * Min2, GlobalMax * Max2 * Max3);
     }
 };
