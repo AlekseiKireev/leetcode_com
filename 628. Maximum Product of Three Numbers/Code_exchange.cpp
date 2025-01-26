@@ -26,6 +26,6 @@ public:
             }
         }
 
-        return max(GlobalMax * GlobalMin * Min2, GlobalMax * Max2 * Max3);
+        return GlobalMax * max(GlobalMin * Min2, Max2 * Max3);
     }
 };
