@@ -497,7 +497,7 @@
 - [205. Isomorphic Strings](https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  
 - [459. Repeated Substring Pattern](https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern) -- check S == pattern + ... + pattern : {s.substr(1, size-1) + s.substr(0, size-1)}.find(s) != string::npos; 
 - [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  -- 2 passes: 1 - sort count, 2 - passes to str and check char_to_count[s[i] - 'a'] == 1
-- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- T.P. . no more than min(|s1|, |s2|) editorial distance  
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
 - [771. Jewels and Stones](https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones) -- подсчитать количество символов в `stones`, которые встречаются в `jewels`
 
   <details>  
@@ -639,7 +639,7 @@
   
 <summary>Two pointer</summary>        
 
-- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. Input: s = "abc", t = "ahbgdc" Output: true <--> ${s[i] : 0 \leqslant i \leqslant s.size() } \subset {t[j] : 0 \leqslant j \leqslant t.size() }$
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
 --- 
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) -- find H[i], H[j] , которые образуют контейнер таким образом, чтобы в нем было max воды. R = H.size() - 1; int L = 0; Ans = max( Ans, (R - L) * min(H[R], H[L]) ); (H[R] < H[L]) ? --R: ++L;
 - [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water) -- 3 passes: 1 - find IdxMaxGlobalHeight | 2 - LeftToIdxMaxGlobalHeight, 3 - RightToIdxMaxGlobalHeight : LocalMaxHeight = max(LocalMaxHeight, H[i]); TotalSum += (LocalMaxHeight - H[i]);
