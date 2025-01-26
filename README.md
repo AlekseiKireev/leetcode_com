@@ -194,8 +194,8 @@
 <details>  
 <summary>N number Extreme Product</summary>    
 
-- Passes One + Greedy:
-  - [628. Maximum Product of Three Numbers](https://github.com/SkosMartren/leetcode_com/tree/main/628.%20Maximum%20Product%20of%20Three%20Numbers)
+- 1 passes + findTwoMinValues + findThreeMaxValues
+  - [628. Maximum Product of Three Numbers](https://github.com/SkosMartren/leetcode_com/tree/main/628.%20Maximum%20Product%20of%20Three%20Numbers) -- return max(GlobalMax * GlobalMin * Min2, GlobalMax * Max2 * Max3) : $n \in Z$
   ---
 - 1 passes + findTwoMinValues + findTwoMaxValues
 
