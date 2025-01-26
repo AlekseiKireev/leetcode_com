@@ -137,7 +137,7 @@
 - [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- D.P.
 ---   
 - [161. One Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/161.%20One%20Edit%20Distance) -- T.P.  
-- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. no more than min(|s1|,|s2|) editorial distance. Input: s = "abc", t = "ahbgdc" Output: true <--> $\{s[i] : 0 \leqslant i \leqslant s.size() \} \subset \{t[j] : 0 \leqslant j \leqslant t.size() \}$
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. no more than min(|s1|,|s2|) editorial distance. Input: s = "abc", t = "ahbgdc" Output: true <--> {$s[i] : 0 \leqslant i \leqslant s.size()$} $\subset$ {$t[j] : 0 \leqslant j \leqslant t.size() $}
 - [680. Valid Palindrome II](https://github.com/AlKiAl/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- проверить, может ли быть str палиндромом после удаления из него не более одного символа. Str ограничен алфавитом. if(s[L] != s[R]){ return (ChechkvalidPalindrome(s, L + 1, R) || ChechkvalidPalindrome(s, L, R - 1) ); } }
 
 </details>
