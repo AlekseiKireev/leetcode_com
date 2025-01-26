@@ -115,7 +115,7 @@
 <summary>Dynamic programming</summary>    
 
 - [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой
-- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- s1 = "abcde", s2 = "ace" The LCS is "ace" and its length is 3
+- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- s1 = "abcde", s2 = "ace" The LCS is "ace" and its length is 3. 2dMatrix + if(text1[f-1] == text2[s-1]){ DP[f][s] = DP[f-1][s-1] + 1; }else{ DP[f][s] = max(DP[f-1][s], DP[f][s-1]); }
 
 ---
 
@@ -133,8 +133,8 @@
 <summary>Edit distance</summary>
 
 - [Wikipedia: Edit distance](https://en.wikipedia.org/wiki/Edit_distance)  
-- [72. Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/72.%20Edit%20Distance) -- D.P.
-- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- D.P.
+- [72. Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/72.%20Edit%20Distance) -- D.P. : 2dMatrix + if (word1[i - 1] == word2[j - 1]) { dp[i][j] = dp[i - 1][j - 1]; } else { dp[i][j] = min({dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]}) + 1; }
+- [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- D.P. : 2dMatrix + if(text1[f-1] == text2[s-1]){ DP[f][s] = DP[f-1][s-1] + 1; }else{ DP[f][s] = max(DP[f-1][s], DP[f][s-1]); }
 ---   
 - [161. One Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/161.%20One%20Edit%20Distance) -- 1 passes: if(s[i] != t[i]){ return (SizeT == SizeS+1) ? t.substr(i+1) == s.substr(i) : t.substr(i+1) == s.substr(i+1) ; }
 - [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. no more than min(|s1|,|s2|) editorial distance. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
