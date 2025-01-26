@@ -199,6 +199,7 @@
   ---   
   - [The Product of Two Extremes](https://github.com/SkosMartren/leetcode_com/tree/main/the%20product%20of%20two%20extremes)  
   - [1464. Maximum Product of Two Elements in an Array](https://github.com/SkosMartren/leetcode_com/tree/main/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array)
+  - [Maximum Product of Two Elements in an Array](https://github.com/AlKiAl/leetcode_com/tree/main/Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array)
   - [Minimum Product of Two Elements in an Array](https://github.com/AlKiAl/leetcode_com/tree/main/Minimum%20Product%20of%20Two%20Elements%20in%20an%20Array)
 
 </details>
