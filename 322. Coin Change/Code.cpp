@@ -2,7 +2,7 @@ class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
         
-        while(!coins.empty() && amount < coins.back()){
+        while(!coins.empty() && amount < coins.back()){ // не сможем собрать amount из чисел : coins[t] > amount
             coins.pop_back();
         }
         vector<int> DP(amount + 1, amount + 1); // idx --> val == SumCoins --> FewestNum
