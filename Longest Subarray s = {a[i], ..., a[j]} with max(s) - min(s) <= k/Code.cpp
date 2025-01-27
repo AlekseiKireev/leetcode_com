@@ -15,7 +15,7 @@ int longestSubarrayWithLimit(const std::vector<int>& nums, int k) {
         minDeque.push_back(right);
 
         // Обновляем дек для максимума
-        while (!maxDeque.empty() && nums[right] >= nums[maxDeque.back()]) {
+        while (!maxDeque.empty() && nums[maxDeque.back()] <= nums[right]) {
             maxDeque.pop_back();
         }
         maxDeque.push_back(right);
