@@ -120,7 +120,7 @@
 ---
 
 - [279. Perfect Squares](https://github.com/SkosMartren/leetcode_com/tree/main/279.%20Perfect%20Squares) -- возвращает наименьшее количество чисел в степени k, сумма которых равна n
-- [322. Coin Change](https://github.com/AlKiAl/leetcode_com/tree/main/322.%20Coin%20Change) -- Input: coins = \[1,2,5\], amount = 11=5+5+1 Output: 3
+- [322. Coin Change](https://github.com/AlKiAl/leetcode_com/tree/main/322.%20Coin%20Change) -- Input: coins = \[1,2,5\], amount = 11=5+5+1 Output: 3. for(int c : coins){ for(int SumCoins = c; SumCoins <= amount; ++SumCoins){ DP[SumCoins] = min(DP[SumCoins], DP[SumCoins - c] + 1); } }
 
   ---------------------------------------------------------------------------------------------------  
 - vector<int> DP(n+1); DP\[1\] = 1; DP\[2\] = 2; for ({3,...,n}) { DP\[i\] = DP\[i-1\] + DP\[i-2\]; } return DP\[n\];
