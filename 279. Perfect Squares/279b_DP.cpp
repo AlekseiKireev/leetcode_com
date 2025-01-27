@@ -1,3 +1,7 @@
+/*
+Time complexity: O(n*sqrt(n)) outer loop is of sqrt(n) iterations and in the inner loop <n iterations roughly.
+Space Complexity: O(n).
+*/  
 class Solution {
 public:
   int numSquares(int n) {
