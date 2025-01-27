@@ -114,7 +114,7 @@
 <details>  
 <summary>Dynamic programming</summary>    
 
-- [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой
+- [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой. 1 passes + MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); MinPrefixSum = min(MinPrefixSum, PrefixSum);
 - [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- s1 = "abcde", s2 = "ace" The LCS is "ace" and its length is 3. 2dMatrix + if(text1[f-1] == text2[s-1]){ DP[f][s] = DP[f-1][s-1] + 1; }else{ DP[f][s] = max(DP[f-1][s], DP[f][s-1]); }
 
 ---
