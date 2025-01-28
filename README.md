@@ -358,7 +358,7 @@
 
 - [71. Simplify Path](https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path) -- 2 passes: 1 -- stringstream + check Buf $\in$ \{ .,.., word\} | 2 -- make ans. Transform this absolute path into its simplified canonical path Unix-style  
 - [135. Candy](https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy) --  1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
-- [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self) -- ans[i] = product_nums / nums[i] 
+- [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self) -- 2 passes: 1 - подсчет 0 и сохран-е нулевых индексов | 2 - make ans[i] = product_nums / nums[i] 
 
   <details>  
   <summary>Check Contains Duplicate with a condition ...</summary>      
