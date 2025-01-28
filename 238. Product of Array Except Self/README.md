@@ -2,6 +2,11 @@ https://leetcode.com/problems/product-of-array-except-self/
 
 https://walkccc.me/LeetCode/problems/0238/
 
+3 класса эквивалентности: 
+- коли-о нулей >= 2 --> ответ \{ 0,...,0 \}
+- коли-о нулей = 1 : nums[i] = 0 --> ответ бинарный вектор, ans[i] = product_nums, ans[j] = 0 : j !=i
+- коли-о нулей = 0 --> ответ \{ ans[i] = product_nums / nums[i] : 0 <= i < nums.size() \}
+
 _______
 
 [Разбор задачи 238 leetcode.com Product of Array Except Self. Решение на C++](https://www.youtube.com/watch?v=1CvKUvzJvhQ)
