@@ -156,7 +156,7 @@
 <details>  
 <summary>Greedy</summary>    
 
-- [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy) -- обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] 
+- [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy) -- 1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
 - [763. Partition Labels](https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels) -- 2 passes: 1 - Char -> LastIdxChar, 2 - Two ptr: R = max(R, CharToLastIdx[Str[i]]), if(EndCurrentChunk == i) --> L = i + 1. каждая буква встречается не более чем в одном разделе
 
   ---------------------------------------------------------------------------------------------------  
@@ -357,7 +357,7 @@
 <summary>Passes one / two / ...</summary>
 
 - [71. Simplify Path](https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path) -- 2 passes: 1 -- stringstream + check Buf $\in$ \{ .,.., word\} | 2 -- make ans. Transform this absolute path into its simplified canonical path Unix-style  
-- [135. Candy](https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy) -- обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r]  
+- [135. Candy](https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy) --  1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self) -- ans[i] = product_nums / nums[i] 
 
   <details>  
