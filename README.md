@@ -365,7 +365,7 @@
 
   - [217. Contains Duplicate](https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate) -- return false if every element is distinct else true. 1 passes: sort OR un_set 
   - [219. Contains Duplicate II](https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II) -- return true if exist abs(i - j) <= indexDiff AND nums[i] == nums[j]. 1 passes: if(NumToIdx.count(nums[i]) && (i - NumToIdx[nums[i]] <= indexDiff ) ){ return true; } NumToIdx[nums[i]] = i; 
-  - [220. Contains Duplicate III](https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III) -- abs(i - j) <= indexDiff AND abs(nums[i] - nums[j]) <= valueDiff  
+  - [220. Contains Duplicate III](https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III) -- multiset<int> window + 1 passes : abs(i - j) <= indexDiff AND abs(nums[i] - nums[j]) <= valueDiff  <--> if (window.size() > indexDiff) { window.erase(window.find(nums[i - indexDiff])); } AND if (window.lower_bound(nums[i] - valueDiff) != window.end() && *it - nums[i] <= valueDiff) { return true; }
 
   </details>
 
