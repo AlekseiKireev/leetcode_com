@@ -1,18 +1,15 @@
-class Solution {
+class Solution { 
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> res;
-        for(int i=0; i<nums.size(); i++) {
-
-            auto it = ranges::lower_bound(res, nums[i]);
-
-            if(it==res.end()) {
-                res.push_back(nums[i]);
-            }
-            else {
-                *it = nums[i];
+        vector<int> seen;
+        for (int num : nums) {
+            if (seen.empty() || seen.back() < num) {
+                seen.push_back(num);
+            } else {
+                auto it = ranges::lower_bound(seen, num); // Find the index of the first element >= num
+                *it = num; // Replace that number with num
             }
         }
-        return res.size();
+        return seen.size();
     }
 };
