@@ -6,7 +6,7 @@ class Solution {
 
     for (int i = 0; i < nums.size(); ++i) {
 
-        auto it =  window.lower_bound(nums[i] - valueDiff);
+        auto it =  window.lower_bound(nums[i] - valueDiff); // *it >= nums[i] - valueDiff
         if (
          it != window.end() 
          && 
