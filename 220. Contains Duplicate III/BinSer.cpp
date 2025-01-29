@@ -1,3 +1,11 @@
+/*
+
+В любой момент времени размер window не превышает indexDiff (то есть k).
+Значит, поиск и вставка происходят в балансированном дереве с k элементами
+
+Time:O(nlog⁡(indexDiff)) 
+Space:O(indexDiff)
+*/
 class Solution {
  public:
   bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff, int valueDiff) {
