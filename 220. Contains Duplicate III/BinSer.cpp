@@ -17,10 +17,10 @@ class Solution {
 
         window.insert(nums[i]);
 
-        /* Check: abs(i - j) <= indexDiff */
-     /*т.к. i > j  <--> i - indexDiff <= j*/
-        if (i >= indexDiff){
-        window.erase(nums[i - indexDiff]);
+        /* Check: abs(i - j) <= indexDiff <--> [i-indexDiff + 1, i] -- окно, в котором*/
+        /* должно выполняться условие abs(nums[i] - nums[j]) <= valueDiff */
+        if (i >= indexDiff){ // на каждой итерации гаранти-о удаляется элемент вне окна
+           window.erase(nums[i - indexDiff]);
         }
 
 
