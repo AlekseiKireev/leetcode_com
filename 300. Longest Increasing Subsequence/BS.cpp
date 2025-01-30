@@ -1,16 +1,16 @@
 class Solution { 
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> seen;
+        vector<int> Buf;
         for (int num : nums) {
-            if (seen.empty() || seen.back() < num) {
-                seen.push_back(num);
+            if (Buf.empty() || Buf.back() < num) {
+                Buf.push_back(num);
             } else {
-                auto it = ranges::lower_bound(seen, num); // Find the index of the first element >= num
+                auto it = ranges::lower_bound(Buf, num); // Find the index of the first element >= num
                 *it = num; // Replace that number with num
             }
         }
-        return seen.size();
+        return Buf.size();
     }
 };
 /*
