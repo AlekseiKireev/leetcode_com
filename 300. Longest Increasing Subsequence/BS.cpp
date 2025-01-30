@@ -1,7 +1,7 @@
 class Solution { 
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> Buf;
+        vector<int> Buf; // в конечном итоге здесь не сохра-я LIS, это вместо явного хранния (Buf1, Buf2..., Bufk)
         for (int num : nums) {
             if (Buf.empty() || Buf.back() < num) {
                 Buf.push_back(num);
