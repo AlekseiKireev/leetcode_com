@@ -372,7 +372,7 @@
   <details>  
   <summary>(Increasing) Decreasing (Continuous) Sequence</summary>     
     
-  - [300. Longest Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence) -- + b.s.
+  - [300. Longest Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence) -- 1 passes: if (buf.empty() || buf.back() < n) { buf.push_back(n); } else { *ranges::lower_bound(buf, n)  = n; }
   
    <details>  
     <summary>Continuous</summary>      
