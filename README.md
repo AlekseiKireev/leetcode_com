@@ -377,6 +377,13 @@
    <details>  
     <summary>Continuous ( все циклы имеют вид: 1 passes: i = 1; i < nums.size; ++i AND check comp(nums[i-1], nums[i]) ) </summary>           
 
+            if (nums[i] > nums[i - 1]) { // increased 
+
+            } else if (nums[i] < nums[i - 1]) { // decreased
+ 
+            } else { // reset inc / dec, upd Idx
+            }	
+
   - [896. Monotonic Array](https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array)  
   ---------------------------------------------------------------------------------------------------  
   - [978. Longest Turbulent Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray) -- subarray is turbulent if arr[k - L] > ... > arr[k - 1] < arr[k] > arr[k + 1] < ... < arr[k - R]. Find R-L+1 --> max
