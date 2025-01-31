@@ -381,7 +381,7 @@
   ---------------------------------------------------------------------------------------------------  
   - [978. Longest Turbulent Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray) -- subarray is turbulent if arr[k - L] > ... > arr[k - 1] < arr[k] > arr[k + 1] < ... < arr[k - R]. Find R-L+1 --> max
   - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://github.com/AlKiAl/leetcode_com/blob/main/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray) -- найти наибольшую Len и LeftIdx <-->  {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего ИЛИ строго убывающего подмассива. 
-  - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence)       
+  - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence) -- найти наибольшую Len и LeftIdx <--> {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего И строго убывающего подмассива.      
   - [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence) -- найти наибольшую Len и LeftIdx <-->  {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего подмассива.
       
     </details>
