@@ -4,7 +4,7 @@ Space complexity: O(n)
 */
 class Solution {
 public:
-    int subarraySum(vector<int>& nums, int RequiredAffix) {
+    int subarraySum(vector<int>& nums, int RequiredAffix) { // required требуемый
         
         unordered_map<int, int> PrefixToCount;
         int PrefixSum = 0;
