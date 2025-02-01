@@ -114,7 +114,7 @@
 <details>  
 <summary>Dynamic programming</summary>    
 
-- [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой. 1 passes + MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); MinPrefixSum = min(MinPrefixSum, PrefixSum);
+- [53. Maximum Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой. 1 passes:  MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); MinPrefixSum = min(MinPrefixSum, PrefixSum);
 - [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- s1 = "abcde", s2 = "ace" The LCS is "ace" and its length is 3. 2dMatrix + if(text1[f-1] == text2[s-1]){ DP[f][s] = DP[f-1][s-1] + 1; }else{ DP[f][s] = max(DP[f-1][s], DP[f][s-1]); }
 
 ---
@@ -411,7 +411,7 @@
 <summary>Prefix sum (+ Subarray)</summary>    
 
 - [Check subarrays on sort](https://github.com/AlKiAl/leetcode_com/tree/main/Check%20subarrays%20on%20sort) -- 2 passes: 1 -- pref[i] = (a[i - 1] <= a[i]) ? 1 : 0; pref[i] += pref[i - 1]; | 2 -- make ans: (pref[r] - pref[l] == r - l) ? "Yes" : "No";
-- [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой. 1 passes: MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); MinPrefixSum = min(MinPrefixSum, PrefixSum);
+- [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой. 1 passes: PrefixSum += nums[i]; MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); MinPrefixSum = min(MinPrefixSum, PrefixSum);
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self)  -- ans[i] = product_nums / nums[i] = (prefix[i]) * (suffix[i]). 2 passes: 1 - LtoR : answer[i] = answer[i - 1] * nums[i - 1] | 2 - RtoL : suffix *= nums[i + 1]; answer[i] *= suffix;
 - [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- + u_m : Prefix -> Count. Total number of subarrays whose sum = k  
 - [325. Maximum Size Subarray Sum Equals k](https://github.com/AlKiAl/leetcode_com/tree/main/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20)
