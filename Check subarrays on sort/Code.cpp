@@ -5,7 +5,7 @@ using namespace std;
 // Функция для вычисления префиксного массива
 vector<int> computePrefix(const vector<int>& a) {
     int n = a.size();
-    vector<int> pref(n, 0); // count sign "<="
+    vector<int> pref(n, 0); // count sign "<=" in [a_l, ..., a_r]. Их количество равно r-l, ex: a[l] <= a[l + 1] <= a[l + 2]
     for (int i = 1; i < n; ++i) {
         pref[i] = (a[i - 1] <= a[i]) ? 1 : 0;
         pref[i] += pref[i - 1];
