@@ -12,3 +12,7 @@ https://walkccc.me/LeetCode/problems/325/
 | Nums 	|   	| 1 	| -1 	| 5 	| -2 	| 3 	|   	|
 
 https://ru.algorithmica.org/cs/range-queries/prefix-sum/
+
+- $PS_0 = 0$
+- $PS_l = \sum_{i=0}^{l-1}a_i : l \geq 1$
+- $PS_n - PS_k = f[a_k, ..., a_{n-1}]$
