@@ -432,7 +432,7 @@
 - [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой. 1 passes: PrefixSum += nums[i]; MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); MinPrefixSum = min(MinPrefixSum, PrefixSum);
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self)  -- (prefix[i]) * (suffix[i]) = ans[i] = product_nums / nums[i]. 2 passes: 1 - LtoR : answer[i] = answer[i - 1] * nums[i - 1] | 2 - RtoL : suffix *= nums[i + 1]; answer[i] *= suffix;
 - [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- Total number of subarrays whose sum = k. u_m : Prefix -> Count + 1 passes: PS += num; Ans += PtC[PS - RequiredAffix]; ++PtC[PS]; 
-- [325. Maximum Size Subarray Sum Equals k](https://github.com/AlKiAl/leetcode_com/tree/main/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k) -- 
+- [325. Maximum Size Subarray Sum Equals k](https://github.com/AlKiAl/leetcode_com/tree/main/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k) -- u_m : PSumToIdxPSum + 1 passes: target = prefix - k; if (PSumToIdxPSum.count(target) == 1){ ans = max(ans, i + 1 - PSumToIdxPSum[target]); } if (PSumToIdxPSum.count(prefix) == 0){ PSumToIdxPSum[prefix] = i + 1; }
   
   ---------------------------------------------------------------------------------------------------  
 
