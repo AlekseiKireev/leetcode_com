@@ -10,7 +10,7 @@ public:
 
         int Ans = 0;
         for(int num : nums){
-            CurrentModPrefixSum = (CurrentModPrefixSum + num%k + k)%k; // num%k + k необходим для обработки чисел           
+            CurrentModPrefixSum = (CurrentModPrefixSum + num%k + k)%k; // num%k + k необходим для обработки отцитаельных чисел:
 
             /* порядок двух нижележащих строк именно такой: 
             добавляем к ответу количество аффиксов, которые имеют CurrentModPrefixSum mod k
