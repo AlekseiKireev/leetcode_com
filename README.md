@@ -532,7 +532,7 @@
 
 Если не известна кодировка, то вместо vector придеnся использовать unordered_map
 
-- [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
+- [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4) -- 1 passes: for (char buf4[4]; totalRead < n && !eof;) { int currentRead = read4(buf4); if (currentRead < 4) {eof = true;} for (int i = 0; i < currentRead && totalRead < n; ++i) { buf[totalRead++] = buf4[i]; } } 
 - [205. Isomorphic Strings](https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  -- 1 passes: if(StoId[s[i]] !=TtoId[t[i]]){return false;} StoId[s[i]] = i; TtoId[t[i]] = i;
 - [459. Repeated Substring Pattern](https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern) -- check S == pattern + ... + pattern : {s.substr(1, size-1) + s.substr(0, size-1)}.find(s) != string::npos; 
 - [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  -- 2 passes: 1 - sort count, 2 - passes to str and check char_to_count[s[i]] == 1
