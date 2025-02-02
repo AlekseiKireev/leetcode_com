@@ -599,6 +599,14 @@
 
 <details>  
 <summary>Tree</summary>
+
+    class Node {
+    public:
+        int val;
+        Node* left;
+        Node* right;
+        Node* parent;
+    };
  
   <details>  
   <summary>LCA</summary>  
