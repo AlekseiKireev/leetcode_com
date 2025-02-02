@@ -434,12 +434,13 @@
 - [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- Total number of subarrays whose sum = k. u_m : Prefix -> Count + 1 passes: PS += num; Ans += PtC[PS - RequiredAffix]; ++PtC[PS]; 
 - [325. Maximum Size Subarray Sum Equals k](https://github.com/AlKiAl/leetcode_com/tree/main/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k) -- u_m : PSumToIdxPSum + 1 passes: target = prefix - k; if (PSumToIdxPSum.count(target) == 1){ ans = max(ans, i + 1 - PSumToIdxPSum[target]); } if (PSumToIdxPSum.count(prefix) == 0){ PSumToIdxPSum[prefix] = i + 1; }
   
-  ---------------------------------------------------------------------------------------------------  
+  ---------------------------------------------------------------------------------------------------
+  
+- vector<bool> ExistPS(k) или unordered_set<int> ExistPS зависит от размера k 
+- CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible : такая конструкция необходима для работы с отрицательными числами, т.к.  $1 \leqslant num$ % $k + k \leqslant k$
 
-  CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible : такая конструкция необходима для работы с отрицательными числами, т.к.  $1 \leqslant num$ % $k + k \leqslant k$
-
-- [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= S(=2).   
-- [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k
+ - [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= S(=2).   
+ - [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k
 
 </details>
 
