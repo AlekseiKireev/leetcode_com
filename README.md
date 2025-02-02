@@ -240,6 +240,17 @@
 <details>  
 <summary>List</summary>
 
+    /**
+     * Definition for singly-linked list.
+     * struct ListNode {
+     *     int val;
+     *     ListNode *next;
+     *     ListNode() : val(0), next(nullptr) {}
+     *     ListNode(int x) : val(x), next(nullptr) {}
+     *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+     * };
+     */
+
 - [How to Solve Linked List Problems (Leetcode Discussion)](https://leetcode.com/problems/add-two-numbers/solutions/1340/a-summary-about-how-to-solve-linked-list-problem-c/)  
 - Iterative:  
   - [2. Add Two Numbers](https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers)  
