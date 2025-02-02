@@ -137,7 +137,7 @@
 - [1143. Longest Common Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/1143.%20Longest%20Common%20Subsequence) -- D.P. : 2dMatrix + if(text1[f-1] == text2[s-1]){ DP[f][s] = DP[f-1][s-1] + 1; }else{ DP[f][s] = max(DP[f-1][s], DP[f][s-1]); }
 ---   
 - [161. One Edit Distance](https://github.com/AlKiAl/leetcode_com/tree/main/161.%20One%20Edit%20Distance) -- 1 passes: if(s[i] != t[i]){ return (SizeT == SizeS+1) ? t.substr(i+1) == s.substr(i) : t.substr(i+1) == s.substr(i+1) ; }
-- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. no more than min(|s1|,|s2|) editorial distance. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes (move T_Idx) : S_Idx += (s[S_Idx]  == t[T_Idx]); if(S_Idx == s.size()){return true;}. no more than min(|s1|,|s2|) editorial distance. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
 - [680. Valid Palindrome II](https://github.com/AlKiAl/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- проверить, может ли быть str палиндромом после удаления из него не более одного символа. Str ограничен алфавитом. if(s[L] != s[R]){ return (ChechkvalidPalindrome(s, L + 1, R) || ChechkvalidPalindrome(s, L, R - 1) ); } }
 
 </details>
@@ -536,7 +536,7 @@
 - [205. Isomorphic Strings](https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  -- 1 passes: if(StoId[s[i]] !=TtoId[t[i]]){return false;} StoId[s[i]] = i; TtoId[t[i]] = i;
 - [459. Repeated Substring Pattern](https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern) -- check S == pattern + ... + pattern : {s.substr(1, size-1) + s.substr(0, size-1)}.find(s) != string::npos; 
 - [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  -- 2 passes: 1 - sort count, 2 - passes to str and check char_to_count[s[i]] == 1
-- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes (move T_Idx) : S_Idx += (s[S_Idx]  == t[T_Idx]); if(S_Idx == s.size()){return true;} : S_Idx, . Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
 - [771. Jewels and Stones](https://github.com/AlKiAl/leetcode_com/tree/main/771.%20Jewels%20and%20Stones) -- подсчитать количество символов в `stones`, которые встречаются в `jewels`. 2 passes: 1 - fill vector\<bool\> JewelToExist | 2 - CountStones += JewelToExist[stone]
 
   <details>  
