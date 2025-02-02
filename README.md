@@ -436,7 +436,7 @@
   
   ---------------------------------------------------------------------------------------------------
   
-- vector<bool> ExistPS(k) или unordered_set<int> ExistPS зависит от размера k 
+- vector\<bool\> ExistPS(k) или unordered_set\<int\> ExistPS зависит от размера k 
 - CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible : такая конструкция необходима для работы с отрицательными числами, т.к.  $1 \leqslant num$ % $k + k \leqslant k$
 
  - [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= S(=2).   
