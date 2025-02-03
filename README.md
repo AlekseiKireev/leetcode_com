@@ -472,7 +472,8 @@
   <details>                
   <summary>Merge</summary>
 
-  - [617. Merge Two Binary Trees](https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees) -- PreOrder  
+  - [617. Merge Two Binary Trees](https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees) -- Если два узла перекрываются, то значения узлов суммируются как новое значение объединенного узла. 
+Иначе в качестве узла нового дерева будет использоваться ненулевой узел.  PreOrder: if(nodeI == nullptr){ return nodeJ; } node1->val += node2->val; node1->direct = Preorder(node1->direct, node2->direct);
   - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- iter  
   - [88. Merge Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array) -- iter  
 
