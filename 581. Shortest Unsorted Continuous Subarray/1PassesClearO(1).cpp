@@ -18,8 +18,7 @@ public:
 
         }
 
-        if(RightPtr == -1){return 0;}
-        return RightPtr - LeftPtr + 1;
+        return (RightPtr == -1) ? 0 : RightPtr - LeftPtr + 1;
 
     }
 };
