@@ -6,7 +6,10 @@ public:
         int FirstPtr  = m - 1;
         int SecondPtr = n - 1;        
         int IdxMergeArray = n + m - 1;
-
+        // nums1.resize(n+m); // решение в рамках in-place
+        
+        // "SecondPtr >= 0" т.к. надо записать данные в nums1 ввиду " stored inside the array nums 1. "
+        // т.е. как только числа в nums2 закончаться, в nums1 останеться отсортированный префикс
         for(; SecondPtr >= 0; --IdxMergeArray){
 
             if(FirstPtr >= 0 && /*теперь гарантируется, что FirstPtr >= 0 && SecondPtr >= 0, можем сравнить элементы*/
