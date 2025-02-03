@@ -259,7 +259,19 @@
 
   ---------------------------------------------------------------------------------------------------  
 
-- Recursive:  
+- Recursive:
+
+            // 1 passes        
+            if(list1->val < list2->val){
+                Cur->next = list1;
+                list1 = list1->next;
+            }else{
+                Cur->next = list2;
+                list2 = list2->next;            
+            }            
+            
+            Cur = Cur->next;
+
   - [21. Merge Two Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists)  
   - [23. Merge k Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists)  
 
