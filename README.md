@@ -477,8 +477,18 @@
   - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- iter 2 passes: 1 - sort | 2 - for(vector<int> & interval : intervals){ if( CheckIntersec(interval, Ans.back()) ){ Ans.back().back() = max(Ans.back().back(), interval.back()); }else{ Ans.push_back(interval); } }  
   - [88. Merge Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array) -- iter. 3 ptr: MergeIdx = n + m - 1, FirstPtr = m - 1, SecondPtr =  n - 1 + 1 passes: if(0 <= FirstPtr && nums2[SecondPtr] <= nums1[FirstPtr]){ nums1[MergeIdx--] = nums1[FirstPtr--]; }else{ nums1[MergeIdx--] = nums2[SecondPtr--]; }
 
-    ---------------------------------------------------------------------------------------------------          
-
+    ---------------------------------------------------------------------------------------------------
+            // 1 passes        
+            if(list1->val < list2->val){
+                Cur->next = list1;
+                list1 = list1->next;
+            }else{
+                Cur->next = list2;
+                list2 = list2->next;            
+            }            
+            
+            Cur = Cur->next;
+    
   - [21. Merge Two Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists) -- rec  
   - [23. Merge k Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists) -- rec                
 
