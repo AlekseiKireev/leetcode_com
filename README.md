@@ -323,8 +323,8 @@
   <details>  
   <summary>Intervals</summary>    
 
-   - [986. Interval List Intersections](https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections) -- sort + for(int P1 = 0, P2 = 0; P1 < L1.size() && P2 < L2.size(); ){ if( CheckIntersec(L1[P1], L2[P2]) ){ Ans.push_back({max(L1[P1].front(), L2[P2].front()), min(L1[P1].back(), L2[P2].back())}); } L1[P1].back() < L2[P2].back() ? ++P1 : ++P2; }
-   - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- sort +  for(vector<int> & interval : intervals){ if( CheckIntersec(interval, Ans.back()) ){ Ans.back().back() = max(Ans.back().back(), interval.back()); }else{ Ans.push_back(interval); } }
+   - [986. Interval List Intersections](https://github.com/SkosMartren/leetcode_com/tree/main/986.%20Interval%20List%20Intersections) -- 2 passes: 1 - sort | 2 - for(int P1 = 0, P2 = 0; P1 < L1.size() && P2 < L2.size(); ){ if( CheckIntersec(L1[P1], L2[P2]) ){ Ans.push_back({max(L1[P1].front(), L2[P2].front()), min(L1[P1].back(), L2[P2].back())}); } L1[P1].back() < L2[P2].back() ? ++P1 : ++P2; }
+   - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- 2 passes: 1 - sort | 2 - for(vector<int> & interval : intervals){ if( CheckIntersec(interval, Ans.back()) ){ Ans.back().back() = max(Ans.back().back(), interval.back()); }else{ Ans.push_back(interval); } }
    - [57. Insert Interval](https://github.com/AlKiAl/leetcode_com/tree/main/57.%20Insert%20Interval) -- 1: перед интервалами слияния нет перекрывающихся регистров. 2: есть пересечение intervals с newInterval. 3:  отсутствие перекрытия интервалов после объединения нового интервала
   - [435. Non-overlapping Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/435.%20Non-overlapping%20Intervals) -- find min cnt интервалов, которые нужно удалить, чтобы остальные интервалы не перекрывались. sort(intervals, return L[1] < R[1]) + 1 passes: if(intervals[CurIdxMeeting][1] <= intervals[i][0]){++ MaxCountMeeting;CurIdxMeeting=i}  --> ans = intervals.size() - MaxCountMeeting
 
@@ -474,7 +474,7 @@
 
   - [617. Merge Two Binary Trees](https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees) -- Если два узла перекрываются, то значения узлов суммируются как новое значение объединенного узла. 
 Иначе в качестве узла нового дерева будет использоваться ненулевой узел.  PreOrder: if(nodeI == nullptr){ return nodeJ; } node1->val += node2->val; node1->direct = Preorder(node1->direct, node2->direct);
-  - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- iter  
+  - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- iter 2 passes: 1 - sort | 2 - for(vector<int> & interval : intervals){ if( CheckIntersec(interval, Ans.back()) ){ Ans.back().back() = max(Ans.back().back(), interval.back()); }else{ Ans.push_back(interval); } }  
   - [88. Merge Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array) -- iter. 3 ptr: MergeIdx = n + m - 1, FirstPtr = m - 1, SecondPtr =  n - 1 + 1 passes: if(0 <= FirstPtr && nums2[SecondPtr] <= nums1[FirstPtr]){ nums1[MergeIdx--] = nums1[FirstPtr--]; }else{ nums1[MergeIdx--] = nums2[SecondPtr--]; }
 
     ---------------------------------------------------------------------------------------------------          
