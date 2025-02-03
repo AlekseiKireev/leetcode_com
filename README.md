@@ -487,11 +487,11 @@
   <details>  
   <summary>Counting</summary>   
   
-- 4 passes:
-- 1] u_m : Val --> Count  
-- 2] vector<pair> CountToVal
-- 3] sort top K Val
-- 4] make ans collecting Val
+    - 4 passes:
+    - 1] u_m : Val --> Count  
+    - 2] vector<pair> CountToVal
+    - 3] sort top K Val
+    - 4] make ans collecting Val
   
   - [347. Top K Frequent Elements](https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements) + nth_element + Hash table              
   - [692. Top K Frequent Words](https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words) + partial_sort + Hash table  
