@@ -63,8 +63,10 @@
   <details>  
   <summary>Summary Ranges (SR). Ex: [0,1,2,4,5,7] --> ["0->2","4->5","7"] </summary> 
     
-- [228. Summary Ranges](https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges) -- external loop: ++RightPtr, internal loop: ++RightPtr AND nums[RightPtr] == nums[RightPtr+1] - 1
-- [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) --> [128. Longest Consecutive Sequence](https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence) -- Length of the longest SR. + NumUnSet(arr.begin(), arr.end())
+- [228. Summary Ranges](https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges) -- given a sorted **unique** integer. external loop: ++RightPtr, internal loop: ++RightPtr AND nums[RightPtr] == nums[RightPtr+1] - 1
+- Length of the longest SR. + NumUnSet(arr.begin(), arr.end())
+ - [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) -->
+ - [128. Longest Consecutive Sequence](https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence) -- 
   </details>  
   
   <details>  
