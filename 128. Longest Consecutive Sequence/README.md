@@ -4,8 +4,8 @@ https://walkccc.me/LeetCode/problems/128/
 
 - Sort.cpp == sort + 228. Summary Ranges + Find LCS
 - Sol128BaseOnCompressRanges.cpp == u_s + Find LCS
-- MyCodeRanges.cpp == Подмассивы содержат последовательность последовательных элементов: [[3,4,5],[7,8,9,10,11]]
-- MyCodeCompressRanges.cpp == левую и правую числовую границу подмассива: [[3,5],[7,11]]
+- MyCodeRanges.cpp ==  u_s + Подмассивы содержат последовательность последовательных элементов: [[3,4,5],[7,8,9,10,11]]
+- MyCodeCompressRanges.cpp ==  u_s + левую и правую числовую границу подмассива: [[3,5],[7,11]]
 
 related:
 * https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted
