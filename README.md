@@ -472,7 +472,8 @@
 <details>  
 <summary>Sorted</summary>        
 
-- [274. H-Index](https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index) -- Индекс хирша определяется как максимальное значение h, при котором данный исследователь опубликовал не менее h статей, каждая из которых цитировалась не менее h раз  
+- [274. H-Index](https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index) -- Индекс хирша определяется как максимальное значение h, при котором данный исследователь опубликовал не менее h статей, каждая из которых цитировалась не менее h раз. 2 passes:
+  1 -- buck[min(n,citation)]++ | 2 -- RtoL: cnt += buck[i]; if(cnt >= i) { return i; }
 - [128. Longest Consecutive Sequence](https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence) -- Length of the longest consecutive elements seq. if seq. it will be sorted
 - [215. Kth Largest Element in an Array](https://github.com/AlKiAl/leetcode_com/tree/main/215.%20Kth%20Largest%20Element%20in%20an%20Array) -- == nth_element  
 - [977. Squares of a Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array) -- 3 ptr: LeftBorder = 0, RightBorder = nums.size() - 1, i = nums.size() - 1; ans[i] = nums[Border] * nums[Border]   
