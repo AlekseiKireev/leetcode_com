@@ -1,24 +1,24 @@
 class Solution {
 public:
-    int maxPower(const std::string& s) {
+    int maxPower(const string& s) {
+        
+        if(s.empty()){return 0;}
+
+        int count = 1;
+        int maxCount = 1;
+        char previous = s.front();
       
-        int count = 0;
-        int maxCount = 0;
-        char previous = ' ';
-      
-        for (size_t i = 0; i < s.length(); ++i) {
+        for (size_t i = 1; i < s.size(); ++i) {
           
             char c = s[i];
             if (c == previous) {
-                // if same as previous one, increase the count
                 count++;
             } else {
-                // else, reset the count
                 count = 1;
                 previous = c;
             }
           
-            maxCount = std::max(maxCount, count);
+            maxCount = max(maxCount, count);
         }
       
         return maxCount;
