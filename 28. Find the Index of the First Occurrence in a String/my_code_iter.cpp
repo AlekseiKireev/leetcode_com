@@ -6,8 +6,8 @@ public:
             return 0;
         }
 
-        int haystackLen = haystack.length();
-        int needleLen = needle.length();
+        int haystackLen = haystack.size();
+        int needleLen = needle.size();
 
         if (haystackLen < needleLen) {
             return -1;
