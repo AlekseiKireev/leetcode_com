@@ -659,6 +659,13 @@
     ---  
 
   Возвращает длину самой длинной подстроки `s`, содержащей не более `k` различных символов:
+
+            if(++CharToCountInWIndow[s[RightPtr]]  == 1){++PowerUniqueCharWindow;}
+
+            for(;PowerUniqueCharWindow == k + 1; ++LeftPtr){
+                if(--CharToCountInWIndow[s[LeftPtr]]  == 0){--PowerUniqueCharWindow;}
+            }
+
   - [159. Longest Substring with At Most Two Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters) <-- [340. Longest Substring with At Most K Distinct Characters](https://github.com/SkosMartren/leetcode_com/tree/main/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters) -- S.W.  
 
   </details>                            
