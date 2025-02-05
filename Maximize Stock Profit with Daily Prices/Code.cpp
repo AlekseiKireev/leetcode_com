@@ -7,7 +7,7 @@ int maximizeProfit(const std::vector<int>& prices) {
     int mx = 0, ans = 0;
 
     for (int i = n - 1; i >= 0; --i) {
-        mx = std::max(mx, prices[i]);
+        mx = max(mx, prices[i]);
         ans += mx;
     }
 
