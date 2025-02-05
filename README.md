@@ -572,10 +572,20 @@
   <details>  
   <summary>Reverse</summary>    
 
-  - [344. Reverse String](https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String) -- T.P: L = i, R = s.size() - 1 - i == reverse 
-  - [151. Reverse Words in a String](https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String) -- cleanSpaces: separator must be one space. The separator can be more than one space by condition  
-  - [186. Reverse Words in a String II](https://github.com/AlKiAl/leetcode_com/tree/main/186.%20Reverse%20Words%20in%20a%20String%20II) -- without cleanSpaces. The separator can be more than one space by condition  
-  - [557. Reverse Words in a String III](https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III) -- T.P. . the separator is by condition one space  
+  - [344. Reverse String](https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String) -- == reverse. T.P: L = i, R = s.size() - 1 - i 
+  - [151. Reverse Words in a String](https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String) -- cleanSpaces: separator must be one space. The separator can be more than one space by condition  Ex: "  hello world  " --> "world hello"
+
+        // reverse(s.begin(), s.end()); // Реверс всего массива для 186. Для 557 он не нужен
+        int start = 0;
+        for (int i = 0; i <= s.size(); ++i) { // <= s.size() для обработки последнего слова
+            if (i == s.size() || s[i] == ' ') {
+                reverse(s.begin() + start, s.begin() + i);
+                start = i + 1;
+            }
+        }
+
+  - [186. Reverse Words in a String II](https://github.com/AlKiAl/leetcode_com/tree/main/186.%20Reverse%20Words%20in%20a%20String%20II) --  Ex: "hello world" --> "world hello"
+  - [557. Reverse Words in a String III](https://github.com/SkosMartren/leetcode_com/tree/main/557.%20Reverse%20Words%20in%20a%20String%20III) --  Ex: "hello world" --> "olleh dlrow"
 
   </details>           
 
