@@ -573,7 +573,7 @@
   <summary>Reverse</summary>    
 
   - [344. Reverse String](https://github.com/SkosMartren/leetcode_com/tree/main/344.%20Reverse%20String) -- == reverse. T.P: L = i, R = s.size() - 1 - i 
-  - [151. Reverse Words in a String](https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String) -- cleanSpaces: separator must be one space. The separator can be more than one space by condition  Ex: "  hello world  " --> "world hello"
+  - [151. Reverse Words in a String](https://github.com/AlKiAl/leetcode_com/tree/main/151.%20Reverse%20Words%20in%20a%20String) -- cleanSpaces: separator must be one space. The separator can be more than one space by condition  Ex: "  hello   world    " --> "world hello"
 
         // reverse(s.begin(), s.end()); // Реверс всего массива для 186. Для 557 он не нужен
         int start = 0;
