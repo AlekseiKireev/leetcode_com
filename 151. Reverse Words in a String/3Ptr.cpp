@@ -25,6 +25,6 @@ public:
         }
 
         //s.resize(right - 1); // необходим, если данные передаются по ссылке
-        return s.substr(0,right - 1);
+        return s.substr(0,right - 1); // "-1" т.к. указывает на пробел
     }
 };
