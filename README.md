@@ -603,8 +603,8 @@
   - [242. Valid Anagram](https://github.com/SkosMartren/leetcode_com/tree/main/242.%20Valid%20Anagram) + passes two
   ---
   - для обеих задач характерно использование сортировки строк подсчетом / явной, с целью отображать  SortStr в количество Str / множество Str
-  - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  -- 2 passes: 1 - un_map : SortStrToAnagrams, 2 - make ans
-  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- 1 passes: unordered_map<vector<int>, int, VectorHash> freqToCount + sort (counting) для freq
+    - [49. Group Anagrams](https://github.com/SkosMartren/leetcode_com/tree/main/49.%20Group%20Anagrams)  -- 2 passes: 1 - un_map : SortStrToAnagrams, 2 - make ans
+    - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- 1 passes: unordered_map<vector<int>, int, VectorHash> freqToCount + sort (counting) для freq
   ---
   - 2 passes: 1 - for(char ch : Angr){ --CharAngrToCount[ch]; } | 2 - 2 ptr + filling S.W:
 
