@@ -796,7 +796,8 @@
   - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
   - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string)
   - [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами
-
+  - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- 1 passes: unordered_map<vector<int>, int, VectorHash> freqToCount + sort (counting) для freq
+      
   </details>
 
   <details>  
