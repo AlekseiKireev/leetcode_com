@@ -166,7 +166,7 @@
   - [121. Best Time to Buy and Sell Stock](https://github.com/SkosMartren/leetcode_com/tree/main/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) -- одно из лучших предложений. MaximumProfit = max(MaximumProfit, prices[i] - MinPrice);  
   - [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/AlKiAl/leetcode_com/tree/main/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee) --> [122. Best Time to Buy and Sell Stock II](https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) --максимальная прибыль, которую вы можете получить. hold = max(hold, profit - price); profit = max(profit, hold + price - fee);  
   - [123. Best Time to Buy and Sell Stock III](https://github.com/AlKiAl/leetcode_com/tree/main/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III) -- максимальную прибыль, которую вы можете получить, совершив не более двух сделок. max <-- TotalProfit = prices[n] - prices[m] + p1 == y - (x-p1) : (x-p1) == prices[i] - profit1 --> min
-  - [Maximize Stock Profit with Daily Prices](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Stock%20Profit%20with%20Daily%20Prices) -- Каждый день вы выпускаете одну единицу товара и отправление в склад. В i-тый день вы можете продать определенное количество товаров из склада по стоимости ai. RtoL mx = max(mx, prices[i]); ans += mx;
+  - [Maximize Stock Profit with Daily Prices](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Stock%20Profit%20with%20Daily%20Prices) -- Каждый день вы выпускаете одну единицу товара и отправление в склад. В i-тый день вы можете продать определенное количество товаров из склада по стоимости ai. RtoL : mx = max(mx, prices[i]); ans += mx;
 
 </details>
 
@@ -803,6 +803,7 @@
   <details>  
   <summary>Array</summary>    
 
+  - [Maximize Stock Profit with Daily Prices](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Stock%20Profit%20with%20Daily%20Prices) -- Каждый день вы выпускаете одну единицу товара и отправление в склад. В i-тый день вы можете продать определенное количество товаров из склада по стоимости ai. RtoL : mx = max(mx, prices[i]); ans += mx;
   - [Check subarrays on sort](https://github.com/AlKiAl/leetcode_com/tree/main/Check%20subarrays%20on%20sort) -- 2 passes: 1 -- pref[i] = (a[i - 1] <= a[i]) ? 1 : 0; pref[i] += pref[i - 1]; | 2 -- make ans: (pref[r] - pref[l] == r - l) ? "Yes" : "No";
   - [Find elements in first sequence not in second (two pointers)](https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers) -- return all val difference  
   - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- List + mapping (такая связка используется для быстрого удаления из середины по итератору). Вернуть первый уникальный элемент из префикса чисел
