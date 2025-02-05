@@ -810,6 +810,7 @@
   - [Find K Closest Elements with exist x](https://github.com/AlKiAl/leetcode_com/tree/main/Find%20K%20Closest%20Elements%20with%20exist%20arr%5Bi%5D=x%20) -- 2 ptr: L = index - 1 R = index + 1
 
   </details>    
+</details>    
 
 
 <details>  
