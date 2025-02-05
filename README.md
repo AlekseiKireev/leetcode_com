@@ -654,7 +654,7 @@
     ---  
 
   - [Remove All Occurrences of a Substring by pattern](https://github.com/AlKiAl/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern) -- Удаляются все, помимо образовавшихся после удаления  
-  - [1910. Remove All Occurrences of a Substring](https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring) -- Удаляются все, в том числе образовавшиеся после удаления  
+  - [1910. Remove All Occurrences of a Substring](https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring) -- Удаляются все, в том числе образовавшиеся после удаления. text[writeIdx++] = text[readIdx]; if (writeIdx >= PatSize && text.substr(writeIdx - PatSize, PatSize) == pattern) { writeIdx -= PatSize; }  
 
     ---  
 
