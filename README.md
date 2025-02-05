@@ -631,7 +631,7 @@
   <summary>Substring</summary>    
     
   - [28. Find the Index of the First Occurrence in a String](https://github.com/SkosMartren/leetcode_com/tree/main/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String) -- Find index of start substring in string. 1 passes + 2 ptr: int RightPtr = 0; for (; RightPtr < needleLen; ++RightPtr) { if (haystack[LeftPtr + RightPtr] != needle[RightPtr]) { break; } } if (RightPtr == needleLen) { return LeftPtr; }
-  - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs) -- 2 ptr: if (IsDelPattern) { char del = s[i + 2]; i += 3; for(;i < s.size() && s[i] == del; i++); } else { s[writeIdx++] = s[i++]; }
+  - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs) -- 2 ptr: 
   - [395. Longest Substring with At Least K Repeating Characters](https://github.com/AlKiAl/leetcode_com/tree/main/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters) -- Самая длинная подстрока, содержащая не менее K повторяющихся символов. external loop: int targetUniq = 1; targetUniq <= maxUniqueCharacters; ++targetUniq; internal loop: int left = 0, right = 0; right < str.size();
     
     ---    
@@ -797,7 +797,8 @@
   - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string)
   - [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами
   - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- 1 passes: unordered_map<vector<int>, int, VectorHash> freqToCount + sort (counting) для freq
-      
+  - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs)
+          
   </details>
 
   <details>  
