@@ -648,8 +648,8 @@
 
     ---  
 
-  - [424. Longest Repeating Character Replacement](https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement) -- Самая длинная подстрока с одинаковыми символами не более чем после k flip. S.W. + CharToCountInWindow + MaxCountRepeatSymb.  
-  - [1446. Consecutive Characters](https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters) -- T.P. . Find max substring with same symbols  
+  - [424. Longest Repeating Character Replacement](https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement) -- Самая длинная подстрока с одинаковыми символами не более чем после k flip. S.W. CharToCountInWindow + MaxCountRepeatSymb + 1 passes: if ((RightPtr - LeftPtr + 1) - MaxCountRepeatSymb == k + 1) { --CharToCountInWindow[s[LeftPtr]]; ++LeftPtr; }
+  - [1446. Consecutive Characters](https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters) --Find max substring with same symbols. 1 passes: if (c == previous) { count++; } else { count = 1; previous = c; }
 
     ---  
 
