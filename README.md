@@ -565,7 +565,7 @@
 Если не известна кодировка, то вместо vector придеnся использовать unordered_map
 
 - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string) -- 3 passes: 1 - CountReplCh | 2 - resize(STR_SIZE + (REPLSTR_SIZE - 1)*CountReplCh) | 3(--OldPtr) - 2 ptr : if(Str[OldPtr] == ReplCh){ for(char ch : ReplStr){ Str[NewPtr--] = ch; } }else{ Str[NewPtr--] = Str[OldPtr]; }
-- [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами
+- [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами. xPos = -1, yPos = -1 + 1 passes (0,...,n): если найден один из символов обновляем индекс. Если до этого найден индекс иного символа, обновляем ответ.
 - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4) -- 1 passes: for (char buf4[4]; totalRead < n && !eof;) { int currentRead = read4(buf4); if (currentRead < 4) {eof = true;} for (int i = 0; i < currentRead && totalRead < n; ++i) { buf[totalRead++] = buf4[i]; } } 
 - [205. Isomorphic Strings](https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  -- 1 passes: if(StoId[s[i]] !=TtoId[t[i]]){return false;} StoId[s[i]] = i; TtoId[t[i]] = i;
 - [459. Repeated Substring Pattern](https://github.com/SkosMartren/leetcode_com/tree/main/459.%20Repeated%20Substring%20Pattern) -- check S == pattern + ... + pattern : {s.substr(1, size-1) + s.substr(0, size-1)}.find(s) != string::npos; 
@@ -800,7 +800,7 @@
   - [Remove All Occurrences of a Substring by pattern](https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern) -- Удаляются все, помимо образовавшихся после удаления. if (FindDelPattern) { char del = s[i + 2]; i += 3; for(;i < s.size() && s[i] == del; i++); } else { s[writeIdx++] = s[i++]; }
   - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
   - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string) -- 3 passes: 1 - CountReplCh | 2 - resize(STR_SIZE + (REPLSTR_SIZE - 1)*CountReplCh) | 3(--OldPtr) - 2 ptr : if(Str[OldPtr] == ReplCh){ for(char ch : ReplStr){ Str[NewPtr--] = ch; } }else{ Str[NewPtr--] = Str[OldPtr]; }
-  - [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами
+  - [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами. xPos = -1, yPos = -1 + 1 passes (0,...,n): если найден один из символов обновляем индекс. Если до этого найден индекс иного символа, обновляем ответ.
   - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- 1 passes: unordered_map<vector<int>, int, VectorHash> freqToCount + sort (counting) для freq
   - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs)
           
