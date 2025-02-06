@@ -312,9 +312,9 @@
 </details>
 
 <details>  
-<summary>Operations on sets [Arrays + Intervals]</summary>
+<summary>Operations on sets [Arrays + Intervals --> scan line]</summary>
  
- -   q 
+
   <details>  
   <summary>Arrays</summary>    
     
