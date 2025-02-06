@@ -21,7 +21,9 @@ int countSubarraysWithSubsequence(const vector<int>& a, const vector<int>& b) {
         for (int r = l; r < n; ++r) {
             if (a[r] == b[cnt]) {
                 ++cnt;
-            }
+            } /*обнулять надо?*/
+            /*else{cnt = 0;}*/
+            
             if (cnt == m) {
                 // Для каждой найденной правой границы r добавляем все возможные левые границы
                 for (int j = 0; j <= l; ++j) {
