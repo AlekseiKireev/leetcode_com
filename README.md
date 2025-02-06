@@ -797,7 +797,7 @@
   <details>  
   <summary>(Sub)string</summary>    
 
-  - [Remove All Occurrences of a Substring by pattern](https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern)  
+  - [Remove All Occurrences of a Substring by pattern](https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern) -- Удаляются все, помимо образовавшихся после удаления. if (FindDelPattern) { char del = s[i + 2]; i += 3; for(;i < s.size() && s[i] == del; i++); } else { s[writeIdx++] = s[i++]; }
   - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
   - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string) -- 3 passes: 1 - CountReplCh | 2 - resize(STR_SIZE + (REPLSTR_SIZE - 1)*CountReplCh) | 3(--OldPtr) - 2 ptr : if(Str[OldPtr] == ReplCh){ for(char ch : ReplStr){ Str[NewPtr--] = ch; } }else{ Str[NewPtr--] = Str[OldPtr]; }
   - [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами
