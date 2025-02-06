@@ -21,7 +21,7 @@ int findShortestDistance(const std::string& str) {
         }
     }
 
-    return minDistance == INT_MAX ? 0 : minDistance;
+    return minDistance == str.size() + 1 ? 0 : minDistance;
 }
 
 int main() {
