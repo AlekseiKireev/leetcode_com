@@ -58,7 +58,7 @@
 
 
 <details>  
-<summary>Data compression (Summary Ranges + Кодирование длин серий) </summary>
+<summary>Data compression [Summary Ranges + Кодирование длин серий] </summary>
  (One passes + 2 ptr)
   <details>  
   <summary>Summary Ranges (SR). Ex: [0,1,2,4,5,7] --> ["0->2","4->5","7"] </summary> 
@@ -80,7 +80,7 @@
 </details>
 
 <details>  
-<summary>Design (Counter + Data Structure)</summary>        
+<summary>Design [Counter + Data Structure]</summary>        
 
 - [2241. Design an ATM Machine](https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine)  -- В начале копируем текущее состояние счета, на случай, если снять не удасться, внесем эти данные счета обратно. 
 Итерируемся от большей валюты к меньшей, снимаем min(amount / denominations[i], BankAccount[i])
@@ -241,7 +241,7 @@
 </details>
 
 <details>  
-<summary>List</summary>
+<summary>List [Cycle Detection (Floyd's Algorithm == Slow & Fast Pointer)]</summary>
 
     /**
      * Definition for singly-linked list.
