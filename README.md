@@ -540,6 +540,7 @@
 - https://leetcode.com/problems/remove-k-digits/description/
 --- 
 
+    // 1 passes
     // Обновляем дек для минимума / максимума
     while (!ExtremDeque.empty() && nums[i] <=/=> nums[ExtremDeque.back()]) {
         ExtremDeque.pop_back();
@@ -552,7 +553,7 @@
     }
 
 - [239. Sliding Window Maximum](https://github.com/SkosMartren/leetcode_com/tree/main/239.%20Sliding%20Window%20Maximum) -- Max vals from S.W. length k.  + S.W.Min + S.W.Max on random length subarray  
-- [Longest Subarray s = {a[i], ..., a[j]} with max(s) - min(s) <= k](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20s%20%3D%20%7Ba%5Bi%5D%2C%20...%2C%20a%5Bj%5D%7D%20with%20max(s)%20-%20min(s)%20%3C%3D%20k)
+- [Longest Subarray s = {a[i], ..., a[j]} with max(s) - min(s) <= k](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20s%20%3D%20%7Ba%5Bi%5D%2C%20...%2C%20a%5Bj%5D%7D%20with%20max(s)%20-%20min(s)%20%3C%3D%20k) -- 1 passes: Обновляем дек min/max, проверяем max(s) - min(s) > k + проверка индексов из minDeque/maxDeque на выход за границу [left, right]
   
 </details>
 
