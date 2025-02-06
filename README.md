@@ -790,6 +790,7 @@
 
 - Дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем  
 
+     
   <details>  
   <summary>(Sub)string</summary>    
 
@@ -804,7 +805,8 @@
 
   <details>  
   <summary>Array</summary>    
-
+  
+  - [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) -- given a *unsorted* **unique** integer. NumUnSet(arr.begin(), arr.end()) + 1 passes: int left = num; int right = num; for (;NumUnSet.find(left - 1) != NumUnSet.end(); left--); for (; NumUnSet.find(right + 1) != NumUnSet.end(); right++); NumUnSet.erase(left ,..., right);
   - [Longest Subarray s = {a[i], ..., a[j]} with max(s) - min(s) <= k](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20s%20%3D%20%7Ba%5Bi%5D%2C%20...%2C%20a%5Bj%5D%7D%20with%20max(s)%20-%20min(s)%20%3C%3D%20k) -- 1 passes: Обновляем дек min/max, проверяем max(s) - min(s) > k + проверка индексов из minDeque/maxDeque на выход за границу [left, right]
   - [Maximize Pair (i,j) : k * a\[i\] <= a\[j\] Removals](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Pair%20k%20*%20a%5Bi%5D%20%3C=%20a%5Bj%5D%20Removals) -- 1 passes (2 ptr): i = 0, j = n - 1; if (k * a[i] <= a[j]) { Ans += 2; ++i; --j; } else { --j; }  
   - [Maximize Stock Profit with Daily Prices](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Stock%20Profit%20with%20Daily%20Prices) -- Каждый день вы выпускаете одну единицу товара и отправление в склад. В i-тый день вы можете продать определенное количество товаров из склада по стоимости ai. RtoL : mx = max(mx, prices[i]); ans += mx;
