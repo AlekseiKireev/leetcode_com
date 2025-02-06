@@ -16,6 +16,8 @@ int countSubarraysWithSubsequence(const vector<int>& a, const vector<int>& b) {
                 ++cur;
                 if (cur == m) {  // Полностью нашли b в a[i:j]
                     total += (i + 1 - previous) * (n - j);
+                    // (n - j) даёт количество возможных правых границ для подотрезков, начиная с j.
+                    // (i + 1 - previous) даёт количество возможных левых границ, начиная от previous и до i.
                     break;
                 }
             }
