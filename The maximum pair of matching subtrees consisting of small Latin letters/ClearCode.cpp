@@ -27,7 +27,7 @@ struct VectorHash {
 };
 
 unordered_map<TreeNode*, int> NodeToCntChild;
-unordered_map<vector<bool>, pair<TreeNode*, TreeNode*>, VectorHash> SetNodesToParent;
+unordered_map<vector<bool>, pair<TreeNode*, TreeNode*>, VectorHash> SetNodesToParent; // 2 Parent ввиду того, что надо найти две вершины
 
 
 int calculateCountChildren(TreeNode* node) {
@@ -76,7 +76,7 @@ vector<bool> PostOrder (TreeNode* node) {
     return current;
 };
 
-
+// calculateCountChildren{NodeToCntChild} + findEqualSubtrees {PostOrder}
 pair<TreeNode*, TreeNode*> findEqualSubtrees(TreeNode* root) {
     PostOrder(root);
 
