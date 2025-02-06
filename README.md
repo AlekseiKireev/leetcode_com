@@ -725,7 +725,7 @@
   - [110. Balanced Binary Tree](https://github.com/SkosMartren/leetcode_com/tree/main/110.%20Balanced%20Binary%20Tree) -- PostOrder
   --- 
   - [222. Count Complete Tree Nodes](https://github.com/AlKiAl/leetcode_com/tree/main/222.%20Count%20Complete%20Tree%20Nodes) -- PostOrder. Cnt child for each node
-  - [The maximum pair of matching subtrees consisting of small Latin letters](https://github.com/AlKiAl/leetcode_com/tree/main/The%20maximum%20pair%20of%20matching%20subtrees%20consisting%20of%20small%20Latin%20letters)
+  - [The maximum pair of matching subtrees consisting of small Latin letters](https://github.com/AlKiAl/leetcode_com/tree/main/The%20maximum%20pair%20of%20matching%20subtrees%20consisting%20of%20small%20Latin%20letters) -- u_m NodeToCntChild + SetNodesToParent + calculateCountChildren(){NodeToCntChild} + findEqualSubtrees() {PostOrder()}
   
   </details>
 <br>   
@@ -789,7 +789,7 @@
 <summary>Yandex</summary>    
 
 - Дана доска размера N на N, на ней конь, некоторые клетки запрещены, на них конь не наступает, надо поменить все клетки, достижимые конем  
-
+- [The maximum pair of matching subtrees consisting of small Latin letters](https://github.com/AlKiAl/leetcode_com/tree/main/The%20maximum%20pair%20of%20matching%20subtrees%20consisting%20of%20small%20Latin%20letters) -- u_m NodeToCntChild + SetNodesToParent + calculateCountChildren(){NodeToCntChild} + findEqualSubtrees() {PostOrder()}
      
   <details>  
   <summary>(Sub)string</summary>    
