@@ -564,7 +564,7 @@
 
 Если не известна кодировка, то вместо vector придеnся использовать unordered_map
 
-- [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string)
+- [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string) -- 3 passes: 1 - CountReplCh | 2 - resize(STR_SIZE + (REPLSTR_SIZE - 1)*CountReplCh) | 3(--OldPtr) - 2 ptr : if(Str[OldPtr] == ReplCh){ for(char ch : ReplStr){ Str[NewPtr--] = ch; } }else{ Str[NewPtr--] = Str[OldPtr]; }
 - [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами
 - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4) -- 1 passes: for (char buf4[4]; totalRead < n && !eof;) { int currentRead = read4(buf4); if (currentRead < 4) {eof = true;} for (int i = 0; i < currentRead && totalRead < n; ++i) { buf[totalRead++] = buf4[i]; } } 
 - [205. Isomorphic Strings](https://github.com/AlKiAl/leetcode_com/tree/main/205.%20Isomorphic%20Strings)  -- 1 passes: if(StoId[s[i]] !=TtoId[t[i]]){return false;} StoId[s[i]] = i; TtoId[t[i]] = i;
@@ -799,7 +799,7 @@
 
   - [Remove All Occurrences of a Substring by pattern](https://github.com/SkosMartren/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern)  
   - [157. Read N Characters Given Read4](https://github.com/SkosMartren/leetcode_com/tree/main/157.%20Read%20N%20Characters%20Given%20Read4)  
-  - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string)
+  - [Replace char on string](https://github.com/SkosMartren/leetcode_com/tree/main/replace%20char%20on%20string) -- 3 passes: 1 - CountReplCh | 2 - resize(STR_SIZE + (REPLSTR_SIZE - 1)*CountReplCh) | 3(--OldPtr) - 2 ptr : if(Str[OldPtr] == ReplCh){ for(char ch : ReplStr){ Str[NewPtr--] = ch; } }else{ Str[NewPtr--] = Str[OldPtr]; }
   - [the distance between two characters](https://github.com/AlKiAl/leetcode_com/tree/main/the%20distance%20between%20two%20characters) -- экстремальное значение расстояний между двумя символами
   - [Anagram Pair Count](https://github.com/AlKiAl/leetcode_com/tree/main/Anagram%20Pair%20Count) -- 1 passes: unordered_map<vector<int>, int, VectorHash> freqToCount + sort (counting) для freq
   - [Longest Subarray With no more K Char Pairs](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20With%20no%20more%20K%20Char%20Pairs)
