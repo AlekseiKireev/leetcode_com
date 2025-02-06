@@ -805,7 +805,8 @@
 
   <details>  
   <summary>Array</summary>    
-  
+
+  - [Number of Unique Prefix Intersections](https://github.com/AlKiAl/leetcode_com/tree/main/Number%20of%20Unique%20Prefix%20Intersections) -- 2/3 un_set + 1 passes: check intersection + make ans  
   - [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа. unordered_map<int, int> NumToCount + 1 passes: check NumToCount[target - num] > 0
   - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence) -- найти наибольшую Len и LeftIdx <--> {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего И строго убывающего подмассива. if (nums[i] > nums[i - 1]) { // increased } else if (nums[i] < nums[i - 1]) { // decreased } else { // reset inc / dec, upd Idx }
   - [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) -- given a *unsorted* **unique** integer. NumUnSet(arr.begin(), arr.end()) + 1 passes: int left = num; int right = num; for (;NumUnSet.find(left - 1) != NumUnSet.end(); left--); for (; NumUnSet.find(right + 1) != NumUnSet.end(); right++); NumUnSet.erase(left ,..., right);
