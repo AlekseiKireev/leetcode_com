@@ -76,7 +76,7 @@ vector<bool> PostOrder (TreeNode* node) {
     return current;
 };
 
-// calculateCountChildren{NodeToCntChild} + findEqualSubtrees {PostOrder}
+// calculateCountChildren(){NodeToCntChild} + findEqualSubtrees() {PostOrder()}
 pair<TreeNode*, TreeNode*> findEqualSubtrees(TreeNode* root) {
     PostOrder(root);
 
