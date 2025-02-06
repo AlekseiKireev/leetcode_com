@@ -177,12 +177,12 @@
 - [18. 4Sum](https://github.com/AlKiAl/leetcode_com/tree/main/18.%204Sum) -- return all unique the Quadruplets [nums[i], nums[j], nums[k], nums[l]] : nums[i] + nums[j] + nums[k] + nums[l] == target
 --- 
 - fix it `i` then j = i + 1; k = nums.size() - 1; --> (Sum3 < target) ? ++j : --k;
-- [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum) --  return all unique the triplets [nums[i], nums[j], nums[k]] : nums[i] + nums[j] + nums[k] == target
-- [16. 3Sum Closest](https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest) -- Return the sum of the three integers closest to target
+  - [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum) --  return all unique the triplets [nums[i], nums[j], nums[k]] : nums[i] + nums[j] + nums[k] == target
+  - [16. 3Sum Closest](https://github.com/SkosMartren/leetcode_com/tree/main/16.%203Sum%20Closest) -- Return the sum of the three integers closest to target
 --- 
 - unordered_map<int, int> NumToCount + 1 passes: check NumToCount[target - num] > 0
-- [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа
-- [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs) --Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) УДАЛЯЕТСЯ после учета их для ответа
+  - [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа
+  - [1679. Max Number of K-Sum Pairs](https://github.com/SkosMartren/leetcode_com/tree/main/1679.%20Max%20Number%20of%20K-Sum%20Pairs) --Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) УДАЛЯЕТСЯ после учета их для ответа
 
 ---  
 
@@ -804,7 +804,8 @@
 
   <details>  
   <summary>Array</summary>    
-
+  
+[count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа. unordered_map<int, int> NumToCount + 1 passes: check NumToCount[target - num] > 0
   - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence) -- найти наибольшую Len и LeftIdx <--> {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего И строго убывающего подмассива. if (nums[i] > nums[i - 1]) { // increased } else if (nums[i] < nums[i - 1]) { // decreased } else { // reset inc / dec, upd Idx }
   - [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) -- given a *unsorted* **unique** integer. NumUnSet(arr.begin(), arr.end()) + 1 passes: int left = num; int right = num; for (;NumUnSet.find(left - 1) != NumUnSet.end(); left--); for (; NumUnSet.find(right + 1) != NumUnSet.end(); right++); NumUnSet.erase(left ,..., right);
   - [Longest Subarray s = {a[i], ..., a[j]} with max(s) - min(s) <= k](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20s%20%3D%20%7Ba%5Bi%5D%2C%20...%2C%20a%5Bj%5D%7D%20with%20max(s)%20-%20min(s)%20%3C%3D%20k) -- 1 passes: Обновляем дек min/max, проверяем max(s) - min(s) > k + проверка индексов из minDeque/maxDeque на выход за границу [left, right]
