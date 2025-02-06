@@ -80,7 +80,7 @@
 </details>
 
 <details>  
-<summary>Design</summary>        
+<summary>Design (Counter + Data Structure)</summary>        
 
 - [2241. Design an ATM Machine](https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine)  -- В начале копируем текущее состояние счета, на случай, если снять не удасться, внесем эти данные счета обратно. 
 Итерируемся от большей валюты к меньшей, снимаем min(amount / denominations[i], BankAccount[i])
