@@ -558,7 +558,7 @@
 
 
 <details>  
-<summary>(Sub)string</summary>                
+<summary>(Sub)string [Reverse + Math + Anagram + Substring]</summary>                
 
 Если не известна кодировка, то вместо vector придеnся использовать unordered_map
 
