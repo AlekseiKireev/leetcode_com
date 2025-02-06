@@ -9,6 +9,7 @@ std::vector<int> count_prefix_intersections(const std::vector<int>& a, const std
 
     for (size_t i = 0; i < a.size(); ++i) {
         // Добавляем элементы в соответствующие множества
+        // true, если элемент новый
         bool new_in_a = set_a.insert(a[i]).second;
         bool new_in_b = set_b.insert(b[i]).second;
 
