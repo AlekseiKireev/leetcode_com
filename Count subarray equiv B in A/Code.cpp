@@ -14,7 +14,7 @@ struct PairHash {
 
 int countSubarraysWithSubsequence(const vector<int>& a, const vector<int>& b) {
     int n = a.size(), m = b.size();
-    unordered_set<pair<int, int>, PairHash> unique_subarrays;
+    unordered_set<pair<int, int>, PairHash> IdxUniqueSybarrays;
 
     for (int l = 0; l < n; ++l) {
         int cnt = 0; // Количество совпавших элементов из b
@@ -25,14 +25,14 @@ int countSubarraysWithSubsequence(const vector<int>& a, const vector<int>& b) {
             if (cnt == m) {
                 // Для каждой найденной правой границы r добавляем все возможные левые границы
                 for (int j = 0; j <= l; ++j) {
-                    unique_subarrays.emplace(j, r);
+                    IdxUniqueSybarrays.emplace(j, r);
                 }
 
             }
         }
     }
 
-    return unique_subarrays.size();
+    return IdxUniqueSybarrays.size();
 }
 
 int main() {
