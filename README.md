@@ -58,8 +58,8 @@
 
 
 <details>  
-<summary>Data compression (One passes + 2 ptr) </summary>
-
+<summary>Data compression (Summary Ranges + Кодирование длин серий) </summary>
+ (One passes + 2 ptr)
   <details>  
   <summary>Summary Ranges (SR). Ex: [0,1,2,4,5,7] --> ["0->2","4->5","7"] </summary> 
     
