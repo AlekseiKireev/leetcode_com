@@ -2,7 +2,7 @@
 <summary>  Topics </summary>
 
 <details>  
-<summary>backtracking</summary>
+<summary>backtracking [Буквосочетания телефонного номера + Restore IP Addresses]</summary>
 
 - [17. Letter Combinations of a Phone Number](https://github.com/AlKiAl/leetcode_com/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) -- 3 nested loops: digits / ans / digitToLetters. Ex: "23" --> ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 - [93. Restore IP Addresses](https://github.com/SkosMartren/leetcode_com/tree/main/93.%20Restore%20IP%20Addresses) -- 3 nested loops to generate a num + check 0 <= num <= 255. Ex: "101023" --> ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
@@ -33,14 +33,14 @@
 </details>
 
 <details>  
-<summary>Binary sequence</summary>
+<summary>Binary sequence[Bitwise operator]</summary>
   
 - One passes + 2 ptr + check on cnt zeros in [nums[L], ..., nums[R]]
   
-- [485. Max Consecutive Ones](https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones)
-- [487. Max Consecutive Ones II](https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II) -- T.P. Flip at most 2 zeros
-- [1004. Max Consecutive Ones III](https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III) -- T.P. Flip at most k zeros
-- [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element) -- T.P. Upd 1 zero
+  - [485. Max Consecutive Ones](https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones)
+  - [487. Max Consecutive Ones II](https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II) -- T.P. Flip at most 2 zeros
+  - [1004. Max Consecutive Ones III](https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III) -- T.P. Flip at most k zeros
+  - [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element) -- T.P. Upd 1 zero
 --- 
 - [849. Maximize Distance to Closest Person](https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person) + counting 1 in Prefix / Suffix (see 485) / Postfix
 - [605. Can Place Flowers](https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers) -- Can be planted in without violating the no-adjacent-flowers rule. One passes + check going abroad
