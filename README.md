@@ -853,7 +853,7 @@
 <details>  
 <summary>2D Matrix</summary>    
   
-- [463. Island Perimeter](https://github.com/SkosMartren/leetcode_com/tree/main/463.%20Island%20Perimeter) -- check the exit abroad + grid[y+dy][x+dx] == 0 
+- [463. Island Perimeter](https://github.com/SkosMartren/leetcode_com/tree/main/463.%20Island%20Perimeter) -- check the exit abroad + grid[y+dy][x+dx] == 0 : ${dx,dy} \in {{-1,0},{1,0},{0,-1},{0,1}}$
 - [36. Valid Sudoku](https://github.com/AlKiAl/leetcode_com/tree/main/36.%20Valid%20Sudoku)  -- unordered_set<char> rows[9]; cols[9]; boxes[9]; boxIndex = (r / 3) * 3 + (c / 3);
 - [48. Rotate Image](https://github.com/SkosMartren/leetcode_com/tree/main/48.%20Rotate%20Image) -- rotate the matrix by 90 degrees (clockwise) == сначала по горизонтали, затем по главной диагонали
 - [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- Binary search + (i,j) <--> j * CountColumn + i : j == line, i == column 
