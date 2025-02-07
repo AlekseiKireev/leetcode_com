@@ -11,7 +11,7 @@
 
 
 <details>
-<summary>Binary search</summary>
+<summary>Binary search [Bitonic sequence]</summary>
 
 - [4. Median of Two Sorted Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/4.%20Median%20of%20Two%20Sorted%20Arrays)
 - [74. Search a 2D Matrix](https://github.com/SkosMartren/leetcode_com/tree/main/74.%20Search%20a%202D%20Matrix) -- (i,j) <--> j * CountColumn + i : j == line, i == column
@@ -33,7 +33,7 @@
 </details>
 
 <details>  
-<summary>Binary sequence[Bitwise operator]</summary>
+<summary>Binary sequence</summary>
   
 - One passes + 2 ptr + check on cnt zeros in [nums[L], ..., nums[R]]
   
