@@ -227,7 +227,7 @@
 </details>
 
 <details>  
-<summary>Hash table</summary>    
+<summary>Hash table (Line Reflection + check path crosses itself at any point)</summary>    
   
 если вы определяете пользовательскую хэш-функцию для структуры в C++, вы также должны переопределить operator==, 
 чтобы обеспечить корректное поведение хэш-таблиц, таких как std::unordered_map или std::unordered_set.
@@ -459,7 +459,7 @@
 </details>
 
 <details>  
-<summary>Random</summary>
+<summary>Random (Insert Delete GetRandom O(1) + Implement Rand10() Using Rand7())</summary>
 
   - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- next(values.begin(),  rand() % values.size()) + un_set values  
   - [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())
