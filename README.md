@@ -467,9 +467,9 @@
 </details>
 
 <details>  
-<summary>Recursive</summary>      
+<summary>Recursive (сглаживание вложенного списка. [1,[4,[6]]] --> [1,4,6])</summary>      
 
-- [341. Flatten Nested List Iterator](https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator) + queue    
+- [341. Flatten Nested List Iterator](https://github.com/SkosMartren/leetcode_com/tree/main/341.%20Flatten%20Nested%20List%20Iterator) -- queue + 1 passes: for(auto nL : nestedList){ if(nL.isInteger()){ QueueVal.push(nL.getInteger()); }else{ Travel(nL.getList()); } }
 
 </details>
 
