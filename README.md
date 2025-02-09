@@ -453,8 +453,8 @@
 - vector\<bool\> ExistPS(k) или unordered_set\<int\> ExistPS зависит от размера k 
 - CPSMK = CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible : такая конструкция необходима для работы с отрицательными числами, т.к.  $1 \leqslant num$ % $k + k \leqslant k$
 
- - [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= S(=2). u_m + 1 passes: int prevSum = CPSMK; CPSMK; if (ExistPS.count(CPSMK)) {return true;} ExistPS.insert(prevSum); }  
- - [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k. vector + 1 passes: CPSMK; Ans += PrefixMod[CPSMK]; ++PrefixMod[CPSMK];
+   - [523. Continuous Subarray Sum](https://github.com/SkosMartren/leetcode_com/tree/main/523.%20Continuous%20Subarray%20Sum) -- $\exists$ subarray that has a sum divisible by k and length >= S(=2). u_m + 1 passes: int prevSum = CPSMK; CPSMK; if (ExistPS.count(CPSMK)) {return true;} ExistPS.insert(prevSum); }  
+   - [974. Subarray Sums Divisible by K](https://github.com/SkosMartren/leetcode_com/tree/main/974.%20Subarray%20Sums%20Divisible%20by%20K) -- Number of subarrays that have a sum divisible by k. vector + 1 passes: CPSMK; Ans += PrefixMod[CPSMK]; ++PrefixMod[CPSMK];
 
 </details>
 
