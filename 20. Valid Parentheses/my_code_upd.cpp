@@ -24,15 +24,11 @@ public:
 
                 // нарушение: для открывающей скобки не существует открывающей
                 // Ex: {()}]
-                if(Open.empty()){
-                    return false;
-                }
+                if(Open.empty()){return false;}
 
                 // нарушение: Если встретили закрывающую скобку, то последняя на вершине стека открывающая должна быть того же типа!
                 // Ex: {(}
-                if(OpenToClosed[Open.top()] != s[i]){
-                    return false;
-                }
+                if(OpenToClosed[Open.top()] != s[i]){return false;}
 
                 // закрвающая скобка того же типа, удаяем ее
                 // Ex: {()}
