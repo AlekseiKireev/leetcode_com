@@ -13,7 +13,7 @@ int find_min_abs_difference(std::vector<int>& A, std::vector<int>& B) {
     
     while (i < A.size() && j < B.size()) {
         min_diff = std::min(min_diff, static_cast<long long>(std::abs(static_cast<long long>(A[i]) - static_cast<long long>(B[j]))));
-        
+        if(min_diff == 0){return 0;)
         // Двигаем указатель на массиве с меньшим значением
         (A[i] < B[j]) ? ++i : ++j;
     }
