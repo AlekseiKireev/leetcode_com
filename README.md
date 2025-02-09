@@ -462,7 +462,7 @@
 <summary>Random (Insert Delete GetRandom O(1) + Implement Rand10() Using Rand7())</summary>
 
   - [380. Insert Delete GetRandom O(1)](https://github.com/SkosMartren/leetcode_com/tree/main/380.%20Insert%20Delete%20GetRandom%20O(1)) -- next(values.begin(),  rand() % values.size()) + un_set values  
-  - [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())
+  - [470. Implement Rand10() Using Rand7()](https://github.com/SkosMartren/leetcode_com/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7()) -- int num = 41; while (num > 40){ num = (rand7() - 1) * 7 + rand7(); } return num % 10 + 1;
     
 </details>
 
