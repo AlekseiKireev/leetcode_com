@@ -13,9 +13,10 @@ public:
 
                 if(LeftEmpty && RightEmpty){
                     --n;
+                    if(0 == n){return true;}
                     flowerbed[i] = 1;
                 }
-                if(0 == n){return true;}
+                
             }
 
         }
