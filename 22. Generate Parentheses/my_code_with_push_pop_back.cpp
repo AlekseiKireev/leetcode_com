@@ -1,3 +1,8 @@
+/*
+Time complexity: O(\frac{4^n}{\sqrt{n}}) : O(\frac{4^n}{n\sqrt{n}}) -- асимптотика количества ПСП == Числа Каталана. 
+При каждом push_back происходит копирование
+Space complexity: O(n)
+*/    
 class Solution {
 
 private:
