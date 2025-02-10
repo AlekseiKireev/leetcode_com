@@ -37,7 +37,20 @@
   
 - One passes + 2 ptr + check on cnt zeros in [nums[L], ..., nums[R]]
   
-  - [485. Max Consecutive Ones](https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones)
+  - [485. Max Consecutive Ones](https://github.com/AlKiAl/leetcode_com/tree/main/485.%20Max%20Consecutive%20Ones) -- макс. коли-о последов-х 1. 1 passes: if(num == 1){ ++CurrentSum; }else{ Ans = max(Ans, CurrentSum); CurrentSum = 0; }
+
+        for(int L = 0, R = 0; R < Nums.size(); ++R){
+            
+            CurCntFlipZero += (Nums[R] == 0);
+
+            for(;CurCntFlipZero == MaxCntFlipZero + 1; ++L){
+            
+                CurCntFlipZero -= (Nums[L] == 0);            
+            }
+
+            Ans = max(Ans, R - L + 1);
+        }
+    
   - [487. Max Consecutive Ones II](https://github.com/AlKiAl/leetcode_com/tree/main/487.%20Max%20Consecutive%20Ones%20II) -- T.P. Flip at most 2 zeros
   - [1004. Max Consecutive Ones III](https://github.com/SkosMartren/leetcode_com/tree/main/1004.%20Max%20Consecutive%20Ones%20III) -- T.P. Flip at most k zeros
   - [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element) -- T.P. Upd 1 zero
