@@ -373,8 +373,8 @@
 <details>  
 <summary>Parentheses</summary>
 
-- [20. Valid Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses) -- stack + unordered_map : Open -> Closed  
-- [22. Generate Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses) -- + string_stack + recursive. Open + Closed = 2N AND Open >= Closed AND Open <= N  
+- [20. Valid Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/20.%20Valid%20Parentheses) -- stack Open + un_map : Open -> Closed  + 1 passes: if(OpenToClosed.count(s[i])){ Open.push(s[i]); }else{ if(Open.empty()){return false;} if(OpenToClosed[Open.top()] != s[i]){return false;} Open.pop(); }
+- [22. Generate Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/22.%20Generate%20Parentheses) --
 - [301. Remove Invalid Parentheses](https://github.com/SkosMartren/leetcode_com/tree/main/301.%20Remove%20Invalid%20Parentheses) -- + recursive  
 
 </details>
