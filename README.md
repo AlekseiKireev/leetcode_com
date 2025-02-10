@@ -758,6 +758,7 @@
   
 <summary>Two pointer [(Re)move]</summary>        
 
+- [Min Abs Diff](https://github.com/AlKiAl/leetcode_com/tree/main/Min%20Abs%20Diff) -- sort input array + 1 passes(2 ptr start 0): upd ans + (A[i] < B[j]) ? ++i : ++j;
 - [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
 --- 
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) -- find H[i], H[j] , которые образуют контейнер таким образом, чтобы в нем было max воды. R = H.size() - 1; int L = 0; Ans = max( Ans, (R - L) * min(H[R], H[L]) ); (H[R] < H[L]) ? --R: ++L;
