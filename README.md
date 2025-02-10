@@ -43,7 +43,7 @@
   - [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/SkosMartren/leetcode_com/tree/main/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element) -- T.P. Upd 1 zero
 --- 
 - [849. Maximize Distance to Closest Person](https://github.com/SkosMartren/leetcode_com/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person) + counting 1 in Prefix / Suffix (see 485) / Postfix
-- [605. Can Place Flowers](https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers) -- Can be planted in without violating the no-adjacent-flowers rule. One passes + check going abroad
+- [605. Can Place Flowers](https://github.com/SkosMartren/leetcode_com/tree/main/605.%20Can%20Place%20Flowers) -- Можно ли высаживать n цветов, не нарушая правила "никаких соседних цветов". One passes + check going abroad: LeftEmpty = (i == 0 || flowerbed[i-1] == 0); RightEmpty = (i == flowerbed.size() - 1 || flowerbed[i+1] == 0);
 
 </details>
 
