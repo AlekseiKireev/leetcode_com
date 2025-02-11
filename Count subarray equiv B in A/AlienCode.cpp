@@ -8,7 +8,7 @@ int countSubarraysWithSubsequence(const vector<int>& a, const vector<int>& b) {
     int total = 0, previous = 0;
 
     for (int i = 0; i < n; ++i) {
-        if (a[i] != b[0]) continue;  // Ищем первое совпадение с b[0]
+        if (a[i] != b[0]) {continue;}  // Ищем первое совпадение с b[0]
         
         int cur = 0;
         for (int j = i; j < n; ++j) {
