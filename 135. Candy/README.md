@@ -4,6 +4,8 @@ https://walkccc.me/LeetCode/problems/135/
 
 У Федора Меньшикова разбор отсут-т!
 
+    ratings = [1,2,3,4,5] 
+    Output 15
 ___
 
 для обоих подходов характерно следующая идея: $ratings[i-l] < ... < ratings[i-1] < ratings[i] > ... > ratings[i+r]$ --> candy[i] = max(l,r) + 1 -- это хорошо видно из графика, "+1" следует из "Each child must have at least one candy." --> надо обрабатывать пики, т.е. фрагменты вида
