@@ -607,6 +607,14 @@
   </details>           
 
   <details>  
+  <summary>Remove pattern</summary>    
+
+  - [Remove All Occurrences of a Substring by pattern](https://github.com/AlKiAl/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern) -- Удаляются все, помимо образовавшихся после удаления. if (FindDelPattern) { char del = s[i + 2]; i += 3; for(;i < s.size() && s[i] == del; i++); } else { s[writeIdx++] = s[i++]; }  
+  - [1910. Remove All Occurrences of a Substring](https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring) -- Удаляются все, в том числе образовавшиеся после удаления. text[writeIdx++] = text[readIdx]; if (writeIdx >= PatSize && text.substr(writeIdx - PatSize, PatSize) == pattern) { writeIdx -= PatSize; }      
+
+  </details>    
+
+  <details>  
   <summary>Math</summary>    
 
   - [43. Multiply Strings](https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings)  
@@ -667,11 +675,6 @@
 
   - [424. Longest Repeating Character Replacement](https://github.com/AlKiAl/leetcode_com/tree/main/424.%20Longest%20Repeating%20Character%20Replacement) -- Самая длинная подстрока с одинаковыми символами не более чем после k flip. S.W. CharToCountInWindow + MaxCountRepeatSymb + 1 passes: if ((RightPtr - LeftPtr + 1) - MaxCountRepeatSymb == k + 1) { --CharToCountInWindow[s[LeftPtr]]; ++LeftPtr; }
   - [1446. Consecutive Characters](https://github.com/SkosMartren/leetcode_com/tree/main/1446.%20Consecutive%20Characters) --Find max substring with same symbols. 1 passes: if (c == previous) { count++; } else { count = 1; previous = c; }
-
-    ---  
-
-  - [Remove All Occurrences of a Substring by pattern](https://github.com/AlKiAl/leetcode_com/tree/main/Remove%20All%20Occurrences%20of%20a%20Substring%20by%20pattern) -- Удаляются все, помимо образовавшихся после удаления. if (FindDelPattern) { char del = s[i + 2]; i += 3; for(;i < s.size() && s[i] == del; i++); } else { s[writeIdx++] = s[i++]; }  
-  - [1910. Remove All Occurrences of a Substring](https://github.com/AlKiAl/leetcode_com/tree/main/1910.%20Remove%20All%20Occurrences%20of%20a%20Substring) -- Удаляются все, в том числе образовавшиеся после удаления. text[writeIdx++] = text[readIdx]; if (writeIdx >= PatSize && text.substr(writeIdx - PatSize, PatSize) == pattern) { writeIdx -= PatSize; }  
 
     ---  
 
