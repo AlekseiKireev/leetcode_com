@@ -171,7 +171,7 @@
 <details>  
 <summary>Greedy</summary>    
 
-- [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy) -- У каждого ребенка должна быть как минимум одна конфета. Дети с более высоким рейтингом получают больше конфет, чем их соседи. 1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
+- [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy) -- У каждого члк должна быть как минимум 1 конфета. Члк с более высоким рейтингом получают больше, чем их соседи. 1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
 - [763. Partition Labels](https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels) -- разбить строку на как можно большее количество частей, чтобы каждая буква присутствовала не более чем в одной части. 2 passes: 1 - Char -> LastIdxChar, 2 - Two ptr: R = max(R, CharToLastIdx[Str[i]]), if(EndCurrentChunk == i) --> L = i + 1. каждая буква встречается не более чем в одном разделе
 
   ---------------------------------------------------------------------------------------------------  
