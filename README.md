@@ -171,7 +171,6 @@
 <details>  
 <summary>Greedy</summary>    
 
-- [Count subarray equiv B in A](https://github.com/AlKiAl/leetcode_com/tree/main/Count%20subarray%20equiv%20B%20in%20A) -- Найти количество подотрезков в массиве а, что в этих подотрезках существуют подпоследовательности равные массиву b.
 - [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy) -- 1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
 - [763. Partition Labels](https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels) -- 2 passes: 1 - Char -> LastIdxChar, 2 - Two ptr: R = max(R, CharToLastIdx[Str[i]]), if(EndCurrentChunk == i) --> L = i + 1. каждая буква встречается не более чем в одном разделе
 
@@ -773,12 +772,15 @@
 
 - [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
 --- 
+
+- [Find K Closest Elements with exist arr\[i\]=x](https://github.com/AlKiAl/leetcode_com/tree/main/Find%20K%20Closest%20Elements%20with%20exist%20arr%5Bi%5D%3Dx%20) -- if (L < 0 || (R < a.size() && a[R]  - a[Idx] <= a[Idx] - a[L]) ) { R++; } else { L--; } 
+- [Count subarray equiv B in A](https://github.com/AlKiAl/leetcode_com/tree/main/Count%20subarray%20equiv%20B%20in%20A) -- Найти количество подотрезков в массиве а, что в этих подотрезках существуют подпоследовательности равные массиву b.
 - [Min Abs Diff](https://github.com/AlKiAl/leetcode_com/tree/main/Min%20Abs%20Diff) -- sort input array + 1 passes(2 ptr start 0): upd ans + (A[i] < B[j]) ? ++i : ++j;
 - [11. Container With Most Water](https://github.com/SkosMartren/leetcode_com/tree/main/11.%20Container%20With%20Most%20Water) -- find H[i], H[j] , которые образуют контейнер таким образом, чтобы в нем было max воды. R = H.size() - 1; int L = 0; Ans = max( Ans, (R - L) * min(H[R], H[L]) ); (H[R] < H[L]) ? --R: ++L;
 - [42. Trapping Rain Water](https://github.com/SkosMartren/leetcode_com/tree/main/42.%20Trapping%20Rain%20Water) -- 3 passes: 1 - find IdxMaxGlobalHeight | 2 - LeftToIdxMaxGlobalHeight, 3 - RightToIdxMaxGlobalHeight : LocalMaxHeight = max(LocalMaxHeight, H[i]); TotalSum += (LocalMaxHeight - H[i]);
 - [209. Minimum Size Subarray Sum](https://github.com/AlKiAl/leetcode_com/tree/main/209.%20Minimum%20Size%20Subarray%20Sum) -- min(j-i+1) : sum {a[i], ..., a[j]} >= k.  external loop: Right < nums.size(); ++Right. internal loop: SumBuff >= target; ++Left
 - [977. Squares of a Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20of%20a%20Sorted%20Array) -- 3 ptr: LeftBorder = 0, RightBorder = nums.size() - 1, i = nums.size() - 1; ans[i] = nums[Border] * nums[Border] 
-- [Find K Closest Elements with exist arr\[i\]=x](https://github.com/AlKiAl/leetcode_com/tree/main/Find%20K%20Closest%20Elements%20with%20exist%20arr%5Bi%5D%3Dx%20) -- if (L < 0 || (R < a.size() && a[R]  - a[Idx] <= a[Idx] - a[L]) ) { R++; } else { L--; } 
+
   <details>  
   <summary>(Re)move</summary>    
     
