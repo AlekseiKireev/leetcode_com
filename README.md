@@ -187,7 +187,7 @@
 <summary>NSum</summary>    
 
 - fix `l`, then loop [l+1, nums.size() - 4], then j = i + 1; k = nums.size() - 1; --> (Sum3 < target) ? ++j : --k;
-- [18. 4Sum](https://github.com/AlKiAl/leetcode_com/tree/main/18.%204Sum) -- return all unique the Quadruplets [nums[i], nums[j], nums[k], nums[l]] : nums[i] + nums[j] + nums[k] + nums[l] == target
+  - [18. 4Sum](https://github.com/AlKiAl/leetcode_com/tree/main/18.%204Sum) -- return all unique the Quadruplets [nums[i], nums[j], nums[k], nums[l]] : nums[i] + nums[j] + nums[k] + nums[l] == target
 --- 
 - fix it `i` then j = i + 1; k = nums.size() - 1; --> (Sum3 < target) ? ++j : --k;
   - [15. 3Sum](https://github.com/SkosMartren/leetcode_com/tree/main/15.%203Sum) --  return all unique the triplets [nums[i], nums[j], nums[k]] : nums[i] + nums[j] + nums[k] == target
