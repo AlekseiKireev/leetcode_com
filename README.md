@@ -139,8 +139,8 @@
 
   ---------------------------------------------------------------------------------------------------  
 - vector<int> DP(n+1); DP\[1\] = 1; DP\[2\] = 2; for ({3,...,n}) { DP\[i\] = DP\[i-1\] + DP\[i-2\]; } return DP\[n\];
-- [70. Climbing Stairs](https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs)  
-- [509. Fibonacci Number](https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number)  
+  - [70. Climbing Stairs](https://github.com/SkosMartren/leetcode_com/tree/main/70.%20Climbing%20Stairs)  
+  - [509. Fibonacci Number](https://github.com/SkosMartren/leetcode_com/tree/main/509.%20Fibonacci%20Number)  
 
 </details>
 
