@@ -160,7 +160,7 @@
 <details>  
 <summary>Graph traversal: DFS / BFS / DSU</summary>    
 
-- [200. Number of Islands](https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands) -- + check going abroad 
+- [200. Number of Islands](https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands) -- passes through grid: if(grid[y][x] - '0' == 1){ ++Ans ; DFS(y,x,grid); } + check going abroad: if( 0 <= y + dy && y + dy < grid.size() && 0 <= x + dx && x + dx < grid.back().size() && grid[y + dy][x + dx] =='1' ){ DFS(y + dy, x + dx, grid); }
 - [332. Reconstruct Itinerary](https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary) -- (DFS on UnorderedHash) реконструировать весь маршрут
 - [1436. Destination City](https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City) -- (DFS on UnorderedHash) найти конечную точку маршрута
 - [721. Accounts Merge](https://github.com/AlKiAl/leetcode_com/tree/main/721.%20Accounts%20Merge) -- unordered_map<string, vector<string>> FirstEmailToChild
