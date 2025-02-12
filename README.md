@@ -274,7 +274,7 @@
   - [2. Add Two Numbers](https://github.com/SkosMartren/leetcode_com/tree/main/2.%20Add%20Two%20Numbers)  
   - [19. Remove Nth Node From End of List](https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List)  
   - [206. Reverse Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List)  
-
+  - [160. Intersection of Two Linked Lists](https://github.com/SkosMartren/leetcode_com/tree/main/160.%20Intersection%20of%20Two%20Linked%20Lists) ==  [1650. Lowest Common Ancestor of a Binary Tree III](https://github.com/SkosMartren/leetcode_com/tree/main/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III) -- Iter. Find LCA if exist Parent  
   ---------------------------------------------------------------------------------------------------  
 
             // 1 passes        
