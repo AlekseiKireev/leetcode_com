@@ -295,8 +295,8 @@
   <summary>Cycle Detection (Floyd's Algorithm == Slow & Fast Pointer)</summary>    
 
   - [Floyd's Cycle-Finding Algorithm (GeeksforGeeks)](https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/)  
-  - [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List) -- Reverse(FindRightMid(head))  
-  - [141. Linked List Cycle](https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle)  
+  - [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List) -- Reverse(FindRightMid(head)) + 1 passes: while(RightPtr != nullptr){ if(head->val != RightPtr->val){return false;} RightPtr = RightPtr->next; head = head->next; } 
+  - [141. Linked List Cycle](https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle) -- 1 passes: if (fast == nullptr) { return false; } fast = fast->next; if (fast == nullptr) { return false; } fast = fast->next; slow = slow->next; if (fast == slow) { return true; } 
 
   </details>
 </details>
@@ -376,7 +376,7 @@
 
 - [5. Longest Palindromic Substring](https://github.com/SkosMartren/leetcode_com/tree/main/5.%20Longest%20Palindromic%20Substring) -- проверка подстроки на палиндром: CheckOnPalindrom(i, i, s); // нечетная длина палиндрома + CheckOnPalindrom(i, i + 1, s); // четная длина палиндрома
 - [9. Palindrome Number](https://github.com/SkosMartren/leetcode_com/tree/main/9.%20Palindrome%20Number)
-- [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List)
+- [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List)  -- Reverse(FindRightMid(head)) + 1 passes: while(RightPtr != nullptr){ if(head->val != RightPtr->val){return false;} RightPtr = RightPtr->next; head = head->next; } 
 ---   
 - [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- преобразования всех прописных букв в строчные и удаления всех не алфавитно-цифровых символов. 1 passes + 2 ptr + isalnum + tolower : for(int L = 0, R = SizeS - 1; L < R; ++L, --R){ for(; L < R && isalnum(S[L]) == false ; ++L); for(; L < R && isalnum(S[R]) == false ; --R); if( tolower(S[L]) != tolower(S[R]) ){return false;} }
 - [680. Valid Palindrome II](https://github.com/SkosMartren/leetcode_com/tree/main/680.%20Valid%20Palindrome%20II) -- проверить, может ли быть str палиндромом после удаления из него не более одного символа. Str ограничен алфавитом. if(s[L] != s[R]){ return (ChechkvalidPalindrome(s, L + 1, R) || ChechkvalidPalindrome(s, L, R - 1) ); } }
