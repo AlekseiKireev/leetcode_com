@@ -772,7 +772,7 @@
    
 <details>  
   
-<summary>Two pointer [(Re)move]</summary>        
+<summary>Two pointer [(Re)move (Maximize Pair (i,j) : k * a[i] <= a[j] Removals + (Re)move Element + Remove Duplica from sort Array)]</summary>        
 
 - [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes : S_Idx += (s[S_Idx]  == t[T_Idx]); + 2 ptr : S_Idx, T_Idx. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
 --- 
