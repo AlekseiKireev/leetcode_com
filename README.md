@@ -327,7 +327,7 @@
 </details>
 
 <details>  
-<summary>Operations on sets [Arrays + Intervals --> scan line]</summary>
+<summary>Operations on sets [Arrays (Intersection + Difference) + Intervals (Intersections + Merge + Insert + Non-overlapping Intervals) --> scan line]</summary>
  
 
   <details>  
