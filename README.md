@@ -161,8 +161,8 @@
 <summary>Graph traversal: DFS / BFS / DSU</summary>    
 
 - [200. Number of Islands](https://github.com/SkosMartren/leetcode_com/tree/main/200.%20Number%20of%20Islands) -- passes through grid: if(grid[y][x] - '0' == 1){ ++Ans ; DFS(y,x,grid); } + check going abroad: if( 0 <= y + dy && y + dy < grid.size() && 0 <= x + dx && x + dx < grid.back().size() && grid[y + dy][x + dx] =='1' ){ DFS(y + dy, x + dx, grid); }
-- [332. Reconstruct Itinerary](https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary) -- (DFS on UnorderedHash) реконструировать весь маршрут
-- [1436. Destination City](https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City) -- (DFS on UnorderedHash) найти конечную точку маршрута
+- [332. Reconstruct Itinerary](https://github.com/SkosMartren/leetcode_com/tree/main/332.%20Reconstruct%20Itinerary) -- реконструировать весь маршрут по мультиграфу: 1 pasees: fill un_map<string, multiset<string>> TicketToEndPoint + DFS: while(TicketToEndPoint[depart].empty() == false){ NextNode = *TicketToEndPoint[depart].begin(); TicketToEndPoint[depart].erase(TicketToEndPoint[depart].begin()); DFS(NextNode); } + reverse ans
+- [1436. Destination City](https://github.com/SkosMartren/leetcode_com/tree/main/1436.%20Destination%20City) -- найти конечную точку маршрута: un_map<string, string> AtoB; for(auto path : paths){ AtoB[path[0]] = path[1]; } auto Start = paths[0][0]; while(AtoB[Start] != ""){ Start = AtoB[Start]; } return Start; }
 - [721. Accounts Merge](https://github.com/AlKiAl/leetcode_com/tree/main/721.%20Accounts%20Merge) -- unordered_map<string, vector<string>> FirstEmailToChild
 - [310. Minimum Height Trees](https://github.com/AlKiAl/leetcode_com/tree/main/310.%20Minimum%20Height%20Trees) -- find the center of the graph. DFS + control cnt leafs
   
