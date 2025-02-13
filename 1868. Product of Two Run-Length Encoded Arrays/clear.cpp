@@ -7,7 +7,7 @@ class Solution {
     int Idx1 = 0;
     int Idx2 = 0;
 
-    while (Idx1 < encoded1.size() && Idx2 < encoded2.size()) {
+    while (Idx1 < encoded1.size() && Idx2 < encoded2.size()) { // не выйдем из цикла, пока не окончатся minFrequency
       const int product = encoded1[Idx1][0] * encoded2[Idx2][0];
       const int minFrequency = min(encoded1[Idx1][1], encoded2[Idx2][1]);
 
