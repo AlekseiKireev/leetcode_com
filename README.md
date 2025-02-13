@@ -524,7 +524,7 @@
   <br>
 
   <details>  
-  <summary>Counting</summary>   
+  <summary>Counting (Top K Frequent Words/Nums)</summary>   
   
     - 4 passes:
     - 1] u_m : Val --> Count  
