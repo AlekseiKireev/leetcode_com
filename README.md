@@ -487,7 +487,7 @@
 </details>
 
 <details>  
-<summary>Sorted [Merge + Counting]</summary>        
+<summary>Sorted [Merge + Counting(Top K Frequent Words/Nums)]</summary>        
 
 - [274. H-Index](https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index) -- Индекс хирша определяется как максимальное значение h, при котором данный исследователь опубликовал не менее h статей, каждая из которых цитировалась не менее h раз. 2 passes:
   1 -- buck[min(n,citation)]++ | 2 -- RtoL: cnt += buck[i]; if(cnt >= i) { return i; }
