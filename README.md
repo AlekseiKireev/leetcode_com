@@ -87,7 +87,7 @@
 
   - [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
   - [443. String Compression](https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression) -- external loop: IdxOnOldStr = 0; IdxOnOldStr < chars.size(); | internal loop: ; IdxOnOldStr < chars.size() && CurChar == chars[IdxOnOldStr]; ++IdxOnOldStr
-  - [1868. Product of Two Run-Length Encoded Arrays](https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays) [[1,2], [2,2]] * [[6,2], [3,1], [5,1]] = [1,1,2,2] * [6,6,3,5] = [6,6,6,10] = [[3,6], [1,10]] 
+  - [1868. Product of Two Run-Length Encoded Arrays](https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays) -- Ex: [[1,2], [2,2]] * [[6,2], [3,1], [5,1]] = [1,1,2,2] * [6,6,3,5] = [6,6,6,10] = [[3,6], [1,10]]. 1 passes: product = i1[Idx1][0] * i2[Idx2][0]; minFrequency = min(i1 [Idx1][1], i2[Idx2][1]); if (!ans.empty() && product == ans.back()[0]) { ans.back()[1] += minFrequency; } else { ans.push_back({product, minFrequency}); }; in[Idxn][1] -= minFrequency; Idxn += (in[Idxn][1] == 0);
 
     </details>       
 </details>
