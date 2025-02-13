@@ -73,23 +73,23 @@
 <details>  
 <summary>Data compression [Summary Ranges + Кодирование длин серий] </summary>
  One passes + 2 ptr. Если необходимо вернуть ответ в виде строки, при этом на вход подаётся массив чисел, то предварительно надо собрать ответ в массиве с целью избежать релокации строк если сразу заполнять ответ
-  <details>  
-  <summary>Summary Ranges (SR). Ex: [0,1,2,4,5,7] --> ["0->2","4->5","7"] </summary> 
+    <details>  
+    <summary>Summary Ranges (SR). Ex: [0,1,2,4,5,7] --> ["0->2","4->5","7"] </summary> 
+      
+  - [228. Summary Ranges](https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges) -- given a sorted **unique** integer. external loop: RightPtr = 0; ++RightPtr | internal loop: ++RightPtr AND nums[RightPtr] == nums[RightPtr+1] - 1
+  - Length of the longest SR. + NumUnSet(arr.begin(), arr.end()) + 1 passes: int left = num; int right = num; for (;NumUnSet.find(left - 1) != NumUnSet.end(); left--); for (; NumUnSet.find(right + 1) != NumUnSet.end(); right++); NumUnSet.erase(left ,..., right);
+     - [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) -- given a *unsorted* **unique** integer.
+     - [128. Longest Consecutive Sequence](https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence) -- given a *unsorted* **not unique** integer.
+    </details>  
     
-- [228. Summary Ranges](https://github.com/SkosMartren/leetcode_com/tree/main/228.%20Summary%20Ranges) -- given a sorted **unique** integer. external loop: RightPtr = 0; ++RightPtr | internal loop: ++RightPtr AND nums[RightPtr] == nums[RightPtr+1] - 1
-- Length of the longest SR. + NumUnSet(arr.begin(), arr.end()) + 1 passes: int left = num; int right = num; for (;NumUnSet.find(left - 1) != NumUnSet.end(); left--); for (; NumUnSet.find(right + 1) != NumUnSet.end(); right++); NumUnSet.erase(left ,..., right);
-   - [Summary Ranges Unsorted](https://github.com/AlKiAl/leetcode_com/tree/main/Summary%20Ranges%20Unsorted) -- given a *unsorted* **unique** integer.
-   - [128. Longest Consecutive Sequence](https://github.com/AlKiAl/leetcode_com/tree/main/128.%20Longest%20Consecutive%20Sequence) -- given a *unsorted* **not unique** integer.
-  </details>  
+    <details>  
+    <summary>RLE. Ex: ["a","a","b","b","c","c","c"] --> ["a","2","b","2","c","3"] </summary>    
   
-  <details>  
-  <summary>RLE. Ex: ["a","a","b","b","c","c","c"] --> ["a","2","b","2","c","3"] </summary>    
-
-  - [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
-  - [443. String Compression](https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression) -- external loop: IdxOnOldStr = 0; IdxOnOldStr < chars.size(); | internal loop: ; IdxOnOldStr < chars.size() && CurChar == chars[IdxOnOldStr]; ++IdxOnOldStr
-  - [1868. Product of Two Run-Length Encoded Arrays](https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays) [[1,2], [2,2]] * [[6,2], [3,1], [5,1]] = [1,1,2,2] * [6,6,3,5] = [6,6,6,10] = [[3,6], [1,10]] 
-
-  </details>       
+    - [Кодирование длин серий](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%BB%D0%B8%D0%BD_%D1%81%D0%B5%D1%80%D0%B8%D0%B9)
+    - [443. String Compression](https://github.com/AlKiAl/leetcode_com/tree/main/443.%20String%20Compression) -- external loop: IdxOnOldStr = 0; IdxOnOldStr < chars.size(); | internal loop: ; IdxOnOldStr < chars.size() && CurChar == chars[IdxOnOldStr]; ++IdxOnOldStr
+    - [1868. Product of Two Run-Length Encoded Arrays](https://github.com/AlKiAl/leetcode_com/tree/main/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays) [[1,2], [2,2]] * [[6,2], [3,1], [5,1]] = [1,1,2,2] * [6,6,3,5] = [6,6,6,10] = [[3,6], [1,10]] 
+  
+    </details>       
 </details>
 
 <details>  
