@@ -93,7 +93,7 @@
 </details>
 
 <details>  
-<summary>Design [Counter + Data Structure --> List AND mapping]</summary>        
+<summary>Design (Design an ATM Machine) [Counter (]timestamp - n, timestamp[) + Data Structure (Min Stack + Implement Queue using Stacks) --> List AND mapping (Max Stack + LRU Cache + First Unique Number in Data Stream II)]</summary>        
 
 - [2241. Design an ATM Machine](https://github.com/SkosMartren/leetcode_com/tree/main/2241.%20Design%20an%20ATM%20Machine)  -- В начале копируем текущее состояние счета, на случай, если снять не удасться, внесем эти данные счета обратно. 
 Итерируемся от большей валюты к меньшей, снимаем min(amount / denominations[i], BankAccount[i])
