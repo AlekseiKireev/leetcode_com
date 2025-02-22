@@ -1391,3 +1391,57 @@ _________
 
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/asymptotics_containers.png)
 
+Вот дополненная таблица, в которой для каждой структуры данных Python добавлен аналог в C++:  
+
+| Structure (Python)      | [] (indexing) | append | prepend | find | insert | erase | Iterators Level | Iterators Invalidation | Pointers/Refs Invalidation | Implementation | C++ Equivalent |
+|-------------------------|--------------|--------|---------|------|--------|------|-----------------|----------------------|----------------------|-----------------|----------------|
+| `list`                 | O(1)         | O(1)   | O(n)    | O(n) | O(n)   | O(n) | Random Access  | YES                  | NO                   | Dynamic Array   | `std::vector` |
+| `deque`                | O(1)         | O(1)   | O(1)    | O(n) | O(n)   | O(1) | Bidirectional   | NO                   | NO                   | Doubly Linked List | `std::deque` |
+| `set`                  | —            | —      | —       | O(1) expected | O(1) expected | O(1) expected | Unordered | YES | NO | Hash Table | `std::unordered_set` |
+| `frozenset`            | —            | —      | —       | O(1) expected | —      | —      | Unordered | NO | NO | Hash Table (Immutable) | `std::unordered_set<const T>` |
+| `dict`                 | O(1)         | O(1)   | —       | O(1) expected | O(1) expected | O(1) expected | Unordered | YES | NO | Hash Table | `std::unordered_map` |
+| `OrderedDict`          | O(1)         | O(1)   | O(1)    | O(1) expected | O(1) expected | O(1) expected | Ordered | YES | NO | Hash Table + Doubly Linked List | `std::map` (≈ но с другой сложностью) |
+| `defaultdict`          | O(1)         | O(1)   | O(1)    | O(1) expected | O(1) expected | O(1) expected | Ordered | YES | NO | Hash Table | `std::unordered_map<T, std::vector<U>>` (≈ аналог с вектором по умолчанию) |
+| `Counter`              | O(1)         | O(1)   | O(1)    | O(1) expected | O(1) expected | O(1) expected | Ordered | YES | NO | Hash Table | `std::unordered_map<T, int>` |
+| `heapq`               | O(1) top     | O(log n) | —       | O(n) | O(log n) | O(log n) | Partial Ordered | YES | NO | Min-Heap | `std::priority_queue` |
+| `queue.Queue`         | O(1)         | O(1)   | O(1)    | O(n) | O(n)   | O(1) | FIFO Order | NO | NO | Linked List | `std::queue` |
+| `queue.LifoQueue`     | O(1)         | O(1)   | O(1)    | O(n) | O(n)   | O(1) | LIFO Order | NO | NO | Linked List | `std::stack` |
+| `queue.PriorityQueue` | O(1)         | O(log n) | —       | O(n) | O(log n) | O(log n) | Ordered | YES | NO | Binary Heap | `std::priority_queue` |
+
+### Ключевые замечания:
+- `list` в Python — это динамический массив, аналог `std::vector` в C++.
+- `deque` в Python — это двусвязный список, аналог `std::deque` в C++.
+- `set` и `dict` используют хеш-таблицы, аналог `std::unordered_set` и `std::unordered_map`.
+- `OrderedDict` поддерживает порядок вставки, но аналогов в стандартной библиотеке C++ нет (можно использовать `std::map`, но он на основе красно-черного дерева).
+- `heapq` в Python — это **минимальная куча**, аналог `std::priority_queue` (по умолчанию в C++ **максимальная куча**, но ее можно адаптировать).
+- Очереди `queue.Queue`, `queue.LifoQueue`, `queue.PriorityQueue` имеют прямые аналоги в `std::queue`, `std::stack`, `std::priority_queue`.
+
+---
+
+Вот обновленная таблица с дополнительными методами:  
+
+| Structure (Python) | `[]` (indexing) | `append()` | `prepend()` | `find()` | `insert()` | `erase()/pop()` | `clear()` | `sort()` | `reverse()` | `count()` | `copy()` | `keys()/values()/items()` | `update()` | C++ Equivalent |
+|-------------------|----------------|-----------|------------|---------|----------|---------------|---------|--------|----------|--------|--------|---------------------|---------|----------------|
+| `list` | O(1) | O(1) | O(n) | O(n) | O(n) | O(n) | O(1) | O(n log n) | O(n) | O(n) | O(n) | — | — | `std::vector` |
+| `deque` | O(1) | O(1) | O(1) | O(n) | O(n) | O(1) | O(1) | — | O(n) | O(n) | O(n) | — | — | `std::deque` |
+| `set` | — | — | — | O(1) expected | O(1) expected | O(1) expected | O(1) | — | — | O(n) | O(n) | — | O(n) | `std::unordered_set` |
+| `frozenset` | — | — | — | O(1) expected | — | — | — | — | — | O(n) | O(n) | — | — | `std::unordered_set<const T>` |
+| `dict` | O(1) | O(1) | — | O(1) expected | O(1) expected | O(1) expected | O(1) | — | — | O(n) | O(n) | O(1) | O(n) | `std::unordered_map` |
+| `OrderedDict` | O(1) | O(1) | O(1) | O(1) expected | O(1) expected | O(1) expected | O(1) | — | — | O(n) | O(n) | O(1) | O(n) | `std::map` (≈ аналог) |
+| `defaultdict` | O(1) | O(1) | O(1) | O(1) expected | O(1) expected | O(1) expected | O(1) | — | — | O(n) | O(n) | O(1) | O(n) | `std::unordered_map<T, std::vector<U>>` |
+| `Counter` | O(1) | O(1) | O(1) | O(1) expected | O(1) expected | O(1) expected | O(1) | — | — | O(n) | O(n) | — | O(n) | `std::unordered_map<T, int>` |
+| `heapq` | O(1) top | O(log n) | — | O(n) | O(log n) | O(log n) | O(1) | — | — | O(n) | O(n) | — | — | `std::priority_queue` |
+| `queue.Queue` | O(1) | O(1) | O(1) | O(n) | O(n) | O(1) | O(1) | — | — | O(n) | O(n) | — | — | `std::queue` |
+| `queue.LifoQueue` | O(1) | O(1) | O(1) | O(n) | O(n) | O(1) | O(1) | — | — | O(n) | O(n) | — | — | `std::stack` |
+| `queue.PriorityQueue` | O(1) | O(log n) | — | O(n) | O(log n) | O(log n) | O(1) | — | — | O(n) | O(n) | — | — | `std::priority_queue` |
+
+### Объяснение дополнительных методов:
+- **`clear()`**: Очищает контейнер, эквивалент `std::vector::clear()`, `std::set::clear()`, `std::map::clear()`.
+- **`sort()`**: Сортировка, аналог `std::sort()`, `std::map` в C++ всегда упорядочен.
+- **`reverse()`**: Аналог `std::reverse()` для `std::vector` и `std::deque`.
+- **`count()`**: Подсчет вхождений элемента, аналог `std::count()`.
+- **`copy()`**: Поверхностное копирование контейнера, аналог конструктора копирования в C++.
+- **`keys()/values()/items()`**: В `dict` это дает доступ к элементам, в C++ используются итераторы.
+- **`update()`**: Добавляет элементы, аналог `std::unordered_map::insert()` или `std::set::merge()`.
+
+Если хочешь что-то изменить или добавить — говори! 😃
