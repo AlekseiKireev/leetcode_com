@@ -1392,7 +1392,7 @@ _________
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/asymptotics_containers.png)
 
 <details>  
-<summary>  test </summary>
+<summary>  Python </summary>
   
 таблица, в которой для каждой структуры данных Python добавлен аналог в C++:  
 
