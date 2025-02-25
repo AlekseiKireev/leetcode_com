@@ -1391,7 +1391,10 @@ _________
 
 ![ alt](https://github.com/SkosMartren/useful-materials/blob/main/asymptotics_containers.png)
 
-Вот дополненная таблица, в которой для каждой структуры данных Python добавлен аналог в C++:  
+<details>  
+<summary>  test </summary>
+  
+таблица, в которой для каждой структуры данных Python добавлен аналог в C++:  
 
 | Structure (Python)      | [] (indexing) | append | prepend | find | insert | erase | Iterators Level | Iterators Invalidation | Pointers/Refs Invalidation | Implementation | C++ Equivalent |
 |-------------------------|--------------|--------|---------|------|--------|------|-----------------|----------------------|----------------------|-----------------|----------------|
@@ -1473,3 +1476,20 @@ _________
 ➡ **Вывод**: `OrderedDict` удобен для Python, где порядок вставки критичен, но в C++ такие задачи решаются по-другому, например, через `std::map` (сортировка по ключу) или `std::unordered_map` + `std::list`.  
 
 Если очень хочется, можно сделать свой `ordered_map<T, U>` на основе `unordered_map<T, list<T>::iterator>` и `list<pair<T, U>>`. 
+
+
+В официальной документации Python нет единой страницы, аналогичной [cppreference.com](https://en.cppreference.com/w/cpp/container), где были бы собраны все контейнеры и их методы. Однако информацию о различных контейнерах и их методах можно найти в следующих разделах:
+
+- **Списки (`list`)**: описание и методы доступны в разделе [Sequence Types — list, tuple, range](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range).
+
+- **Словари (`dict`)**: подробности находятся в разделе [Mapping Types — dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict).
+
+- **Множества (`set`)**: информация представлена в разделе [Set Types — set, frozenset](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset).
+
+- **Модуль `collections`**: содержит дополнительные контейнеры, такие как `deque`, `Counter`, `OrderedDict` и другие. Подробности можно найти в разделе [collections — Container datatypes](https://docs.python.org/3/library/collections.html).
+
+Что касается асимптотической сложности операций с контейнерами, официальная документация Python не всегда предоставляет эту информацию. Однако существуют сторонние ресурсы, которые подробно описывают сложности операций для различных структур данных в Python. Например, статья [Сложность алгоритмов и операций на примере Python](https://proglib.io/p/slozhnost-algoritmov-i-operaciy-na-primere-python-2020-11-03) предоставляет информацию о временной сложности операций для различных структур данных в Python.
+
+Обратите внимание, что точная асимптотическая сложность может зависеть от реализации и версии Python, поэтому для критически важных приложений рекомендуется проводить собственные измерения производительности. 
+
+</details>
