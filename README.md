@@ -1447,7 +1447,8 @@ _________
 - **`keys()/values()/items()`**: В `dict` это дает доступ к элементам, в C++ используются итераторы.
 - **`update()`**: Добавляет элементы, аналог `std::unordered_map::insert()` или `std::set::merge()`.
 
-
+  <details>  
+  <summary>  Отличие `OrderedDict` от `std::map`  </summary>
 
 ### Отличие `OrderedDict` от `std::map`  
 Хотя `OrderedDict` в Python и `std::map` в C++ похожи, у них есть ключевые различия:  
@@ -1476,6 +1477,8 @@ _________
 ➡ **Вывод**: `OrderedDict` удобен для Python, где порядок вставки критичен, но в C++ такие задачи решаются по-другому, например, через `std::map` (сортировка по ключу) или `std::unordered_map` + `std::list`.  
 
 Если очень хочется, можно сделать свой `ordered_map<T, U>` на основе `unordered_map<T, list<T>::iterator>` и `list<pair<T, U>>`. 
+
+  </details>
 
   <details>  
   <summary>  документация </summary>
