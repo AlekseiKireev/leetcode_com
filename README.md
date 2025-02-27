@@ -459,6 +459,7 @@
 - [53. Maximum Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/53.%20Maximum%20Subarray) -- найдите подмассив с наибольшей суммой. 1 passes: PrefixSum += nums[i]; MaxAffixSum = max(MaxAffixSum, PrefixSum - MinPrefixSum); MinPrefixSum = min(MinPrefixSum, PrefixSum);
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self)  -- (prefix[i]) * (suffix[i]) = ans[i] = product_nums / nums[i]. 2 passes: 1 - LtoR : answer[i] = answer[i - 1] * nums[i - 1] | 2 - RtoL : suffix *= nums[i + 1]; answer[i] *= suffix;
 --- 
+- [Idxs Subarray Sum Equals k](https://github.com/AlekseiKireev/leetcode_com/tree/main/Idxs%20Subarray%20Sum%20Equals%20k)
 - [560. Subarray Sum Equals K](https://github.com/SkosMartren/leetcode_com/tree/main/560.%20Subarray%20Sum%20Equals%20K) -- Total number of subarrays whose sum = k. u_m : Prefix -> Count + 1 passes: PS += num; Ans += PtC[PS - RequiredAffix]; ++PtC[PS]; 
 - [325. Maximum Size Subarray Sum Equals k](https://github.com/AlKiAl/leetcode_com/tree/main/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k) -- u_m : PSumToIdxPSum + 1 passes: target = prefix - k; if (PSumToIdxPSum.count(target) == 1){ ans = max(ans, i + 1 - PSumToIdxPSum[target]); } if (PSumToIdxPSum.count(prefix) == 0){ PSumToIdxPSum[prefix] = i + 1; }
   
@@ -832,7 +833,10 @@
   <details>  
   <summary>Array</summary>    
     
-  - [Max Size Subarray Sums Divisible by 2](https://github.com/AlekseiKireev/leetcode_com/tree/main/Max%20Size%20Subarray%20Sums%20Divisible%20by%202)  
+  - [Check subarrays on sort](https://github.com/AlKiAl/leetcode_com/tree/main/Check%20subarrays%20on%20sort) -- 2 passes: 1 -- pref[i] = (a[i - 1] <= a[i]) ? 1 : 0; pref[i] += pref[i - 1]; | 2 -- make ans: (pref[r] - pref[l] == r - l) ? "Yes" : "No"; 
+  - [Idxs Subarray Sum Equals k](https://github.com/AlekseiKireev/leetcode_com/tree/main/Idxs%20Subarray%20Sum%20Equals%20k)    
+  - [Max Size Subarray Sums Divisible by 2](https://github.com/AlekseiKireev/leetcode_com/tree/main/Max%20Size%20Subarray%20Sums%20Divisible%20by%202)
+  --- 
   - [Min Abs Diff](https://github.com/AlKiAl/leetcode_com/tree/main/Min%20Abs%20Diff) -- sort input array + 1 passes(2 ptr start 0): upd ans + (A[i] < B[j]) ? ++i : ++j;
   - [Number of Unique Prefix Intersections](https://github.com/AlKiAl/leetcode_com/tree/main/Number%20of%20Unique%20Prefix%20Intersections) -- 2/3 un_set + 1 passes: check intersection + make ans  
   - [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа. unordered_map<int, int> NumToCount + 1 passes: check NumToCount[target - num] > 0
@@ -841,7 +845,6 @@
   - [Longest Subarray s = {a[i], ..., a[j]} with max(s) - min(s) <= k](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20s%20%3D%20%7Ba%5Bi%5D%2C%20...%2C%20a%5Bj%5D%7D%20with%20max(s)%20-%20min(s)%20%3C%3D%20k) -- 1 passes: Обновляем дек min/max, проверяем max(s) - min(s) > k + проверка индексов из minDeque/maxDeque на выход за границу [left, right]
   - [Maximize Pair (i,j) : k * a\[i\] <= a\[j\] Removals](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Pair%20k%20*%20a%5Bi%5D%20%3C=%20a%5Bj%5D%20Removals) -- 1 passes (2 ptr): i = 0, j = n - 1; if (k * a[i] <= a[j]) { Ans += 2; ++i; --j; } else { --j; }  
   - [Maximize Stock Profit with Daily Prices](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Stock%20Profit%20with%20Daily%20Prices) -- Каждый день вы выпускаете одну единицу товара и отправление в склад. В i-тый день вы можете продать определенное количество товаров из склада по стоимости ai. RtoL : mx = max(mx, prices[i]); ans += mx;
-  - [Check subarrays on sort](https://github.com/AlKiAl/leetcode_com/tree/main/Check%20subarrays%20on%20sort) -- 2 passes: 1 -- pref[i] = (a[i - 1] <= a[i]) ? 1 : 0; pref[i] += pref[i - 1]; | 2 -- make ans: (pref[r] - pref[l] == r - l) ? "Yes" : "No";
   - [Find elements in first sequence not in second (two pointers)](https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers) -- return all val difference  
   - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- List + mapping (такая связка используется для быстрого удаления из середины по итератору). Вернуть первый уникальный элемент из префикса чисел
   - [Count subarray equiv B in A](https://github.com/AlKiAl/leetcode_com/tree/main/Count%20subarray%20equiv%20B%20in%20A) -- Найти количество подотрезков в массиве а, что в этих подотрезках существуют подпоследовательности равные массиву b.
