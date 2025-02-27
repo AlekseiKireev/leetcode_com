@@ -463,7 +463,8 @@
 - [325. Maximum Size Subarray Sum Equals k](https://github.com/AlKiAl/leetcode_com/tree/main/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k) -- u_m : PSumToIdxPSum + 1 passes: target = prefix - k; if (PSumToIdxPSum.count(target) == 1){ ans = max(ans, i + 1 - PSumToIdxPSum[target]); } if (PSumToIdxPSum.count(prefix) == 0){ PSumToIdxPSum[prefix] = i + 1; }
   
   ---------------------------------------------------------------------------------------------------
-  
+
+- [Max Size Subarray Sums Divisible by 2](https://github.com/AlekseiKireev/leetcode_com/tree/main/Max%20Size%20Subarray%20Sums%20Divisible%20by%202)
 - vector\<bool\> ExistPS(k) или unordered_set\<int\> ExistPS зависит от размера k 
 - CPSMK = CurrentPrefixSumModK = (CurrentPrefixSumModK + num%k + k)%k where % --> divisible : такая конструкция необходима для работы с отрицательными числами, т.к.  $1 \leqslant num$ % $k + k \leqslant k$
 
