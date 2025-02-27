@@ -831,7 +831,8 @@
 
   <details>  
   <summary>Array</summary>    
-  
+    
+  - [Max Size Subarray Sums Divisible by 2](https://github.com/AlekseiKireev/leetcode_com/tree/main/Max%20Size%20Subarray%20Sums%20Divisible%20by%202)  
   - [Min Abs Diff](https://github.com/AlKiAl/leetcode_com/tree/main/Min%20Abs%20Diff) -- sort input array + 1 passes(2 ptr start 0): upd ans + (A[i] < B[j]) ? ++i : ++j;
   - [Number of Unique Prefix Intersections](https://github.com/AlKiAl/leetcode_com/tree/main/Number%20of%20Unique%20Prefix%20Intersections) -- 2/3 un_set + 1 passes: check intersection + make ans  
   - [count pairs with sum eqiv target](https://github.com/AlKiAl/leetcode_com/tree/main/count%20pairs%20with%20sum%20eqiv%20target) -- Find cnt (i,j), что a[i] +  a[j]= k, при условии что (i,j) НЕ УДАЛЯЕТСЯ после учета их для ответа. unordered_map<int, int> NumToCount + 1 passes: check NumToCount[target - num] > 0
