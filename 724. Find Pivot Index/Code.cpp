@@ -5,7 +5,8 @@ class Solution {
     int prefix = 0;
 
     for (int i = 0; i < nums.size(); ++i) {
-        
+
+      // sum = prefix + nums[i] + prefix
       if (prefix == sum - prefix - nums[i]){ // nums = [2,1,-1]
         return i;
       }
