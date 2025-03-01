@@ -438,6 +438,7 @@
 <summary>Prefix (Longest Common Prefix Strs + Prefix Common Array of Two integer Arrays + Number of Unique Prefix Intersections)</summary>      
 
 - [14. Longest Common Prefix](https://github.com/AlKiAl/leetcode_com/tree/main/14.%20Longest%20Common%20Prefix) -- L.C.P. strings : sort + if(first[i]!=last[i]){break;} OR 2 passes: 1 - итерируемся по первой строке, 2 - итерируемся по остальным строкам массива помимо 1 строки + check (i == strs[j].size() || strs[j][i] != CurCh)
+- [724. Find Pivot Index](https://github.com/AlekseiKireev/leetcode_com/tree/main/724.%20Find%20Pivot%20Index) -- 2 passes: 1 - sum(nums) | 2 - if (prefix == sum - prefix - nums[i]){return i; }
 - [2657. Find the Prefix Common Array of Two Arrays](https://github.com/SkosMartren/leetcode_com/tree/main/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays) -- vector\<int\> PrefixCommonArray(SIZE), CountValInPrefix(SIZE + 1) + 1 passes : ++CountValInPrefix[vec[i]]; if(CountValInPrefix[vec[i]] == CountPermutations){ ++SizeCommonPrefix; } PrefixCommonArray[i] = SizeCommonPrefix;
 - [Number of Unique Prefix Intersections](https://github.com/AlKiAl/leetcode_com/tree/main/Number%20of%20Unique%20Prefix%20Intersections) -- 2/3 un_set + 1 passes: check intersection + make ans
 
