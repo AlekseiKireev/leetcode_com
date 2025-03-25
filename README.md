@@ -171,6 +171,7 @@
 <details>  
 <summary>Greedy (Best Time to Buy and Sell Stock + Partition Labels + Candy)</summary>    
 
+- [55. Jump Game](https://github.com/AlekseiKireev/leetcode_com/tree/main/55.%20Jump%20Game) -- 1 passes
 - [135. Candy](https://github.com/SkosMartren/leetcode_com/tree/main/135.%20Candy) -- У каждого члк должна быть как минимум 1 конфета. Члк с более высоким рейтингом получают больше, чем их соседи. 1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
 - [763. Partition Labels](https://github.com/SkosMartren/leetcode_com/tree/main/763.%20Partition%20Labels) -- разбить строку на как можно большее количество частей, чтобы каждая буква присутствовала не более чем в одной части. 2 passes: 1 - Char -> LastIdxChar, 2 - Two ptr: R = max(R, CharToLastIdx[Str[i]]), if(EndCurrentChunk == i) --> L = i + 1. каждая буква встречается не более чем в одном разделе
 
@@ -846,7 +847,8 @@
   - [Longest Subarray s = {a[i], ..., a[j]} with max(s) - min(s) <= k](https://github.com/AlKiAl/leetcode_com/tree/main/Longest%20Subarray%20s%20%3D%20%7Ba%5Bi%5D%2C%20...%2C%20a%5Bj%5D%7D%20with%20max(s)%20-%20min(s)%20%3C%3D%20k) -- 1 passes: Обновляем дек min/max, проверяем max(s) - min(s) > k + проверка индексов из minDeque/maxDeque на выход за границу [left, right]
   - [Maximize Pair (i,j) : k * a\[i\] <= a\[j\] Removals](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Pair%20k%20*%20a%5Bi%5D%20%3C=%20a%5Bj%5D%20Removals) -- 1 passes (2 ptr): i = 0, j = n - 1; if (k * a[i] <= a[j]) { Ans += 2; ++i; --j; } else { --j; }  
   - [Maximize Stock Profit with Daily Prices](https://github.com/AlKiAl/leetcode_com/tree/main/Maximize%20Stock%20Profit%20with%20Daily%20Prices) -- Каждый день вы выпускаете одну единицу товара и отправление в склад. В i-тый день вы можете продать определенное количество товаров из склада по стоимости ai. RtoL : mx = max(mx, prices[i]); ans += mx;
-  - [Find elements in first sequence not in second (two pointers)](https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers) -- return all val difference  
+  - [Find elements in first sequence not in second (two pointers)](https://github.com/SkosMartren/leetcode_com/tree/main/Find%20elements%20in%20first%20sequence%20not%20in%20second%20two%20pointers) -- return all val difference
+  - [55. Jump Game](https://github.com/AlekseiKireev/leetcode_com/tree/main/55.%20Jump%20Game) -- 1 passes
   - [960. First Unique Number in Data Stream II](https://github.com/SkosMartren/leetcode_com/tree/main/960%20%C2%B7%20First%20Unique%20Number%20in%20Data%20Stream%20II) -- List + mapping (такая связка используется для быстрого удаления из середины по итератору). Вернуть первый уникальный элемент из префикса чисел
   - [Count subarray equiv B in A](https://github.com/AlKiAl/leetcode_com/tree/main/Count%20subarray%20equiv%20B%20in%20A) -- Найти количество подотрезков в массиве а, что в этих подотрезках существуют подпоследовательности равные массиву b.
   - [Find K Closest Elements with exist x](https://github.com/AlKiAl/leetcode_com/tree/main/Find%20K%20Closest%20Elements%20with%20exist%20arr%5Bi%5D=x%20) -- 1 passes(count = 1; count < k): L = Idx - 1; R=Idx + 1; if (L < 0 || (R < a.size() && a[R]  - a[Idx] <= a[Idx] - a[L]) ) { R++; } else { L--; } 
