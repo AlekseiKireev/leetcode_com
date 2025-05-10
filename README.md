@@ -1,3 +1,7 @@
+https://leetcode.com/problems/design-hashmap/description/
+
+https://leetcode.com/problems/design-hashset/description/
+
 <details>  
 <summary>  Topics </summary>
 
