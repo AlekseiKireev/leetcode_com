@@ -12,6 +12,7 @@ public:
         // т.е. как только числа в nums2 закончаться, в nums1 останеться отсортированный префикс
         for(; SecondPtr >= 0; --IdxMergeArray){
 
+            // именно такой вид ветвления обусловлен FirstPtr >= 0 - в противном случае двигается SecondPtr
             if(FirstPtr >= 0 && /*теперь гарантируется, что FirstPtr >= 0 && SecondPtr >= 0, можем сравнить элементы*/
                 nums1[FirstPtr] > nums2[SecondPtr]){
                     nums1[IdxMergeArray] = nums1[FirstPtr];
