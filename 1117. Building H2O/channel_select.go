@@ -1,5 +1,3 @@
-package main
-
 type H2O struct {
 	h1ch chan struct{} // первый H
 	h2ch chan struct{} // второй H
