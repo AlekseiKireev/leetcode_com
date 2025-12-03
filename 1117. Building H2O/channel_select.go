@@ -20,14 +20,14 @@ func NewH2O() *H2O {
 func (h2o *H2O) Hydrogen(releaseHydrogen func()) {
 	select {
 	case <-h2o.h1ch:
+		releaseHydrogen()
 		// после первого H разрешаем второй H
 		h2o.h2ch <- struct{}{}
 	case <-h2o.h2ch:
+		releaseHydrogen()
 		// после второго H разрешаем кислород
 		h2o.och <- struct{}{}
-	}
-
-	releaseHydrogen()
+	}	
 }
 
 func (h2o *H2O) Oxygen(releaseOxygen func()) {
@@ -40,7 +40,7 @@ func (h2o *H2O) Oxygen(releaseOxygen func()) {
 	releaseOxygen()
 }
 
-// error
+// main
 /*
 package main
 
@@ -71,14 +71,15 @@ func NewH2O() *H2O {
 func (h2o *H2O) Hydrogen(releaseHydrogen func()) {
 	select {
 	case <-h2o.h1ch:
+		releaseHydrogen()
 		// после первого H разрешаем второй H
 		h2o.h2ch <- struct{}{}
 	case <-h2o.h2ch:
+		releaseHydrogen()
 		// после второго H разрешаем кислород
 		h2o.och <- struct{}{}
 	}
 
-	releaseHydrogen()
 }
 
 func (h2o *H2O) Oxygen(releaseOxygen func()) {
@@ -97,7 +98,7 @@ func main() {
 	var wg sync.WaitGroup
 
 	// входные данные как на LeetCode — например HHOOHHOO
-	input := "HHOOHHOO"
+	input := "HHHHHHHHHHOHHOHHHHOOHHHOOOOHHOOHOHHHHHOOHOHHHOOOOOOHHHHHHHHH"
 
 	for _, c := range input {
 		wg.Add(1)
