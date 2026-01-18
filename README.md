@@ -687,7 +687,7 @@ https://leetcode.com/problems/design-hashset/description/
         }        
         CharToExist[Str[R]] = true;
 
-    - [3. Longest Substring Without Repeating Characters](https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters) -- Самая длинная подстрока с одинаковыми символами. Length = max(Length, RightPtr - LeftPtr + 1); 
+    - [3. Longest Substring Without Repeating Characters](https://github.com/SkosMartren/leetcode_com/tree/main/3.%20Longest%20Substring%20Without%20Repeating%20Characters) -- Самая длинная подстрока с уникальными символами. Length = max(Length, RightPtr - LeftPtr + 1); 
     - [2743. Count Substrings Without Repeating Character](https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character) -- Вернуть количество возможных подстрок, состоящих из уникальных элементов. Ans += (R - L + 1);
 
     ---  
