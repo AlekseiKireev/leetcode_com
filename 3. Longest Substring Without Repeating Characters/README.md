@@ -2,6 +2,9 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 Какая кодировка? Если ASCII - то динамический массив булей, иначе: хэш-таблица
 
+Перед каждой итерацией внешнего цикла подстрока \[LeftPtr, RightPtr\] не содержит повторяющихся символов
+
+Внутренний цикл восстанавливает инвариант, когда добавляем новый символ.
 ___
 
 https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character
