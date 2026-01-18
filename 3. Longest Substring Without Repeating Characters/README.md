@@ -1,5 +1,7 @@
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+Какая кодировка? Если ASCII - то динамический массив булей, иначе: хэш-таблица
+
 ___
 
 https://github.com/AlKiAl/leetcode_com/tree/main/2743.%20Count%20Substrings%20Without%20Repeating%20Character
