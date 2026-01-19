@@ -3,8 +3,8 @@ func isAnagram(s string, t string) bool {
 		return false
 	}
 
-    // dataRepeatChar := [128]rune{}
-    var dataRepeatChar [128]rune 
+    // dataRepeatChar := [128]int{}
+    var dataRepeatChar [128]int 
 	for i := 0; i < len(s); i++ {
         dataRepeatChar[s[i]] +=1
         dataRepeatChar[t[i]] -=1
