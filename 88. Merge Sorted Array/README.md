@@ -10,6 +10,11 @@ related: https://github.com/SkosMartren/leetcode_com/tree/main/977.%20Squares%20
 
 У Федора Меньшикова разбор отсут-т!
 
+Алгоритм: 
+1. Нужно слить данные из nums2 в nums1 --> внешний цикл по id_nums2
+2. Т.к. происходит обращение к элементам nums1, нужна также проверка на id_nums1.
+3. Если id_nums1 >= 0 и nums2\[id_nums2] < nums1\[id_nums1] -- сдвигам id_nums1. Иначе (возможность следует из ограничения в цикле) сдвигаем id_nums2
+
 _____
 
 related with https://en.cppreference.com/w/cpp/algorithm :
