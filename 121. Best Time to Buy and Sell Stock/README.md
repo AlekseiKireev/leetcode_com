@@ -2,6 +2,14 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 
 https://walkccc.me/LeetCode/problems/0121/
 
+IdxPrices == == IP == \[0,...,i,i+1,..\]
+
+Ans = max\(Ans, Prices\[IP\] - GlobalMin\)
+
+GlobalMin = min\(GlobalMin, Prices\[IP\]\)
+
+т.е. берется глобальный минимум (GM) из \[0,...,i\] и на его основе обрабатывается ответ для индекса i+1, после чего обновляется GM для i+1
+
 related:
 
 https://github.com/SkosMartren/leetcode_com/tree/main/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II
