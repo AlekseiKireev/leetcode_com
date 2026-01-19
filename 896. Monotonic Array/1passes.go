@@ -15,3 +15,27 @@ func isMonotonic(nums []int) bool {
 	return true
 
 }
+/*
+func isMonotonic(nums []int) bool {
+    desc, asc := true, true
+
+    val := nums[0]
+
+    for i := 1;i < len(nums); i++{
+        num := nums[i]
+        if(val < num){
+            desc = false
+        }
+        if(val > num){
+            asc = false
+        }  
+
+        if(!desc && !asc){
+            return false
+        }
+        val = num      
+    }
+
+    return true
+}
+*/
