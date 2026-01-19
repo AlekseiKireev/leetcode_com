@@ -4,7 +4,7 @@ https://walkccc.me/LeetCode/problems/0242/
 
 У Федора Меньшикова разбор отсут-т!
 
-Если ASCII - array, иначе - hash_map
+Если ASCII - array, иначе (UTF-8) - hash_map
 
 ______
 
