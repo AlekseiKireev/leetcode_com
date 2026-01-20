@@ -2,6 +2,8 @@ https://leetcode.com/problems/move-zeroes/
 
 https://walkccc.me/LeetCode/problems/0283/
 
+https://github.com/AlekseiKireev/leetcode_com/tree/main/27.%20Remove%20Element --> https://github.com/AlekseiKireev/leetcode_com/tree/main/283.%20Move%20Zeroes
+
 27. Remove Element : val = 0 --> 283. Move Zeroes
 ___
 
