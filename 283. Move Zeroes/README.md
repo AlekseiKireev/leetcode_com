@@ -4,6 +4,30 @@ https://walkccc.me/LeetCode/problems/0283/
 
 https://github.com/AlekseiKireev/leetcode_com/tree/main/27.%20Remove%20Element --> https://github.com/AlekseiKireev/leetcode_com/tree/main/283.%20Move%20Zeroes
 
+сначала решаем через подзадачу: 
+
+```
+func moveZeroes(nums []int)  {
+    PtrOnFirstVal := 0
+    val := 0
+    for i := 0; i < len(nums); i++{
+        if nums[i] != val {
+            nums[PtrOnFirstVal] = nums[i] // после чего тут добавляем swap: nums[PtrOnFirstVal], nums[i] = nums[i], nums[PtrOnFirstVal]
+            PtrOnFirstVal++
+        }
+    }    
+}
+
+Input
+nums =[0,1,0,3,12]
+Output
+[1,3,12,3,12]
+Expected
+[1,3,12,0,0]
+```
+
+
+
 27. Remove Element : val = 0 AND swap --> 283. Move Zeroes | 283. Move Zeroes: remove swap --> 27. Remove Element 
 ___
 
