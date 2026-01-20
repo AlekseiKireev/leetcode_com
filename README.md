@@ -338,6 +338,11 @@ https://leetcode.com/problems/design-hashset/description/
 - [12. Integer to Roman](https://github.com/SkosMartren/leetcode_com/tree/main/12.%20Integer%20to%20Roman)  
 - [13. Roman to Integer](https://github.com/SkosMartren/leetcode_com/tree/main/13.%20Roman%20to%20Integer)  
 
+---
+
+  - [43. Multiply Strings](https://github.com/SkosMartren/leetcode_com/tree/main/43.%20Multiply%20Strings)  
+  - [415. Add Strings](https://github.com/SkosMartren/leetcode_com/tree/main/415.%20Add%20Strings)  
+
 </details>
 
 <details>  
