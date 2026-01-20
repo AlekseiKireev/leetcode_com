@@ -4,7 +4,9 @@ https://walkccc.me/LeetCode/problems/0283/
 
 https://github.com/AlekseiKireev/leetcode_com/tree/main/27.%20Remove%20Element --> https://github.com/AlekseiKireev/leetcode_com/tree/main/283.%20Move%20Zeroes
 
-27. Remove Element : val = 0 --> 283. Move Zeroes
+27. Remove Element : val = 0 AND swap --> 283. Move Zeroes
+
+283. Move Zeroes: remove swap --> 27. Remove Element 
 ___
 
 Можно встретить подзадачу:  дается массив из 0 и 1. Нужно за один проход поставить все нули в начало массива. 
