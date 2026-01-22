@@ -365,7 +365,7 @@ https://leetcode.com/problems/design-hashset/description/
   - `sort + comparison ptr` on greater/less/equiv  
   - В случае нежелания сортировки можно решить через Hash table
 
-    ---
+    ===
   - [2956. Find Common Elements Between Two Arrays](https://github.com/AlekseiKireev/leetcode_com/tree/main/2956.%20Find%20Common%20Elements%20Between%20Two%20Arrays)
   </details>        
 
