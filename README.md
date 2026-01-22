@@ -413,12 +413,14 @@ https://leetcode.com/problems/design-hashset/description/
 
 </details>
 
+
 <details>  
 <summary>Passes one / two / ... ( Simplify Path / Candy / Product of Array Except Self / Count Common Elements Between Two Arrays) [Check Contains Duplicate with a condition ... / (Increasing) Decreasing (Continuous) Sequence --> Continuous] </summary>
 
 - [71. Simplify Path](https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path) -- 2 passes: 1 -- stringstream + check Buf $\in$ \{ .,.., word\} | 2 -- make ans. Transform this absolute path into its simplified canonical path Unix-style  
 - [135. Candy](https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy) --  1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self) -- 2 passes: 1 - подсчет 0 и сохран-е нулевых индексов | 2 - make ans[i] = product_nums / nums[i] 
+
   <details>  
   <summary>Check Contains Duplicate with a condition ...</summary>      
 
@@ -427,7 +429,7 @@ https://leetcode.com/problems/design-hashset/description/
   - [220. Contains Duplicate III](https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III) -- multiset<int> window + 1 passes : abs(i - j) <= indexDiff AND abs(nums[i] - nums[j]) <= valueDiff  <--> if (window.size() > indexDiff) { window.erase(window.find(nums[i - indexDiff])); } AND if (window.lower_bound(nums[i] - valueDiff) != window.end() && *it - nums[i] <= valueDiff) { return true; }
 
   </details>
-
+</details>
   <details>  
   <summary>(Increasing) Decreasing (Continuous) Sequence</summary>     
     
