@@ -364,7 +364,7 @@ https://leetcode.com/problems/design-hashset/description/
   - `unique` можно реализовать своими руками: [26. Remove Duplicates from Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)  
   - `sort + comparison ptr` on greater/less/equiv  
   - В случае нежелания сортировки можно решить через Hash table
-    ===
+    ---
   - [2956. Find Common Elements Between Two Arrays](https://github.com/AlekseiKireev/leetcode_com/tree/main/2956.%20Find%20Common%20Elements%20Between%20Two%20Arrays)
   </details>        
 
