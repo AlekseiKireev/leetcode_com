@@ -14,13 +14,14 @@ https://leetcode.com/problems/design-hashset/description/
 <details>  
 <summary>  Ozon </summary>
 
-  
+  - [func zip](https://github.com/AlexKir102099/leetcode_com/tree/main/func%20zip)
+
+</details>
+
 <details>  
 <summary>  Topics </summary>
   
-- [func zip](https://github.com/AlexKir102099/leetcode_com/tree/main/func%20zip)
 
-<details>
 
 <details>  
 <summary>backtracking [Буквосочетания телефонного номера + Restore IP Addresses]</summary>
