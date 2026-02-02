@@ -15,7 +15,8 @@ https://leetcode.com/problems/design-hashset/description/
 <summary>  Ozon </summary>
 
   - [func zip](https://github.com/AlexKir102099/leetcode_com/tree/main/func%20zip)
-
+  - [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  --> [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix. 1 passes + if(nums[i] != val){ swap(nums[Idx++], nums[i]);  }
+  - [gen n numb rand](https://github.com/AlexKir102099/leetcode_com/tree/main/gen%20n%20numb%20rand)
 </details>
 
 <details>  
