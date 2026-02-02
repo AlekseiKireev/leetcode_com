@@ -6,7 +6,7 @@ func moveZeroes(nums []int) {
     // длиною Count(Val), при это PtrOnSwapFirstVal всегда указывет на первый
     // элемент этого окна
 	for i := 0; i < len(nums); i++ {
-		if nums[i] != Val {            
+		if nums[i] != Val { // // != -->  [1,2,3,4]
 			nums[i], nums[PtrOnSwapFirstVal] = nums[PtrOnSwapFirstVal], nums[i]
             PtrOnSwapFirstVal++
 			
