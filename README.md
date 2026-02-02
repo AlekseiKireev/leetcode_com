@@ -18,9 +18,9 @@ https://leetcode.com/problems/design-hashset/description/
   - [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum) -- unordered_map<int, int> NumToIdx + 1 passes
   - [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted) --  LeftPtr = 0; RightPtr = numbers.size() - 1; + 1 passes
   ---
-  - [func zip](https://github.com/AlexKir102099/leetcode_com/tree/main/func%20zip)
-  - [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  --> [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix. 1 passes + if(nums[i] != val){ swap(nums[Idx++], nums[i]);  }
-  - [gen n numb rand](https://github.com/AlexKir102099/leetcode_com/tree/main/gen%20n%20numb%20rand)
+- [func zip](https://github.com/AlexKir102099/leetcode_com/tree/main/func%20zip)
+- [27. Remove Element](https://github.com/SkosMartren/leetcode_com/tree/main/27.%20Remove%20Element)  --> [283. Move Zeroes](https://github.com/SkosMartren/leetcode_com/tree/main/283.%20Move%20Zeroes) -- move any val to prefix/postfix. 1 passes + if(nums[i] != val){ swap(nums[Idx++], nums[i]);  }
+- [gen n numb rand](https://github.com/AlexKir102099/leetcode_com/tree/main/gen%20n%20numb%20rand)
 </details>
 
 
