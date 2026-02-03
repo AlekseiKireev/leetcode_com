@@ -1,6 +1,6 @@
 func findTheLongestBalancedSubstring(s string) (maxi int) {
 	
-	for i := 0; i < len(s); {
+	for i := 0; i < len(s); { // указатель смещается в циклах ниже
 		zeros, ones := 0, 0
 
 		for ;i < len(s) && s[i] == '0'; i++{
@@ -10,7 +10,7 @@ func findTheLongestBalancedSubstring(s string) (maxi int) {
 			ones++			
 		}
 
-		maxi = max(maxi, 2*min(zeros, ones))
+		maxi = max(maxi, 2*min(zeros, ones)) /*2*min необходим ввиду: ...00111...*/
 	}
   
 	return maxi
