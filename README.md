@@ -33,7 +33,8 @@ https://leetcode.com/problems/design-hashset/description/
   - [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum) -- unordered_map<int, int> NumToIdx + 1 passes
   - [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted) --  LeftPtr = 0; RightPtr = numbers.size() - 1; + 1 passes
   ---
-- [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/AlexKir102099/leetcode_com/tree/main/2609.%20Find%20the%20Longest%20Balanced%20Substring%20of%20a%20Binary%20String)  
+- [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/AlexKir102099/leetcode_com/tree/main/2609.%20Find%20the%20Longest%20Balanced%20Substring%20of%20a%20Binary%20String)
+- [448. Find All Numbers Disappeared in an Array](https://github.com/AlexKir102099/leetcode_com/tree/main/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array)
 </details>
 
 
