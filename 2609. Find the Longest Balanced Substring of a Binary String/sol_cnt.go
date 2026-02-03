@@ -11,8 +11,8 @@ func findTheLongestBalancedSubstring(s string) (maxi int) {
 			ones++			
 		}
 
-		maxi = max(maxi, 2*min(zeros, ones)) /*2*min необходим ввиду: ...00111...*/
+		maxi = max(maxi, min(zeros, ones)) /*2*min необходим ввиду: ...00111...*/
 	}
   
-	return maxi
+	return 2*maxi
 }
