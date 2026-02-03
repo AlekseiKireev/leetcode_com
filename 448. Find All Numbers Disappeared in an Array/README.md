@@ -13,6 +13,10 @@ https://walkccc.me/LeetCode/problems/448/
 
 # Mark as seen by Negation 
 
+i -> nums\[i] == n --> abs(n) - 1 == tmpIdx == tI --> nums\[tI] = -abs(nums\[tI])
+
+- существование tI что в ответе присутс-т i->i+1
+- -abs -- это метка, что учли эти данные при формировании ответа. Помимо abs в даннмо случае можно использовать условынй оператор, через него можно подсчитать cup ответа
 
 Time Complexity : O(n), we only iterate nums twice each taking O(n) time atmost.
 
