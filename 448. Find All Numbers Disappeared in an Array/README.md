@@ -11,8 +11,8 @@ https://walkccc.me/LeetCode/problems/448/
 ```
 
 
-Mark as seen by Negation 
-___
+# Mark as seen by Negation 
+
 
 Time Complexity : O(n), we only iterate nums twice each taking O(n) time atmost.
 
