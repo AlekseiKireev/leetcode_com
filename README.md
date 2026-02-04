@@ -26,7 +26,6 @@ https://leetcode.com/problems/design-hashset/description/
 - [896. Monotonic Array](https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array)  
 </details>
 
-===
 
 <details>  
 <summary>  Tinkoff </summary>
@@ -50,7 +49,6 @@ https://leetcode.com/problems/design-hashset/description/
 </details>
 
 
-===
 
 <details>  
 <summary>  Topics </summary>
