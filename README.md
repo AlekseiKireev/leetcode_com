@@ -12,6 +12,13 @@ https://leetcode.com/problems/design-hashset/description/
 Необходимо реализовать структуру данных, умеющую эффективно обрабатывать данные запросы.
 
 <details>  
+<summary>  graph </summary>
+
+  - [841. Keys and Rooms](https://github.com/AlexKir102099/leetcode_com/tree/main/841.%20Keys%20and%20Rooms)
+
+</details>
+
+<details>  
 <summary>  Ozon </summary>
   
 - вернуть {i,j} : num[i] + num[j] = target
