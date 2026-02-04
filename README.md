@@ -11,12 +11,7 @@ https://leetcode.com/problems/design-hashset/description/
 Посчитать количество пользователей (предположительно роботов), которые за последние 5 минут сгенерировали >= 1000 событий (нажали на красную кнопку >= 1000 раз).
 Необходимо реализовать структуру данных, умеющую эффективно обрабатывать данные запросы.
 
-<details>  
-<summary>  graph </summary>
 
-  - [841. Keys and Rooms](https://github.com/AlexKir102099/leetcode_com/tree/main/841.%20Keys%20and%20Rooms)
-
-</details>
 
 <details>  
 <summary>  Ozon </summary>
@@ -42,6 +37,15 @@ https://leetcode.com/problems/design-hashset/description/
   ---
 - [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/AlexKir102099/leetcode_com/tree/main/2609.%20Find%20the%20Longest%20Balanced%20Substring%20of%20a%20Binary%20String)
 - [448. Find All Numbers Disappeared in an Array](https://github.com/AlexKir102099/leetcode_com/tree/main/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array)
+
+
+<details>  
+<summary>  graph </summary>
+
+  - [841. Keys and Rooms](https://github.com/AlexKir102099/leetcode_com/tree/main/841.%20Keys%20and%20Rooms)
+
+</details>
+
 </details>
 
 
