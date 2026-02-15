@@ -122,7 +122,7 @@ https://leetcode.com/problems/design-hashset/description/
 </details>
 
 <details>  
-<summary>Bitwise operator</summary>
+<summary>Bitwise operator (Single / Missing Number) </summary>
 
 - [136. Single Number](https://github.com/SkosMartren/leetcode_com/tree/main/136.%20Single%20Number)
 - [137. Single Number II](https://github.com/SkosMartren/leetcode_com/tree/main/137.%20Single%20Number%20II)
@@ -563,6 +563,8 @@ https://leetcode.com/problems/design-hashset/description/
 
 </details>
 
+---------------------------------------------------------------------------------------------------
+
 <details>  
 <summary>Sorted (Longest Consecutive Sequence + Kth Largest Element in an Array + Shortest Unsorted Continuous Subarray + Check subarrays on sort)[Merge + Counting(Top K Frequent Words/Nums)]</summary>        
 
@@ -574,46 +576,50 @@ https://leetcode.com/problems/design-hashset/description/
 - [581. Shortest Unsorted Continuous Subarray](https://github.com/SkosMartren/leetcode_com/tree/main/581.%20Shortest%20Unsorted%20Continuous%20Subarray) -- Ex: [2,6,4,8,10,9,15] --> 5 = |[6,4,8,10,9]| . 2 ptr: RightPtr = -1, LeftPtr = -1 + passes: ExtremeMaxFront = max(ExtremeMaxFront, nums[i]); if(nums[i] != ExtremeMaxFront){RightPtr = i;} ExtremeMinBack = min(ExtremeMinBack, nums[nums.size() - 1 - i]); if(nums[nums.size() - 1 - i] != ExtremeMinBack){LeftPtr = nums.size() - 1 - i;} 
 - [Check subarrays on sort](https://github.com/AlKiAl/leetcode_com/tree/main/Check%20subarrays%20on%20sort) -- 2 passes: 1 -- pref[i] = (a[i - 1] <= a[i]) ? 1 : 0; pref[i] += pref[i - 1]; | 2 -- make ans: (pref[r] - pref[l] == r - l) ? "Yes" : "No";
   
-  <details>                
-  <summary>Merge</summary>
-
-  - [617. Merge Two Binary Trees](https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees) -- Если два узла перекрываются, то значения узлов суммируются как новое значение объединенного узла. 
-Иначе в качестве узла нового дерева будет использоваться ненулевой узел.  PreOrder: if(nodeI == nullptr){ return nodeJ; } node1->val += node2->val; node1->direct = Preorder(node1->direct, node2->direct);
-  - [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- iter 2 passes: 1 - sort | 2 - for(vector<int> & interval : intervals){ if( CheckIntersec(interval, Ans.back()) ){ Ans.back().back() = max(Ans.back().back(), interval.back()); }else{ Ans.push_back(interval); } }  
-  - [88. Merge Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array) -- iter. 3 ptr: MergeIdx = n + m - 1, FirstPtr = m - 1, SecondPtr =  n - 1 + 1 passes: if(0 <= FirstPtr && nums2[SecondPtr] <= nums1[FirstPtr]){ nums1[MergeIdx--] = nums1[FirstPtr--]; }else{ nums1[MergeIdx--] = nums2[SecondPtr--]; }
-
-    ---------------------------------------------------------------------------------------------------
-            // 1 passes        
-            if(list1->val < list2->val){
-                Cur->next = list1;
-                list1 = list1->next;
-            }else{
-                Cur->next = list2;
-                list2 = list2->next;            
-            }            
-            
-            Cur = Cur->next;
-    
-  - [21. Merge Two Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists) -- rec  
-  - [23. Merge k Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists) -- rec                
-
-  </details>
-  <br>
-
-  <details>  
-  <summary>Counting (Top K Frequent Words/Nums)</summary>   
-  
-    - 4 passes:
-    - 1] u_m : Val --> Count  
-    - 2] vector<pair> CountToVal
-    - 3] sort top K Val
-    - 4] make ans collecting Val
-  
-        - [347. Top K Frequent Elements](https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements) + nth_element + Hash table              
-        - [692. Top K Frequent Words](https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words) + partial_sort + Hash table  
-
-  </details>
 </details>
+
+
+<details>                
+<summary>Merge</summary>
+
+- [617. Merge Two Binary Trees](https://github.com/SkosMartren/leetcode_com/tree/main/617.%20Merge%20Two%20Binary%20Trees) -- Если два узла перекрываются, то значения узлов суммируются как новое значение объединенного узла. 
+Иначе в качестве узла нового дерева будет использоваться ненулевой узел.  PreOrder: if(nodeI == nullptr){ return nodeJ; } node1->val += node2->val; node1->direct = Preorder(node1->direct, node2->direct);
+- [56. Merge Intervals](https://github.com/SkosMartren/leetcode_com/tree/main/56.%20Merge%20Intervals) -- iter 2 passes: 1 - sort | 2 - for(vector<int> & interval : intervals){ if( CheckIntersec(interval, Ans.back()) ){ Ans.back().back() = max(Ans.back().back(), interval.back()); }else{ Ans.push_back(interval); } }  
+- [88. Merge Sorted Array](https://github.com/SkosMartren/leetcode_com/tree/main/88.%20Merge%20Sorted%20Array) -- iter. 3 ptr: MergeIdx = n + m - 1, FirstPtr = m - 1, SecondPtr =  n - 1 + 1 passes: if(0 <= FirstPtr && nums2[SecondPtr] <= nums1[FirstPtr]){ nums1[MergeIdx--] = nums1[FirstPtr--]; }else{ nums1[MergeIdx--] = nums2[SecondPtr--]; }
+
+  ---------------------------------------------------------------------------------------------------
+          // 1 passes        
+          if(list1->val < list2->val){
+              Cur->next = list1;
+              list1 = list1->next;
+          }else{
+              Cur->next = list2;
+              list2 = list2->next;            
+          }            
+          
+          Cur = Cur->next;
+  
+- [21. Merge Two Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists) -- rec  
+- [23. Merge k Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists) -- rec                
+
+</details>
+<br>
+
+<details>  
+<summary>Counting (Top K Frequent Words/Nums)</summary>   
+
+  - 4 passes:
+  - 1] u_m : Val --> Count  
+  - 2] vector<pair> CountToVal
+  - 3] sort top K Val
+  - 4] make ans collecting Val
+
+      - [347. Top K Frequent Elements](https://github.com/SkosMartren/leetcode_com/tree/main/347.%20Top%20K%20Frequent%20Elements) + nth_element + Hash table              
+      - [692. Top K Frequent Words](https://github.com/SkosMartren/leetcode_com/tree/main/692.%20Top%20K%20Frequent%20Words) + partial_sort + Hash table  
+
+</details>
+
+---------------------------------------------------------------------------------------------------
 
 <details>  
 <summary>Sliding Window (Максимальная сумма подмассива длины k с по крайней мере m различных элементов) </summary>
