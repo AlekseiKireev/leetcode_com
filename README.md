@@ -566,7 +566,7 @@ https://leetcode.com/problems/design-hashset/description/
 ---------------------------------------------------------------------------------------------------
 
 <details>  
-<summary>Sorted (Longest Consecutive Sequence + Kth Largest Element in an Array + Shortest Unsorted Continuous Subarray + Check subarrays on sort)[Merge + Counting(Top K Frequent Words/Nums)]</summary>        
+<summary>Sorted (Longest Consecutive Sequence + Kth Largest Element in an Array + Shortest Unsorted Continuous Subarray + Check subarrays on sort) </summary>        
 
 - [274. H-Index](https://github.com/SkosMartren/leetcode_com/tree/main/274.%20H-Index) -- Индекс хирша определяется как максимальное значение h, при котором данный исследователь опубликовал не менее h статей, каждая из которых цитировалась не менее h раз. 2 passes:
   1 -- buck[min(n,citation)]++ | 2 -- RtoL: cnt += buck[i]; if(cnt >= i) { return i; }
