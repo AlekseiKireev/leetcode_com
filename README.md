@@ -467,44 +467,51 @@ https://leetcode.com/problems/design-hashset/description/
 
 </details>
 
+---------------------------------------------------------------------------------------------------
 
 <details>  
-<summary>Passes one / two / ... ( Simplify Path / Candy / Product of Array Except Self / Count Common Elements Between Two Arrays) [Check Contains Duplicate with a condition ... / (Increasing) Decreasing (Continuous) Sequence --> Continuous] </summary>
+<summary>Passes one / two / ... ( Simplify Path / Candy / Product of Array Except Self / Count Common Elements Between Two Arrays)  </summary>
 
 - [71. Simplify Path](https://github.com/SkosMartren/leetcode_com/tree/main/71.%20Simplify%20Path) -- 2 passes: 1 -- stringstream + check Buf $\in$ \{ .,.., word\} | 2 -- make ans. Transform this absolute path into its simplified canonical path Unix-style  
 - [135. Candy](https://github.com/AlKiAl/leetcode_com/tree/main/135.%20Candy) --  1 passes: обработка ratings[i−l]<...<ratings[i−1]<ratings[i]>...>ratings[i+r] + ratings[i] == ratings[i-1] + ratings[i-1] < ratings[i] + ratings[i-1] > ratings[i]
 - [238. Product of Array Except Self](https://github.com/SkosMartren/leetcode_com/tree/main/238.%20Product%20of%20Array%20Except%20Self) -- 2 passes: 1 - подсчет 0 и сохран-е нулевых индексов | 2 - make ans[i] = product_nums / nums[i] 
 
-  <details>  
-  <summary>Check Contains Duplicate with a condition ...</summary>      
 
-  - [217. Contains Duplicate](https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate) -- return false if every element is distinct else true. 1 passes: sort OR un_set 
-  - [219. Contains Duplicate II](https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II) -- return true if exist abs(i - j) <= indexDiff AND nums[i] == nums[j]. 1 passes: if(NumToIdx.count(nums[i]) && (i - NumToIdx[nums[i]] <= indexDiff ) ){ return true; } NumToIdx[nums[i]] = i; 
-  - [220. Contains Duplicate III](https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III) -- multiset<int> window + 1 passes : abs(i - j) <= indexDiff AND abs(nums[i] - nums[j]) <= valueDiff  <--> if (window.size() > indexDiff) { window.erase(window.find(nums[i - indexDiff])); } AND if (window.lower_bound(nums[i] - valueDiff) != window.end() && *it - nums[i] <= valueDiff) { return true; }
-
-  </details>
 </details>
-  <details>  
-  <summary>(Increasing) Decreasing (Continuous) Sequence</summary>     
+
+
+<details>  
+<summary>Check Contains Duplicate with a condition ...</summary>      
+
+- [217. Contains Duplicate](https://github.com/SkosMartren/leetcode_com/tree/main/217.%20Contains%20Duplicate) -- return false if every element is distinct else true. 1 passes: sort OR un_set 
+- [219. Contains Duplicate II](https://github.com/SkosMartren/leetcode_com/tree/main/219.%20Contains%20Duplicate%20II) -- return true if exist abs(i - j) <= indexDiff AND nums[i] == nums[j]. 1 passes: if(NumToIdx.count(nums[i]) && (i - NumToIdx[nums[i]] <= indexDiff ) ){ return true; } NumToIdx[nums[i]] = i; 
+- [220. Contains Duplicate III](https://github.com/AlKiAl/leetcode_com/tree/main/220.%20Contains%20Duplicate%20III) -- multiset<int> window + 1 passes : abs(i - j) <= indexDiff AND abs(nums[i] - nums[j]) <= valueDiff  <--> if (window.size() > indexDiff) { window.erase(window.find(nums[i - indexDiff])); } AND if (window.lower_bound(nums[i] - valueDiff) != window.end() && *it - nums[i] <= valueDiff) { return true; }
+
+</details>
+
+  
+<details>  
+<summary>(Increasing) Decreasing (Continuous) Sequence</summary>     
+  
+- [300. Longest Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence) -- 1 passes: if (buf.empty() || buf.back() < n) { buf.push_back(n); } else { *ranges::lower_bound(buf, n)  = n; }
+
+ <details>  
+  <summary>Continuous ( все циклы имеют вид: 1 passes: i = 1; i < nums.size; ++i AND check comp(nums[i-1], nums[i]) ) </summary>           
+
+          if (nums[i] > nums[i - 1]) { // increased 
+          } else if (nums[i] < nums[i - 1]) { // decreased
+          } else { // reset inc / dec, upd Idx
+          }	
+          
+- [896. Monotonic Array](https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array)  
+- [978. Longest Turbulent Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray) -- subarray is turbulent if arr[k - L] > ... > arr[k - 1] < arr[k] > arr[k + 1] < ... < arr[k - R]. Find R-L+1 --> max
+- [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://github.com/AlKiAl/leetcode_com/blob/main/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray) -- найти наибольшую Len и LeftIdx <-->  {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего ИЛИ строго убывающего подмассива. 
+- [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence) -- найти наибольшую Len и LeftIdx <--> {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего И строго убывающего подмассива.      
+- [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence) -- найти наибольшую Len и LeftIdx <-->  {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего подмассива.
     
-  - [300. Longest Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/300.%20Longest%20Increasing%20Subsequence) -- 1 passes: if (buf.empty() || buf.back() < n) { buf.push_back(n); } else { *ranges::lower_bound(buf, n)  = n; }
-  
-   <details>  
-    <summary>Continuous ( все циклы имеют вид: 1 passes: i = 1; i < nums.size; ++i AND check comp(nums[i-1], nums[i]) ) </summary>           
-  
-            if (nums[i] > nums[i - 1]) { // increased 
-            } else if (nums[i] < nums[i - 1]) { // decreased
-            } else { // reset inc / dec, upd Idx
-            }	
-            
-  - [896. Monotonic Array](https://github.com/SkosMartren/leetcode_com/tree/main/896.%20Monotonic%20Array)  
-  - [978. Longest Turbulent Subarray](https://github.com/AlKiAl/leetcode_com/tree/main/978.%20Longest%20Turbulent%20Subarray) -- subarray is turbulent if arr[k - L] > ... > arr[k - 1] < arr[k] > arr[k + 1] < ... < arr[k - R]. Find R-L+1 --> max
-  - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://github.com/AlKiAl/leetcode_com/blob/main/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray) -- найти наибольшую Len и LeftIdx <-->  {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего ИЛИ строго убывающего подмассива. 
-  - [Increasing and decreasing sequence](https://github.com/SkosMartren/leetcode_com/tree/main/increasing%20and%20decreasing%20sequence) -- найти наибольшую Len и LeftIdx <--> {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего И строго убывающего подмассива.      
-  - [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence) -- найти наибольшую Len и LeftIdx <-->  {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего подмассива.
-      
-    </details>
-  
+  </details>
+
+  ---------------------------------------------------------------------------------------------------
   
 </details>
 
