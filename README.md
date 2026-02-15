@@ -352,14 +352,14 @@ https://leetcode.com/problems/design-hashset/description/
 
 </details>
 
-  <details>  
-  <summary>Cycle Detection (Floyd's Algorithm == Slow & Fast Pointer)</summary>    
+<details>  
+<summary>Cycle Detection (Floyd's Algorithm == Slow & Fast Pointer)</summary>    
 
-  - [Floyd's Cycle-Finding Algorithm (GeeksforGeeks)](https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/)  
-  - [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List) -- Reverse(FindRightMid(head)) + 1 passes: while(RightPtr != nullptr){ if(head->val != RightPtr->val){return false;} RightPtr = RightPtr->next; head = head->next; } 
-  - [141. Linked List Cycle](https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle) -- 1 passes: if (fast == nullptr) { return false; } fast = fast->next; if (fast == nullptr) { return false; } fast = fast->next; slow = slow->next; if (fast == slow) { return true; } 
+- [Floyd's Cycle-Finding Algorithm (GeeksforGeeks)](https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/)  
+- [234. Palindrome Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/234.%20Palindrome%20Linked%20List) -- Reverse(FindRightMid(head)) + 1 passes: while(RightPtr != nullptr){ if(head->val != RightPtr->val){return false;} RightPtr = RightPtr->next; head = head->next; } 
+- [141. Linked List Cycle](https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle) -- 1 passes: if (fast == nullptr) { return false; } fast = fast->next; if (fast == nullptr) { return false; } fast = fast->next; slow = slow->next; if (fast == slow) { return true; } 
 
-  </details>
+</details>
   
 ---------------------------------------------------------------------------------------------------
 
