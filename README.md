@@ -16,6 +16,7 @@ https://leetcode.com/problems/design-hashset/description/
 <details>  
 <summary>  Ozon </summary>
   
+- [206. Reverse Linked List](https://github.com/SkosMartren/leetcode_com/tree/main/206.%20Reverse%20Linked%20List)    
 - вернуть {i,j} : num[i] + num[j] = target
   - [1. Two Sum](https://github.com/SkosMartren/leetcode_com/tree/main/1.%20Two%20Sum) -- unordered_map<int, int> NumToIdx + 1 passes
   - [167. Two Sum II - Input Array Is Sorted](https://github.com/SkosMartren/leetcode_com/tree/main/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted) --  LeftPtr = 0; RightPtr = numbers.size() - 1; + 1 passes
