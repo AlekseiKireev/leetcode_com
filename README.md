@@ -608,6 +608,8 @@ https://leetcode.com/problems/design-hashset/description/
 <details>  
 <summary>Counting (Top K Frequent Words/Nums)</summary>   
 
+- [387. First Unique Character in a String](https://github.com/SkosMartren/leetcode_com/tree/main/387.%20First%20Unique%20Character%20in%20a%20String)  -- 2 passes: 1 - sort count, 2 - passes to str and check char_to_count[s[i]] == 1
+
   - 4 passes:
   - 1] u_m : Val --> Count  
   - 2] vector<pair> CountToVal
