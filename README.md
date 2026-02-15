@@ -510,10 +510,10 @@ https://leetcode.com/problems/design-hashset/description/
 - [674. Longest Continuous Increasing Subsequence](https://github.com/AlKiAl/leetcode_com/tree/main/674.%20Longest%20Continuous%20Increasing%20Subsequence) -- найти наибольшую Len и LeftIdx <-->  {LeftIdx, LeftIdx + Len - 1 == RightIdx} строго возрастающего подмассива.
     
   </details>
-
-  ---------------------------------------------------------------------------------------------------
   
 </details>
+
+---------------------------------------------------------------------------------------------------
 
 <details>  
 <summary>Prefix (Longest Common Prefix Strs + Prefix Common Array of Two integer Arrays + Number of Unique Prefix Intersections)</summary>      
