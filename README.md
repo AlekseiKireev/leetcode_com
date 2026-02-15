@@ -311,6 +311,8 @@ https://leetcode.com/problems/design-hashset/description/
   
 </details>
 
+---------------------------------------------------------------------------------------------------
+
 <details>  
 <summary>List [Cycle Detection (Floyd's Algorithm == Slow & Fast Pointer)]</summary>
 
@@ -347,6 +349,9 @@ https://leetcode.com/problems/design-hashset/description/
   - [21. Merge Two Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/21.%20Merge%20Two%20Sorted%20Lists)  
   - [23. Merge k Sorted Lists](https://github.com/SkosMartren/leetcode_com/tree/main/23.%20Merge%20k%20Sorted%20Lists)  
 
+
+</details>
+
   <details>  
   <summary>Cycle Detection (Floyd's Algorithm == Slow & Fast Pointer)</summary>    
 
@@ -355,8 +360,7 @@ https://leetcode.com/problems/design-hashset/description/
   - [141. Linked List Cycle](https://github.com/SkosMartren/leetcode_com/tree/main/141.%20Linked%20List%20Cycle) -- 1 passes: if (fast == nullptr) { return false; } fast = fast->next; if (fast == nullptr) { return false; } fast = fast->next; slow = slow->next; if (fast == slow) { return true; } 
 
   </details>
-</details>
-
+  
 ---------------------------------------------------------------------------------------------------
 
 <details>  
