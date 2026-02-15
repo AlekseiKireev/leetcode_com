@@ -1,15 +1,16 @@
 func minNumber(nums1, nums2 []int) int {
-    var freq [10]int
+    var freq [10]int // i --> число из массива
 
     fillFreq(&freq, nums1)
     fillFreq(&freq, nums2)
 
-    for i, n := range freq{
+    for i, n := range freq{ // одноразрядное число встречается в 2-х массивах
         if n == 2 {
             return i
         }
     }
 
+    // формируем двухразрядное минимальное числоа
     min1 := getMin(nums1)
     min2 := getMin(nums2)
 
