@@ -17,7 +17,7 @@ public:
             RightPtr = RightPtr->next;
         }
 
-        if(RightPtr == nullptr){ // head = [1] n = 1
+        if(RightPtr == nullptr){ // удаление 1 элемента
             head = head->next; 
             return head;
         }
