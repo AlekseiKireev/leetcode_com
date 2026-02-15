@@ -38,7 +38,8 @@ https://leetcode.com/problems/design-hashset/description/
 - [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- преобразования всех прописных букв в строчные и удаления всех не алфавитно-цифровых символов. 1 passes + 2 ptr + isalnum + tolower : for(int L = 0, R = SizeS - 1; L < R; ++L, --R){ for(; L < R && isalnum(S[L]) == false ; ++L); for(; L < R && isalnum(S[R]) == false ; --R); if( tolower(S[L]) != tolower(S[R]) ){return false;} }
 - [844. Backspace String Compare](https://github.com/AlexKir102099/leetcode_com/tree/main/844.%20Backspace%20String%20Compare)
 - [find at least 3 arrays](https://github.com/AlexKir102099/leetcode_com/tree/main/find%20at%20least%203%20arrays)
-
+- [392. Is Subsequence](https://github.com/SkosMartren/leetcode_com/tree/main/392.%20Is%20Subsequence) -- 1 passes (move T_Idx) : S_Idx += (s[S_Idx]  == t[T_Idx]); if(S_Idx == s.size()){return true;}. no more than min(|s1|,|s2|) editorial distance. Input: s = "abc", t = "ahbgdc" Output: true <--> { $s[i] : 0 \leqslant i \leqslant s.size()$ } $\subset$ { $t[j] : 0 \leqslant j \leqslant t.size()$ }
+  
   ---
   
 - [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/AlexKir102099/leetcode_com/tree/main/2609.%20Find%20the%20Longest%20Balanced%20Substring%20of%20a%20Binary%20String)
