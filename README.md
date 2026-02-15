@@ -39,7 +39,8 @@ https://leetcode.com/problems/design-hashset/description/
 - [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/AlexKir102099/leetcode_com/tree/main/2609.%20Find%20the%20Longest%20Balanced%20Substring%20of%20a%20Binary%20String)
 - [448. Find All Numbers Disappeared in an Array](https://github.com/AlexKir102099/leetcode_com/tree/main/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array)
 - [find at least 3 arrays](https://github.com/AlexKir102099/leetcode_com/tree/main/find%20at%20least%203%20arrays)
-
+- [19. Remove Nth Node From End of List](https://github.com/SkosMartren/leetcode_com/tree/main/19.%20Remove%20Nth%20Node%20From%20End%20of%20List)
+- [125. Valid Palindrome](https://github.com/SkosMartren/leetcode_com/tree/main/125.%20Valid%20Palindrome) -- преобразования всех прописных букв в строчные и удаления всех не алфавитно-цифровых символов. 1 passes + 2 ptr + isalnum + tolower : for(int L = 0, R = SizeS - 1; L < R; ++L, --R){ for(; L < R && isalnum(S[L]) == false ; ++L); for(; L < R && isalnum(S[R]) == false ; --R); if( tolower(S[L]) != tolower(S[R]) ){return false;} }
 <details>  
 <summary>  graph </summary>
 
